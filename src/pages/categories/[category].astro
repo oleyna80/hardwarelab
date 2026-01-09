@@ -1,0 +1,208 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import ReviewCard from "@/components/ui/ReviewCard.astro";
+
+export async function getStaticPaths() {
+    const allReviews = await getCollection("reviews");
+
+    // Define category mappings
+    const categoryMappings = {
+        "mini-pc": ["mini-pc", "mac-mini", "ryzen-7-5800h", "nuc"],
+        consoles: ["playstation", "xbox", "gaming-console", "steam-deck"],
+        nas: ["nas", "network-storage", "synology", "qnap"],
+        sbc: ["raspberry-pi", "orange-pi", "single-board", "maker"],
+        monitors: ["monitor", "display", "oled", "144hz", "4k-monitor"],
+        gaming: ["gaming", "gpu", "graphics-card", "gaming-pc"],
+        "ai-workstation": [
+            "ai",
+            "machine-learning",
+            "workstation",
+            "cuda",
+            "llm",
+        ],
+    };
+
+    const categories = Object.keys(categoryMappings);
+
+    return categories.map((category) => ({
+        params: { category },
+        props: {
+            category,
+            tags: categoryMappings[category as keyof typeof categoryMappings],
+        },
+    }));
+}
+
+const { category, tags } = Astro.props;
+const lang = "en"; // kept for filtering, though hardcoded for now
+
+// Get all reviews and filter by category tags
+const allReviews = await getCollection("reviews");
+const categoryReviews = allReviews
+    .filter(
+        (review) =>
+            review.id.startsWith(`${lang}/`) &&
+            // Logic: either explicit category match (new schema) or tag match (legacy)
+            (review.data.category === category ||
+                review.data.tags?.some((tag) => tags.includes(tag))),
+    )
+    .sort(
+        (a, b) =>
+            new Date(b.data.pubDate).getTime() -
+            new Date(a.data.pubDate).getTime(),
+    );
+
+// Category display names and descriptions
+const categoryInfo = {
+    "mini-pc": {
+        title: "Mini PC Reviews",
+        description:
+            "Compact powerhouses for homelab, office, and entertainment. In-depth reviews of Mac mini, Beelink, Intel NUC, and other mini PCs.",
+        icon: "🖥️",
+    },
+    consoles: {
+        title: "Game Console Reviews",
+        description:
+            "Next-gen gaming consoles reviewed. PlayStation 5, Xbox Series, and more with performance benchmarks.",
+        icon: "🎮",
+    },
+    nas: {
+        title: "NAS Reviews",
+        description:
+            "Network-attached storage solutions for home and business. Synology, QNAP, and DIY NAS builds reviewed.",
+        icon: "🗄️",
+    },
+    sbc: {
+        title: "Single Board Computers",
+        description:
+            "Raspberry Pi, Orange Pi, and other SBC reviews for makers, hobbyists, and DIY projects.",
+        icon: "🛠️",
+    },
+    monitors: {
+        title: "Monitor Reviews",
+        description:
+            "High-performance displays for gaming and productivity. OLEDs, high refresh rate, and color-accurate monitors.",
+        icon: "📺",
+    },
+    gaming: {
+        title: "Gaming Hardware",
+        description:
+            "GPUs, peripherals, and gaming setup components. Benchmarks and deep dives into gaming gear.",
+        icon: "🕹️",
+    },
+    "ai-workstation": {
+        title: "AI Workstations",
+        description:
+            "Hardware for Machine Learning and AI. GPU benchmarks, VRAM analysis, and build guides for LLMs.",
+        icon: "🤖",
+    },
+};
+
+const info = categoryInfo[category as keyof typeof categoryInfo];
+const pageTitle = `${info.title} | HardwareLab`;
+---
+
+<Layout title={pageTitle} description={info.description} lang={lang}>
+    <div class="fade-in">
+        <!-- Category Header -->
+        <section class="py-12 text-center">
+            <div class="inline-block text-6xl mb-4">{info.icon}</div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                {info.title}
+            </h1>
+            <p
+                class="text-xl text-primary-600 dark:text-primary-400 max-w-3xl mx-auto"
+            >
+                {info.description}
+            </p>
+            <div
+                class="mt-6 flex items-center justify-center gap-2 text-sm text-primary-500 dark:text-primary-400"
+            >
+                <a href="/" class="hover:text-accent-600 transition-colors"
+                    >Home</a
+                >
+                <span>›</span>
+                <a
+                    href="/categories"
+                    class="hover:text-accent-600 transition-colors"
+                    >Categories</a
+                >
+                <span>›</span>
+                <span class="text-primary-700 dark:text-primary-300"
+                    >{info.title}</span
+                >
+            </div>
+        </section>
+
+        <!-- Reviews Grid -->
+        <section class="py-8">
+            {
+                categoryReviews.length > 0 ? (
+                    <>
+                        <div class="flex items-center justify-between mb-8">
+                            <h2 class="text-2xl font-bold">
+                                {categoryReviews.length}{" "}
+                                {categoryReviews.length === 1
+                                    ? "Review"
+                                    : "Reviews"}
+                            </h2>
+                            <div class="text-sm text-primary-600 dark:text-primary-400">
+                                Latest updates
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {categoryReviews.map((review) => (
+                                <ReviewCard review={review} lang={lang} />
+                            ))}
+                        </div>
+                    </>
+                ) : (
+                    <div class="text-center py-16">
+                        <div class="text-6xl mb-4">📝</div>
+                        <h2 class="text-2xl font-bold mb-4">No reviews yet</h2>
+                        <p class="text-primary-600 dark:text-primary-400 mb-8">
+                            We're working on reviews for this category. Check
+                            back soon!
+                        </p>
+                        <a
+                            href="/reviews"
+                            class="inline-block px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors"
+                        >
+                            Browse All Reviews
+                        </a>
+                    </div>
+                )
+            }
+        </section>
+
+        <!-- Related Categories -->
+        {
+            categoryReviews.length > 0 && (
+                <section class="py-12 mt-8 border-t border-primary-200 dark:border-primary-800">
+                    <h2 class="text-2xl font-bold mb-6 text-center">
+                        Explore Other Categories
+                    </h2>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        {Object.entries(categoryInfo)
+                            .filter(([key]) => key !== category)
+                            .map(([key, value]) => (
+                                <a
+                                    href={`/categories/${key}`}
+                                    class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                                >
+                                    <div class="text-3xl mb-2 group-hover:text-white">
+                                        {value.icon}
+                                    </div>
+                                    <h3 class="font-bold text-sm group-hover:text-white">
+                                        {value.title}
+                                    </h3>
+                                </a>
+                            ))}
+                    </div>
+                </section>
+            )
+        }
+    </div>
+</Layout>

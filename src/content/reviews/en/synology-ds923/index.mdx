@@ -1,0 +1,167 @@
+---
+title: "Synology DS923+ Review: Expandable 4-Bay NAS for SMB"
+description: "Synology DS923+ review: 4-bay NAS with DSM, Btrfs snapshots, NVMe cache/storage, and optional 10GbE. Strong for file sharing, backups, sync, and SMB homelabs."
+amazonAsin: "B0BM7KDN6R"
+rating: 4.4
+priceCategory: "high"
+heroImage: "/images/synology-ds923-plus.png"
+heroImageAlt: "Synology DS923+ 4-bay NAS on a desk with drive trays and rear 2x1GbE ports, ready for optional 10GbE module"
+pubDate: 2026-01-05
+lastUpdated: 2026-01-05
+ogImage: "/images/og/synology-ds923.png"
+ogType: "article"
+tags:
+  - "nas"
+  - "synology-dsm"
+  - "ryzen-r1600"
+  - "10gbe"
+  - "backup"
+---
+
+import SpecGrid from '@/components/ui/SpecGrid.astro';
+import ProsCons from '@/components/ui/ProsCons.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+
+<ReviewHero 
+  image={frontmatter.heroImage}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "AMD Ryzen R1600 (2C/4T, up to 3.1GHz)",
+    "4GB DDR4 ECC (expandable to 32GB)",
+    "4 × 3.5\"/2.5\" SATA bays (hot-swap)",
+    "2 × M.2 NVMe (cache or storage)",
+    "Dual 1GbE + optional 10GbE module"
+  ]}
+  asin={frontmatter.amazonAsin}
+/>
+
+## Synology DS923+ at a glance
+
+The **Synology DS923+** is a 4-bay NAS aimed at home offices and small businesses that care more about reliable storage services than “media box” features. The headline is flexibility: **ECC memory support**, **NVMe slots that can be used for cache or storage pools**, and a clean upgrade path to **10GbE**—but only if you add Synology’s dedicated module.
+
+> **Disclosure:** As an Amazon Associate, we earn from qualifying purchases made through links on this page. This comes at no additional cost to you.
+
+<AffiliateButton asin={frontmatter.amazonAsin} label="Check Price on Amazon" />
+
+<SpecGrid specs={{
+  "CPU": "AMD Ryzen R1600 (2-core / 4-thread, up to 3.1GHz boost)",
+  "Memory": "4GB DDR4 ECC SODIMM (expandable up to 32GB)",
+  "Drive Bays": "4 × 3.5\"/2.5\" SATA HDD/SSD (hot-swap)",
+  "NVMe": "2 × M.2 2280 NVMe (cache or storage pools, depending on configuration)",
+  "Networking": "2 × 1GbE RJ-45; optional 10GbE via Synology E10G22-T1-Mini module",
+  "Expansion": "DX517 expansion unit support (up to 9 drives total)",
+  "USB / Ports": "2 × USB 3.2 Gen 1; 1 × eSATA expansion port",
+  "OS": "Synology DiskStation Manager (DSM)",
+  "Best for": "File sharing, backups, snapshots, sync/collab, small office storage, homelab services"
+}} />
+
+## Is the Synology DS923+ worth it vs DS423+ or DS1522+?
+
+This is the key buying decision for most people.
+
+- Choose **Synology DS923+** if you want an expandable storage platform: ECC memory, NVMe flexibility, and optional 10GbE—plus the DSM ecosystem that makes backups and file services easy to operate.
+- Choose **Synology DS423+** if your priority is “NAS as a Plex box.” The DS923+ class is frequently criticized for media-transcoding use cases because it does not have an iGPU.
+- Choose **Synology DS1522+** if you want a 5-bay chassis today and more long-term expansion headroom (including how many expansion units you can add).
+
+In other words, the **Synology DS923+** is usually the better “storage server,” while the DS423+ is often the better “media appliance.”
+
+## Does the optional 10GbE upgrade actually matter?
+
+Yes—if your network and drives can exploit it.
+
+Out of the box, the DS923+ has **dual 1GbE** ports. Link aggregation can help with multiple clients, but it won’t turn a single file copy into 10GbE. To break out of gigabit ceilings for single-client workloads, you need the **E10G22-T1-Mini** 10GbE module and a 10GbE switch/NIC on the other side.
+
+In practical terms:
+- For backups, sync, and multi-user office shares, dual 1GbE can already be “good enough.”
+- For large photo/video projects, VM storage traffic, or fast workstation backups, 10GbE is where the DS923+ feels like it moves into a different class.
+
+## Can the DS923+ handle Plex and 4K transcoding?
+
+This is the most common “gotcha” in a **Synology DS923+ review**.
+
+The DS923+ uses an AMD Ryzen CPU without an integrated GPU, so you should not buy it expecting trouble-free hardware-accelerated Plex transcoding. If your workflow is mostly **direct play** (clients that support your codecs), it can be fine. If you need frequent transcoding—especially 4K—the safer architecture is:
+- run Plex on a separate mini PC (Intel Quick Sync is popular),
+- keep media on the DS923+ via SMB/NFS.
+
+That setup preserves DSM’s storage strengths while avoiding the CPU-only transcoding limitation.
+
+## NVMe: cache only, or real storage?
+
+For many NAS buyers, this is a deciding feature.
+
+The DS923+ provides two M.2 NVMe slots that can be used for SSD caching and, depending on the configuration and DSM support policies, can also be used to form SSD storage pools. The practical takeaway is that NVMe can improve responsiveness for “small random I/O” workloads (metadata, thumbnails, many small files) and can also be used to create fast tiers for certain datasets.
+
+If your workload is mostly large sequential media files over 1GbE, NVMe cache can be far less noticeable than upgrading your network first.
+
+## Software value: why people still pay the Synology premium
+
+DSM is the reason most buyers choose Synology even when raw hardware looks conservative.
+
+The DS923+ benefits from the mature DSM stack:
+- Btrfs snapshot tooling for quick rollback
+- Centralized backup workflows (PCs, servers, VMs, some SaaS)
+- File sync/collab (Synology Drive)
+- Solid admin UX for permissions, shares, alerts, and storage monitoring
+
+For a small business or a “single admin” homelab, the operational simplicity is often the biggest ROI.
+
+<UserFeedback feedback={[
+  {
+    user: "blazetrail77 (Reddit r/synology)",
+    comment: "Says hardware transcoding isn’t a must if your playback clients support your codecs; sees the DS923+ as a good value when you can avoid transcoding.",
+    sentiment: "positive"
+  },
+  {
+    user: "slalomz (Reddit r/synology)",
+    comment: "Explains transcoding is mainly about client codec support and notes iGPU models handle more formats than CPU-only transcoding on the DS923+.",
+    sentiment: "neutral"
+  },
+  {
+    user: "KuryakinOne (Reddit r/PleX)",
+    comment: "Points out the DS923+ has no GPU for hardware-accelerated Plex transcoding and recommends running Plex elsewhere while using the NAS as storage.",
+    sentiment: "negative"
+  },
+  {
+    user: "lukeskope (Reddit r/PleX)",
+    comment: "Clarifies transcoding can happen even locally if the client can’t decode the codec; warns against assuming local playback avoids transcoding.",
+    sentiment: "neutral"
+  },
+  {
+    user: "Ilikereddit420 (Reddit r/PleX)",
+    comment: "Calls the DS923+ strong as storage but mediocre as a Plex server; prefers pairing NAS storage with a separate mini PC.",
+    sentiment: "neutral"
+  }
+]} />
+
+<ProsCons
+  pros={[
+    "Excellent DSM ecosystem for backup, sync, snapshots, and admin workflows",
+    "ECC memory support and upgradeability up to 32GB",
+    "Optional 10GbE upgrade path for serious LAN performance",
+    "NVMe slots enable cache and fast tiers for latency-sensitive workloads",
+    "Expandable to 9 bays via DX517 for growth without migrating"
+  ]}
+  cons={[
+    "Not a ‘Plex-first’ NAS: no iGPU for hardware-accelerated transcoding",
+    "10GbE requires a separate Synology module (extra cost)",
+    "Drive ecosystem policies can push you toward validated/compatible drives",
+    "Out-of-box networking is still dual 1GbE (no built-in 2.5GbE/10GbE)"
+  ]}
+/>
+
+## Related Reviews
+
+Looking for alternatives or upgrades? Check these out:
+- **[Synology DS423+ Review](/reviews/synology-ds423-plus-review)** - Better fit if you want a NAS that doubles as a Plex appliance.
+- **[Synology DS1522+ Review](/reviews/synology-ds1522-plus-review)** - 5-bay option with more growth headroom.
+- **[QNAP TS-464 Review](/reviews/qnap-ts-464-review)** - A popular cross-shop choice for media-heavy workloads.
+- **[Synology DX517 Expansion Review](/reviews/synology-dx517-review)** - Add five more bays without replacing your NAS.
+- **[Synology E10G22-T1-Mini Review](/reviews/synology-e10g22-t1-mini-review)** - The clean 10GbE upgrade path for DS923+.
+
+{/* TODO: Verify review URLs exist */}
+
+<AffiliateButton asin={frontmatter.amazonAsin} label="View on Amazon" />

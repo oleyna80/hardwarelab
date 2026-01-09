@@ -1,0 +1,125 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { t, type Language } from '@/utils/i18n';
+
+const lang: Language = 'en';
+
+const categories = [
+  {
+    slug: 'mini-pc',
+    title: 'Mini PCs',
+    description: 'Compact workstations for homelab, office, and entertainment',
+    icon: '🖥️',
+    color: 'from-blue-500 to-cyan-500'
+  },
+  {
+    slug: 'consoles',
+    title: 'Game Consoles',
+    description: 'Next-gen gaming platforms and accessories',
+    icon: '🎮',
+    color: 'from-purple-500 to-pink-500'
+  },
+  {
+    slug: 'nas',
+    title: 'Network Storage (NAS)',
+    description: 'Data storage and backup solutions',
+    icon: '🗄️',
+    color: 'from-green-500 to-emerald-500'
+  },
+  {
+    slug: 'sbc',
+    title: 'Single Board Computers',
+    description: 'DIY and maker boards for projects',
+    icon: '🛠️',
+    color: 'from-orange-500 to-red-500'
+  }
+];
+
+const pageTitle = 'Hardware Categories | HardwareLab';
+const pageDescription = 'Browse computer hardware reviews by category: Mini PCs, Game Consoles, NAS, and Single Board Computers.';
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+  <div class="fade-in">
+    <!-- Header -->
+    <section class="text-center py-16">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">
+        Browse by Category
+      </h1>
+      <p class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto">
+        Find the perfect hardware for your needs. Explore our in-depth reviews organized by product category.
+      </p>
+    </section>
+
+    <!-- Categories Grid -->
+    <section class="py-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {categories.map((category) => (
+          <a
+            href={`/categories/${category.slug}`}
+            class="group relative overflow-hidden rounded-2xl bg-gradient-to-br {category.color} p-8 text-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+          >
+            <div class="relative z-10">
+              <div class="text-6xl mb-4">{category.icon}</div>
+              <h2 class="text-3xl font-bold mb-3">{category.title}</h2>
+              <p class="text-white/90 mb-6 text-lg">
+                {category.description}
+              </p>
+              <div class="inline-flex items-center gap-2 text-white font-semibold">
+                <span>View Reviews</span>
+                <span class="transition-transform group-hover:translate-x-2">→</span>
+              </div>
+            </div>
+            
+            <!-- Decorative gradient overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="py-16 mt-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+          <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">50+</div>
+          <div class="text-sm text-primary-600 dark:text-primary-400">Expert Reviews</div>
+        </div>
+        <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+          <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">4</div>
+          <div class="text-sm text-primary-600 dark:text-primary-400">Categories</div>
+        </div>
+        <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+          <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">100%</div>
+          <div class="text-sm text-primary-600 dark:text-primary-400">Honest Reviews</div>
+        </div>
+        <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+          <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">24/7</div>
+          <div class="text-sm text-primary-600 dark:text-primary-400">Updated</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-12 text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-3xl">
+      <h2 class="text-3xl font-bold mb-4">Can't find what you're looking for?</h2>
+      <p class="text-xl text-primary-600 dark:text-primary-400 mb-8">
+        Browse all our reviews or search for specific products
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/reviews"
+          class="px-8 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors shadow-lg"
+        >
+          All Reviews
+        </a>
+        <a
+          href="/"
+          class="px-8 py-3 border-2 border-primary-300 dark:border-primary-700 font-semibold rounded-lg hover:border-accent-500 transition-colors"
+        >
+          Back to Home
+        </a>
+      </div>
+    </section>
+  </div>
+</Layout>

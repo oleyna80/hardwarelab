@@ -1,0 +1,296 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { t, type Language } from "@/utils/i18n";
+
+const lang: Language = "en";
+const pageTitle = "About HardwareLab | Expert Hardware Reviews";
+const pageDescription =
+    "Learn about HardwareLab - your trusted source for honest, in-depth computer hardware reviews. Expert analysis of Mini PCs, game consoles, NAS, and SBCs.";
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+    <div class="fade-in max-w-4xl mx-auto">
+        <!-- Hero Section -->
+        <section class="text-center py-16">
+            <div class="inline-block text-6xl mb-6">🔬</div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                About HardwareLab
+            </h1>
+            <p
+                class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto"
+            >
+                Your trusted source for honest, in-depth computer hardware
+                reviews
+            </p>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="py-8 mb-12">
+            <div
+                class="bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900 dark:to-accent-900/30 rounded-2xl p-8 md:p-12 border border-primary-200 dark:border-primary-800"
+            >
+                <h2 class="text-3xl font-bold mb-6 text-center">Our Mission</h2>
+                <p
+                    class="text-lg text-primary-700 dark:text-primary-300 leading-relaxed mb-4"
+                >
+                    HardwareLab was created to cut through the marketing hype
+                    and provide real, practical insights into computer hardware.
+                    We focus on the devices that matter most for homelabs, small
+                    offices, and enthusiast setups.
+                </p>
+                <p
+                    class="text-lg text-primary-700 dark:text-primary-300 leading-relaxed"
+                >
+                    Every review is based on thorough testing, real-world usage
+                    scenarios, and honest assessment of value. We don't tell you
+                    what to buy—we give you the information you need to make
+                    your own informed decision.
+                </p>
+            </div>
+        </section>
+
+        <!-- What We Review -->
+        <section class="py-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">What We Review</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+                    <div class="text-4xl mb-4">🖥️</div>
+                    <h3 class="text-xl font-bold mb-3">Mini PCs</h3>
+                    <p class="text-primary-600 dark:text-primary-400">
+                        Compact powerhouses perfect for homelabs, media centers,
+                        and small office workstations. From budget Beelink to
+                        premium Intel NUC and Apple Mac mini.
+                    </p>
+                </div>
+                <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+                    <div class="text-4xl mb-4">🎮</div>
+                    <h3 class="text-xl font-bold mb-3">Game Consoles</h3>
+                    <p class="text-primary-600 dark:text-primary-400">
+                        Next-gen gaming platforms analyzed for performance,
+                        value, and ecosystem. PlayStation 5, Xbox Series, and
+                        their variants.
+                    </p>
+                </div>
+                <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+                    <div class="text-4xl mb-4">🗄️</div>
+                    <h3 class="text-xl font-bold mb-3">
+                        Network Storage (NAS)
+                    </h3>
+                    <p class="text-primary-600 dark:text-primary-400">
+                        Data storage solutions for home and business. Synology,
+                        QNAP, and DIY NAS builds evaluated for reliability and
+                        features.
+                    </p>
+                </div>
+                <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
+                    <div class="text-4xl mb-4">🛠️</div>
+                    <h3 class="text-xl font-bold mb-3">
+                        Single Board Computers
+                    </h3>
+                    <p class="text-primary-600 dark:text-primary-400">
+                        Raspberry Pi, Orange Pi, and other SBCs for makers,
+                        hobbyists, and DIY projects. Practical guides and
+                        performance comparisons.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Review Process -->
+        <section class="py-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Our Review Process
+            </h2>
+            <div class="space-y-6">
+                <div class="flex gap-4 items-start">
+                    <div
+                        class="flex-shrink-0 w-12 h-12 bg-accent-600 text-white rounded-full flex items-center justify-center font-bold text-xl"
+                    >
+                        1
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">
+                            Real-World Testing
+                        </h3>
+                        <p class="text-primary-600 dark:text-primary-400">
+                            We test hardware in realistic scenarios—homelab
+                            workloads, media streaming, development
+                            environments, and daily use. No synthetic benchmarks
+                            without context.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div
+                        class="flex-shrink-0 w-12 h-12 bg-accent-600 text-white rounded-full flex items-center justify-center font-bold text-xl"
+                    >
+                        2
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">
+                            Community Feedback
+                        </h3>
+                        <p class="text-primary-600 dark:text-primary-400">
+                            We aggregate real user experiences from Reddit,
+                            forums, and verified purchasers to provide a
+                            complete picture beyond our individual testing.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div
+                        class="flex-shrink-0 w-12 h-12 bg-accent-600 text-white rounded-full flex items-center justify-center font-bold text-xl"
+                    >
+                        3
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">
+                            Honest Pros & Cons
+                        </h3>
+                        <p class="text-primary-600 dark:text-primary-400">
+                            Every product has strengths and weaknesses. We
+                            highlight both clearly, helping you understand
+                            trade-offs and make decisions based on your specific
+                            needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div
+                        class="flex-shrink-0 w-12 h-12 bg-accent-600 text-white rounded-full flex items-center justify-center font-bold text-xl"
+                    >
+                        4
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Value Assessment</h3>
+                        <p class="text-primary-600 dark:text-primary-400">
+                            Price matters. We evaluate whether hardware delivers
+                            good value at its price point and compare it to
+                            alternatives in the same category.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transparency Section -->
+        <section class="py-8 mb-12">
+            <div
+                class="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-2xl p-8"
+            >
+                <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+                    <span class="text-4xl">⚖️</span>
+                    Transparency & Disclosure
+                </h2>
+                <div class="space-y-4 text-primary-700 dark:text-primary-300">
+                    <p class="leading-relaxed">
+                        <strong>Affiliate Links:</strong> As an Amazon Associate and
+                        affiliate partner, we earn from qualifying purchases made
+                        through links on this site. This comes at no additional cost
+                        to you and helps support our work.
+                    </p>
+                    <p class="leading-relaxed">
+                        <strong>Editorial Independence:</strong> Our reviews are honest
+                        and unbiased. Affiliate relationships do not influence our
+                        ratings, recommendations, or editorial content. If a product
+                        is bad, we'll tell you—even if we could earn a commission
+                        from it.
+                    </p>
+                    <p class="leading-relaxed">
+                        <strong>Review Units:</strong> When hardware is provided by
+                        manufacturers for review (not common for this site), we clearly
+                        disclose this in the review. Most of our reviews are based
+                        on retail units, community feedback, and publicly available
+                        information.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="py-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">By the Numbers</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div
+                    class="text-center p-6 bg-primary-100 dark:bg-primary-900 rounded-xl"
+                >
+                    <div
+                        class="text-4xl font-bold text-accent-600 dark:text-accent-400 mb-2"
+                    >
+                        50+
+                    </div>
+                    <div class="text-sm text-primary-600 dark:text-primary-400">
+                        Expert Reviews
+                    </div>
+                </div>
+                <div
+                    class="text-center p-6 bg-primary-100 dark:bg-primary-900 rounded-xl"
+                >
+                    <div
+                        class="text-4xl font-bold text-accent-600 dark:text-accent-400 mb-2"
+                    >
+                        4
+                    </div>
+                    <div class="text-sm text-primary-600 dark:text-primary-400">
+                        Categories
+                    </div>
+                </div>
+                <div
+                    class="text-center p-6 bg-primary-100 dark:bg-primary-900 rounded-xl"
+                >
+                    <div
+                        class="text-4xl font-bold text-accent-600 dark:text-accent-400 mb-2"
+                    >
+                        100%
+                    </div>
+                    <div class="text-sm text-primary-600 dark:text-primary-400">
+                        Honest
+                    </div>
+                </div>
+                <div
+                    class="text-center p-6 bg-primary-100 dark:bg-primary-900 rounded-xl"
+                >
+                    <div
+                        class="text-4xl font-bold text-accent-600 dark:text-accent-400 mb-2"
+                    >
+                        3
+                    </div>
+                    <div class="text-sm text-primary-600 dark:text-primary-400">
+                        Languages
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Social -->
+        <section class="py-8 mb-12">
+            <div
+                class="text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-2xl p-12"
+            >
+                <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+                <p
+                    class="text-lg text-primary-600 dark:text-primary-400 mb-8 max-w-2xl mx-auto"
+                >
+                    Have a question about a product we reviewed? Want to suggest
+                    hardware for us to cover? We'd love to hear from you.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a
+                        href="mailto:contact@hardwarelab.com"
+                        class="px-8 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors shadow-lg inline-flex items-center justify-center gap-2"
+                    >
+                        <span>📧</span>
+                        <span>Email Us</span>
+                    </a>
+                    <a
+                        href="/reviews"
+                        class="px-8 py-3 border-2 border-primary-300 dark:border-primary-700 font-semibold rounded-lg hover:border-accent-500 transition-colors inline-flex items-center justify-center gap-2"
+                    >
+                        <span>Browse Reviews</span>
+                        <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</Layout>

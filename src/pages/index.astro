@@ -1,0 +1,166 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+
+import ReviewCard from "@/components/ui/ReviewCard.astro";
+import ReviewBannerCarousel from "@/components/ui/ReviewBannerCarousel.astro";
+import { t, type Language } from "@/utils/i18n";
+
+// Default language for root index
+const lang: Language = "en";
+
+// Fetch reviews for this language, sort by date, take latest 6
+const allReviews = await getCollection("reviews");
+const langReviews = allReviews
+  .filter((review) => review.id.startsWith(`${lang}/`))
+  .sort(
+    (a, b) =>
+      new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
+  );
+
+const latestReviews = langReviews.slice(0, 6);
+
+// Page metadata
+const pageTitle = `HardwareLab - ${t("siteDescription", lang)}`;
+---
+
+<Layout title={pageTitle} lang={lang}>
+  <div class="fade-in">
+    <!-- Banner Carousel -->
+    <section class="py-8">
+      <ReviewBannerCarousel reviews={langReviews} lang={lang} />
+    </section>
+
+    <!-- Featured Reviews -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between mb-10">
+          <h2 class="text-3xl font-bold">{t("latestReviews", lang)}</h2>
+          <a
+            href={`/${lang === "en" ? "" : lang + "/"}reviews`}
+            class="text-accent-600 hover:text-accent-700 font-semibold flex items-center gap-2"
+          >
+            {t("allReviews", lang)} →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {
+            latestReviews.length > 0 ? (
+              latestReviews.map((review) => (
+                <ReviewCard review={review} lang={lang} />
+              ))
+            ) : (
+              <div class="col-span-full text-center py-12">
+                <p class="text-xl text-zinc-600 dark:text-zinc-400">
+                  {t("noReviews", lang)}
+                </p>
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          {t("popularCategories", lang)}
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <a
+            href={`/${lang === "en" ? "" : lang + "/"}categories/mini-pc`}
+            class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+          >
+            <div class="text-4xl mb-4 group-hover:text-white">🖥️</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {t("miniPc", lang)}
+            </h3>
+            <p
+              class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2"
+            >
+              {t("miniPcDesc", lang)}
+            </p>
+          </a>
+
+          <a
+            href={`/${lang === "en" ? "" : lang + "/"}categories/consoles`}
+            class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+          >
+            <div class="text-4xl mb-4 group-hover:text-white">🎮</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {t("consoles", lang)}
+            </h3>
+            <p
+              class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2"
+            >
+              {t("consolesDesc", lang)}
+            </p>
+          </a>
+
+          <a
+            href={`/${lang === "en" ? "" : lang + "/"}categories/nas`}
+            class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+          >
+            <div class="text-4xl mb-4 group-hover:text-white">🗄️</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {t("nas", lang)}
+            </h3>
+            <p
+              class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2"
+            >
+              {t("nasDesc", lang)}
+            </p>
+          </a>
+
+          <a
+            href={`/${lang === "en" ? "" : lang + "/"}categories/sbc`}
+            class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+          >
+            <div class="text-4xl mb-4 group-hover:text-white">🛠️</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {t("sbc", lang)}
+            </h3>
+            <p
+              class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2"
+            >
+              {t("sbcDesc", lang)}
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section
+      class="py-16 text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-3xl"
+    >
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6">{t("stayUpdated", lang)}</h2>
+        <p
+          class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto mb-10"
+        >
+          {t("newsletterDescription", lang)}
+        </p>
+        <form class="max-w-md mx-auto flex gap-2">
+          <input
+            type="email"
+            placeholder={t("emailPlaceholder", lang)}
+            class="flex-grow px-4 py-3 rounded-lg border border-primary-300 dark:border-primary-700 bg-white dark:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-accent-500"
+            required
+          />
+          <button
+            type="submit"
+            class="px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors whitespace-nowrap"
+          >
+            {t("subscribe", lang)}
+          </button>
+        </form>
+        <p class="text-sm text-primary-500 dark:text-primary-400 mt-4">
+          {t("noSpam", lang)}
+        </p>
+      </div>
+    </section>
+  </div>
+</Layout>

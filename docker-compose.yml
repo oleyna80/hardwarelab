@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    image: hardwarelab-site:latest
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M

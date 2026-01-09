@@ -1,0 +1,164 @@
+---
+import { t } from "../../utils/i18n";
+
+export interface Props {
+  lang?: "en" | "fr" | "ru" | "de";
+}
+
+const { lang = "en" } = Astro.props;
+---
+
+<header
+  class="sticky top-0 z-50 border-b border-primary-200 dark:border-primary-800 bg-white/80 dark:bg-primary-900/80 backdrop-blur-sm"
+>
+  <div class="container mx-auto px-4 py-4">
+    <nav class="flex items-center justify-between">
+      <a
+        href="/"
+        class="flex items-center gap-2 text-2xl font-bold text-accent-600 dark:text-accent-500 hover:opacity-80 transition-opacity"
+      >
+        <img
+          src="/images/hardwarelab-icon.png"
+          alt="HardwareLab"
+          class="w-10 h-10 drop-shadow-lg"
+        />
+        <span>{t("siteName", lang)}</span>
+      </a>
+
+      <div class="flex items-center gap-4 md:gap-6">
+        <a
+          href="/"
+          class="hover:text-accent-600 transition-colors hidden md:inline"
+        >
+          {t("home", lang)}
+        </a>
+        <a href="/reviews" class="hover:text-accent-600 transition-colors">
+          {t("reviews", lang)}
+        </a>
+        <a
+          href="/categories/gaming"
+          class="hover:text-accent-600 transition-colors"
+        >
+          {t("gaming", lang)}
+        </a>
+        <a
+          href="/categories/monitors"
+          class="hover:text-accent-600 transition-colors"
+        >
+          {t("monitors", lang)}
+        </a>
+        <a
+          href="/categories/ai-workstation"
+          class="hover:text-accent-600 transition-colors"
+        >
+          {t("aiWorkstation", lang)}
+        </a>
+        <a href="/categories" class="hover:text-accent-600 transition-colors">
+          {t("categories", lang)}
+        </a>
+
+        <!-- Language Picker -->
+        <div class="relative group">
+          <button
+            class="flex items-center gap-1 px-3 py-2 rounded-lg bg-primary-100 dark:bg-primary-800 hover:bg-primary-200 dark:hover:bg-primary-700 transition-colors"
+          >
+            <span class="text-sm font-medium">{lang.toUpperCase()}</span>
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+
+          <div
+            class="absolute right-0 mt-2 w-32 py-2 bg-white dark:bg-primary-900 rounded-lg shadow-lg border border-primary-200 dark:border-primary-800 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+          >
+            <a
+              href={`/${lang === "en" ? "" : "en"}`}
+              onclick="event.preventDefault(); window.__switchLanguage?.('en')"
+              class="block px-4 py-2 hover:bg-primary-100 dark:hover:bg-primary-800 transition-colors"
+            >
+              <div class="flex items-center gap-2">
+                <span class="text-sm">🇺🇸</span>
+                <span class="text-sm">English</span>
+              </div>
+            </a>
+            <a
+              href={`/${lang === "fr" ? "" : "fr"}`}
+              onclick="event.preventDefault(); window.__switchLanguage?.('fr')"
+              class="block px-4 py-2 hover:bg-primary-100 dark:hover:bg-primary-800 transition-colors"
+            >
+              <div class="flex items-center gap-2">
+                <span class="text-sm">🇫🇷</span>
+                <span class="text-sm">Français</span>
+              </div>
+            </a>
+            <a
+              href={`/${lang === "ru" ? "" : "ru"}`}
+              onclick="event.preventDefault(); window.__switchLanguage?.('ru')"
+              class="block px-4 py-2 hover:bg-primary-100 dark:hover:bg-primary-800 transition-colors"
+            >
+              <div class="flex items-center gap-2">
+                <span class="text-sm">🇷🇺</span>
+                <span class="text-sm">Русский</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button
+          id="theme-toggle"
+          class="p-2 rounded-lg bg-primary-100 dark:bg-primary-800 hover:bg-primary-200 dark:hover:bg-primary-700 transition-colors"
+          aria-label={t("themeToggle", lang)}
+        >
+          <span class="dark:hidden">🌙</span>
+          <span class="hidden dark:inline">☀️</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Declare property on window for TypeScript
+  interface WindowWithSwitcher extends Window {
+    __switchLanguage?: (lang: string) => void;
+  }
+
+  // Экспортируем функцию переключения языка для использования в ссылках
+  (window as unknown as WindowWithSwitcher).__switchLanguage = function (
+    lang: string,
+  ) {
+    // Сохраняем предпочтительный язык
+    localStorage.setItem("preferredLanguage", lang);
+
+    // Получаем текущий путь
+    const currentPath = window.location.pathname;
+    const pathParts = currentPath.split("/").filter(Boolean);
+
+    // Определяем, есть ли уже язык в пути
+    const languageCodes = ["en", "fr", "ru"];
+    const hasLanguageInPath = languageCodes.includes(pathParts[0]);
+
+    let newPath;
+    if (hasLanguageInPath) {
+      // Заменяем язык в пути
+      pathParts[0] = lang;
+      newPath = "/" + pathParts.join("/");
+    } else {
+      // Добавляем язык в начало
+      newPath = "/" + lang + currentPath;
+    }
+
+    // Переходим на новый URL
+    window.location.href = newPath;
+  };
+</script>

@@ -1,0 +1,66 @@
+---
+interface Props {
+    fps1080p?: Record<string, number>;
+    fps1440p?: Record<string, number>;
+    fps4k?: Record<string, number>;
+    features?: string[];
+}
+
+const { fps1080p, fps1440p, fps4k, features } = Astro.props;
+
+// Determine available resolutions
+const resolutions = [
+    { label: "1080p", data: fps1080p },
+    { label: "1440p", data: fps1440p },
+    { label: "4K", data: fps4k },
+].filter((r) => r.data);
+---
+
+<div class="my-8 space-y-8">
+    {
+        resolutions.map((res) => (
+            <div class="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
+                <div class="bg-zinc-900 px-4 py-2 border-b border-zinc-800 flex justify-between items-center">
+                    <h3 class="font-bold text-white">
+                        {res.label} Performance
+                    </h3>
+                    <span class="text-xs text-zinc-500 bg-zinc-800 px-2 py-1 rounded">
+                        Avg FPS
+                    </span>
+                </div>
+                <div class="p-4 space-y-3">
+                    {Object.entries(res.data!).map(([game, fps]) => (
+                        <div class="flex items-center gap-4">
+                            <div class="w-32 text-sm text-zinc-400 truncate text-right">
+                                {game}
+                            </div>
+                            <div class="flex-1 h-6 bg-zinc-900 rounded-full overflow-hidden relative">
+                                <div
+                                    class="h-full bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full"
+                                    style={`width: ${Math.min((fps / 240) * 100, 100)}%`}
+                                />
+                                <div class="absolute inset-0 flex items-center justify-start pl-2">
+                                    <span class="text-xs font-bold text-white shadow-black drop-shadow-md">
+                                        {fps} fps
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        ))
+    }
+
+    {
+        features && features.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+                {features.map((feature) => (
+                    <span class="px-3 py-1 bg-indigo-900/30 text-indigo-300 border border-indigo-500/30 rounded-full text-sm">
+                        {feature}
+                    </span>
+                ))}
+            </div>
+        )
+    }
+</div>

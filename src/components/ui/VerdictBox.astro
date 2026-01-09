@@ -1,0 +1,252 @@
+---
+interface Props {
+    score: number;
+    good: string[];
+    bad: string[];
+    bestFor: string;
+    summary?: string;
+    recommendation?: 'buy' | 'consider' | 'avoid';
+    compact?: boolean;
+}
+
+const {
+    score,
+    good = [],
+    bad = [],
+    bestFor,
+    summary,
+    recommendation = 'buy',
+    compact = false,
+} = Astro.props;
+
+// Валидация score
+const normalizedScore = Math.min(10, Math.max(1, score));
+const scorePercentage = (normalizedScore / 10) * 100;
+
+// Цвета для score
+const getScoreColor = (score: number) => {
+    if (score >= 8.5) return 'text-green-600 dark:text-green-400';
+    if (score >= 6.5) return 'text-yellow-600 dark:text-yellow-400';
+    return 'text-red-600 dark:text-red-400';
+};
+
+const getScoreBgColor = (score: number) => {
+    if (score >= 8.5) return 'bg-green-100 dark:bg-green-900/30';
+    if (score >= 6.5) return 'bg-yellow-100 dark:bg-yellow-900/30';
+    return 'bg-red-100 dark:bg-red-900/30';
+};
+
+const getScoreBorderColor = (score: number) => {
+    if (score >= 8.5) return 'border-green-300 dark:border-green-700';
+    if (score >= 6.5) return 'border-yellow-300 dark:border-yellow-700';
+    return 'border-red-300 dark:border-red-700';
+};
+
+// Тексты для рекомендаций
+const recommendationTexts = {
+    buy: 'Buy',
+    consider: 'Consider',
+    avoid: 'Avoid',
+};
+
+const recommendationColors = {
+    buy: 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 border-green-300 dark:border-green-700',
+    consider: 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 border-yellow-300 dark:border-yellow-700',
+    avoid: 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 border-red-300 dark:border-red-700',
+};
+---
+
+<section 
+    class={`
+        verdict-box border-2 rounded-xl overflow-hidden
+        ${getScoreBorderColor(normalizedScore)}
+        bg-white dark:bg-primary-900/50
+        ${compact ? 'p-4' : 'p-6'}
+    `}
+    aria-labelledby="verdict-title"
+    role="region"
+>
+    <header class="mb-6">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+            <div>
+                <h2 
+                    id="verdict-title"
+                    class="text-2xl font-bold text-primary-900 dark:text-primary-100"
+                >
+                    Final Verdict
+                </h2>
+                {summary && (
+                    <p class="mt-2 text-primary-700 dark:text-primary-300">
+                        {summary}
+                    </p>
+                )}
+            </div>
+            
+            <div class="flex items-center gap-4">
+                {/* Score circle */}
+                <div 
+                    class={`
+                        relative w-20 h-20 rounded-full border-4 flex items-center justify-center
+                        ${getScoreBorderColor(normalizedScore)} ${getScoreBgColor(normalizedScore)}
+                    `}
+                    role="meter"
+                    aria-valuenow={normalizedScore}
+                    aria-valuemin="1"
+                    aria-valuemax="10"
+                    aria-label={`Score: ${normalizedScore} out of 10`}
+                >
+                    <div class="text-center">
+                        <div class={`text-3xl font-bold ${getScoreColor(normalizedScore)}`}>
+                            {normalizedScore.toFixed(1)}
+                        </div>
+                        <div class="text-xs text-primary-600 dark:text-primary-400 mt-1">
+                            /10
+                        </div>
+                    </div>
+                </div>
+                
+                {/* Recommendation badge */}
+                <div class="text-center">
+                    <div class="text-sm font-medium text-primary-600 dark:text-primary-400 mb-1">
+                        Recommendation
+                    </div>
+                    <span class={`
+                        inline-block px-3 py-1 rounded-full border text-sm font-semibold
+                        ${recommendationColors[recommendation]}
+                    `}>
+                        {recommendationTexts[recommendation]}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        {/* Good section */}
+        <div class="good-section">
+            <h3 class="text-lg font-semibold text-green-700 dark:text-green-400 mb-3 flex items-center">
+                <svg 
+                    class="w-5 h-5 mr-2" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        stroke-width="2" 
+                        d="M5 13l4 4L19 7" 
+                    />
+                </svg>
+                Pros
+            </h3>
+            <ul class="space-y-2" role="list">
+                {good.map((item, index) => (
+                    <li 
+                        key={index}
+                        class="flex items-start"
+                        role="listitem"
+                    >
+                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-green-100 dark:bg-green-900/50 text-green-600 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0">
+                            ✓
+                        </span>
+                        <span class="text-primary-800 dark:text-primary-200">
+                            {item}
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </div>
+        
+        {/* Bad section */}
+        <div class="bad-section">
+            <h3 class="text-lg font-semibold text-red-700 dark:text-red-400 mb-3 flex items-center">
+                <svg 
+                    class="w-5 h-5 mr-2" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        stroke-width="2" 
+                        d="M6 18L18 6M6 6l12 12" 
+                    />
+                </svg>
+                Cons
+            </h3>
+            <ul class="space-y-2" role="list">
+                {bad.map((item, index) => (
+                    <li 
+                        key={index}
+                        class="flex items-start"
+                        role="listitem"
+                    >
+                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-red-100 dark:bg-red-900/50 text-red-600 dark:text-red-400 mr-3 mt-0.5 flex-shrink-0">
+                            ✗
+                        </span>
+                        <span class="text-primary-800 dark:text-primary-200">
+                            {item}
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    </div>
+    
+    {/* Best for section */}
+    <div class="best-for-section mt-6 pt-6 border-t border-primary-200 dark:border-primary-800">
+        <h3 class="text-lg font-semibold text-primary-900 dark:text-primary-100 mb-3">
+            Best For
+        </h3>
+        <div class="inline-flex items-center px-4 py-3 rounded-lg bg-primary-100 dark:bg-primary-800/50">
+            <svg 
+                class="w-5 h-5 mr-3 text-accent-500" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    stroke-width="2" 
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" 
+                />
+            </svg>
+            <span class="text-primary-800 dark:text-primary-200 font-medium">
+                {bestFor}
+            </span>
+        </div>
+    </div>
+</section>
+
+<style>
+    .verdict-box {
+        container-type: inline-size;
+    }
+    
+    @container (max-width: 768px) {
+        .verdict-box header .flex-wrap {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .verdict-box .grid-cols-2 {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    /* Анимация для score */
+    @keyframes scoreReveal {
+        from { transform: scale(0.9); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    
+    .verdict-box [role="meter"] {
+        animation: scoreReveal 0.5s ease-out;
+    }
+</style>

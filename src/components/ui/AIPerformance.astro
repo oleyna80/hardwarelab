@@ -1,0 +1,85 @@
+---
+interface Props {
+    vram: string;
+    tokensPerSecond?: string;
+    cudaCores?: number;
+    tensorCores?: number;
+    benchmarks?: Record<string, string>;
+}
+
+const { vram, tokensPerSecond, cudaCores, tensorCores, benchmarks } =
+    Astro.props;
+---
+
+<div
+    class="my-8 bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl p-6 relative overflow-hidden"
+>
+    <!-- Background Deco -->
+    <div
+        class="absolute -right-10 -top-10 w-40 h-40 bg-purple-500/10 blur-3xl rounded-full pointer-events-none"
+    >
+    </div>
+
+    <h2
+        class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400 mb-6 flex items-center gap-2"
+    >
+        <span>🤖</span> AI Capabilities
+    </h2>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <div class="bg-zinc-900/50 p-3 rounded-lg border border-zinc-800/50">
+            <div class="text-xs text-zinc-500 mb-1">VRAM</div>
+            <div class="text-xl font-mono font-bold text-white">{vram}</div>
+        </div>
+        {
+            tokensPerSecond && (
+                <div class="bg-zinc-900/50 p-3 rounded-lg border border-zinc-800/50">
+                    <div class="text-xs text-zinc-500 mb-1">LLM Speed</div>
+                    <div class="text-xl font-mono font-bold text-green-400">
+                        {tokensPerSecond}
+                    </div>
+                </div>
+            )
+        }
+        {
+            cudaCores && (
+                <div class="bg-zinc-900/50 p-3 rounded-lg border border-zinc-800/50">
+                    <div class="text-xs text-zinc-500 mb-1">CUDA Cores</div>
+                    <div class="text-xl font-mono font-bold text-white">
+                        {cudaCores}
+                    </div>
+                </div>
+            )
+        }
+        {
+            tensorCores && (
+                <div class="bg-zinc-900/50 p-3 rounded-lg border border-zinc-800/50">
+                    <div class="text-xs text-zinc-500 mb-1">Tensor Cores</div>
+                    <div class="text-xl font-mono font-bold text-white">
+                        {tensorCores}
+                    </div>
+                </div>
+            )
+        }
+    </div>
+
+    {
+        benchmarks && (
+            <div class="space-y-3">
+                <h3 class="text-sm font-bold text-zinc-400 uppercase tracking-wider">
+                    Benchmarks
+                </h3>
+                <div class="grid gap-2">
+                    {Object.entries(benchmarks).map(([name, score]) => (
+                        <div class="flex justify-between items-center bg-zinc-900 p-3 rounded border border-zinc-800">
+                            <span class="text-zinc-300">{name}</span>
+                            <span class="font-mono text-purple-300">
+                                {score}
+                            </span>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        )
+    }
+</div>

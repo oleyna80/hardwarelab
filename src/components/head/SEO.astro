@@ -1,0 +1,151 @@
+---
+import { getHtmlLang } from "@/utils/i18n";
+
+export interface Props {
+    title: string;
+    description: string;
+    image?: string;
+    article?: boolean;
+    pubDate?: Date;
+    lang?: "en" | "fr" | "ru" | "de";
+}
+
+const {
+    title,
+    description,
+    image,
+    article = false,
+    pubDate,
+    lang = "en",
+} = Astro.props;
+
+const siteUrl = import.meta.env.SITE || "https://hardwarelab.org";
+const canonicalURL = new URL(Astro.url.pathname, siteUrl);
+const htmlLang = getHtmlLang(lang);
+
+// Format date for ld+json if it's an article
+const isoDate = pubDate ? new Date(pubDate).toISOString() : undefined;
+
+// Default image if none provided
+const ogImage = image
+    ? new URL(image, siteUrl)
+    : new URL("/og-default.jpg", siteUrl);
+
+// Hreflang generation
+const languages = ["en", "fr", "ru", "de"];
+const currentPath = Astro.url.pathname;
+
+// Remove language prefix to get the base path
+// Example: /fr/reviews/foo -> /reviews/foo
+// Example: /reviews/foo -> /reviews/foo (if default en)
+let basePath = currentPath;
+const pathParts = currentPath.split("/").filter(Boolean);
+
+if (pathParts.length > 0 && languages.includes(pathParts[0])) {
+    basePath = "/" + pathParts.slice(1).join("/");
+} else if (currentPath === "/") {
+    basePath = "/";
+}
+
+// Generate hreflang links
+const hreflangLinks = languages.map((l) => {
+    let href;
+    if (l === "en") {
+        href = basePath === "/" ? `${siteUrl}` : `${siteUrl}${basePath}`;
+    } else {
+        href =
+            basePath === "/"
+                ? `${siteUrl}/${l}/`
+                : `${siteUrl}/${l}${basePath}`;
+    }
+    // Clean up double slashes
+    href = href.replace(/([^:]\/)\/+/g, "$1");
+
+    return {
+        lang: l,
+        href: href,
+    };
+});
+
+// JSON-LD Schema
+const schema = article
+    ? {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: title,
+          image: [ogImage.toString()],
+          datePublished: isoDate,
+          dateModified: isoDate, // Should preferably use lastUpdated if available
+          author: [
+              {
+                  "@type": "Organization",
+                  name: "HardwareLab",
+                  url: siteUrl,
+              },
+          ],
+      }
+    : {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "HardwareLab",
+          url: siteUrl,
+      };
+
+// Map lang to og:locale format
+const ogLocaleMap: Record<string, string> = {
+    en: "en_US",
+    fr: "fr_FR",
+    ru: "ru_RU",
+    de: "de_DE",
+};
+const ogLocale = ogLocaleMap[lang] || "en_US";
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Hreflang Tags -->
+{
+    hreflangLinks.map((link) => (
+        <link rel="alternate" hreflang={link.lang} href={link.href} />
+    ))
+}
+<link rel="alternate" hreflang="x-default" href={siteUrl + basePath} />
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={article ? "article" : "website"} />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:locale" content={ogLocale} />
+<meta property="og:site_name" content="HardwareLab" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={ogImage} />
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<!-- Fonts (Preconnect) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+/>

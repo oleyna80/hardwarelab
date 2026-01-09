@@ -1,0 +1,184 @@
+---
+import type { Language } from "../../utils/i18n";
+import { AMAZON_CONFIG } from "../../config";
+
+interface Props {
+    // ASIN может быть строкой или объектом с ASIN для разных регионов
+    asin: string | { us: string; fr?: string; [key: string]: string };
+    // Текст кнопки
+    label?: string;
+    // Язык для выбора ASIN (если asin - объект)
+    lang?: Language;
+    // Розничный продавец (по умолчанию Amazon)
+    retailer?: string;
+    // Цена для отображения (опционально)
+    price?: number;
+    // Валюта (по умолчанию USD)
+    currency?: string;
+    // Вариант стиля
+    variant?: "primary" | "secondary" | "outline";
+    // Размер
+    size?: "sm" | "md" | "lg";
+    // Показывать иконку
+    icon?: boolean;
+}
+
+const {
+    asin,
+    label = "Check Price on Amazon",
+    lang = "en",
+    retailer = "Amazon",
+    price,
+    currency = "USD",
+    variant = "primary",
+    size = "md",
+    icon = true,
+} = Astro.props;
+
+// Определяем фактический ASIN на основе типа asin и языка
+const resolveAsin = (): string => {
+    if (typeof asin === "string") {
+        return asin;
+    }
+
+    // Если asin - объект, выбираем по языку
+    // Сопоставление языка с ключом региона
+    const regionMap: Record<Language, string> = {
+        en: "us",
+        fr: "fr",
+        ru: "us", // для русского используем US как fallback
+        de: "de", // для немецкого используем DE
+    };
+
+    const region = regionMap[lang] || "us";
+    const resolved = asin[region] || asin.us;
+
+    if (!resolved) {
+        console.warn(`No ASIN found for region ${region} and fallback 'us'`);
+        return "";
+    }
+
+    return resolved;
+};
+
+const finalAsin = resolveAsin();
+
+// Use centralized Amazon config to build URL
+const amazonUrl = AMAZON_CONFIG.getAffiliateLink(finalAsin);
+
+// Валидация URL
+const safeUrl = amazonUrl.startsWith("http")
+    ? amazonUrl
+    : `https://${amazonUrl}`;
+
+// Классы для вариантов (совместимо с PriceCheckButton)
+const variantClasses = {
+    primary: "bg-accent-600 hover:bg-accent-700 text-white border-transparent",
+    secondary:
+        "bg-primary-700 hover:bg-primary-800 text-white border-transparent",
+    outline:
+        "bg-transparent hover:bg-accent-50 dark:hover:bg-accent-900/30 text-accent-700 dark:text-accent-300 border-accent-500",
+};
+
+// Классы для размеров
+const sizeClasses = {
+    sm: "px-3 py-1.5 text-sm",
+    md: "px-4 py-2.5 text-base",
+    lg: "px-6 py-3 text-lg",
+};
+
+// Классы для иконки
+const iconSizeClasses = {
+    sm: "w-4 h-4",
+    md: "w-5 h-5",
+    lg: "w-6 h-6",
+};
+
+// Форматирование цены
+const formatPrice = (price: number, currency: string) => {
+    return new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency,
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 2,
+    }).format(price);
+};
+---
+
+<a
+    href={safeUrl}
+    target="_blank"
+    rel="nofollow sponsored noopener noreferrer"
+    class={`
+        inline-flex items-center justify-center font-semibold rounded-lg
+        border-2 transition-all duration-200
+        ${variantClasses[variant]}
+        ${sizeClasses[size]}
+        focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2
+        dark:focus:ring-offset-primary-900
+        shadow-md hover:shadow-lg active:scale-[0.98]
+        aria-label="Check price on ${retailer}"
+    `}
+    aria-label={`Check price on ${retailer}${price ? `: ${formatPrice(price, currency)}` : ""}`}
+>
+    {
+        icon && (
+            <svg
+                class={`${iconSizeClasses[size]} mr-2 flex-shrink-0`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                />
+            </svg>
+        )
+    }
+
+    <span class="flex-1 text-center">
+        {label}
+        {
+            price && (
+                <span class="ml-2 font-bold">
+                    • {formatPrice(price, currency)}
+                </span>
+            )
+        }
+    </span>
+
+    <svg
+        class={`${iconSizeClasses[size]} ml-2 flex-shrink-0`}
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+    >
+        <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
+</a>
+
+<style>
+    /* Высокий контраст для доступности */
+    @media (prefers-contrast: high) {
+        a {
+            border-width: 3px !important;
+        }
+    }
+
+    /* Улучшение видимости фокуса для клавиатурной навигации */
+    a:focus-visible {
+        outline: 3px solid theme("colors.accent.500");
+        outline-offset: 2px;
+    }
+</style>

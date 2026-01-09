@@ -1,0 +1,60 @@
+---
+interface Props {
+    resolution: string;
+    refreshRate: string;
+    panelType: string;
+    responseTime: string;
+    hdr?: string;
+    curvature?: string;
+}
+
+const { resolution, refreshRate, panelType, responseTime, hdr, curvature } =
+    Astro.props;
+---
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
+    <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center">
+        <div class="text-xs text-zinc-500 uppercase tracking-widest mb-1">
+            Resolution
+        </div>
+        <div class="text-lg font-bold text-white">{resolution}</div>
+    </div>
+    <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center">
+        <div class="text-xs text-zinc-500 uppercase tracking-widest mb-1">
+            Refresh Rate
+        </div>
+        <div class="text-lg font-bold text-cyan-400">{refreshRate}</div>
+    </div>
+    <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center">
+        <div class="text-xs text-zinc-500 uppercase tracking-widest mb-1">
+            Panel
+        </div>
+        <div class="text-lg font-bold text-white">{panelType}</div>
+    </div>
+    <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center">
+        <div class="text-xs text-zinc-500 uppercase tracking-widest mb-1">
+            Response
+        </div>
+        <div class="text-lg font-bold text-white">{responseTime}</div>
+    </div>
+    {
+        hdr && (
+            <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center">
+                <div class="text-xs text-zinc-500 uppercase tracking-widest mb-1">
+                    HDR
+                </div>
+                <div class="text-lg font-bold text-yellow-500">{hdr}</div>
+            </div>
+        )
+    }
+    {
+        curvature && (
+            <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center">
+                <div class="text-xs text-zinc-500 uppercase tracking-widest mb-1">
+                    Curvature
+                </div>
+                <div class="text-lg font-bold text-white">{curvature}</div>
+            </div>
+        )
+    }
+</div>

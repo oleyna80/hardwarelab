@@ -1,0 +1,137 @@
+---
+import type { CollectionEntry } from "astro:content";
+import type { Language } from "@/utils/i18n";
+
+interface Props {
+    review: CollectionEntry<"reviews">;
+    lang?: Language;
+}
+
+const { review, lang = "en" } = Astro.props;
+const { title, description, pubDate, heroImage, rating, priceCategory } =
+    review.data;
+
+// Generate URL (clean up 'en/' prefix if present)
+const cleanSlug = review.slug.split("/").pop() ?? review.slug;
+const reviewUrl = `/reviews/${cleanSlug}`;
+
+// Format date (Dynamic locale based on content could be better, but keeping simple for now)
+const localeMap: Record<Language, string> = {
+    en: "en-US",
+    fr: "fr-FR",
+    ru: "ru-RU",
+    de: "de-DE",
+};
+const formattedDate = new Intl.DateTimeFormat(localeMap[lang], {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+}).format(new Date(pubDate));
+
+// Price category styling
+const priceCategoryLabels: Record<string, string> = {
+    budget: "Budget",
+    mid: "Mid-Range",
+    high: "High-End",
+    enterprise: "Enterprise",
+};
+
+const priceCategoryColors: Record<string, string> = {
+    budget: "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800",
+    mid: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 border-blue-200 dark:border-blue-800",
+    high: "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400 border-purple-200 dark:border-purple-800",
+    enterprise:
+        "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800",
+};
+
+// Rating logic
+---
+
+<article
+    class="flex flex-col h-full bg-white dark:bg-zinc-900 rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 hover:border-indigo-500/50 dark:hover:border-indigo-500/50 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group"
+>
+    <a
+        href={reviewUrl}
+        class="block h-48 w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800 relative"
+    >
+        {
+            heroImage ? (
+                <img
+                    src={heroImage}
+                    alt={title}
+                    class="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                />
+            ) : (
+                <div class="w-full h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-500 group-hover:scale-110 transition-transform duration-500" />
+            )
+        }
+
+        <div class="absolute top-3 left-3">
+            <span
+                class={`px-2.5 py-1 rounded-md text-xs font-bold border backdrop-blur-md ${priceCategoryColors[priceCategory]}`}
+            >
+                {priceCategoryLabels[priceCategory] || priceCategory}
+            </span>
+        </div>
+    </a>
+
+    <div class="flex flex-col flex-grow p-5">
+        <time
+            class="text-xs font-medium text-zinc-500 dark:text-zinc-400 mb-2 block"
+        >
+            {formattedDate}
+        </time>
+
+        <a href={reviewUrl} class="block">
+            <h3
+                class="text-lg font-bold leading-tight text-zinc-900 dark:text-zinc-100 mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors"
+            >
+                {title}
+            </h3>
+        </a>
+
+        <p
+            class="text-sm text-zinc-600 dark:text-zinc-400 mb-4 line-clamp-2 flex-grow"
+        >
+            {description}
+        </p>
+
+        <div
+            class="pt-4 mt-auto border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between"
+        >
+            <div class="flex items-center gap-2" title={`Rating: ${rating}/5`}>
+                <div class="flex items-center text-yellow-400 text-sm">
+                    {"★".repeat(Math.floor(rating))}
+                    <span class="text-zinc-300 dark:text-zinc-600"
+                        >{"★".repeat(5 - Math.floor(rating))}</span
+                    >
+                </div>
+                <span
+                    class="text-xs font-bold text-zinc-700 dark:text-zinc-300 pt-0.5"
+                >
+                    {rating}
+                </span>
+            </div>
+
+            <a
+                href={reviewUrl}
+                class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 flex items-center gap-1 group/btn"
+            >
+                Read Review
+                <svg
+                    class="w-4 h-4 transition-transform group-hover/btn:translate-x-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</article>

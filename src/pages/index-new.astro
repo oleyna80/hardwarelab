@@ -1,0 +1,216 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Hero from '@/components/layout/Hero.astro';
+import { getCurrentLanguage } from '@/utils/i18n';
+
+// Получаем текущий язык (в реальном приложении это можно делать на основе URL)
+const lang = getCurrentLanguage();
+---
+
+<Layout lang={lang} title="HardwareLab - Expert Hardware Reviews">
+  <div class="fade-in">
+    <!-- Используем новый компонент Hero -->
+    <Hero lang={lang} featured={true} />
+    
+    <!-- Featured Reviews -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between mb-10">
+          <h2 class="text-3xl font-bold">
+            {lang === 'ru' ? 'Последние обзоры' : lang === 'fr' ? 'Derniers avis' : 'Latest Reviews'}
+          </h2>
+          <a href="/reviews" class="text-accent-600 hover:text-accent-700 font-semibold flex items-center gap-2">
+            {lang === 'ru' ? 'Все обзоры →' : lang === 'fr' ? 'Tous les avis →' : 'All reviews →'}
+          </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Review Card 1 -->
+          <article class="bg-white dark:bg-primary-900 rounded-xl shadow-lg overflow-hidden border border-primary-200 dark:border-primary-800 hover:shadow-xl transition-shadow">
+            <div class="h-48 bg-gradient-to-r from-primary-400 to-accent-500"></div>
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-3 py-1 bg-primary-100 dark:bg-primary-800 rounded-full text-sm font-medium">
+                  {lang === 'ru' ? 'Процессоры' : lang === 'fr' ? 'Processeurs' : 'Processors'}
+                </span>
+                <span class="text-sm text-primary-500">
+                  {lang === 'ru' ? '2 дня назад' : lang === 'fr' ? 'Il y a 2 jours' : '2 days ago'}
+                </span>
+              </div>
+              <h3 class="text-xl font-bold mb-2">AMD Ryzen 7 7800X3D</h3>
+              <p class="text-primary-600 dark:text-primary-400 mb-4">
+                {lang === 'ru' 
+                  ? 'Игровой флагман с технологией 3D V-Cache. Тестирование в 15 играх.'
+                  : lang === 'fr'
+                  ? 'Flagship gaming avec technologie 3D V-Cache. Tests dans 15 jeux.'
+                  : 'Gaming flagship with 3D V-Cache technology. Testing in 15 games.'}
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <div class="w-24 h-2 bg-primary-200 dark:bg-primary-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-accent-500" style="width: 92%"></div>
+                  </div>
+                  <span class="font-bold">9.2/10</span>
+                </div>
+                <a href="/reviews/amd-ryzen-7-7800x3d" class="text-accent-600 hover:text-accent-700 font-semibold">
+                  {lang === 'ru' ? 'Читать →' : lang === 'fr' ? 'Lire →' : 'Read →'}
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Review Card 2 -->
+          <article class="bg-white dark:bg-primary-900 rounded-xl shadow-lg overflow-hidden border border-primary-200 dark:border-primary-800 hover:shadow-xl transition-shadow">
+            <div class="h-48 bg-gradient-to-r from-primary-400 to-purple-500"></div>
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-3 py-1 bg-primary-100 dark:bg-primary-800 rounded-full text-sm font-medium">
+                  {lang === 'ru' ? 'Видеокарты' : lang === 'fr' ? 'Cartes graphiques' : 'Graphics cards'}
+                </span>
+                <span class="text-sm text-primary-500">
+                  {lang === 'ru' ? '1 неделя назад' : lang === 'fr' ? 'Il y a 1 semaine' : '1 week ago'}
+                </span>
+              </div>
+              <h3 class="text-xl font-bold mb-2">NVIDIA GeForce RTX 4070 Super</h3>
+              <p class="text-primary-600 dark:text-primary-400 mb-4">
+                {lang === 'ru'
+                  ? 'Баланс цена/производительность. Тесты с DLSS 3.5 и ray tracing.'
+                  : lang === 'fr'
+                  ? 'Équilibre prix/performance. Tests avec DLSS 3.5 et ray tracing.'
+                  : 'Price/performance balance. Tests with DLSS 3.5 and ray tracing.'}
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <div class="w-24 h-2 bg-primary-200 dark:bg-primary-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-accent-500" style="width: 88%"></div>
+                  </div>
+                  <span class="font-bold">8.8/10</span>
+                </div>
+                <a href="/reviews/nvidia-rtx-4070-super" class="text-accent-600 hover:text-accent-700 font-semibold">
+                  {lang === 'ru' ? 'Читать →' : lang === 'fr' ? 'Lire →' : 'Read →'}
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Review Card 3 -->
+          <article class="bg-white dark:bg-primary-900 rounded-xl shadow-lg overflow-hidden border border-primary-200 dark:border-primary-800 hover:shadow-xl transition-shadow">
+            <div class="h-48 bg-gradient-to-r from-primary-400 to-green-500"></div>
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-3 py-1 bg-primary-100 dark:bg-primary-800 rounded-full text-sm font-medium">
+                  {lang === 'ru' ? 'Накопители' : lang === 'fr' ? 'Stockage' : 'Storage'}
+                </span>
+                <span class="text-sm text-primary-500">
+                  {lang === 'ru' ? '2 недели назад' : lang === 'fr' ? 'Il y a 2 semaines' : '2 weeks ago'}
+                </span>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Samsung 990 Pro 2TB</h3>
+              <p class="text-primary-600 dark:text-primary-400 mb-4">
+                {lang === 'ru'
+                  ? 'Самый быстрый потребительский SSD. Тесты скорости и выносливости.'
+                  : lang === 'fr'
+                  ? 'SSD grand public le plus rapide. Tests de vitesse et d\'endurance.'
+                  : 'Fastest consumer SSD. Speed and endurance tests.'}
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <div class="w-24 h-2 bg-primary-200 dark:bg-primary-800 rounded-full overflow-hidden">
+                    <div class="h-full bg-accent-500" style="width: 95%"></div>
+                  </div>
+                  <span class="font-bold">9.5/10</span>
+                </div>
+                <a href="/reviews/samsung-990-pro" class="text-accent-600 hover:text-accent-700 font-semibold">
+                  {lang === 'ru' ? 'Читать →' : lang === 'fr' ? 'Lire →' : 'Read →'}
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          {lang === 'ru' ? 'Популярные категории' : lang === 'fr' ? 'Catégories populaires' : 'Popular Categories'}
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <a href="/categories/cpu" class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center">
+            <div class="text-4xl mb-4 group-hover:text-white">⚡</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {lang === 'ru' ? 'Процессоры' : lang === 'fr' ? 'Processeurs' : 'Processors'}
+            </h3>
+            <p class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2">CPU</p>
+          </a>
+          
+          <a href="/categories/gpu" class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center">
+            <div class="text-4xl mb-4 group-hover:text-white">🎮</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {lang === 'ru' ? 'Видеокарты' : lang === 'fr' ? 'Cartes graphiques' : 'Graphics cards'}
+            </h3>
+            <p class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2">GPU</p>
+          </a>
+          
+          <a href="/categories/ram" class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center">
+            <div class="text-4xl mb-4 group-hover:text-white">💾</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {lang === 'ru' ? 'Память' : lang === 'fr' ? 'Mémoire' : 'Memory'}
+            </h3>
+            <p class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2">RAM</p>
+          </a>
+          
+          <a href="/categories/storage" class="group p-6 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center">
+            <div class="text-4xl mb-4 group-hover:text-white">💿</div>
+            <h3 class="font-bold text-lg group-hover:text-white">
+              {lang === 'ru' ? 'Накопители' : lang === 'fr' ? 'Stockage' : 'Storage'}
+            </h3>
+            <p class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80 mt-2">SSD/HDD</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-3xl">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6">
+          {lang === 'ru' 
+            ? 'Оставайтесь в курсе новых обзоров' 
+            : lang === 'fr'
+            ? 'Restez informé des nouveaux avis'
+            : 'Stay updated with new reviews'}
+        </h2>
+        <p class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto mb-10">
+          {lang === 'ru'
+            ? 'Подпишитесь на рассылку и получайте уведомления о новых тестах и аналитике рынка.'
+            : lang === 'fr'
+            ? 'Abonnez-vous à la newsletter et recevez des notifications sur les nouveaux tests et analyses du marché.'
+            : 'Subscribe to the newsletter and get notifications about new tests and market analysis.'}
+        </p>
+        <form class="max-w-md mx-auto flex gap-2">
+          <input 
+            type="email" 
+            placeholder={lang === 'ru' ? 'Ваш email' : lang === 'fr' ? 'Votre email' : 'Your email'}
+            class="flex-grow px-4 py-3 rounded-lg border border-primary-300 dark:border-primary-700 bg-white dark:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-accent-500"
+            required
+          />
+          <button 
+            type="submit" 
+            class="px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors whitespace-nowrap"
+          >
+            {lang === 'ru' ? 'Подписаться' : lang === 'fr' ? 'S\'abonner' : 'Subscribe'}
+          </button>
+        </form>
+        <p class="text-sm text-primary-500 dark:text-primary-400 mt-4">
+          {lang === 'ru'
+            ? 'Без спама. Отписаться можно в любой момент.'
+            : lang === 'fr'
+            ? 'Pas de spam. Désabonnez-vous à tout moment.'
+            : 'No spam. Unsubscribe at any time.'}
+        </p>
+      </div>
+    </section>
+  </div>
+</Layout>

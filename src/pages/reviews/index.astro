@@ -1,0 +1,239 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import ReviewCard from "@/components/ui/ReviewCard.astro";
+import { t, type Language } from "@/utils/i18n";
+
+const lang: Language = "en";
+
+// Get all English reviews
+const allReviews = await getCollection("reviews");
+const reviews = allReviews
+    .filter((review) => review.id.startsWith(`${lang}/`))
+    .sort(
+        (a, b) =>
+            new Date(b.data.pubDate).getTime() -
+            new Date(a.data.pubDate).getTime(),
+    );
+
+// Group reviews by category
+const reviewsByCategory = {
+    "mini-pc": reviews.filter((r) =>
+        r.data.tags?.some((tag) =>
+            ["mini-pc", "mac-mini", "ryzen-7-5800h"].includes(tag),
+        ),
+    ),
+    consoles: reviews.filter((r) =>
+        r.data.tags?.some((tag) =>
+            ["playstation", "xbox", "gaming-console"].includes(tag),
+        ),
+    ),
+    nas: reviews.filter((r) =>
+        r.data.tags?.some((tag) =>
+            ["nas", "network-storage", "synology"].includes(tag),
+        ),
+    ),
+    sbc: reviews.filter((r) =>
+        r.data.tags?.some((tag) =>
+            ["raspberry-pi", "orange-pi", "single-board"].includes(tag),
+        ),
+    ),
+};
+
+const pageTitle = "All Hardware Reviews | HardwareLab";
+const pageDescription =
+    "Browse all our in-depth hardware reviews. Expert analysis of Mini PCs, game consoles, NAS systems, and single board computers.";
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+    <div class="fade-in">
+        <!-- Header -->
+        <section class="text-center py-16">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                All Hardware Reviews
+            </h1>
+            <p
+                class="text-xl text-primary-600 dark:text-primary-400 max-w-3xl mx-auto mb-8"
+            >
+                Expert, in-depth reviews of the latest computer hardware. Honest
+                analysis to help you make informed buying decisions.
+            </p>
+            <div
+                class="flex items-center justify-center gap-2 text-sm text-primary-500 dark:text-primary-400"
+            >
+                <a href="/" class="hover:text-accent-600 transition-colors"
+                    >Home</a
+                >
+                <span>›</span>
+                <span class="text-primary-700 dark:text-primary-300"
+                    >All Reviews</span
+                >
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="py-6 mb-8">
+            <div
+                class="flex flex-wrap items-center justify-center gap-6 text-center"
+            >
+                <div class="flex items-center gap-2">
+                    <span
+                        class="text-3xl font-bold text-accent-600 dark:text-accent-400"
+                        >{reviews.length}</span
+                    >
+                    <span class="text-primary-600 dark:text-primary-400"
+                        >Total Reviews</span
+                    >
+                </div>
+                <div
+                    class="hidden md:block w-px h-8 bg-primary-300 dark:bg-primary-700"
+                >
+                </div>
+                <div class="flex items-center gap-2">
+                    <span
+                        class="text-3xl font-bold text-accent-600 dark:text-accent-400"
+                        >4</span
+                    >
+                    <span class="text-primary-600 dark:text-primary-400"
+                        >Categories</span
+                    >
+                </div>
+                <div
+                    class="hidden md:block w-px h-8 bg-primary-300 dark:bg-primary-700"
+                >
+                </div>
+                <div class="flex items-center gap-2">
+                    <span
+                        class="text-3xl font-bold text-accent-600 dark:text-accent-400"
+                        >100%</span
+                    >
+                    <span class="text-primary-600 dark:text-primary-400"
+                        >Honest</span
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter by Category -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-center">
+                Browse by Category
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a
+                    href="/categories/mini-pc"
+                    class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                >
+                    <div class="text-3xl mb-2 group-hover:text-white">🖥️</div>
+                    <h3 class="font-bold text-sm group-hover:text-white mb-1">
+                        Mini PCs
+                    </h3>
+                    <p
+                        class="text-xs text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                    >
+                        {reviewsByCategory["mini-pc"].length} reviews
+                    </p>
+                </a>
+                <a
+                    href="/categories/consoles"
+                    class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                >
+                    <div class="text-3xl mb-2 group-hover:text-white">🎮</div>
+                    <h3 class="font-bold text-sm group-hover:text-white mb-1">
+                        Consoles
+                    </h3>
+                    <p
+                        class="text-xs text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                    >
+                        {reviewsByCategory["consoles"].length} reviews
+                    </p>
+                </a>
+                <a
+                    href="/categories/nas"
+                    class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                >
+                    <div class="text-3xl mb-2 group-hover:text-white">🗄️</div>
+                    <h3 class="font-bold text-sm group-hover:text-white mb-1">
+                        NAS
+                    </h3>
+                    <p
+                        class="text-xs text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                    >
+                        {reviewsByCategory["nas"].length} reviews
+                    </p>
+                </a>
+                <a
+                    href="/categories/sbc"
+                    class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                >
+                    <div class="text-3xl mb-2 group-hover:text-white">🛠️</div>
+                    <h3 class="font-bold text-sm group-hover:text-white mb-1">
+                        SBC
+                    </h3>
+                    <p
+                        class="text-xs text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                    >
+                        {reviewsByCategory["sbc"].length} reviews
+                    </p>
+                </a>
+            </div>
+        </section>
+
+        <!-- All Reviews Grid -->
+        <section class="py-8">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-3xl font-bold">Latest Reviews</h2>
+                <div class="text-sm text-primary-600 dark:text-primary-400">
+                    Sorted by date
+                </div>
+            </div>
+
+            {
+                reviews.length > 0 ? (
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {reviews.map((review) => (
+                            <ReviewCard review={review} lang={lang} />
+                        ))}
+                    </div>
+                ) : (
+                    <div class="text-center py-16">
+                        <div class="text-6xl mb-4">📝</div>
+                        <h2 class="text-2xl font-bold mb-4">No reviews yet</h2>
+                        <p class="text-primary-600 dark:text-primary-400">
+                            Check back soon for expert hardware reviews!
+                        </p>
+                    </div>
+                )
+            }
+        </section>
+
+        <!-- CTA Section -->
+        <section
+            class="py-16 mt-12 text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-3xl"
+        >
+            <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+            <p
+                class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto mb-8"
+            >
+                Get notifications about new reviews and hardware releases
+            </p>
+            <form class="max-w-md mx-auto flex gap-2">
+                <input
+                    type="email"
+                    placeholder={t("emailPlaceholder", lang)}
+                    class="flex-grow px-4 py-3 rounded-lg border border-primary-300 dark:border-primary-700 bg-white dark:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-accent-500"
+                    required
+                />
+                <button
+                    type="submit"
+                    class="px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors whitespace-nowrap"
+                >
+                    {t("subscribe", lang)}
+                </button>
+            </form>
+            <p class="text-sm text-primary-500 dark:text-primary-400 mt-4">
+                {t("noSpam", lang)}
+            </p>
+        </section>
+    </div>
+</Layout>

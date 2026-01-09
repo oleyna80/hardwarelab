@@ -1,0 +1,147 @@
+---
+import type { Language } from "@/utils/i18n";
+import { AMAZON_CONFIG } from "../../config";
+
+interface Props {
+  title: string;
+  rating: number;
+  amazonAsin: string | { us: string; fr: string };
+  priceCategory: "budget" | "mid" | "high" | "enterprise";
+  lang?: Language;
+}
+
+const { title, rating, amazonAsin, priceCategory, lang = "en" } = Astro.props;
+
+// Генерация URL Amazon на основе ASIN с affiliate тегом
+const getAmazonUrl = (asin: string | { us: string; fr: string }): string => {
+  const resolvedAsin = typeof asin === "string" ? asin : asin.us;
+  return AMAZON_CONFIG.getAffiliateLink(resolvedAsin);
+};
+
+const amazonUrl = getAmazonUrl(amazonAsin);
+
+// Расчет звезд
+const fullStars = Math.floor(rating);
+const hasHalfStar = rating % 1 >= 0.5;
+const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+// Метка ценовой категории
+const labels = {
+  en: {
+    budget: "Budget",
+    mid: "Mid-Range",
+    high: "High-End",
+    enterprise: "Enterprise",
+    checkPrice: "Check Price on Amazon",
+  },
+  ru: {
+    budget: "Бюджетный",
+    mid: "Средний",
+    high: "Премиум",
+    enterprise: "Корпоративный",
+    checkPrice: "Проверить цену на Amazon",
+  },
+  fr: {
+    budget: "Budget",
+    mid: "Milieu de gamme",
+    high: "Haut de gamme",
+    enterprise: "Entreprise",
+    checkPrice: "Voir le prix sur Amazon",
+  },
+  de: {
+    budget: "Budget",
+    mid: "Mittelklasse",
+    high: "High-End",
+    enterprise: "Enterprise",
+    checkPrice: "Preis auf Amazon prüfen",
+  },
+};
+
+// Default to English if language not found
+const currentLabels = labels[lang] || labels.en;
+
+const priceCategoryColors = {
+  budget: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200",
+  mid: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200",
+  high: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200",
+  enterprise: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
+};
+---
+
+<header class="mb-8">
+  <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+    <div>
+      <h1
+        class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2"
+      >
+        {title}
+      </h1>
+      <div class="flex items-center gap-4">
+        <div class="flex items-center">
+          {
+            Array.from({ length: fullStars }).map(() => (
+              <svg
+                class="w-5 h-5 text-yellow-500 fill-current"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+              </svg>
+            ))
+          }
+          {
+            hasHalfStar && (
+              <svg
+                class="w-5 h-5 text-yellow-500 fill-current"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                <path d="M10 15V0" stroke="currentColor" stroke-width="2" />
+              </svg>
+            )
+          }
+          {
+            Array.from({ length: emptyStars }).map(() => (
+              <svg
+                class="w-5 h-5 text-gray-300 fill-current"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+              </svg>
+            ))
+          }
+          <span class="ml-2 text-gray-600 dark:text-gray-400">
+            {rating.toFixed(1)}/5
+          </span>
+        </div>
+        <span
+          class={`px-3 py-1 rounded-full text-sm font-medium ${priceCategoryColors[priceCategory]}`}
+        >
+          {currentLabels[priceCategory]}
+        </span>
+      </div>
+    </div>
+
+    <div class="flex-shrink-0">
+      <a
+        href={amazonUrl}
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
+        class="inline-flex items-center justify-center px-6 py-3 bg-accent-600 hover:bg-accent-700 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
+      >
+        <svg
+          class="w-5 h-5 mr-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+        </svg>
+        {currentLabels.checkPrice}
+      </a>
+    </div>
+  </div>
+</header>

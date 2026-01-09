@@ -1,0 +1,163 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { type Language } from "@/utils/i18n";
+
+const lang: Language = "en";
+const pageTitle = "404 - Page Not Found | HardwareLab";
+const pageDescription = "The page you are looking for could not be found.";
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+    <div class="fade-in min-h-[60vh] flex items-center justify-center">
+        <div class="text-center max-w-2xl mx-auto px-4">
+            <!-- Error Code -->
+            <div class="mb-8">
+                <h1
+                    class="text-9xl font-bold text-accent-600 dark:text-accent-400 mb-4"
+                >
+                    404
+                </h1>
+                <div class="text-6xl mb-6">🔍</div>
+            </div>
+
+            <!-- Message -->
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Page Not Found</h2>
+            <p class="text-xl text-primary-600 dark:text-primary-400 mb-8">
+                Oops! The page you're looking for doesn't exist or has been
+                moved.
+            </p>
+
+            <!-- Quick Links -->
+            <div
+                class="bg-primary-100 dark:bg-primary-900 rounded-2xl p-8 mb-8"
+            >
+                <h3 class="text-xl font-bold mb-4">Try these instead:</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <a
+                        href="/"
+                        class="group p-4 bg-white dark:bg-primary-800 rounded-lg hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors"
+                    >
+                        <div class="text-3xl mb-2 group-hover:text-white">
+                            🏠
+                        </div>
+                        <div class="font-semibold group-hover:text-white">
+                            Home Page
+                        </div>
+                        <div
+                            class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                        >
+                            Start from the beginning
+                        </div>
+                    </a>
+                    <a
+                        href="/reviews"
+                        class="group p-4 bg-white dark:bg-primary-800 rounded-lg hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors"
+                    >
+                        <div class="text-3xl mb-2 group-hover:text-white">
+                            📝
+                        </div>
+                        <div class="font-semibold group-hover:text-white">
+                            All Reviews
+                        </div>
+                        <div
+                            class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                        >
+                            Browse all hardware reviews
+                        </div>
+                    </a>
+                    <a
+                        href="/categories"
+                        class="group p-4 bg-white dark:bg-primary-800 rounded-lg hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors"
+                    >
+                        <div class="text-3xl mb-2 group-hover:text-white">
+                            🗂️
+                        </div>
+                        <div class="font-semibold group-hover:text-white">
+                            Categories
+                        </div>
+                        <div
+                            class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                        >
+                            Find reviews by category
+                        </div>
+                    </a>
+                    <a
+                        href="/about"
+                        class="group p-4 bg-white dark:bg-primary-800 rounded-lg hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors"
+                    >
+                        <div class="text-3xl mb-2 group-hover:text-white">
+                            ℹ️
+                        </div>
+                        <div class="font-semibold group-hover:text-white">
+                            About Us
+                        </div>
+                        <div
+                            class="text-sm text-primary-600 dark:text-primary-400 group-hover:text-white/80"
+                        >
+                            Learn more about HardwareLab
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Popular Categories -->
+            <div class="mb-8">
+                <h3 class="text-lg font-semibold mb-4">
+                    Or browse by category:
+                </h3>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <a
+                        href="/categories/mini-pc"
+                        class="px-4 py-2 bg-primary-200 dark:bg-primary-800 rounded-lg hover:bg-accent-500 hover:text-white dark:hover:bg-accent-600 transition-colors"
+                    >
+                        🖥️ Mini PCs
+                    </a>
+                    <a
+                        href="/categories/consoles"
+                        class="px-4 py-2 bg-primary-200 dark:bg-primary-800 rounded-lg hover:bg-accent-500 hover:text-white dark:hover:bg-accent-600 transition-colors"
+                    >
+                        🎮 Consoles
+                    </a>
+                    <a
+                        href="/categories/nas"
+                        class="px-4 py-2 bg-primary-200 dark:bg-primary-800 rounded-lg hover:bg-accent-500 hover:text-white dark:hover:bg-accent-600 transition-colors"
+                    >
+                        🗄️ NAS
+                    </a>
+                    <a
+                        href="/categories/sbc"
+                        class="px-4 py-2 bg-primary-200 dark:bg-primary-800 rounded-lg hover:bg-accent-500 hover:text-white dark:hover:bg-accent-600 transition-colors"
+                    >
+                        🛠️ SBC
+                    </a>
+                </div>
+            </div>
+
+            <!-- Back Button -->
+            <button
+                onclick="history.back()"
+                class="px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors shadow-lg inline-flex items-center gap-2"
+            >
+                <span>←</span>
+                <span>Go Back</span>
+            </button>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .fade-in {
+        animation: fadeIn 0.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

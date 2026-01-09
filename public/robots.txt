@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (will be updated after domain registration)
+Sitemap: https://hardwarelab.org/sitemap-index.xml

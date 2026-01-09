@@ -1,0 +1,159 @@
+---
+import AffiliateButton from "./AffiliateButton.astro";
+
+interface Props {
+    image: string;
+    imageAlt: string;
+    rating: number;
+    priceCategory: "budget" | "mid" | "high" | "premium";
+    keySpecs: string[];
+    asin: string;
+}
+
+const { image, imageAlt, rating, priceCategory, keySpecs, asin } = Astro.props;
+
+// Price category labels
+const priceCategoryLabels = {
+    budget: {
+        label: "Budget",
+        range: "Under $300",
+        color: "text-green-600 dark:text-green-400",
+    },
+    mid: {
+        label: "Mid-range",
+        range: "$300-$600",
+        color: "text-blue-600 dark:text-blue-400",
+    },
+    high: {
+        label: "High-end",
+        range: "$600-$1200",
+        color: "text-purple-600 dark:text-purple-400",
+    },
+    premium: {
+        label: "Premium",
+        range: "$1200+",
+        color: "text-amber-600 dark:text-amber-400",
+    },
+};
+
+const priceInfo = priceCategoryLabels[priceCategory];
+
+// Generate star rating
+const fullStars = Math.floor(rating);
+const hasHalfStar = rating % 1 >= 0.5;
+const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+---
+
+<div
+    class="review-hero my-8 rounded-2xl overflow-hidden bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900 dark:to-accent-900/30 border border-primary-200 dark:border-primary-800"
+>
+    <div class="grid md:grid-cols-2 gap-8 p-8">
+        <!-- Image Section -->
+        <div class="flex items-center justify-center">
+            <div class="relative group">
+                <img
+                    src={image}
+                    alt={imageAlt}
+                    class="rounded-xl shadow-2xl w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div
+                    class="absolute inset-0 rounded-xl bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                >
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="flex flex-col justify-center space-y-6">
+            <!-- Rating -->
+            <div class="flex items-center gap-3">
+                <div class="flex items-center gap-1 text-2xl">
+                    {
+                        Array.from({ length: fullStars }).map(() => (
+                            <span class="text-amber-500">★</span>
+                        ))
+                    }
+                    {hasHalfStar && <span class="text-amber-500">★</span>}
+                    {
+                        Array.from({ length: emptyStars }).map(() => (
+                            <span class="text-primary-300 dark:text-primary-700">
+                                ☆
+                            </span>
+                        ))
+                    }
+                </div>
+                <span
+                    class="text-xl font-semibold text-primary-700 dark:text-primary-300"
+                >
+                    {rating.toFixed(1)}/5
+                </span>
+            </div>
+
+            <!-- Price Category -->
+            <div class="flex items-center gap-3">
+                <div
+                    class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white dark:bg-primary-800 border border-primary-200 dark:border-primary-700"
+                >
+                    <span class="text-2xl">💰</span>
+                    <div>
+                        <div class={`font-bold ${priceInfo.color}`}>
+                            {priceInfo.label}
+                        </div>
+                        <div
+                            class="text-sm text-primary-600 dark:text-primary-400"
+                        >
+                            {priceInfo.range}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Specs -->
+            <div class="space-y-3">
+                <h3
+                    class="text-lg font-bold text-primary-900 dark:text-primary-100 flex items-center gap-2"
+                >
+                    <span class="text-xl">⚡</span>
+                    Key Specifications
+                </h3>
+                <ul class="space-y-2">
+                    {
+                        keySpecs.map((spec) => (
+                            <li class="flex items-start gap-2 text-primary-700 dark:text-primary-300">
+                                <span class="text-accent-600 dark:text-accent-400 mt-1">
+                                    ▸
+                                </span>
+                                <span>{spec}</span>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="pt-4">
+                <AffiliateButton
+                    asin={asin}
+                    label="Check Current Price on Amazon"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .review-hero {
+        animation: fadeInUp 0.6s ease-out;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

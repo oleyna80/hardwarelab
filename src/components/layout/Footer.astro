@@ -1,0 +1,80 @@
+---
+import { t } from "../../utils/i18n";
+
+export interface Props {
+  lang?: "en" | "fr" | "ru" | "de";
+}
+
+const { lang = "en" } = Astro.props;
+---
+
+<footer
+  class="border-t border-primary-200 dark:border-primary-800 bg-primary-100 dark:bg-primary-900 py-8"
+>
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-bold mb-4">{t("siteName", lang)}</h3>
+        <p class="text-primary-600 dark:text-primary-400">
+          {t("siteDescription", lang)}
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-4">{t("sections", lang)}</h4>
+        <ul class="space-y-2">
+          <li>
+            <a href="/reviews" class="hover:text-accent-600 transition-colors"
+              >{t("allReviews", lang)}</a
+            >
+          </li>
+          <li>
+            <a
+              href="/categories/cpu"
+              class="hover:text-accent-600 transition-colors"
+              >{t("cpus", lang)}</a
+            >
+          </li>
+          <li>
+            <a
+              href="/categories/gpu"
+              class="hover:text-accent-600 transition-colors"
+              >{t("gpus", lang)}</a
+            >
+          </li>
+          <li>
+            <a
+              href="/categories/ram"
+              class="hover:text-accent-600 transition-colors"
+              >{t("ram", lang)}</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-4">{t("contact", lang)}</h4>
+        <p class="text-primary-600 dark:text-primary-400">
+          {t("contactDescription", lang)}
+          <br />
+          <a
+            href="mailto:contact@hardwarelab.example.com"
+            class="text-accent-600 hover:underline"
+          >
+            contact@hardwarelab.example.com
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="mt-8 pt-8 border-t border-primary-300 dark:border-primary-700 text-center text-primary-500 dark:text-primary-400"
+    >
+      <p set:html={t("copyright", lang)} />
+      <p class="text-sm mt-2" set:html={t("disclosure", lang)} />
+      <p class="text-xs mt-2 text-primary-400 dark:text-primary-500">
+        {t("amazonDisclosure", lang)}
+      </p>
+    </div>
+  </div>
+</footer>

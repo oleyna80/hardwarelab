@@ -1,0 +1,152 @@
+---
+interface Props {
+    pros: string[];
+    cons: string[];
+}
+
+const {
+    pros = [],
+    cons = [],
+} = Astro.props;
+
+// Двухколоночный грид с стеком на мобильных
+const gridClass = 'grid grid-cols-1 md:grid-cols-2 gap-6';
+---
+
+<section 
+    class="pros-cons-section"
+    aria-labelledby="pros-cons-title"
+    role="region"
+>
+    <h2 
+        id="pros-cons-title" 
+        class="sr-only"
+    >
+        Pros and Cons
+    </h2>
+    
+    <div class={gridClass}>
+        {/* Pros column */}
+        <div
+            class="rounded-xl border-2 border-green-200 dark:border-green-800 bg-green-50/50 dark:bg-green-900/10 p-6"
+            role="complementary"
+            aria-label="Pros"
+        >
+            <div class="flex items-center mb-4">
+                <div class="mr-3 p-2 rounded-full bg-green-100 dark:bg-green-900/30">
+                    <svg
+                        class="w-5 h-5 text-green-600 dark:text-green-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 13l4 4L19 7"
+                        />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-green-800 dark:text-green-300">
+                    Pros
+                </h3>
+                <span class="ml-3 px-2.5 py-0.5 rounded-full text-sm font-medium bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300">
+                    {pros.length}
+                </span>
+            </div>
+            
+            <ul class="space-y-3" role="list">
+                {pros.map((item, index) => (
+                    <li
+                        key={index}
+                        class="flex items-start"
+                        role="listitem"
+                    >
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 dark:bg-green-900/50 text-green-600 dark:text-green-400 flex items-center justify-center mr-3 mt-0.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </span>
+                        <span class="text-primary-800 dark:text-primary-200">
+                            {item}
+                        </span>
+                    </li>
+                ))}
+                
+                {pros.length === 0 && (
+                    <li class="text-primary-500 dark:text-primary-400 italic">
+                        No pros listed
+                    </li>
+                )}
+            </ul>
+        </div>
+        
+        {/* Cons column */}
+        <div
+            class="rounded-xl border-2 border-red-200 dark:border-red-800 bg-red-50/50 dark:bg-red-900/10 p-6"
+            role="complementary"
+            aria-label="Cons"
+        >
+            <div class="flex items-center mb-4">
+                <div class="mr-3 p-2 rounded-full bg-red-100 dark:bg-red-900/30">
+                    <svg
+                        class="w-5 h-5 text-red-600 dark:text-red-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-red-800 dark:text-red-300">
+                    Cons
+                </h3>
+                <span class="ml-3 px-2.5 py-0.5 rounded-full text-sm font-medium bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300">
+                    {cons.length}
+                </span>
+            </div>
+            
+            <ul class="space-y-3" role="list">
+                {cons.map((item, index) => (
+                    <li
+                        key={index}
+                        class="flex items-start"
+                        role="listitem"
+                    >
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 dark:bg-red-900/50 text-red-600 dark:text-red-400 flex items-center justify-center mr-3 mt-0.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </span>
+                        <span class="text-primary-800 dark:text-primary-200">
+                            {item}
+                        </span>
+                    </li>
+                ))}
+                
+                {cons.length === 0 && (
+                    <li class="text-primary-500 dark:text-primary-400 italic">
+                        No cons listed
+                    </li>
+                )}
+            </ul>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Упрощенные стили для адаптивности */
+    @media (max-width: 768px) {
+        .grid-cols-1.md\:grid-cols-2 {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

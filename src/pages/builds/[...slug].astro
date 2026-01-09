@@ -1,0 +1,98 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import BuildHero from "@/components/ui/BuildHero.astro";
+import ComponentsGrid from "@/components/ui/ComponentsGrid.astro";
+import ShareButtons from "@/components/ui/ShareButtons.astro";
+
+export async function getStaticPaths() {
+    const reviews = await getCollection("reviews");
+
+    // Filter for build reviews only
+    const buildReviews = reviews.filter(
+        (review) => review.data.reviewType === "build",
+    );
+
+    // Support localization (filtering by locale if necessary in future, currently assuming slug handles it)
+    // Logic mirrors standard review page but filters by type
+    return buildReviews.map((review) => {
+        // Handling slugs like 'en/build-name', 'de/build-name'
+        const cleanSlug = review.slug.split("/").pop() ?? review.slug;
+        return {
+            params: { slug: cleanSlug },
+            props: { review },
+        };
+    });
+}
+
+const { review } = Astro.props;
+const { Content } = await review.render();
+const frontmatter = review.data;
+
+// Calculate total price if not provided explicitly but components exist
+const calculatedPrice = frontmatter.buildComponents?.reduce(
+    (acc, curr) => acc + (curr.price || 0),
+    0,
+);
+const displayPrice = frontmatter.buildComponents?.[0]?.price
+    ? calculatedPrice
+    : undefined; // Only show if we have pricing data
+---
+
+<Layout title={frontmatter.title} description={frontmatter.description}>
+    <article class="max-w-5xl mx-auto px-4 py-8">
+        <BuildHero
+            title={frontmatter.title}
+            description={frontmatter.description}
+            image={frontmatter.heroImage}
+            rating={frontmatter.rating}
+            totalPrice={displayPrice}
+        />
+
+        <div class="grid lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2">
+                {
+                    frontmatter.buildComponents && (
+                        <ComponentsGrid
+                            components={frontmatter.buildComponents}
+                        />
+                    )
+                }
+
+                {/* Main Content */}
+                <div class="prose prose-lg dark:prose-invert max-w-none mt-8">
+                    <Content />
+                </div>
+            </div>
+
+            <div class="lg:col-span-1">
+                <div class="sticky top-24 space-y-8">
+                    <div
+                        class="bg-zinc-900 border border-zinc-800 p-6 rounded-xl"
+                    >
+                        <h3 class="font-bold text-lg mb-4 text-white">
+                            Why this build?
+                        </h3>
+                        <ul class="space-y-3">
+                            {
+                                frontmatter.pros?.map((pro) => (
+                                    <li class="flex items-start gap-2 text-zinc-300 text-sm">
+                                        <span class="text-green-400 mt-1">
+                                            ✓
+                                        </span>
+                                        {pro}
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+
+                    <ShareButtons
+                        title={frontmatter.title}
+                        description={frontmatter.description}
+                    />
+                </div>
+            </div>
+        </div>
+    </article>
+</Layout>

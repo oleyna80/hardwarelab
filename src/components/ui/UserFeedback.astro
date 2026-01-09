@@ -1,0 +1,51 @@
+---
+interface Props {
+    feedback: {
+        user: string; // Например "Reddit User (r/homelab)" или "Amazon Purchaser"
+        comment: string;
+        sentiment: "positive" | "negative" | "neutral";
+    }[];
+}
+
+const { feedback } = Astro.props;
+
+const icons = {
+    positive: "👍",
+    negative: "⚠️",
+    neutral: "ℹ️",
+};
+
+const bgColors = {
+    positive:
+        "bg-green-50 dark:bg-green-900/20 border-green-100 dark:border-green-800",
+    negative: "bg-red-50 dark:bg-red-900/20 border-red-100 dark:border-red-800",
+    neutral:
+        "bg-blue-50 dark:bg-blue-900/20 border-blue-100 dark:border-blue-800",
+};
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose">
+    {
+        feedback.map((item) => (
+            <div
+                class={`p-4 rounded-lg border ${bgColors[item.sentiment]} shadow-sm`}
+            >
+                <div class="flex items-center gap-2 mb-2">
+                    <span
+                        class="text-xl"
+                        role="img"
+                        aria-label={item.sentiment}
+                    >
+                        {icons[item.sentiment]}
+                    </span>
+                    <span class="text-xs font-bold uppercase tracking-wider opacity-70">
+                        {item.user}
+                    </span>
+                </div>
+                <p class="text-sm italic text-zinc-700 dark:text-zinc-300">
+                    "{item.comment}"
+                </p>
+            </div>
+        ))
+    }
+</div>
