@@ -25,6 +25,11 @@ npm run dev          # Start dev server at localhost:4321
 docker compose up -d --build   # Build and run at port 8081
 ```
 
+### Release Preflight
+```bash
+npm run check:ci
+```
+
 ## 🌐 Domains & Ports
 
 | Environment | URL |
@@ -62,7 +67,7 @@ Supported languages: **English** (default), **French**, **Russian**, **German**
 | Route | File | Description |
 |-------|------|-------------|
 | `/` | `src/pages/index.astro` | Homepage (EN) |
-| `/fr/`, `/ru/`, `/de/` | `src/pages/[lang]/index.astro` | Localized homepages |
+| `/fr/`, `/ru/`, `/de/` | `src/pages/{fr,ru,de}/index.astro` | Localized homepages |
 | `/reviews/*` | `src/pages/reviews/[...slug].astro` | Product reviews |
 | `/builds/*` | `src/pages/builds/[...slug].astro` | Build reviews |
 | `/categories/*` | `src/pages/categories/[category].astro` | Category pages |
@@ -97,8 +102,7 @@ pages/* ──imports──→ layouts/Layout.astro
 src/
 ├── components/
 │   ├── layout/     # Header, Footer, Hero
-│   ├── ui/         # Buttons, Cards, Badges
-│   ├── reviews/    # ReviewHero, ProductHeader
+│   ├── ui/         # Buttons, Cards, Review UI
 │   └── head/       # SEO.astro
 ├── content/        # MDX reviews by language
 ├── layouts/        # Page templates
@@ -113,13 +117,34 @@ src/
 | Command | Action |
 |---------|--------|
 | `npm run dev` | Start dev server |
+| `npm run check:types` | Run Astro type checks |
+| `npm run check:ci` | Full release gate: lint + types + build + affiliate + e2e |
 | `npm run build` | Build for production |
 | `npm run preview` | Preview production build |
 | `npm run check:affiliate` | Validate affiliate links |
+| `npm run lint:agent-docs` | Validate agent and memory-bank docs |
+| `npm run lint:agent-roles` | Validate lean role set and legacy alias integrity |
+| `npm run lint:agent-skills` | Validate agent skill frontmatter, links, and placeholders |
+| `npm run check:review-package -- <slug>` | Smoke-check EN/RU/DE/FR review package integrity |
 | `npm run test:e2e` | Run Playwright tests |
+
+## GitHub & VPS Deployment
+
+- CI workflow: `.github/workflows/ci.yml`
+- Docker publish workflow (GHCR): `.github/workflows/docker-publish.yml`
+- Manual VPS deploy workflow: `.github/workflows/deploy-vps.yml`
+- VPS compose file: `docker-compose.vps.yml`
+- VPS env template: `.env.vps.example`
+- Full runbook: `docs/deployment/github-vps.md`
 
 ## 📚 Documentation
 
 - **AI Agents**: Start with [.memory_bank/activeContext.md](.memory_bank/activeContext.md)
+- **Roadmap**: [.memory_bank/roadmap.md](.memory_bank/roadmap.md)
+- **KPI Framework**: [.memory_bank/kpi-framework.md](.memory_bank/kpi-framework.md)
+- **Agent Contract**: [.agent/AGENT_CONTRACT.md](.agent/AGENT_CONTRACT.md)
+- **Task Routing**: [.agent/workflows/task-routing.md](.agent/workflows/task-routing.md)
+- **Pre-publish Compliance Gate**: [.agent/workflows/prepublish-affiliate-gate.md](.agent/workflows/prepublish-affiliate-gate.md)
+- **Role Templates**: [.agent/templates/](.agent/templates/)
 - **Workflows**: See [.agent/workflows/](.agent/workflows/)
 - **Component Guide**: [.agent/workflows/component-development.md](.agent/workflows/component-development.md)
