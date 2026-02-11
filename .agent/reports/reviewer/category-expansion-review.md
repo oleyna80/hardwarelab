@@ -7,7 +7,7 @@
 ### 1. Codebase Integrity
 - [x] Check `src/content/config.ts` for any breaking changes to the existing schema (should be none).
   - ✅ **Verified**: All new fields (`reviewType`, `category`, `buildComponents`, specialized specs) are optional or have default values
-  - ✅ **No breaking changes**: Existing 11 reviews work without modifications
+  - ✅ **No breaking changes**: Existing reviews work without modifications
 - [x] Verify `npm run build` passes on your environment.
   - ✅ **Build Status**: Passed successfully (Exit code 0, 28 pages built)
 
@@ -32,7 +32,7 @@
   - ℹ️ **Not tested**: No build-type reviews exist yet in the content directory
 
 ### 3. Content Generation
-- [ ] Test the new `prompts/review-generator.md` by generating a sample "AI Workstation Build".
+- [ ] Test `prompts/master_prompt_v_1_3_0.md` (+ `prompts/review-workflow-two-pass.md`) by generating a sample "AI Workstation" build review.
 - [ ] Ensure the AI correctly populates `buildComponents` and `aiPerformance` fields.
 
 ### 4. Internationalization

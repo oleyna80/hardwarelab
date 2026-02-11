@@ -14,16 +14,16 @@ Amazon Associates Program has strict rules. **Violation can result in account te
 Every page with affiliate links MUST include:
 
 **English:**
-> "As an Amazon Associate, I earn from qualifying purchases."
+> "As an Amazon Associate, we earn from qualifying purchases."
 
 **French:**
-> "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
+> "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises."
 
 **German:**
-> "Als Amazon-Partner verdiene ich an qualifizierten Verkäufen."
+> "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
 
 **Russian:**
-> "Как партнер Amazon, я зарабатываю на соответствующих покупках."
+> "Как партнер Amazon, мы зарабатываем на соответствующих покупках."
 
 ### Placement Rules
 1. **Above the fold** - Visible without scrolling
@@ -36,10 +36,10 @@ Every page with affiliate links MUST include:
 <!-- In Footer.astro or review pages -->
 <div class="affiliate-disclosure bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg p-4 my-6">
   <p class="text-sm text-amber-900 dark:text-amber-100">
-    {lang === 'en' && "As an Amazon Associate, I earn from qualifying purchases."}
-    {lang === 'fr' && "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."}
-    {lang === 'de' && "Als Amazon-Partner verdiene ich an qualifizierten Verkäufen."}
-    {lang === 'ru' && "Как партнер Amazon, я зарабатываю на соответствующих покупках."}
+    {lang === 'en' && "As an Amazon Associate, we earn from qualifying purchases."}
+    {lang === 'fr' && "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises."}
+    {lang === 'de' && "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."}
+    {lang === 'ru' && "Как партнер Amazon, мы зарабатываем на соответствующих покупках."}
   </p>
 </div>
 ```
@@ -186,6 +186,10 @@ Before publishing any review:
 - [ ] Links tested and working
 - [ ] Correct regional tag for language version
 
+Canonical execution workflow for this checklist:
+- `.agent/workflows/prepublish-affiliate-gate.md`
+- Report template: `.agent/reports/compliance/_template.md`
+
 ## 9. Monitoring & Maintenance
 
 ### Monthly Tasks:
@@ -262,12 +266,12 @@ If targeting EU users:
 ## 13. Automated Compliance Checking
 
 ### Script: Check Affiliate Links
-Create `scripts/check-affiliate-links.js`:
+Create `.agent/skills/scripts/check-affiliate-links.js`:
 ```javascript
 #!/usr/bin/env node
 /**
  * Checks all HTML files for Amazon affiliate link compliance
- * Run: node scripts/check-affiliate-links.js
+ * Run: node .agent/skills/scripts/check-affiliate-links.js
  */
 const fs = require('fs');
 const path = require('path');
@@ -341,7 +345,7 @@ checkCompliance();
 ```json
 {
   "scripts": {
-    "check:affiliate": "npm run build && node scripts/check-affiliate-links.js"
+    "check:affiliate": "npm run build && node .agent/skills/scripts/check-affiliate-links.js"
   }
 }
 ```
@@ -355,113 +359,17 @@ npm run check:affiliate
 
 ## 14. Compliance Component Template
 
-### AffiliateDisclosure.astro
-Create `src/components/ui/AffiliateDisclosure.astro`:
-```astro
----
-interface Props {
-  lang?: 'en' | 'fr' | 'de' | 'ru';
-  variant?: 'inline' | 'banner' | 'footer';
-  className?: string;
-}
+### Current implementation (already in this repo)
 
-const { lang = 'en', variant = 'inline', className = '' } = Astro.props;
+- **Affiliate links**: use `src/components/ui/AffiliateButton.astro` (already sets `rel="nofollow sponsored noopener noreferrer"` + `target="_blank"`).
+- **Affiliate tag + domain**: configured via `src/config.ts` using:
+  - `PUBLIC_AMAZON_TAG_US`
+  - `PUBLIC_AMAZON_TAG_DE`
+  - `PUBLIC_AMAZON_TAG_FR`
+- **Disclosure**: add a visible disclosure line in the review MDX before/near the first affiliate CTA, e.g.:
+  - `> **Disclosure:** As an Amazon Associate, we earn from qualifying purchases.`
 
-const disclosures = {
-  en: 'As an Amazon Associate, I earn from qualifying purchases.',
-  fr: 'En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.',
-  de: 'Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.',
-  ru: 'Как партнер Amazon, я зарабатываю на соответствующих покупках.'
-};
-
-const text = disclosures[lang] || disclosures.en;
-
-const variantClasses = {
-  inline: 'text-sm text-zinc-600 dark:text-zinc-400 italic',
-  banner: 'bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg p-4 text-sm text-amber-900 dark:text-amber-100',
-  footer: 'text-xs text-zinc-500 dark:text-zinc-500'
-};
----
-
-<div 
-  class:list={[variantClasses[variant], className]}
-  role="note"
-  aria-label="Affiliate disclosure"
->
-  {text}
-</div>
-```
-
-### CompliantAffiliateLink.astro
-Create `src/components/ui/CompliantAffiliateLink.astro`:
-```astro
----
-interface Props {
-  asin: string;
-  region?: 'us' | 'de' | 'fr' | 'uk';
-  label: string;
-  className?: string;
-}
-
-const { asin, region = 'us', label, className = '' } = Astro.props;
-
-const domains = {
-  us: 'amazon.com',
-  de: 'amazon.de',
-  fr: 'amazon.fr',
-  uk: 'amazon.co.uk'
-};
-
-const tags = {
-  us: import.meta.env.AMAZON_TAG_US || 'yourtag-20',
-  de: import.meta.env.AMAZON_TAG_DE || 'yourtag-03',
-  fr: import.meta.env.AMAZON_TAG_FR || 'yourtag-21',
-  uk: import.meta.env.AMAZON_TAG_UK || 'yourtag-21'
-};
-
-const url = `https://www.${domains[region]}/dp/${asin}?tag=${tags[region]}`;
----
-
-<a 
-  href={url}
-  rel="nofollow sponsored"
-  target="_blank"
-  class:list={[
-    'inline-flex items-center gap-2 px-4 py-2 rounded-lg',
-    'bg-amber-500 hover:bg-amber-600 text-white font-medium',
-    'transition-colors',
-    className
-  ]}
-  data-asin={asin}
-  data-region={region}
->
-  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.493.126.112.18.032.36-.193.54-.534.435-1.5.979-2.896 1.634-1.71.803-3.552 1.365-5.525 1.685-1.973.32-3.91.32-5.813 0-1.903-.32-3.69-.826-5.36-1.517-1.67-.69-3.07-1.468-4.2-2.333-.275-.218-.35-.416-.18-.614z"/>
-  </svg>
-  {label}
-</a>
-```
-
-### Usage Example
-```astro
----
-import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure.astro';
-import CompliantAffiliateLink from '@/components/ui/CompliantAffiliateLink.astro';
----
-
-<!-- At top of review (above the fold) -->
-<AffiliateDisclosure lang="en" variant="banner" />
-
-<!-- Product link -->
-<CompliantAffiliateLink 
-  asin="B0XXXXXXX" 
-  region="us" 
-  label="Check Price on Amazon" 
-/>
-
-<!-- In footer -->
-<AffiliateDisclosure lang="en" variant="footer" />
-```
+> Note: This workflow previously included templates for `AffiliateDisclosure.astro` / `CompliantAffiliateLink.astro` and `AMAZON_TAG_US` env vars. Those are **not used** in the current codebase.
 
 ---
 
@@ -637,4 +545,3 @@ compliance:
 ---
 
 **⚠️ This guide is for reference only. Always check the official Amazon Associates Operating Agreement for the most current requirements.**
-

@@ -1,14 +1,14 @@
 ---
 title: "Synology DS923+ Review: Expandable 4-Bay NAS for SMB"
 description: "Synology DS923+ review: 4-bay NAS with DSM, Btrfs snapshots, NVMe cache/storage, and optional 10GbE. Strong for file sharing, backups, sync, and SMB homelabs."
-amazonAsin: "B0BM7KDN6R"
+asin: "B0BM7KDN6R"
 rating: 4.4
 priceCategory: "high"
-heroImage: "/images/synology-ds923-plus.png"
+heroImage: "./image.webp"
 heroImageAlt: "Synology DS923+ 4-bay NAS on a desk with drive trays and rear 2x1GbE ports, ready for optional 10GbE module"
+category: "nas"
 pubDate: 2026-01-05
 lastUpdated: 2026-01-05
-ogImage: "/images/og/synology-ds923.png"
 ogType: "article"
 tags:
   - "nas"
@@ -23,9 +23,10 @@ import ProsCons from '@/components/ui/ProsCons.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 import ReviewHero from '@/components/ui/ReviewHero.astro';
+import heroImg from './image.webp';
 
 <ReviewHero 
-  image={frontmatter.heroImage}
+  image={heroImg}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
@@ -36,7 +37,7 @@ import ReviewHero from '@/components/ui/ReviewHero.astro';
     "2 × M.2 NVMe (cache or storage)",
     "Dual 1GbE + optional 10GbE module"
   ]}
-  asin={frontmatter.amazonAsin}
+  asin={frontmatter.asin}
 />
 
 ## Synology DS923+ at a glance
@@ -45,7 +46,7 @@ The **Synology DS923+** is a 4-bay NAS aimed at home offices and small businesse
 
 > **Disclosure:** As an Amazon Associate, we earn from qualifying purchases made through links on this page. This comes at no additional cost to you.
 
-<AffiliateButton asin={frontmatter.amazonAsin} label="Check Price on Amazon" />
+<AffiliateButton asin={frontmatter.asin} label="Check Price on Amazon" />
 
 <SpecGrid specs={{
   "CPU": "AMD Ryzen R1600 (2-core / 4-thread, up to 3.1GHz boost)",
@@ -155,13 +156,8 @@ For a small business or a “single admin” homelab, the operational simplicity
 
 ## Related Reviews
 
-Looking for alternatives or upgrades? Check these out:
-- **[Synology DS423+ Review](/reviews/synology-ds423-plus-review)** - Better fit if you want a NAS that doubles as a Plex appliance.
-- **[Synology DS1522+ Review](/reviews/synology-ds1522-plus-review)** - 5-bay option with more growth headroom.
-- **[QNAP TS-464 Review](/reviews/qnap-ts-464-review)** - A popular cross-shop choice for media-heavy workloads.
-- **[Synology DX517 Expansion Review](/reviews/synology-dx517-review)** - Add five more bays without replacing your NAS.
-- **[Synology E10G22-T1-Mini Review](/reviews/synology-e10g22-t1-mini-review)** - The clean 10GbE upgrade path for DS923+.
+- [Synology DS423+ Review: A 4-Bay Plex NAS That Works](/reviews/synology-ds423-plus) - Better fit if you want a NAS that doubles as a Plex appliance.
+- [UGREEN NASync DXP4800 Plus Review: 10GbE 4-Bay NAS](/reviews/ugreen-nasync-dxp4800-plus-4-bay)
+- [QNAP TR-004 Review: 4-Bay USB-C Hardware RAID Enclosure](/reviews/qnap-tr-004-4-bay-usb) (Draft)
 
-{/* TODO: Verify review URLs exist */}
-
-<AffiliateButton asin={frontmatter.amazonAsin} label="View on Amazon" />
+<AffiliateButton asin={frontmatter.asin} label="View on Amazon" />

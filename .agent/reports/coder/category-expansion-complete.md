@@ -27,7 +27,7 @@ Successfully expanded the HardwareLab codebase to support 7 new categories (Gami
 - Updated `src/components/layout/Header.astro` to include navigation links for Gaming, Monitors, and AI.
 
 ### 4. AI Tooling
-- Updated `prompts/review-generator.md` to support generating content for the new schema and component set.
+- AI tooling is expected to use `prompts/master_prompt_v_1_3_0.md` (source of truth) and `prompts/review-workflow-two-pass.md`.
 
 ## Verification
 - **Build:** `npm run build` completed successfully (Exit code 0).

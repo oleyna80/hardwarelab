@@ -1,42 +1,66 @@
 ---
-description: Complete workflow for creating product reviews
+description: Lean workflow for creating product reviews
 ---
 
-# Review Creation: Full Workflow
-## Phase 1: Research (20 min)
-// turbo
-1. Use browser to research product specs on manufacturer site
-2. Check Amazon page for target region (get ASIN)
-3. Search Reddit for user feedback (r/homelab, r/buildapc)
-4. Find 3 distinct user opinions (1 positive, 1 negative, 1 neutral)
-5. Verify current pricing
-## Phase 2: Content Generation (15 min)
-1. Use prompts/review-generator.md as base
-2. Fill frontmatter with researched data
-3. Write intro (2-3 paragraphs)
-4. Add SpecGrid component
-5. Write performance section with real data
-6. Add UserFeedback component with quotes
-7. Write verdict
-8. Add ProsCons component
-9. Add AffiliateButton
-## Phase 3: Assets (10 min)
-1. Download product image or generate with AI
-2. Optimize image: `npx @squoosh/cli --webp -q 85 image.jpg`
-3. Save to public/images/[product-slug].jpg
-4. Add heroImage to frontmatter
-## Phase 4: SEO Optimization (10 min)
-1. Verify title < 60 chars, includes keyword
-2. Verify description 150-160 chars
-3. Add 3-5 relevant tags
-4. Check internal links to related reviews
-5. Verify affiliate disclosure present
-## Phase 5: Quality Check (10 min)
-// turbo
-1. Run dev server: `npm run dev`
-2. Preview page in browser
-3. Test affiliate links (hover, don't click own links!)
-4. Check mobile responsiveness
-5. Verify dark mode
-6. Run Lighthouse audit
-Total time: ~65 min per review
+# Review Creation: Lean Pipeline
+
+`Last validated: 2026-02-08`
+
+This is the default content pipeline for HardwareLab.
+
+## Roles In Order
+
+| # | Role | What it does | Output |
+|---|---|---|---|
+| 1 | `single-researcher` (external) | Web research, ASIN verification, quotes | `_research-pack.md` |
+| 2 | `researcher` (internal) | Writes EN review + self-check + visuals | `index.mdx`, `image.webp`, `og.png` |
+| 3 | `translator` | Creates RU/DE/FR versions | `{ru,de,fr}/<slug>/index.mdx` + copied assets |
+| 4 | `qa` | Final build/compliance/i18n gate | `_qa-report.md` + PASS/FAIL |
+
+## Operating Rule
+
+- Do not add extra roles unless explicitly requested by the user.
+- Deprecated roles are reference-only and not in default handoff.
+
+## Handoff Pattern
+
+Each role prints the next handoff prompt and stops.
+
+Example (to `researcher`):
+
+```text
+NEXT: Researcher (Write + Self-Check + Visuals)
+
+Open `.agent/roles/researcher.md` and follow it strictly.
+
+INPUTS:
+- src/content/reviews/en/<slug>/_research-pack.md
+- prompts/master_prompt_v_1_3_0.md
+- prompts/existing-reviews-hardwarelab.md
+
+WRITE TO:
+- src/content/reviews/en/<slug>/index.mdx
+- src/content/reviews/en/<slug>/image.webp
+- src/content/reviews/en/<slug>/og.png
+
+STOP after writing EN review and assets.
+```
+
+## Quick Start
+
+```text
+1) Run external single-researcher and produce:
+   src/content/reviews/en/<slug>/_research-pack.md
+2) Start internal researcher role.
+3) Start translator role.
+4) Run QA final gate.
+5) Before release, run pre-publish affiliate gate.
+```
+
+## Related
+
+- `.agent/roles/README.md`
+- `.agent/AGENT_CONTRACT.md`
+- `.agent/workflows/amazon-affiliate-compliance.md`
+- `.agent/workflows/prepublish-affiliate-gate.md`
+- `.agent/workflows/review-update.md`

@@ -10,16 +10,24 @@ export const SITE_DOMAIN = import.meta.env.PUBLIC_SITE_DOMAIN || 'https://hardwa
 
 // Amazon Affiliate Configuration
 export const AMAZON_CONFIG = {
-    // Replace with your Amazon Affiliate Tag after approval
-    affiliateTag: import.meta.env.PUBLIC_AMAZON_AFFILIATE_TAG || 'YOUR_AMAZON_TAG-20',
+    // Regional domains
+    domains: {
+        us: 'amazon.com',
+        de: 'amazon.de',
+        fr: 'amazon.fr',
+    } as Record<string, string>,
 
-    // Amazon domain by country (default: US)
-    domain: import.meta.env.PUBLIC_AMAZON_DOMAIN || 'amazon.com',
+    // Regional affiliate tags
+    tags: {
+        us: import.meta.env.PUBLIC_AMAZON_TAG_US || 'YOUR_TAG-20',
+        de: import.meta.env.PUBLIC_AMAZON_TAG_DE || 'YOUR_TAG-03',
+        fr: import.meta.env.PUBLIC_AMAZON_TAG_FR || 'YOUR_TAG-21',
+    } as Record<string, string>,
 
-    // Associate link structure
-    getAffiliateLink: (asin: string) => {
-        const tag = AMAZON_CONFIG.affiliateTag;
-        const domain = AMAZON_CONFIG.domain;
+    // Build affiliate link for a specific region
+    getAffiliateLink: (asin: string, region: string = 'us'): string => {
+        const domain = AMAZON_CONFIG.domains[region] || AMAZON_CONFIG.domains.us;
+        const tag = AMAZON_CONFIG.tags[region] || AMAZON_CONFIG.tags.us;
         return `https://www.${domain}/dp/${asin}?tag=${tag}`;
     }
 };

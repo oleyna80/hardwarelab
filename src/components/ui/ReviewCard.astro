@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import type { Language } from "@/utils/i18n";
+import { Image } from "astro:assets";
 
 interface Props {
     review: CollectionEntry<"reviews">;
@@ -13,7 +14,7 @@ const { title, description, pubDate, heroImage, rating, priceCategory } =
 
 // Generate URL (clean up 'en/' prefix if present)
 const cleanSlug = review.slug.split("/").pop() ?? review.slug;
-const reviewUrl = `/reviews/${cleanSlug}`;
+const reviewUrl = `/${lang === "en" ? "" : lang + "/"}reviews/${cleanSlug}`;
 
 // Format date (Dynamic locale based on content could be better, but keeping simple for now)
 const localeMap: Record<Language, string> = {
@@ -56,12 +57,20 @@ const priceCategoryColors: Record<string, string> = {
     >
         {
             heroImage ? (
-                <img
-                    src={heroImage}
-                    alt={title}
-                    class="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                />
+                typeof heroImage === "string" ? (
+                    <img
+                        src={heroImage}
+                        alt={title}
+                        class="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                    />
+                ) : (
+                    <Image
+                        src={heroImage}
+                        alt={title}
+                        class="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                )
             ) : (
                 <div class="w-full h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-500 group-hover:scale-110 transition-transform duration-500" />
             )

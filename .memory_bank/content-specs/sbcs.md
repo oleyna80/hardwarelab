@@ -1,7 +1,7 @@
 # SBCs — Content Specs
 
 ## Category Info
-- **Slug**: `sbcs`
+- **Slug**: `sbc`
 - **Target**: Single-Board Computers (Raspberry Pi, Orange Pi, Odroid)
 
 ## Required Specs
@@ -38,7 +38,7 @@
 
 ```yaml
 title: "Orange Pi 5 Plus Review"
-category: "sbcs"
+category: "sbc"
 specs:
   cpu: "Rockchip RK3588 (8-core)"
   ram: "16GB LPDDR4X"
@@ -49,6 +49,9 @@ specs:
   npu: "6 TOPS"
   pcie: "PCIe 3.0 x4"
   m2Slot: true
+tags:
+  - "sbc"
+  - "orange-pi-5-plus"
 ```
 
 ## Checklist

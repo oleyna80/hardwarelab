@@ -7,7 +7,7 @@
 | Template | File | Purpose |
 |----------|------|---------|
 | [Review](pages/review-template.md) | `src/pages/reviews/[...slug].astro` | Обзоры продуктов |
-| [Comparison](pages/comparison.md) | `src/pages/comparisons/[...slug].astro` | Сравнения продуктов |
+| [Build](pages/build-template.md) | `src/pages/builds/[...slug].astro` | Build-обзоры (Multi-ASIN) |
 | [Category](pages/category.md) | `src/pages/categories/[category].astro` | Страницы категорий |
 | [Homepage](pages/homepage.md) | `src/pages/index.astro` | Главная страница |
 
@@ -23,10 +23,10 @@ Frontmatter validated by src/content/config.ts
 
 | Page Type | Key Components |
 |-----------|----------------|
-| Review | ReviewHero, SpecsTable, AffiliateButton, ProsCons |
-| Comparison | ComparisonTable, AffiliateButton |
-| Category | ReviewCard grid, CategoryHero |
-| Homepage | Hero, ReviewBannerCarousel, FeaturedReviews |
+| Review | ProductHeader, ShareButtons, AffiliateButton (sticky) + MDX (ReviewHero, SpecGrid, UserFeedback, ProsCons, AffiliateButton) |
+| Build | BuildHero, ComponentsGrid, ShareButtons + MDX content |
+| Category | ReviewCard grid |
+| Homepage | ReviewBannerCarousel + ReviewCard grid |
 
 ---
 

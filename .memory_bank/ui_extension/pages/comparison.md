@@ -17,7 +17,7 @@
 | `ComparisonTable` | Таблица сравнения specs (TODO) |
 | `ProductCard` × N | Карточки сравниваемых продуктов |
 | `AffiliateButton` × N | Кнопки для каждого продукта |
-| `AffiliateDisclosure` | Disclosure above the fold |
+| Disclosure text | Disclosure above the fold (plain text) |
 | `VerdictSection` | Рекомендация по выбору |
 
 ## Required Frontmatter
@@ -31,7 +31,7 @@ products:
     asin: "B0XXXXXXXX"
   - slug: "product-b"
     asin: "B0YYYYYYYY"
-category: "mini-pcs"
+category: "mini-pc"
 winner: "product-a"  # optional
 ```
 

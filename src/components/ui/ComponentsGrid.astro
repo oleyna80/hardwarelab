@@ -5,9 +5,9 @@ interface BuildComponent {
     name: string;
     asin: string;
     category: string;
-    price?: number;
-    description?: string;
-    alternativeAsin?: string;
+    price?: number | undefined;
+    description?: string | undefined;
+    alternativeAsin?: string | undefined;
 }
 
 interface Props {

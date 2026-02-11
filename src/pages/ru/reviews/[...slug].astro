@@ -1,0 +1,95 @@
+---
+import { getCollection } from "astro:content";
+
+import Layout from "../../../layouts/Layout.astro";
+import ProductHeader from "@/components/ui/ProductHeader.astro";
+import AffiliateButton from "@/components/ui/AffiliateButton.astro";
+import { type Language } from "@/utils/i18n";
+
+const lang: Language = "ru";
+
+export async function getStaticPaths() {
+  const reviews = await getCollection("reviews");
+  const ruReviews = reviews.filter((review) => review.slug.startsWith("ru/"));
+
+  // Генерируем параметры slug как часть после 'ru/'
+  return ruReviews.map((review) => ({
+    params: { slug: review.slug.replace(/^ru\//, "") },
+  }));
+}
+
+const { slug } = Astro.params;
+
+// Получаем все обзоры и находим нужный по slug с префиксом 'ru/'
+const allReviews = await getCollection("reviews");
+
+// slug - массив, берем первый элемент
+const slugString = Array.isArray(slug) ? slug[0] : slug;
+
+const review = allReviews.find((r) => r.slug === `ru/${slugString}`);
+
+if (!review) {
+  return Astro.redirect("/404");
+}
+
+const { Content: ReviewContent } = await review.render();
+const frontmatter = review.data;
+---
+
+<Layout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  image={frontmatter.ogImage || frontmatter.heroImage}
+  article={true}
+  pubDate={frontmatter.pubDate}
+  lang={lang}
+  review={{
+    productName: frontmatter.title,
+    rating: frontmatter.rating,
+    ...(frontmatter.ogImage || frontmatter.heroImage
+      ? { image: frontmatter.ogImage || frontmatter.heroImage }
+      : {}),
+    pubDate: frontmatter.pubDate,
+  }}
+>
+  <article class="max-w-4xl mx-auto px-4 py-8">
+    <ProductHeader
+      title={frontmatter.title}
+      rating={frontmatter.rating}
+      asin={frontmatter.asin}
+      priceCategory={frontmatter.priceCategory}
+      lang={lang}
+    />
+
+    {/* Основной контент */}
+    <div class="prose prose-lg dark:prose-invert max-w-none mt-8">
+      <ReviewContent />
+    </div>
+
+    {/* Аффилированная кнопка (липкая внизу) */}
+    <div class="mt-12 sticky bottom-6 z-10">
+      <div
+        class="bg-primary-900/90 dark:bg-primary-950/90 backdrop-blur-lg rounded-xl p-4 shadow-2xl border border-accent-500/30"
+      >
+        <div
+          class="flex flex-col sm:flex-row items-center justify-between gap-4"
+        >
+          <div class="text-center sm:text-left">
+            <h3 class="font-bold text-lg">Ready to buy?</h3>
+            <p class="text-primary-300 text-sm">
+              Check the latest price on Amazon
+            </p>
+          </div>
+          <AffiliateButton
+            asin={frontmatter.asin || ""}
+            label="Check Price on Amazon"
+            variant="primary"
+            size="lg"
+            icon={true}
+            lang={lang}
+          />
+        </div>
+      </div>
+    </div>
+  </article>
+</Layout>

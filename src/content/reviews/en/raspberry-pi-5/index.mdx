@@ -1,165 +1,117 @@
 ---
-title: "Raspberry Pi 5 (8GB) Review: BCM2712 + RP1, PCIe for NVMe, and a More “PC-like” Pi"
-description: "Technical review of Raspberry Pi 5 8GB: BCM2712 Cortex-A76 performance, RP1 I/O controller, PCIe FFC for NVMe via HATs, thermals/throttling behavior, 27W USB-C PD power requirements, and Raspberry Pi OS Bookworm (Wayland)."
-amazonAsin: "B0CK2FCG1K"
-rating: 4.7
+title: "Raspberry Pi 5 (8GB) Review: Finally Fast Enough, But At What Cost?"
+description: "The Raspberry Pi 5 offers a massive 3x speed boost, PCIe for NVMe, and dual 4K output. But with a $95 price tag and strict power needs, is it still the best choice for your homelab?"
+category: "sbc"
 priceCategory: "budget"
-heroImage: "/images/raspberry-pi-5.jpg"
-pubDate: 2026-01-04
-tags:
-  - "raspberry-pi"
-  - "sbc"
-  - "bcm2712"
-  - "rp1"
-  - "pcie"
+rating: 4.6
+ratingSourceURL: "https://www.amazon.de/dp/B0CK2FCG1K"
+asin: "B0CK2FCG1K"
+heroImage: "./image.webp"
+pubDate: 2026-01-25T14:30:00.000Z
 ---
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 
-import SpecGrid from "@/components/ui/SpecGrid.astro";
-import ProsCons from "@/components/ui/ProsCons.astro";
-import UserFeedback from "@/components/ui/UserFeedback.astro";
-import AffiliateButton from "@/components/ui/AffiliateButton.astro";
+import heroImage from './image.webp';
 
-<AffiliateButton asin={frontmatter.amazonAsin} label="Check Price on Amazon" />
-
-## Executive summary
-
-Raspberry Pi 5 (8GB) is the most meaningful generational jump since the Pi 4 launch: it moves the platform toward a more “PC-like” architecture with a faster CPU (Broadcom BCM2712, quad-core Cortex-A76 @ 2.4GHz), a dedicated I/O controller (RP1), and an official PCIe user port exposed via an FFC/FPC connector for NVMe and other fast peripherals.
-
-The trade-off is also the most “PC-like” pain point: power and thermals matter more than on older Pis. If you want consistent peak performance and stable USB/NVMe behavior, you should treat the official 27W USB-C PD supply and a real cooling solution as baseline accessories rather than optional upgrades.
-
-## Specs and key hardware changes
-
-<SpecGrid
-  specs={{
-    "SoC": "Broadcom BCM2712 (quad-core Arm Cortex-A76 @ 2.4GHz)",
-    "RAM": "8GB LPDDR4X",
-    "I/O Controller": "RP1 (Raspberry Pi-designed southbridge: USB, Ethernet, MIPI, GPIO, legacy I/O)",
-    "PCIe User Port": "PCIe 2.0 x1 via FFC/FPC connector (NVMe via M.2 HAT/baseboards)",
-    "USB": "2× USB 3.0 + 2× USB 2.0 (improved I/O path via RP1)",
-    "Networking": "Gigabit Ethernet + dual-band 802.11ac Wi-Fi + Bluetooth 5/BLE",
-    "Display": "Dual micro-HDMI (up to 4K60)",
-    "Camera/Display I/O": "2× combined CSI/DSI ports (higher-capability MIPI via RP1)",
-    "Power": "USB-C; full peripheral support expects 5.1V/5A (official 27W USB-C PD PSU)",
-    "New Physical Features": "Onboard power button, RTC battery connector, dedicated 4-pin PWM fan header",
-    "Removed": "No 3.5mm A/V jack (use HDMI/USB/Bluetooth for audio; composite via alternate header)"
-  }}
+<ReviewHero
+  image={heroImage}
+  imageAlt="Raspberry Pi 5 Board with Ports"
+  rating={4.6}
+  priceCategory="budget"
+  asin="B0CK2FCG1K"
+  keySpecs={[
+    "Broadcom BCM2712: 4x Cortex-A76 @ 2.4GHz",
+    "8GB LPDDR4X-4267 RAM",
+    "PCIe 2.0 x1 (via FFC connector)",
+    "Dual 4Kp60 micro-HDMI",
+    "5V/5A USB-C Power Delivery"
+  ]}
 />
 
-## BCM2712: the performance jump that makes the Pi feel “modern”
+The Raspberry Pi 5 represents the most significant architectural shift in the platform's history. For years, the Pi was the "good enough" $35 computer. The Pi 5, specifically this 8GB model, abandons "good enough" for genuine desktop-class performance.
 
-Moving to Cortex-A76 at 2.4GHz changes day-to-day usability more than any single bullet point:
-- Faster compilation, faster JS/Node and Python workloads, and better responsiveness under multitasking.
-- A much better “desktop Pi” experience for light dev work, browsing, and office tasks (especially paired with faster storage).
+With a new quad-core Cortex-A76 processor clocked at 2.4GHz and a dedicated RP1 southbridge for I/O, it promises to be 2-3x faster than the Pi 4. But price creep, a finicky power requirement, and the need for add-on HATs for basic features like NVMe storage complicate the value proposition. Does the performance justify the total build cost when cheap x86 Mini PCs exist?
 
-Relative to Pi 4, the jump is most obvious when you run multiple services (containers + databases + monitoring) or when background tasks compete with interactive work.
+## Is It Actually A Desktop Replacement?
 
-## RP1: why Pi 5’s USB and peripherals behave differently
+The jump from the Pi 4's Cortex-A72 to the Pi 5's **Cortex-A76** is massive. In our testing and community benchmarks, UI fluidity in the Raspberry Pi OS is indistinguishable from entry-level x86 desktops for web browsing and light productivity.
 
-RP1 is the architectural headline for Pi 5. Instead of hanging many peripherals off the SoC directly, Raspberry Pi moved most I/O into a dedicated controller:
-- USB (2× USB 3.0 + 2× USB 2.0)
-- Gigabit Ethernet controller
-- Higher-capability MIPI for camera/display
-- GPIO and the usual low-speed interfaces (I2C, SPI, UART, PWM, etc.)
+*   **Crypto & SSL:** The new CPU includes cryptographic extensions, making it a far superior choice for VPN nodes or SSL termination compared to its predecessor.
+*   **YouTube:** The VideoCore VII GPU handles 1080p60 playback smoothly, and 4Kp60 HEVC decoding is solid, though DRM content in browsers can still be hit-or-miss depending on the OS configuration.
 
-Practically, this helps explain why the Pi 5 feels less “I/O constrained” and why USB 3 devices are generally a better experience than on older boards. It’s a more scalable internal layout than previous generations.
+However, heat is the enemy here. Unlike the Pi 4, which could *technically* run passively (albeit hot), the Pi 5 **requires active cooling** for sustained loads. If you push the CPU, it will throttle quickly without the official Active Cooler or a decent third-party case.
 
-## PCIe 2.0 x1 via FFC: NVMe is real, but you need the right hardware
+## The I/O Revolution: PCIe and RP1
 
-Pi 5 exposes a single-lane PCIe 2.0 interface via a small FFC/FPC connector. That is not an M.2 slot by itself; you need an adapter/HAT/baseboard:
-- Official and third-party M.2 solutions exist (top-mounted “HAT”-style boards and bottom-mounted “base” designs).
-- Cable seating and case fit become part of the build quality. Treat it like a small system integration project, not a plug-and-play laptop SSD swap.
+The star of the show isn't just the CPU—it's the **RP1 I/O controller**. By offloading USB and Ethernet traffic to a dedicated southbridge, the Pi 5 eliminates the bandwidth bottlenecks that plagued earlier models. You finally get true, simultaneous USB 3.0 speeds even while hammering the Gigabit Ethernet port.
 
-When it’s done correctly, NVMe transforms the platform:
-- Home Assistant, databases, and container stacks behave far more predictably than on microSD.
-- Media libraries and indexing workloads finish faster and are less likely to stall on storage latency.
+### The PCIe "Slot" Reality
+This is the first flagship Pi to expose a user-accessible **PCIe 2.0 x1** interface.
+*   **The Good:** You can finally connect an NVMe SSD for fast, reliable boot storage, bypassing the unreliable microSD card.
+*   **The Bad:** It's not a standard M.2 slot. It’s a delicate FFC ribbon connector. You **must** buy a separate HAT (Hardware Attached on Top) to mount a drive. This adds bulk and cost ($10-$15 extra) to your build.
 
-## Thermals: is the Active Cooler “mandatory”?
+## Why Is The 5V/5A Power Requirement A Problem?
 
-Not strictly. The Pi 5 will throttle to protect itself when temperatures climb (throttling begins around 80°C and increases at 85°C). In practice:
-- For light duty (headless services with low average CPU), passive cooling can be sufficient depending on case airflow and ambient temperature.
-- For sustained loads (compiling, transcoding, heavy containers, desktop use, or NVMe + USB peripherals), active cooling is strongly recommended to avoid performance oscillation.
+This is the biggest "gotcha" for upgraders. The Pi 5 demands a **5V/5A** USB-C power supply.
 
-A common real-world outcome is: “It works without a cooler, but it stops feeling fast under sustained load.” If you bought Pi 5 for performance, add cooling so you can actually keep that performance.
+Most standard USB-PD chargers (even your fancy 100W laptop brick) will likely negotiate 5V @ 3A. When the Pi 5 detects a 3A supply, it **artificially limits** the current available to the USB ports to 600mA. This means your external hard drives or power-hungry peripherals might randomly disconnect.
 
-## Power requirements: why phone chargers often disappoint
+> **Warning:** To use the Pi 5 to its full potential, you are effectively forced to buy the official Raspberry Pi 27W USB-C Power Supply, further increasing the entry price.
 
-Pi 5 is far more sensitive to the power chain than Pi 4:
-- For full peripheral current budget, the platform is designed around the official 27W USB-C supply (5.1V, 5A) with USB Power Delivery negotiation.
-- Many “good” USB-C chargers provide high wattage at higher voltages (9V/12V/15V/20V) but do not necessarily provide the specific 5V/5A profile the Pi 5 expects.
-- When the Pi detects insufficient supply, it can restrict power to peripherals and throw warnings. This shows up most often when users try to run NVMe + USB 3 storage or power-hungry USB devices without the official PSU.
+## User Feedback: What The Community Says
 
-If you plan a homelab build with NVMe and multiple USB peripherals, budgeting for the official power supply is the most reliable way to avoid low-voltage warnings and flaky behavior.
-
-## Physical quality-of-life upgrades
-
-Pi 5 finally feels like a small computer platform rather than a bare hobby board in several ways:
-- Onboard power button (clean shutdown/restart behavior)
-- RTC battery connector (useful for appliances and offline deployments)
-- Dedicated PWM fan header (proper speed control and less DIY wiring)
-
-## Software: Raspberry Pi OS Bookworm and Wayland by default
-
-Raspberry Pi OS moved to Debian Bookworm and made Wayland the default for the desktop (initially on Pi 4/5, and later across models). The desktop stack is faster and more modern, but there are compatibility edge cases:
-- Some older remote desktop/VNC workflows historically assumed X11 behavior.
-- Many users resolve remote desktop issues by switching from Wayland to X11 (or using alternative servers like TigerVNC / XRDP configurations).
-
-If your Pi is primarily headless, Wayland is mostly irrelevant. If you rely on VNC/remote GUI, expect a small compatibility checklist on initial setup.
-
-## Real-world user feedback (power, heat, NVMe, Wayland)
+Real-world users have mixed feelings about the thermal constraints and the "dongle life" required for NVMe, but praise the raw speed.
 
 <UserFeedback
   feedback={[
     {
-      user: "the_sp3tsnaz (Reddit r/RASPBERRY_PI_PROJECTS)",
+      user: "bobmlord1 (r/raspberry_pi)",
+      sentiment: "neutral",
+      comment: "50-60C is downright cool for almost any CPU. We don't need to be talking about overheating until you're seeing 90C+ If your power supply isn't supplying enough power the chip could be throttling."
+    },
+    {
+      user: "militant_rainbow (r/raspberry_pi)",
+      sentiment: "positive",
+      comment: "The official active cooler is low cost but I think 3rd party cases that include cooling are a better value. You can get passive cases for no noise or cases with active cooling if you’re doing something heavy duty."
+    },
+    {
+      user: "whoisliuxiaobo (r/OrangePI)",
       sentiment: "negative",
-      comment: "First boot worked, then 'low voltage detected' kept appearing and the GUI stopped loading."
+      comment: "Saw the reviews up today for the Raspberry Pi 5 and I was very disappointed. 1) it still uses microsd as boot when the Orange Pi 5 uses nvme as boot. I had constant problems with my media server in raspberry pi 5 with corrupt sd card as boot."
     },
     {
-      user: "SoCalChrisW (Reddit r/raspberry_pi)",
+      user: "alasdairallan (r/raspberry_pi)",
       sentiment: "neutral",
-      comment: "Not using the official power supply… I’m seeing throttling and a warning that 5A isn’t available."
-    },
-    {
-      user: "homeLab32 (Reddit r/raspberry_pi)",
-      sentiment: "negative",
-      comment: "The active cooler started making an aggressive noise even at ~3700 RPM."
-    },
-    {
-      user: "s004aws (Reddit r/raspberry_pi)",
-      sentiment: "neutral",
-      comment: "My NVMe HAT ran 15–20°C warmer. I switched to the Pimoroni NVMe base underneath. Problem solved."
-    },
-    {
-      user: "robinsnest56 (Reddit r/raspberry_pi)",
-      sentiment: "neutral",
-      comment: "Switch Wayland to X11, then try RealVNC."
+      comment: "That's absolutely fine. There is nothing wrong with getting into the 60C, no harm will come to your Pi. It'll thermally throttle the CPU at 85C, but even that is absolutely fine and that's what it's designed to do, nothing to worry about."
     }
   ]}
 />
 
-## Pros and cons
+## Verdict: The Premium Pixel
 
-<ProsCons
-  pros={[
-    "Big real-world performance uplift (Cortex-A76 @ 2.4GHz) that makes Pi 5 feel genuinely fast",
-    "RP1 I/O controller modernizes the platform and improves the overall I/O experience",
-    "First Pi with an official PCIe user port for NVMe-class storage and fast peripherals",
-    "Onboard power button is a major usability upgrade for desktop and appliance builds",
-    "Dedicated fan header + RTC battery connector make it more deployment-friendly"
-  ]}
-  cons={[
-    "For best results you effectively need the official 5.1V/5A (27W) USB-C PD power supply",
-    "Thermals are more demanding than older models; sustained loads benefit from active cooling",
-    "NVMe requires an adapter/HAT and careful mechanical integration (cable, case, clearance)",
-    "Wayland-by-default can complicate some legacy VNC/remote desktop workflows",
-    "No 3.5mm A/V jack: audio/composite setups need different hardware approaches"
-  ]}
+The Raspberry Pi 5 (8GB) is an undeniable engineering triumph, but it sits in an awkward spot. At an MSRP of ~$95—plus the cost of the official PSU, active cooler, case, and NVMe HAT—you are looking at a $150+ project.
+
+At that price point, N100-based Mini PCs offer faster CPUs, better cases, and standard M.2 slots out of the box.
+
+**Buy the Raspberry Pi 5 if:**
+*   You live in the GPIO ecosystem and need HAT compatibility.
+*   You want the best-in-class software support of Raspberry Pi OS.
+*   You are building a cluster or compact homelab node that requires low idle power.
+
+**Skip it if:**
+*   You just want a cheap Plex server or Home Assistant box (get an N100 Mini PC).
+*   You hate proprietary power supplies and ribbon cables.
+
+<AffiliateButton
+  asin="B0CK2FCG1K"
+  label="Check Price on Amazon"
 />
 
-## Verdict
-
-Raspberry Pi 5 (8GB) is the most capable general-purpose Raspberry Pi to date: faster CPU cores, a more scalable I/O architecture (RP1), and a real PCIe expansion path mean it can credibly serve as a compact homelab node, an appliance platform, or a lightweight desktop.
-
-If you buy it like a “board only” Pi 4 replacement and reuse random phone chargers and minimal cooling, you may run into warnings, throttling, and inconsistent peripherals. If you buy it like a tiny computer—proper PSU, appropriate cooling, and (optionally) NVMe—it delivers the smoothest Raspberry Pi experience yet.
-
-<AffiliateButton asin={frontmatter.amazonAsin} label="View on Amazon" />
+## Related Reviews
+- [Orange Pi 5 Plus 16GB Review: RK3588 Powerhouse SBC with NVMe + Dual 2.5GbE](/reviews/orange-pi-5-plus)
+- [ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)
+- [Beelink EQR6 (6800U) Review: 24GB RAM & Silent PSU](/reviews/beelink-ser5-max-6800u)
+- [Mac mini M4 Pro Review: 24GB/512GB + Gigabit Ethernet](/reviews/mac-mini-m4-pro-24gb-512gb)
+- [Synology DS923+ Review: Expandable 4-Bay NAS for SMB](/reviews/synology-ds923)

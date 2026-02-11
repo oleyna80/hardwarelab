@@ -5,20 +5,30 @@ import { AMAZON_CONFIG } from "../../config";
 interface Props {
   title: string;
   rating: number;
-  amazonAsin: string | { us: string; fr: string };
+  asin: string | { us: string; fr?: string; de?: string; [key: string]: string | undefined };
   priceCategory: "budget" | "mid" | "high" | "enterprise";
   lang?: Language;
 }
 
-const { title, rating, amazonAsin, priceCategory, lang = "en" } = Astro.props;
+const { title, rating, asin, priceCategory, lang = "en" } = Astro.props;
 
 // Генерация URL Amazon на основе ASIN с affiliate тегом
-const getAmazonUrl = (asin: string | { us: string; fr: string }): string => {
-  const resolvedAsin = typeof asin === "string" ? asin : asin.us;
-  return AMAZON_CONFIG.getAffiliateLink(resolvedAsin);
+const regionMap: Record<Language, string> = {
+  en: "us",
+  fr: "fr",
+  ru: "us",
+  de: "de",
 };
 
-const amazonUrl = getAmazonUrl(amazonAsin);
+const resolveAsin = (): string => {
+  if (typeof asin === "string") return asin;
+  const region = regionMap[lang] || "us";
+  return asin[region] || asin.us || "";
+};
+
+const region = regionMap[lang] || "us";
+const finalAsin = resolveAsin();
+const amazonUrl = AMAZON_CONFIG.getAffiliateLink(finalAsin, region);
 
 // Расчет звезд
 const fullStars = Math.floor(rating);

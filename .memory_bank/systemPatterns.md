@@ -17,7 +17,7 @@ Architectural decisions and coding standards for HardwareLab.
 │                   ROUTING LAYER                      │
 │  src/pages/* → Astro file-based routing             │
 │  - /index.astro (EN)                                │
-│  - /[lang]/index.astro (FR, RU, DE)                 │
+│  - /{fr,ru,de}/index.astro (FR, RU, DE)             │
 │  - /reviews/[...slug].astro                         │
 └─────────────────────────────────────────────────────┘
                          ▲
@@ -27,14 +27,14 @@ Architectural decisions and coding standards for HardwareLab.
 │  src/components/                                     │
 │  ├── layout/  → Header, Footer, Hero                │
 │  ├── ui/      → Buttons, Cards, Badges              │
-│  ├── reviews/ → ReviewHero, ProductHeader           │
+│  ├── ui/      → ReviewHero, ProductHeader           │
 │  └── head/    → SEO.astro                           │
 └─────────────────────────────────────────────────────┘
                          ▲
                          │ Data
 ┌─────────────────────────────────────────────────────┐
 │                   CONTENT LAYER                      │
-│  src/content/reviews/[lang]/*.mdx                   │
+│  src/content/reviews/[lang]/[slug]/index.mdx                   │
 │  Frontmatter → Zod schema → Type-safe props         │
 └─────────────────────────────────────────────────────┘
                          ▲
@@ -52,11 +52,12 @@ Architectural decisions and coding standards for HardwareLab.
 ### UI Components
 All reusable UI components in `src/components/ui/`:
 - `AffiliateButton.astro` — Amazon affiliate links with compliance
-- `AffiliateDisclosure.astro` — Required disclosure notice
-- `CompliantAffiliateLink.astro` — Compliant link wrapper
 - `ReviewCard.astro` — Product review card
-- `SpecsTable.astro` — Hardware specifications table
-- `Badge.astro` — Labels and badges
+- `ReviewHero.astro` — Review hero block (image, rating, key specs, CTA)
+- `SpecGrid.astro` — Specifications table (`Record<string, string>`)
+- `ProsCons.astro` — Pros/cons block
+- `UserFeedback.astro` — User quotes block
+- `ShareButtons.astro` — Social share buttons
 
 ### Layout Components
 Located in `src/components/layout/`:
@@ -65,7 +66,7 @@ Located in `src/components/layout/`:
 - `Hero.astro` — Hero section for landing pages
 
 ### Review Components
-Located in `src/components/reviews/`:
+Located in `src/components/ui/`:
 - `ReviewHero.astro` — Review page hero
 - `ProductHeader.astro` — Product title with H1
 - `BuildHero.astro` — Build reviews hero
@@ -74,11 +75,11 @@ Located in `src/components/reviews/`:
 
 **Dark theme is default.** Color scheme uses:
 - Background: dark grays
-- Accent: amber/orange for CTAs
+- Accent: indigo/cyan for CTAs
 - Text: light grays and white
 
 ## i18n Structure
-
+  
 4 supported languages configured in `astro.config.mjs`:
 
 | Language | Code | Route |
@@ -98,11 +99,11 @@ rel="nofollow sponsored noopener noreferrer"
 target="_blank"
 ```
 
-Environment variables for tags:
-- `AMAZON_TAG_US`
-- `AMAZON_TAG_UK`
-- `AMAZON_TAG_DE`
-- `AMAZON_TAG_FR`
+Affiliate configuration is centralized in `src/config.ts` and uses `.env`:
+- `PUBLIC_AMAZON_TAG_US`
+- `PUBLIC_AMAZON_TAG_DE`
+- `PUBLIC_AMAZON_TAG_FR`
+Amazon marketplace domains are defined in code (`AMAZON_CONFIG.domains`).
 
 ## Content Structure
 
@@ -145,6 +146,10 @@ Local → Build → Docker Image → VPS (port 8081) → Nginx Proxy Manager →
 | TypeScript | `npx astro check` | Before commit |
 | Build | `npm run build` | Before deploy |
 | Affiliate compliance | `npm run check:affiliate` | Before deploy |
+| Image Quality | `npm run lint:images` | Before deploy |
+| Agent docs consistency | `npm run lint:agent-docs` | Before doc/agent changes merge |
+| Agent roles policy | `npm run lint:agent-roles` | Before doc/agent changes merge |
+| Agent skills policy | `npm run lint:agent-skills` | Before doc/agent changes merge |
 | E2E tests | `npm run test:e2e` | Optional |
 
 ### Recommended CI/CD Pipeline (TODO)
@@ -157,6 +162,8 @@ steps:
   - npm run build
   - npx astro check
   - npm run check:affiliate
+  - npm run lint:agent-roles
+  - npm run lint:agent-skills
   - docker build & push
   - deploy to VPS
 ```
@@ -167,3 +174,29 @@ steps:
 
 → [techContext.md](techContext.md) — инфраструктура и ограничения  
 → [projectbrief.md](projectbrief.md) — цели проекта
+
+---
+
+## 🤖 Agentic Workflow Patterns
+
+### Separation of Concerns (Platform vs. Content)
+We strictly separate "Code" concerns from "Content" concerns to prevent context pollution.
+
+1. **Engineering lane**
+   - `tech-lead`: planning, architecture, risk control, Memory Bank integrity.
+   - `coder`: implementation and self-verification.
+   - Handoff pattern: `tech-lead -> coder -> tech-lead/human review`.
+
+2. **Content lane (lean default)**
+   - `single-researcher` (external): PASS A research pack.
+   - `researcher` (internal): EN `index.mdx` + visuals.
+   - `translator`: RU/DE/FR parity and asset sync.
+   - `qa`: final build/compliance/i18n gate.
+   - Handoff pattern: `single-researcher -> researcher -> translator -> qa`.
+
+3. **Skills layer**
+   - `visual-asset-generator` is the canonical image workflow for `image.webp` and `og.png`.
+
+4. **Compliance lane**
+   - Pre-release gate is mandatory for money pages:
+     - `.agent/workflows/prepublish-affiliate-gate.md`

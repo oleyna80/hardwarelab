@@ -4,15 +4,17 @@ description: Workflow for creating new content (reviews, blog posts)
 
 # Content Creation Workflow
 
+`Status: Detailed reference. Canonical orchestration is in .agent/workflows/review-creation-full.md`
+
 ## Quick Reference: Review Creation
 
 ```bash
-# Full workflow in 5 steps
-1. Research product (browser tool) → specs, ASIN, user feedback
-2. Create MDX file → src/content/reviews/[lang]/[slug].mdx
-3. Add components → SpecGrid, ProsCons, UserFeedback, AffiliateButton
-4. Add hero image → public/images/[slug].jpg
-5. Preview & verify → npm run dev
+# Lean pipeline (default)
+1. single-researcher (external) → _research-pack.md
+2. researcher (internal) → EN index.mdx + image.webp + og.png
+3. translator → RU/DE/FR index.mdx + asset sync
+4. qa (final gate) → build/compliance/i18n pass
+5. prepublish gate → npm run check:affiliate + release decision
 ```
 
 ---
@@ -48,29 +50,34 @@ User Quotes:
 
 ### Step 2: Create MDX File
 
-**Location:** `src/content/reviews/[lang]/[slug].mdx`
+**Location:** `src/content/reviews/[lang]/[slug]/index.mdx`
 
 ```bash
 # Create file
-touch src/content/reviews/en/product-name.mdx
+mkdir -p src/content/reviews/en/product-name
+touch src/content/reviews/en/product-name/index.mdx
 ```
 
 **Frontmatter Template:**
 ```yaml
 ---
-tags: ["mini-pc", "intel", "homelab"]
-title: "Product Name: Your Catchy Title Here"
-description: "SEO description in 150-160 characters with primary keyword"
+title: "Product Review: Key Benefit (50-60 chars)"
+description: "150-160 character description with 2-3 keywords."
 pubDate: 2026-01-07
-heroImage: "/images/product-name.jpg"
-priceCategory: "mid"
+lastUpdated: 2026-01-07
+heroImage: "./image.webp"
+heroImageAlt: "Product name with context"
+ogImage: "./og.png"
+category: "mini-pc"
+tags: ["mini-pc", "brand-model", "key-feature"]
+socialPublish: true
+socialText: "Optional social hook (1-2 lines)."
+socialHighlights:
+  - "Optional highlight #1."
+  - "Optional highlight #2."
+asin: "B0XXXXXXX"
 rating: 4.5
-amazonAsin: "B0XXXXXXX"
-pros:
-  - "Pro point 1"
-  - "Pro point 2"
-cons:
-  - "Con point 1"
+priceCategory: "mid"
 ---
 ```
 
@@ -83,20 +90,26 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
-import ReviewHero from '@/components/review/ReviewHero.astro';
+import ReviewHero from '@/components/ui/ReviewHero.astro';
 
 <ReviewHero 
-  title={frontmatter.title}
+  image={frontmatter.heroImage}
+  imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
-  heroImage={frontmatter.heroImage}
   priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "CPU: Intel N100",
+    "RAM: 16GB DDR4",
+    "Storage: 512GB NVMe SSD"
+  ]}
+  asin={frontmatter.asin}
 />
+
+> **Disclosure:** As an Amazon Associate, we earn from qualifying purchases.
 
 ## Introduction
 
 [2-3 paragraphs: What is this product? Who is it for? Quick verdict preview]
-
-<AffiliateButton asin={frontmatter.amazonAsin} label="Check Current Price" />
 
 ## Specifications
 
@@ -114,40 +127,49 @@ import ReviewHero from '@/components/review/ReviewHero.astro';
 ## User Experience
 
 <UserFeedback feedback={[
-  { user: "Reddit User", comment: "Runs perfectly silent", sentiment: "positive" },
-  { user: "Amazon Buyer", comment: "Setup was confusing", sentiment: "negative" },
-  { user: "Forum Member", comment: "Great value for homelab", sentiment: "positive" }
+  // 6 quotes total recommended (balanced sentiment; keep quote length similar)
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "positive" },
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "negative" },
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "neutral" },
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "positive" },
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "negative" },
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "neutral" }
 ]} />
 
 ## Pros & Cons
 
 <ProsCons 
-  pros={frontmatter.pros}
-  cons={frontmatter.cons}
+  pros={["Fast", "Quiet", "Upgradeable"]}
+  cons={["Expensive", "Limited ports", "No included storage upgrade"]}
 />
 
 ## Verdict
 
 [Final recommendation: who should buy, who should skip]
 
-<AffiliateButton asin={frontmatter.amazonAsin} label="Buy on Amazon" />
+<AffiliateButton asin={frontmatter.asin} label="View on Amazon" />
 ```
 
 ### Step 4: Add Images
 
-```bash
-# Download/create hero image
-# Optimize to WebP, max 1200px width
+**Skill:** `Visual Asset Generator`
 
-# Save to public folder
-cp product-image.jpg public/images/product-name.jpg
+Use the **Visual Asset Generator** skill to create brand-consistent images.
 
-# Optimize (optional but recommended)
-npx @aspect-build/cli --webp -q 80 public/images/product-name.jpg
+```text
+Use the visual-asset-generator skill to create Hero and OG images for [Product Name].
+[Optional: Attach reference image if available]
 ```
 
-**Image Requirements:**
-- Format: JPG or WebP
+**What this skill does:**
+- Generates Hero `image.webp` (High-end product shot)
+- Generates Social `og.png` (With branding text)
+- Saves them to the correct directory
+- Updates your MDX imports automatically
+
+**Manual Requirements (if not using skill):**
+- Hero format: `image.webp`
+- OG format: `og.png`
 - Max width: 1200px
 - Max file size: 200KB
 - Alt text: Descriptive, include product name
@@ -172,19 +194,26 @@ npm run dev
 
 ## Translation Workflow
 
-### Step 1: Copy EN Version
+### Step 1: Create translation files (RU/DE/FR)
 ```bash
-cp src/content/reviews/en/product-name.mdx src/content/reviews/fr/
-cp src/content/reviews/en/product-name.mdx src/content/reviews/de/
-cp src/content/reviews/en/product-name.mdx src/content/reviews/ru/
+# Create the target directories (or let your editor do it)
+mkdir -p src/content/reviews/fr/product-name
+mkdir -p src/content/reviews/de/product-name
+mkdir -p src/content/reviews/ru/product-name
+
+# Translate EN `index.mdx` into each language (keep MDX structure and component props unchanged)
 ```
 
-### Step 2: Update Each File
-1. Translate `title` and `description`
-2. Update `amazonAsin` for region (if different)
-3. Translate all prose content
-4. Update `tags` if language-specific keywords needed
-5. Keep image paths in English
+### Step 2: Copy required assets to translations (critical)
+```bash
+node .agent/skills/scripts/copy-assets-to-translations.mjs product-name
+```
+
+This copies `image.webp` + `og.png` from EN into `ru/de/fr` folders so `astro build` doesn't fail.
+
+### Step 2.5: Pre-publish affiliate gate
+Before release, run the canonical gate:
+- `.agent/workflows/prepublish-affiliate-gate.md`
 
 ### Step 3: Verify Each Language
 ```bash
@@ -241,7 +270,7 @@ npm run dev
 - [ ] Frontmatter validates against schema
 - [ ] Images < 200KB and have alt text
 - [ ] Affiliate links have `rel="nofollow sponsored"`
-- [ ] Disclosure component present
+- [ ] Disclosure text present above first CTA
 
 ### Accessibility
 - [ ] Proper heading hierarchy (H1 → H2 → H3)
@@ -272,23 +301,22 @@ npm run dev
 
 ## AI-Assisted Review Generation
 
-### Integration with Review Generator Prompt
-Use `prompts/review-generator.md` for AI-assisted content:
+### Source of truth (current prompts)
+Use the prompts in `prompts/` (v1.3.0) for AI-assisted review creation:
+- `prompts/master_prompt_v_1_3_0.md` (format + strict validation)
+- `prompts/review-workflow-two-pass.md` (recommended two-pass process)
+- `prompts/asin-hunter-protocol.md` (ASIN discovery)
+- `prompts/existing-reviews-hardwarelab.md` (internal link source of truth)
+- `prompts/error-prevention-guide.md` (reference / common mistakes)
 
 ```bash
-# 1. Open the prompt file as reference
-cat prompts/review-generator.md
-
-# 2. Provide to AI with product details:
-# - Product name and ASIN
-# - Target language (EN/FR/DE/RU)
-# - Price category
-# - Any specific focus areas
+# Open the master prompt as reference
+cat prompts/master_prompt_v_1_3_0.md
 ```
 
 ### AI Workflow
 1. **Research First** - Use browser to gather real specs and user feedback
-2. **Generate Draft** - Use review-generator prompt with product data
+2. **Generate Draft** - Follow the master prompt format exactly
 3. **Verify Facts** - Cross-check all specs against official sources
 4. **Add Real Quotes** - Replace AI quotes with actual Reddit/forum feedback
 5. **Localize** - Adapt for target market (different ASINs, currencies)
@@ -298,14 +326,15 @@ cat prompts/review-generator.md
 Product: [Name]
 ASIN: [B0XXXXXXX]
 Target: [EN/FR/DE/RU]
-Category: [budget/mid/high/enterprise]
+Category: [gaming|gaming-pcs|monitors|ai-workstation|mini-pc|nas|sbc]
+priceCategory: [budget|mid|high|enterprise]
 
 Research findings:
 - Specs: [CPU, RAM, Storage]
-- User feedback: [3 real quotes]
+- User feedback: [6 verbatim quotes]
 - Price: $XXX
 
-Generate review following prompts/review-generator.md format.
+Generate review following prompts/master_prompt_v_1_3_0.md format and run its pre-output validation checklist.
 ```
 
 ---
@@ -313,17 +342,17 @@ Generate review following prompts/review-generator.md format.
 ## Example Reviews (Templates)
 
 ### High-Performing Review: Raspberry Pi 5
-**File:** `src/content/reviews/en/raspberry-pi-5.mdx`
+**File:** `src/content/reviews/en/raspberry-pi-5/index.mdx`
 
 **What works:**
 - Clear title with product name
 - Specs verified from official Raspberry Pi website
 - Real Reddit quotes from r/raspberry_pi
 - Balanced pros/cons (not just praise)
-- Multiple affiliate button placements
+- Required components present (ReviewHero, SpecGrid, UserFeedback, ProsCons, AffiliateButton)
 
 ### Mini PC Review Template
-**File:** `src/content/reviews/en/beelink-ser5-max.mdx`
+**File:** `src/content/reviews/en/beelink-ser5-5500u/index.mdx`
 
 **Structure:**
 1. Hook: "Looking for a compact but powerful homelab server?"
@@ -338,14 +367,7 @@ Generate review following prompts/review-generator.md format.
 # List all reviews for reference
 ls -la src/content/reviews/en/
 
-# Current reviews:
-# - raspberry-pi-5.mdx
-# - synology-ds423-plus.mdx
-# - playstation-5-pro.mdx
-# - beelink-ser5-max.mdx
-# - intel-nuc-13-pro.mdx
-# - mac-mini-m4.mdx
-# - xbox-series-x-2tb-galaxy-black.mdx
+# For internal links, use `prompts/existing-reviews-hardwarelab.md` as the source of truth.
 ```
 
 ---
@@ -492,11 +514,12 @@ npx sharp-cli -i product-name.jpg -o product-name.webp --format webp --quality 8
 # 4. Check file size (target: <200KB)
 ls -lh product-name.webp
 
-# 5. Move to public folder
-mv product-name.webp public/images/
+# 5. Move next to the review MDX (same folder)
+REVIEW_DIR="src/content/reviews/en"
+mv product-name.webp "$REVIEW_DIR/"
 
 # 6. Update frontmatter
-heroImage: "/images/product-name.webp"
+heroImage: "./product-name.webp"
 ```
 
 ### Batch Optimization
@@ -576,10 +599,10 @@ Synology DS423+     |  ✓  |      |  ✓  |    -     |
 ### Automated Link Check
 ```bash
 # Find reviews without internal links
-grep -L "](/reviews/" src/content/reviews/en/*.mdx
+grep -L "](/reviews/" src/content/reviews/en/*/index.mdx
 
 # Count internal links per review
-for file in src/content/reviews/en/*.mdx; do
+for file in src/content/reviews/en/*/index.mdx; do
   count=$(grep -c "](/reviews/" "$file" 2>/dev/null || echo 0)
   echo "$file: $count internal links"
 done
@@ -593,5 +616,6 @@ done
 - `/seo-optimization` - SEO checklist and best practices
 - `/amazon-affiliate-compliance` - Legal requirements
 - `/component-development` - Creating custom components
-- `prompts/review-generator.md` - AI review generation prompt
-
+- `prompts/master_prompt_v_1_3_0.md` - Review generation (source of truth)
+- `prompts/review-workflow-two-pass.md` - Two-pass writing process
+- `prompts/error-prevention-guide.md` - Reference checklist

@@ -12,14 +12,10 @@ Review preview card for listings.
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `title` | `string` | required | Название продукта |
-| `description` | `string` | required | Краткое описание |
-| `heroImage` | `string` | required | URL изображения |
-| `heroImageAlt` | `string` | — | Alt текст |
-| `slug` | `string` | required | URL slug |
-| `rating` | `number` | — | Рейтинг (1-5) |
-| `category` | `string` | — | Категория |
-| `pubDate` | `Date` | — | Дата публикации |
+| `review` | `CollectionEntry<"reviews">` | required | Review entry from `getCollection("reviews")` |
+| `lang` | `Language` | "en" | Language for URL prefix and date locale |
+
+**Uses:** `review.data.title`, `review.data.description`, `review.data.heroImage`, `review.data.rating`, `review.data.priceCategory`, `review.data.pubDate`.
 
 ## Features
 
@@ -36,16 +32,16 @@ Review preview card for listings.
 ## Usage
 
 ```astro
+---
 import ReviewCard from '@/components/ui/ReviewCard.astro';
+import { getCollection } from 'astro:content';
 
-<ReviewCard 
-  title="Mac mini M4"
-  description="Compact powerhouse"
-  heroImage="/images/mac-mini.jpg"
-  slug="mac-mini-m4"
-  rating={4.5}
-  category="mini-pcs"
-/>
+const reviews = await getCollection('reviews', ({ id }) => id.startsWith('en/'));
+---
+
+{reviews.map((review) => (
+  <ReviewCard review={review} lang="en" />
+))}
 ```
 
 ## Used In

@@ -12,7 +12,7 @@ Hero-секция для главной страницы с заголовком
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `lang` | `"en" \| "fr" \| "ru"` | "en" | Текущий язык |
+| `lang` | `"en" \| "fr" \| "ru" \| "de"` | "en" | Текущий язык |
 | `title` | `string` | — | Кастомный заголовок |
 | `subtitle` | `string` | — | Кастомный подзаголовок |
 | `ctaText` | `string` | — | Текст кнопки CTA |
@@ -40,4 +40,4 @@ import Hero from '@/components/layout/Hero.astro';
 ## Used In
 
 - `src/pages/index.astro`
-- `src/pages/[lang]/index.astro`
+- `src/pages/{fr,ru,de}/index.astro`

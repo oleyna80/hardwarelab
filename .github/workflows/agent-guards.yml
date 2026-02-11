@@ -1,0 +1,47 @@
+name: Agent Guards
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Affiliate checks
+        run: npm run check:affiliate
+
+      - name: Researcher output checks (changed EN review slugs)
+        shell: bash
+        run: bash scripts/run-researcher-output-checks.sh "${{ github.event_name }}" "${{ github.event.pull_request.base.sha }}" "${{ github.event.before }}" "${{ github.sha }}"
+
+      - name: Image lint
+        run: npm run lint:images
+
+      - name: Agent docs lint
+        run: npm run lint:agent-docs
+
+      - name: Agent roles lint
+        run: npm run lint:agent-roles
+
+      - name: Agent skills lint
+        run: npm run lint:agent-skills

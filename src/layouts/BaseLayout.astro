@@ -84,8 +84,8 @@ const { title = 'HardwareLab - Обзоры компьютерного обор�
             <h4 class="font-semibold mb-4">Контакты</h4>
             <p class="text-primary-600 dark:text-primary-400">
               По вопросам сотрудничества: <br />
-              <a href="mailto:contact@hardwarelab.example.com" class="text-accent-600 hover:underline">
-                contact@hardwarelab.example.com
+              <a href="mailto:contact@hardwarelab.org" class="text-accent-600 hover:underline">
+                contact@hardwarelab.org
               </a>
             </p>
           </div>
@@ -103,7 +103,7 @@ const { title = 'HardwareLab - Обзоры компьютерного обор�
       const themeToggle = document.getElementById('theme-toggle');
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
       
-      function setTheme(theme) {
+      function setTheme(theme: string) {
         document.documentElement.classList.toggle('dark', theme === 'dark');
         localStorage.setItem('theme', theme);
       }
@@ -121,7 +121,9 @@ const { title = 'HardwareLab - Обзоры компьютерного обор�
         setTheme('dark');
       }
       
-      themeToggle.addEventListener('click', toggleTheme);
+      if (themeToggle) {
+        themeToggle.addEventListener('click', toggleTheme);
+      }
     </script>
   </body>
 </html>

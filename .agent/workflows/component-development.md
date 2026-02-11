@@ -234,14 +234,22 @@ const { title } = Astro.props;
 
 ### ReviewHero.astro
 **Purpose:** Hero section for review pages with rating badge  
-**Props:** `title`, `rating`, `heroImage`, `priceCategory`  
+**Props:** `image`, `imageAlt`, `rating`, `priceCategory`, `keySpecs`, `asin`  
 **Usage:**
 ```astro
 <ReviewHero 
-  title="Raspberry Pi 5 Review"
-  rating={4.5}
-  heroImage="/images/raspberry-pi-5.jpg"
-  priceCategory="budget"
+  image={frontmatter.heroImage}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "CPU: ...",
+    "Memory: ...",
+    "Storage: ...",
+    "Ports: ...",
+    "Size: ..."
+  ]}
+  asin={frontmatter.asin}
 />
 ```
 
@@ -253,7 +261,7 @@ Before creating a new component, complete this checklist:
 
 ### Pre-Creation
 - [ ] Search for similar components in `src/components/`
-- [ ] Check LAYOUT_COMPONENTS.md for existing solutions
+- [ ] Check `.memory_bank/ui_extension/components/README.md` for existing solutions
 - [ ] Determine type: Astro (static) or React (interactive)
 - [ ] Plan Props interface
 
@@ -272,7 +280,7 @@ Before creating a new component, complete this checklist:
 - [ ] Test on mobile viewport (DevTools)
 - [ ] Test with edge cases (empty data, long text)
 - [ ] Keyboard navigation works
-- [ ] Added to LAYOUT_COMPONENTS.md docs
+- [ ] Added to `.memory_bank/ui_extension/components/README.md` docs
 - [ ] Usage example provided
 
 ---
@@ -368,7 +376,7 @@ interface Props {
 
 ## Documentation
 
-When creating a component, add it to `LAYOUT_COMPONENTS.md`:
+When creating a component, add it to `.memory_bank/ui_extension/components/README.md`:
 
 ```markdown
 ## ComponentName.astro
@@ -430,7 +438,7 @@ import Counter from './Counter.tsx';
 ### AffiliateButton Variants
 ```
 ┌─────────────────────────────────────────────────────┐
-│  🛒 Check Price on Amazon  →                        │  ← Primary (amber bg)
+│  🛒 Check Price on Amazon  →                        │  ← Primary (indigo/cyan bg)
 └─────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────┐
@@ -676,4 +684,3 @@ try {
   <ReviewGrid reviews={reviews} />
 )}
 ```
-

@@ -106,16 +106,13 @@ export function isMobile(): boolean {
  */
 export async function copyToClipboard(text: string): Promise<boolean> {
     try {
+        if (typeof navigator === 'undefined' || !navigator.clipboard?.writeText) {
+            return false;
+        }
+
         await navigator.clipboard.writeText(text);
         return true;
     } catch {
-        // Fallback для старых браузеров
-        const textArea = document.createElement('textarea');
-        textArea.value = text;
-        document.body.appendChild(textArea);
-        textArea.select();
-        const success = document.execCommand('copy');
-        document.body.removeChild(textArea);
-        return success;
+        return false;
     }
 }

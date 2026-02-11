@@ -73,10 +73,10 @@ export const LAYOUT_TRANSLATIONS: Translations = {
         de: 'Wir verwenden Affiliate-Links. Erfahren Sie mehr in unserer <a href="/disclosure" class="underline">Offenlegung</a>.'
     },
     amazonDisclosure: {
-        en: 'As an Amazon Associate I earn from qualifying purchases.',
-        fr: 'En tant qu\'associé Amazon, je gagne des achats éligibles.',
-        ru: 'Как партнер Amazon я получаю доход от соответствующих покупок.',
-        de: 'Als Amazon-Partner verdiene ich an qualifizierten Käufen.'
+        en: 'As an Amazon Associate, we earn from qualifying purchases.',
+        fr: 'En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.',
+        ru: 'Как партнер Amazon, мы зарабатываем на соответствующих покупках.',
+        de: 'Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.'
     },
     sections: {
         en: 'Sections',

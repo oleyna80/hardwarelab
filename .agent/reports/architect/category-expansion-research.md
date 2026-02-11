@@ -17,7 +17,7 @@
 ### Схема контента (`src/content/config.ts`)
 | Поле | Тип | Ограничение |
 |------|-----|-------------|
-| `amazonAsin` | `string` | **Только 1 ASIN** |
+| `asin` | `string` | **Только 1 ASIN** |
 | `priceCategory` | `enum` | `budget`, `mid`, `high`, `enterprise` |
 | `tags` | `string[]` | Используется для категоризации |
 

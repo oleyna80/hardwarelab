@@ -4,6 +4,8 @@ description: Content strategy, keyword research, and content calendar
 
 # Content Strategy
 
+`Status: Active. Align with .memory_bank/roadmap.md and .memory_bank/kpi-framework.md`
+
 ## Overview
 Strategic approach to creating, optimizing, and maintaining content for maximum SEO impact and affiliate revenue.
 
@@ -12,10 +14,17 @@ Strategic approach to creating, optimizing, and maintaining content for maximum 
 ## 1. Content Pillars
 
 ### Primary Categories
-1. **Mini PCs & SBCs** - Raspberry Pi, Intel NUC, etc.
-2. **Gaming Consoles** - PlayStation, Xbox, Nintendo
-3. **NAS & Storage** - Synology, QNAP, DIY builds
-4. **Network Equipment** - Routers, switches, WiFi
+1. **Mini PC** - Intel NUC, Beelink, Mac mini
+2. **SBC** - Raspberry Pi, Orange Pi
+3. **NAS** - Synology, QNAP
+4. **Gaming Consoles** - PlayStation, Xbox
+5. **Gaming PCs** - handhelds and compact gaming systems
+6. **Monitors** - gaming/workstation displays
+7. **AI Workstations** - local AI-focused hardware builds
+
+Non-goals:
+- Do not expand languages beyond EN/FR/RU/DE.
+- Do not expand categories beyond current hardware scope.
 
 ### Content Types
 | Type | Purpose | Frequency |
@@ -155,6 +164,7 @@ Track in `content/schedule.md`:
 - [ ] Affiliate links tested (don't click!)
 - [ ] Internal links added (3-5)
 - [ ] Translated to all active languages
+- [ ] Pre-publish gate passed (`.agent/workflows/prepublish-affiliate-gate.md`)
 
 ### SEO Validation
 - [ ] Primary keyword in H1
@@ -209,6 +219,9 @@ Our advantages:
 
 ## 9. Content Performance Metrics
 
+Canonical KPI definitions:
+- `.memory_bank/kpi-framework.md`
+
 ### Track in GA4
 | Metric | Target | Action if Below |
 |--------|--------|-----------------|
@@ -234,24 +247,25 @@ Our advantages:
 # - Current pricing
 
 # 2. Create file
-touch src/content/reviews/en/product-name.mdx
+mkdir -p src/content/reviews/en/product-name
+touch src/content/reviews/en/product-name/index.mdx
 
 # 3. Fill frontmatter
 # - title, description, pubDate
-# - amazonAsin, priceCategory, rating
+# - asin, priceCategory, rating
 # - heroImage, tags
 
 # 4. Write content using template
 # - Use components: SpecGrid, UserFeedback, ProsCons
 
-# 5. Add image
-cp product.jpg public/images/product-name.jpg
+# 5. Add image (save next to the review MDX)
+cp product.jpg src/content/reviews/en/product-name.jpg
 
 # 6. Verify
 npm run dev
 # Preview at localhost:4321/reviews/product-name
 
 # 7. Translate
-cp src/content/reviews/en/product-name.mdx src/content/reviews/fr/
+cp -r src/content/reviews/en/product-name src/content/reviews/fr/product-name
 # Update content for French
 ```

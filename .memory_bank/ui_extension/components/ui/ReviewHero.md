@@ -12,20 +12,21 @@ Hero-секция для страницы обзора с изображение
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `title` | `string` | required | Название продукта |
-| `heroImage` | `string` | required | URL hero изображения |
-| `heroImageAlt` | `string` | — | Alt текст |
-| `rating` | `number` | — | Рейтинг (1-5) |
-| `pubDate` | `Date` | — | Дата публикации |
-| `category` | `string` | — | Категория |
+| `image` | `string or ImageMetadata` | required | Hero image (frontmatter `heroImage`) |
+| `imageAlt` | `string` | required | Alt text (frontmatter `heroImageAlt`) |
+| `rating` | `number` | — | Rating (0-5) |
+| `priceCategory` | `budget / mid / high / enterprise` | — | Price tier label |
+| `keySpecs` | `string[]` | required | Key specs list |
+| `asin` | `string` | required | Amazon ASIN for CTA |
 
 ## Features
 
 - Large hero image
 - Gradient overlay
 - Rating stars display
-- Publication date
-- Category badge
+- Price category badge
+- Key specs list
+- Amazon CTA button
 
 ## Dependencies
 
@@ -37,11 +38,17 @@ Hero-секция для страницы обзора с изображение
 import ReviewHero from '@/components/ui/ReviewHero.astro';
 
 <ReviewHero 
-  title="Mac mini M4 Review"
-  heroImage="/images/mac-mini-hero.jpg"
-  rating={4.5}
-  pubDate={new Date("2026-01-09")}
-  category="mini-pcs"
+  image={frontmatter.heroImage}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "Apple M4 (10-core CPU / 10-core GPU)",
+    "16GB unified memory",
+    "256GB SSD",
+    "3× Thunderbolt 4"
+  ]}
+  asin={frontmatter.asin}
 />
 ```
 

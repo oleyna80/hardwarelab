@@ -1,13 +1,17 @@
 ---
-import { getHtmlLang } from "@/utils/i18n";
-
 export interface Props {
     title: string;
     description: string;
-    image?: string;
+    image?: string | { src: string } | undefined;
     article?: boolean;
     pubDate?: Date;
     lang?: "en" | "fr" | "ru" | "de";
+    review?: {
+        productName: string;
+        rating: number;
+        image?: string | { src: string } | undefined;
+        pubDate?: Date;
+    };
 }
 
 const {
@@ -17,18 +21,28 @@ const {
     article = false,
     pubDate,
     lang = "en",
+    review,
 } = Astro.props;
 
 const siteUrl = import.meta.env.SITE || "https://hardwarelab.org";
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
-const htmlLang = getHtmlLang(lang);
+const canonicalUrlString = canonicalURL.toString();
 
 // Format date for ld+json if it's an article
 const isoDate = pubDate ? new Date(pubDate).toISOString() : undefined;
 
+const resolveImagePath = (img?: string | { src: string } | undefined) => {
+    if (!img) return undefined;
+    if (typeof img === "string") return img;
+    if ("src" in img) return img.src;
+    return undefined;
+};
+
+const resolvedImage = resolveImagePath(image);
+
 // Default image if none provided
-const ogImage = image
-    ? new URL(image, siteUrl)
+const ogImage = resolvedImage
+    ? new URL(resolvedImage, siteUrl)
     : new URL("/og-default.jpg", siteUrl);
 
 // Hreflang generation
@@ -41,7 +55,8 @@ const currentPath = Astro.url.pathname;
 let basePath = currentPath;
 const pathParts = currentPath.split("/").filter(Boolean);
 
-if (pathParts.length > 0 && languages.includes(pathParts[0])) {
+const firstPathPart = pathParts[0];
+if (firstPathPart && languages.includes(firstPathPart)) {
     basePath = "/" + pathParts.slice(1).join("/");
 } else if (currentPath === "/") {
     basePath = "/";
@@ -68,7 +83,7 @@ const hreflangLinks = languages.map((l) => {
 });
 
 // JSON-LD Schema
-const schema = article
+const baseSchema = article
     ? {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -90,6 +105,54 @@ const schema = article
           name: "HardwareLab",
           url: siteUrl,
       };
+
+const reviewImagePath = resolveImagePath(review?.image) || resolvedImage;
+const reviewImageUrl = reviewImagePath
+    ? new URL(reviewImagePath, siteUrl).toString()
+    : ogImage.toString();
+const reviewDate = review?.pubDate
+    ? new Date(review.pubDate).toISOString()
+    : isoDate;
+const productId = `${canonicalUrlString}#product`;
+const reviewId = `${canonicalUrlString}#review`;
+
+const productSchema = review
+    ? {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "@id": productId,
+          name: review.productName,
+          image: [reviewImageUrl],
+          url: canonicalUrlString,
+      }
+    : null;
+
+const reviewSchema = review
+    ? {
+          "@context": "https://schema.org",
+          "@type": "Review",
+          "@id": reviewId,
+          itemReviewed: {
+              "@id": productId,
+          },
+          reviewRating: {
+              "@type": "Rating",
+              ratingValue: review.rating,
+              bestRating: "5",
+              worstRating: "1",
+          },
+          author: [
+              {
+                  "@type": "Organization",
+                  name: "HardwareLab",
+                  url: siteUrl,
+              },
+          ],
+          datePublished: reviewDate,
+      }
+    : null;
+
+const schema = [baseSchema, productSchema, reviewSchema].filter(Boolean);
 
 // Map lang to og:locale format
 const ogLocaleMap: Record<string, string> = {
@@ -140,12 +203,8 @@ const ogLocale = ogLocaleMap[lang] || "en_US";
 <meta property="twitter:image" content={ogImage} />
 
 <!-- JSON-LD Schema -->
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
-
-<!-- Fonts (Preconnect) -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet"
+<script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(schema.length === 1 ? schema[0] : schema)}
 />

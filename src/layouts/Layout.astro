@@ -8,10 +8,16 @@ import { getHtmlLang, getTextDirection } from "../utils/i18n";
 export interface Props {
   title?: string;
   description?: string;
-  image?: string;
+  image?: string | { src: string } | undefined;
   article?: boolean;
   pubDate?: Date;
   lang?: "en" | "fr" | "ru" | "de";
+  review?: {
+    productName: string;
+    rating: number;
+    image?: string | { src: string } | undefined;
+    pubDate?: Date;
+  };
 }
 
 const {
@@ -21,6 +27,7 @@ const {
   article = false,
   pubDate,
   lang = "en",
+  review,
 } = Astro.props;
 
 const htmlLang = getHtmlLang(lang);
@@ -35,8 +42,9 @@ const textDirection = getTextDirection();
       description={description}
       image={image}
       article={article}
-      pubDate={pubDate}
       lang={lang}
+      {...(pubDate ? { pubDate } : {})}
+      {...(review ? { review } : {})}
     />
   </head>
 

@@ -1,0 +1,211 @@
+---
+import { Image } from "astro:assets";
+
+interface Props {
+    images: ImageMetadata[];
+    altTexts?: string[];
+    aspectRatio?: number;
+}
+
+const { images, altTexts = [], aspectRatio = 16 / 9 } = Astro.props;
+---
+
+<div
+    class="product-carousel relative w-full overflow-hidden rounded-xl shadow-lg border border-gray-800 bg-gray-900 group"
+>
+    <!-- Slides Container -->
+    <div
+        class="carousel-track flex transition-transform duration-500 ease-out"
+        style={`aspect-ratio: ${aspectRatio}`}
+    >
+        {
+            images.map((img, index) => (
+                <div class="carousel-slide min-w-full relative">
+                    <Image
+                        src={img}
+                        alt={altTexts[index] || `Product image ${index + 1}`}
+                        class="w-full h-full object-cover"
+                        width={1200}
+                        quality={90}
+                    />
+                </div>
+            ))
+        }
+    </div>
+
+    <!-- Navigation Arrows (Hidden until hover on desktop, always visible on touch) -->
+    <button
+        class="carousel-prev absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"
+        aria-label="Previous image"
+    >
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"></path>
+        </svg>
+    </button>
+
+    <button
+        class="carousel-next absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"
+        aria-label="Next image"
+    >
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"></path>
+        </svg>
+    </button>
+
+    <!-- Dots Indicators -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+        {
+            images.map((_, index) => (
+                <button
+                    class="carousel-dot w-2.5 h-2.5 rounded-full bg-white/40 hover:bg-white/80 transition-all duration-300"
+                    data-index={index}
+                    aria-label={`Go to slide ${index + 1}`}
+                />
+            ))
+        }
+    </div>
+</div>
+
+<script>
+    class ProductCarousel {
+        private track: HTMLElement;
+        private slides: NodeListOf<HTMLElement>;
+        private dots: NodeListOf<HTMLButtonElement>;
+        private prevBtn: HTMLButtonElement;
+        private nextBtn: HTMLButtonElement;
+        private currentIndex: number = 0;
+        private touchStartX: number = 0;
+        private touchEndX: number = 0;
+
+        constructor(element: HTMLElement) {
+            this.track = element.querySelector(
+                ".carousel-track",
+            ) as HTMLElement;
+            this.slides = element.querySelectorAll(".carousel-slide");
+            this.dots = element.querySelectorAll(".carousel-dot");
+            this.prevBtn = element.querySelector(
+                ".carousel-prev",
+            ) as HTMLButtonElement;
+            this.nextBtn = element.querySelector(
+                ".carousel-next",
+            ) as HTMLButtonElement;
+
+            this.init();
+        }
+
+        private init() {
+            // Event Listeners
+            this.prevBtn?.addEventListener("click", () => this.prev());
+            this.nextBtn?.addEventListener("click", () => this.next());
+
+            this.dots.forEach((dot, index) => {
+                dot.addEventListener("click", () => this.goTo(index));
+            });
+
+            // Touch support (simple swipe)
+            this.track.addEventListener(
+                "touchstart",
+                (e) => {
+                    const touch = e.changedTouches[0];
+                    if (!touch) return;
+                    this.touchStartX = touch.screenX;
+                },
+                { passive: true },
+            );
+
+            this.track.addEventListener(
+                "touchend",
+                (e) => {
+                    const touch = e.changedTouches[0];
+                    if (!touch) return;
+                    this.touchEndX = touch.screenX;
+                    this.handleSwipe();
+                },
+                { passive: true },
+            );
+
+            this.updateState();
+        }
+
+        private handleSwipe() {
+            const threshold = 50;
+            if (this.touchEndX < this.touchStartX - threshold) this.next();
+            if (this.touchEndX > this.touchStartX + threshold) this.prev();
+        }
+
+        private prev() {
+            this.currentIndex =
+                (this.currentIndex - 1 + this.slides.length) %
+                this.slides.length;
+            this.updateState();
+        }
+
+        private next() {
+            this.currentIndex = (this.currentIndex + 1) % this.slides.length;
+            this.updateState();
+        }
+
+        private goTo(index: number) {
+            this.currentIndex = index;
+            this.updateState();
+        }
+
+        private updateState() {
+            // Update transform
+            const offset = this.currentIndex * -100;
+            this.track.style.transform = `translateX(${offset}%)`;
+
+            // Update dots
+            this.dots.forEach((dot, index) => {
+                if (index === this.currentIndex) {
+                    dot.classList.add("bg-white", "scale-125");
+                    dot.classList.remove("bg-white/40");
+                } else {
+                    dot.classList.remove("bg-white", "scale-125");
+                    dot.classList.add("bg-white/40");
+                }
+            });
+        }
+    }
+
+    // Init logic
+    document.addEventListener("astro:page-load", () => {
+        initCarousels();
+    });
+
+    // Fallback for non-ViewTransitions sites
+    document.addEventListener("DOMContentLoaded", () => {
+        initCarousels();
+    });
+
+    function initCarousels() {
+        const carousels = document.querySelectorAll(".product-carousel");
+        carousels.forEach((carousel) => {
+            // Prevent double init
+            if (!(carousel as any)._initialized) {
+                new ProductCarousel(carousel as HTMLElement);
+                (carousel as any)._initialized = true;
+            }
+        });
+    }
+</script>

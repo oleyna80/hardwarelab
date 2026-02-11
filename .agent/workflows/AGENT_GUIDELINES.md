@@ -2,10 +2,18 @@
 description: HardwareLab Project Guidelines & Architecture
 ---
 
+`Last validated: 2026-02-08`
+
 ## 1. Project Identity
 **Role:** You are a Senior Full-Stack Engineer specializing in Astro, React, and Performance Optimization.
-**Goal:** Build a high-performance, affiliate-marketing tech review site ("HardwareLab") running on WSL (Linux).
+**Goal:** Build a high-performance, affiliate-marketing tech review site ("HardwareLab") running in WSL/VPS workflow.
 **Aesthetics:** Clean, minimalist tech, "Linear-style" design with subtle Cyberpunk elements (dark mode, glow effects).
+
+### Active Agent Model (Canonical)
+- Content: `single-researcher -> researcher -> translator -> qa`
+- Engineering: `tech-lead -> coder -> tech-lead/human review`
+- Deprecated roles are history-only unless explicitly requested.
+- Source of truth: `.agent/AGENT_CONTRACT.md`
 
 ## 2. Tech Stack
 - **Core:** Astro v5 (Server-first architecture).
@@ -56,9 +64,16 @@ src/
 ## 5. Agent Workflow
 
 ### Before Making Changes
-1. **Search First:** Use `grep_search` to find similar implementations.
+1. **Search First:** Use `rg` to find similar implementations.
 2. **Read Context:** View relevant files to understand imports.
 3. **Check Components:** Look for existing components in `src/components/ui/`.
+4. **Source of Truth (when docs conflict):**
+   - `src/content/config.ts` — frontmatter schema
+   - `src/components/ui/` — real component APIs
+   - `src/config.ts` + `.env.example` — affiliate/env vars
+   - `src/pages/` — routing/templates
+
+> If any workflow/doc contradicts the codebase, treat code as source of truth and update the docs.
 
 ### Making Changes
 1. **Plan Complex Tasks:** Outline plan before large changes.
@@ -70,6 +85,7 @@ src/
 1. **Type Check:** Run `npx astro check` for TypeScript errors.
 2. **Visual Check:** Preview in browser (light/dark mode, mobile).
 3. **Accessibility:** Ensure keyboard navigation, ARIA labels.
+4. **Docs Check:** Run `npm run lint:agent-docs`, `npm run lint:agent-roles`, and `npm run lint:agent-skills` when changing `.agent/**` or `.memory_bank/**`.
 
 ## 6. Common Workflows
 
@@ -84,29 +100,33 @@ grep -r "ComponentName" src/components/
 
 # 3. Define Props interface
 # 4. Implement with dark mode support
-# 5. Document in LAYOUT_COMPONENTS.md
+# 5. Document in .memory_bank/ui_extension/components/README.md
 ```
 
 ### Creating a New Review
 ```bash
-# 1. Research product (use browser tool)
-# 2. Create MDX: src/content/reviews/[lang]/[slug].mdx
-# 3. Fill frontmatter (title, asin, rating, etc.)
-# 4. Use components: SpecGrid, ProsCons, UserFeedback, AffiliateButton
-# 5. Add image to public/images/
-# 6. Preview and verify affiliate links
+# Use canonical orchestration:
+# .agent/workflows/review-creation-full.md
+#
+# Final release check:
+# .agent/workflows/prepublish-affiliate-gate.md
 ```
 
 ### Adding a New Language Page
 ```bash
-# 1. Copy from EN version
-cp src/pages/reviews/[slug].astro src/pages/de/reviews/
+# 1. Add locale to Astro config
+#    (see `astro.config.mjs` → i18n.locales)
 
-# 2. Update lang prop
-const lang = 'de';
+# 2. Copy from an existing localized version (example: DE)
+mkdir -p src/pages/<lang>/reviews
+cp src/pages/de/index.astro src/pages/<lang>/index.astro
+cp src/pages/de/reviews/[...slug].astro src/pages/<lang>/reviews/[...slug].astro
 
-# 3. Translate UI text via i18n
-# 4. Create translated content in src/content/reviews/de/
+# 3. Update `lang` constant inside the copied files
+const lang = '<lang>';
+
+# 4. Translate UI text via `src/utils/i18n.ts`
+# 5. Create translated content in src/content/reviews/<lang>/
 ```
 
 ## 7. Project Nuances
@@ -139,7 +159,7 @@ const lang = 'de';
 | `Frontmatter validation failed` | Schema mismatch | Check required fields in `config.ts` |
 | Dark mode not working | Missing class | Add `class="dark"` to `<html>` element |
 | Tailwind classes not applying | Dynamic classes | Use full class names, not `text-${var}` |
-| Images not loading | Wrong path | Use `/images/...` for public, import for assets |
+| Images not loading | Wrong path | For reviews, use `./...` (same folder as MDX); for public assets use `/images/...` or import with `astro:assets` |
 
 **Quick Fixes:**
 ```bash

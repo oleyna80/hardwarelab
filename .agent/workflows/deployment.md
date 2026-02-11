@@ -4,6 +4,10 @@ description: Deployment and production build workflow
 
 # Deployment Workflow
 
+`Last validated: 2026-02-08`
+
+For Phase A migration tasks, prefer `.agent/workflows/vps-migration-runbook.md` as the canonical execution runbook.
+
 ## Pre-Deployment Checklist
 
 ### Code Quality
@@ -12,6 +16,7 @@ description: Deployment and production build workflow
 - [ ] All images optimized
 - [ ] No broken internal links
 - [ ] All affiliate links tested
+- [ ] Agent docs/roles/skills lint passes (`npm run lint:agent-docs` + `npm run lint:agent-roles` + `npm run lint:agent-skills`) if `.agent/**` or `.memory_bank/**` changed
 
 ### Content Review
 - [ ] All reviews have proper frontmatter
@@ -19,6 +24,8 @@ description: Deployment and production build workflow
 - [ ] All images have alt text
 - [ ] SEO meta tags complete
 - [ ] Affiliate disclosures present
+- [ ] Pre-publish affiliate gate passed (`.agent/workflows/prepublish-affiliate-gate.md`)
+- [ ] Review package smoke-check passed (`npm run check:review-package -- <slug>`) for changed review slugs
 
 ### Performance
 - [ ] Run Lighthouse audit (score > 90)
@@ -156,17 +163,13 @@ npm run build
 
 Required for production:
 ```env
-# Analytics
-GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
-
-# Amazon Affiliate
-AMAZON_TAG_US=yourtag-20
-AMAZON_TAG_FR=yourtag-21
-AMAZON_TAG_DE=yourtag-03
-AMAZON_TAG_UK=yourtag-21
-
-# Site URL
-PUBLIC_SITE_URL=https://hardwarelab.com
+# Copy `.env.example` → `.env` and set real values:
+PUBLIC_SITE_DOMAIN=https://your-domain.com
+PUBLIC_AMAZON_TAG_US=your-tag-20
+PUBLIC_AMAZON_TAG_DE=your-tag-03
+PUBLIC_AMAZON_TAG_FR=your-tag-21
+PUBLIC_GA_ID=G-XXXXXXXXXX
+PUBLIC_ANALYTICS_ENABLED=true
 ```
 
 ## Continuous Deployment

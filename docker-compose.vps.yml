@@ -1,16 +1,29 @@
 services:
   web:
-    image: ${IMAGE_REPO:-ghcr.io/owner/hardwarelab}:${IMAGE_TAG:-latest}
+    build:
+      context: .
+      args:
+        PUBLIC_SITE_DOMAIN: ${PUBLIC_SITE_DOMAIN:-https://hardwarelab.org}
+        PUBLIC_AMAZON_TAG_US: ${PUBLIC_AMAZON_TAG_US:-hardwarelab-20}
+        PUBLIC_AMAZON_TAG_DE: ${PUBLIC_AMAZON_TAG_DE:-hardwarelab-03}
+        PUBLIC_AMAZON_TAG_FR: ${PUBLIC_AMAZON_TAG_FR:-hardwarelab-21}
+        PUBLIC_GA_ID: ${PUBLIC_GA_ID:-}
+        PUBLIC_ANALYTICS_ENABLED: ${PUBLIC_ANALYTICS_ENABLED:-true}
+    image: ${IMAGE_REPO:-hardwarelab-site}:${IMAGE_TAG:-latest}
     container_name: hardwarelab-web
     restart: unless-stopped
     ports:
       - "${APP_PORT:-8081}:80"
     healthcheck:
-      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ || exit 1"]
+      test: [ "CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ || exit 1" ]
       interval: 30s
       timeout: 5s
       retries: 3
       start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 256M
     logging:
       driver: json-file
       options:

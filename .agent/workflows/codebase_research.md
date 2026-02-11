@@ -4,7 +4,7 @@ description: Current codebase overview and quick reference
 
 # HardwareLab Codebase Research
 
-> Last updated: January 2026
+> Last validated: 2026-02-08
 
 ## Project Overview
 
@@ -43,7 +43,7 @@ hardwarelab/
 │   │   └── ui/             # AffiliateButton, SpecGrid, ProsCons
 │   ├── content/
 │   │   └── reviews/        # MDX reviews by language
-│   │       ├── en/         # English (11 reviews)
+│   │       ├── en/         # English (20+ reviews)
 │   │       ├── fr/         # French
 │   │       ├── de/         # German
 │   │       └── ru/         # Russian
@@ -59,8 +59,9 @@ hardwarelab/
 ├── public/
 │   └── images/             # Static images
 ├── .agent/
-│   └── workflows/          # Agent instructions (13 files)
-├── scripts/                # Utility scripts
+│   ├── workflows/          # Agent instructions (13 files)
+│   └── skills/
+│       └── scripts/        # Utility scripts (migrated from root)
 ├── tests/                  # Playwright tests
 ├── prompts/                # AI generation prompts
 ├── dist/                   # Build output
@@ -73,10 +74,10 @@ hardwarelab/
 
 | Language | Code | Status | Reviews |
 |----------|------|--------|---------|
-| English | en | ✅ Default | 11 |
-| French | fr | ✅ Active | partial |
-| German | de | ✅ Active | partial |
-| Russian | ru | ✅ Active | partial |
+| English | en | ✅ Default | Active |
+| French | fr | ✅ Active | Active |
+| German | de | ✅ Active | Active |
+| Russian | ru | ✅ Active | Active |
 
 **Config:** `astro.config.mjs` → `i18n.locales`
 **Helper:** `src/utils/i18n.ts`
@@ -87,17 +88,20 @@ hardwarelab/
 
 | Product | Category | File |
 |---------|----------|------|
-| Raspberry Pi 5 | SBC | raspberry-pi-5.mdx |
-| Orange Pi 5 Plus | SBC | orange-pi-5-plus.mdx |
-| Beelink SER5 Max | Mini PC | beelink-ser5-max.mdx |
-| Beelink SER5 Max 6800U | Mini PC | beelink-ser5-max-6800u.mdx |
-| Intel NUC 13 Pro | Mini PC | intel-nuc-13-pro.mdx |
-| Mac Mini M4 | Mini PC | mac-mini-m4.mdx |
-| Synology DS923+ | NAS | synology-ds923.mdx |
-| Synology DS423+ | NAS | synology-ds423-plus.mdx |
-| PlayStation 5 Pro | Console | playstation-5-pro.mdx |
-| Xbox Series S | Console | xbox-series-s-robot-white.mdx |
-| Xbox Series X 2TB | Console | xbox-series-x-2tb-galaxy-black.mdx |
+| Raspberry Pi 5 | SBC | `src/content/reviews/en/raspberry-pi-5/index.mdx` |
+| Orange Pi 5 Plus 16GB | SBC | `src/content/reviews/en/orange-pi-5-plus/index.mdx` |
+| Beelink SER5 5500U | Mini PC | `src/content/reviews/en/beelink-ser5-5500u/index.mdx` |
+| Beelink SER5 MAX (Ryzen 7 6800U) | Mini PC | `src/content/reviews/en/beelink-ser5-max-6800u/index.mdx` |
+| ASUS Intel NUC 13 Pro | Mini PC | `src/content/reviews/en/asus-intel-nuc-13-pro/index.mdx` |
+| Mac mini M4 (base) | Mini PC | `src/content/reviews/en/mac-mini-m4/index.mdx` |
+| Mac mini M4 Pro (24GB/512GB) | Mini PC | `src/content/reviews/en/mac-mini-m4-pro-24gb-512gb/index.mdx` |
+| Synology DS923+ | NAS | `src/content/reviews/en/synology-ds923/index.mdx` |
+| Synology DS423+ | NAS | `src/content/reviews/en/synology-ds423-plus/index.mdx` |
+| PlayStation 5 Pro | Console | `src/content/reviews/en/playstation-5-pro/index.mdx` |
+| Xbox Series S 1TB (Robot White) | Console | `src/content/reviews/en/xbox-series-s-robot-white/index.mdx` |
+| Xbox Series X 1TB (Carbon Black) | Console | `src/content/reviews/en/xbox-series-x-1tb-carbon-black/index.mdx` |
+| Xbox Series X 1TB Digital (Robot White) | Console | `src/content/reviews/en/xbox-series-x-1tb-digital-robot-white/index.mdx` |
+| Xbox Series X 2TB (Galaxy Black) | Console | `src/content/reviews/en/xbox-series-x-2tb-galaxy-black/index.mdx` |
 
 ---
 
@@ -171,8 +175,9 @@ Located in `.agent/workflows/`:
 Required in `.env`:
 ```bash
 PUBLIC_SITE_DOMAIN=https://your-domain.com
-PUBLIC_AMAZON_AFFILIATE_TAG=your-tag-20
-PUBLIC_AMAZON_DOMAIN=amazon.com
+PUBLIC_AMAZON_TAG_US=your-tag-20
+PUBLIC_AMAZON_TAG_DE=your-tag-03
+PUBLIC_AMAZON_TAG_FR=your-tag-21
 PUBLIC_GA_ID=G-XXXXXXXXXX
 PUBLIC_ANALYTICS_ENABLED=true
 ```
@@ -190,7 +195,7 @@ npm run build
 npm run check:affiliate
 
 # Find reviews without internal links
-grep -L "](/reviews/" src/content/reviews/en/*.mdx
+grep -L "](/reviews/" src/content/reviews/en/*/index.mdx
 
 # Count pages built
 ls dist/**/*.html | wc -l
@@ -203,7 +208,7 @@ npx astro check
 
 ## Design System
 
-- **Colors:** zinc (grays), indigo/cyan (accents), amber (CTA)
+- **Colors:** zinc (grays), indigo/cyan (accents and CTAs)
 - **Fonts:** Inter (sans), JetBrains Mono (mono)
 - **Theme:** Dark mode first, mobile first
 - **Style:** Clean, minimal, "Linear-style" with subtle glow effects

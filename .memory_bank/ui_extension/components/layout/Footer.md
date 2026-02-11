@@ -12,7 +12,7 @@ Footer с копирайтом и обязательным Amazon disclosure.
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `lang` | `"en" \| "fr" \| "ru"` | "en" | Текущий язык |
+| `lang` | `"en" \| "fr" \| "ru" \| "de"` | "en" | Текущий язык |
 
 
 
@@ -26,7 +26,7 @@ Footer с копирайтом и обязательным Amazon disclosure.
 ## Compliance
 
 Содержит обязательный disclosure:
-> "As an Amazon Associate, I earn from qualifying purchases."
+> "As an Amazon Associate, we earn from qualifying purchases."
 
 ## Dependencies
 

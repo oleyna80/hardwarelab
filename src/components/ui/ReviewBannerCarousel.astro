@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import type { Language } from "@/utils/i18n";
+import { Image } from "astro:assets";
 
 interface Props {
     reviews: CollectionEntry<"reviews">[];
@@ -21,12 +22,10 @@ const carouselReviews = reviews.slice(0, 5);
         class="carousel-track flex transition-transform duration-700 ease-in-out"
     >
         {
-            carouselReviews.map((review, index) => {
+            carouselReviews.map((review) => {
                 const { title, heroImage } = review.data;
-                const slug = review.id
-                    .replace(/^[a-z]{2}\//, "")
-                    .replace(/\.mdx$/, "");
-                const reviewUrl = `/${lang === "en" ? "" : lang + "/"}reviews/${slug}`;
+                const urlSlug = review.slug.split("/").pop();
+                const reviewUrl = `/${lang === "en" ? "" : lang + "/"}reviews/${urlSlug}`;
 
                 return (
                     <div class="carousel-slide min-w-full relative">
@@ -36,11 +35,19 @@ const carouselReviews = reviews.slice(0, 5);
                         >
                             {/* Background Image */}
                             {heroImage ? (
-                                <img
-                                    src={heroImage}
-                                    alt={title}
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                                />
+                                typeof heroImage === "string" ? (
+                                    <img
+                                        src={heroImage}
+                                        alt={title}
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                    />
+                                ) : (
+                                    <Image
+                                        src={heroImage}
+                                        alt={title}
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                    />
+                                )
                             ) : (
                                 <div class="w-full h-full bg-gradient-to-br from-indigo-600 via-purple-600 to-cyan-600" />
                             )}

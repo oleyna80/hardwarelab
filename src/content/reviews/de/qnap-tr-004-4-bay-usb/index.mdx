@@ -1,0 +1,163 @@
+---
+title: "QNAP TR-004 Test: 4-Bay USB-C Gehäuse mit Hardware-RAID"
+description: "Das QNAP TR-004 ist ein 4-Bay USB-C DAS mit Hardware- oder Software-RAID (0/1/5/10, JBOD). Erweiterung für NAS oder PC; Hot-Swap-Trays plus External RAID Manager."
+pubDate: 2026-02-11
+lastUpdated: 2026-02-11
+heroImage: "./image.webp"
+heroImageAlt: "QNAP TR-004 4-Bay USB-C RAID Gehäuse"
+category: "nas"
+tags:
+  - "nas"
+  - "das"
+  - "qnap"
+  - "raid"
+  - "backup"
+asin: "B07K4RC7X9"
+rating: 4.2
+priceCategory: "budget"
+ogType: "article"
+ogImage: "./og.png"
+---
+
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import SpecGrid from '@/components/ui/SpecGrid.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import ProsCons from '@/components/ui/ProsCons.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+import heroImg from './image.webp';
+
+<ReviewHero
+  image={heroImg}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "4-Bay SATA 3.5\"/2.5\" (Hot-Swap)",
+    "USB 3.2 Gen 1 Type-C (5Gbps)",
+    "Hardware-RAID (0/1/5/10, JBOD)",
+    "DIP-Schalter oder Software-Steuerung",
+    "Kompatibel mit QNAP NAS, Windows, macOS, Linux"
+  ]}
+  asin={frontmatter.asin}
+/>
+
+## QNAP TR-004 im Überblick
+
+Das **QNAP TR-004** besetzt eine spezifische Nische: Es ist ein **4-Bay Direct Attached Storage (DAS)** Gehäuse, das die RAID-Logik selbst verarbeitet. Im Gegensatz zu „dummen“ USB-Boxen, die auf die PC-CPU für Software-RAID angewiesen sind, verfügt das TR-004 über einen eigenen Controller. RAID-Modi (0, 1, 5, 10, JBOD) können über physische DIP-Schalter auf der Rückseite oder über die **QNAP External RAID Manager** Software eingestellt werden.
+
+Es bedient zwei Hauptzielgruppen:
+1.  **QNAP NAS-Besitzer**, die mehr Laufwerksschächte benötigen, aber keinen neuen Server kaufen möchten (Anschluss über den USB-Port des vorhandenen NAS).
+2.  **PC/Mac-Benutzer**, die ein zuverlässiges, Hardware-RAID-geschütztes externes Laufwerk für große Backups, Mediatheken oder Chia-Farming suchen.
+
+> **Offenlegung:** Als Amazon-Partner verdienen wir an qualifizierten Verkäufen über Links auf dieser Seite. Dies geschieht ohne zusätzliche Kosten für Sie.
+
+<AffiliateButton asin={frontmatter.asin} label="Preis auf Amazon prüfen" />
+
+<SpecGrid specs={{
+  "Laufwerksschächte": "4 × 3.5\"/2.5\" SATA 3Gb/s (Hot-Swap-fähig)",
+  "Schnittstelle": "USB 3.2 Gen 1 Type-C (5Gbps)",
+  "RAID-Modi": "Hardware-RAID 0, 1, 5, 10, JBOD, Individual",
+  "Controller": "Mikroprozessor mit Hardware-RAID-Unterstützung",
+  "Abmessungen": "168,5 × 160,2 × 219 mm",
+  "Lüfter": "1 × 120mm intelligenter Lüfter (12V DC)",
+  "Kompatibilität": "QNAP NAS (QTS), Windows, macOS, Linux",
+  "Lieferumfang": "TR-004 Einheit, USB-C zu USB-A Kabel, Netzteil, Schlüssel, Schrauben"
+}} />
+
+## Hardware-RAID vs. Software-RAID
+
+Das herausragende Merkmal des TR-004 ist das **Hardware-RAID**.
+
+*   **DBS (Dip Switch Mode):** Die Konfiguration des Arrays erfolgt ausschließlich über Schalter auf der Rückseite des Geräts. Dies ist OS-agnostisch – Ihr Computer sieht nur eine einzige massive USB-Festplatte.
+*   **Software-Steuerung:** Alternativ können Sie den *QNAP External RAID Manager* (Windows/macOS) installieren, um den Zustand der Laufwerke einzusehen, Firmware-Updates durchzuführen und RAID-Gruppen visuell zu konfigurieren.
+
+Diese Flexibilität macht es sicherer als typische billige USB-Gehäuse, da die RAID-Logik unabhängig von Betriebssystemfehlern arbeitet.
+
+## Leistung: Der 5Gbps-Flaschenhals
+
+Während typische 4-Bay NAS über 1Gbps (110 MB/s) oder 2,5Gbps-Netzwerke laufen, bietet der **USB 3.2 Gen 1** Anschluss hier eine theoretische Bandbreite von **5Gbps**.
+
+In der Praxis erreicht ein RAID-5-Array aus Festplatten im TR-004 typischerweise **200–240 MB/s** Lese-/Schreibgeschwindigkeit. Das ist schneller als Gigabit-Ethernet, aber langsamer als 10Gbps DAS-Einheiten. Bei der Bestückung mit SATA-SSDs wirkt das Gehäuse als Flaschenhals – man erhält nicht die volle Geschwindigkeit von vier SSDs. Für herkömmliche HDDs ist die 5Gbps-Leitung für Backups und Medienspeicherung jedoch völlig ausreichend.
+
+## Anwendungsfall: Erweiterung eines QNAP NAS
+
+Wenn Sie ein QNAP NAS besitzen (z. B. TS-464), können Sie das TR-004 an dessen USB-Port anschließen. QTS erkennt es als externe Erweiterungseinheit. Sie können es nutzen, um:
+*   Einen Speicherpool und ein Volume zu erstellen (genau wie interne Laufwerke).
+*   Ihr Haupt-NAS auf dem TR-004 zu sichern (mit Hybrid Backup Sync).
+
+**Einschränkung:** Normalerweise kann ein einzelnes Volume nicht *über* das Haupt-NAS und das TR-004 gespannt werden. Es fungiert effektiv als separater „Storage Pool 2“.
+
+## Risiken und Zuverlässigkeit
+
+Beim Kauf eines DAS geht es oft um Zuverlässigkeit. Folgendes berichten Nutzer:
+
+*   **USB-Verbindungsabbrüche:** Einige Windows-Nutzer berichten von gelegentlichen Verbindungsabbrüchen („USB-Gerät wurde nicht erkannt“). Dies lässt sich oft durch einen Neustart beheben, deutet aber auf eine Empfindlichkeit gegenüber USB-Controllern oder Kabeln hin.
+*   **Datenverlust bei Moduswechsel:** **WARNUNG:** Das Ändern des RAID-Modus (via Schalter oder Software) löst eine Neupartitionierung aus, die **alle Daten löscht**. Berühren Sie die Schalter niemals, wenn bereits Daten auf dem Gerät gespeichert sind.
+*   **Gemischte Laufwerkstypen:** HDD und SSD dürfen innerhalb einer RAID-Gruppe keinesfalls gemischt werden.
+
+## Was sagen die Nutzer?
+
+Wir haben das Nutzer-Feedback analysiert, um zu sehen, wie sich das TR-004 in der Praxis schlägt.
+
+<UserFeedback feedback={[
+  {
+    user: "Zagarm (Reddit)",
+    sentiment: "positive",
+    comment: "Ich war angenehm überrascht, dass der QNAP External Raid Manager alle Details des Arrays anzeigt, obwohl das DAS nicht im Software-Modus läuft. Das bezeichne ich als Erfolg!"
+  },
+  {
+    user: "realbugs (Reddit)",
+    sentiment: "positive",
+    comment: "Funktioniert einwandfrei. Ich besitze zwei. Wenn das angeschlossene Gerät USB-Platten versteht, funktioniert es."
+  },
+  {
+    user: "Vollare (Reddit)",
+    sentiment: "neutral",
+    comment: "Software-Steuerungsmodus bedeutet nur, dass man RAID-Modi via QNAP-Software konfigurieren kann. Ansonsten ist man auf die DIP-Schalter angewiesen – und deren Änderung löscht die Platten."
+  },
+  {
+    user: "Curious-Mola-2024 (Reddit)",
+    sentiment: "negative",
+    comment: "Das TR-004 ist gut, bis auf USB 3.0 Gen 1 mit nur 5Gbps. Wenn man den RAID-Controller nicht nutzt, sollte man nach einem Gehäuse mit 10Gbps (USB Gen2) suchen."
+  },
+  {
+    user: "snoopdoge90 (Reddit)",
+    sentiment: "negative",
+    comment: "Es bricht die Verbindung ab und Windows erkennt das USB-Gerät nicht. Ein Neustart hilft meist, aber die Zuverlässigkeit für Backups ist bedenklich."
+  },
+  {
+    user: "data_hoarder_99 (Reddit)",
+    sentiment: "neutral",
+    comment: "Ok für Cold Storage oder Backups, aber keine VMs davon ausführen. Das 5Gbps-Interface ist für aktive Workloads nicht schnell genug."
+  }
+]} />
+
+<ProsCons
+  pros={[
+    "Echtes Hardware-RAID (0/1/5/10) unabhängig vom Host-OS",
+    "Arbeitet nahtlos als Erweiterung für QNAP NAS",
+    "Interner Lüfter kühlt die Laufwerke (besser als billige Docks)",
+    "Abschließbare Einschübe für physische Sicherheit",
+    "Software-Manager ermöglicht Überwachung der Laufwerksgesundheit"
+  ]}
+  cons={[
+    "USB 3.2 Gen 1 (5Gbps) begrenzt maximale SSD-Geschwindigkeiten",
+    "SATA-Controller bietet 3Gb/s pro Lane (Legacy-Spezifikation)",
+    "Kein Mix aus HDD und SSD in einem Array möglich",
+    "Gelegentliche USB-Verbindungsprobleme unter Windows gemeldet"
+  ]}
+/>
+
+## Fazit
+
+Das **QNAP TR-004** ist ein zuverlässiges Arbeitstier für die „langsame und stetige“ Speicherung großer Datenmengen. Es ist nicht auf Geschwindigkeit ausgelegt – kaufen Sie es nicht für den Videoschnitt von 8K-Material auf SSDs. Als Hardware-RAID-Backup-Ziel oder Kapazitätserweiterung für ein QNAP NAS bietet es jedoch exzellente Funktionen für die Datensicherheit, die billigen USB-Docks fehlen.
+
+## Verwandte Testberichte
+
+- [Synology DS423+ Test: Ein 4-Bay Plex-NAS, das einfach funktioniert](/reviews/synology-ds423-plus)
+- [Synology DS923+ Test: Erweiterbares 4-Bay NAS für KMU](/reviews/synology-ds923)
+- [TerraMaster F4-424 Pro Test: i3-N305, 32GB, 2.5GbE](/reviews/terramaster-f4-424-pro)
+- [UGREEN NASync DXP4800 Plus Test: 10GbE 4-Bay NAS](/reviews/ugreen-nasync-dxp4800-plus-4-bay)
+- [Orange Pi 5 Plus 16GB Test: Kraftvoller SBC für NAS & Homelab](/reviews/orange-pi-5-plus)
+
+<AffiliateButton asin={frontmatter.asin} label="Auf Amazon ansehen" />

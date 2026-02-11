@@ -26,13 +26,6 @@ const promptSymbols = {
 };
 
 const prompt = promptSymbols[language] || '$';
-
-// Функция для копирования в буфер обмена
-const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text).then(() => {
-        // Можно добавить уведомление, но для простоты оставим базовую реализацию
-    });
-};
 ---
 
 <div class="terminal-block font-mono" role="region" aria-label={`Terminal block: ${title}`}>
@@ -67,7 +60,6 @@ const copyToClipboard = (text: string) => {
                     }
                     focus:outline-none focus:ring-2 focus:ring-accent-500
                 `}
-                onClick={() => copyToClipboard(commands.join('\n'))}
                 aria-label="Copy commands to clipboard"
             >
                 Copy
@@ -87,7 +79,6 @@ const copyToClipboard = (text: string) => {
         <pre class="whitespace-pre-wrap" role="document">
             {commands.map((command, index) => (
                 <div 
-                    key={index} 
                     class="terminal-line mb-2 last:mb-0"
                     role="row"
                 >
@@ -141,7 +132,7 @@ const copyToClipboard = (text: string) => {
                 `}>
                     <span class="text-green-400">✓</span>
                     <span class="ml-2">
-                        Command{scommands.length > 1 ? 's' : ''} executed successfully
+                        Command{commands.length > 1 ? 's' : ''} executed successfully
                     </span>
                 </div>
             </div>
@@ -208,33 +199,38 @@ const copyToClipboard = (text: string) => {
 </style>
 
 <script>
-    // Добавляем функциональность копирования
-    if (typeof window !== 'undefined') {
-        // Инициализация кнопок копирования
-        document.addEventListener('DOMContentLoaded', () => {
-            const terminalBlocks = document.querySelectorAll('.terminal-block');
-            
-            terminalBlocks.forEach(block => {
-                const copyButton = block.querySelector('button[aria-label="Copy commands to clipboard"]');
-                if (copyButton) {
-                    copyButton.addEventListener('click', function() {
-                        const commands = Array.from(block.querySelectorAll('.terminal-line span:last-child'))
-                            .map(span => span.textContent)
-                            .join('\n');
-                        
-                        navigator.clipboard.writeText(commands).then(() => {
-                            const originalText = this.textContent;
-                            this.textContent = 'Copied!';
-                            this.classList.add('bg-green-500', 'text-white', 'border-green-500');
-                            
-                            setTimeout(() => {
-                                this.textContent = originalText;
-                                this.classList.remove('bg-green-500', 'text-white', 'border-green-500');
-                            }, 2000);
-                        });
-                    });
-                }
+    function initTerminalCopyButtons() {
+        const terminalBlocks = document.querySelectorAll<HTMLElement>('.terminal-block');
+
+        terminalBlocks.forEach((block) => {
+            const copyButton = block.querySelector<HTMLButtonElement>(
+                'button[aria-label="Copy commands to clipboard"]',
+            );
+            if (!copyButton || copyButton.dataset.initialized === 'true') return;
+
+            copyButton.addEventListener('click', () => {
+                const commandText = Array.from(
+                    block.querySelectorAll<HTMLElement>('.terminal-line span:last-child'),
+                )
+                    .map((span) => span.textContent ?? '')
+                    .join('\n');
+
+                navigator.clipboard.writeText(commandText).then(() => {
+                    const originalText = copyButton.textContent;
+                    copyButton.textContent = 'Copied!';
+                    copyButton.classList.add('bg-green-500', 'text-white', 'border-green-500');
+
+                    setTimeout(() => {
+                        copyButton.textContent = originalText;
+                        copyButton.classList.remove('bg-green-500', 'text-white', 'border-green-500');
+                    }, 2000);
+                });
             });
+
+            copyButton.dataset.initialized = 'true';
         });
     }
+
+    document.addEventListener('DOMContentLoaded', initTerminalCopyButtons);
+    document.addEventListener('astro:page-load', initTerminalCopyButtons);
 </script>

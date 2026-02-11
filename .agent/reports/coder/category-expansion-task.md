@@ -52,7 +52,7 @@
 - [ ] Обновить навигацию в `Layout.astro`
 
 ### Фаза 4: Обновление промпта
-**Файл:** `prompts/review-generator.md`
+**Файл:** `prompts/master_prompt_v_1_3_0.md` (+ `prompts/review-workflow-two-pass.md`)
 
 - [ ] Добавить секции для новых категорий
 - [ ] Документировать использование новых компонентов
@@ -77,7 +77,7 @@
 2. **TypeScript** — все новые компоненты должны быть типизированы
 3. **i18n** — новые тексты должны использовать `@/utils/i18n`
 4. **Стилизация** — использовать TailwindCSS, следовать существующей дизайн-системе
-5. **Affiliate Compliance** — все ASIN-ссылки через `AffiliateButton` или `CompliantAffiliateLink`
+5. **Affiliate Compliance** — все ASIN-ссылки через `AffiliateButton`
 
 ---
 

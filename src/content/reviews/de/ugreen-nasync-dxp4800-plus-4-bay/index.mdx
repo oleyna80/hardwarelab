@@ -1,0 +1,130 @@
+---
+title: "UGREEN NASync DXP4800 Plus Test: 10GbE 4-Bay NAS"
+description: "Ein 4-Bay NAS mit Intel Pentium Gold 8505, 10GbE + 2,5GbE, 128GB System-SSD, 2×M.2 NVMe und bis zu 64GB DDR5 für Plex, Backups und schnelle lokale Datenübertragung."
+asin: "B0D2KKVZN2"
+rating: 4.6
+priceCategory: "mid"
+category: "nas"
+heroImage: "./image.webp"
+heroImageAlt: "UGREEN NASync DXP4800 Plus 4-Bay NAS mit 10GbE und Pentium Gold 8505"
+pubDate: 2026-02-09
+lastUpdated: 2026-02-09
+ogImage: "./og.png"
+ogType: "article"
+tags:
+  - "nas"
+  - "ugreen-nasync"
+  - "pentium-gold-8505"
+  - "10gbe"
+  - "plex"
+---
+
+import SpecGrid from '@/components/ui/SpecGrid.astro';
+import ProsCons from '@/components/ui/ProsCons.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import heroImg from './image.webp';
+
+<ReviewHero 
+  image={heroImg}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "Intel Pentium Gold 8505 (5 Kerne) mit 8 GB DDR5; bis zu 64 GB RAM unterstützt.",
+    "Dual Ethernet: 10GbE + 2,5GbE.",
+    "4-Bay Diskless NAS mit 2x M.2 NVMe Slots.",
+    "128 GB System-SSD inklusive.",
+    "4K HDMI + SD 3.0 + Front USB-C/USB-A mit bis zu 10 Gb/s."
+  ]}
+  asin={frontmatter.asin}
+/>
+
+## UGREEN NASync DXP4800 Plus auf einen Blick
+
+Das **UGREEN NASync DXP4800 Plus** mischt den Markt für 4-Bay-NAS auf und bietet Hardware-Spezifikationen, die traditionelle Wettbewerber wie Synology oder QNAP oft für viel höhere Preisklassen reservieren oder teure Zusatzmodule erfordern. Mit einem **Intel Pentium Gold 8505** Prozessor, **8 GB DDR5 RAM** und integriertem **10GbE** richtet es sich an Power-User, die maximale Leistung und Medienfunktionen wünschen, ohne separate Upgrade-Module kaufen zu müssen.
+
+> **Disclosure:** Als Amazon-Partner verdienen wir an qualifizierten Verkäufen, die über Links auf dieser Seite getätigt werden. Dies verursacht für Sie keine zusätzlichen Kosten.
+
+<SpecGrid specs={{
+  "CPU": "Intel Pentium Gold 8505 (5 Kerne / 6 Threads)",
+  "Arbeitsspeicher": "8 GB DDR5 (erweiterbar bis 64 GB)",
+  "Laufwerkseinschübe": "4x SATA-Einschübe + 2x M.2 NVMe Slots",
+  "Systemlaufwerk": "128 GB SSD (System-Flash-Speicher)",
+  "Netzwerk": "1x 10GbE + 1x 2,5GbE",
+  "Erweiterung": "SD 3.0 Kartenleser, Front USB-C/USB-A (10 Gb/s)",
+  "BS": "UGOS Pro",
+  "Ideal für": "Plex Medienserver, schnelle lokale Übertragungen, Docker/VM-Enthusiasten"
+}} />
+
+## Hardware-Überlegenheit: 10GbE und Pentium Gold
+
+Das herausragende Merkmal des DXP4800 Plus ist seine Konnektivität und Rechenleistung. Während die meisten 4-Bay-NAS-Geräte in dieser Klasse bei 1GbE oder 2,5GbE bleiben, bietet UGREEN einen **10GbE-Port** direkt ab Werk. Das macht es zu einem unglaublichen Preis-Leistungs-Verhältnis für Kreativprofis oder Homelab-Betreiber, die große Dateien schnell über ein lokales Netzwerk bewegen müssen.
+
+Der **Intel Pentium Gold 8505** ist ein deutlicher Fortschritt gegenüber den Celeron-Prozessoren, die typischerweise in diesem Segment zu finden sind. Mit 5 Kernen (1 Performance-Kern, 4 Effizienz-Kerne) und 6 Threads bietet er ausreichend Reserven für den Betrieb mehrerer Docker-Container, virtueller Maschinen und Hintergrundaufgaben, ohne ins Schwitzen zu geraten.
+
+## Plex Kraftpaket: Intel QuickSync
+
+Im Gegensatz zur AMD Ryzen-basierten Synology DS923+ verfügt das **UGREEN DXP4800 Plus** über Intel UHD Graphics mit **QuickSync-Unterstützung**. Dies ist ein Game-Changer für Plex- und Jellyfin-Nutzer. Es kann mehrere Hardware-Transcodierungen gleichzeitig bewältigen, was es zu einer leistungsfähigeren Wahl für einen Medienserver macht, wenn Ihre Clients Transcodierung benötigen.
+
+## Software: UGOS Pro vs. Die Titanen
+
+Die Hardware ist exzellent, aber bei der Software hat UGREEN noch Nachholbedarf. **UGOS Pro** basiert auf Debian 12 (nach Erkenntnissen der Community), was Linux-Enthusiasten anspricht, da es die Standard-Paketverwaltung `apt` und eine vertraute Umgebung ermöglicht. Es fehlt jedoch der jahrzehntelange Feinschliff, das App-Ökosystem und die "es funktioniert einfach"-Zuverlässigkeit von Synologys DSM.
+
+Für Nutzer, die mit Docker vertraut sind und potenziell am Betriebssystem basteln möchten, ist dies ein Vorteil. Für diejenigen, die ein Gerät nach dem Prinzip "einrichten und vergessen" suchen, mag sich die Software-Erfahrung im Vergleich zu etablierten Wettbewerbern weniger ausgereift anfühlen.
+
+<UserFeedback feedback={[
+  {
+    user: "fx2mx3 (Reddit r/DataHoarder)",
+    comment: "This NAS has one particular feature I really like! 2 Network Cards - 2.5 and 10Gb. It has a lot of other bells and whistles like a a nice Pentium gold 8505 with 5 cores and 6 threads and expandable RAM slots up to 64GB. But for me it was the network design that got me!",
+    sentiment: "positive"
+  },
+  {
+    user: "No_Stand_5976 (Reddit r/UgreenNASync)",
+    comment: "Proud owner of Ugreen NAS. Absolutely love the hardware. The look and the feel of the device itself, but I feel that it’s severely lacking in the following items:",
+    sentiment: "neutral"
+  },
+  {
+    user: "Mister_Brevity (Reddit r/homelab)",
+    comment: "I have that nas. Maxed the ram, added cache ssd’s as it really sped up nzbget downloads. I’ve done 6-7 concurrent transcodes with no issues at 1080p. I did not change the os - I planned to, but after testing the stock os everything just worked so I left it alone.",
+    sentiment: "positive"
+  },
+  {
+    user: "Samadaeus (Reddit r/UgreenNASync)",
+    comment: "I backed the UGREEN DXP4800 Plus on Kickstarter, thought I was doing the early-adopter homelab thing, and I’ve spent about seven months just trying to get one single working unit out of their “2-year warranty.” I still don’t have one. Not one.",
+    sentiment: "negative"
+  },
+  {
+    user: "_steven (Reddit r/UgreenNASync)",
+    comment: "Next to my Synology now sits a Great, Mighty NASync DXP4800 Plus, looking down on my puny old two-bay DiskStation. With about 400% better specs in every way (CPU cores, speed, memory, storage capacity) and software that is lifetimes ahead of Synology. I was pleasantly surprised to discover that the UGOS is actually just Debian 12, and that it is possible to install apt packages.",
+    sentiment: "positive"
+  },
+  {
+    user: "Bojogig (Reddit r/UgreenNASync)",
+    comment: "I’ve been pleasantly surprised by UGOS. It’s more capable than I was expecting, granted I’m a NAS noob. But I’ve got mine set up running Plex (docker), Home Assistant OS (VM), and makeMKV (docker).",
+    sentiment: "neutral"
+  }
+]} />
+
+<ProsCons
+  pros={[
+    "Integrierte 10GbE und 2,5GbE Vernetzung ohne zusätzliche Dongles",
+    "Intel Pentium Gold 8505 bietet hervorragende CPU-Leistung",
+    "Intel QuickSync-Unterstützung für überlegenes Plex-Transcoding",
+    "DDR5 RAM und zwei M.2 NVMe Slots für Geschwindigkeit und Caching",
+    "Premium-Verarbeitungsqualität und Ästhetik"
+  ]}
+  cons={[
+    "UGOS Pro ist neuer und weniger ausgereift als Synology DSM oder QNAP QTS",
+    "Erfahrungen mit Kundensupport und Garantie sind gemischt",
+    "Software-Ökosystem wächst noch"
+  ]}
+/>
+
+## Related Reviews
+
+- **[Synology DS923+ Review: Expandable 4-Bay NAS for SMB](/reviews/synology-ds923)**
+- **[Synology DS423+ Review: A 4-Bay Plex NAS That Works](/reviews/synology-ds423-plus)**
+
+<AffiliateButton asin={frontmatter.asin} label="Bei Amazon ansehen" />

@@ -1,0 +1,34 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { t, type Language } from "@/utils/i18n";
+
+const lang: Language = "en";
+const pageTitle = "Contact | HardwareLab";
+const pageDescription = "Get in touch with HardwareLab for partnerships and feedback.";
+const email = "contact@hardwarelab.org";
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+  <div class="fade-in max-w-3xl mx-auto px-4 py-12">
+    <header class="text-center mb-10">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">{t("contact", lang)}</h1>
+      <p class="text-lg text-primary-600 dark:text-primary-400">
+        {t("contactDescription", lang)}{" "}
+        <a href={`mailto:${email}`} class="text-accent-600 hover:underline">
+          {email}
+        </a>
+      </p>
+    </header>
+
+    <section
+      class="rounded-2xl border border-primary-200 dark:border-primary-800 bg-primary-50/60 dark:bg-primary-900/40 p-6 md:p-8"
+    >
+      <h2 class="text-xl font-semibold mb-3">What to include</h2>
+      <ul class="list-disc pl-5 space-y-2 text-primary-700 dark:text-primary-300">
+        <li>Your name and role</li>
+        <li>What you want to collaborate on</li>
+        <li>Relevant links (product page, press kit, docs)</li>
+      </ul>
+    </section>
+  </div>
+</Layout>

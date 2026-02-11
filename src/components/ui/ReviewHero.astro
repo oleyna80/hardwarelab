@@ -1,11 +1,14 @@
 ---
+import { Image } from "astro:assets";
 import AffiliateButton from "./AffiliateButton.astro";
 
+type PriceCategory = "budget" | "mid" | "high" | "enterprise";
+
 interface Props {
-    image: string;
+    image: ImageMetadata | string;
     imageAlt: string;
     rating: number;
-    priceCategory: "budget" | "mid" | "high" | "premium";
+    priceCategory: PriceCategory;
     keySpecs: string[];
     asin: string;
 }
@@ -29,10 +32,10 @@ const priceCategoryLabels = {
         range: "$600-$1200",
         color: "text-purple-600 dark:text-purple-400",
     },
-    premium: {
-        label: "Premium",
+    enterprise: {
+        label: "Enterprise",
         range: "$1200+",
-        color: "text-amber-600 dark:text-amber-400",
+        color: "text-cyan-600 dark:text-cyan-400",
     },
 };
 
@@ -51,11 +54,21 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
         <!-- Image Section -->
         <div class="flex items-center justify-center">
             <div class="relative group">
-                <img
-                    src={image}
-                    alt={imageAlt}
-                    class="rounded-xl shadow-2xl w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-                />
+                {
+                    typeof image === "string" ? (
+                        <img
+                            src={image}
+                            alt={imageAlt}
+                            class="rounded-xl shadow-2xl w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                    ) : (
+                        <Image
+                            src={image}
+                            alt={imageAlt}
+                            class="rounded-xl shadow-2xl w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                    )
+                }
                 <div
                     class="absolute inset-0 rounded-xl bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
@@ -135,6 +148,7 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
                 <AffiliateButton
                     asin={asin}
                     label="Check Current Price on Amazon"
+                    lang={Astro.currentLocale as any}
                 />
             </div>
         </div>

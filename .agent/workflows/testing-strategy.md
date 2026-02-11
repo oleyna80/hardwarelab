@@ -4,6 +4,8 @@ description: Testing strategy for code quality and reliability
 
 # Testing Strategy
 
+`Last validated: 2026-02-08`
+
 ## Overview
 This guide covers testing approaches for HardwareLab to ensure code quality, accessibility, and performance.
 
@@ -260,7 +262,7 @@ jobs:
           node-version: '20'
       - run: npm ci
       - run: npx astro check
-      - run: npm test
+      - run: npx vitest run
       
   e2e:
     runs-on: ubuntu-latest
@@ -286,11 +288,11 @@ jobs:
 ## Quick Commands Reference
 
 ```bash
-# Run all tests
-npm test
+# Run unit tests (if configured)
+npx vitest run
 
 # Watch mode
-npm run test:watch
+npx vitest
 
 # E2E tests
 npx playwright test

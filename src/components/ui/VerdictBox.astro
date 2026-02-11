@@ -21,7 +21,6 @@ const {
 
 // Валидация score
 const normalizedScore = Math.min(10, Math.max(1, score));
-const scorePercentage = (normalizedScore / 10) * 100;
 
 // Цвета для score
 const getScoreColor = (score: number) => {
@@ -142,9 +141,8 @@ const recommendationColors = {
                 Pros
             </h3>
             <ul class="space-y-2" role="list">
-                {good.map((item, index) => (
+                {good.map((item) => (
                     <li 
-                        key={index}
                         class="flex items-start"
                         role="listitem"
                     >
@@ -179,9 +177,8 @@ const recommendationColors = {
                 Cons
             </h3>
             <ul class="space-y-2" role="list">
-                {bad.map((item, index) => (
+                {bad.map((item) => (
                     <li 
-                        key={index}
                         class="flex items-start"
                         role="listitem"
                     >

@@ -1,15 +1,16 @@
 ---
 title: "Synology DS423+ Review: A 4-Bay Plex NAS That Works"
 description: "Synology DS423+ review: 4-bay Intel NAS with Plex hardware transcoding, DSM apps, NVMe cache, and easy secure backups—ideal for home media and family cloud."
-amazonAsin: "B0BXMS9GFF"
+asin: "B0BXMS9GFF"
 rating: 4.4
 priceCategory: "high"
-heroImage: "/images/synology-ds423-plus.png"
+heroImage: "./image.webp"
 heroImageAlt: "Synology DS423+ 4-bay NAS enclosure on a desk with front drive trays and status LEDs, suited for Plex and home backups"
+category: "nas"
 pubDate: 2026-01-05
 lastUpdated: 2026-01-05
-ogImage: "/images/og/synology-ds423-plus-og.png"
 ogType: "article"
+ogImage: "./og.png"
 tags:
   - "nas"
   - "intel-celeron-j4125"
@@ -23,9 +24,10 @@ import ProsCons from '@/components/ui/ProsCons.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 import ReviewHero from '@/components/ui/ReviewHero.astro';
+import heroImg from './image.webp';
 
 <ReviewHero 
-  image={frontmatter.heroImage}
+  image={heroImg}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
@@ -36,7 +38,7 @@ import ReviewHero from '@/components/ui/ReviewHero.astro';
     "2 × M.2 NVMe (cache or storage)",
     "Dual 1GbE + Intel Quick Sync"
   ]}
-  asin={frontmatter.amazonAsin}
+  asin={frontmatter.asin}
 />
 
 ## Synology DS423+ at a glance
@@ -160,13 +162,13 @@ If you are on the fence, decide based on whether **transcoding is a must-have** 
 
 If you want a polished NAS that can be your **backup hub + private cloud + Plex box**, the Synology DS423+ remains one of the most balanced choices in the 4-bay class—especially for media libraries that benefit from Intel hardware transcoding. The trade-off is clear: you’re buying into the DSM ecosystem and Quick Sync advantages, while accepting **1GbE networking** and a modest default RAM configuration.
 
-<AffiliateButton asin={frontmatter.amazonAsin} label="View on Amazon" />
+<AffiliateButton asin={frontmatter.asin} label="View on Amazon" />
 
 ## Related Reviews
 
 Looking for alternatives? Check these out:
-- **[Synology DS923+](/reviews/synology-ds923)** - Faster CPU and a more expandable platform, but no iGPU transcoding.
-- **[Intel NUC 13 Pro](/reviews/intel-nuc-13-pro)** - Compact mini PC alternative for Plex with more flexibility.
-- **[Mac mini M4](/reviews/mac-mini-m4)** - Premium option for media workflows and creative tasks.
+- **[Synology DS923+ Review: Expandable 4-Bay NAS for SMB](/reviews/synology-ds923)** - Faster CPU and a more expandable platform, but no iGPU transcoding.
+- **[ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)** - Compact mini PC alternative for Plex with more flexibility.
+- **[Apple Mac mini M4 (16GB/256GB) Review: 5x5 Desktop Power](/reviews/mac-mini-m4)** - Premium option for media workflows and creative tasks.
 
 {/* TODO: Verify review URLs exist */}

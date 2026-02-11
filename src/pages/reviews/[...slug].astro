@@ -7,55 +7,38 @@ import ShareButtons from "@/components/ui/ShareButtons.astro";
 
 export async function getStaticPaths() {
   const reviews = await getCollection("reviews");
-  console.log(
-    "Все обзоры:",
-    reviews.map((r) => ({ id: r.id })),
-  );
 
   // Фильтруем только EN обзоры (id начинается с 'en/')
   const enReviews = reviews.filter((review) => review.slug.startsWith("en/"));
-  console.log(
-    "EN обзоры:",
-    enReviews.map((r) => r.slug),
-  );
 
   // Генерируем параметры slug как часть после 'en/'
   const paths = enReviews.map((review) => {
     const slug = review.slug.replace(/^en\//, "");
-    console.log(`Обзор ${review.slug} -> slug: ${slug}`);
     return {
       params: { slug },
     };
   });
 
-  console.log("Сгенерированные пути:", paths);
   return paths;
 }
 
 const { slug } = Astro.params;
-console.log("Astro.params.slug:", slug);
 
 // Получаем все обзоры и находим нужный по slug с префиксом 'en/'
 const allReviews = await getCollection("reviews");
-console.log(
-  "Все обзоры в рендере:",
-  allReviews.map((r) => r.slug),
-);
 
 // slug - массив, берем первый элемент
 const slugString = Array.isArray(slug) ? slug[0] : slug;
-console.log("slugString:", slugString);
 
 const review = allReviews.find((r) => r.slug === `en/${slugString}`);
 
 if (!review) {
-  console.log("Обзор не найден для slug:", slugString);
   return Astro.redirect("/404");
 }
 
-console.log("Найден обзор:", review.id);
 const { Content: ReviewContent } = await review.render();
 const frontmatter = review.data;
+
 ---
 
 <Layout
@@ -64,12 +47,20 @@ const frontmatter = review.data;
   image={frontmatter.ogImage || frontmatter.heroImage}
   article={true}
   pubDate={frontmatter.pubDate}
+  review={{
+    productName: frontmatter.title,
+    rating: frontmatter.rating,
+    ...(frontmatter.ogImage || frontmatter.heroImage
+      ? { image: frontmatter.ogImage || frontmatter.heroImage }
+      : {}),
+    pubDate: frontmatter.pubDate,
+  }}
 >
   <article class="max-w-4xl mx-auto px-4 py-8">
     <ProductHeader
       title={frontmatter.title}
       rating={frontmatter.rating}
-      amazonAsin={frontmatter.amazonAsin}
+      asin={frontmatter.asin}
       priceCategory={frontmatter.priceCategory}
     />
 
@@ -101,7 +92,7 @@ const frontmatter = review.data;
             </p>
           </div>
           <AffiliateButton
-            asin={frontmatter.amazonAsin || ""}
+            asin={frontmatter.asin || ""}
             label="Check Price on Amazon"
             variant="primary"
             size="lg"

@@ -69,7 +69,7 @@ hardwarelab/
 | Точка входа | Путь |
 |-------------|------|
 | Главная EN | `src/pages/index.astro` |
-| Локализованные | `src/pages/[lang]/index.astro` |
+| Локализованные | `src/pages/{fr,ru,de}/index.astro` |
 | Обзоры | `src/pages/reviews/[...slug].astro` |
 | Категории | `src/pages/categories/[category].astro` |
 
@@ -133,8 +133,8 @@ hardwarelab/
 |-------|--------|
 | WSL development | ✅ Complete |
 | Docker containerization | ✅ Complete |
-| Production deployment | ✅ Ready |
-| Nginx Proxy Manager | ✅ Configured |
+| Production deployment (VPS) | 🔄 In progress (target: 2026-03-31) |
+| Reverse proxy + SSL | 🔄 In progress (Phase A) |
 
 ---
 

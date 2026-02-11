@@ -1,0 +1,115 @@
+---
+title: "Raspberry Pi 5 (8GB) Test: Endlich schnell genug, aber zu welchem Preis?"
+description: "Der Raspberry Pi 5 bietet einen massiven 3-fachen Geschwindigkeitsschub, PCIe für NVMe und dualen 4K-Output. Aber ist er mit einem Preis von 95$ und strengen Stromanforderungen immer noch die beste Wahl für Ihr Homelab?"
+priceCategory: "budget"
+rating: 4.6
+ratingSourceURL: "https://www.amazon.de/dp/B0CK2FCG1K"
+asin: "B0CK2FCG1K"
+pubDate: 2026-01-25T14:30:00.000Z
+---
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImage from './image.webp';
+
+<ReviewHero
+  image={heroImage}
+  imageAlt="Raspberry Pi 5 Board mit Anschlüssen"
+  rating={4.6}
+  priceCategory="budget"
+  asin="B0CK2FCG1K"
+  keySpecs={[
+    "Broadcom BCM2712: 4x Cortex-A76 @ 2.4GHz",
+    "8GB LPDDR4X-4267 RAM",
+    "PCIe 2.0 x1 (via FFC-Anschluss)",
+    "Dual 4Kp60 Micro-HDMI",
+    "5V/5A USB-C Power Delivery"
+  ]}
+/>
+
+Der Raspberry Pi 5 stellt den bedeutendsten architektonischen Wandel in der Geschichte der Plattform dar. Jahrelang war der Pi der „gut genug“ 35-Dollar-Computer. Der Pi 5, insbesondere dieses 8GB-Modell, verabschiedet sich von „gut genug“ zugunsten echter Desktop-Klasse-Leistung.
+
+Mit einem neuen Quad-Core Cortex-A76 Prozessor, der mit 2,4 GHz getaktet ist, und einer dedizierten RP1 Southbridge für I/O verspricht er, 2-3 mal schneller als der Pi 4 zu sein. Aber der Preisanstieg, eine pingelige Stromanforderung und die Notwendigkeit von Zusatz-HATs für Basisfunktionen wie NVMe-Speicher komplizieren das Preis-Leistungs-Verhältnis. Rechtfertigt die Leistung die Gesamtkosten des Builds, wenn billige x86 Mini-PCs existieren?
+
+## Ist er wirklich ein Desktop-Ersatz?
+
+Der Sprung vom Cortex-A72 des Pi 4 zum **Cortex-A76** des Pi 5 ist massiv. In unseren Tests und Community-Benchmarks ist die UI-Flüssigkeit im Raspberry Pi OS beim Surfen im Internet und leichter Produktivität nicht von Einsteiger-x86-Desktops zu unterscheiden.
+
+*   **Krypto & SSL:** Die neue CPU enthält kryptografische Erweiterungen, was sie zu einer weit überlegenen Wahl für VPN-Knoten oder SSL-Terminierung im Vergleich zum Vorgänger macht.
+*   **YouTube:** Die VideoCore VII GPU bewältigt die 1080p60-Wiedergabe reibungslos, und die 4Kp60 HEVC-Decodierung ist solide, obwohl DRM-Inhalte in Browsern je nach OS-Konfiguration immer noch Glückssache sein können.
+
+Hitze ist hier jedoch der Feind. Im Gegensatz zum Pi 4, der *technisch gesehen* passiv laufen konnte (wenn auch heiß), **erfordert der Pi 5 aktive Kühlung** für dauerhafte Lasten. Wenn Sie die CPU fordern, wird sie ohne den offiziellen Active Cooler oder ein anständiges Dritthersteller-Gehäuse schnell drosseln.
+
+## Die I/O-Revolution: PCIe und RP1
+
+Der Star der Show ist nicht nur die CPU – es ist der **RP1 I/O-Controller**. Durch die Auslagerung des USB- und Ethernet-Datenverkehrs auf eine dedizierte Southbridge eliminiert der Pi 5 die Bandbreitenengpässe, die frühere Modelle plagten. Sie erhalten endlich echte, gleichzeitige USB 3.0-Geschwindigkeiten, selbst wenn der Gigabit-Ethernet-Port ausgelastet ist.
+
+### Die PCIe-„Slot“-Realität
+Dies ist der erste Flaggschiff-Pi, der eine für den Benutzer zugängliche **PCIe 2.0 x1** Schnittstelle bietet.
+*   **Das Gute:** Sie können endlich eine NVMe-SSD für schnellen, zuverlässigen Boot-Speicher anschließen und die unzuverlässige microSD-Karte umgehen.
+*   **Das Schlechte:** Es ist kein Standard-M.2-Slot. Es ist ein empfindlicher FFC-Flachbandanschluss. Sie **müssen** einen separaten HAT (Hardware Attached on Top) kaufen, um ein Laufwerk zu montieren. Dies fügt Ihrem Build Volumen und Kosten (extra 10-15 $) hinzu.
+
+## Warum ist die 5V/5A-Stromanforderung ein Problem?
+
+Das ist der größte „Fallstrick“ für Aufrüster. Der Pi 5 verlangt ein **5V/5A** USB-C-Netzteil.
+
+Die meisten Standard-USB-PD-Ladegeräte (selbst Ihr schickes 100W Laptop-Netzteil) werden wahrscheinlich nur 5V @ 3A aushandeln. Wenn der Pi 5 eine 3A-Versorgung erkennt, **begrenzt er künstlich** den für die USB-Ports verfügbaren Strom auf 600mA. Das bedeutet, dass Ihre externen Festplatten oder stromhungrige Peripheriegeräte zufällig die Verbindung verlieren könnten.
+
+> **Warnung:** Um den Pi 5 voll auszuschöpfen, sind Sie faktisch gezwungen, das offizielle Raspberry Pi 27W USB-C Netzteil zu kaufen, was den Einstiegspreis weiter erhöht.
+
+## Nutzer-Feedback: Das sagt die Community
+
+Echte Nutzer haben gemischte Gefühle bezüglich der thermischen Einschränkungen und des „Dongle-Lebens“ für NVMe, loben aber die rohe Geschwindigkeit.
+
+<UserFeedback
+  feedback={[
+    {
+      user: "bobmlord1 (r/raspberry_pi)",
+      sentiment: "neutral",
+      comment: "50-60 Grad sind geradezu kühl für fast jede CPU. Wir müssen nicht über Überhitzung reden, bis Sie 90+ sehen. Wenn Ihr Netzteil nicht genug Strom liefert, könnte der Chip deswegen drosseln."
+    },
+    {
+      user: "militant_rainbow (r/raspberry_pi)",
+      sentiment: "positive",
+      comment: "Der offizielle aktive Kühler ist günstig, aber ich denke, Dritthersteller-Gehäuse, die Kühlung beinhalten, bieten ein besseres Preis-Leistungs-Verhältnis. Man kann passiv gekühlte Gehäuse für Lautlosigkeit oder Gehäuse mit aktiver Kühlung bekommen, wenn man etwas Intensives macht."
+    },
+    {
+      user: "whoisliuxiaobo (r/OrangePI)",
+      sentiment: "negative",
+      comment: "Habe heute die Reviews für den Raspberry Pi 5 gesehen und war sehr enttäuscht. 1) Er nutzt immer noch microSD als Boot, während der Orange Pi 5 NVMe als Boot nutzt. Ich hatte ständige Probleme mit meinem Medienserver auf dem Raspberry Pi 5 mit korrupten SD-Karten beim Booten."
+    },
+    {
+      user: "alasdairallan (r/raspberry_pi)",
+      sentiment: "neutral",
+      comment: "Das ist absolut in Ordnung. Es ist nichts Falsches daran, in die 60C zu kommen, dem Pi wird nichts passieren. Er wird die CPU bei 85C thermisch drosseln, aber selbst das ist absolut in Ordnung und genau das, wofür er ausgelegt ist, kein Grund zur Sorge."
+    }
+  ]}
+/>
+
+## Fazit: Das Premium-Pixel
+
+Der Raspberry Pi 5 (8GB) ist ein unbestreitbarer technischer Triumph, aber er befindet sich in einer unangenehmen Position. Bei einer UVP von ~$95 – plus Kosten für das offizielle Netzteil, aktiven Kühler, Gehäuse und NVMe-HAT – schauen Sie auf ein Projekt von 150$+.
+
+In dieser Preisklasse bieten N100-basierte Mini-PCs schnellere CPUs, bessere Gehäuse und Standard-M.2-Slots direkt aus der Box.
+
+**Kaufen Sie den Raspberry Pi 5, wenn:**
+*   Sie im GPIO-Ökosystem leben und HAT-Kompatibilität benötigen.
+*   Sie den klassenbesten Software-Support von Raspberry Pi OS wollen.
+*   Sie einen Cluster oder kompakten Homelab-Knoten bauen, der einen geringen Leerlaufstromverbrauch erfordert.
+
+**Lassen Sie es, wenn:**
+*   Sie nur einen billigen Plex-Server oder eine Home-Assistant-Box wollen (holen Sie sich einen N100 Mini-PC).
+*   Sie proprietäre Netzteile und Flachbandkabel hassen.
+
+<AffiliateButton
+  asin="B0CK2FCG1K"
+  label="Preis bei Amazon prüfen"
+/>
+
+## Verwandte Testberichte
+- [Orange Pi 5 Plus 16GB Review: RK3588 Powerhouse SBC with NVMe + Dual 2.5GbE](/reviews/orange-pi-5-plus)
+- [ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)
+- [Beelink EQR6 (6800U) Review: 24GB RAM & Silent PSU](/reviews/beelink-ser5-max-6800u)
+- [Mac mini M4 Pro Review: 24GB/512GB + Gigabit Ethernet](/reviews/mac-mini-m4-pro-24gb-512gb)
+- [Synology DS923+ Review: Expandable 4-Bay NAS for SMB](/reviews/synology-ds923)

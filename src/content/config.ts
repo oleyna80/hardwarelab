@@ -23,18 +23,19 @@ const productsCollection = defineCollection({
 // Обзоры
 const reviewsCollection = defineCollection({
     type: 'content',
-    schema: z.object({
+    schema: ({ image }) => z.object({
         title: z.string(),
         description: z.string(),
         pubDate: z.date(),
         lastUpdated: z.date().optional(),
-        heroImage: z.string().optional(),
-        ogImage: z.string().optional(),
+        heroImage: z.union([image(), z.string()]).optional(),
+        ogImage: z.union([image(), z.string()]).optional(), // TODO: Make required once all og.png files exist
 
         // Expansion fields
         reviewType: z.enum(['standard', 'build']).default('standard'),
         category: z.enum([
             'gaming',
+            'gaming-pcs',
             'monitors',
             'ai-workstation',
             'mini-pc',
@@ -42,7 +43,7 @@ const reviewsCollection = defineCollection({
             'sbc'
         ]).optional(), // Optional for backward compatibility with existing content
 
-        amazonAsin: z.string(),
+        asin: z.string(),
         priceCategory: z.enum(['budget', 'mid', 'high', 'enterprise']),
         rating: z.number().min(0).max(5),
 
@@ -52,6 +53,11 @@ const reviewsCollection = defineCollection({
         specs: z.record(z.string(), z.string()).optional(),
 
         tags: z.array(z.string()).optional(),
+
+        // Social/auto-posting fields (optional)
+        socialPublish: z.boolean().optional(),
+        socialText: z.string().optional(),
+        socialHighlights: z.array(z.string()).optional(),
 
         // Build Review Components (Multi-ASIN)
         buildComponents: z.array(z.object({

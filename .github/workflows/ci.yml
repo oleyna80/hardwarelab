@@ -16,11 +16,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - name: Install dependencies
@@ -38,6 +40,13 @@ jobs:
       - name: Affiliate checks
         run: npm run check:affiliate
 
+      - name: Image lint
+        run: npm run lint:images
+
+      - name: Researcher output checks (changed EN review slugs)
+        shell: bash
+        run: bash scripts/run-researcher-output-checks.sh "${{ github.event_name }}" "${{ github.event.pull_request.base.sha }}" "${{ github.event.before }}" "${{ github.sha }}"
+
   e2e:
     runs-on: ubuntu-latest
     needs: quality
@@ -48,7 +57,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - name: Install dependencies

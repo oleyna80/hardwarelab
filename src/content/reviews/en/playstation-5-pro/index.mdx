@@ -1,15 +1,16 @@
 ---
 title: "PS5 Pro Review: 2TB Storage, PSSR, and Better Ray Tracing"
 description: "PlayStation 5 Pro review: PSSR upscaling, upgraded ray tracing, and a 2TB SSD aim for smoother 4K/60 gameplay. We break down value, storage, and PS Plus."
-amazonAsin: "B0DGY63Z2H"
+asin: "B0DGY63Z2H"
 rating: 4.4
 priceCategory: "high"
-heroImage: "/images/sony-playstation-5-pro.png"
+heroImage: "./image.webp"
 heroImageAlt: "Sony PlayStation 5 Pro console with DualSense controller, white shell panels, and black center spine on a neutral background"
+category: "gaming"
 pubDate: 2026-01-05
 lastUpdated: 2026-01-05
-ogImage: "/images/og/sony-playstation-5-pro-og.png"
 ogType: "article"
+ogImage: "./og.png"
 tags:
   - "consoles"
   - "playstation-5-pro"
@@ -23,9 +24,10 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+import heroImg from './image.webp';
 
 <ReviewHero 
-  image={frontmatter.heroImage}
+  image={heroImg}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
@@ -36,7 +38,7 @@ import AffiliateButton from '@/components/ui/AffiliateButton.astro';
     "Advanced ray tracing improvements (game-dependent)",
     "DualSense included; disc drive sold separately"
   ]}
-  asin={frontmatter.amazonAsin}
+  asin={frontmatter.asin}
 />
 
 > **Disclosure:** As an Amazon Associate, we earn from qualifying purchases made through links on this page. This comes at no additional cost to you.
@@ -187,7 +189,7 @@ If you primarily care about value, or your backlog is dominated by titles that a
 {/* VERIFIED: These reviews exist on site */}
 - **[Xbox Series X 2TB (Galaxy Black)](/reviews/xbox-series-x-2tb-galaxy-black)** - Closest console competitor for performance/value comparisons
 - **[Apple Mac mini (M4)](/reviews/apple-mac-mini-m4)** - Compact “gaming-adjacent” compute option for cloud/remote play setups
-- **[Synology DS923+](/reviews/synology-ds923-plus)** - Great if you want a NAS for backups and game capture storage
+- **[Synology DS923+](/reviews/synology-ds923)** - Great if you want a NAS for backups and game capture storage
 
 {/* TODO: Create these in future - NOT LINKED */}
 {/* - PlayStation 5 (Slim) - Lower-cost entry to the PS5 library */}
@@ -196,4 +198,4 @@ If you primarily care about value, or your backlog is dominated by titles that a
 
 {/* TODO: Verify review URLs exist */}
 
-<AffiliateButton asin={frontmatter.amazonAsin} label="View on Amazon" />
+<AffiliateButton asin={frontmatter.asin} label="View on Amazon" />

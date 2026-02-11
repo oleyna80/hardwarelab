@@ -2,47 +2,41 @@
 
 Спецификации контента по категориям продуктов.
 
-## Categories
+## 7 Categories
 
-| Category | File | Products |
-|----------|------|----------|
-| [Monitors](monitors.md) | monitors.md | Gaming/productivity monitors |
-| [Consoles](consoles.md) | consoles.md | Gaming consoles |
-| [Mini PCs](mini-pcs.md) | mini-pcs.md | Compact computers |
-| [NAS](nas.md) | nas.md | Network storage |
-| [SBCs](sbcs.md) | sbcs.md | Single-board computers |
-| [Gaming](gaming.md) | gaming.md | Gaming PCs, peripherals |
-| [AI Workstations](ai-workstations.md) | ai-workstations.md | AI/ML builds |
+| # | Category | Slug | ASIN Type |
+|---|----------|------|-----------|
+| 1 | [Gaming (Consoles + Handheld)](gaming-consoles.md) | `gaming` | Single |
+| 2 | [Gaming PCs](gaming-pcs.md) | `gaming-pcs` | Single |
+| 3 | [AI Workstation Builds](ai-workstations.md) | `ai-workstation` | **Multi** |
+| 4 | [Mini PCs](mini-pc.md) | `mini-pc` | Single |
+| 5 | [Monitors](monitors.md) | `monitors` | Single |
+| 6 | [NAS](nas.md) | `nas` | Single |
+| 7 | [SBCs](sbcs.md) | `sbc` | Single |
 
-## Common Structure
+## Category Breakdown
 
-Каждый файл категории содержит:
-1. **Required Specs** — обязательные характеристики
-2. **Optional Specs** — дополнительные поля
-3. **SEO Keywords** — ключевые слова категории
-4. **Checklist** — перед публикацией
+### Product Reviews (Single ASIN)
+- **Gaming** — Consoles + handhelds (Xbox, PlayStation, Steam Deck, ROG Ally)
+- **Gaming PCs** — Pre-built gaming desktops (Velztorm, Alienware)
+- **Mini PCs** — Mac mini, NUC, Beelink
+- **Monitors** — Gaming and professional monitors
+- **NAS** — Synology, QNAP
+- **SBC** — Raspberry Pi, Orange Pi
 
-## Frontmatter Base
+### Build Guides (Multi-ASIN)
+- **AI Workstation Builds** — 2+ GPU, 1000W+ PSU, custom builds for ML/AI
 
-Все обзоры имеют общие поля:
+## Usage
 
-```yaml
-# Required for all
-title: string
-description: string
-pubDate: date
-heroImage: string
-heroImageAlt: string
-ogImage: string
-rating: number (1-5)
-category: string
-tags: string[]
-asin: string
-price: string  # "From $XXX"
+Each spec file contains:
+- Required specs
+- Optional specs
+- SEO keywords
+- Frontmatter example
+- Checklist
 
-# Category-specific specs below...
-```
+## Related
 
----
-
-→ Page templates: [../ui_extension/](../ui_extension/)
+→ [ui_extension/](../ui_extension/) — Page templates and components
+→ [prompts/](../../prompts/) — ChatGPT prompts for review generation

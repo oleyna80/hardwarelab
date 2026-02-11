@@ -26,7 +26,7 @@ HardwareLab is an **Amazon affiliate website** focused on hardware product revie
 ## Monetization Model
 
 1. **Amazon Affiliate Links** — Primary revenue via Amazon Associate program
-2. **Regional Tags** — Different affiliate tags per region (US, UK, DE, FR)
+2. **Affiliate Tags** — Regional tags via `PUBLIC_AMAZON_TAG_US`, `PUBLIC_AMAZON_TAG_DE`, `PUBLIC_AMAZON_TAG_FR`
 3. **Compliance** — All affiliate content follows Amazon Operating Agreement
 
 ## Brand Voice

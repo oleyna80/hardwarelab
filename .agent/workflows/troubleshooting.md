@@ -80,7 +80,7 @@ title: "Required"
 description: "Required"
 pubDate: 2026-01-04  # Must be valid date
 rating: 4.5          # Must be number 0-5
-amazonAsin: "B0XXX"  # Required string
+asin: "B0XXX"  # Required string
 priceCategory: "mid" # Must be enum value
 ---
 ```
@@ -194,6 +194,11 @@ t('home.title', 'en')
 **Cause:** Incorrect path or missing file  
 **Solution:**
 ```astro
+<!-- ✅ For review frontmatter images (same folder as MDX) -->
+---
+heroImage: "./product.jpg"
+---
+
 <!-- ✅ For public folder images -->
 <img src="/images/product.jpg" alt="Product" />
 
@@ -292,31 +297,33 @@ npm run dev -- --port 3000
 **Cause:** Missing Amazon tag or incorrect ASIN  
 **Solution:**
 1. Verify ASIN in frontmatter
-2. Check `AffiliateButton.astro` constructs URL correctly:
-```astro
----
-const amazonUrl = `https://www.amazon.com/dp/${asin}?tag=yourtag-20`;
----
-```
+2. Check `src/components/ui/AffiliateButton.astro` and `src/config.ts`:
+   - URL is built via `AMAZON_CONFIG.getAffiliateLink(asin)`
+   - Regional affiliate tags come from `.env` (`PUBLIC_AMAZON_TAG_US`, `PUBLIC_AMAZON_TAG_DE`, `PUBLIC_AMAZON_TAG_FR`)
+   - Amazon marketplace domains are defined in code (`AMAZON_CONFIG.domains`)
 
 ### Environment variables not working
 
 **Cause:** Not prefixed with PUBLIC_ or not in .env  
 **Solution:**
-1. Create `.env` file:
+1. Copy `.env.example` to `.env`:
 ```env
-PUBLIC_SITE_URL=https://hardwarelab.com
-AMAZON_TAG=yourtag-20
+PUBLIC_SITE_DOMAIN=https://your-domain.com
+PUBLIC_AMAZON_TAG_US=your-tag-20
+PUBLIC_AMAZON_TAG_DE=your-tag-03
+PUBLIC_AMAZON_TAG_FR=your-tag-21
+PUBLIC_GA_ID=G-XXXXXXXXXX
+PUBLIC_ANALYTICS_ENABLED=true
 ```
 
 2. Access in Astro:
 ```astro
 ---
-// ✅ PUBLIC_ prefix for client-side
-const siteUrl = import.meta.env.PUBLIC_SITE_URL;
-
-// ✅ No prefix for server-side only
-const amazonTag = import.meta.env.AMAZON_TAG;
+// ✅ This project uses PUBLIC_* env vars
+const siteDomain = import.meta.env.PUBLIC_SITE_DOMAIN;
+const amazonTagUS = import.meta.env.PUBLIC_AMAZON_TAG_US;
+const amazonTagDE = import.meta.env.PUBLIC_AMAZON_TAG_DE;
+const amazonTagFR = import.meta.env.PUBLIC_AMAZON_TAG_FR;
 ---
 ```
 
@@ -365,7 +372,7 @@ Quick lookup table for common errors:
 | **E010** | `Environment variables not working` | Use PUBLIC_ prefix for client-side |
 | **E011** | `Dark mode not working` | Add `class="dark"` to html element |
 | **E012** | `Tailwind classes not applying` | Avoid dynamic class names |
-| **E013** | `Images not loading` | Check path: `/images/` for public |
+| **E013** | `Images not loading` | Check path: `./...` for review MDX, `/images/` for public |
 | **E014** | `Hot reload not working` | Clear .astro/ cache, restart |
 | **E015** | `Build fails silently` | Run `npm run build -- --verbose` |
 
@@ -594,5 +601,4 @@ copy({
 - [MDX Docs](https://mdxjs.com/)
 - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/)
 - Project README: `/README.md`
-- Component Docs: `/LAYOUT_COMPONENTS.md`
-
+- Component Docs: `/.memory_bank/ui_extension/components/README.md`

@@ -31,7 +31,7 @@ Navigation header with language switcher and theme toggle.
 | Item | Location |
 |------|----------|
 | Navigation links | Hardcoded в компоненте (строки 29-55) |
-| Supported languages | Hardcoded: en, fr, ru (TODO: add de) |
+| Supported languages | Hardcoded: en, fr, ru, de (default locale `en` has no URL prefix) |
 | Logo image | `/images/hardwarelab-icon.png` |
 
 ## Client Scripts

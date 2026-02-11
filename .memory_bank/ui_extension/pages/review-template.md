@@ -8,19 +8,21 @@
 
 ## Data Source
 - **Collection**: `reviews`
-- **Path**: `src/content/reviews/[lang]/[slug].mdx`
+- **Path**: `src/content/reviews/[lang]/[slug]/index.mdx`
 - **Schema**: `src/content/config.ts`
 
 ## Components Used
 
 | Component | Purpose |
 |-----------|---------|
-| `ReviewHero` | Hero-изображение и заголовок |
 | `ProductHeader` | H1 с названием продукта |
-| `SpecsTable` | Таблица характеристик |
-| `ProsCons` | Плюсы и минусы |
-| `AffiliateButton` | Кнопка "Check Price" |
-| `AffiliateDisclosure` | Disclosure above the fold |
+| `ShareButtons` | Кнопки шеринга |
+| `AffiliateButton` | Sticky CTA внизу страницы |
+| `ReviewContent` | Рендер MDX контента обзора |
+
+**MDX components (inside `src/content/reviews/.../index.mdx`):**
+- `ReviewHero`, `SpecGrid`, `UserFeedback`, `ProsCons`, `AffiliateButton` (в конце)
+- Disclosure: Markdown blockquote (не компонент)
 
 ## Required Frontmatter
 
@@ -28,18 +30,19 @@
 title: "Product Name Review"
 description: "SEO description"
 pubDate: 2026-01-09
-heroImage: "/images/product-hero.jpg"
+heroImage: "./image.webp"
 heroImageAlt: "Product image description"
-ogImage: "/images/product-og.jpg"
+ogImage: "./og.png"
 rating: 4.5
-category: "mini-pcs"
+category: "mini-pc"
 tags: ["tag1", "tag2"]
 asin: "B0XXXXXXXX"
+priceCategory: "mid"
 ```
 
 ## SEO Requirements
 - Title < 60 characters
-- Description 120-160 characters
+- Description 150-160 characters
 - H1 = product name
 - Canonical URL
 - hreflang for all locales

@@ -4,8 +4,6 @@ import Layout from "@/layouts/Layout.astro";
 import ReviewCard from "@/components/ui/ReviewCard.astro";
 
 export async function getStaticPaths() {
-    const allReviews = await getCollection("reviews");
-
     // Define category mappings
     const categoryMappings = {
         "mini-pc": ["mini-pc", "mac-mini", "ryzen-7-5800h", "nuc"],

@@ -29,8 +29,9 @@
 | Variable | Production | Dev Fallback |
 |----------|------------|--------------|
 | `PUBLIC_SITE_DOMAIN` | `https://hardwarelab.org` | `https://hardwarelab.example.com` |
-| `PUBLIC_AMAZON_AFFILIATE_TAG` | Real tag | `YOUR_AMAZON_TAG-20` |
-| `PUBLIC_AMAZON_DOMAIN` | `amazon.com` | `amazon.com` |
+| `PUBLIC_AMAZON_TAG_US` | Real tag | `YOUR_TAG-20` |
+| `PUBLIC_AMAZON_TAG_DE` | Real tag | `YOUR_TAG-03` |
+| `PUBLIC_AMAZON_TAG_FR` | Real tag | `YOUR_TAG-21` |
 | `PUBLIC_GA_ID` | `G-XXXXXXX` | empty |
 | `PUBLIC_ANALYTICS_ENABLED` | `true` | — |
 
@@ -90,7 +91,7 @@
 
 | Risk | File | Recommendation |
 |------|------|----------------|
-| Single affiliate tag | `config.ts` | Add per-region tags |
+| Missing regional affiliate tags | `.env` | Set `PUBLIC_AMAZON_TAG_DE` / `PUBLIC_AMAZON_TAG_FR` (fallback is US tag) |
 | Hardcoded site name | `config.ts:38` | OK for now |
 
 ### 🟢 Low Risk

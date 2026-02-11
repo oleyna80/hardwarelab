@@ -4,8 +4,8 @@ description: Step-by-step checklist for creating UI components
 
 # Component Creation Workflow
 ## Step 1: Research (5 min)
-1. Search for similar components: `npm run grep "ComponentName"`
-2. Check LAYOUT_COMPONENTS.md for existing alternatives
+1. Search for similar components: `rg "ComponentName" src/components/`
+2. Check `.memory_bank/ui_extension/components/README.md` for existing alternatives
 3. Review component-development.md guidelines
 ## Step 2: Create Component (15 min)
 1. Determine type (Astro vs React)
@@ -19,7 +19,7 @@ description: Step-by-step checklist for creating UI components
 3. Test on mobile (DevTools)
 4. Check accessibility (axe DevTools)
 ## Step 4: Document (5 min)
-1. Add to LAYOUT_COMPONENTS.md
+1. Add to `.memory_bank/ui_extension/components/README.md`
 2. Add usage example
 3. Capture screenshot
 Total time: ~35 min
