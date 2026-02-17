@@ -3,6 +3,7 @@ import "../styles/global.css";
 import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 import SEO from "../components/head/SEO.astro";
+import Analytics from "../components/head/Analytics.astro";
 import { getHtmlLang, getTextDirection } from "../utils/i18n";
 
 export interface Props {
@@ -32,6 +33,9 @@ const {
 
 const htmlLang = getHtmlLang(lang);
 const textDirection = getTextDirection();
+
+const gaId = import.meta.env.PUBLIC_GA_ID || "G-9HCX6B2JWV";
+const analyticsEnabled = import.meta.env.PUBLIC_ANALYTICS_ENABLED !== "false";
 ---
 
 <!doctype html>
@@ -46,6 +50,7 @@ const textDirection = getTextDirection();
       {...(pubDate ? { pubDate } : {})}
       {...(review ? { review } : {})}
     />
+    {analyticsEnabled && <Analytics id={gaId} />}
   </head>
 
   <body

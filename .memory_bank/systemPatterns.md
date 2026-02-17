@@ -28,7 +28,7 @@ Architectural decisions and coding standards for HardwareLab.
 │  ├── layout/  → Header, Footer, Hero                │
 │  ├── ui/      → Buttons, Cards, Badges              │
 │  ├── ui/      → ReviewHero, ProductHeader           │
-│  └── head/    → SEO.astro                           │
+│  └── head/    → SEO.astro, Analytics.astro          │
 └─────────────────────────────────────────────────────┘
                          ▲
                          │ Data
@@ -120,6 +120,11 @@ Each page needs:
 - hreflang tags for all locales
 - Open Graph + Twitter Card meta tags
 - JSON-LD structured data (Article/Product)
+
+## Analytics & Performance
+
+- **Google Analytics 4**: Implemented via [Partytown](https://partytown.builder.io/) to run off the main thread.
+- **Zero JS Default**: All non-essential scripts must run in web workers or be lazy-loaded.
 
 ---
 

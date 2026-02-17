@@ -8,6 +8,21 @@
 
 ## What Just Happened
 
+- ✅ **Configured Google Analytics 4 (GA4)** (2026-02-17)
+  - Integration: Partytown (Zero JS impact on main thread).
+  - Component: `src/components/head/Analytics.astro`.
+  - Config: `G-9HCX6B2JWV` (default) or `PUBLIC_GA_ID`.
+  - Verification: Build Passed.
+- ✅ **Fixed missing categories on /categories page** (2026-02-12)
+  - Added missing categories: `monitors`, `gaming-pcs`, `ai-workstation`
+  - Changed `consoles` slug to `gaming` to match schema
+  - Updated stats counter from 4 to 7 categories
+  - File modified: `src/pages/categories/index.astro`
+  - Verification: Requires manual `npm run build` and browser testing
+- ✅ **VPS Migration Completed** (2026-02-12)
+  - Phase A milestone: WSL → VPS migration complete
+  - Production site running on VPS infrastructure
+  - Next: Deployment hardening and monitoring setup
 - ✅ **Researcher PASS B completed for TERRAMASTER NAS review** (2026-02-10)
   - Slug: `terramaster-f4-424-pro`
   - Created production EN review: `src/content/reviews/en/terramaster-f4-424-pro/index.mdx`
