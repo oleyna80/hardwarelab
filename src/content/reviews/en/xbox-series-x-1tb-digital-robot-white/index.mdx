@@ -18,6 +18,7 @@ priceCategory: "mid"
 ogImage: "./og.png"
 ogType: "article"
 ---
+import RelatedReview from '@/components/content/RelatedReview.astro';
 
 import ReviewHero from "@/components/ui/ReviewHero.astro";
 import SpecGrid from "@/components/ui/SpecGrid.astro";
@@ -116,7 +117,7 @@ The console includes a wireless controller, which keeps setup simple for couch p
       user: "ishtar_xd (r/XboxSeriesS)",
       sentiment: "negative",
       comment:
-        "wait its €50 cheaper than the disc version? literally losing money, i only see it being worth it for avid gamepass users the amount of money you can save by buying used discs wayyy outweighs €50",
+        "wait its only slightly cheaper than the disc version? literally losing money, i only see it being worth it for avid gamepass users the amount of money you can save by buying used discs still outweighs that gap",
     },
   ]}
 />
@@ -145,8 +146,8 @@ The main caveat is value: user feedback consistently points to pricing as the ma
 
 ## Related Reviews
 
-- [Xbox Series X 2TB Galaxy Black Review: Storage Wins](/reviews/xbox-series-x-2tb-galaxy-black)
-- [Xbox Series S 1TB (Robot White) Review: Game Pass Value](/reviews/xbox-series-s-robot-white)
-- [PS5 Pro Review: 2TB Storage, PSSR, and Better Ray Tracing](/reviews/playstation-5-pro)
+<RelatedReview slug="xbox-series-x-2tb-galaxy-black" />
+<RelatedReview slug="xbox-series-s-robot-white" />
+<RelatedReview slug="playstation-5-pro" />
 
 <AffiliateButton asin={frontmatter.asin} label="View on Amazon" />

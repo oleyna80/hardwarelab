@@ -9,6 +9,7 @@ asin: "B0CK2FCG1K"
 heroImage: "./image.webp"
 pubDate: 2026-01-25T14:30:00.000Z
 ---
+import RelatedReview from '@/components/content/RelatedReview.astro';
 import ReviewHero from '@/components/ui/ReviewHero.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
@@ -91,7 +92,7 @@ Real-world users have mixed feelings about the thermal constraints and the "dong
 
 ## Verdict: The Premium Pixel
 
-The Raspberry Pi 5 (8GB) is an undeniable engineering triumph, but it sits in an awkward spot. At an MSRP of ~$95—plus the cost of the official PSU, active cooler, case, and NVMe HAT—you are looking at a $150+ project.
+The Raspberry Pi 5 (8GB) is an undeniable engineering triumph, but it sits in an awkward spot. Once you add the official PSU, active cooler, case, and NVMe HAT, it quickly moves from entry-level pricing into a more premium DIY project tier.
 
 At that price point, N100-based Mini PCs offer faster CPUs, better cases, and standard M.2 slots out of the box.
 
@@ -110,8 +111,8 @@ At that price point, N100-based Mini PCs offer faster CPUs, better cases, and st
 />
 
 ## Related Reviews
-- [Orange Pi 5 Plus 16GB Review: RK3588 Powerhouse SBC with NVMe + Dual 2.5GbE](/reviews/orange-pi-5-plus)
-- [ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)
-- [Beelink EQR6 (6800U) Review: 24GB RAM & Silent PSU](/reviews/beelink-ser5-max-6800u)
-- [Mac mini M4 Pro Review: 24GB/512GB + Gigabit Ethernet](/reviews/mac-mini-m4-pro-24gb-512gb)
-- [Synology DS923+ Review: Expandable 4-Bay NAS for SMB](/reviews/synology-ds923)
+<RelatedReview slug="orange-pi-5-plus" />
+<RelatedReview slug="asus-intel-nuc-13-pro" />
+<RelatedReview slug="beelink-ser5-max-6800u" />
+<RelatedReview slug="mac-mini-m4-pro-24gb-512gb" />
+<RelatedReview slug="synology-ds923" />

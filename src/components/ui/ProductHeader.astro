@@ -1,5 +1,9 @@
 ---
-import type { Language } from "@/utils/i18n";
+import {
+  getLangFromUrl,
+  useTranslations,
+  type Language,
+} from "@/utils/i18n";
 import { AMAZON_CONFIG } from "../../config";
 
 interface Props {
@@ -10,7 +14,9 @@ interface Props {
   lang?: Language;
 }
 
-const { title, rating, asin, priceCategory, lang = "en" } = Astro.props;
+const { title, rating, asin, priceCategory, lang } = Astro.props;
+const resolvedLang = lang ?? getLangFromUrl(Astro.url);
+const translate = useTranslations(resolvedLang);
 
 // Генерация URL Amazon на основе ASIN с affiliate тегом
 const regionMap: Record<Language, string> = {
@@ -22,11 +28,11 @@ const regionMap: Record<Language, string> = {
 
 const resolveAsin = (): string => {
   if (typeof asin === "string") return asin;
-  const region = regionMap[lang] || "us";
+  const region = regionMap[resolvedLang] || "us";
   return asin[region] || asin.us || "";
 };
 
-const region = regionMap[lang] || "us";
+const region = regionMap[resolvedLang] || "us";
 const finalAsin = resolveAsin();
 const amazonUrl = AMAZON_CONFIG.getAffiliateLink(finalAsin, region);
 
@@ -68,7 +74,7 @@ const labels = {
 };
 
 // Default to English if language not found
-const currentLabels = labels[lang] || labels.en;
+const currentLabels = labels[resolvedLang] || labels.en;
 
 const priceCategoryColors = {
   budget: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200",
@@ -132,6 +138,11 @@ const priceCategoryColors = {
     </div>
 
     <div class="flex-shrink-0">
+      <p
+        class="text-xs text-gray-600 dark:text-gray-400 mb-2 max-w-xs text-center md:text-left"
+      >
+        {translate("amazonDisclosure")}
+      </p>
       <a
         href={amazonUrl}
         target="_blank"

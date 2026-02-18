@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import ProductHeader from "@/components/ui/ProductHeader.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
-import { type Language } from "@/utils/i18n";
+import { t, type Language } from "@/utils/i18n";
 
 const lang: Language = "de";
 
@@ -75,14 +75,14 @@ const frontmatter = review.data;
           class="flex flex-col sm:flex-row items-center justify-between gap-4"
         >
           <div class="text-center sm:text-left">
-            <h3 class="font-bold text-lg">Ready to buy?</h3>
+            <h3 class="font-bold text-lg">{t("readyToBuy", lang)}</h3>
             <p class="text-primary-300 text-sm">
-              Check the latest price on Amazon
+              {t("checkLatestPrice", lang)}
             </p>
           </div>
           <AffiliateButton
             asin={frontmatter.asin || ""}
-            label="Check Price on Amazon"
+            label={t("checkPrice", lang)}
             variant="primary"
             size="lg"
             icon={true}

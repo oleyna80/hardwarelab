@@ -24,6 +24,7 @@ import ProsCons from '@/components/ui/ProsCons.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 import ReviewHero from '@/components/ui/ReviewHero.astro';
+import RelatedReview from '@/components/content/RelatedReview.astro';
 import heroImg from './image.webp';
 
 <ReviewHero 
@@ -167,8 +168,8 @@ If you want a polished NAS that can be your **backup hub + private cloud + Plex 
 ## Related Reviews
 
 Looking for alternatives? Check these out:
-- **[Synology DS923+ Review: Expandable 4-Bay NAS for SMB](/reviews/synology-ds923)** - Faster CPU and a more expandable platform, but no iGPU transcoding.
-- **[ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)** - Compact mini PC alternative for Plex with more flexibility.
-- **[Apple Mac mini M4 (16GB/256GB) Review: 5x5 Desktop Power](/reviews/mac-mini-m4)** - Premium option for media workflows and creative tasks.
 
-{/* TODO: Verify review URLs exist */}
+
+<RelatedReview slug="synology-ds923" />
+<RelatedReview slug="asus-intel-nuc-13-pro" />
+<RelatedReview slug="mac-mini-m4" />

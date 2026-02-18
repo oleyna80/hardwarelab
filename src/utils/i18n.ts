@@ -73,10 +73,34 @@ export const LAYOUT_TRANSLATIONS: Translations = {
         de: 'Wir verwenden Affiliate-Links. Erfahren Sie mehr in unserer <a href="/disclosure" class="underline">Offenlegung</a>.'
     },
     amazonDisclosure: {
-        en: 'As an Amazon Associate, we earn from qualifying purchases.',
-        fr: 'En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.',
-        ru: 'Как партнер Amazon, мы зарабатываем на соответствующих покупках.',
-        de: 'Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.'
+        en: 'As an Amazon Associate I earn from qualifying purchases.',
+        fr: 'En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.',
+        ru: 'Как партнер Amazon, я зарабатываю на соответствующих покупках.',
+        de: 'Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.'
+    },
+    privacyPolicy: {
+        en: 'Privacy Policy',
+        fr: 'Politique de confidentialité',
+        ru: 'Политика конфиденциальности',
+        de: 'Datenschutzerklärung'
+    },
+    readyToBuy: {
+        en: 'Ready to buy?',
+        fr: 'Prêt à acheter ?',
+        ru: 'Готовы к покупке?',
+        de: 'Bereit zum Kauf?'
+    },
+    checkPrice: {
+        en: 'Check Price on Amazon',
+        fr: 'Voir le prix sur Amazon',
+        ru: 'Проверить цену на Amazon',
+        de: 'Preis auf Amazon prüfen'
+    },
+    checkLatestPrice: {
+        en: 'Check the latest price on Amazon',
+        fr: 'Consultez le dernier prix sur Amazon',
+        ru: 'Проверьте актуальную цену на Amazon',
+        de: 'Prüfen Sie den aktuellen Preis auf Amazon'
     },
     sections: {
         en: 'Sections',
@@ -397,4 +421,16 @@ export function getHtmlLang(lang: Language): string {
 // Функция для получения направления текста
 export function getTextDirection(): 'ltr' | 'rtl' {
     return 'ltr'; // Все поддерживаемые языки используют LTR
+}
+
+// Получение языка из URL пути
+export function getLangFromUrl(url: URL): Language {
+    const lang = url.pathname.split('/')[1];
+    const validLangs: Language[] = ['en', 'fr', 'ru', 'de'];
+    return validLangs.includes(lang as Language) ? (lang as Language) : 'en';
+}
+
+// Создает локализованную функцию перевода для компонента
+export function useTranslations(lang: Language = 'en') {
+    return (key: keyof typeof LAYOUT_TRANSLATIONS | keyof typeof HERO_TRANSLATIONS) => t(key, lang);
 }

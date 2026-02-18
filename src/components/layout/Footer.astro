@@ -15,7 +15,7 @@ const { lang = "en" } = Astro.props;
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
         <h3 class="text-xl font-bold mb-4">{t("siteName", lang)}</h3>
-        <p class="text-primary-600 dark:text-primary-400">
+        <p class="text-gray-700 dark:text-primary-400">
           {t("siteDescription", lang)}
         </p>
       </div>
@@ -30,23 +30,23 @@ const { lang = "en" } = Astro.props;
           </li>
           <li>
             <a
-              href="/categories/cpu"
+              href="/categories/monitors"
               class="hover:text-accent-600 transition-colors"
-              >{t("cpus", lang)}</a
+              >{t("monitors", lang)}</a
             >
           </li>
           <li>
             <a
-              href="/categories/gpu"
+              href="/categories/nas"
               class="hover:text-accent-600 transition-colors"
-              >{t("gpus", lang)}</a
+              >{t("nas", lang)}</a
             >
           </li>
           <li>
             <a
-              href="/categories/ram"
+              href="/categories/gaming"
               class="hover:text-accent-600 transition-colors"
-              >{t("ram", lang)}</a
+              >{t("gaming", lang)}</a
             >
           </li>
         </ul>
@@ -54,7 +54,7 @@ const { lang = "en" } = Astro.props;
 
       <div>
         <h4 class="font-semibold mb-4">{t("contact", lang)}</h4>
-        <p class="text-primary-600 dark:text-primary-400">
+        <p class="text-gray-700 dark:text-primary-400">
           {t("contactDescription", lang)}
           <br />
           <a
@@ -68,10 +68,15 @@ const { lang = "en" } = Astro.props;
     </div>
 
     <div
-      class="mt-8 pt-8 border-t border-primary-300 dark:border-primary-700 text-center text-primary-500 dark:text-primary-400"
+      class="mt-8 pt-8 border-t border-primary-300 dark:border-primary-700 text-center text-gray-700 dark:text-primary-400"
     >
       <p set:html={t("copyright", lang)} />
       <p class="text-sm mt-2" set:html={t("disclosure", lang)} />
+      <p class="text-sm mt-1">
+        <a href="/privacy" class="underline hover:text-accent-600 transition-colors"
+          >{t("privacyPolicy", lang)}</a
+        >
+      </p>
       <p class="text-xs mt-2 text-primary-400 dark:text-primary-500">
         {t("amazonDisclosure", lang)}
       </p>

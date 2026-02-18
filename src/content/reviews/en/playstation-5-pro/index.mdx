@@ -18,6 +18,7 @@ tags:
   - "2tb-ssd"
   - "ps-plus"
 ---
+import RelatedReview from '@/components/content/RelatedReview.astro';
 
 import ReviewHero from '@/components/ui/ReviewHero.astro';
 import SpecGrid from '@/components/ui/SpecGrid.astro';
@@ -187,15 +188,8 @@ If you primarily care about value, or your backlog is dominated by titles that a
 ## Related Reviews
 
 {/* VERIFIED: These reviews exist on site */}
-- **[Xbox Series X 2TB (Galaxy Black)](/reviews/xbox-series-x-2tb-galaxy-black)** - Closest console competitor for performance/value comparisons
-- **[Apple Mac mini (M4)](/reviews/apple-mac-mini-m4)** - Compact “gaming-adjacent” compute option for cloud/remote play setups
-- **[Synology DS923+](/reviews/synology-ds923)** - Great if you want a NAS for backups and game capture storage
-
-{/* TODO: Create these in future - NOT LINKED */}
-{/* - PlayStation 5 (Slim) - Lower-cost entry to the PS5 library */}
-{/* - PS5 Disc Drive (Slim-compatible) - For physical media buyers */}
-{/* - PS5-Compatible M.2 SSD - Storage expansion buying guide */}
-
-{/* TODO: Verify review URLs exist */}
+<RelatedReview slug="xbox-series-x-2tb-galaxy-black" />
+<RelatedReview slug="mac-mini-m4" />
+<RelatedReview slug="synology-ds923" />
 
 <AffiliateButton asin={frontmatter.asin} label="View on Amazon" />
