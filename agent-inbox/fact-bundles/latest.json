@@ -21,5 +21,8 @@
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/fact-bundle-consoles.json",
       "path": "agent-inbox/fact-bundles/2026-02-21/fact-bundle-consoles.json"
     }
-  ]
+  ],
+  "external_pass_a_path": "agent-inbox/fact-bundles/external-pass-a-input.json",
+  "external_pass_a_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/external-pass-a-input.json",
+  "external_pass_a_status": "ready"
 }
