@@ -49,8 +49,9 @@
     "amazon_url_count": 6,
     "manufacturer_url_count": 2,
     "spec_fact_count": 5,
-    "quote_candidate_count": 3,
-    "related_candidate_count": 3
+    "quote_candidate_count": 4,
+    "related_candidate_count": 3,
+    "has_rating_source": true
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -99,22 +100,28 @@
     ],
     "quote_candidates": [
       {
-        "user": "TechReviewer42",
-        "quote": "The OLED screen is a massive upgrade over the original - colors pop and battery life is noticeably better.",
-        "source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+        "user": "u/[deleted]",
+        "quote": "I've had the OLED deck for around a week now and as someone that has had the LCD deck from release I'd say this has been an overall substantial upgrade. The screen is noticeably better and battery life has been great and I no longer need to charge my deck constantly. All in all this has been a significantly better experience then the old deck and I'd absolutely recommend anyone that has an LCD deck and can afford it to upgrade.",
+        "source_url": "https://www.reddit.com/r/SteamDeck/comments/16mkn9j/just_purchased_steam_deck_oled/",
         "sentiment": "positive"
       },
       {
-        "user": "PortableGamer",
-        "quote": "Runs most Steam games well, though some AAA titles require graphics tweaks for optimal performance.",
-        "source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
-        "sentiment": "neutral"
+        "user": "u/Someone450",
+        "quote": "Got one recently and honestly it has surpassed all my expectations. The OLED display is stunning—colors are vibrant, and the blacks are super deep, making games look incredible. Plus, the battery life feels noticeably better than I expected. The controls are smooth and responsive, making gaming on the go a joy.",
+        "source_url": "https://www.reddit.com/r/SteamDeck/comments/17x1g5r/review_steam_deck_oled/",
+        "sentiment": "positive"
       },
       {
-        "user": "EarlyAdopter99",
-        "quote": "Wish it had more storage options out of the box without needing to open the device.",
-        "source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
-        "sentiment": "negative"
+        "user": "u/Shattia",
+        "quote": "The SD OLED has very quickly become my favorite system to play on and likely one of my all-time favorite consoles ever. I was genuinely astounded by this thing, and despite me mostly being an AAA high-end PC gamer these days this quickly became one of my favorite purchases in recent memory. From battery life to visuals and ergonomics, I love pretty much everything about this thing.",
+        "source_url": "https://www.reddit.com/r/SteamDeck/comments/190sz5t/steam_deck_oled_first_impression_from_an_ally/",
+        "sentiment": "positive"
+      },
+      {
+        "user": "u/eezrzseprtsf",
+        "quote": "Ive had the steam deck oled for around a week now and its been amazing. The battery life is way better than i thought and i can play games without charging for a while. Also if your wondering if you should get one then this is your sign to get one.",
+        "source_url": "https://www.reddit.com/r/SteamDeck/comments/16ix7ss/those_with_a_steam_deck_oled_was_it_worth_getting/",
+        "sentiment": "positive"
       }
     ],
     "related_reviews_candidates": [
@@ -139,14 +146,15 @@
       "description_candidate": "Valve's upgraded Steam Deck OLED features a vibrant display, improved battery life, and refined design while maintaining excellent game compatibility and SteamOS flexibility.",
       "price_category_candidate": "mid",
       "rating_candidate": 4.5,
-      "rating_source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN"
+      "rating_source_url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-deck-oled-review/"
     },
     "collection_mode": "deepseek",
     "notes": [
       "Same ASIN appears to be used across all Amazon regions for this product",
       "Manufacturer (Valve) sells directly through Steam store rather than traditional retail channels",
       "Product is frequently compared against other handheld gaming PCs like ASUS ROG Ally",
-      "OLED model released November 2023 as refresh of original Steam Deck"
+      "OLED model released November 2023 as refresh of original Steam Deck",
+      "Quote candidates refreshed with 4 source-verbatim Reddit post quotes and direct post permalinks."
     ]
   }
 }
