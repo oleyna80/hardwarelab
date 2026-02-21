@@ -1,0 +1,57 @@
+{
+  "generated_date_utc": "2026-02-21",
+  "generated_at": "2026-02-21T18:03:39.569Z",
+  "categories": 1,
+  "packs": [
+    {
+      "category_key": "monitors",
+      "category_label": "Monitors",
+      "topic": "oled gaming monitor 32",
+      "available_markets": [
+        "US",
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "trend_7d": 5,
+      "trend_30d": 12,
+      "novelty_hits": 4,
+      "rule": "major_markets",
+      "ai_reason": "Test publish pipeline validation.",
+      "ai_angle": "Test angle",
+      "research_pack": {
+        "research_hypothesis": "Test hypothesis.",
+        "why_now": "Test why now.",
+        "queries": [
+          "query a",
+          "query b"
+        ],
+        "competitors": [
+          "comp a",
+          "comp b"
+        ],
+        "specs_to_verify": [
+          "spec 1",
+          "spec 2"
+        ],
+        "tests": [
+          "test 1",
+          "test 2"
+        ],
+        "outline": [
+          "intro",
+          "bench",
+          "verdict"
+        ],
+        "watchouts": [
+          "stock",
+          "price"
+        ],
+        "ai_mode": "deepseek",
+        "ai_confidence": 0.77
+      }
+    }
+  ]
+}
