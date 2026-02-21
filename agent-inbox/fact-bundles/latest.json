@@ -1,0 +1,25 @@
+{
+  "generated_date_utc": "2026-02-21",
+  "generated_at": "2026-02-21T18:59:47.052Z",
+  "status": "ready",
+  "ready_count": 2,
+  "blocked_count": 0,
+  "md_path": "agent-inbox/fact-bundles/2026-02-21/fact-bundles.md",
+  "json_path": "agent-inbox/fact-bundles/2026-02-21/fact-bundles.json",
+  "status_path": "agent-inbox/fact-bundles/2026-02-21/status.json",
+  "md_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/fact-bundles.md",
+  "json_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/fact-bundles.json",
+  "status_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/status.json",
+  "per_topic": [
+    {
+      "category_key": "mini-pc",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/fact-bundle-mini-pc.json",
+      "path": "agent-inbox/fact-bundles/2026-02-21/fact-bundle-mini-pc.json"
+    },
+    {
+      "category_key": "consoles",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/fact-bundle-consoles.json",
+      "path": "agent-inbox/fact-bundles/2026-02-21/fact-bundle-consoles.json"
+    }
+  ]
+}
