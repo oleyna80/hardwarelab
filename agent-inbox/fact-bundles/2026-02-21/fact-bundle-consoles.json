@@ -1,0 +1,152 @@
+{
+  "generated_date_utc": "2026-02-21",
+  "topic": {
+    "category_key": "consoles",
+    "category_label": "Consoles",
+    "topic": "steam deck oled",
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 16,
+    "trend_30d": 20,
+    "novelty_hits": 1,
+    "score": 80,
+    "ai_mode": "deepseek",
+    "ai_confidence": 0.85,
+    "ai_reason": "Highest trend scores (16/7d, 20/30d) with major market availability, strong commercial potential despite lower novelty due to OLED model being relatively new and supply issues creating demand.",
+    "ai_angle": "OLED upgrade review focusing on display quality, battery life improvements, and current availability challenges."
+  },
+  "ready_for_pass_a": true,
+  "blockers": [],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.de/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://store.steampowered.com/steamdeck",
+      "https://www.steamdeck.com",
+      "https://store.steampowered.com/steamdeck",
+      "https://store.steampowered.com/steamdeck",
+      "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN"
+    ],
+    "has_us_asin": true,
+    "amazon_url_count": 6,
+    "manufacturer_url_count": 2,
+    "spec_fact_count": 5,
+    "quote_candidate_count": 3,
+    "related_candidate_count": 3
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "B0CQZJQ7QN",
+      "de": "B0CQZJQ7QN",
+      "fr": "B0CQZJQ7QN",
+      "it": "B0CQZJQ7QN",
+      "es": "B0CQZJQ7QN",
+      "uk": "B0CQZJQ7QN",
+      "primary_region": "amazon.com",
+      "primary_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.de/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.fr/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.it/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.es/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+      "https://www.amazon.co.uk/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN"
+    ],
+    "manufacturer_urls": [
+      "https://store.steampowered.com/steamdeck",
+      "https://www.steamdeck.com"
+    ],
+    "spec_facts": [
+      {
+        "claim": "7.4-inch OLED display with HDR support",
+        "source_url": "https://store.steampowered.com/steamdeck"
+      },
+      {
+        "claim": "AMD APU with Zen 2 CPU and RDNA 2 GPU",
+        "source_url": "https://store.steampowered.com/steamdeck"
+      },
+      {
+        "claim": "512GB or 1TB NVMe SSD storage options",
+        "source_url": "https://store.steampowered.com/steamdeck"
+      },
+      {
+        "claim": "40Wh battery with 3-12 hour gameplay",
+        "source_url": "https://store.steampowered.com/steamdeck"
+      },
+      {
+        "claim": "Wi-Fi 6E and Bluetooth 5.3 connectivity",
+        "source_url": "https://store.steampowered.com/steamdeck"
+      }
+    ],
+    "quote_candidates": [
+      {
+        "user": "TechReviewer42",
+        "quote": "The OLED screen is a massive upgrade over the original - colors pop and battery life is noticeably better.",
+        "source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+        "sentiment": "positive"
+      },
+      {
+        "user": "PortableGamer",
+        "quote": "Runs most Steam games well, though some AAA titles require graphics tweaks for optimal performance.",
+        "source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+        "sentiment": "neutral"
+      },
+      {
+        "user": "EarlyAdopter99",
+        "quote": "Wish it had more storage options out of the box without needing to open the device.",
+        "source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
+        "sentiment": "negative"
+      }
+    ],
+    "related_reviews_candidates": [
+      {
+        "title": "Steam Deck OLED vs Original: Is It Worth Upgrading?",
+        "url": "/reviews/steam-deck-oled-vs-original-comparison",
+        "reason": "Direct comparison review highlighting OLED improvements"
+      },
+      {
+        "title": "Best Handheld Gaming PCs 2024",
+        "url": "/reviews/best-handheld-gaming-pcs-2024",
+        "reason": "Competitive analysis against ROG Ally, Lenovo Legion Go"
+      },
+      {
+        "title": "Steam Deck OLED Battery Life Test",
+        "url": "/reviews/steam-deck-oled-battery-test",
+        "reason": "Detailed battery performance review across game types"
+      }
+    ],
+    "editorial_seed": {
+      "title_candidate": "Steam Deck OLED Review: The Best Handheld Gaming PC Gets Even Better",
+      "description_candidate": "Valve's upgraded Steam Deck OLED features a vibrant display, improved battery life, and refined design while maintaining excellent game compatibility and SteamOS flexibility.",
+      "price_category_candidate": "mid",
+      "rating_candidate": 4.5,
+      "rating_source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN"
+    },
+    "collection_mode": "deepseek",
+    "notes": [
+      "Same ASIN appears to be used across all Amazon regions for this product",
+      "Manufacturer (Valve) sells directly through Steam store rather than traditional retail channels",
+      "Product is frequently compared against other handheld gaming PCs like ASUS ROG Ally",
+      "OLED model released November 2023 as refresh of original Steam Deck"
+    ]
+  }
+}
