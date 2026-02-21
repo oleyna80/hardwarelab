@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-21",
-  "generated_at": "2026-02-21T20:53:53.885Z",
+  "generated_at": "2026-02-21T21:43:24.284Z",
   "status": "ready",
   "review": "Steam Deck OLED Handheld Gaming",
   "category": "gaming",
@@ -10,8 +10,8 @@
   "source_category_key": "consoles",
   "source_score": 80,
   "asin_us": "B0CQZJQ7QN",
-  "rating_source_url": "https://www.amazon.com/Steam-Deck-OLED-Handheld-Gaming/dp/B0CQZJQ7QN",
-  "quote_candidate_count": 3,
+  "rating_source_url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-deck-oled-review/",
+  "quote_candidate_count": 4,
   "source_fact_bundle_path": "agent-inbox/fact-bundles/2026-02-21/fact-bundle-consoles.json",
   "source_fact_bundle_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-21/fact-bundle-consoles.json"
 }
