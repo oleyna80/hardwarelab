@@ -1,20 +1,46 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T23:05:49.870Z",
-  "status": "ready",
-  "seed_ready_count": 0,
-  "seed_blocked_count": 0,
+  "generated_at": "2026-02-22T23:12:13.850Z",
+  "status": "partial",
+  "seed_ready_count": 2,
+  "seed_blocked_count": 3,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 0,
+  "pass_a_blocked_count": 5,
   "ready_count": 0,
-  "blocked_count": 0,
+  "blocked_count": 5,
   "md_path": "agent-inbox/fact-bundles/2026-02-22/fact-bundles.md",
   "json_path": "agent-inbox/fact-bundles/2026-02-22/fact-bundles.json",
   "status_path": "agent-inbox/fact-bundles/2026-02-22/status.json",
   "md_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundles.md",
   "json_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundles.json",
   "status_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/status.json",
-  "per_topic": [],
+  "per_topic": [
+    {
+      "category_key": "mini-pc",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-mini-pc.json",
+      "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-mini-pc.json"
+    },
+    {
+      "category_key": "consoles",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-consoles.json",
+      "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-consoles.json"
+    },
+    {
+      "category_key": "sbc",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-sbc.json",
+      "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-sbc.json"
+    },
+    {
+      "category_key": "gaming-pcs",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-gaming-pcs.json",
+      "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-gaming-pcs.json"
+    },
+    {
+      "category_key": "ai-workstation",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-ai-workstation.json",
+      "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-ai-workstation.json"
+    }
+  ],
   "external_pass_a_path": "agent-inbox/fact-bundles/external-pass-a-input.json",
   "external_pass_a_url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/external-pass-a-input.json",
   "external_pass_a_status": "blocked"
