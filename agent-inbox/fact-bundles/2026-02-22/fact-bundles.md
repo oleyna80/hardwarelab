@@ -6,7 +6,7 @@
 
 ## Mini PC
 
-- Topic: **mini pc ryzen 7**
+- Topic: **intel nuc mini pc**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -24,8 +24,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
-- https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
+- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
 
 ## Consoles
 
@@ -43,7 +43,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Title and description are based on industry rumors and leaks.
+- No official ASINs found as product is rumored/unreleased. Manufacturer URLs point to current PS5 pages. All ASIN fields set to 'absent' per constraints. No spec facts, quotes, or reviews available due to product status.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
@@ -121,7 +121,7 @@
 
 ## Gaming Hardware
 
-- Topic: **steam deck oled**
+- Topic: **rog ally x**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -139,8 +139,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
-- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
 
 ## Gaming PCs
 
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair manufactures gaming and PC components but does not list a workstation with this exact name. The term may refer to a custom-built or hypothetical configuration. No ASINs, URLs, specs, quotes, or reviews available due to lack of verifiable product listings.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
