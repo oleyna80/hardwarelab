@@ -1,34 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-22
 
-- Total: 8
-- Seed ready: 2
-- Seed blocked: 6
+- Total: 6
+- Seed ready: 3
+- Seed blocked: 3
 - PASS A ready: 0
-- PASS A blocked: 8
-
-## Mini PC
-
-- Topic: **mini pc ryzen 7**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 2
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- No direct Amazon listings or ASINs found for 'Machenike Ryzen 7 8745HS Mini PC' across US, UK, DE, FR, IT, ES markets. The product appears speculative or not yet released. Manufacturer site shows general brand info but no specific product page. AMD confirms processor specs but not integration with Machenike. Trend data suggests emerging interest but lacks concrete product evidence.
-### Probe URLs
-- https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
-- https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
-- https://www.machenike.com/
-- https://www.machenike.com/
-- https://www.amd.com/en/products/processors/laptop/ryzen-7/amd-ryzen-7-8745hs.html
+- PASS A blocked: 6
 
 ## Consoles
 
@@ -36,22 +12,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
+- Manufacturer URLs: 6
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: getaddrinfo EAI_AGAIN api.deepseek.com
+- PlayStation 5 Pro is currently a rumored/unannounced product with no official ASINs or Amazon listings available across all specified markets. Manufacturer URLs point to official PlayStation PS5 pages as no dedicated Pro pages exist. No verified specifications, quotes, or reviews available due to product being unconfirmed. All ASIN fields set to 'absent' per constraints against hallucinated data.
 ### Probe URLs
 - https://www.amazon.com/s?k=PlayStation%205%20Pro
 - https://www.amazon.de/s?k=PlayStation%205%20Pro
+- https://www.playstation.com/en-us/ps5/
+- https://www.playstation.com/en-gb/ps5/
 
 ## NAS
 
@@ -59,22 +35,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Manufacturer URLs: 1
+- Spec facts: 3
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device targeting home/small office users with mid-range features.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
+- https://www.terra-master.com/global/products/nas/f2-425-plus/
+- https://www.terra-master.com/global/products/nas/f2-425-plus/
+- https://www.terra-master.com/global/products/nas/f2-425-plus/
 
 ## SBC
 
@@ -96,8 +72,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Raspberry%20Pi%205
-- https://www.amazon.de/s?k=Raspberry%20Pi%205
+- https://www.amazon.com/s?k=raspberry%20pi%205
+- https://www.amazon.de/s?k=raspberry%20pi%205
 
 ## Monitors
 
@@ -115,36 +91,12 @@
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
-- Too few reachable evidence URLs during probe check (need >=2).
 ### Notes
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 - https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
-
-## Gaming Hardware
-
-- Topic: **rog ally x**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
-- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
 
 ## Gaming PCs
 
@@ -166,8 +118,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Alienware%20Aurora%20R16
-- https://www.amazon.de/s?k=Alienware%20Aurora%20R16
+- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
+- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
 
 ## AI Workstations
 
@@ -185,7 +137,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and PC components, but this exact model appears absent or may be a conceptual/upcoming product. Manufacturer URL provided for Corsair's main site. No ASINs, reviews, or detailed specs available based on current search constraints.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon in the specified markets. Corsair is a known manufacturer of PC components, but this exact model name does not appear in current listings. Searches conducted on Amazon US, UK, DE, FR, IT, and ES returned no direct results. Manufacturer URL provided for Corsair's main site, but no product-specific page identified. Spec facts, quotes, and reviews are absent due to lack of verifiable product data. Title and description are inferred from the keyword and Corsair's product line, with price category estimated as high based on typical AI workstation pricing.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
