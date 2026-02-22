@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     },
-    "reasoning_short": "Exact model from headlines, available in all major markets, avoids generic phrases.",
+    "reasoning_short": "Exact model from headlines, available in major markets, avoids generic phrases.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
       "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
@@ -50,32 +50,33 @@
     "score": 69,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Exact model from headlines, available in all major markets, avoids generic phrases.",
-    "ai_angle": "Two-bay hybrid NAS with 3+2 bay configuration, unboxing and teardown review"
+    "ai_reason": "Exact model from headlines, available in major markets, avoids generic phrases.",
+    "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, balancing performance and storage flexibility for home/SMB use."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
-    "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 3,
     "checked_urls": [
       "https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus",
-      "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus"
+      "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
+      "https://www.terra-master.com/global/products/nas/f2-425-plus/",
+      "https://www.terra-master.com/global/products/nas/f2-425-plus/",
+      "https://www.terra-master.com/global/products/nas/f2-425-plus/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
-    "spec_fact_count": 0,
+    "manufacturer_url_count": 1,
+    "spec_fact_count": 3,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "seed_evidence_units": 4
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -93,21 +94,35 @@
       "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
       "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     ],
-    "manufacturer_urls": [],
-    "spec_facts": [],
+    "manufacturer_urls": [
+      "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+    ],
+    "spec_facts": [
+      {
+        "claim": "TerraMaster F2-425 Plus is a 2-bay NAS with Intel Celeron N5105 processor",
+        "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+      },
+      {
+        "claim": "Supports up to 64GB DDR4 memory and includes 2.5GbE ports",
+        "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+      },
+      {
+        "claim": "Features TOS 5.1 operating system with Docker support",
+        "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+      }
+    ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "NAS: TerraMaster F2-425 Plus",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS",
+      "description_candidate": "2-bay NAS with Intel Celeron N5105 processor, 2.5GbE ports, and TOS 5.1 operating system for home and small office use",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device targeting home/small office users with mid-range features."
     ]
   }
 }
