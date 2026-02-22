@@ -10,29 +10,6 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 3
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- No Amazon ASINs found for specified markets; product appears newly announced or not widely listed. Manufacturer site provides primary specifications. Price category estimated based on typical mini PC with similar specs.
-### Probe URLs
-- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
-- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
-- https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp
-- https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp
-- https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp
-
-## Consoles
-
-- Topic: **playstation 5 pro**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
 - Manufacturer URLs: 0
 - Spec facts: 0
 - Quote candidates: 0
@@ -47,8 +24,31 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
+- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+
+## Consoles
+
+- Topic: **playstation 5 pro**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 6
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PS5 product pages. All ASIN fields marked 'absent' per constraints against hallucinated ASINs. Spec facts and quotes unavailable due to lack of official product information.
+### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
+- https://www.playstation.com/en-us/ps5/
+- https://www.playstation.com/en-gb/ps5/
 
 ## NAS
 
@@ -65,7 +65,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for specified markets. Manufacturer website provides specifications but no user reviews or quotes available. Price category estimated based on typical NAS market positioning.
+- No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. No user quotes or reviews available from current sources.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -171,18 +171,19 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
+- Manufacturer URLs: 0
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and PC components, but this exact model does not appear to be listed. Consider checking Corsair's official website or other retailers for potential releases or similar products like Corsair Vengeance or One series workstations.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
-- https://www.corsair.com/
