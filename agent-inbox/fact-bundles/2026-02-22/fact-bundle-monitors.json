@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
       "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
     },
-    "reasoning_short": "Available in US/UK/DE markets, exact model identifiable from headlines, avoids prohibited generic phrases.",
+    "reasoning_short": "Matches major market availability, avoids prohibited phrases, and recent headlines confirm specific model deals.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
       "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -50,8 +50,8 @@
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 95,
-    "ai_reason": "Available in US/UK/DE markets, exact model identifiable from headlines, avoids prohibited generic phrases.",
-    "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 price drop offers premium HDR gaming experience."
+    "ai_reason": "Matches major market availability, avoids prohibited phrases, and recent headlines confirm specific model deals.",
+    "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 price drop on Amazon US/UK/DE markets."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -60,11 +60,10 @@
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
-    "Missing valid ratingSourceURL in editorial seed.",
-    "Too few reachable evidence URLs during probe check (need >=2)."
+    "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 1,
+    "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
       "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
