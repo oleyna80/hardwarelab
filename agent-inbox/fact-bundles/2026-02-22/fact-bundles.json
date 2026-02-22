@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T19:32:48.882Z",
+  "generated_at": "2026-02-22T19:37:49.270Z",
   "total": 8,
   "ready_count": 0,
   "blocked_count": 8,
@@ -19,7 +19,7 @@
           "DE": "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
           "FR": "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
         },
-        "reasoning_short": "High score, major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+        "reasoning_short": "Highest score, major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnlZV3pTVDluWFl2NzFSNGlyTmkwYVdwVFV2dVhIdWxqOU5POWxGTGR4Sy1TbDBuWjRDUWxiTmt4Y0t3UlpPTDlwWmJmdlRIcjBldXhPSWxvZWxiVlBpbExLRlczb1ZGaG9mRHl5OEV3UzI1Y05YNGkyOWlFSWVVN2pFRHN3MGdqbGRnSEZObVFqTUhw?oc=5",
           "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTFhbzA2cllicXVralplWkpsNTFWWnM5ZDZkNWdIZk5TTk9LNkgxejNkcUtOYnN2aUlRLVVLSVBwY2NZQjIzM1FDWllKaUNfR3RuNFlkU0NSQTFVbjlZMTJGTmtiWlFpMFlfQS1OUjU4YjBXaHZCX0lVRlplWVFlYWlkRVVQZXhsOTNvQ0duYVFMWWdTOHhkNDdtbnhpZFBackMtRGxmMVd6N3drWWtn?oc=5",
@@ -51,8 +51,8 @@
         "score": 92,
         "ai_mode": "deepseek",
         "ai_confidence": 92,
-        "ai_reason": "High score, major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
-        "ai_angle": "Affordable Ryzen 7 mini PC outperforming custom $550 builds at just $379 price point."
+        "ai_reason": "Highest score, major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+        "ai_angle": "Budget Ryzen 7 mini PC outperforming custom builds at $379 price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -158,7 +158,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-        "ai_angle": "High-end console upgrade with enhanced 4K gaming performance and ray tracing capabilities for serious gamers."
+        "ai_angle": "PS5 Pro review: Is Sony's premium console worth the $749 price tag for enhanced 4K gaming?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -233,7 +233,7 @@
           "DE": "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
           "FR": "absent"
         },
-        "reasoning_short": "Exact model from recent headlines, available in US/UK/DE markets, matches NAS category requirements.",
+        "reasoning_short": "Exact model from headlines, available in US/UK/DE markets, avoids generic phrases.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qZThDSEN0S3Rpb1pNQWd6R2xzOC1maTJscWh4aHQxVzZCM04zRXBDaGdQLVNLLTJEbEFIN0dVaGk1NUN5R0VGd3hTSHRRSlNWZ09DRk82SQ?oc=5",
           "https://news.google.com/rss/articles/CBMibkFVX3lxTE82ZFcyOWJTRnZCMEN3elo2U19LbEpEOWRDMUg5ckRtN1d6OTdCRjlhb2RMQWZOOUdtUnB0bjhicHdTQlF6Yi16a0RCZWVqN3BBV2laYlZuSXVmT3p4Z0wtQmY5YlQ4TVRKaVMwMk5n?oc=5",
@@ -262,8 +262,8 @@
         "score": 60,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Exact model from recent headlines, available in US/UK/DE markets, matches NAS category requirements.",
-        "ai_angle": "SMB-friendly 4-bay NAS with palatable price point for home and small business use."
+        "ai_reason": "Exact model from headlines, available in US/UK/DE markets, avoids generic phrases.",
+        "ai_angle": "SMB-friendly NAS with palatable price point for 4-bay storage needs."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -434,7 +434,7 @@
         "category_label": "Monitors",
         "topic": "oled gaming monitor 32",
         "candidate_product_name": "Samsung Odyssey OLED G8 G85SB",
-        "confidence_score": 100,
+        "confidence_score": 95,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -442,7 +442,7 @@
           "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
           "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
         },
-        "reasoning_short": "Available in all major markets, high trend scores, specific model confirmed in recent headlines.",
+        "reasoning_short": "Available in all major markets, high trend scores, specific model referenced in headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
           "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -469,12 +469,12 @@
           "ES": true
         },
         "trend_7d": 13,
-        "trend_30d": 19,
-        "novelty_hits": 10,
+        "trend_30d": 18,
+        "novelty_hits": 9,
         "score": 100,
         "ai_mode": "deepseek",
-        "ai_confidence": 100,
-        "ai_reason": "Available in all major markets, high trend scores, specific model confirmed in recent headlines.",
+        "ai_confidence": 95,
+        "ai_reason": "Available in all major markets, high trend scores, specific model referenced in headlines.",
         "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 price drop offers premium HDR gaming experience."
       },
       "fact_bundle": {
@@ -548,7 +548,7 @@
           "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
           "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
         },
-        "reasoning_short": "Exact model available in major markets, avoids generic phrases, matches gaming hardware category.",
+        "reasoning_short": "Exact model available in all major markets, high recent trends, avoids generic phrases.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
@@ -580,8 +580,8 @@
         "score": 84,
         "ai_mode": "deepseek",
         "ai_confidence": 84,
-        "ai_reason": "Exact model available in major markets, avoids generic phrases, matches gaming hardware category.",
-        "ai_angle": "Premium handheld gaming PC with vibrant OLED display and improved battery life for on-the-go gaming."
+        "ai_reason": "Exact model available in all major markets, high recent trends, avoids generic phrases.",
+        "ai_angle": "Review of Valve Steam Deck OLED's display quality, battery life, and portability for gaming on the go."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -684,7 +684,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
-        "ai_angle": "Skytech Chronos Mini with RTX 4070 delivers premium 1440p gaming in compact form factor."
+        "ai_angle": "Skytech Chronos Mini with RTX 4070 delivers premium 1440p gaming in compact prebuilt form factor."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -819,7 +819,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent due to no direct matches."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination."
         ]
       },
       "ready_for_pass_a": false,
