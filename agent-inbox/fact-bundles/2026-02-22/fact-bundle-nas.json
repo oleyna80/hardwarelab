@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     },
-    "reasoning_short": "Exact model from recent headlines, available in all major markets, avoids generic phrases.",
+    "reasoning_short": "Exact model from headlines, available in all major markets, avoids generic phrases.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
       "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
@@ -45,7 +45,7 @@
     "score": 67.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Exact model from recent headlines, available in all major markets, avoids generic phrases.",
+    "ai_reason": "Exact model from headlines, available in all major markets, avoids generic phrases.",
     "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, balancing performance and storage flexibility for home/SMB use."
   },
   "ready_for_pass_a": false,
@@ -102,7 +102,7 @@
         "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
       },
       {
-        "claim": "Features TOS 5.1 operating system with Docker support",
+        "claim": "Features hardware transcoding and supports TOS 5 operating system",
         "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
       }
     ],
@@ -110,14 +110,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS",
-      "description_candidate": "2-bay network-attached storage device with Intel Celeron N5105 processor, 2.5GbE connectivity, and TOS 5.1 operating system",
+      "description_candidate": "A 2-bay network-attached storage device with Intel Celeron N5105 processor, 2.5GbE connectivity, and hardware transcoding capabilities for home and small office use.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon ASINs found for specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device with mid-range specifications."
+      "No Amazon listings found for specified markets. Manufacturer website provides technical specifications. No user quotes or reviews available in current search scope."
     ]
   }
 }
