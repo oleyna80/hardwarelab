@@ -6,7 +6,7 @@
 
 ## Mini PC
 
-- Topic: **intel nuc mini pc**
+- Topic: **mini pc ryzen 7**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -21,11 +21,10 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No specific product listings found for 'Machenike Ryzen 7 8745HS Mini PC' across specified Amazon markets. Manufacturer Machenike appears to be a Chinese brand primarily focused on gaming laptops and peripherals, with limited international presence. Ryzen 7 8745HS is a recent AMD mobile processor, suggesting this might be a new or upcoming product not yet widely available in Western markets.
 ### Probe URLs
-- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
-- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+- https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
+- https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
 
 ## Consoles
 
@@ -43,7 +42,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found for PlayStation 5 Pro across all specified markets as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All ASIN fields set to 'absent' per constraints against hallucinated ASINs. Spec facts, quotes, and reviews unavailable due to unannounced product status.
+- No official ASINs found for 'Sony PlayStation 5 Pro' as it is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are absent due to lack of official information. Related reviews are not applicable for an unannounced product. Editorial seed is based on rumors and speculation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
@@ -65,7 +64,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found for specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device with mid-range specifications.
+- No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device targeting home/small business users with mid-range features.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -116,8 +115,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
 
 ## Gaming Hardware
 
@@ -181,7 +180,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair manufactures gaming and workstation components but may not have a product with this exact name. Consider checking for similar Corsair systems like Vengeance or One series. Trend data suggests moderate interest, but no direct ASINs or URLs available.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent due to no direct matches.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
