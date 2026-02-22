@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
       "FR": "absent"
     },
-    "reasoning_short": "Exact model from headlines, available in US/UK/DE markets, matches NAS category requirements.",
+    "reasoning_short": "Exact model from recent headlines, available in major markets, matches NAS category requirements.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qZThDSEN0S3Rpb1pNQWd6R2xzOC1maTJscWh4aHQxVzZCM04zRXBDaGdQLVNLLTJEbEFIN0dVaGk1NUN5R0VGd3hTSHRRSlNWZ09DRk82SQ?oc=5",
       "https://news.google.com/rss/articles/CBMibkFVX3lxTE82ZFcyOWJTRnZCMEN3elo2U19LbEpEOWRDMUg5ckRtN1d6OTdCRjlhb2RMQWZOOUdtUnB0bjhicHdTQlF6Yi16a0RCZWVqN3BBV2laYlZuSXVmT3p4Z0wtQmY5YlQ4TVRKaVMwMk5n?oc=5",
@@ -42,7 +42,7 @@
     "score": 60,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Exact model from headlines, available in US/UK/DE markets, matches NAS category requirements.",
+    "ai_reason": "Exact model from recent headlines, available in major markets, matches NAS category requirements.",
     "ai_angle": "SMB-friendly 4-bay NAS with palatable price point for business and home office use."
   },
   "ready_for_pass_a": false,
