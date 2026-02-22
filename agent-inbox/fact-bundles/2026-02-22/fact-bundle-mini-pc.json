@@ -5,7 +5,7 @@
     "category_label": "Mini PC",
     "topic": "intel nuc mini pc",
     "candidate_product_name": "ASRock NUC Ultra 300 Box Series",
-    "confidence_score": 91,
+    "confidence_score": 89,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
       "FR": "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     },
-    "reasoning_short": "Highest score, major market availability, specific model in headlines, strong trends.",
+    "reasoning_short": "Exact model from recent headlines, available in all major markets, high novelty and trend scores.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXBEU01vbVFrUmt0TjlzMmZsc3V6MXpVZW4zUFNtTHdjdEF6bl9VaTBPVDJBLXZ2cFZMeFNfMmFON3pOVWJrVWI4amZtRmlFOTl1aU51WGl6aW9zV0VkU2NyYmV6bE9XdEdSUWFmdnFjWXVNeGFJQkRZMEY0bGVKMnJaSXlxc01lYl96OUJOTS1Icy1qRVNnSXpCLXd0RkFZbFItaUNjWFdDaTdpSDJreEdR?oc=5",
       "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRC1lY0ZlQ3VRdlJmUW04UFU2WXlpUmw2MkxfVXpvLTN0dXk2RFIwMi1Pa0ZwRVIyWnU5b2tTRndxOHNWcnpZaHJQTUFabjRzQ1NaLWJqZGQ1YXA0bFZ0aW1TOE1EYnJzcEhFcXJBemRXTWdic1JLT200UllEd01jZzJKWVI1QQ?oc=5",
@@ -40,13 +40,13 @@
       "ES": true
     },
     "trend_7d": 5,
-    "trend_30d": 7,
-    "novelty_hits": 10,
-    "score": 90.5,
+    "trend_30d": 6,
+    "novelty_hits": 9,
+    "score": 89,
     "ai_mode": "deepseek",
-    "ai_confidence": 91,
-    "ai_reason": "Highest score, major market availability, specific model in headlines, strong trends.",
-    "ai_angle": "ASRock's NUC Ultra 300 Box with Panther Lake CPUs offers enterprise-grade mini PC performance in compact form factor."
+    "ai_confidence": 89,
+    "ai_reason": "Exact model from recent headlines, available in all major markets, high novelty and trend scores.",
+    "ai_angle": "ASRock's new NUC Ultra 300 Box with Intel Core Ultra 300 series processors offers up to 16 cores and 128GB RAM in compact form."
   },
   "ready_for_pass_a": false,
   "blockers": [
