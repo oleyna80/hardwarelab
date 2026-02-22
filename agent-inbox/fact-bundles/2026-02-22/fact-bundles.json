@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T20:42:27.274Z",
+  "generated_at": "2026-02-22T20:47:24.039Z",
   "total": 8,
   "ready_count": 0,
   "blocked_count": 8,
@@ -19,7 +19,7 @@
           "DE": "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
           "FR": "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
         },
-        "reasoning_short": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+        "reasoning_short": "Highest score (92), major market availability, specific model mentioned in headlines with exact specifications.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnlZV3pTVDluWFl2NzFSNGlyTmkwYVdwVFV2dVhIdWxqOU5POWxGTGR4Sy1TbDBuWjRDUWxiTmt4Y0t3UlpPTDlwWmJmdlRIcjBldXhPSWxvZWxiVlBpbExLRlczb1ZGaG9mRHl5OEV3UzI1Y05YNGkyOWlFSWVVN2pFRHN3MGdqbGRnSEZObVFqTUhw?oc=5",
           "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTFhbzA2cllicXVralplWkpsNTFWWnM5ZDZkNWdIZk5TTk9LNkgxejNkcUtOYnN2aUlRLVVLSVBwY2NZQjIzM1FDWllKaUNfR3RuNFlkU0NSQTFVbjlZMTJGTmtiWlFpMFlfQS1OUjU4YjBXaHZCX0lVRlplWVFlYWlkRVVQZXhsOTNvQ0duYVFMWWdTOHhkNDdtbnhpZFBackMtRGxmMVd6N3drWWtn?oc=5",
@@ -51,8 +51,8 @@
         "score": 92,
         "ai_mode": "deepseek",
         "ai_confidence": 92,
-        "ai_reason": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
-        "ai_angle": "Compact $379 Ryzen 7 8745HS mini PC outperforms custom $550 builds in value and performance benchmarks."
+        "ai_reason": "Highest score (92), major market availability, specific model mentioned in headlines with exact specifications.",
+        "ai_angle": "Budget performance champion: $379 Machenike Ryzen 7 8745HS mini PC beats $550 custom builds in value and compact power."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -263,47 +263,50 @@
       "topic": {
         "category_key": "nas",
         "category_label": "NAS",
-        "topic": "synology 4 bay nas",
-        "candidate_product_name": "Synology DiskStation DS425+",
+        "topic": "terramaster nas",
+        "candidate_product_name": "TerraMaster F2-425 Plus",
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
-          "DE": "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
-          "FR": "absent"
+          "US": "https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus",
+          "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
+          "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
         },
-        "reasoning_short": "Exact model from recent headlines, available in major markets (US/UK/DE), matches NAS category.",
+        "reasoning_short": "Exact model from recent headlines, available in all major markets, avoids generic phrases.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qZThDSEN0S3Rpb1pNQWd6R2xzOC1maTJscWh4aHQxVzZCM04zRXBDaGdQLVNLLTJEbEFIN0dVaGk1NUN5R0VGd3hTSHRRSlNWZ09DRk82SQ?oc=5",
-          "https://news.google.com/rss/articles/CBMibkFVX3lxTE82ZFcyOWJTRnZCMEN3elo2U19LbEpEOWRDMUg5ckRtN1d6OTdCRjlhb2RMQWZOOUdtUnB0bjhicHdTQlF6Yi16a0RCZWVqN3BBV2laYlZuSXVmT3p4Z0wtQmY5YlQ4TVRKaVMwMk5n?oc=5",
-          "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeTI3bEZoeG9mV0JOOUY1aWNzVXp1YmViSU5OekFKcm90Y1FyYmM4bmtGcGotMmVGLTJxN0psUmtzMjFKdjk3dS1TTzRELUdNaHJtYXlaN052Q0ZDbTI0VE9WdTI4YWRROFRKbndQdHplVS12cW9vMVNlNDJMWlBMN0Rvd1BDd3VxekN3M2VQdWZYTk1HajFNZTJZRG5JYk0?oc=5",
-          "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hSjFDZEhUeW1XWmxNUmlZcU1CX21JckRLd2Z5OHNwMTI2eTVMVGt3M0dveTNPS0NTV0lTRlVJbjgzY3hhRVVqQVdjcEh2TW84d1ZtLWh4Y3JmN1Y5ZXlHd2FUUGE2cDBGbTZrRU51TWJIREhzcU1NS094VHRndE0?oc=5",
-          "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOHh0YUNyUzR5NWtIUzdYbGFhLV9VTFRidC1iUkF1T1c0WEM0TXFhQkRDMmpiYWhjV05GNnF0VURZZVRHYXZMOWlHRU1QemZfS2ZHQmJKQXpzX2xwcHdoVmpaenN3V0tGM1phSVpOd2dwUXZCd1M5Y09qVy1sZ3UyVXJZODJRSmwyRXNMUVpFdVoxMDVsN01yaGsxcFpnT05ZRTlaQ2E1YS1YZERXdlJBX0Nn0gGsAUFVX3lxTE1vWEdWVmFmNWZ1WUVvdHVqcW1rVFFCdXctOXFPNnZrUk5FTkRMUDByNEtBVjFwN3FuTVI0cTdtVE1ZLWNYUlJLU0dHMno0ejU4VWdKZ0FLc2Z1T0l1VUh5OWQ5WldYVmttSmxuSnBxajJxOVVEZDVkN3pIb1pINU1GWDBIbmRmYnJmRlJiQ3BLREFyRm1pVjl0RGpxSXppQjZBN0JBMjdYUGY2VWM?oc=5"
+          "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
+          "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
+          "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUjJaSG1sclJwTDZXdHhaNmxjVXViRFZOYWEweGNiNlc4N3F4Tm5VY2J0U3F3NmFXX2xHLUY3Vk5Tc3NLMkN3QWhaNGMzWW05VnZ2YTFWeTBnOVFVb2Q5RUdHVTJpNlBORG9naFBXc3A2UGlld09tSm1IYWw3aDlFVHlWUU1mVUpkcDl0eDRXQVZjeEFBcW80VDhnSXRCaFRVYXhLbGZ6ZFk0U2F3NGQ4QldPTGVNVXZMUFJsRlQ1Z1VJYWl1OGVXdWxMcnpPR0s2dTZ1SHJOVU5DRUdVbjZkVS1Fb1hiTUZlSHM3U3pUc2dzSVV4dnQyc0tHQ0RRRVRENFJjNVAydEVrMlhySm1Yc01mWmMteDBOVzlGUl8waTdIUXZ6MEg1SG9ycE5ST0EyMWZWdjZxb1EzSTJleXE4QmxESjBHcER1UkNNYzAzeTNuUEJQMnliQmdHbW5PZmlrT1I0eg?oc=5"
         ],
         "compliant": true,
         "rule": "major_markets",
         "available_markets": [
           "US",
           "UK",
-          "DE"
+          "DE",
+          "FR",
+          "IT",
+          "ES"
         ],
         "coverage": {
           "US": true,
           "UK": true,
           "DE": true,
-          "FR": false,
-          "IT": false,
-          "ES": false
+          "FR": true,
+          "IT": true,
+          "ES": true
         },
-        "trend_7d": 1,
-        "trend_30d": 2,
-        "novelty_hits": 5,
-        "score": 60,
+        "trend_7d": 3,
+        "trend_30d": 5,
+        "novelty_hits": 3,
+        "score": 67.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Exact model from recent headlines, available in major markets (US/UK/DE), matches NAS category.",
-        "ai_angle": "SMB-friendly 4-bay NAS with palatable price point, balancing performance and value for small business/home office use."
+        "ai_reason": "Exact model from recent headlines, available in all major markets, avoids generic phrases.",
+        "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, balancing performance and storage flexibility for home/SMB use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -317,70 +320,79 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
-          "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
-          "https://www.amazon.fr/s?k=Synology%20DiskStation%20DS425%2B"
+          "https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus",
+          "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
+          "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "TerraMaster F2-425 Plus is a 2-bay NAS with Intel Celeron N5105 processor",
+            "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+          },
+          {
+            "claim": "Supports up to 64GB DDR4 RAM and includes 2.5GbE ports",
+            "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+          },
+          {
+            "claim": "Features TOS 5.1 operating system with Docker support",
+            "source_url": "https://www.terra-master.com/global/products/nas/f2-425-plus/"
+          }
+        ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "NAS: Synology DiskStation DS425+",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS",
+          "description_candidate": "2-bay network-attached storage device with Intel Celeron N5105 processor, 2.5GbE connectivity, and TOS 5.1 operating system",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No Amazon ASINs found for specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device with mid-range specifications."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
-          "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B"
+          "https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus",
+          "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
+          "https://www.terra-master.com/global/products/nas/f2-425-plus/",
+          "https://www.terra-master.com/global/products/nas/f2-425-plus/",
+          "https://www.terra-master.com/global/products/nas/f2-425-plus/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 3,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "seed_evidence_units": 4
       }
     },
     {
@@ -430,7 +442,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 84,
         "ai_reason": "Available on all major Amazon markets with strong recent trends and high score.",
-        "ai_angle": "Raspberry Pi 5 review: Building a custom VPN server in hours with this SBC"
+        "ai_angle": "Raspberry Pi 5 review: Building a DIY VPN server in hours with this versatile SBC"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -515,16 +527,16 @@
         "category_key": "monitors",
         "category_label": "Monitors",
         "topic": "oled gaming monitor 32",
-        "candidate_product_name": "Samsung Odyssey OLED G8 G85SB",
-        "confidence_score": 95,
+        "candidate_product_name": "Samsung Odyssey OLED G8 (G85SB)",
+        "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
-          "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
-          "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
+          "US": "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
+          "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
+          "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)"
         },
-        "reasoning_short": "Available in US/UK/DE markets, matches OLED 32-inch gaming monitor specifications with recent price drops.",
+        "reasoning_short": "Available on all major Amazon markets with strong trends and recent price drop headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
           "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -555,9 +567,9 @@
         "novelty_hits": 9,
         "score": 100,
         "ai_mode": "deepseek",
-        "ai_confidence": 95,
-        "ai_reason": "Available in US/UK/DE markets, matches OLED 32-inch gaming monitor specifications with recent price drops.",
-        "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 price drop offers premium HDR gaming experience."
+        "ai_confidence": 100,
+        "ai_reason": "Available on all major Amazon markets with strong trends and recent price drop headlines.",
+        "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 price cut offers premium HDR gaming at unprecedented value."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -571,16 +583,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
-          "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
-          "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
+          "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
+          "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
+          "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Monitors: Samsung Odyssey OLED G8 G85SB",
+          "title_candidate": "Monitors: Samsung Odyssey OLED G8 (G85SB)",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -624,8 +636,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
-          "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
+          "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
+          "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -641,23 +653,23 @@
       "topic": {
         "category_key": "gaming",
         "category_label": "Gaming Hardware",
-        "topic": "steam deck oled",
-        "candidate_product_name": "Valve Steam Deck OLED",
-        "confidence_score": 84,
+        "topic": "rog ally x",
+        "candidate_product_name": "ASUS ROG Ally X",
+        "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-          "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+          "US": "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
+          "DE": "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
+          "FR": "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
         },
-        "reasoning_short": "Exact model available in all major markets, high trending scores, specific product not generic category.",
+        "reasoning_short": "Exact model name, available on all major Amazon markets, avoids prohibited generic phrases.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
-          "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
-          "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
-          "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
-          "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVM5LVZqM1hYUnhGWjA3aGtWTmpRRVpkcmRiVTc2MlNyYVlSWC1rWUF5N3hkYXlFYXdBOVR2cHRLVXBaeldRUjcxa2hYcHE5V1hqVjN5elYxSWV2aTVnX3Jmc3RReXZqa3NCX0lUVFdQNDlhM2xMM3NxQUxaaEtpLTdsYzlxU3lnRTFETURQSGNmTG1QcGs2RTdqNlQ4eDExSDI3SE53SW5BWHhod0VlQ2ZnTklfa1AzYTdXeGFwMlJoRGdXNl91SkttZ1lxeUJhWEVSbWg2Y3JBUFk?oc=5"
+          "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lZGFuWVd1VWpVdk1YY1pzSnVrbnNINFJmNDZKOXVuOWxOWk1oWHZIMnd6R2ZEWGthY1diWnRBSkRZR0JRalVySEpJbVlvYWpfY3htaWw5UmRrZXg5NVo0QWczcnVDSzFUVXdkZW5Sd1pocGlLTXVDVUJxWFU?oc=5",
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXdDaDBGSzJlbS1qSzhiZHgzRmNhLWNYWWE2eTFNRWZJbkNhU245YW9tTGtRMnBGYXpTbFVHdHlsdVloRzFrdUFadW1yVkF2THpCTmhsTTRzV2g1TWNlSHpmN1R6bmN2M2E2UXVvY1VabGlhR2lhYlRibU5jb0R0UlBhUGF5TmN4NDhGckt5VGpVODVSSkxTVG9WRmRpUFVNN0F1TEJFNWktVExLYUIzSWNLWEI5ZVBZa1E?oc=5",
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3cycUR5WkEyTE9sZkd5SnEwd29ieDBMUFdQVG5ySHhsdWloZDItMkFQT1NBeG1lLUZRTjJfMGp0aWtyc0FQeFFjQmM5bkIxTmdOTTdtcFdmcTlKc1hvRE5kUVhsSS1KSmgyaFppV2JJZVduR1dhRG9zNHlJeGU2Wnlyd09ZT2tFb2ZWX1U2U2R2NHQ5V21NYzVtQndFU2huakNTVFhqSC0xX3NpTnFENVY4UQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM1VIWVJCV09uYXFQb0VHd1RveG92S1JNV3dFN3d0NXpMSDBZRUt3RWhSYTNrcUdKNjlKR2NWTDY3bnhWd05DVVYxcEdXUnllemtZWjRYYndOcHJjOHpyVDloMEJOQkNMeGQ5d1dVWEpaZDlTa0JsVk5ydVgwTUJEWXRyTnB3ZW5iWUxhTWItdExqc1JrNnVtVWM0UzFqaGpvd01UMDlqS2MtXzlqM0FDXzdSSQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXMxckxzajRkUUNacWljXzBGSWZpcUd5aG9RS2l3ZElPNk1RZlZnVmU4WTl5QlA3dTZZa2o3WDJWdXNJa2YxVnhVTVNDdWN0RTdlZURQa2xhNU1FRGc4V1lhY3d3NW8xQkVzQmh2alFWRFBBT01fd3NBdTFYZWEtZlkwX1I3RUc3STNtTGZnUVJ0bnBiNW1pd3paOEQ4UF9sT3hZRFRQSXZ2dw?oc=5"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -677,14 +689,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 16,
-        "trend_30d": 20,
-        "novelty_hits": 2,
-        "score": 84,
+        "trend_7d": 14,
+        "trend_30d": 18,
+        "novelty_hits": 1,
+        "score": 80,
         "ai_mode": "deepseek",
-        "ai_confidence": 84,
-        "ai_reason": "Exact model available in all major markets, high trending scores, specific product not generic category.",
-        "ai_angle": "Review of Valve Steam Deck OLED's display quality, battery life improvements, and current availability challenges in 2026."
+        "ai_confidence": 100,
+        "ai_reason": "Exact model name, available on all major Amazon markets, avoids prohibited generic phrases.",
+        "ai_angle": "Handheld gaming PC with AMD Ryzen Z1 Extreme, 7-inch 1080p 120Hz display, and Windows 11."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -698,16 +710,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+          "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
+          "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
+          "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
+          "title_candidate": "Gaming Hardware: ASUS ROG Ally X",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -751,8 +763,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
+          "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
+          "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -778,7 +790,7 @@
           "DE": "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
           "FR": "absent"
         },
-        "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic phrases while matching gaming PC category.",
+        "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE96MGJ1REE2Zzdmd1VTMnN6WnZMWHB1Y3lybDZvOGR6dzBicUttOFZRWWhqYmphbWQ5V0kwcWQzXzVBa2FVQTNfdE5OSkdjblRISm1YeFZ6YjdaUko2Vmdxalg4YmRCR2pJMG5KMGVRQ1dRSks3QmZqa2w0QQ?oc=5",
           "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VSmpSMjA2STFIUXpBN25wbXJKM3BhUVdJVXhSOER4Q0xDMjBYMzF2OVA1aHE4LVVRY3ZkZnNTQXBEd08tLTljTWpwN1M1MkZfaWxPeldNcmY?oc=5",
@@ -807,8 +819,8 @@
         "score": 76.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic phrases while matching gaming PC category.",
-        "ai_angle": "Compact RTX 4070 prebuilt gaming desktop with strong performance in small form factor."
+        "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
+        "ai_angle": "Skytech Chronos Mini with RTX 4070 delivers compact power for 1440p gaming at competitive pricing."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -894,7 +906,7 @@
         "category_label": "AI Workstations",
         "topic": "ai workstation",
         "candidate_product_name": "Corsair AI Workstation 300",
-        "confidence_score": 80,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -902,7 +914,7 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Available in all major markets (US, UK, DE), highest score, recent reviews confirm exact model availability.",
+        "reasoning_short": "Available in all major markets, highest trend scores, specific model mentioned in headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeERYdEM5RGd5b3Jyd1RuaUF4MExXVjhMVVNtNkN0c1RhYjBaMlhEVTM5TWRqdG96dzJDR0hKc3Zzd1RyclA4SFhYVk9GcjdObUtlSkpJeF8zOERCMXk4N2puWk55RXFWdXJsOTVSWlBaRGtVLXVfV2kya2VUZ0g1WDExLUlFZlc5TzluVg?oc=5",
@@ -930,12 +942,12 @@
         },
         "trend_7d": 3,
         "trend_30d": 5,
-        "novelty_hits": 6,
+        "novelty_hits": 7,
         "score": 79.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 80,
-        "ai_reason": "Available in all major markets (US, UK, DE), highest score, recent reviews confirm exact model availability.",
-        "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as classy but premium-priced package for serious AI workloads."
+        "ai_confidence": 85,
+        "ai_reason": "Available in all major markets, highest trend scores, specific model mentioned in headlines.",
+        "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as premium but expensive option for serious AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -949,12 +961,9 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Corsair+AI+Workstation+300",
-          "https://www.amazon.co.uk/s?k=Corsair+AI+Workstation+300",
-          "https://www.amazon.de/s?k=Corsair+AI+Workstation+300",
-          "https://www.amazon.fr/s?k=Corsair+AI+Workstation+300",
-          "https://www.amazon.it/s?k=Corsair+AI+Workstation+300",
-          "https://www.amazon.es/s?k=Corsair+AI+Workstation+300"
+          "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         ],
         "manufacturer_urls": [
           "https://www.corsair.com/"
@@ -964,14 +973,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "AI workstation from Corsair, likely designed for machine learning and data science workloads.",
-          "price_category_candidate": "mid",
+          "description_candidate": "AI workstation from Corsair designed for machine learning and data science workloads",
+          "price_category_candidate": "enterprise",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific ASINs found for 'Corsair AI Workstation 300' across Amazon markets. Search results show general listings but no confirmed product. Manufacturer site (Corsair) does not list this exact model. Topic may refer to a hypothetical or upcoming product. Trend data suggests recent interest, but no verifiable product details available."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
         ]
       },
       "seed_ready": true,
@@ -1000,13 +1009,13 @@
       "validator": {
         "reachable_probe_urls": 3,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Corsair+AI+Workstation+300",
-          "https://www.amazon.co.uk/s?k=Corsair+AI+Workstation+300",
+          "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "https://www.corsair.com/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
-        "amazon_url_count": 6,
+        "amazon_url_count": 3,
         "manufacturer_url_count": 1,
         "spec_fact_count": 0,
         "quote_candidate_count": 0,
