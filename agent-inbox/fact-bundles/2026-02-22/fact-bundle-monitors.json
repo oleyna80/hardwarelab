@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
       "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)"
     },
-    "reasoning_short": "Available in all major markets, high trends, specific OLED model matches term exactly.",
+    "reasoning_short": "Matches major markets rule, specific 32-inch OLED gaming monitor model available across US/UK/DE with strong trends.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
       "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -40,13 +40,13 @@
       "ES": true
     },
     "trend_7d": 13,
-    "trend_30d": 19,
-    "novelty_hits": 10,
+    "trend_30d": 18,
+    "novelty_hits": 9,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 95,
-    "ai_reason": "Available in all major markets, high trends, specific OLED model matches term exactly.",
-    "ai_angle": "Samsung's 32-inch OLED gaming monitor with deep blacks and fast response for immersive gameplay."
+    "ai_reason": "Matches major markets rule, specific 32-inch OLED gaming monitor model available across US/UK/DE with strong trends.",
+    "ai_angle": "Samsung's 32-inch OLED gaming monitor with QD-OLED panel, 240Hz refresh rate, and 0.03ms response time for immersive gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
