@@ -1,0 +1,107 @@
+{
+  "generated_date_utc": "2026-02-22",
+  "topic": {
+    "category_key": "mini-pc",
+    "category_label": "Mini PC",
+    "topic": "mini pc ryzen 7",
+    "candidate_product_name": "Machenike Ryzen 7 8745HS Mini PC",
+    "confidence_score": 92,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
+      "DE": "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
+      "FR": "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
+    },
+    "reasoning_short": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnlZV3pTVDluWFl2NzFSNGlyTmkwYVdwVFV2dVhIdWxqOU5POWxGTGR4Sy1TbDBuWjRDUWxiTmt4Y0t3UlpPTDlwWmJmdlRIcjBldXhPSWxvZWxiVlBpbExLRlczb1ZGaG9mRHl5OEV3UzI1Y05YNGkyOWlFSWVVN2pFRHN3MGdqbGRnSEZObVFqTUhw?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTFhbzA2cllicXVralplWkpsNTFWWnM5ZDZkNWdIZk5TTk9LNkgxejNkcUtOYnN2aUlRLVVLSVBwY2NZQjIzM1FDWllKaUNfR3RuNFlkU0NSQTFVbjlZMTJGTmtiWlFpMFlfQS1OUjU4YjBXaHZCX0lVRlplWVFlYWlkRVVQZXhsOTNvQ0duYVFMWWdTOHhkNDdtbnhpZFBackMtRGxmMVd6N3drWWtn?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHlDVWhSbVRsNGxZU0pOYTZBQ2U1Y1R2a0s3YTJNOVh6Zno1STlaNjF5QXo3SmFBalJaLUJvWUI3TlpCYjRnWVFnZ1gwbVF5R3hpRmlBOGlsTk5lWXg4RmQtMFpoamwzS1hGT3B0TEFpMmxhZ0lWN0FwNzh0Sy1SWTJ5UXpldlJYYk9aLWlmeEdBTEZOOEdHZWg3VFVSVWxsb1d3SEhoQmV2VHJ3NEEwQkl5NkFfTXNDVnJTNHZlUy1XQWFQR0FmSy1SVEx3d1VC?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQnNkZm01cFpqcEI3ZWtqc1kzblZHRHRfSEFWSlNwelM1bUFuRVI2LW5OVGVZV2dVNUl2TG5TNDczT0cxbEpDRXFsWlZjYU01dWRGSjRuWTdpcmUzX2pjN2ZGaWhVZjIxOVJmbDVQVmg5US1LZjRRbzRQbFh6ejVvakFkV21RYWpwUDJDcUxNWTAyNHhISXNVUS04WHNIb3VGODBEUTRNbU1GX3ZGOUNXVGtIbl9VS3BrdjV3ZEpvalF1RXpuNkE?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM3lmYmhSMTF4ZmdkOEREVG1oNGxTMHBCMFg0STZBbmF6UmN3M1g5OUwzeTM5dERkVmVSSjV3bEdGTWRNQlowbzlQcThCRlZUejdHeTlDZmcySlFqeE5FcEU1cUgwb1lOSkpmZkVXQ01iN0k0UTFYN0h3Q0F4ZTJwMk1MNDVscEE1NG9jRlBFb1RxMV9PamcwNzJpbmlpRHpDWXNPakV3LWE3N1J5Y3B6eS1jSHl1dkxPbVhVeQ?oc=5"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 10,
+    "trend_30d": 12,
+    "novelty_hits": 4,
+    "score": 92,
+    "ai_mode": "deepseek",
+    "ai_confidence": 92,
+    "ai_reason": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+    "ai_angle": "Affordable Ryzen 7 mini PC outperforming custom $550 builds, offering triple 4K support with Windows 11 Pro."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
+      "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
+      "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
+      "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Mini PC: Machenike Ryzen 7 8745HS Mini PC",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
