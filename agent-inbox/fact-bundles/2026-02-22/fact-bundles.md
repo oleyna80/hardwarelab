@@ -6,7 +6,7 @@
 
 ## Mini PC
 
-- Topic: **intel nuc mini pc**
+- Topic: **mini pc ryzen 7**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -24,8 +24,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
-- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+- https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
+- https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
 
 ## Consoles
 
@@ -43,7 +43,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found as product is rumored/unreleased. Manufacturer URLs point to current PS5 pages. All ASIN fields set to 'absent' per constraints. No spec facts, quotes, or reviews available due to product status.
+- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. All ASIN fields set to 'absent' per constraints to avoid hallucination. Spec facts, quotes, and reviews unavailable due to product unavailability.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
@@ -121,7 +121,7 @@
 
 ## Gaming Hardware
 
-- Topic: **rog ally x**
+- Topic: **steam deck oled**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -139,8 +139,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
-- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
 
 ## Gaming PCs
 
@@ -162,8 +162,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
-- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
+- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20RTX%204070%20Gaming%20PC
+- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20RTX%204070%20Gaming%20PC
 
 ## AI Workstations
 
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair manufactures gaming and PC components but does not list a workstation with this exact name. The term may refer to a custom-built or hypothetical configuration. No ASINs, URLs, specs, quotes, or reviews available due to lack of verifiable product listings.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
