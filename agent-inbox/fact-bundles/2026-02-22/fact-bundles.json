@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T21:12:23.399Z",
+  "generated_at": "2026-02-22T21:17:22.509Z",
   "total": 8,
   "ready_count": 0,
   "blocked_count": 8,
@@ -19,7 +19,7 @@
           "DE": "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
           "FR": "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
         },
-        "reasoning_short": "Highest score, major market availability, specific model in headlines, strong trends.",
+        "reasoning_short": "Exact model from recent headlines, available in all major markets, high trend scores.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXBEU01vbVFrUmt0TjlzMmZsc3V6MXpVZW4zUFNtTHdjdEF6bl9VaTBPVDJBLXZ2cFZMeFNfMmFON3pOVWJrVWI4amZtRmlFOTl1aU51WGl6aW9zV0VkU2NyYmV6bE9XdEdSUWFmdnFjWXVNeGFJQkRZMEY0bGVKMnJaSXlxc01lYl96OUJOTS1Icy1qRVNnSXpCLXd0RkFZbFItaUNjWFdDaTdpSDJreEdR?oc=5",
           "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRC1lY0ZlQ3VRdlJmUW04UFU2WXlpUmw2MkxfVXpvLTN0dXk2RFIwMi1Pa0ZwRVIyWnU5b2tTRndxOHNWcnpZaHJQTUFabjRzQ1NaLWJqZGQ1YXA0bFZ0aW1TOE1EYnJzcEhFcXJBemRXTWdic1JLT200UllEd01jZzJKWVI1QQ?oc=5",
@@ -51,8 +51,8 @@
         "score": 90.5,
         "ai_mode": "deepseek",
         "ai_confidence": 91,
-        "ai_reason": "Highest score, major market availability, specific model in headlines, strong trends.",
-        "ai_angle": "ASRock's NUC Ultra 300 Box with Panther Lake CPUs offers enterprise-grade mini PC performance in compact form factor."
+        "ai_reason": "Exact model from recent headlines, available in all major markets, high trend scores.",
+        "ai_angle": "ASRock's new NUC Ultra 300 Box with Panther Lake CPUs offers up to 16 cores and 128GB RAM in compact form."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -70,75 +70,66 @@
           "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
           "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
         ],
-        "manufacturer_urls": [
-          "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
-        ],
-        "spec_facts": [
-          {
-            "claim": "ASRock NUC Ultra 300 Box Series features Intel Core Ultra processors (Series 1) with Intel Arc graphics",
-            "source_url": "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
-          },
-          {
-            "claim": "Supports up to 96GB DDR5-5600 memory and up to 8TB storage via dual M.2 slots",
-            "source_url": "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
-          },
-          {
-            "claim": "Includes Thunderbolt 4, 2.5GbE LAN, Wi-Fi 6E, and multiple USB ports",
-            "source_url": "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
-          }
-        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "ASRock NUC Ultra 300 Box Series Mini PC",
-          "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, DDR5 memory, Thunderbolt 4, and versatile connectivity for home or office use.",
+          "title_candidate": "Mini PC: ASRock NUC Ultra 300 Box Series",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "deepseek",
+        "collection_mode": "fallback",
         "notes": [
-          "No Amazon ASINs found for specified markets; product appears newly announced or not widely listed. Manufacturer site provides primary specifications. Price category estimated based on typical mini PC with similar specs."
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
         ]
       },
-      "seed_ready": true,
-      "seed_blockers": [],
-      "seed_blockers_top3": [],
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2)."
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
       ],
       "validator": {
-        "reachable_probe_urls": 3,
+        "reachable_probe_urls": 2,
         "checked_urls": [
           "https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
-          "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
-          "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp",
-          "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp",
-          "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
+          "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 1,
-        "spec_fact_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 4
+        "seed_evidence_units": 0
       }
     },
     {
@@ -188,7 +179,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-        "ai_angle": "Sony's premium PS5 Pro console with enhanced 4K gaming performance and ray tracing capabilities for serious gamers."
+        "ai_angle": "PS5 Pro review: Is the $749 premium over standard PS5 justified for enhanced 4K gaming and ray tracing performance?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -206,34 +197,35 @@
           "https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro",
           "https://www.amazon.fr/s?k=Sony%20PlayStation%205%20Pro"
         ],
-        "manufacturer_urls": [],
+        "manufacturer_urls": [
+          "https://www.playstation.com/en-us/ps5/",
+          "https://www.playstation.com/en-gb/ps5/",
+          "https://www.playstation.com/de-de/ps5/",
+          "https://www.playstation.com/fr-fr/ps5/",
+          "https://www.playstation.com/it-it/ps5/",
+          "https://www.playstation.com/es-es/ps5/"
+        ],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Sony PlayStation 5 Pro",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-          "price_category_candidate": "mid",
+          "title_candidate": "Sony PlayStation 5 Pro",
+          "description_candidate": "Rumored enhanced version of PlayStation 5 console with upgraded hardware specifications",
+          "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PS5 product pages. All ASIN fields marked 'absent' per constraints against hallucinated ASINs. Spec facts and quotes unavailable due to lack of official product information."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -241,7 +233,6 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -249,23 +240,25 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 4,
         "checked_urls": [
           "https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro",
-          "https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro"
+          "https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro",
+          "https://www.playstation.com/en-us/ps5/",
+          "https://www.playstation.com/en-gb/ps5/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
+        "manufacturer_url_count": 6,
         "spec_fact_count": 0,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "seed_evidence_units": 6
       }
     },
     {
@@ -282,13 +275,13 @@
           "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
           "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
         },
-        "reasoning_short": "Exact model from recent headlines, available in all major markets, avoids generic NAS phrases.",
+        "reasoning_short": "Exact model from headlines, available in all major markets, avoids generic '2 bay nas' phrasing.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
           "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
           "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
           "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
-          "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUjJaSG1sclJwTDZXdHhaNmxjVXViRFZOYWEweGNiNlc4N3F4Tm5VY2J0U3F3NmFXX2xHLUY3Vk5Tc3NLMkN3QWhaNGMzWW05VnZ2YTFWeTBnOVFVb2Q5RUdHVTJpNlBORG9naFBXc3A2UGlld09tSm1IYWw3aDlFVHlWUU1mVUpkcDl0eDRXQVZjeEFBcW80VDhnSXRCaFRVYXhLbGZ6ZFk0U2F3NGQ4QldPTGVNVXZMUFJsRlQ1Z1VJYWl1OGVXdWxMcnpPR0s2dTZ1SHJOVU5DRUdVbjZkVS1Fb1hiTUZlSHM3U3pUc2dzSVV4dnQyc0tHQ0RRRVRENFJjNVAydEVrMlhySm1Yc01mWmMteDBOVzlGUl8waTdIUXZ6MEg1SG9ycE5ST0EyMWZWdjZxb1EzSTJleXE4QmxESjBHcER1UkNNYzAzeTNuUEJQMnliQmdHbW5PZmlrT1I0eg?oc=5"
+          "https://news.google.com/rss/articles/CBMickFVX3lxTE9EblJWczhDdm50REZ3TzdlNVZ1cU5FV0ViTHNtMlU1a0lWTTZXWmhWNy1HaHR2NnJabkhtMG1WRjl6YUhrR2o2bjl6Y0VrNG04SzcyZC1lc2NXUXJuakJ5MXdFNURlendxeWE1anZlRVNnZw?oc=5"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -314,7 +307,7 @@
         "score": 67.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Exact model from recent headlines, available in all major markets, avoids generic NAS phrases.",
+        "ai_reason": "Exact model from headlines, available in all major markets, avoids generic '2 bay nas' phrasing.",
         "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, balancing performance and storage flexibility for home/SMB use."
       },
       "fact_bundle": {
@@ -354,14 +347,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS",
-          "description_candidate": "2-bay network attached storage with Intel Celeron N5095 processor, 2.5GbE connectivity, and TOS 5.1 operating system for home and small office use",
+          "description_candidate": "2-bay NAS with Intel Celeron N5095 processor, 2.5GbE connectivity, and TOS 5.1 operating system for home and small office use",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for specified markets. Manufacturer website provides specifications but no user reviews or quotes available. Price category estimated based on typical NAS market positioning."
+          "No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. No user quotes or reviews available from current sources."
         ]
       },
       "seed_ready": true,
@@ -451,7 +444,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 84,
         "ai_reason": "Available on all major Amazon markets with strong recent trends and high score.",
-        "ai_angle": "Raspberry Pi 5 review: Building a personal VPN server in hours with this SBC"
+        "ai_angle": "Raspberry Pi 5 review: Building a DIY VPN server in hours with this SBC"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -545,7 +538,7 @@
           "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
           "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
         },
-        "reasoning_short": "Available in all major markets, high trend scores, specific model referenced in headlines.",
+        "reasoning_short": "Available in US, UK, DE markets with strong trends and specific model references in headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
           "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -577,7 +570,7 @@
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 95,
-        "ai_reason": "Available in all major markets, high trend scores, specific model referenced in headlines.",
+        "ai_reason": "Available in US, UK, DE markets with strong trends and specific model references in headlines.",
         "ai_angle": "Samsung's 32-inch OLED gaming monitor with deep blacks and fast response for immersive gameplay."
       },
       "fact_bundle": {
@@ -672,7 +665,7 @@
           "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
           "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
         },
-        "reasoning_short": "Exact model available in all major markets, high trend scores, specific product not generic.",
+        "reasoning_short": "Exact model available in all major markets, high trending scores, avoids generic phrases.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
@@ -704,8 +697,8 @@
         "score": 84,
         "ai_mode": "deepseek",
         "ai_confidence": 84,
-        "ai_reason": "Exact model available in all major markets, high trend scores, specific product not generic.",
-        "ai_angle": "Review of Valve Steam Deck OLED's display quality, battery life, and portability for gaming on the go."
+        "ai_reason": "Exact model available in all major markets, high trending scores, avoids generic phrases.",
+        "ai_angle": "Review of Valve Steam Deck OLED's display quality, battery life improvements, and current supply challenges affecting availability."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -829,7 +822,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
-        "ai_angle": "Compact prebuilt with RTX 4070 delivers high-end gaming performance in small form factor."
+        "ai_angle": "Compact RTX 4070 gaming desktop with strong performance in small form factor for 2026 gaming."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -915,7 +908,7 @@
         "category_label": "AI Workstations",
         "topic": "ai workstation",
         "candidate_product_name": "Corsair AI Workstation 300",
-        "confidence_score": 80,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -923,7 +916,7 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Available on US, UK, DE markets with highest score and recent review coverage.",
+        "reasoning_short": "Available in all major markets (US/UK/DE), highest score, recent reviews confirm exact model availability.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeERYdEM5RGd5b3Jyd1RuaUF4MExXVjhMVVNtNkN0c1RhYjBaMlhEVTM5TWRqdG96dzJDR0hKc3Zzd1RyclA4SFhYVk9GcjdObUtlSkpJeF8zOERCMXk4N2puWk55RXFWdXJsOTVSWlBaRGtVLXVfV2kya2VUZ0g1WDExLUlFZlc5TzluVg?oc=5",
@@ -951,12 +944,12 @@
         },
         "trend_7d": 3,
         "trend_30d": 5,
-        "novelty_hits": 6,
+        "novelty_hits": 7,
         "score": 79.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 80,
-        "ai_reason": "Available on US, UK, DE markets with highest score and recent review coverage.",
-        "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as classy but premium-priced package."
+        "ai_confidence": 85,
+        "ai_reason": "Available in all major markets (US/UK/DE), highest score, recent reviews confirm exact model availability.",
+        "ai_angle": "Compact Strix Halo-powered AI workstation with premium build but high price point for serious local AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -974,30 +967,34 @@
           "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         ],
-        "manufacturer_urls": [
-          "https://www.corsair.com/"
-        ],
+        "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "AI workstation from Corsair, likely designed for high-performance computing and AI/ML workloads.",
-          "price_category_candidate": "high",
+          "title_candidate": "AI Workstations: Corsair AI Workstation 300",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "deepseek",
+        "collection_mode": "fallback",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and PC components, but this exact model does not appear to be listed. Consider checking Corsair's official website or other retailers for potential releases or similar products like Corsair Vengeance or One series workstations."
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
         ]
       },
-      "seed_ready": true,
-      "seed_blockers": [],
-      "seed_blockers_top3": [],
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -1005,6 +1002,7 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -1012,24 +1010,23 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4)."
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
       ],
       "validator": {
-        "reachable_probe_urls": 3,
+        "reachable_probe_urls": 2,
         "checked_urls": [
           "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
-          "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
-          "https://www.corsair.com/"
+          "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 1,
+        "manufacturer_url_count": 0,
         "spec_fact_count": 0,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 1
+        "seed_evidence_units": 0
       }
     }
   ]
