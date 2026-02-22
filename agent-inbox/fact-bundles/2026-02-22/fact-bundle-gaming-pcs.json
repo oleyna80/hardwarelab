@@ -43,7 +43,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
-    "ai_angle": "Skytech Chronos Mini with RTX 4070 delivers premium 1440p gaming in compact prebuilt form factor."
+    "ai_angle": "Compact prebuilt with RTX 4070 delivers high-end gaming performance in small form factor."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -66,7 +66,8 @@
     "manufacturer_url_count": 0,
     "spec_fact_count": 0,
     "quote_candidate_count": 0,
-    "related_candidate_count": 0
+    "related_candidate_count": 0,
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
