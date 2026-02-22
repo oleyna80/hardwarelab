@@ -5,25 +5,26 @@
     "category_label": "Gaming PCs",
     "topic": "prebuilt gaming pc rtx 4070",
     "candidate_product_name": "Alienware Aurora R16",
-    "asin_us": "B0DKG8G5J3",
-    "asin_us_url": "https://www.amazon.com/dp/B0DKG8G5J3",
+    "asin_us": "B0CYR5L92K",
+    "asin_us_url": "https://www.amazon.com/dp/B0CYR5L92K",
+    "asin_us_listing_title": "Alienware Aurora R16 Liquid Cooled Gaming Desktop - Intel Core i9-14900F Processor, 32GB DDR5 RAM, 1TB SSD + 1TB HDD, NVIDIA GeForce RTX 4070 SUPER 12GB GDDR6X, Windows 11 Home, Onsite Service - Black",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0DKG8G5J3",
+      "US": "https://www.amazon.com/dp/B0CYR5L92K",
       "DE": "https://www.amazon.de/s?k=Alienware%20Aurora%20R16",
       "FR": "absent"
     },
-    "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
+    "reasoning_short": "Exact model matches RTX 4070 spec, available in US/UK/DE markets, avoids generic phrasing.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE96MGJ1REE2Zzdmd1VTMnN6WnZMWHB1Y3lybDZvOGR6dzBicUttOFZRWWhqYmphbWQ5V0kwcWQzXzVBa2FVQTNfdE5OSkdjblRISm1YeFZ6YjdaUko2Vmdxalg4YmRCR2pJMG5KMGVRQ1dRSks3QmZqa2w0QQ?oc=5",
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VSmpSMjA2STFIUXpBN25wbXJKM3BhUVdJVXhSOER4Q0xDMjBYMzF2OVA1aHE4LVVRY3ZkZnNTQXBEd08tLTljTWpwN1M1MkZfaWxPeldNcmY?oc=5",
       "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXl4dmx6cFpwRlg3cFVjS2d4WHVQc1VXQk13VkZteDg3eVJDcVMtYU5JZkJMUS00MVJTaVZzS3RyMWZoSFlxNTVnODB1amExdHVmX0VtR01meG9vVjZkUC1iQ21NeUQ0bDZpcDZkdHhqemppZnA1RXRETzNPSkZtc3A3U2Q0eGRPajFSZHlLZFJTYXZiT1pLcGVRYnA5Y2dpZDNLcWpJMGJJcEJTU0lJd2FIcGxCNHRPREdYX3Ytb21PQlNmUC1pM0Zibw?oc=5",
       "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmxveThaLXFzMUF5UVNQY2VXejVjSzYzNUVZaFhzTFBPdmRkVDVBRlBGcHVHOFlDQkNvQUFIYWJkV3JxNUV0eDU3RUpUVTdUcWVrMWFKcUx3ZUJYdTd1TE1KeWJSd1ZnaXBTdS0tRmM5QjFUMzZjNnZhZXlwWjVJTHpKaWlPdmR1aENlTGVyX2VwSnd3VE1B?oc=5",
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fb0s4OGpvMHY3ejZHalBzLTRVbXE4Q29WcE9HcWoyVkY1NE5QR0R5VVRHTjI1Z3puZFh6RHVCellPcDBzSDB4bVRqTkZIdjl3dXY1RGVPNlFKeklDWExrRlhsaw?oc=5",
-      "https://www.amazon.com/dp/B0DKG8G5J3"
+      "https://www.amazon.com/dp/B0CYR5L92K"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -46,8 +47,8 @@
     "score": 76.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
-    "ai_angle": "Alienware Aurora R16 with RTX 4070: Premium prebuilt gaming performance in a redesigned chassis with improved thermals."
+    "ai_reason": "Exact model matches RTX 4070 spec, available in US/UK/DE markets, avoids generic phrasing.",
+    "ai_angle": "Alienware Aurora R16 with RTX 4070 delivers premium 1440p gaming performance in a sleek, prebuilt package."
   },
   "ready_for_pass_a": false,
   "blockers": [
