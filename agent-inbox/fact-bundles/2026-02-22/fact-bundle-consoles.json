@@ -46,7 +46,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 100,
     "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-    "ai_angle": "PS5 Pro review: Is the $749 premium console worth it for enhanced gaming performance?"
+    "ai_angle": "High-end console gaming with enhanced 4K performance and ray tracing capabilities for premium gaming experiences."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -109,7 +109,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No official ASINs found for 'Sony PlayStation 5 Pro' as it is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are absent due to lack of official information. Related reviews are not applicable for an unannounced product. Editorial seed is based on rumors and speculation."
+      "No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Related reviews are not applicable for an unannounced product. Editorial seed is based on rumors and speculation."
     ]
   }
 }
