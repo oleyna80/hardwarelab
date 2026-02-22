@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T20:07:24.243Z",
+  "generated_at": "2026-02-22T20:12:21.571Z",
   "total": 8,
   "ready_count": 0,
   "blocked_count": 8,
@@ -19,7 +19,7 @@
           "DE": "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
           "FR": "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
         },
-        "reasoning_short": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+        "reasoning_short": "Highest score, major market availability, specific model referenced in headlines with Ryzen 7 processor.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnlZV3pTVDluWFl2NzFSNGlyTmkwYVdwVFV2dVhIdWxqOU5POWxGTGR4Sy1TbDBuWjRDUWxiTmt4Y0t3UlpPTDlwWmJmdlRIcjBldXhPSWxvZWxiVlBpbExLRlczb1ZGaG9mRHl5OEV3UzI1Y05YNGkyOWlFSWVVN2pFRHN3MGdqbGRnSEZObVFqTUhw?oc=5",
           "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTFhbzA2cllicXVralplWkpsNTFWWnM5ZDZkNWdIZk5TTk9LNkgxejNkcUtOYnN2aUlRLVVLSVBwY2NZQjIzM1FDWllKaUNfR3RuNFlkU0NSQTFVbjlZMTJGTmtiWlFpMFlfQS1OUjU4YjBXaHZCX0lVRlplWVFlYWlkRVVQZXhsOTNvQ0duYVFMWWdTOHhkNDdtbnhpZFBackMtRGxmMVd6N3drWWtn?oc=5",
@@ -51,8 +51,8 @@
         "score": 92,
         "ai_mode": "deepseek",
         "ai_confidence": 92,
-        "ai_reason": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
-        "ai_angle": "Compact $379 Ryzen 7 8745HS mini PC outperforms custom $550 builds in value and performance benchmarks."
+        "ai_reason": "Highest score, major market availability, specific model referenced in headlines with Ryzen 7 processor.",
+        "ai_angle": "Compact Ryzen 7 powerhouse delivering desktop-level performance at a surprisingly affordable price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -174,12 +174,12 @@
         },
         "trend_7d": 8,
         "trend_30d": 8,
-        "novelty_hits": 8,
+        "novelty_hits": 9,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-        "ai_angle": "High-end console upgrade with enhanced performance for 4K gaming and ray tracing."
+        "ai_angle": "High-end console upgrade with enhanced 4K gaming performance and ray tracing capabilities for serious PlayStation gamers."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -217,7 +217,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. All ASIN fields set to 'absent' per constraints to avoid hallucination. Spec facts, quotes, and reviews unavailable due to product unavailability."
+          "No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are absent due to lack of official information. Title and description are based on rumors and speculation."
         ]
       },
       "seed_ready": true,
@@ -518,7 +518,7 @@
         "category_label": "Monitors",
         "topic": "oled gaming monitor 32",
         "candidate_product_name": "Samsung Odyssey OLED G8 (G85SB)",
-        "confidence_score": 100,
+        "confidence_score": 95,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -526,7 +526,7 @@
           "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
           "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)"
         },
-        "reasoning_short": "Available in US, UK, DE markets with strong trends and recent price coverage.",
+        "reasoning_short": "Matches major markets rule, specific 32-inch OLED gaming monitor model available on Amazon US/UK/DE.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
           "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -557,9 +557,9 @@
         "novelty_hits": 9,
         "score": 100,
         "ai_mode": "deepseek",
-        "ai_confidence": 100,
-        "ai_reason": "Available in US, UK, DE markets with strong trends and recent price coverage.",
-        "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 discount on Amazon - premium HDR for competitive gaming."
+        "ai_confidence": 95,
+        "ai_reason": "Matches major markets rule, specific 32-inch OLED gaming monitor model available on Amazon US/UK/DE.",
+        "ai_angle": "Samsung's 32-inch OLED gaming monitor with QD-OLED panel, 240Hz refresh rate, and 0.03ms response time for immersive gaming."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -653,7 +653,7 @@
           "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
           "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
         },
-        "reasoning_short": "Exact model available in major markets, matches gaming category, avoids generic phrases.",
+        "reasoning_short": "Exact model available in all major markets, matches gaming category, avoids generic phrases.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
@@ -685,8 +685,8 @@
         "score": 84,
         "ai_mode": "deepseek",
         "ai_confidence": 84,
-        "ai_reason": "Exact model available in major markets, matches gaming category, avoids generic phrases.",
-        "ai_angle": "Premium handheld gaming PC with vibrant OLED display and improved battery life for on-the-go gaming."
+        "ai_reason": "Exact model available in all major markets, matches gaming category, avoids generic phrases.",
+        "ai_angle": "Valve's Steam Deck OLED offers portable PC gaming with improved display and battery life for on-the-go play."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -910,7 +910,7 @@
           "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekRybVQ0YlQwR08xSXJzS1A5Ny1MSUc3UHpweXBfWWJ3OUxhQ08tVWFxbzJLUHpfcWNVTFJudWxqQ0NvRFJySWhIczZ4SGtFeXRwOVhTbVB3MFNlOFRfOG9VNU4zTzJZMHdJbExFeF9RakRERW9GTzZRMGhaNUZLWjZiQjd1cW9JOW9oU1l2WEgzTmhuc0NpUksyRGdyVTZRN045ZDR0SGwybW8?oc=5",
           "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzJiNk54OGVvMU5WcGFUOXdRd3dReWhldXAxeW1RbDdfc2ZhM0k1T3FyQXdYMmxXa3hPQlZFV3ZkUFhOZnVJMEt1WWYwZ3Uta1VCTWlTeFNxanVDRVZnY1NCbDJHV21Wc2t5dGxIWGRYQ3N0YWktN0JFTkxSM2N4bGZ3VE5HWHhOVmM5cQ?oc=5",
           "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxMnJaZ1Q1VlVUdURKalBxY2JXRlB2VVZBRVVnYjR5akhXaGxONDBLcWEtb3dmZmwwdEcxRVZua2R6cmxUV3FfVnQ5ZzlfTXNaeXdDRFpiOF9GdWZrcUNrakQwZ3J1c3Z5V1FodGdtUQ?oc=5",
-          "https://news.google.com/rss/articles/CBMingFBVV95cUxNYzZiM0J2RGYxcWV6LU9nQXB1RE5tMGtmRW94Q1BmSnhPdUtLQlpuREhOM19rcEZpbGF6UG1XQUtNLS0yOFdLQ3J2RnJ2MjlZcmhfYmtoMUkxOFF5aFhrLURjODVMblZSX0tXeWJ5eGdZVC1zWDhFeE5oUTNadDktQ25FazJvdEhGOUdMNWJJMXRuZTVwOHVsX1lGX2tGQQ?oc=5"
+          "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -937,7 +937,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Available in all major markets (US/UK/DE), highest trend scores, and recent professional reviews confirm exact model.",
-        "ai_angle": "Compact Strix Halo-powered AI workstation reviewed as classy but premium-priced for professional AI workloads."
+        "ai_angle": "Compact Strix Halo-powered AI workstation with premium build quality but at a premium price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -970,7 +970,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not full pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination."
         ]
       },
       "seed_ready": true,
