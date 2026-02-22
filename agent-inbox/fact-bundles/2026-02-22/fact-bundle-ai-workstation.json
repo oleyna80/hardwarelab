@@ -5,7 +5,7 @@
     "category_label": "AI Workstations",
     "topic": "ai workstation",
     "candidate_product_name": "Corsair AI Workstation 300",
-    "confidence_score": 80,
+    "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     },
-    "reasoning_short": "Available in all major markets (US, UK, DE), highest score, recent reviews confirm exact model availability.",
+    "reasoning_short": "Available in all major markets, highest trend scores, specific model mentioned in headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeERYdEM5RGd5b3Jyd1RuaUF4MExXVjhMVVNtNkN0c1RhYjBaMlhEVTM5TWRqdG96dzJDR0hKc3Zzd1RyclA4SFhYVk9GcjdObUtlSkpJeF8zOERCMXk4N2puWk55RXFWdXJsOTVSWlBaRGtVLXVfV2kya2VUZ0g1WDExLUlFZlc5TzluVg?oc=5",
@@ -41,12 +41,12 @@
     },
     "trend_7d": 3,
     "trend_30d": 5,
-    "novelty_hits": 6,
+    "novelty_hits": 7,
     "score": 79.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 80,
-    "ai_reason": "Available in all major markets (US, UK, DE), highest score, recent reviews confirm exact model availability.",
-    "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as classy but premium-priced package for serious AI workloads."
+    "ai_confidence": 85,
+    "ai_reason": "Available in all major markets, highest trend scores, specific model mentioned in headlines.",
+    "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as premium but expensive option for serious AI workloads."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -59,13 +59,13 @@
   "validator": {
     "reachable_probe_urls": 3,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Corsair+AI+Workstation+300",
-      "https://www.amazon.co.uk/s?k=Corsair+AI+Workstation+300",
+      "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "https://www.corsair.com/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
-    "amazon_url_count": 6,
+    "amazon_url_count": 3,
     "manufacturer_url_count": 1,
     "spec_fact_count": 0,
     "quote_candidate_count": 0,
@@ -84,12 +84,9 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Corsair+AI+Workstation+300",
-      "https://www.amazon.co.uk/s?k=Corsair+AI+Workstation+300",
-      "https://www.amazon.de/s?k=Corsair+AI+Workstation+300",
-      "https://www.amazon.fr/s?k=Corsair+AI+Workstation+300",
-      "https://www.amazon.it/s?k=Corsair+AI+Workstation+300",
-      "https://www.amazon.es/s?k=Corsair+AI+Workstation+300"
+      "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     ],
     "manufacturer_urls": [
       "https://www.corsair.com/"
@@ -99,14 +96,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Corsair AI Workstation 300",
-      "description_candidate": "AI workstation from Corsair, likely designed for machine learning and data science workloads.",
-      "price_category_candidate": "mid",
+      "description_candidate": "AI workstation from Corsair designed for machine learning and data science workloads",
+      "price_category_candidate": "enterprise",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No specific ASINs found for 'Corsair AI Workstation 300' across Amazon markets. Search results show general listings but no confirmed product. Manufacturer site (Corsair) does not list this exact model. Topic may refer to a hypothetical or upcoming product. Trend data suggests recent interest, but no verifiable product details available."
+      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
     ]
   }
 }
