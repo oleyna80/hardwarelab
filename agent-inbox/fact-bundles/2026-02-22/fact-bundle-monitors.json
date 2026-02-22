@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
       "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
     },
-    "reasoning_short": "Available in all major markets, high trend scores, specific model referenced in headlines.",
+    "reasoning_short": "Available in US, UK, DE markets with strong trends and specific model references in headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
       "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -45,7 +45,7 @@
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 95,
-    "ai_reason": "Available in all major markets, high trend scores, specific model referenced in headlines.",
+    "ai_reason": "Available in US, UK, DE markets with strong trends and specific model references in headlines.",
     "ai_angle": "Samsung's 32-inch OLED gaming monitor with deep blacks and fast response for immersive gameplay."
   },
   "ready_for_pass_a": false,
