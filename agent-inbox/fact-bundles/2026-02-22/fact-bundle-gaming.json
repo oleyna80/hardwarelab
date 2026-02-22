@@ -5,25 +5,26 @@
     "category_label": "Gaming Hardware",
     "topic": "rog ally x",
     "candidate_product_name": "ASUS ROG Ally X",
-    "asin_us": "B0FM6C3ZMN",
-    "asin_us_url": "https://www.amazon.com/dp/B0FM6C3ZMN",
+    "asin_us": "B0D7MZLDN9",
+    "asin_us_url": "https://www.amazon.com/dp/B0D7MZLDN9",
+    "asin_us_listing_title": "HIDevolution [2024] ASUS ROG Ally X RC72LA 7&#34; FHD 120Hz, 3.3 GHz Ryzen Z1 Extreme, AMD Radeon, 24 GB LPDDR5 RAM, 1 TB PCIe SSD, Windows 11 Home",
     "asin_probe_error": null,
     "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0FM6C3ZMN",
+      "US": "https://www.amazon.com/dp/B0D7MZLDN9",
       "DE": "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
       "FR": "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
     },
-    "reasoning_short": "Exact model name matches rules, available in major markets, avoids generic phrases.",
+    "reasoning_short": "Exact model name available in major markets, avoids all prohibited generic phrases and family words.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lZGFuWVd1VWpVdk1YY1pzSnVrbnNINFJmNDZKOXVuOWxOWk1oWHZIMnd6R2ZEWGthY1diWnRBSkRZR0JRalVySEpJbVlvYWpfY3htaWw5UmRrZXg5NVo0QWczcnVDSzFUVXdkZW5Sd1pocGlLTXVDVUJxWFU?oc=5",
       "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXdDaDBGSzJlbS1qSzhiZHgzRmNhLWNYWWE2eTFNRWZJbkNhU245YW9tTGtRMnBGYXpTbFVHdHlsdVloRzFrdUFadW1yVkF2THpCTmhsTTRzV2g1TWNlSHpmN1R6bmN2M2E2UXVvY1VabGlhR2lhYlRibU5jb0R0UlBhUGF5TmN4NDhGckt5VGpVODVSSkxTVG9WRmRpUFVNN0F1TEJFNWktVExLYUIzSWNLWEI5ZVBZa1E?oc=5",
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3cycUR5WkEyTE9sZkd5SnEwd29ieDBMUFdQVG5ySHhsdWloZDItMkFQT1NBeG1lLUZRTjJfMGp0aWtyc0FQeFFjQmM5bkIxTmdOTTdtcFdmcTlKc1hvRE5kUVhsSS1KSmgyaFppV2JJZVduR1dhRG9zNHlJeGU2Wnlyd09ZT2tFb2ZWX1U2U2R2NHQ5V21NYzVtQndFU2huakNTVFhqSC0xX3NpTnFENVY4UQ?oc=5",
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM1VIWVJCV09uYXFQb0VHd1RveG92S1JNV3dFN3d0NXpMSDBZRUt3RWhSYTNrcUdKNjlKR2NWTDY3bnhWd05DVVYxcEdXUnllemtZWjRYYndOcHJjOHpyVDloMEJOQkNMeGQ5d1dVWEpaZDlTa0JsVk5ydVgwTUJEWXRyTnB3ZW5iWUxhTWItdExqc1JrNnVtVWM0UzFqaGpvd01UMDlqS2MtXzlqM0FDXzdSSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3cycUR5WkEyTE9sZkd5SnEwd29ieDBMUFdQVG5ySHhsdWloZDItMkFQT1NBeG1lLUZRTjJfMGp0aWtyc0FQeFFjQmM5bkIxTmdOTTdtcFdmcTlKc1hvRE5kUVhsSS1KSmgyaFppV2JJZVduR1dhRG9zNHlJeGU2Wnlyd09ZT2tFb2ZWX1U2U2R2NHQ5V21NYzVtQndFU2huakNTVFhqSC0xX3NpTnFENVY4UQ?oc=5",
       "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXMxckxzajRkUUNacWljXzBGSWZpcUd5aG9RS2l3ZElPNk1RZlZnVmU4WTl5QlA3dTZZa2o3WDJWdXNJa2YxVnhVTVNDdWN0RTdlZURQa2xhNU1FRGc4V1lhY3d3NW8xQkVzQmh2alFWRFBBT01fd3NBdTFYZWEtZlkwX1I3RUc3STNtTGZnUVJ0bnBiNW1pd3paOEQ4UF9sT3hZRFRQSXZ2dw?oc=5",
-      "https://www.amazon.com/dp/B0FM6C3ZMN"
+      "https://www.amazon.com/dp/B0D7MZLDN9"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -43,39 +44,38 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 13,
-    "trend_30d": 18,
+    "trend_7d": 14,
+    "trend_30d": 17,
     "novelty_hits": 1,
     "score": 80,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
-    "ai_reason": "Exact model name matches rules, available in major markets, avoids generic phrases.",
-    "ai_angle": "Handheld gaming PC with AMD Ryzen Z1 Extreme, 7-inch 1080p 120Hz display, and Windows 11."
+    "ai_reason": "Exact model name available in major markets, avoids all prohibited generic phrases and family words.",
+    "ai_angle": "ASUS ROG Ally X handheld gaming PC review: Performance, battery life, and portability tested"
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 3,
+    "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
-      "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
-      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/",
-      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/",
-      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/"
+      "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 4
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -93,35 +93,21 @@
       "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
       "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
     ],
-    "manufacturer_urls": [
-      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/"
-    ],
-    "spec_facts": [
-      {
-        "claim": "ASUS ROG Ally X is a gaming handheld device with AMD Ryzen Z1 Extreme processor",
-        "source_url": "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/"
-      },
-      {
-        "claim": "Features a 7-inch 1080p display with 120Hz refresh rate",
-        "source_url": "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/"
-      },
-      {
-        "claim": "Includes 1TB SSD storage and 24GB LPDDR5X RAM",
-        "source_url": "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "ASUS ROG Ally X Gaming Handheld",
-      "description_candidate": "High-performance Windows gaming handheld with AMD Ryzen Z1 Extreme processor, 7-inch 120Hz display, and upgraded storage",
-      "price_category_candidate": "high",
+      "title_candidate": "Gaming Hardware: ASUS ROG Ally X",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No Amazon ASINs found due to constraints against hallucination. Manufacturer specifications sourced from official ASUS website. Product appears to be newly announced/released based on novelty hits."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
