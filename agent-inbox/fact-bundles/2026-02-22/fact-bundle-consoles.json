@@ -46,7 +46,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 99,
     "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-    "ai_angle": "High-end console upgrade with enhanced performance for 4K gaming and ray tracing."
+    "ai_angle": "High-end console upgrade with enhanced performance for demanding games and 4K gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
