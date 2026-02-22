@@ -1,0 +1,107 @@
+{
+  "generated_date_utc": "2026-02-22",
+  "topic": {
+    "category_key": "sbc",
+    "category_label": "SBC",
+    "topic": "raspberry pi 5",
+    "candidate_product_name": "Raspberry Pi 5",
+    "confidence_score": 84,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/s?k=Raspberry%20Pi%205",
+      "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205",
+      "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205"
+    },
+    "reasoning_short": "Available on all major Amazon markets with strong recent trends and high score.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HMnBkaENhNHU5THNaekxCd19Qejl0dndRWHRDVUdWVmpicFdLRHpBWEtXVjRxbnJnV21WbnlhUy1jb1NFaWtEZEVoc3JESlljWEJvdXdpTmpzTXFJTzVseXZ1eXlhNlJ6MHVCd3NTUXA5MVJ0a3ZsbWhOdVc?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWExIeTFGSWN2LWpVRzFMYzhieTRVRmVRTlFDMGhOOEFfNXpYbEVKQ1RQa2xHUWtfb2VXUFZoeEx3czl1MUd3dkdqejhva1JwejJzNVd2bzVFb05vTG9TRVRpX0VOdlN6clZSenA0VEpfQkFfYmptUUpkeVd4b2JkRTdBUHRvNEphUjFjcEp4TXc4cXpFcUNR?oc=5",
+      "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRFNuSDZyenBkM2RLVjJreDYwT0lBMmtwTEZBbUNzNHdQOWl4MEYzcnZLRXhhNGxUNTJ3SDNWUjZZNGZHZEJYSml4Q3RKR0kzSWRPcDd4TDVpdmFoZWNoc0Y2amxpWWVtbWhTSEZEN0FWR0dnei1tTFhTZ3ltRHdYWWdjNWRmMi1nVzZldlpR?oc=5"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 7,
+    "trend_30d": 10,
+    "novelty_hits": 2,
+    "score": 84,
+    "ai_mode": "deepseek",
+    "ai_confidence": 84,
+    "ai_reason": "Available on all major Amazon markets with strong recent trends and high score.",
+    "ai_angle": "Raspberry Pi 5 review: Building a personal VPN server in hours with this versatile SBC."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Raspberry%20Pi%205",
+      "https://www.amazon.de/s?k=Raspberry%20Pi%205"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Raspberry%20Pi%205",
+      "https://www.amazon.de/s?k=Raspberry%20Pi%205",
+      "https://www.amazon.fr/s?k=Raspberry%20Pi%205"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "SBC: Raspberry Pi 5",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
