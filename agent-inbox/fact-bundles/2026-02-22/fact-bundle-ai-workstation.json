@@ -5,7 +5,7 @@
     "category_label": "AI Workstations",
     "topic": "ai workstation",
     "candidate_product_name": "Corsair AI Workstation 300",
-    "confidence_score": 80,
+    "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     },
-    "reasoning_short": "Available on US, UK, DE markets with highest score and recent review coverage.",
+    "reasoning_short": "Available in all major markets (US/UK/DE), highest score, recent reviews confirm exact model availability.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeERYdEM5RGd5b3Jyd1RuaUF4MExXVjhMVVNtNkN0c1RhYjBaMlhEVTM5TWRqdG96dzJDR0hKc3Zzd1RyclA4SFhYVk9GcjdObUtlSkpJeF8zOERCMXk4N2puWk55RXFWdXJsOTVSWlBaRGtVLXVfV2kya2VUZ0g1WDExLUlFZlc5TzluVg?oc=5",
@@ -41,36 +41,36 @@
     },
     "trend_7d": 3,
     "trend_30d": 5,
-    "novelty_hits": 6,
+    "novelty_hits": 7,
     "score": 79.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 80,
-    "ai_reason": "Available on US, UK, DE markets with highest score and recent review coverage.",
-    "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as classy but premium-priced package."
+    "ai_confidence": 85,
+    "ai_reason": "Available in all major markets (US/UK/DE), highest score, recent reviews confirm exact model availability.",
+    "ai_angle": "Compact Strix Halo-powered AI workstation with premium build but high price point for serious local AI workloads."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 3,
+    "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
-      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
-      "https://www.corsair.com/"
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
+    "manufacturer_url_count": 0,
     "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 1
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -88,22 +88,21 @@
       "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     ],
-    "manufacturer_urls": [
-      "https://www.corsair.com/"
-    ],
+    "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Corsair AI Workstation 300",
-      "description_candidate": "AI workstation from Corsair, likely designed for high-performance computing and AI/ML workloads.",
-      "price_category_candidate": "high",
+      "title_candidate": "AI Workstations: Corsair AI Workstation 300",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and PC components, but this exact model does not appear to be listed. Consider checking Corsair's official website or other retailers for potential releases or similar products like Corsair Vengeance or One series workstations."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
