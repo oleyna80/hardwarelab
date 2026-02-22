@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
       "FR": "absent"
     },
-    "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
+    "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic phrases while matching category.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE96MGJ1REE2Zzdmd1VTMnN6WnZMWHB1Y3lybDZvOGR6dzBicUttOFZRWWhqYmphbWQ5V0kwcWQzXzVBa2FVQTNfdE5OSkdjblRISm1YeFZ6YjdaUko2Vmdxalg4YmRCR2pJMG5KMGVRQ1dRSks3QmZqa2w0QQ?oc=5",
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VSmpSMjA2STFIUXpBN25wbXJKM3BhUVdJVXhSOER4Q0xDMjBYMzF2OVA1aHE4LVVRY3ZkZnNTQXBEd08tLTljTWpwN1M1MkZfaWxPeldNcmY?oc=5",
@@ -42,8 +42,8 @@
     "score": 76.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
-    "ai_angle": "Compact RTX 4070 prebuilt gaming desktop with strong performance in small form factor."
+    "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic phrases while matching category.",
+    "ai_angle": "Compact prebuilt gaming PC with RTX 4070 delivers high performance in small form factor for 1440p gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
