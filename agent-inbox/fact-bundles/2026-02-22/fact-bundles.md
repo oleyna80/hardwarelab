@@ -182,6 +182,6 @@
 - Missing valid ratingSourceURL in editorial seed.
 - Too few reachable evidence URLs during probe check (need >=2).
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent due to no direct matches.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination.
 ### Probe URLs
 - https://www.corsair.com/
