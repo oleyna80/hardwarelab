@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     },
-    "reasoning_short": "Exact model from headlines, available in all major markets, avoids generic phrases.",
+    "reasoning_short": "Available in all major markets, recent reviews confirm exact model availability, avoids generic phrasing.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
       "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
@@ -45,8 +45,8 @@
     "score": 67.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Exact model from headlines, available in all major markets, avoids generic phrases.",
-    "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, balancing performance and storage flexibility for home/SMB use."
+    "ai_reason": "Available in all major markets, recent reviews confirm exact model availability, avoids generic phrasing.",
+    "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, Intel N5105 CPU, 10GbE optional, aimed at home/SMB users seeking performance and flexibility."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -109,15 +109,15 @@
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS",
-      "description_candidate": "A 2-bay network-attached storage device with Intel Celeron N5105 processor, 2.5GbE connectivity, and hardware transcoding capabilities for home and small office use.",
+      "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS with Intel Celeron N5105",
+      "description_candidate": "2-bay network-attached storage device with Intel Celeron N5105 processor, 2.5GbE connectivity, hardware transcoding support, and TOS 5 operating system",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon listings found for specified markets. Manufacturer website provides technical specifications. No user quotes or reviews available in current search scope."
+      "No Amazon ASINs found across specified markets. Manufacturer website provides primary specifications. Price category estimated based on typical NAS market positioning."
     ]
   }
 }
