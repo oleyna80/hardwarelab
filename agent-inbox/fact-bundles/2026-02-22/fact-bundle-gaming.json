@@ -1,0 +1,107 @@
+{
+  "generated_date_utc": "2026-02-22",
+  "topic": {
+    "category_key": "gaming",
+    "category_label": "Gaming Hardware",
+    "topic": "steam deck oled",
+    "candidate_product_name": "Valve Steam Deck OLED",
+    "confidence_score": 84,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+      "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
+      "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+    },
+    "reasoning_short": "Exact model available in all major markets, high trends, avoids generic phrases.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
+      "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVM5LVZqM1hYUnhGWjA3aGtWTmpRRVpkcmRiVTc2MlNyYVlSWC1rWUF5N3hkYXlFYXdBOVR2cHRLVXBaeldRUjcxa2hYcHE5V1hqVjN5elYxSWV2aTVnX3Jmc3RReXZqa3NCX0lUVFdQNDlhM2xMM3NxQUxaaEtpLTdsYzlxU3lnRTFETURQSGNmTG1QcGs2RTdqNlQ4eDExSDI3SE53SW5BWHhod0VlQ2ZnTklfa1AzYTdXeGFwMlJoRGdXNl91SkttZ1lxeUJhWEVSbWg2Y3JBUFk?oc=5"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 16,
+    "trend_30d": 20,
+    "novelty_hits": 2,
+    "score": 84,
+    "ai_mode": "deepseek",
+    "ai_confidence": 84,
+    "ai_reason": "Exact model available in all major markets, high trends, avoids generic phrases.",
+    "ai_angle": "Premium handheld gaming PC with vibrant OLED display and improved battery life for on-the-go gaming."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+      "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+      "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
+      "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
