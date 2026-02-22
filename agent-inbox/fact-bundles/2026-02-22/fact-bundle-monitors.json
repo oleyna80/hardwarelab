@@ -1,0 +1,107 @@
+{
+  "generated_date_utc": "2026-02-22",
+  "topic": {
+    "category_key": "monitors",
+    "category_label": "Monitors",
+    "topic": "oled gaming monitor 32",
+    "candidate_product_name": "Samsung Odyssey OLED G8 G85SB",
+    "confidence_score": 95,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
+      "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
+      "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
+    },
+    "reasoning_short": "Available in all major markets, high trend scores, specific model referenced in headlines.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYS05pVk0td1VySnZXelZUMDdDdjdiMktiYWVZUXhBdVliaDVScUY3dHRGNkszNTNnUHRkMm9zLXd3WTBXREJxaks5X1JKQ21RRjhITVpPNV83VWJpS1ZianVUZWZWc0ZTRDB2SFREUGY?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWUVBeUhrUDE2eWRRVjd3QWczdDZmcGN6Wl9mUXlLd3VwWGFvcVBzaG5QVnhhQjFOZE96MzZKekNrQkpXWlpvNDQ1Vi1DRHh4dHJ4RFJveDF0LXVmSXpVTldldGV0S3FCV0NfdFg1NThiMEpHd0NmMmZiRHVZdFYyQjJQMUFpVG5JX2NnS2dYT3dmOHY3MW8yV3NvSTRvSEVYQ0JaQ0dZT0pJQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94aFB5VGZaMkgtUi00azhadnlZVjBlSXJxTXU3WTZ0YzBSVW1Ba0NNU0MwWDFROXN1Z0N4aUtEaXNTd0ZPOEYxaDdqRHk4c1NzcmtKUHZaZDNzeVppejlxSUpRVQ?oc=5"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 13,
+    "trend_30d": 18,
+    "novelty_hits": 9,
+    "score": 100,
+    "ai_mode": "deepseek",
+    "ai_confidence": 95,
+    "ai_reason": "Available in all major markets, high trend scores, specific model referenced in headlines.",
+    "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 price drop on Amazon markets."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
+      "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
+      "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB",
+      "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Monitors: Samsung Odyssey OLED G8 G85SB",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
