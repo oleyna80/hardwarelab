@@ -3,23 +3,23 @@
   "topic": {
     "category_key": "mini-pc",
     "category_label": "Mini PC",
-    "topic": "mini pc ryzen 7",
-    "candidate_product_name": "Machenike Ryzen 7 8745HS Mini PC",
-    "confidence_score": 92,
+    "topic": "intel nuc mini pc",
+    "candidate_product_name": "ASRock NUC Ultra 300 Box Series",
+    "confidence_score": 91,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
-      "DE": "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
-      "FR": "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
+      "US": "https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "DE": "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "FR": "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     },
-    "reasoning_short": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
+    "reasoning_short": "Highest score, major market availability, specific model in headlines, matches category rules.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnlZV3pTVDluWFl2NzFSNGlyTmkwYVdwVFV2dVhIdWxqOU5POWxGTGR4Sy1TbDBuWjRDUWxiTmt4Y0t3UlpPTDlwWmJmdlRIcjBldXhPSWxvZWxiVlBpbExLRlczb1ZGaG9mRHl5OEV3UzI1Y05YNGkyOWlFSWVVN2pFRHN3MGdqbGRnSEZObVFqTUhw?oc=5",
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTFhbzA2cllicXVralplWkpsNTFWWnM5ZDZkNWdIZk5TTk9LNkgxejNkcUtOYnN2aUlRLVVLSVBwY2NZQjIzM1FDWllKaUNfR3RuNFlkU0NSQTFVbjlZMTJGTmtiWlFpMFlfQS1OUjU4YjBXaHZCX0lVRlplWVFlYWlkRVVQZXhsOTNvQ0duYVFMWWdTOHhkNDdtbnhpZFBackMtRGxmMVd6N3drWWtn?oc=5",
-      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHlDVWhSbVRsNGxZU0pOYTZBQ2U1Y1R2a0s3YTJNOVh6Zno1STlaNjF5QXo3SmFBalJaLUJvWUI3TlpCYjRnWVFnZ1gwbVF5R3hpRmlBOGlsTk5lWXg4RmQtMFpoamwzS1hGT3B0TEFpMmxhZ0lWN0FwNzh0Sy1SWTJ5UXpldlJYYk9aLWlmeEdBTEZOOEdHZWg3VFVSVWxsb1d3SEhoQmV2VHJ3NEEwQkl5NkFfTXNDVnJTNHZlUy1XQWFQR0FmSy1SVEx3d1VC?oc=5",
-      "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQnNkZm01cFpqcEI3ZWtqc1kzblZHRHRfSEFWSlNwelM1bUFuRVI2LW5OVGVZV2dVNUl2TG5TNDczT0cxbEpDRXFsWlZjYU01dWRGSjRuWTdpcmUzX2pjN2ZGaWhVZjIxOVJmbDVQVmg5US1LZjRRbzRQbFh6ejVvakFkV21RYWpwUDJDcUxNWTAyNHhISXNVUS04WHNIb3VGODBEUTRNbU1GX3ZGOUNXVGtIbl9VS3BrdjV3ZEpvalF1RXpuNkE?oc=5",
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM3lmYmhSMTF4ZmdkOEREVG1oNGxTMHBCMFg0STZBbmF6UmN3M1g5OUwzeTM5dERkVmVSSjV3bEdGTWRNQlowbzlQcThCRlZUejdHeTlDZmcySlFqeE5FcEU1cUgwb1lOSkpmZkVXQ01iN0k0UTFYN0h3Q0F4ZTJwMk1MNDVscEE1NG9jRlBFb1RxMV9PamcwNzJpbmlpRHpDWXNPakV3LWE3N1J5Y3B6eS1jSHl1dkxPbVhVeQ?oc=5"
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXBEU01vbVFrUmt0TjlzMmZsc3V6MXpVZW4zUFNtTHdjdEF6bl9VaTBPVDJBLXZ2cFZMeFNfMmFON3pOVWJrVWI4amZtRmlFOTl1aU51WGl6aW9zV0VkU2NyYmV6bE9XdEdSUWFmdnFjWXVNeGFJQkRZMEY0bGVKMnJaSXlxc01lYl96OUJOTS1Icy1qRVNnSXpCLXd0RkFZbFItaUNjWFdDaTdpSDJreEdR?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRC1lY0ZlQ3VRdlJmUW04UFU2WXlpUmw2MkxfVXpvLTN0dXk2RFIwMi1Pa0ZwRVIyWnU5b2tTRndxOHNWcnpZaHJQTUFabjRzQ1NaLWJqZGQ1YXA0bFZ0aW1TOE1EYnJzcEhFcXJBemRXTWdic1JLT200UllEd01jZzJKWVI1QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPanZhdDU3R1c5U0NsUVRvNjA1Y2NtR3FNaGxkT0l0cXNVa2tiYXB0MzdkYUpJbkJ2cnI2cjlvLVFfZE5FMnp1ak8xUFRkQUZKb0JRLWprUXdnTDk5NDVWSUw2RzhFZzFlM2d0YS1hRC1IUW1ZXzdheEl1OGFtUzBDU3FSOHBDZTdsSDVuTk10SlV1OVgydXNPWXdMZGxpaWlSdHR6RFlBemlpaWo0N0J4U2haZ9IBuAFBVV95cUxQMTZFYlI1N1Z1VVlmTU5TMU1mU0taNlRlbGZmZEQ2SFRseXFTbWFacDlQNmRScnhGSFN2Z19idTVRd3owVHp6eEVmczB1SkxBVDJCQnBicnlDRFZ0Sjlhb09wTUtyYTJOZnlfWVNESU9DRXdGV0x5YXZXVW5YM1Q2LUpWU3A5eHgwaHMybVU5ckJac3lRQUhNb2E1aFMyMm16Rko5WVJ5VFgwMUd2dlVldzVuNmJLZW9q?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmJucU5rSzRUbE9qbE1HQjNsLXd0aWtyeXBrMjJRR1lBQ1ZNQUF1SkphVVM5MHhyVU01UUpadjlBWlluMXd2WE14dUtjQko4Tm1NT1BVUEs2VU81MFhfRDRlZFpGNW9oNWhTZ3pBQmJseGJmU18wVFI4RzlVbjNzN0drdUprWm1fUnA2TE1oQUREdWROSGJuV3duczR3bG5RVi14MWl5M3dibkRHQmZuSnFZT1c?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMS1tXzgtX1Y5THZSWkk3LWt1c01lQmtGT3c1enA2bjhJT2Z0TDVOdlNPc1hTbVhuRU1CYmhJaTl1ZHpRdm0xZFh2WkdWd0ZiNmtUcXRvX3ZBWlphYVJHck9nTDY4ZXNSUHN1ck1yZ1lMcDFtQVpfWUV6X3JUY1NyVGFnVW9jRWRhWEV0SEZIR19wNzBhMTZjNzJpejcxOXZ1eUxDYTJWLXJOQlFEWktlVGMyQ29JbjREUGR2ckRTdHBvV3V6TGpEaUV1Zw?oc=5"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -39,14 +39,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 10,
-    "trend_30d": 12,
-    "novelty_hits": 4,
-    "score": 92,
+    "trend_7d": 5,
+    "trend_30d": 7,
+    "novelty_hits": 10,
+    "score": 90.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 92,
-    "ai_reason": "Highest score (92), major market availability, specific model mentioned in headlines with Ryzen 7 processor.",
-    "ai_angle": "Affordable Ryzen 7 mini PC outperforming custom $550 builds, offering triple 4K support and Windows 11 Pro."
+    "ai_confidence": 91,
+    "ai_reason": "Highest score, major market availability, specific model in headlines, matches category rules.",
+    "ai_angle": "ASRock's Panther Lake-powered NUC Ultra 300 Box with up to 16-core Ultra X7 358H and 128GB RAM for compact performance."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -60,8 +60,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
-      "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
+      "https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -84,16 +84,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
-      "https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC",
-      "https://www.amazon.fr/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC"
+      "https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Mini PC: Machenike Ryzen 7 8745HS Mini PC",
+      "title_candidate": "Mini PC: ASRock NUC Ultra 300 Box Series",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
