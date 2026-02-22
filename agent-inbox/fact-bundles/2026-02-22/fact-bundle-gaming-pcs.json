@@ -1,0 +1,104 @@
+{
+  "generated_date_utc": "2026-02-22",
+  "topic": {
+    "category_key": "gaming-pcs",
+    "category_label": "Gaming PCs",
+    "topic": "prebuilt gaming pc rtx 4070",
+    "candidate_product_name": "Skytech Gaming Chronos Mini Gaming Desktop PC (AMD Ryzen 5 5600X, RTX 4070, 16GB DDR4, 1TB NVMe SSD)",
+    "confidence_score": 85,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)",
+      "DE": "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)",
+      "FR": "absent"
+    },
+    "reasoning_short": "Specific RTX 4070 model from major brand available on Amazon US/UK/DE, avoiding generic gaming PC phrases.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE96MGJ1REE2Zzdmd1VTMnN6WnZMWHB1Y3lybDZvOGR6dzBicUttOFZRWWhqYmphbWQ5V0kwcWQzXzVBa2FVQTNfdE5OSkdjblRISm1YeFZ6YjdaUko2Vmdxalg4YmRCR2pJMG5KMGVRQ1dRSks3QmZqa2w0QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VSmpSMjA2STFIUXpBN25wbXJKM3BhUVdJVXhSOER4Q0xDMjBYMzF2OVA1aHE4LVVRY3ZkZnNTQXBEd08tLTljTWpwN1M1MkZfaWxPeldNcmY?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXl4dmx6cFpwRlg3cFVjS2d4WHVQc1VXQk13VkZteDg3eVJDcVMtYU5JZkJMUS00MVJTaVZzS3RyMWZoSFlxNTVnODB1amExdHVmX0VtR01meG9vVjZkUC1iQ21NeUQ0bDZpcDZkdHhqemppZnA1RXRETzNPSkZtc3A3U2Q0eGRPajFSZHlLZFJTYXZiT1pLcGVRYnA5Y2dpZDNLcWpJMGJJcEJTU0lJd2FIcGxCNHRPREdYX3Ytb21PQlNmUC1pM0Zibw?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmxveThaLXFzMUF5UVNQY2VXejVjSzYzNUVZaFhzTFBPdmRkVDVBRlBGcHVHOFlDQkNvQUFIYWJkV3JxNUV0eDU3RUpUVTdUcWVrMWFKcUx3ZUJYdTd1TE1KeWJSd1ZnaXBTdS0tRmM5QjFUMzZjNnZhZXlwWjVJTHpKaWlPdmR1aENlTGVyX2VwSnd3VE1B?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fb0s4OGpvMHY3ejZHalBzLTRVbXE4Q29WcE9HcWoyVkY1NE5QR0R5VVRHTjI1Z3puZFh6RHVCellPcDBzSDB4bVRqTkZIdjl3dXY1RGVPNlFKeklDWExrRlhsaw?oc=5"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": false,
+      "IT": false,
+      "ES": false
+    },
+    "trend_7d": 3,
+    "trend_30d": 5,
+    "novelty_hits": 7,
+    "score": 76.5,
+    "ai_mode": "deepseek",
+    "ai_confidence": 85,
+    "ai_reason": "Specific RTX 4070 model from major brand available on Amazon US/UK/DE, avoiding generic gaming PC phrases.",
+    "ai_angle": "Skytech Chronos Mini with RTX 4070 delivers high-end 1440p gaming in compact prebuilt form, balancing performance and value."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)",
+      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)",
+      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)",
+      "https://www.amazon.fr/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Gaming PCs: Skytech Gaming Chronos Mini Gaming Desktop PC (AMD Ryzen 5 5600X, RTX 4070, 16GB DDR4, 1TB NVMe SSD)",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
