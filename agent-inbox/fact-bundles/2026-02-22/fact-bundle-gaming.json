@@ -5,7 +5,7 @@
     "category_label": "Gaming Hardware",
     "topic": "steam deck oled",
     "candidate_product_name": "Valve Steam Deck OLED",
-    "confidence_score": 100,
+    "confidence_score": 84,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
       "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
     },
-    "reasoning_short": "Exact model name matches term, available in all major markets, high trend scores, specific product not generic.",
+    "reasoning_short": "Exact model available in all major markets, high trending scores, specific product not generic category.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
       "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
@@ -44,9 +44,9 @@
     "novelty_hits": 2,
     "score": 84,
     "ai_mode": "deepseek",
-    "ai_confidence": 100,
-    "ai_reason": "Exact model name matches term, available in all major markets, high trend scores, specific product not generic.",
-    "ai_angle": "Review of Valve Steam Deck OLED: performance, display quality, battery life, and portability for gaming on the go."
+    "ai_confidence": 84,
+    "ai_reason": "Exact model available in all major markets, high trending scores, specific product not generic category.",
+    "ai_angle": "Review of Valve Steam Deck OLED's display quality, battery life improvements, and current availability challenges in 2026."
   },
   "ready_for_pass_a": false,
   "blockers": [
