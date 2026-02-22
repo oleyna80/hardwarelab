@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trending upward.",
+    "reasoning_short": "Highest score, strong trends, available in all major markets, recent coverage.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
@@ -50,8 +50,8 @@
     "score": 72.5,
     "ai_mode": "deepseek",
     "ai_confidence": 73,
-    "ai_reason": "Highest score, available in all major markets, strong recent coverage and trending upward.",
-    "ai_angle": "Cost-effective alternative to cloud storage subscriptions with hybrid 3+2-bay design for flexible storage expansion."
+    "ai_reason": "Highest score, strong trends, available in all major markets, recent coverage.",
+    "ai_angle": "Cost-effective alternative to cloud storage subscriptions with hybrid 3+2-bay design for home and small office use."
   },
   "ready_for_pass_a": false,
   "blockers": [
