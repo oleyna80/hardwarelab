@@ -52,26 +52,26 @@
 
 ## NAS
 
-- Topic: **synology 4 bay nas**
+- Topic: **terramaster nas**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Manufacturer URLs: 1
+- Spec facts: 3
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No Amazon ASINs found for specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device with mid-range specifications.
 ### Probe URLs
-- https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B
-- https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B
+- https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
+- https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
+- https://www.terra-master.com/global/products/nas/f2-425-plus/
+- https://www.terra-master.com/global/products/nas/f2-425-plus/
+- https://www.terra-master.com/global/products/nas/f2-425-plus/
 
 ## SBC
 
@@ -116,12 +116,12 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
 
 ## Gaming Hardware
 
-- Topic: **steam deck oled**
+- Topic: **rog ally x**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -139,8 +139,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
-- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
 
 ## Gaming PCs
 
@@ -170,7 +170,7 @@
 - Topic: **ai workstation**
 - Status: BLOCKED
 - ASIN_US: absent
-- Amazon URLs: 6
+- Amazon URLs: 3
 - Manufacturer URLs: 1
 - Spec facts: 0
 - Quote candidates: 0
@@ -181,8 +181,8 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific ASINs found for 'Corsair AI Workstation 300' across Amazon markets. Search results show general listings but no confirmed product. Manufacturer site (Corsair) does not list this exact model. Topic may refer to a hypothetical or upcoming product. Trend data suggests recent interest, but no verifiable product details available.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
 ### Probe URLs
-- https://www.amazon.com/s?k=Corsair+AI+Workstation+300
-- https://www.amazon.co.uk/s?k=Corsair+AI+Workstation+300
+- https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
+- https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
 - https://www.corsair.com/
