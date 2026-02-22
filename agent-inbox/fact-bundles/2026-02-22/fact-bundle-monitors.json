@@ -5,7 +5,7 @@
     "category_label": "Monitors",
     "topic": "oled gaming monitor 32",
     "candidate_product_name": "Samsung Odyssey OLED G8 (G85SB)",
-    "confidence_score": 100,
+    "confidence_score": 95,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)",
       "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)"
     },
-    "reasoning_short": "Available in US, UK, DE markets with strong trends and recent price coverage.",
+    "reasoning_short": "Matches major markets rule, specific 32-inch OLED gaming monitor model available on Amazon US/UK/DE.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXotcXRuTERoMEt6RWlla0RlWkpQYWJtT3NWSjdVNDh1QkRKQ21JT0NwWndmc1ZwNEVub1VKaFp6bE5TUzdtbXpDV09wakFJUHNUdmhBZzVhWC1uak5rUlYwc0Nkd0NkeHB2WXM3U1JvcWJFZW1PemVpejdNYVloWHNfVkM4T1ZnVGhucm1zTk10cldiUHEwQUZR?oc=5",
       "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlFRN1ZpWThUeVpNR0tKdUF5aUYwSHpmOTJWdTgwaC1kWDZidjZmajBsYkdmMEZkT2FUOWhEM2pXWWZkbTg0cTRpSEFtMV9EYWdOQlluOHJrNlRyVG1tcHh2blkwRXJvSzdfVVlCV3dfUW9jc0FkSUJLWWlpM0IyekVRQnFkT3hvdG5YUjFR?oc=5",
@@ -44,9 +44,9 @@
     "novelty_hits": 9,
     "score": 100,
     "ai_mode": "deepseek",
-    "ai_confidence": 100,
-    "ai_reason": "Available in US, UK, DE markets with strong trends and recent price coverage.",
-    "ai_angle": "Samsung's 32-inch OLED gaming monitor with $450 discount on Amazon - premium HDR for competitive gaming."
+    "ai_confidence": 95,
+    "ai_reason": "Matches major markets rule, specific 32-inch OLED gaming monitor model available on Amazon US/UK/DE.",
+    "ai_angle": "Samsung's 32-inch OLED gaming monitor with QD-OLED panel, 240Hz refresh rate, and 0.03ms response time for immersive gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
