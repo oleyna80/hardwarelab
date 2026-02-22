@@ -4,16 +4,16 @@
     "category_key": "gaming-pcs",
     "category_label": "Gaming PCs",
     "topic": "prebuilt gaming pc rtx 4070",
-    "candidate_product_name": "Skytech Gaming Chronos Mini RTX 4070 Gaming PC",
+    "candidate_product_name": "Skytech Gaming Chronos Mini Gaming Desktop PC",
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC",
-      "DE": "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC",
+      "US": "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
+      "DE": "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
       "FR": "absent"
     },
-    "reasoning_short": "Specific RTX 4070 model from major brand available across US, UK, DE markets.",
+    "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE96MGJ1REE2Zzdmd1VTMnN6WnZMWHB1Y3lybDZvOGR6dzBicUttOFZRWWhqYmphbWQ5V0kwcWQzXzVBa2FVQTNfdE5OSkdjblRISm1YeFZ6YjdaUko2Vmdxalg4YmRCR2pJMG5KMGVRQ1dRSks3QmZqa2w0QQ?oc=5",
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VSmpSMjA2STFIUXpBN25wbXJKM3BhUVdJVXhSOER4Q0xDMjBYMzF2OVA1aHE4LVVRY3ZkZnNTQXBEd08tLTljTWpwN1M1MkZfaWxPeldNcmY?oc=5",
@@ -42,8 +42,8 @@
     "score": 76.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Specific RTX 4070 model from major brand available across US, UK, DE markets.",
-    "ai_angle": "Compact prebuilt with RTX 4070 delivers 1440p gaming at high refresh rates without DIY hassle."
+    "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
+    "ai_angle": "Compact RTX 4070 prebuilt gaming desktop with strong performance in small form factor."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -57,8 +57,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC",
-      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC"
+      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
+      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -81,16 +81,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC",
-      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC",
-      "https://www.amazon.fr/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC"
+      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
+      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
+      "https://www.amazon.fr/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Gaming PCs: Skytech Gaming Chronos Mini RTX 4070 Gaming PC",
+      "title_candidate": "Gaming PCs: Skytech Gaming Chronos Mini Gaming Desktop PC",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
