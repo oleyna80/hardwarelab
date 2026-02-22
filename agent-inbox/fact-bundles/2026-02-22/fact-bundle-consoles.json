@@ -102,14 +102,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Sony PlayStation 5 Pro",
-      "description_candidate": "Rumored enhanced version of PlayStation 5 console with upgraded hardware specifications",
+      "description_candidate": "Rumored enhanced version of the PlayStation 5 console with upgraded hardware for improved performance and graphics.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No official ASINs found as product is rumored/unreleased. Manufacturer URLs point to current PS5 pages. No verified specs, quotes, or reviews available due to unconfirmed status."
+      "No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Related reviews are not applicable for an unannounced product."
     ]
   }
 }
