@@ -5,7 +5,7 @@
     "category_label": "Mini PC",
     "topic": "intel nuc mini pc",
     "candidate_product_name": "ASRock NUC Ultra 300 Box Series",
-    "confidence_score": 89,
+    "confidence_score": 91,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
       "FR": "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     },
-    "reasoning_short": "Exact model from recent headlines, available in all major markets, high novelty and trend scores.",
+    "reasoning_short": "Highest score, major market availability, specific model in headlines, strong trends.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXBEU01vbVFrUmt0TjlzMmZsc3V6MXpVZW4zUFNtTHdjdEF6bl9VaTBPVDJBLXZ2cFZMeFNfMmFON3pOVWJrVWI4amZtRmlFOTl1aU51WGl6aW9zV0VkU2NyYmV6bE9XdEdSUWFmdnFjWXVNeGFJQkRZMEY0bGVKMnJaSXlxc01lYl96OUJOTS1Icy1qRVNnSXpCLXd0RkFZbFItaUNjWFdDaTdpSDJreEdR?oc=5",
       "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRC1lY0ZlQ3VRdlJmUW04UFU2WXlpUmw2MkxfVXpvLTN0dXk2RFIwMi1Pa0ZwRVIyWnU5b2tTRndxOHNWcnpZaHJQTUFabjRzQ1NaLWJqZGQ1YXA0bFZ0aW1TOE1EYnJzcEhFcXJBemRXTWdic1JLT200UllEd01jZzJKWVI1QQ?oc=5",
@@ -40,37 +40,38 @@
       "ES": true
     },
     "trend_7d": 5,
-    "trend_30d": 6,
-    "novelty_hits": 9,
-    "score": 89,
+    "trend_30d": 7,
+    "novelty_hits": 10,
+    "score": 90.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 89,
-    "ai_reason": "Exact model from recent headlines, available in all major markets, high novelty and trend scores.",
-    "ai_angle": "ASRock's new NUC Ultra 300 Box with Intel Core Ultra 300 series processors offers up to 16 cores and 128GB RAM in compact form."
+    "ai_confidence": 91,
+    "ai_reason": "Highest score, major market availability, specific model in headlines, strong trends.",
+    "ai_angle": "ASRock's NUC Ultra 300 Box with Panther Lake CPUs offers enterprise-grade mini PC performance in compact form factor."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
-    "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 3,
     "checked_urls": [
       "https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
-      "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
+      "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp",
+      "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp",
+      "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
-    "spec_fact_count": 0,
+    "manufacturer_url_count": 1,
+    "spec_fact_count": 3,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "seed_evidence_units": 4
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -88,21 +89,35 @@
       "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
       "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     ],
-    "manufacturer_urls": [],
-    "spec_facts": [],
+    "manufacturer_urls": [
+      "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
+    ],
+    "spec_facts": [
+      {
+        "claim": "ASRock NUC Ultra 300 Box Series features Intel Core Ultra processors (Series 1) with Intel Arc graphics",
+        "source_url": "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
+      },
+      {
+        "claim": "Supports up to 96GB DDR5-5600 memory and up to 8TB storage via dual M.2 slots",
+        "source_url": "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
+      },
+      {
+        "claim": "Includes Thunderbolt 4, 2.5GbE LAN, Wi-Fi 6E, and multiple USB ports",
+        "source_url": "https://www.asrock.com/nettop/Intel/NUC%20Ultra%20300%20Box%20Series/index.asp"
+      }
+    ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Mini PC: ASRock NUC Ultra 300 Box Series",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "title_candidate": "ASRock NUC Ultra 300 Box Series Mini PC",
+      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, DDR5 memory, Thunderbolt 4, and versatile connectivity for home or office use.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "No Amazon ASINs found for specified markets; product appears newly announced or not widely listed. Manufacturer site provides primary specifications. Price category estimated based on typical mini PC with similar specs."
     ]
   }
 }
