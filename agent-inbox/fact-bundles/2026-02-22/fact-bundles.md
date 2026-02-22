@@ -65,7 +65,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found for specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device with mid-range specifications.
+- No Amazon listings found for specified markets. Manufacturer website provides technical specifications. No user quotes or reviews available in current search scope.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -116,12 +116,12 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
 
 ## Gaming Hardware
 
-- Topic: **rog ally x**
+- Topic: **steam deck oled**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -139,8 +139,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
-- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
 
 ## Gaming PCs
 
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon in the specified markets. Corsair is a known manufacturer of PC components, but this exact model name does not appear in current Amazon listings. Searches conducted on Amazon US, UK, DE, FR, IT, and ES sites returned no direct matches. Manufacturer URL provided for Corsair's main site, but no product-specific page found. Spec facts, quotes, and reviews are absent due to lack of identifiable product listings. Title and description are inferred based on the keyword and Corsair's product line, but no confirmation available.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
