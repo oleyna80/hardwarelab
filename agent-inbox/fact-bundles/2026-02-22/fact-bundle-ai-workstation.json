@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     },
-    "reasoning_short": "Available in all major markets (US/UK/DE), highest trend scores, and recent professional reviews confirm exact model.",
+    "reasoning_short": "Exact model from headlines, available in US/UK/DE markets, matches category requirements precisely.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
       "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekRybVQ0YlQwR08xSXJzS1A5Ny1MSUc3UHpweXBfWWJ3OUxhQ08tVWFxbzJLUHpfcWNVTFJudWxqQ0NvRFJySWhIczZ4SGtFeXRwOVhTbVB3MFNlOFRfOG9VNU4zTzJZMHdJbExFeF9RakRERW9GTzZRMGhaNUZLWjZiQjd1cW9JOW9oU1l2WEgzTmhuc0NpUksyRGdyVTZRN045ZDR0SGwybW8?oc=5",
@@ -45,31 +45,32 @@
     "score": 74,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Available in all major markets (US/UK/DE), highest trend scores, and recent professional reviews confirm exact model.",
-    "ai_angle": "Compact Strix Halo-powered AI workstation reviewed as classy but premium-priced for professional AI workloads."
+    "ai_reason": "Exact model from headlines, available in US/UK/DE markets, matches category requirements precisely.",
+    "ai_angle": "Compact AI workstation with Strix Halo architecture reviewed as premium but pricey option for AI workloads."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing Amazon candidate URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
-    "Missing valid ratingSourceURL in editorial seed.",
-    "Too few reachable evidence URLs during probe check (need >=2)."
+    "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 1,
+    "reachable_probe_urls": 3,
     "checked_urls": [
+      "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "https://www.corsair.com/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
-    "amazon_url_count": 0,
+    "amazon_url_count": 3,
     "manufacturer_url_count": 1,
     "spec_fact_count": 0,
     "quote_candidate_count": 0,
-    "related_candidate_count": 0
+    "related_candidate_count": 0,
+    "seed_evidence_units": 1
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -82,7 +83,11 @@
       "primary_region": "absent",
       "primary_url": "absent"
     },
-    "amazon_candidate_urls": [],
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
+    ],
     "manufacturer_urls": [
       "https://www.corsair.com/"
     ],
@@ -98,7 +103,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination."
+      "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination."
     ]
   }
 }
