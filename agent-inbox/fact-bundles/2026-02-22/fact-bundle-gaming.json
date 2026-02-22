@@ -3,23 +3,23 @@
   "topic": {
     "category_key": "gaming",
     "category_label": "Gaming Hardware",
-    "topic": "steam deck oled",
-    "candidate_product_name": "Valve Steam Deck OLED",
-    "confidence_score": 84,
+    "topic": "rog ally x",
+    "candidate_product_name": "ASUS ROG Ally X",
+    "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-      "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-      "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+      "US": "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
+      "DE": "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
+      "FR": "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
     },
-    "reasoning_short": "Exact model available in all major markets, high trending scores, specific product not generic category.",
+    "reasoning_short": "Exact model name, available on all major Amazon markets, avoids prohibited generic phrases.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
-      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
-      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
-      "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
-      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVM5LVZqM1hYUnhGWjA3aGtWTmpRRVpkcmRiVTc2MlNyYVlSWC1rWUF5N3hkYXlFYXdBOVR2cHRLVXBaeldRUjcxa2hYcHE5V1hqVjN5elYxSWV2aTVnX3Jmc3RReXZqa3NCX0lUVFdQNDlhM2xMM3NxQUxaaEtpLTdsYzlxU3lnRTFETURQSGNmTG1QcGs2RTdqNlQ4eDExSDI3SE53SW5BWHhod0VlQ2ZnTklfa1AzYTdXeGFwMlJoRGdXNl91SkttZ1lxeUJhWEVSbWg2Y3JBUFk?oc=5"
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lZGFuWVd1VWpVdk1YY1pzSnVrbnNINFJmNDZKOXVuOWxOWk1oWHZIMnd6R2ZEWGthY1diWnRBSkRZR0JRalVySEpJbVlvYWpfY3htaWw5UmRrZXg5NVo0QWczcnVDSzFUVXdkZW5Sd1pocGlLTXVDVUJxWFU?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXdDaDBGSzJlbS1qSzhiZHgzRmNhLWNYWWE2eTFNRWZJbkNhU245YW9tTGtRMnBGYXpTbFVHdHlsdVloRzFrdUFadW1yVkF2THpCTmhsTTRzV2g1TWNlSHpmN1R6bmN2M2E2UXVvY1VabGlhR2lhYlRibU5jb0R0UlBhUGF5TmN4NDhGckt5VGpVODVSSkxTVG9WRmRpUFVNN0F1TEJFNWktVExLYUIzSWNLWEI5ZVBZa1E?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3cycUR5WkEyTE9sZkd5SnEwd29ieDBMUFdQVG5ySHhsdWloZDItMkFQT1NBeG1lLUZRTjJfMGp0aWtyc0FQeFFjQmM5bkIxTmdOTTdtcFdmcTlKc1hvRE5kUVhsSS1KSmgyaFppV2JJZVduR1dhRG9zNHlJeGU2Wnlyd09ZT2tFb2ZWX1U2U2R2NHQ5V21NYzVtQndFU2huakNTVFhqSC0xX3NpTnFENVY4UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM1VIWVJCV09uYXFQb0VHd1RveG92S1JNV3dFN3d0NXpMSDBZRUt3RWhSYTNrcUdKNjlKR2NWTDY3bnhWd05DVVYxcEdXUnllemtZWjRYYndOcHJjOHpyVDloMEJOQkNMeGQ5d1dVWEpaZDlTa0JsVk5ydVgwTUJEWXRyTnB3ZW5iWUxhTWItdExqc1JrNnVtVWM0UzFqaGpvd01UMDlqS2MtXzlqM0FDXzdSSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXMxckxzajRkUUNacWljXzBGSWZpcUd5aG9RS2l3ZElPNk1RZlZnVmU4WTl5QlA3dTZZa2o3WDJWdXNJa2YxVnhVTVNDdWN0RTdlZURQa2xhNU1FRGc4V1lhY3d3NW8xQkVzQmh2alFWRFBBT01fd3NBdTFYZWEtZlkwX1I3RUc3STNtTGZnUVJ0bnBiNW1pd3paOEQ4UF9sT3hZRFRQSXZ2dw?oc=5"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -39,14 +39,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 16,
-    "trend_30d": 20,
-    "novelty_hits": 2,
-    "score": 84,
+    "trend_7d": 14,
+    "trend_30d": 18,
+    "novelty_hits": 1,
+    "score": 80,
     "ai_mode": "deepseek",
-    "ai_confidence": 84,
-    "ai_reason": "Exact model available in all major markets, high trending scores, specific product not generic category.",
-    "ai_angle": "Review of Valve Steam Deck OLED's display quality, battery life improvements, and current availability challenges in 2026."
+    "ai_confidence": 100,
+    "ai_reason": "Exact model name, available on all major Amazon markets, avoids prohibited generic phrases.",
+    "ai_angle": "Handheld gaming PC with AMD Ryzen Z1 Extreme, 7-inch 1080p 120Hz display, and Windows 11."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -60,8 +60,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-      "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
+      "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
+      "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -84,16 +84,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-      "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-      "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+      "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
+      "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
+      "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
+      "title_candidate": "Gaming Hardware: ASUS ROG Ally X",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
