@@ -6,7 +6,7 @@
 
 ## Mini PC
 
-- Topic: **mini pc ryzen 7**
+- Topic: **intel nuc mini pc**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -24,8 +24,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
-- https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
+- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
 
 ## Consoles
 
@@ -116,12 +116,12 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 
 ## Gaming Hardware
 
-- Topic: **rog ally x**
+- Topic: **steam deck oled**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -139,8 +139,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
-- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
 
 ## Gaming PCs
 
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair is a known manufacturer of gaming and PC components, but this exact model name appears to be a hypothetical or generic reference. Searches yielded no direct ASINs, reviews, or detailed specs. Consider verifying if this is a placeholder name or a product in development.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may be a placeholder or hypothetical. No ASINs or direct URLs identified due to lack of concrete product listings.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
