@@ -1,9 +1,9 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T21:02:31.449Z",
+  "generated_at": "2026-02-22T21:07:15.596Z",
   "status": "partial",
   "ready_count": 0,
-  "blocked_count": 8,
+  "blocked_count": 7,
   "md_path": "agent-inbox/fact-bundles/2026-02-22/fact-bundles.md",
   "json_path": "agent-inbox/fact-bundles/2026-02-22/fact-bundles.json",
   "status_path": "agent-inbox/fact-bundles/2026-02-22/status.json",
@@ -35,11 +35,6 @@
       "category_key": "monitors",
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-monitors.json",
       "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-monitors.json"
-    },
-    {
-      "category_key": "gaming",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-22/fact-bundle-gaming.json",
-      "path": "agent-inbox/fact-bundles/2026-02-22/fact-bundle-gaming.json"
     },
     {
       "category_key": "gaming-pcs",
