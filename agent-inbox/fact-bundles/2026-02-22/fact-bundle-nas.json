@@ -1,0 +1,104 @@
+{
+  "generated_date_utc": "2026-02-22",
+  "topic": {
+    "category_key": "nas",
+    "category_label": "NAS",
+    "topic": "synology 4 bay nas",
+    "candidate_product_name": "Synology DiskStation DS425+",
+    "confidence_score": 85,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
+      "DE": "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
+      "FR": "absent"
+    },
+    "reasoning_short": "Exact model from recent headlines, available in major markets, avoids generic phrases.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qZThDSEN0S3Rpb1pNQWd6R2xzOC1maTJscWh4aHQxVzZCM04zRXBDaGdQLVNLLTJEbEFIN0dVaGk1NUN5R0VGd3hTSHRRSlNWZ09DRk82SQ?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE82ZFcyOWJTRnZCMEN3elo2U19LbEpEOWRDMUg5ckRtN1d6OTdCRjlhb2RMQWZOOUdtUnB0bjhicHdTQlF6Yi16a0RCZWVqN3BBV2laYlZuSXVmT3p4Z0wtQmY5YlQ4TVRKaVMwMk5n?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeTI3bEZoeG9mV0JOOUY1aWNzVXp1YmViSU5OekFKcm90Y1FyYmM4bmtGcGotMmVGLTJxN0psUmtzMjFKdjk3dS1TTzRELUdNaHJtYXlaN052Q0ZDbTI0VE9WdTI4YWRROFRKbndQdHplVS12cW9vMVNlNDJMWlBMN0Rvd1BDd3VxekN3M2VQdWZYTk1HajFNZTJZRG5JYk0?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hSjFDZEhUeW1XWmxNUmlZcU1CX21JckRLd2Z5OHNwMTI2eTVMVGt3M0dveTNPS0NTV0lTRlVJbjgzY3hhRVVqQVdjcEh2TW84d1ZtLWh4Y3JmN1Y5ZXlHd2FUUGE2cDBGbTZrRU51TWJIREhzcU1NS094VHRndE0?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOHh0YUNyUzR5NWtIUzdYbGFhLV9VTFRidC1iUkF1T1c0WEM0TXFhQkRDMmpiYWhjV05GNnF0VURZZVRHYXZMOWlHRU1QemZfS2ZHQmJKQXpzX2xwcHdoVmpaenN3V0tGM1phSVpOd2dwUXZCd1M5Y09qVy1sZ3UyVXJZODJRSmwyRXNMUVpFdVoxMDVsN01yaGsxcFpnT05ZRTlaQ2E1YS1YZERXdlJBX0Nn0gGsAUFVX3lxTE1vWEdWVmFmNWZ1WUVvdHVqcW1rVFFCdXctOXFPNnZrUk5FTkRMUDByNEtBVjFwN3FuTVI0cTdtVE1ZLWNYUlJLU0dHMno0ejU4VWdKZ0FLc2Z1T0l1VUh5OWQ5WldYVmttSmxuSnBxajJxOVVEZDVkN3pIb1pINU1GWDBIbmRmYnJmRlJiQ3BLREFyRm1pVjl0RGpxSXppQjZBN0JBMjdYUGY2VWM?oc=5"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": false,
+      "IT": false,
+      "ES": false
+    },
+    "trend_7d": 1,
+    "trend_30d": 2,
+    "novelty_hits": 5,
+    "score": 60,
+    "ai_mode": "deepseek",
+    "ai_confidence": 85,
+    "ai_reason": "Exact model from recent headlines, available in major markets, avoids generic phrases.",
+    "ai_angle": "SMB-friendly NAS with palatable price point for 4-bay storage needs."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
+      "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
+      "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
+      "https://www.amazon.fr/s?k=Synology%20DiskStation%20DS425%2B"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "NAS: Synology DiskStation DS425+",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
