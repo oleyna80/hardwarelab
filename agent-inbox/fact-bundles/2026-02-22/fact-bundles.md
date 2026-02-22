@@ -33,22 +33,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
+- Manufacturer URLs: 6
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are absent due to lack of official information. Title and description based on rumors and industry speculation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
+- https://www.playstation.com/en-us/ps5/
+- https://www.playstation.com/en-gb/ps5/
 
 ## NAS
 
@@ -65,7 +65,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for specified markets. Manufacturer website provides technical specifications. No user quotes or reviews available in current search scope.
+- No Amazon ASINs found across specified markets. Manufacturer website provides primary specifications. Price category estimated based on typical NAS market positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -162,8 +162,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
-- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
+- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC
+- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20RTX%204070%20Gaming%20PC
 
 ## AI Workstations
 
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon in the specified markets. Corsair is a known manufacturer of PC components, but this exact model name does not appear in current Amazon listings. Searches conducted on Amazon US, UK, DE, FR, IT, and ES sites returned no direct matches. Manufacturer URL provided for Corsair's main site, but no product-specific page found. Spec facts, quotes, and reviews are absent due to lack of identifiable product listings. Title and description are inferred based on the keyword and Corsair's product line, but no confirmation available.
+- No direct evidence found for a specific 'Corsair AI Workstation 300' product on Amazon or manufacturer sites. Corsair is known for PC components, but this exact model name appears unverified. Searches yielded no ASINs or URLs. Consider checking for similar Corsair systems or custom builds.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
