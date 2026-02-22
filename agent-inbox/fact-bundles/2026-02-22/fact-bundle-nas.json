@@ -13,13 +13,13 @@
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     },
-    "reasoning_short": "Exact model from recent headlines, available in all major markets, avoids generic NAS phrases.",
+    "reasoning_short": "Exact model from headlines, available in all major markets, avoids generic '2 bay nas' phrasing.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
       "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
       "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
-      "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUjJaSG1sclJwTDZXdHhaNmxjVXViRFZOYWEweGNiNlc4N3F4Tm5VY2J0U3F3NmFXX2xHLUY3Vk5Tc3NLMkN3QWhaNGMzWW05VnZ2YTFWeTBnOVFVb2Q5RUdHVTJpNlBORG9naFBXc3A2UGlld09tSm1IYWw3aDlFVHlWUU1mVUpkcDl0eDRXQVZjeEFBcW80VDhnSXRCaFRVYXhLbGZ6ZFk0U2F3NGQ4QldPTGVNVXZMUFJsRlQ1Z1VJYWl1OGVXdWxMcnpPR0s2dTZ1SHJOVU5DRUdVbjZkVS1Fb1hiTUZlSHM3U3pUc2dzSVV4dnQyc0tHQ0RRRVRENFJjNVAydEVrMlhySm1Yc01mWmMteDBOVzlGUl8waTdIUXZ6MEg1SG9ycE5ST0EyMWZWdjZxb1EzSTJleXE4QmxESjBHcER1UkNNYzAzeTNuUEJQMnliQmdHbW5PZmlrT1I0eg?oc=5"
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE9EblJWczhDdm50REZ3TzdlNVZ1cU5FV0ViTHNtMlU1a0lWTTZXWmhWNy1HaHR2NnJabkhtMG1WRjl6YUhrR2o2bjl6Y0VrNG04SzcyZC1lc2NXUXJuakJ5MXdFNURlendxeWE1anZlRVNnZw?oc=5"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -45,7 +45,7 @@
     "score": 67.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Exact model from recent headlines, available in all major markets, avoids generic NAS phrases.",
+    "ai_reason": "Exact model from headlines, available in all major markets, avoids generic '2 bay nas' phrasing.",
     "ai_angle": "Two-bay hybrid NAS with 3+2 drive configuration, balancing performance and storage flexibility for home/SMB use."
   },
   "ready_for_pass_a": false,
@@ -110,14 +110,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "TerraMaster F2-425 Plus 2-Bay NAS",
-      "description_candidate": "2-bay network attached storage with Intel Celeron N5095 processor, 2.5GbE connectivity, and TOS 5.1 operating system for home and small office use",
+      "description_candidate": "2-bay NAS with Intel Celeron N5095 processor, 2.5GbE connectivity, and TOS 5.1 operating system for home and small office use",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon listings found for specified markets. Manufacturer website provides specifications but no user reviews or quotes available. Price category estimated based on typical NAS market positioning."
+      "No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. No user quotes or reviews available from current sources."
     ]
   }
 }
