@@ -13,7 +13,7 @@
       "DE": "https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro",
       "FR": "https://www.amazon.fr/s?k=Sony%20PlayStation%205%20Pro"
     },
-    "reasoning_short": "Exact console model available in major markets, matches category rules without generic phrasing.",
+    "reasoning_short": "Exact console model available in major markets, matches category rules precisely.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxObHhFRllSQlN5ZTlpMVY5dG91WG5uWDQtY2FUYnZmYmF3bnhhVF90REFhWDNoUHhfWERXMEt6X1JVSDdkTFBBbXItUVl5OThQa3J3TkxKaXk4ZlI1LVZJNWZET3FKOGZqZGE1UTBTMEZaUmhxSW9RVU1jYjFjYkM3aVZxUjBCY0ZqcFFaYi1tYVg3Q1gxYi1GZGNLaTJWbG5qeFVtUlRB?oc=5",
       "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkZGRngzR2dhNzJVanFTX3U1SWlJY3ZuOXlwbkFMSF9EQ1Y3OXlLMzgwWkxRZm9HeUdhbllWck5mUjVGVW5EQzh4V2xOeExPbXJLMGlCRmtjZzRSMXV6S3VKNVptckY2S1RUdzVlLWxtcXd4bEVMMTZlOEVQRHNhWldja1VXelR1aFRTVFlBbnRGT3doc0ozRGNoby1pSG5aSGZZX0xsYXU?oc=5",
@@ -45,8 +45,8 @@
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
-    "ai_reason": "Exact console model available in major markets, matches category rules without generic phrasing.",
-    "ai_angle": "High-end console upgrade with enhanced performance for 4K gaming and ray tracing capabilities."
+    "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
+    "ai_angle": "Review of Sony PlayStation 5 Pro console performance and value proposition compared to standard PS5."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -102,14 +102,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Sony PlayStation 5 Pro",
-      "description_candidate": "Rumored enhanced version of the PlayStation 5 console with upgraded hardware for improved performance and graphics.",
+      "description_candidate": "Rumored enhanced version of the PlayStation 5 console with upgraded hardware specifications",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Title and description are based on industry rumors and leaks."
+      "No official ASINs found as product is rumored/unreleased. Manufacturer URLs point to current PS5 pages. All ASIN fields set to 'absent' per constraints. No spec facts, quotes, or reviews available due to product status."
     ]
   }
 }
