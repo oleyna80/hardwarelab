@@ -43,7 +43,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. All ASIN fields set to 'absent' per constraints to avoid hallucination. Spec facts, quotes, and reviews unavailable due to product unavailability.
+- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are absent due to lack of official information. Title and description are based on rumors and speculation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not full pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
