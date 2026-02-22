@@ -46,7 +46,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 84,
     "ai_reason": "Available on all major Amazon markets with strong recent trends and high score.",
-    "ai_angle": "Raspberry Pi 5 review: Versatile SBC for DIY projects, AI experiments, and VPN hosting."
+    "ai_angle": "Raspberry Pi 5 review: Building a DIY VPN server in hours with this versatile SBC"
   },
   "ready_for_pass_a": false,
   "blockers": [
