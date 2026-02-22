@@ -3,27 +3,27 @@
   "topic": {
     "category_key": "sbc",
     "category_label": "SBC",
-    "topic": "raspberry pi 5",
-    "candidate_product_name": "raspberry pi 5",
+    "topic": "Raspberry Pi 5 8GB",
+    "candidate_product_name": "Raspberry Pi 5 8GB",
     "asin_us": "B0CK2FCG1K",
     "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
     "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 50,
+    "confidence_score": 77,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
       "US": "https://www.amazon.com/dp/B0CK2FCG1K",
-      "DE": "https://www.amazon.de/s?k=raspberry%20pi%205",
-      "FR": "https://www.amazon.fr/s?k=raspberry%20pi%205"
+      "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
+      "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
-    "reasoning_short": "Fallback ranking: DeepSeek request failed (getaddrinfo EAI_AGAIN api.deepseek.com).",
+    "reasoning_short": "Highest score candidate, available in all major markets, exact model matches rules.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
-      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HMnBkaENhNHU5THNaekxCd19Qejl0dndRWHRDVUdWVmpicFdLRHpBWEtXVjRxbnJnV21WbnlhUy1jb1NFaWtEZEVoc3JESlljWEJvdXdpTmpzTXFJTzVseXZ1eXlhNlJ6MHVCd3NTUXA5MVJ0a3ZsbWhOdVc?oc=5",
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWExIeTFGSWN2LWpVRzFMYzhieTRVRmVRTlFDMGhOOEFfNXpYbEVKQ1RQa2xHUWtfb2VXUFZoeEx3czl1MUd3dkdqejhva1JwejJzNVd2bzVFb05vTG9TRVRpX0VOdlN6clZSenA0VEpfQkFfYmptUUpkeVd4b2JkRTdBUHRvNEphUjFjcEp4TXc4cXpFcUNR?oc=5",
       "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
-      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRFNuSDZyenBkM2RLVjJreDYwT0lBMmtwTEZBbUNzNHdQOWl4MEYzcnZLRXhhNGxUNTJ3SDNWUjZZNGZHZEJYSml4Q3RKR0kzSWRPcDd4TDVpdmFoZWNoc0Y2amxpWWVtbWhTSEZEN0FWR0dnei1tTFhTZ3ltRHdYWWdjNWRmMi1nVzZldlpR?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNXZpUWFYbFJidGlxMExrelh6SHN4SE54aFM1OWJxUmphWV8zWkduYUNXTWFnMWsxbzc5QUNESm9Fb3U3TTh6RWpFRXZJTFpGU0VTdDNTSWpLVmNiSVpadXNHS0dmdl95Mkh6VGlISUVFaUYzSzluVHM3VzFMZndLbDlJLVd6akZGcTY2eGMxbWp6b3Nqb0VCanpNckJUR2pLVDU0RDJBVWVsYUZsUmpRRERsWmFZZ0pjOHo3VkFOaHd4THhWTHRYbG1n?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
       "https://www.amazon.com/dp/B0CK2FCG1K"
     ],
     "compliant": true,
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 7,
-    "trend_30d": 10,
-    "novelty_hits": 2,
-    "score": 84,
-    "ai_mode": "fallback_error",
-    "ai_confidence": 50,
-    "ai_reason": "Fallback ranking: DeepSeek request failed (getaddrinfo EAI_AGAIN api.deepseek.com).",
-    "ai_angle": "Hands-on review with availability and value focus."
+    "trend_7d": 2,
+    "trend_30d": 6,
+    "novelty_hits": 6,
+    "score": 77,
+    "ai_mode": "deepseek",
+    "ai_confidence": 77,
+    "ai_reason": "Highest score candidate, available in all major markets, exact model matches rules.",
+    "ai_angle": "Raspberry Pi 5 8GB review: Latest SBC with improved performance and connectivity for DIY projects."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=raspberry%20pi%205",
-      "https://www.amazon.de/s?k=raspberry%20pi%205"
+      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
+      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=raspberry%20pi%205",
-      "https://www.amazon.de/s?k=raspberry%20pi%205",
-      "https://www.amazon.fr/s?k=raspberry%20pi%205"
+      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
+      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
+      "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "SBC: raspberry pi 5",
+      "title_candidate": "SBC: Raspberry Pi 5 8GB",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
