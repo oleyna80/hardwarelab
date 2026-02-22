@@ -19,7 +19,7 @@
       "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekRybVQ0YlQwR08xSXJzS1A5Ny1MSUc3UHpweXBfWWJ3OUxhQ08tVWFxbzJLUHpfcWNVTFJudWxqQ0NvRFJySWhIczZ4SGtFeXRwOVhTbVB3MFNlOFRfOG9VNU4zTzJZMHdJbExFeF9RakRERW9GTzZRMGhaNUZLWjZiQjd1cW9JOW9oU1l2WEgzTmhuc0NpUksyRGdyVTZRN045ZDR0SGwybW8?oc=5",
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzJiNk54OGVvMU5WcGFUOXdRd3dReWhldXAxeW1RbDdfc2ZhM0k1T3FyQXdYMmxXa3hPQlZFV3ZkUFhOZnVJMEt1WWYwZ3Uta1VCTWlTeFNxanVDRVZnY1NCbDJHV21Wc2t5dGxIWGRYQ3N0YWktN0JFTkxSM2N4bGZ3VE5HWHhOVmM5cQ?oc=5",
       "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxMnJaZ1Q1VlVUdURKalBxY2JXRlB2VVZBRVVnYjR5akhXaGxONDBLcWEtb3dmZmwwdEcxRVZua2R6cmxUV3FfVnQ5ZzlfTXNaeXdDRFpiOF9GdWZrcUNrakQwZ3J1c3Z5V1FodGdtUQ?oc=5",
-      "https://news.google.com/rss/articles/CBMingFBVV95cUxNYzZiM0J2RGYxcWV6LU9nQXB1RE5tMGtmRW94Q1BmSnhPdUtLQlpuREhOM19rcEZpbGF6UG1XQUtNLS0yOFdLQ3J2RnJ2MjlZcmhfYmtoMUkxOFF5aFhrLURjODVMblZSX0tXeWJ5eGdZVC1zWDhFeE5oUTNadDktQ25FazJvdEhGOUdMNWJJMXRuZTVwOHVsX1lGX2tGQQ?oc=5"
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -46,7 +46,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Available in all major markets (US/UK/DE), highest trend scores, and recent professional reviews confirm exact model.",
-    "ai_angle": "Compact Strix Halo-powered AI workstation reviewed as classy but premium-priced for professional AI workloads."
+    "ai_angle": "Compact Strix Halo-powered AI workstation with premium build quality but at a premium price point."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -103,7 +103,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent to avoid hallucination."
+      "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not full pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination."
     ]
   }
 }
