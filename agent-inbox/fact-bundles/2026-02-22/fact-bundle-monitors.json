@@ -5,7 +5,7 @@
     "category_label": "Monitors",
     "topic": "oled gaming monitor 32",
     "candidate_product_name": "Samsung Odyssey OLED G8 G85SB",
-    "confidence_score": 100,
+    "confidence_score": 95,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -44,9 +44,9 @@
     "novelty_hits": 9,
     "score": 100,
     "ai_mode": "deepseek",
-    "ai_confidence": 100,
+    "ai_confidence": 95,
     "ai_reason": "Available in all major markets, high trend scores, specific model referenced in headlines.",
-    "ai_angle": "Samsung's 32-inch OLED gaming monitor with deep price cuts making premium display more accessible."
+    "ai_angle": "Samsung's 32-inch OLED gaming monitor with deep blacks and fast response for immersive gameplay."
   },
   "ready_for_pass_a": false,
   "blockers": [
