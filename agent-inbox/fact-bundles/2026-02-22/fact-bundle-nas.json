@@ -3,52 +3,55 @@
   "topic": {
     "category_key": "nas",
     "category_label": "NAS",
-    "topic": "synology 4 bay nas",
-    "candidate_product_name": "Synology DiskStation DS425+",
-    "asin_us": "B0F895RV3K",
-    "asin_us_url": "https://www.amazon.com/dp/B0F895RV3K",
-    "asin_us_listing_title": "Synology 4-Bay DiskStation DS425+ (Diskless)",
+    "topic": "terramaster nas",
+    "candidate_product_name": "TerraMaster F2-425 Plus",
+    "asin_us": "B0FLH4WTPG",
+    "asin_us_url": "https://www.amazon.com/dp/B0FLH4WTPG",
+    "asin_us_listing_title": "TERRAMASTER F2-425 Plus NAS Storage - 2Bay Intel N150 Quad-Core CPU, 8GB RAM DDR5, 5GbE LAN x 2, M.2 Slot x 3, Network Attached Storage for Teamwork, Multimedia Server (Diskless)",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0F895RV3K",
-      "DE": "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
-      "FR": "absent"
+      "US": "https://www.amazon.com/dp/B0FLH4WTPG",
+      "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
+      "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     },
-    "reasoning_short": "Exact model from major markets, matches category, avoids generic phrases and family words.",
+    "reasoning_short": "Exact model from headlines, available in all major markets, avoids generic phrases.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qZThDSEN0S3Rpb1pNQWd6R2xzOC1maTJscWh4aHQxVzZCM04zRXBDaGdQLVNLLTJEbEFIN0dVaGk1NUN5R0VGd3hTSHRRSlNWZ09DRk82SQ?oc=5",
-      "https://news.google.com/rss/articles/CBMibkFVX3lxTE82ZFcyOWJTRnZCMEN3elo2U19LbEpEOWRDMUg5ckRtN1d6OTdCRjlhb2RMQWZOOUdtUnB0bjhicHdTQlF6Yi16a0RCZWVqN3BBV2laYlZuSXVmT3p4Z0wtQmY5YlQ4TVRKaVMwMk5n?oc=5",
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeTI3bEZoeG9mV0JOOUY1aWNzVXp1YmViSU5OekFKcm90Y1FyYmM4bmtGcGotMmVGLTJxN0psUmtzMjFKdjk3dS1TTzRELUdNaHJtYXlaN052Q0ZDbTI0VE9WdTI4YWRROFRKbndQdHplVS12cW9vMVNlNDJMWlBMN0Rvd1BDd3VxekN3M2VQdWZYTk1HajFNZTJZRG5JYk0?oc=5",
-      "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hSjFDZEhUeW1XWmxNUmlZcU1CX21JckRLd2Z5OHNwMTI2eTVMVGt3M0dveTNPS0NTV0lTRlVJbjgzY3hhRVVqQVdjcEh2TW84d1ZtLWh4Y3JmN1Y5ZXlHd2FUUGE2cDBGbTZrRU51TWJIREhzcU1NS094VHRndE0?oc=5",
-      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOHh0YUNyUzR5NWtIUzdYbGFhLV9VTFRidC1iUkF1T1c0WEM0TXFhQkRDMmpiYWhjV05GNnF0VURZZVRHYXZMOWlHRU1QemZfS2ZHQmJKQXpzX2xwcHdoVmpaenN3V0tGM1phSVpOd2dwUXZCd1M5Y09qVy1sZ3UyVXJZODJRSmwyRXNMUVpFdVoxMDVsN01yaGsxcFpnT05ZRTlaQ2E1YS1YZERXdlJBX0Nn0gGsAUFVX3lxTE1vWEdWVmFmNWZ1WUVvdHVqcW1rVFFCdXctOXFPNnZrUk5FTkRMUDByNEtBVjFwN3FuTVI0cTdtVE1ZLWNYUlJLU0dHMno0ejU4VWdKZ0FLc2Z1T0l1VUh5OWQ5WldYVmttSmxuSnBxajJxOVVEZDVkN3pIb1pINU1GWDBIbmRmYnJmRlJiQ3BLREFyRm1pVjl0RGpxSXppQjZBN0JBMjdYUGY2VWM?oc=5",
-      "https://www.amazon.com/dp/B0F895RV3K"
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAydm80MHd3OHJCUk9ZRHl4bkFSeTN5a2NRNGI0VThRcXlMZDhMUFhMVHpMX1FMQXhOcVRoSmowblppTEY4aUt3a1RvLTc0TnJQc1VkbGYyVUc0ekxHb3ZJYQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0h3bjZfUGRyVFBqUXJZcWFfYWlJdG9DU3QwZ3hsQ0kxT2pGelA5ZGNac19Qc0xfdHJOeGxDX3cwRFlIdmJFVkI4VHY3cFdCWVZvZjFScU83akN5U1QyS04xNmZySU11cy1jQ3lKMEdmakxNMXo4WE9GdHA5elk5eHln?oc=5",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUjJaSG1sclJwTDZXdHhaNmxjVXViRFZOYWEweGNiNlc4N3F4Tm5VY2J0U3F3NmFXX2xHLUY3Vk5Tc3NLMkN3QWhaNGMzWW05VnZ2YTFWeTBnOVFVb2Q5RUdHVTJpNlBORG9naFBXc3A2UGlld09tSm1IYWw3aDlFVHlWUU1mVUpkcDl0eDRXQVZjeEFBcW80VDhnSXRCaFRVYXhLbGZ6ZFk0U2F3NGQ4QldPTGVNVXZMUFJsRlQ1Z1VJYWl1OGVXdWxMcnpPR0s2dTZ1SHJOVU5DRUdVbjZkVS1Fb1hiTUZlSHM3U3pUc2dzSVV4dnQyc0tHQ0RRRVRENFJjNVAydEVrMlhySm1Yc01mWmMteDBOVzlGUl8waTdIUXZ6MEg1SG9ycE5ST0EyMWZWdjZxb1EzSTJleXE4QmxESjBHcER1UkNNYzAzeTNuUEJQMnliQmdHbW5PZmlrT1I0eg?oc=5",
+      "https://www.amazon.com/dp/B0FLH4WTPG"
     ],
     "compliant": true,
     "rule": "major_markets",
     "available_markets": [
       "US",
       "UK",
-      "DE"
+      "DE",
+      "FR",
+      "IT",
+      "ES"
     ],
     "coverage": {
       "US": true,
       "UK": true,
       "DE": true,
-      "FR": false,
-      "IT": false,
-      "ES": false
+      "FR": true,
+      "IT": true,
+      "ES": true
     },
-    "trend_7d": 1,
-    "trend_30d": 2,
-    "novelty_hits": 5,
-    "score": 60,
+    "trend_7d": 3,
+    "trend_30d": 6,
+    "novelty_hits": 3,
+    "score": 69,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Exact model from major markets, matches category, avoids generic phrases and family words.",
-    "ai_angle": "SMB-friendly 4-bay NAS with palatable price point, balancing performance and value for small business storage needs."
+    "ai_reason": "Exact model from headlines, available in all major markets, avoids generic phrases.",
+    "ai_angle": "Two-bay hybrid NAS with 3+2 bay configuration, unboxing and teardown review"
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -62,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
-      "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B"
+      "https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus",
+      "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -86,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Synology%20DiskStation%20DS425%2B",
-      "https://www.amazon.de/s?k=Synology%20DiskStation%20DS425%2B",
-      "https://www.amazon.fr/s?k=Synology%20DiskStation%20DS425%2B"
+      "https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus",
+      "https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus",
+      "https://www.amazon.fr/s?k=TerraMaster%20F2-425%20Plus"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "NAS: Synology DiskStation DS425+",
+      "title_candidate": "NAS: TerraMaster F2-425 Plus",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
