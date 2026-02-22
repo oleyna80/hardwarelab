@@ -4,20 +4,20 @@
     "category_key": "sbc",
     "category_label": "SBC",
     "topic": "raspberry pi 5",
-    "candidate_product_name": "Raspberry Pi 5",
+    "candidate_product_name": "raspberry pi 5",
     "asin_us": "B0CK2FCG1K",
     "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
     "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 84,
+    "confidence_score": 50,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
       "US": "https://www.amazon.com/dp/B0CK2FCG1K",
-      "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205",
-      "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205"
+      "DE": "https://www.amazon.de/s?k=raspberry%20pi%205",
+      "FR": "https://www.amazon.fr/s?k=raspberry%20pi%205"
     },
-    "reasoning_short": "Higher trend scores, available on all major markets, and recent headlines confirm active product discussion.",
+    "reasoning_short": "Fallback ranking: DeepSeek request failed (getaddrinfo EAI_AGAIN api.deepseek.com).",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
       "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HMnBkaENhNHU5THNaekxCd19Qejl0dndRWHRDVUdWVmpicFdLRHpBWEtXVjRxbnJnV21WbnlhUy1jb1NFaWtEZEVoc3JESlljWEJvdXdpTmpzTXFJTzVseXZ1eXlhNlJ6MHVCd3NTUXA5MVJ0a3ZsbWhOdVc?oc=5",
@@ -48,10 +48,10 @@
     "trend_30d": 10,
     "novelty_hits": 2,
     "score": 84,
-    "ai_mode": "deepseek",
-    "ai_confidence": 84,
-    "ai_reason": "Higher trend scores, available on all major markets, and recent headlines confirm active product discussion.",
-    "ai_angle": "Reviewing the Raspberry Pi 5's performance as a versatile SBC for DIY projects, AI experiments, and VPN hosting."
+    "ai_mode": "fallback_error",
+    "ai_confidence": 50,
+    "ai_reason": "Fallback ranking: DeepSeek request failed (getaddrinfo EAI_AGAIN api.deepseek.com).",
+    "ai_angle": "Hands-on review with availability and value focus."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Raspberry%20Pi%205",
-      "https://www.amazon.de/s?k=Raspberry%20Pi%205"
+      "https://www.amazon.com/s?k=raspberry%20pi%205",
+      "https://www.amazon.de/s?k=raspberry%20pi%205"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Raspberry%20Pi%205",
-      "https://www.amazon.de/s?k=Raspberry%20Pi%205",
-      "https://www.amazon.fr/s?k=Raspberry%20Pi%205"
+      "https://www.amazon.com/s?k=raspberry%20pi%205",
+      "https://www.amazon.de/s?k=raspberry%20pi%205",
+      "https://www.amazon.fr/s?k=raspberry%20pi%205"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "SBC: Raspberry Pi 5",
+      "title_candidate": "SBC: raspberry pi 5",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
