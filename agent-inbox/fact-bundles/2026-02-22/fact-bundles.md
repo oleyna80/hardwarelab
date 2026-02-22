@@ -32,23 +32,22 @@
 - Topic: **playstation 5 pro**
 - Status: BLOCKED
 - ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
+- Amazon URLs: 0
+- Manufacturer URLs: 6
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
+- Missing Amazon candidate URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Related reviews are not applicable for an unannounced product.
 ### Probe URLs
-- https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
-- https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
+- https://www.playstation.com/en-us/ps5/
+- https://www.playstation.com/en-gb/ps5/
 
 ## NAS
 
@@ -162,8 +161,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)
-- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC%20(AMD%20Ryzen%205%205600X%2C%20RTX%204070%2C%2016GB%20DDR4%2C%201TB%20NVMe%20SSD)
+- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
+- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
 
 ## AI Workstations
 
@@ -183,6 +182,6 @@
 - Missing valid ratingSourceURL in editorial seed.
 - Too few reachable evidence URLs during probe check (need >=2).
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not complete AI workstations under this exact name. The term may refer to a custom build or unofficial configuration. ASINs are absent due to no direct matches.
 ### Probe URLs
 - https://www.corsair.com/
