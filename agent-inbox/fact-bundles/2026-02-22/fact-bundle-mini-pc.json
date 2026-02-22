@@ -5,21 +5,25 @@
     "category_label": "Mini PC",
     "topic": "intel nuc mini pc",
     "candidate_product_name": "ASRock NUC Ultra 300 Box Series",
-    "confidence_score": 91,
+    "asin_us": "B0DXYFB23V",
+    "asin_us_url": "https://www.amazon.com/dp/B0DXYFB23V",
+    "asin_probe_error": null,
+    "confidence_score": 90,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
+      "US": "https://www.amazon.com/dp/B0DXYFB23V",
       "DE": "https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series",
       "FR": "https://www.amazon.fr/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series"
     },
-    "reasoning_short": "Exact model from recent headlines, available in all major markets, high trend scores.",
+    "reasoning_short": "Exact model from recent headlines, available in major markets, high novelty and trend scores.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXBEU01vbVFrUmt0TjlzMmZsc3V6MXpVZW4zUFNtTHdjdEF6bl9VaTBPVDJBLXZ2cFZMeFNfMmFON3pOVWJrVWI4amZtRmlFOTl1aU51WGl6aW9zV0VkU2NyYmV6bE9XdEdSUWFmdnFjWXVNeGFJQkRZMEY0bGVKMnJaSXlxc01lYl96OUJOTS1Icy1qRVNnSXpCLXd0RkFZbFItaUNjWFdDaTdpSDJreEdR?oc=5",
       "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRC1lY0ZlQ3VRdlJmUW04UFU2WXlpUmw2MkxfVXpvLTN0dXk2RFIwMi1Pa0ZwRVIyWnU5b2tTRndxOHNWcnpZaHJQTUFabjRzQ1NaLWJqZGQ1YXA0bFZ0aW1TOE1EYnJzcEhFcXJBemRXTWdic1JLT200UllEd01jZzJKWVI1QQ?oc=5",
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxPanZhdDU3R1c5U0NsUVRvNjA1Y2NtR3FNaGxkT0l0cXNVa2tiYXB0MzdkYUpJbkJ2cnI2cjlvLVFfZE5FMnp1ak8xUFRkQUZKb0JRLWprUXdnTDk5NDVWSUw2RzhFZzFlM2d0YS1hRC1IUW1ZXzdheEl1OGFtUzBDU3FSOHBDZTdsSDVuTk10SlV1OVgydXNPWXdMZGxpaWlSdHR6RFlBemlpaWo0N0J4U2haZ9IBuAFBVV95cUxQMTZFYlI1N1Z1VVlmTU5TMU1mU0taNlRlbGZmZEQ2SFRseXFTbWFacDlQNmRScnhGSFN2Z19idTVRd3owVHp6eEVmczB1SkxBVDJCQnBicnlDRFZ0Sjlhb09wTUtyYTJOZnlfWVNESU9DRXdGV0x5YXZXVW5YM1Q2LUpWU3A5eHgwaHMybVU5ckJac3lRQUhNb2E1aFMyMm16Rko5WVJ5VFgwMUd2dlVldzVuNmJLZW9q?oc=5",
       "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmJucU5rSzRUbE9qbE1HQjNsLXd0aWtyeXBrMjJRR1lBQ1ZNQUF1SkphVVM5MHhyVU01UUpadjlBWlluMXd2WE14dUtjQko4Tm1NT1BVUEs2VU81MFhfRDRlZFpGNW9oNWhTZ3pBQmJseGJmU18wVFI4RzlVbjNzN0drdUprWm1fUnA2TE1oQUREdWROSGJuV3duczR3bG5RVi14MWl5M3dibkRHQmZuSnFZT1c?oc=5",
-      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMS1tXzgtX1Y5THZSWkk3LWt1c01lQmtGT3c1enA2bjhJT2Z0TDVOdlNPc1hTbVhuRU1CYmhJaTl1ZHpRdm0xZFh2WkdWd0ZiNmtUcXRvX3ZBWlphYVJHck9nTDY4ZXNSUHN1ck1yZ1lMcDFtQVpfWUV6X3JUY1NyVGFnVW9jRWRhWEV0SEZIR19wNzBhMTZjNzJpejcxOXZ1eUxDYTJWLXJOQlFEWktlVGMyQ29JbjREUGR2ckRTdHBvV3V6TGpEaUV1Zw?oc=5"
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMS1tXzgtX1Y5THZSWkk3LWt1c01lQmtGT3c1enA2bjhJT2Z0TDVOdlNPc1hTbVhuRU1CYmhJaTl1ZHpRdm0xZFh2WkdWd0ZiNmtUcXRvX3ZBWlphYVJHck9nTDY4ZXNSUHN1ck1yZ1lMcDFtQVpfWUV6X3JUY1NyVGFnVW9jRWRhWEV0SEZIR19wNzBhMTZjNzJpejcxOXZ1eUxDYTJWLXJOQlFEWktlVGMyQ29JbjREUGR2ckRTdHBvV3V6TGpEaUV1Zw?oc=5",
+      "https://www.amazon.com/dp/B0DXYFB23V"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,8 +48,8 @@
     "novelty_hits": 10,
     "score": 90.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 91,
-    "ai_reason": "Exact model from recent headlines, available in all major markets, high trend scores.",
+    "ai_confidence": 90,
+    "ai_reason": "Exact model from recent headlines, available in major markets, high novelty and trend scores.",
     "ai_angle": "ASRock's new NUC Ultra 300 Box with Panther Lake CPUs offers up to 16 cores and 128GB RAM in compact form."
   },
   "ready_for_pass_a": false,
