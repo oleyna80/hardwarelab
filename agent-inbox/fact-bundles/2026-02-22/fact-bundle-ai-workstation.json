@@ -7,6 +7,7 @@
     "candidate_product_name": "Corsair AI Workstation 300",
     "asin_us": "B0GKPJRXW4",
     "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
+    "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
@@ -50,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Exact model from headlines, available in major markets, avoids generic phrasing.",
-    "ai_angle": "Compact AI workstation with Strix Halo chipset reviewed as pricey but classy package."
+    "ai_angle": "Compact AI workstation with Strix Halo chip for serious local AI model deployment."
   },
   "ready_for_pass_a": false,
   "blockers": [
