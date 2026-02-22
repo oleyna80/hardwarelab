@@ -21,7 +21,8 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product listings found for 'Machenike Ryzen 7 8745HS Mini PC' across specified Amazon markets. Manufacturer Machenike appears to be a Chinese brand primarily focused on gaming laptops and peripherals, with limited international presence. Ryzen 7 8745HS is a recent AMD mobile processor, suggesting this might be a new or upcoming product not yet widely available in Western markets.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
 - https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
@@ -42,7 +43,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found for 'Sony PlayStation 5 Pro' as it is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are absent due to lack of official information. Related reviews are not applicable for an unannounced product. Editorial seed is based on rumors and speculation.
+- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Related reviews are not applicable for an unannounced product. Editorial seed is based on rumors and speculation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
@@ -64,7 +65,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device targeting home/small business users with mid-range features.
+- No Amazon listings found for specified markets. Manufacturer website provides specifications but no user reviews or quotes available. Price category estimated based on typical NAS pricing for 2-bay models with similar specifications.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -115,8 +116,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
 
 ## Gaming Hardware
 
@@ -180,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent due to no direct matches.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair is known for gaming PCs and components, but this exact model name appears unverified. Consider it a potential or conceptual product based on the keyword.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
