@@ -4,13 +4,16 @@
     "category_key": "gaming-pcs",
     "category_label": "Gaming PCs",
     "topic": "prebuilt gaming pc rtx 4070",
-    "candidate_product_name": "Skytech Gaming Chronos Mini Gaming Desktop PC",
+    "candidate_product_name": "Alienware Aurora R16",
+    "asin_us": "B0DKG8G5J3",
+    "asin_us_url": "https://www.amazon.com/dp/B0DKG8G5J3",
+    "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
-      "DE": "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
+      "US": "https://www.amazon.com/dp/B0DKG8G5J3",
+      "DE": "https://www.amazon.de/s?k=Alienware%20Aurora%20R16",
       "FR": "absent"
     },
     "reasoning_short": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
@@ -19,7 +22,8 @@
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VSmpSMjA2STFIUXpBN25wbXJKM3BhUVdJVXhSOER4Q0xDMjBYMzF2OVA1aHE4LVVRY3ZkZnNTQXBEd08tLTljTWpwN1M1MkZfaWxPeldNcmY?oc=5",
       "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXl4dmx6cFpwRlg3cFVjS2d4WHVQc1VXQk13VkZteDg3eVJDcVMtYU5JZkJMUS00MVJTaVZzS3RyMWZoSFlxNTVnODB1amExdHVmX0VtR01meG9vVjZkUC1iQ21NeUQ0bDZpcDZkdHhqemppZnA1RXRETzNPSkZtc3A3U2Q0eGRPajFSZHlLZFJTYXZiT1pLcGVRYnA5Y2dpZDNLcWpJMGJJcEJTU0lJd2FIcGxCNHRPREdYX3Ytb21PQlNmUC1pM0Zibw?oc=5",
       "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmxveThaLXFzMUF5UVNQY2VXejVjSzYzNUVZaFhzTFBPdmRkVDVBRlBGcHVHOFlDQkNvQUFIYWJkV3JxNUV0eDU3RUpUVTdUcWVrMWFKcUx3ZUJYdTd1TE1KeWJSd1ZnaXBTdS0tRmM5QjFUMzZjNnZhZXlwWjVJTHpKaWlPdmR1aENlTGVyX2VwSnd3VE1B?oc=5",
-      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fb0s4OGpvMHY3ejZHalBzLTRVbXE4Q29WcE9HcWoyVkY1NE5QR0R5VVRHTjI1Z3puZFh6RHVCellPcDBzSDB4bVRqTkZIdjl3dXY1RGVPNlFKeklDWExrRlhsaw?oc=5"
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fb0s4OGpvMHY3ejZHalBzLTRVbXE4Q29WcE9HcWoyVkY1NE5QR0R5VVRHTjI1Z3puZFh6RHVCellPcDBzSDB4bVRqTkZIdjl3dXY1RGVPNlFKeklDWExrRlhsaw?oc=5",
+      "https://www.amazon.com/dp/B0DKG8G5J3"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -43,7 +47,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Specific RTX 4070 model available in US/UK/DE markets, avoids generic gaming PC phrases.",
-    "ai_angle": "Compact RTX 4070 gaming desktop with strong performance in small form factor for 2026 gaming."
+    "ai_angle": "Alienware Aurora R16 with RTX 4070: Premium prebuilt gaming performance in a redesigned chassis with improved thermals."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -57,8 +61,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
-      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC"
+      "https://www.amazon.com/s?k=Alienware%20Aurora%20R16",
+      "https://www.amazon.de/s?k=Alienware%20Aurora%20R16"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -81,16 +85,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
-      "https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC",
-      "https://www.amazon.fr/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC"
+      "https://www.amazon.com/s?k=Alienware%20Aurora%20R16",
+      "https://www.amazon.de/s?k=Alienware%20Aurora%20R16",
+      "https://www.amazon.fr/s?k=Alienware%20Aurora%20R16"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Gaming PCs: Skytech Gaming Chronos Mini Gaming Desktop PC",
+      "title_candidate": "Gaming PCs: Alienware Aurora R16",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
