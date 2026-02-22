@@ -6,7 +6,7 @@
 
 ## Mini PC
 
-- Topic: **intel nuc mini pc**
+- Topic: **mini pc ryzen 7**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -24,8 +24,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
-- https://www.amazon.de/s?k=ASRock%20NUC%20Ultra%20300%20Box%20Series
+- https://www.amazon.com/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
+- https://www.amazon.de/s?k=Machenike%20Ryzen%207%208745HS%20Mini%20PC
 
 ## Consoles
 
@@ -43,7 +43,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Related reviews are not applicable for an unannounced product.
+- No official ASINs found as the PlayStation 5 Pro is not yet released or confirmed by Sony. Manufacturer URLs point to current PS5 product pages. Spec facts and quotes are unavailable due to lack of official information. Title and description are based on industry rumors and leaks.
 ### Probe URLs
 - https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
 - https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
@@ -181,7 +181,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon markets. Corsair is a known manufacturer of PC components, but this exact model name does not appear in search results. Consider checking for similar Corsair systems or custom builds. Trend data suggests low novelty and moderate interest.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair offers components (e.g., cases, PSUs, cooling) but not pre-built AI workstations under this exact name. The term may refer to a custom build or conceptual product. ASINs are absent to avoid hallucination.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
