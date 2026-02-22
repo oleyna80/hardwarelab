@@ -1,7 +1,11 @@
 {
   "generated_date_utc": "2026-02-22",
-  "generated_at": "2026-02-22T21:17:28.447Z",
+  "generated_at": "2026-02-22T21:28:16.248Z",
   "status": "partial",
+  "seed_ready_count": 2,
+  "seed_blocked_count": 6,
+  "pass_a_ready_count": 0,
+  "pass_a_blocked_count": 8,
   "ready_count": 0,
   "blocked_count": 8,
   "md_path": "agent-inbox/fact-bundles/2026-02-22/fact-bundles.md",
