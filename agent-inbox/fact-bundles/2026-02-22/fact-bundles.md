@@ -1,8 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-22
 
 - Total: 8
-- Ready for PASS A: 0
-- Blocked: 8
+- Seed ready: 2
+- Seed blocked: 6
+- PASS A ready: 0
+- PASS A blocked: 8
 
 ## Mini PC
 
@@ -33,22 +35,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 6
+- Manufacturer URLs: 0
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PS5 product pages. All ASIN fields marked 'absent' per constraints against hallucinated ASINs. Spec facts and quotes unavailable due to lack of official product information.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Sony%20PlayStation%205%20Pro
-- https://www.amazon.de/s?k=Sony%20PlayStation%205%20Pro
-- https://www.playstation.com/en-us/ps5/
-- https://www.playstation.com/en-gb/ps5/
+- https://www.amazon.com/s?k=PlayStation%205%20Pro
+- https://www.amazon.de/s?k=PlayStation%205%20Pro
 
 ## NAS
 
@@ -65,7 +67,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. No user quotes or reviews available from current sources.
+- No Amazon ASINs found across specified markets. Manufacturer website provides specifications but no direct purchase links. Product appears to be a NAS device targeting home/small office users with mid-range features.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -116,31 +118,31 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8
 
 ## Gaming Hardware
 
-- Topic: **steam deck oled**
+- Topic: **rog ally x**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Manufacturer URLs: 1
+- Spec facts: 3
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No Amazon ASINs found due to constraints against hallucination. Manufacturer specifications sourced from official ASUS website. Product appears to be newly announced/released based on novelty hits.
 ### Probe URLs
-- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
-- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
+- https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/
+- https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/
+- https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-model/
 
 ## Gaming PCs
 
@@ -162,8 +164,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
-- https://www.amazon.de/s?k=Skytech%20Gaming%20Chronos%20Mini%20Gaming%20Desktop%20PC
+- https://www.amazon.com/s?k=Alienware%20Aurora%20R16
+- https://www.amazon.de/s?k=Alienware%20Aurora%20R16
 
 ## AI Workstations
 
