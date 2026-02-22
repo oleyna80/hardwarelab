@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-22
 
-- Total: 8
+- Total: 7
 - Ready for PASS A: 0
-- Blocked: 8
+- Blocked: 7
 
 ## Mini PC
 
@@ -65,7 +65,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for specified markets. Manufacturer website provides specifications but no user reviews or ratings available. Product appears to be a NAS device targeting home/small office users with mid-range features.
+- No Amazon listings found for specified markets. Manufacturer website provides technical specifications. No user reviews or quotes available from verified sources.
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
 - https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
@@ -116,31 +116,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20(G85SB)
-
-## Gaming Hardware
-
-- Topic: **steam deck oled**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
-- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
+- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G85SB
 
 ## Gaming PCs
 
@@ -181,7 +158,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product found matching 'Corsair AI Workstation 300' on Amazon markets. Corsair is a known manufacturer of PC components, but this exact model name does not appear in search results. Consider checking for similar Corsair systems or custom builds. The term may refer to a conceptual or upcoming product.
+- No specific ASINs found for 'Corsair AI Workstation 300' across specified markets. Corsair is a known manufacturer of PC components, but this exact product name may not be a standard retail listing. Searches suggest it could be a custom or niche build rather than a mass-market product. Consider verifying with Corsair directly or checking for similar AI workstation builds using Corsair parts.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
