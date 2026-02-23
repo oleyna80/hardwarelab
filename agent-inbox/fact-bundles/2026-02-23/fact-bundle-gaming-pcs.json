@@ -46,7 +46,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
-    "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance at 17% discount."
+    "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance"
   },
   "ready_for_pass_a": false,
   "blockers": [
