@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T11:42:21.347Z",
-  "total": 6,
+  "generated_at": "2026-02-23T11:47:14.360Z",
+  "total": 5,
   "seed_ready_count": 2,
-  "seed_blocked_count": 4,
+  "seed_blocked_count": 3,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 6,
+  "pass_a_blocked_count": 5,
   "ready_count": 0,
-  "blocked_count": 6,
+  "blocked_count": 5,
   "rows": [
     {
       "topic": {
@@ -27,7 +27,7 @@
           "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         },
-        "reasoning_short": "Highest score (58.5), available in all major markets, trending upward over 30 days, and has recent media coverage.",
+        "reasoning_short": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
           "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
@@ -60,8 +60,8 @@
         "score": 58.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (58.5), available in all major markets, trending upward over 30 days, and has recent media coverage.",
-        "ai_angle": "Compact mini PC with critical compromises for professionals seeking powerful performance in small form factor."
+        "ai_reason": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
+        "ai_angle": "Compact mini PC with Intel Core Ultra processors, dual Thunderbolt 4 ports, and professional-grade connectivity for productivity."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,15 +84,15 @@
         ],
         "spec_facts": [
           {
-            "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics",
+            "claim": "ASUS NUC 14 Pro is a mini PC with Intel Core Ultra processors",
             "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+            "claim": "Supports up to 96GB DDR5 RAM and dual M.2 PCIe 4.0 SSDs",
             "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Features Intel Wi-Fi 6E, Bluetooth 5.3, and multiple connectivity ports including Thunderbolt 4",
+            "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
             "source_url": "https://www.asus.com/microsite/nuc/"
           }
         ],
@@ -100,14 +100,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "ASUS NUC 14 Pro Mini PC",
-          "description_candidate": "Compact mini PC powered by Intel Core Ultra processors with Intel Arc graphics, supporting up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+          "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and light gaming",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for ASUS NUC 14 Pro across specified markets. Manufacturer website provides specifications but no pricing or availability details. Product appears to be newly announced based on trend data."
+          "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. Trend data suggests emerging interest but limited market presence."
         ]
       },
       "seed_ready": true,
@@ -168,7 +168,7 @@
           "DE": "https://www.amazon.de/s?k=PlayStation%205%20Pro",
           "FR": "https://www.amazon.fr/s?k=PlayStation%205%20Pro"
         },
-        "reasoning_short": "Exact console model available in major markets, matches category rules precisely.",
+        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMipgFBVV95cUxObHhFRllSQlN5ZTlpMVY5dG91WG5uWDQtY2FUYnZmYmF3bnhhVF90REFhWDNoUHhfWERXMEt6X1JVSDdkTFBBbXItUVl5OThQa3J3TkxKaXk4ZlI1LVZJNWZET3FKOGZqZGE1UTBTMEZaUmhxSW9RVU1jYjFjYkM3aVZxUjBCY0ZqcFFaYi1tYVg3Q1gxYi1GZGNLaTJWbG5qeFVtUlRB?oc=5",
           "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkZGRngzR2dhNzJVanFTX3U1SWlJY3ZuOXlwbkFMSF9EQ1Y3OXlLMzgwWkxRZm9HeUdhbllWck5mUjVGVW5EQzh4V2xOeExPbXJLMGlCRmtjZzRSMXV6S3VKNVptckY2S1RUdzVlLWxtcXd4bEVMMTZlOEVQRHNhWldja1VXelR1aFRTVFlBbnRGT3doc0ozRGNoby1pSG5aSGZZX0xsYXU?oc=5",
@@ -201,8 +201,8 @@
         "score": 98.5,
         "ai_mode": "deepseek",
         "ai_confidence": 99,
-        "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-        "ai_angle": "High-end console upgrade with enhanced performance for demanding games and 4K gaming."
+        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "ai_angle": "Premium console with enhanced 4K gaming and PSSR upscaling for demanding titles."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -336,7 +336,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 78,
         "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -422,26 +422,26 @@
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
         "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0CTT6X2ZJ",
-        "asin_us_url": "https://www.amazon.com/dp/B0CTT6X2ZJ",
-        "asin_us_listing_title": "Vilros Raspberry Pi 5-8GB Starter Kit - Turbo Cooled Edition - 32GB Memory (Aluminum Black)",
+        "asin_us": "B0CK2FCG1K",
+        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
+        "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 75,
+        "confidence_score": 77,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CTT6X2ZJ",
+          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score candidate with strong market availability across US, UK, DE, and trending interest.",
+        "reasoning_short": "Highest score candidate, available in all major markets, strong recent trends and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
           "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNXZpUWFYbFJidGlxMExrelh6SHN4SE54aFM1OWJxUmphWV8zWkduYUNXTWFnMWsxbzc5QUNESm9Fb3U3TTh6RWpFRXZJTFpGU0VTdDNTSWpLVmNiSVpadXNHS0dmdl95Mkh6VGlISUVFaUYzSzluVHM3VzFMZndLbDlJLVd6akZGcTY2eGMxbWp6b3Nqb0VCanpNckJUR2pLVDU0RDJBVWVsYUZsUmpRRERsWmFZZ0pjOHo3VkFOaHd4THhWTHRYbG1n?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
-          "https://www.amazon.com/dp/B0CTT6X2ZJ"
+          "https://www.amazon.com/dp/B0CK2FCG1K"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -462,13 +462,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 7,
-        "novelty_hits": 5,
-        "score": 74.5,
+        "trend_30d": 6,
+        "novelty_hits": 6,
+        "score": 77,
         "ai_mode": "deepseek",
-        "ai_confidence": 75,
-        "ai_reason": "Highest score candidate with strong market availability across US, UK, DE, and trending interest.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and AI capabilities in compact SBC form factor."
+        "ai_confidence": 77,
+        "ai_reason": "Highest score candidate, available in all major markets, strong recent trends and headlines.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and AI applications amid recent price changes."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -537,138 +537,6 @@
         "checked_urls": [
           "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
           "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
-        ],
-        "has_us_asin": false,
-        "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
-        "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 0
-      }
-    },
-    {
-      "topic": {
-        "category_key": "gaming",
-        "category_label": "Gaming Hardware",
-        "topic": "Nintendo Switch OLED",
-        "candidate_product_name": "Nintendo Switch OLED",
-        "asin_us": "B09J652L1P",
-        "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
-        "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
-        "asin_probe_error": null,
-        "confidence_score": 81,
-        "status": "shortlisted",
-        "discard_reason": null,
-        "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09J652L1P",
-          "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-          "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
-        },
-        "reasoning_short": "Exact console model available in major markets, avoids generic phrases, matches gaming category.",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
-          "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTE5aOUNGVUtSUENwTm9KelJYQmNxMjlleTlUQzMzekxlUzFtNDdreEZuTFM5ZGoyYWZadjNzaTVaWHE0c05BcU12Q3V3ZGxNSXNqRWhsN2ZwSWxuQ24zelp2QmVDWTB5djNIMjltVno5RlYwUG1LUUZ0NzBzelFWNjNMMmxxbGZ3VFdKbmxDNU40NTh4WHY0ZlA1YlJNNlhtSU12YWs0eEpHSlF2cDRqcFkyYlA5ejhJc0wzc1A4SkhyUGpvNTFFS2RWYThWcWh4QVBVWko3LVJ6Wjh6Q0tkMkNOeFEyNUd5ZjN4Z19XZzRBTk5iZHc?oc=5",
-          "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
-          "https://www.amazon.com/dp/B09J652L1P"
-        ],
-        "compliant": true,
-        "rule": "major_markets",
-        "available_markets": [
-          "US",
-          "UK",
-          "DE",
-          "FR",
-          "IT",
-          "ES"
-        ],
-        "coverage": {
-          "US": true,
-          "UK": true,
-          "DE": true,
-          "FR": true,
-          "IT": true,
-          "ES": true
-        },
-        "trend_7d": 4,
-        "trend_30d": 6,
-        "novelty_hits": 5,
-        "score": 81,
-        "ai_mode": "deepseek",
-        "ai_confidence": 81,
-        "ai_reason": "Exact console model available in major markets, avoids generic phrases, matches gaming category.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite newer handheld PC competition?"
-      },
-      "fact_bundle": {
-        "asin_candidates": {
-          "us": "absent",
-          "de": "absent",
-          "fr": "absent",
-          "it": "absent",
-          "es": "absent",
-          "uk": "absent",
-          "primary_region": "absent",
-          "primary_url": "absent"
-        },
-        "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
-        ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
-        "quote_candidates": [],
-        "related_reviews_candidates": [],
-        "editorial_seed": {
-          "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-          "price_category_candidate": "mid",
-          "rating_candidate": null,
-          "rating_source_url": "absent"
-        },
-        "collection_mode": "fallback",
-        "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
-        ]
-      },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "ready_for_pass_a": false,
-      "blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers_top3": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
-      ],
-      "validator": {
-        "reachable_probe_urls": 2,
-        "checked_urls": [
-          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
