@@ -12,7 +12,7 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 2
+- Manufacturer URLs: 1
 - Spec facts: 3
 - Quote candidates: 0
 ### Blockers
@@ -21,14 +21,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provide official specifications. Price category estimated based on typical mini PC positioning; actual pricing may vary by region and configuration.
+- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
 - https://www.asus.com/microsite/nuc/
-- https://www.asus.com/commercial-mini-pcs/nuc/
-- https://www.asus.com/commercial-mini-pcs/nuc/
-- https://www.asus.com/commercial-mini-pcs/nuc/
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
 
 ## Consoles
 
