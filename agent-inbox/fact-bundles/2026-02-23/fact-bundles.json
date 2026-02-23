@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T19:27:38.688Z",
+  "generated_at": "2026-02-23T19:32:37.688Z",
   "total": 7,
   "seed_ready_count": 1,
   "seed_blocked_count": 6,
@@ -61,7 +61,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-        "ai_angle": "Compact mini PC with professional features but compromises in expandability - ideal for office and light creative work."
+        "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office and light creative work."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -80,35 +80,34 @@
           "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         ],
         "manufacturer_urls": [
-          "https://www.asus.com/microsite/nuc/",
-          "https://www.asus.com/commercial-mini-pcs/nuc/"
+          "https://www.asus.com/microsite/nuc/"
         ],
         "spec_facts": [
           {
-            "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics.",
-            "source_url": "https://www.asus.com/commercial-mini-pcs/nuc/"
+            "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics",
+            "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs.",
-            "source_url": "https://www.asus.com/commercial-mini-pcs/nuc/"
+            "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+            "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Features Intel Wi-Fi 6E, Bluetooth 5.3, and multiple connectivity ports including Thunderbolt 4.",
-            "source_url": "https://www.asus.com/commercial-mini-pcs/nuc/"
+            "claim": "Features Intel Killer Wi-Fi 6E and 2.5Gb Ethernet connectivity",
+            "source_url": "https://www.asus.com/microsite/nuc/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "ASUS NUC 14 Pro Mini PC",
-          "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity for business and productivity use.",
+          "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and multimedia",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provide official specifications. Price category estimated based on typical mini PC positioning; actual pricing may vary by region and configuration."
+          "No Amazon listings found for ASUS NUC 14 Pro across specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no purchase links or reviews. Trend data suggests emerging interest but limited market presence."
         ]
       },
       "seed_ready": true,
@@ -133,23 +132,22 @@
         "Insufficient related review candidates (need >=2)."
       ],
       "validator": {
-        "reachable_probe_urls": 4,
+        "reachable_probe_urls": 3,
         "checked_urls": [
           "https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro",
           "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "https://www.asus.com/microsite/nuc/",
-          "https://www.asus.com/commercial-mini-pcs/nuc/",
-          "https://www.asus.com/commercial-mini-pcs/nuc/",
-          "https://www.asus.com/commercial-mini-pcs/nuc/"
+          "https://www.asus.com/microsite/nuc/",
+          "https://www.asus.com/microsite/nuc/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 2,
+        "manufacturer_url_count": 1,
         "spec_fact_count": 3,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 5
+        "seed_evidence_units": 4
       }
     },
     {
@@ -157,27 +155,27 @@
         "category_key": "consoles",
         "category_label": "Consoles",
         "topic": "xbox series s",
-        "candidate_product_name": "Xbox Series S",
-        "asin_us": "B0D932YWSZ",
-        "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
-        "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
+        "candidate_product_name": "Microsoft Xbox Series S",
+        "asin_us": "B092KKFHJ2",
+        "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
+        "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
         "asin_probe_error": null,
         "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0D932YWSZ",
-          "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
-          "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
+          "US": "https://www.amazon.com/dp/B092KKFHJ2",
+          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
+          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
           "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJXd3RqN050eWdDNDFuQ2k3SWJMWENwLWIxc1FFU0M2WXhrWldyYTQ5LXp3dy1rQXB4ZnJPN0tuTjg5WEVia3g0VHc1Zzhvbzl3NGd4RnpIVDY3QWg2ZzZrLXl3VjB4NTBnY0pwdHVrazhSSzRRdlpCblpkOFBvYy1hdFh2eDUyRllpSjNjS2dfeV90R0otTWtOdjlycm5Nei1oX2lxR0FSbk0?oc=5",
           "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkItTGV6WmhYSk1aZ1lhcUZfdXZkT0tYUjZUa2JkeHA4YVBud2NhWUVmeURLd0owb0lHZE1sRWFqZ01OZVZQSU9NaHNGbi14THpMX2FEMzE2ZHhnRmtZb19WYVpZQmJ0UmNDRkhHWVE3d3VzTmM2NjJJLUJveEx2RHhnR3JmanNRVDlJajI1NllxTUphaHlPYzh1d0dSZmRkNTJBd2F5ZGJlVzUz?oc=5",
           "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTVVYXzBNYXdnVk1tZmhOMUVNSDlqalA5NjJiQTZRUFFJd080ZUN4YVh6YUhpYk1MMWc4a3pFMWhaeGR2T3ZubnIycW5FbnJBeWd6cVZHZ201SGYzbkUya2h2QlRLRnU1YjRPWjltWGVIVWlvSnlkUnloekZtbzhCV0FlTXlMc3FJRUp6dXBDWQ?oc=5",
-          "https://www.amazon.com/dp/B0D932YWSZ"
+          "https://www.amazon.com/dp/B092KKFHJ2"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -197,14 +195,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 11,
+        "trend_7d": 10,
         "trend_30d": 12,
         "novelty_hits": 7,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
+        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "ai_angle": "Compact next-gen gaming with Game Pass access and 1440p/120fps support."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -218,16 +216,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Xbox%20Series%20S",
-          "https://www.amazon.fr/s?k=Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
+          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Xbox Series S",
+          "title_candidate": "Consoles: Microsoft Xbox Series S",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -271,8 +269,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -302,7 +300,7 @@
           "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
           "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
         },
-        "reasoning_short": "Highest score candidate available in all major markets with strong recent trend and coverage.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trends.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3pzZVNRTHdhZExESGlBaG1aWFBkRlpLV2dYUUNlUHhMR1MyVGVEbHUtcU5rQ0xDTmF2dkt2cHdrT0JOaHVpcHVOVDZnbXEwdzNuZm1kQ2ZEdDRwZVRxUzlneGtqc0VHb0NaOGVHcXlrWHJQeWF0UFJ5NWdwNkpFRDlSQXVqUEE1VXhzZ29RWDJYaFc3Z2VvN2w4NFdZS3I1ZFhVaHJOWENiWndlX2ljc29pNHRuOXJSUDFuclVpeXpUMUZhTmFv?oc=5",
           "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3RlNTAxWW1sOXZhcmRjZTZiM3N6U3VmdGhSbTBQd3BQaTZvY0VsS2xzblZVX2tqWUZvSkxGejVSVFVWT29rVXk3UjR1SW9EOHRieDl3MUtkVVVTOGJsMWV4ak1IaUlCMjAwLTY0Tk81ejJXZDV4ZTFQbE04S2dza0lTbUw?oc=5",
@@ -335,8 +333,8 @@
         "score": 78,
         "ai_mode": "deepseek",
         "ai_confidence": 78,
-        "ai_reason": "Highest score candidate available in all major markets with strong recent trend and coverage.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
+        "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -426,7 +424,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 83,
+        "confidence_score": 79,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -434,7 +432,7 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and novelty.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
@@ -463,12 +461,12 @@
         },
         "trend_7d": 3,
         "trend_30d": 7,
-        "novelty_hits": 6,
-        "score": 82.5,
+        "novelty_hits": 5,
+        "score": 78.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 83,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_confidence": 79,
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
+        "ai_angle": "Raspberry Pi 5 8GB review: The mainstream SBC facing price hikes but remains the most popular single-board computer."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -558,7 +556,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
         "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 98,
+        "confidence_score": 91,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -566,7 +564,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact model name matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -594,13 +592,13 @@
           "ES": true
         },
         "trend_7d": 6,
-        "trend_30d": 9,
-        "novelty_hits": 6,
-        "score": 97.5,
+        "trend_30d": 7,
+        "novelty_hits": 5,
+        "score": 90.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 98,
-        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite newer handheld PC competition?"
+        "ai_confidence": 91,
+        "ai_reason": "Highest score, available in all major markets, exact model name matches rules.",
+        "ai_angle": "Nintendo Switch OLED remains a top console choice in 2026 with PSP emulation and Virtual Boy VR revival features."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -698,7 +696,7 @@
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model name provided.",
+        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model specified.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT3p3ZnBiSnFUNi00dEpLNFhDaGZfR2xtUXE2SmExSVVpQWdCOEJUUjBLVVNYbThMb3ktb3hUVllERTNpRnc3R3RrR0RtZGUtcE5VTFYweVRqMUo5dnktUldRTGpETG1OZ1hDanR0ejIwT2h6M2VKdnFpTEtvZw?oc=5",
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWlhScGNPSk5lNTFOcnZCYjg0Rm5QTExpay1LbmR3cnB0YWJUMTh0NnBHWVkzSzdxMk1la3UwUkllMHYxVFJ0dTZjLUd3eXlxZTNJa2NzRmg3ZTk0WUxyUnh5eTdLbHNNTVRsem9TX0M?oc=5",
@@ -726,8 +724,8 @@
         "score": 5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
-        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance at 17% discount."
+        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model specified.",
+        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - 17% off deal review"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -830,8 +828,8 @@
           "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
+          "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSU93anhOSUlKMllFX0I4VThnTzZ4VkhQMWxfRFVYMllUTGtVcUtvbmVfTEVVOHQyVXM3TFdzMFNjODhZem5JSnZxbTc1dHhxSll5SERCWHp3bTBiUXhzZUpHUWlYdUY2ZGdEOFFmWkk1NXBWYXFsWVQ3eEJSc1VId05iTnJoam5CWXZJdGEzd1VTZw?oc=5",
           "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
-          "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
           "https://www.amazon.com/dp/B09X6BMSXX"
         ],
         "compliant": true,
