@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found across specified markets; product appears newly announced or not widely listed on Amazon yet. Manufacturer site provides specifications but no user reviews or ratings available.
+- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings or ASINs found across specified regions. Manufacturer site provides specifications but no pricing or reviews yet. Product likely in pre-order or early launch phase.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
