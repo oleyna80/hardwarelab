@@ -17,7 +17,7 @@
       "DE": "absent",
       "FR": "absent"
     },
-    "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model name provided.",
+    "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model specified.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT3p3ZnBiSnFUNi00dEpLNFhDaGZfR2xtUXE2SmExSVVpQWdCOEJUUjBLVVNYbThMb3ktb3hUVllERTNpRnc3R3RrR0RtZGUtcE5VTFYweVRqMUo5dnktUldRTGpETG1OZ1hDanR0ejIwT2h6M2VKdnFpTEtvZw?oc=5",
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWlhScGNPSk5lNTFOcnZCYjg0Rm5QTExpay1LbmR3cnB0YWJUMTh0NnBHWVkzSzdxMk1la3UwUkllMHYxVFJ0dTZjLUd3eXlxZTNJa2NzRmg3ZTk0WUxyUnh5eTdLbHNNTVRsem9TX0M?oc=5",
@@ -45,8 +45,8 @@
     "score": 5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
-    "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - 17% off deal on US Amazon."
+    "ai_reason": "Only candidate with confirmed US marketplace availability, exact model specified.",
+    "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - 17% off deal review"
   },
   "ready_for_pass_a": false,
   "blockers": [
