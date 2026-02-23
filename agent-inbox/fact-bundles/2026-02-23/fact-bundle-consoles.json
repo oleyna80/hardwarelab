@@ -46,7 +46,7 @@
     },
     "trend_7d": 10,
     "trend_30d": 12,
-    "novelty_hits": 7,
+    "novelty_hits": 6,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
