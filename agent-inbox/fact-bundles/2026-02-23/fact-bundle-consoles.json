@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
     "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
     "asin_probe_error": null,
-    "confidence_score": 100,
+    "confidence_score": 96,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,13 +17,13 @@
       "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
       "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
-    "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
+    "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
       "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJXd3RqN050eWdDNDFuQ2k3SWJMWENwLWIxc1FFU0M2WXhrWldyYTQ5LXp3dy1rQXB4ZnJPN0tuTjg5WEVia3g0VHc1Zzhvbzl3NGd4RnpIVDY3QWg2ZzZrLXl3VjB4NTBnY0pwdHVrazhSSzRRdlpCblpkOFBvYy1hdFh2eDUyRllpSjNjS2dfeV90R0otTWtOdjlycm5Nei1oX2lxR0FSbk0?oc=5",
       "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYUxnazVZN08zUkdxQVFWcWkyQmw4UGRmQ3pkRXV3SndHYmJmWlgxbmk4emFNR04xR1M2c0p0SE1ZdE9acjdfVEludlNJMUI4ZE9sSnYxTWlNdERXS2VUZEJFbWZpdDRieXhMcmVUZ1RfT2MzMy1jZlM5VWhPTUNMX0RDUkM4MWNrNERNMmJsUFhLRWFEY0RuaVEyS2RmcEFNaHlMbHA3bG03Q2NhUm9YTHEtckpqQVExZzVPYnIwZG1OSHVvTGxlZFpWbkt2aHlDVVliYXgwYw?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNkM2M2lBZ21BLXZEQmUwN2J0bWs5MmYxbm9Vc0J0SDVobENxeEhDVUJnV0RlOEtuaE9rcWc1cHkxOXBBOGdKQ0RkaUZ5czlKWUR6ckN6cFhVU0lyaFJLaHM3WjJDUXdwc0JCOExuMUxoelJtbkYtMXQ1bWxLcTNFNTdRN1RZUXdJVlE1NUItSW5GeXFLWkFZOVFsMTBVNzg3Zm11QkptVGN3MGdoUmlVY1NqUzJ5N0U?oc=5",
-      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONzFndktHQW1zOWRBNC1rQmplc2k1bFRkR2p5NmNGUHQ5R0cwUjNXTTZ3VlpTVmtrUWJkRERrMjdxVXZvQW9ubkxfcmVBbnpnc0ZXVExVX2RSMWRwT3pJdGl6Nm9mRHVQajN0dEtJV3l5VUNyd1dsQmpQLUtkUmpUX0NtREo0V3g1UXdyUU43bWVBd1UtN2RvWkl4dW9rY25zeUtYY0c5bG5LeGtERjh6YlR2NXREWV9q?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzRFZi1VS0kzQlhMTkFRSl9wY094Z0RVaDBMRk9DbS1EcUlFajhWSWJ3V0g1Q1pXWjlFRDQ0MWFCczJLMlc2QUpSMGhGb3JCMFl4aEdtX0gzbmRiWklURFQwMHFtRnVQOWdoc2h1VUJwUk1vcUd1QWtLOE1PTDJqNUZrd1pINWMySmpaa2dsUklSRUdpZkMzZkw0OVg?oc=5",
       "https://www.amazon.com/dp/B0D932YWSZ"
     ],
     "compliant": true,
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 13,
-    "trend_30d": 16,
-    "novelty_hits": 7,
-    "score": 100,
+    "trend_30d": 15,
+    "novelty_hits": 5,
+    "score": 96,
     "ai_mode": "deepseek",
-    "ai_confidence": 100,
-    "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Compact next-gen gaming console with digital-only focus and Game Pass integration."
+    "ai_confidence": 96,
+    "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
+    "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
   },
   "ready_for_pass_a": false,
   "blockers": [
