@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=PlayStation%205%20Pro",
       "FR": "https://www.amazon.fr/s?k=PlayStation%205%20Pro"
     },
-    "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
+    "reasoning_short": "Exact console model available in major markets, matches category rules without generic phrasing.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxObHhFRllSQlN5ZTlpMVY5dG91WG5uWDQtY2FUYnZmYmF3bnhhVF90REFhWDNoUHhfWERXMEt6X1JVSDdkTFBBbXItUVl5OThQa3J3TkxKaXk4ZlI1LVZJNWZET3FKOGZqZGE1UTBTMEZaUmhxSW9RVU1jYjFjYkM3aVZxUjBCY0ZqcFFaYi1tYVg3Q1gxYi1GZGNLaTJWbG5qeFVtUlRB?oc=5",
       "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkZGRngzR2dhNzJVanFTX3U1SWlJY3ZuOXlwbkFMSF9EQ1Y3OXlLMzgwWkxRZm9HeUdhbllWck5mUjVGVW5EQzh4V2xOeExPbXJLMGlCRmtjZzRSMXV6S3VKNVptckY2S1RUdzVlLWxtcXd4bEVMMTZlOEVQRHNhWldja1VXelR1aFRTVFlBbnRGT3doc0ozRGNoby1pSG5aSGZZX0xsYXU?oc=5",
@@ -50,7 +50,7 @@
     "score": 98.5,
     "ai_mode": "deepseek",
     "ai_confidence": 99,
-    "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+    "ai_reason": "Exact console model available in major markets, matches category rules without generic phrasing.",
     "ai_angle": "High-end console upgrade with enhanced performance and PSSR 2.0 technology for premium gaming experience."
   },
   "ready_for_pass_a": false,
