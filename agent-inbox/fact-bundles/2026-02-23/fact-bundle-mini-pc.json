@@ -5,26 +5,26 @@
     "category_label": "Mini PC",
     "topic": "ASUS NUC 14 Pro",
     "candidate_product_name": "ASUS NUC 14 Pro",
-    "asin_us": "B0D6BKM3M1",
-    "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
-    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
+    "asin_us": "B0D67CR9B2",
+    "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
+    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0D6BKM3M1",
+      "US": "https://www.amazon.com/dp/B0D67CR9B2",
       "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
       "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     },
-    "reasoning_short": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
+    "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model availability.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
-      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
       "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
       "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-      "https://www.amazon.com/dp/B0D6BKM3M1"
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWHBmRFVYUE1NN25DMXA5enlOaFZwbUJsaGZ6WTdEMkI2N2JKc0lFY0p2S09JV2hVMmJ3VlRTR1lLdFdMRFJlR1MyMEk3OTM5ckFnNm9CeXB3TXpKZGRPNllIVE1TTzF6Q2pMVmhJZm5FTE1WOVh3OEotM1c2d21LcDRUTHdoQVBEVEc1SVk3VFZCZ1dNVnBLZ3dxZHQ4LWdzMDJ2Q0IwQ3RnaGVKSnZHVjFrdlBfZFlwTjZfbU1DcVAxdG5KUEhhRW5LTnItTldsYlE?oc=5",
+      "https://www.amazon.com/dp/B0D67CR9B2"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,8 +50,8 @@
     "score": 58.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-    "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office and light creative work."
+    "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model availability.",
+    "ai_angle": "Compact AI-ready mini PC with Intel Core Ultra processors, balancing performance and connectivity in small form factor."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -107,7 +107,7 @@
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Features Intel Wi-Fi 6E, Bluetooth 5.3, and multiple connectivity ports including Thunderbolt 4",
+        "claim": "Features Intel Killer Wi-Fi 6E and 2.5Gb Ethernet connectivity",
         "source_url": "https://www.asus.com/microsite/nuc/"
       }
     ],
@@ -115,14 +115,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "ASUS NUC 14 Pro Mini PC",
-      "description_candidate": "Compact mini PC powered by Intel Core Ultra processors with Intel Arc graphics, supporting up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and multimedia",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon listings found for ASUS NUC 14 Pro across specified markets. Manufacturer website provides specifications but no pricing or availability details. Product appears to be newly announced based on trend data."
+      "No ASINs found across specified markets; product appears to be newly announced or not yet widely available on Amazon; manufacturer site provides specifications but no purchase links; trend data suggests emerging interest but limited market presence"
     ]
   }
 }
