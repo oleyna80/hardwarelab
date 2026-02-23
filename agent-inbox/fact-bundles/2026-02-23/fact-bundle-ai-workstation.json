@@ -45,12 +45,12 @@
     },
     "trend_7d": 0,
     "trend_30d": 1,
-    "novelty_hits": 14,
+    "novelty_hits": 13,
     "score": 60.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-    "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities and performance benchmarks."
+    "ai_angle": "Professional workstation with Core Ultra 9 and RTX 5000 Ada for AI development workloads"
   },
   "ready_for_pass_a": false,
   "blockers": [
