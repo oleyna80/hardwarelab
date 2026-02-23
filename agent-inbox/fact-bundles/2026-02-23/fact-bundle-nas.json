@@ -21,8 +21,8 @@
     "source_urls": [
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3pzZVNRTHdhZExESGlBaG1aWFBkRlpLV2dYUUNlUHhMR1MyVGVEbHUtcU5rQ0xDTmF2dkt2cHdrT0JOaHVpcHVOVDZnbXEwdzNuZm1kQ2ZEdDRwZVRxUzlneGtqc0VHb0NaOGVHcXlrWHJQeWF0UFJ5NWdwNkpFRDlSQXVqUEE1VXhzZ29RWDJYaFc3Z2VvN2w4NFdZS3I1ZFhVaHJOWENiWndlX2ljc29pNHRuOXJSUDFuclVpeXpUMUZhTmFv?oc=5",
       "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3RlNTAxWW1sOXZhcmRjZTZiM3N6U3VmdGhSbTBQd3BQaTZvY0VsS2xzblZVX2tqWUZvSkxGejVSVFVWT29rVXk3UjR1SW9EOHRieDl3MUtkVVVTOGJsMWV4ak1IaUlCMjAwLTY0Tk81ejJXZDV4ZTFQbE04S2dza0lTbUw?oc=5",
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
       "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
       "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OQm9JLUZZdExDWmpLeG11RWpKaHc0UUY1a2gyeVhfOFB2eHpudWNJc3JXUnpncW5DaktkVGR5d2NycFBnelV2c25rdlpHYWFXMHg1RGE0UU9yZjBwR2tYdG9lMjdfdXZoQU0xaEZmZ2lRNDdfS1UyVDh3?oc=5",
       "https://www.amazon.com/dp/B0FHVZ53RN"
     ],
@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 78,
     "ai_reason": "Highest score, available in all major markets, strong recent coverage and trending upward.",
-    "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
+    "ai_angle": "Versatile desktop NAS offering great value with hybrid 3+2-bay design and positive professional reviews."
   },
   "ready_for_pass_a": false,
   "blockers": [
