@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
       "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
     },
-    "reasoning_short": "Exact console model available in all major markets, matches rules precisely.",
+    "reasoning_short": "Exact console model available in all major markets, avoids generic terms and family words.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYUxnazVZN08zUkdxQVFWcWkyQmw4UGRmQ3pkRXV3SndHYmJmWlgxbmk4emFNR04xR1M2c0p0SE1ZdE9acjdfVEludlNJMUI4ZE9sSnYxTWlNdERXS2VUZEJFbWZpdDRieXhMcmVUZ1RfT2MzMy1jZlM5VWhPTUNMX0RDUkM4MWNrNERNMmJsUFhLRWFEY0RuaVEyS2RmcEFNaHlMbHA3bG03Q2NhUm9YTHEtckpqQVExZzVPYnIwZG1OSHVvTGxlZFpWbkt2aHlDVVliYXgwYw?oc=5",
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
@@ -50,8 +50,8 @@
     "score": 96,
     "ai_mode": "deepseek",
     "ai_confidence": 96,
-    "ai_reason": "Exact console model available in all major markets, matches rules precisely.",
-    "ai_angle": "Microsoft Xbox Series X: Next-gen gaming performance with 4K 120Hz, ray tracing, and backward compatibility."
+    "ai_reason": "Exact console model available in all major markets, avoids generic terms and family words.",
+    "ai_angle": "Next-gen gaming performance with 4K/120fps support, ray tracing, and backward compatibility."
   },
   "ready_for_pass_a": false,
   "blockers": [
