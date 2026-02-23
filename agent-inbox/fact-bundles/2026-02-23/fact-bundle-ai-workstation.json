@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
       "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
     },
-    "reasoning_short": "Available in all major markets (US, UK, DE) with highest score and recent coverage.",
+    "reasoning_short": "Highest score, available in all major markets, matches category exactly.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQnJIZVpNTzhZNkhXUmplSjRkVkFkLVY0cDdlTFlhdFlLbzZtRUF6XzY1ay15ZDlXbEZIRjJRYjJ2RGpoU0w1YVpic1VETmlSY2tCaFdrSW1STFlNd1dTeFl2SzFXUnN3SmZLenUtQ3V5VklYbjFoLVQyemNnN0lHcVVEcEZkVmFYUUg4N29rNA?oc=5",
@@ -49,8 +49,8 @@
     "score": 62,
     "ai_mode": "deepseek",
     "ai_confidence": 62,
-    "ai_reason": "Available in all major markets (US, UK, DE) with highest score and recent coverage.",
-    "ai_angle": "Professional workstation with NVIDIA GPU support for AI workloads and compact tower design."
+    "ai_reason": "Highest score, available in all major markets, matches category exactly.",
+    "ai_angle": "Professional workstation review focusing on AI/ML performance, cooling, and expandability for demanding workloads."
   },
   "ready_for_pass_a": false,
   "blockers": [
