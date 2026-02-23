@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
-- Total: 7
+- Total: 6
 - Seed ready: 1
-- Seed blocked: 6
+- Seed blocked: 5
 - PASS A ready: 0
-- PASS A blocked: 7
+- PASS A blocked: 6
 
 ## Mini PC
 
@@ -12,7 +12,7 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 2
+- Manufacturer URLs: 1
 - Spec facts: 3
 - Quote candidates: 0
 ### Blockers
@@ -21,14 +21,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provided for specifications. Price category estimated based on typical mini PC positioning.
+- No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no purchase links. No user quotes or reviews available at this time.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
 - https://www.asus.com/microsite/nuc/
-- https://www.asus.com/commercial-mini-pcs/nuc/
-- https://www.asus.com/commercial-mini-pcs/nuc/
-- https://www.asus.com/commercial-mini-pcs/nuc/
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
 
 ## Consoles
 
@@ -50,8 +49,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -121,29 +120,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
 - https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
-
-## Gaming PCs
-
-- Topic: **Corsair Vengeance i7400**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400
-- https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400
 
 ## AI Workstations
 
