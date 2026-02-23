@@ -5,15 +5,15 @@
     "category_label": "NAS",
     "topic": "TerraMaster F2-425",
     "candidate_product_name": "TerraMaster F2-425",
-    "asin_us": "B0FLH4WTPG",
-    "asin_us_url": "https://www.amazon.com/dp/B0FLH4WTPG",
-    "asin_us_listing_title": "TERRAMASTER F2-425 Plus NAS Storage - 2Bay Intel N150 Quad-Core CPU, 8GB RAM DDR5, 5GbE LAN x 2, M.2 Slot x 3, Network Attached Storage for Teamwork, Multimedia Server (Diskless)",
+    "asin_us": "B0FHVZ53RN",
+    "asin_us_url": "https://www.amazon.com/dp/B0FHVZ53RN",
+    "asin_us_listing_title": "TERRAMASTER F2-425 2-Bay NAS Storage - Intel x86 Quad-Core CPU, 4GB RAM, 2.5GbE LAN, Network Attached Storage Multimedia Server for Home Users (Diskless)",
     "asin_probe_error": null,
     "confidence_score": 78,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0FLH4WTPG",
+      "US": "https://www.amazon.com/dp/B0FHVZ53RN",
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
     },
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
       "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
       "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OQm9JLUZZdExDWmpLeG11RWpKaHc0UUY1a2gyeVhfOFB2eHpudWNJc3JXUnpncW5DaktkVGR5d2NycFBnelV2c25rdlpHYWFXMHg1RGE0UU9yZjBwR2tYdG9lMjdfdXZoQU0xaEZmZ2lRNDdfS1UyVDh3?oc=5",
-      "https://www.amazon.com/dp/B0FLH4WTPG"
+      "https://www.amazon.com/dp/B0FHVZ53RN"
     ],
     "compliant": true,
     "rule": "major_markets",
