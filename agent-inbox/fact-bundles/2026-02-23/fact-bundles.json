@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T18:47:36.451Z",
+  "generated_at": "2026-02-23T18:52:34.372Z",
   "total": 7,
   "seed_ready_count": 0,
   "seed_blocked_count": 7,
@@ -61,7 +61,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-        "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office and light creative work."
+        "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -159,7 +159,7 @@
           "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
           "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
+        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
@@ -192,8 +192,8 @@
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
+        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -325,7 +325,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 78,
         "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -415,7 +415,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 83,
+        "confidence_score": 79,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -452,12 +452,12 @@
         },
         "trend_7d": 3,
         "trend_30d": 7,
-        "novelty_hits": 6,
-        "score": 82.5,
+        "novelty_hits": 5,
+        "score": 78.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 83,
+        "ai_confidence": 79,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid price increases and AI hype."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -547,7 +547,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
         "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 87,
+        "confidence_score": 92,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -555,7 +555,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model name matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -582,14 +582,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 5,
-        "trend_30d": 7,
+        "trend_7d": 6,
+        "trend_30d": 8,
         "novelty_hits": 5,
-        "score": 86.5,
+        "score": 92,
         "ai_mode": "deepseek",
-        "ai_confidence": 87,
-        "ai_reason": "Highest score, available in all major markets, exact model name matches rules.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite newer handheld PC competition?"
+        "ai_confidence": 92,
+        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_angle": "Nintendo Switch OLED review: Is it still the best console to buy in 2026 for gaming and emulation?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -687,7 +687,7 @@
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model name provided.",
+        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model specified.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT3p3ZnBiSnFUNi00dEpLNFhDaGZfR2xtUXE2SmExSVVpQWdCOEJUUjBLVVNYbThMb3ktb3hUVllERTNpRnc3R3RrR0RtZGUtcE5VTFYweVRqMUo5dnktUldRTGpETG1OZ1hDanR0ejIwT2h6M2VKdnFpTEtvZw?oc=5",
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWlhScGNPSk5lNTFOcnZCYjg0Rm5QTExpay1LbmR3cnB0YWJUMTh0NnBHWVkzSzdxMk1la3UwUkllMHYxVFJ0dTZjLUd3eXlxZTNJa2NzRmg3ZTk0WUxyUnh5eTdLbHNNTVRsem9TX0M?oc=5",
@@ -715,8 +715,8 @@
         "score": 5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
-        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance at 17% discount."
+        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model specified.",
+        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - 17% off deal review"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -847,7 +847,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
+        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities and performance benchmarks."
       },
       "fact_bundle": {
         "asin_candidates": {
