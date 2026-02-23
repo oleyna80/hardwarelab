@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
-- Total: 6
+- Total: 5
 - Seed ready: 2
-- Seed blocked: 4
+- Seed blocked: 3
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 5
 
 ## Mini PC
 
@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for ASUS NUC 14 Pro across specified markets. Manufacturer website provides specifications but no pricing or availability details. Product appears to be newly announced based on trend data.
+- No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. Trend data suggests emerging interest but limited market presence.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
@@ -97,29 +97,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
 - https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
-
-## Gaming Hardware
-
-- Topic: **Nintendo Switch OLED**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
-- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
 
 ## AI Workstations
 
