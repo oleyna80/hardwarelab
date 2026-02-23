@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
       "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
-    "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+    "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
@@ -50,8 +50,8 @@
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
-    "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
+    "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
+    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps capabilities."
   },
   "ready_for_pass_a": false,
   "blockers": [
