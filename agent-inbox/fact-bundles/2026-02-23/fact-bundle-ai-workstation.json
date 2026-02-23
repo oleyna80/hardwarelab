@@ -50,7 +50,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-    "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada configurations."
+    "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada GPU capabilities."
   },
   "ready_for_pass_a": false,
   "blockers": [
