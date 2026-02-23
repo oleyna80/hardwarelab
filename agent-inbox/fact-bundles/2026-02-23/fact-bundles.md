@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications.
+- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer website provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
@@ -49,8 +49,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
-- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.com/s?k=Xbox%20Series%20S
+- https://www.amazon.de/s?k=Xbox%20Series%20S
 
 ## NAS
 
