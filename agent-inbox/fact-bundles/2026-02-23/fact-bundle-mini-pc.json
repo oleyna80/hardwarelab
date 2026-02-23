@@ -5,26 +5,26 @@
     "category_label": "Mini PC",
     "topic": "ASUS NUC 14 Pro",
     "candidate_product_name": "ASUS NUC 14 Pro",
-    "asin_us": "B0D67CR9B2",
-    "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
-    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
+    "asin_us": "B0D6BKM3M1",
+    "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
+    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0D67CR9B2",
+      "US": "https://www.amazon.com/dp/B0D6BKM3M1",
       "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
       "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     },
-    "reasoning_short": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
+    "reasoning_short": "Available in all major markets, highest recent trend score, and strong brand recognition with specific model name.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
       "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
       "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-      "https://www.amazon.com/dp/B0D67CR9B2"
+      "https://www.amazon.com/dp/B0D6BKM3M1"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -46,12 +46,12 @@
     },
     "trend_7d": 0,
     "trend_30d": 3,
-    "novelty_hits": 6,
-    "score": 58.5,
+    "novelty_hits": 5,
+    "score": 54.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-    "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office use."
+    "ai_reason": "Available in all major markets, highest recent trend score, and strong brand recognition with specific model name.",
+    "ai_angle": "Compact Intel-powered mini PC with Thunderbolt 4, dual HDMI 2.1, and Core Ultra processors for productivity and light gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -103,7 +103,7 @@
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Supports up to 96GB DDR5 RAM and dual M.2 PCIe 4.0 SSDs",
+        "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
@@ -115,14 +115,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "ASUS NUC 14 Pro Mini PC",
-      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for professional and home use.",
+      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and Thunderbolt 4 support",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No ASINs found across specified markets; product appears newly announced or not widely listed on Amazon yet. Manufacturer site provides specifications but no user reviews or ratings available."
+      "ASUS NUC 14 Pro appears to be a newly announced product with limited availability on Amazon across specified markets. Manufacturer site provides specifications but no direct purchase links or ASINs found. No user reviews or quotes available at this time."
     ]
   }
 }
