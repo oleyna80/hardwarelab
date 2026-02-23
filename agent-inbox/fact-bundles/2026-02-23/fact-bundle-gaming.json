@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0CXPX5V21",
     "asin_us_listing_title": "Valve Steam Deck OLED Limited Edition 1TB model with Smoky Translucent Colorway",
     "asin_probe_error": null,
-    "confidence_score": 84,
+    "confidence_score": 80,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
       "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
     },
-    "reasoning_short": "Highest score, major market availability, exact model matches gaming hardware category.",
+    "reasoning_short": "Highest score, major market availability, exact model matches rules, avoids generic phrases.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
       "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 17,
+    "trend_7d": 16,
     "trend_30d": 20,
-    "novelty_hits": 2,
-    "score": 84,
+    "novelty_hits": 1,
+    "score": 80,
     "ai_mode": "deepseek",
-    "ai_confidence": 84,
-    "ai_reason": "Highest score, major market availability, exact model matches gaming hardware category.",
-    "ai_angle": "Handheld gaming PC with OLED display - global supply shortages highlight demand"
+    "ai_confidence": 80,
+    "ai_reason": "Highest score, major market availability, exact model matches rules, avoids generic phrases.",
+    "ai_angle": "Review of Valve Steam Deck OLED: Performance, display quality, and availability challenges in 2026."
   },
   "ready_for_pass_a": false,
   "blockers": [
