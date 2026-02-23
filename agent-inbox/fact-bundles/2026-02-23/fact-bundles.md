@@ -1,18 +1,18 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
 - Total: 7
-- Seed ready: 2
-- Seed blocked: 5
+- Seed ready: 1
+- Seed blocked: 6
 - PASS A ready: 0
 - PASS A blocked: 7
 
 ## Mini PC
 
-- Topic: **Aoostar GEM12**
+- Topic: **ASUS NUC 14 Pro**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
+- Manufacturer URLs: 2
 - Spec facts: 3
 - Quote candidates: 0
 ### Blockers
@@ -21,13 +21,14 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for Aoostar GEM12 across specified markets. Manufacturer website provides product specifications. Limited user reviews or quotes available from authoritative sources.
+- No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provide official specifications. Price category estimated based on typical mini PC positioning; actual pricing may vary by region and configuration.
 ### Probe URLs
-- https://www.amazon.com/s?k=Aoostar%20GEM12
-- https://www.amazon.de/s?k=Aoostar%20GEM12
-- https://aoostar.com/
-- https://aoostar.com/products/aoostar-gem12-mini-pc-intel-core-i7-12650h
-- https://aoostar.com/products/aoostar-gem12-mini-pc-intel-core-i7-12650h
+- https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
+- https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/commercial-mini-pcs/nuc/
+- https://www.asus.com/commercial-mini-pcs/nuc/
+- https://www.asus.com/commercial-mini-pcs/nuc/
 
 ## Consoles
 
@@ -49,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -80,23 +81,23 @@
 - Topic: **Raspberry Pi 5 8GB**
 - Status: BLOCKED
 - ASIN_US: absent
-- Amazon URLs: 6
-- Manufacturer URLs: 1
-- Spec facts: 1
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific ASINs found across requested markets; product may be sold through third-party sellers or not yet widely listed. Manufacturer URL provides official specifications. Amazon search URLs provided for all markets as candidate starting points.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
-- https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
-- https://www.raspberrypi.com/products/raspberry-pi-5/
-- https://www.raspberrypi.com/products/raspberry-pi-5/
+- https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
+- https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
 
 ## Gaming Hardware
 
