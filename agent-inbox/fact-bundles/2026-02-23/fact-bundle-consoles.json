@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "consoles",
     "category_label": "Consoles",
-    "topic": "xbox series x",
-    "candidate_product_name": "Microsoft Xbox Series X",
-    "asin_us": "B0DSQZ57VC",
-    "asin_us_url": "https://www.amazon.com/dp/B0DSQZ57VC",
-    "asin_us_listing_title": "Microsoft Xbox Series X – 1TB Digital Edition (Renewed)",
+    "topic": "xbox series s",
+    "candidate_product_name": "Xbox Series S",
+    "asin_us": "B092KKFHJ2",
+    "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
+    "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
     "asin_probe_error": null,
-    "confidence_score": 96,
+    "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0DSQZ57VC",
-      "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
-      "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
+      "US": "https://www.amazon.com/dp/B092KKFHJ2",
+      "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
     "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJXd3RqN050eWdDNDFuQ2k3SWJMWENwLWIxc1FFU0M2WXhrWldyYTQ5LXp3dy1rQXB4ZnJPN0tuTjg5WEVia3g0VHc1Zzhvbzl3NGd4RnpIVDY3QWg2ZzZrLXl3VjB4NTBnY0pwdHVrazhSSzRRdlpCblpkOFBvYy1hdFh2eDUyRllpSjNjS2dfeV90R0otTWtOdjlycm5Nei1oX2lxR0FSbk0?oc=5",
       "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYUxnazVZN08zUkdxQVFWcWkyQmw4UGRmQ3pkRXV3SndHYmJmWlgxbmk4emFNR04xR1M2c0p0SE1ZdE9acjdfVEludlNJMUI4ZE9sSnYxTWlNdERXS2VUZEJFbWZpdDRieXhMcmVUZ1RfT2MzMy1jZlM5VWhPTUNMX0RDUkM4MWNrNERNMmJsUFhLRWFEY0RuaVEyS2RmcEFNaHlMbHA3bG03Q2NhUm9YTHEtckpqQVExZzVPYnIwZG1OSHVvTGxlZFpWbkt2aHlDVVliYXgwYw?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNkM2M2lBZ21BLXZEQmUwN2J0bWs5MmYxbm9Vc0J0SDVobENxeEhDVUJnV0RlOEtuaE9rcWc1cHkxOXBBOGdKQ0RkaUZ5czlKWUR6ckN6cFhVU0lyaFJLaHM3WjJDUXdwc0JCOExuMUxoelJtbkYtMXQ1bWxLcTNFNTdRN1RZUXdJVlE1NUItSW5GeXFLWkFZOVFsMTBVNzg3Zm11QkptVGN3MGdoUmlVY1NqUzJ5N0U?oc=5",
-      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
-      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aZFFySkNMQXZMa1lhc2phaUgyOWJ1ZFhQMEo0Vllqdmx1dXRwT3daRWc0dkFBX292M3dEN18zbnh1enVhNUZ5RVBkLVFuVFN3SWluSlJWaVFCNktWcXJfRzBqQ1hWZw?oc=5",
-      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByTjBhQlBMcGZHWWtwS3NjS1loLWpncDFaMktjb3NGdDhQWGpTbExoUXo2YXRCNFVjZk1sV2N0OXpXNmhiN3NnWEVXTlpZOUlTM3N2UmNXUndCSnUySDhUZ0JjS3E?oc=5",
-      "https://www.amazon.com/dp/B0DSQZ57VC"
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTVVYXzBNYXdnVk1tZmhOMUVNSDlqalA5NjJiQTZRUFFJd080ZUN4YVh6YUhpYk1MMWc4a3pFMWhaeGR2T3ZubnIycW5FbnJBeWd6cVZHZ201SGYzbkUya2h2QlRLRnU1YjRPWjltWGVIVWlvSnlkUnloekZtbzhCV0FlTXlMc3FJRUp6dXBDWQ?oc=5",
+      "https://www.amazon.com/dp/B092KKFHJ2"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 12,
-    "trend_30d": 14,
-    "novelty_hits": 5,
-    "score": 96,
+    "trend_7d": 11,
+    "trend_30d": 12,
+    "novelty_hits": 6,
+    "score": 100,
     "ai_mode": "deepseek",
-    "ai_confidence": 96,
+    "ai_confidence": 100,
     "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-    "ai_angle": "Next-gen gaming powerhouse with 4K/120fps, Quick Resume, and backward compatibility for thousands of games."
+    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X",
-      "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X",
-      "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
-      "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Consoles: Microsoft Xbox Series X",
+      "title_candidate": "Consoles: Xbox Series S",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
