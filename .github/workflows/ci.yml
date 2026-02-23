@@ -2,9 +2,13 @@ name: CI
 
 on:
   pull_request:
+    paths-ignore:
+      - "agent-inbox/**"
   push:
     branches:
       - main
+    paths-ignore:
+      - "agent-inbox/**"
 
 concurrency:
   group: ci-${{ github.ref }}

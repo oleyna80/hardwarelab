@@ -2,9 +2,13 @@ name: Agent Guards
 
 on:
   pull_request:
+    paths-ignore:
+      - "agent-inbox/**"
   push:
     branches:
       - main
+    paths-ignore:
+      - "agent-inbox/**"
 
 jobs:
   validate:
