@@ -1,9 +1,9 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T10:07:12.146Z",
+  "generated_at": "2026-02-23T10:12:13.861Z",
   "total": 5,
-  "seed_ready_count": 1,
-  "seed_blocked_count": 4,
+  "seed_ready_count": 3,
+  "seed_blocked_count": 2,
   "pass_a_ready_count": 0,
   "pass_a_blocked_count": 5,
   "ready_count": 0,
@@ -15,26 +15,26 @@
         "category_label": "Mini PC",
         "topic": "ASUS NUC 14 Pro",
         "candidate_product_name": "ASUS NUC 14 Pro",
-        "asin_us": "B0D67CR9B2",
-        "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
-        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
+        "asin_us": "B0D6BKM3M1",
+        "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
+        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
         "asin_probe_error": null,
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0D67CR9B2",
+          "US": "https://www.amazon.com/dp/B0D6BKM3M1",
           "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         },
-        "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
+        "reasoning_short": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
           "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
+          "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
           "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
           "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-          "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQak1va0dWRDIxQlYzRUhxRXRyaVlySVZtWlBQOWlUQnJ6SGtVMkZ5RkswdktGTlFmQ25UN2JfN0Rad0FxRTN0QWVfVWhvMEVLX1UwUWdMWklDbnFTamNhbjFvYzFYYVhtQUVaN01xOExGc1IzYkdsdFVKRDBCQ1RDbThlZHFaZllvWlJBMW1DajJ6eEdOUkxpVmJzSmNWUG5NOVJuRk5FdlY?oc=5",
-          "https://www.amazon.com/dp/B0D67CR9B2"
+          "https://www.amazon.com/dp/B0D6BKM3M1"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -60,8 +60,8 @@
         "score": 58.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
-        "ai_angle": "Compact AI-ready mini PC with Intel Core Ultra processors, balancing performance and connectivity in small form factor."
+        "ai_reason": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
+        "ai_angle": "Compact mini PC with Intel Core Ultra processors, dual Thunderbolt 4 ports, and professional-grade connectivity for productivity."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -79,66 +79,75 @@
           "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.asus.com/microsite/nuc/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "ASUS NUC 14 Pro is a mini PC with Intel Core Ultra processors",
+            "source_url": "https://www.asus.com/microsite/nuc/"
+          },
+          {
+            "claim": "Supports up to 96GB DDR5 RAM and dual M.2 PCIe 4.0 SSDs",
+            "source_url": "https://www.asus.com/microsite/nuc/"
+          },
+          {
+            "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
+            "source_url": "https://www.asus.com/microsite/nuc/"
+          }
+        ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Mini PC: ASUS NUC 14 Pro",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "title_candidate": "ASUS NUC 14 Pro Mini PC",
+          "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and light gaming",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. ASINs cannot be confirmed without active Amazon listings."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
           "https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro",
-          "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro"
+          "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
+          "https://www.asus.com/microsite/nuc/",
+          "https://www.asus.com/microsite/nuc/",
+          "https://www.asus.com/microsite/nuc/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 3,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "seed_evidence_units": 4
       }
     },
     {
@@ -193,7 +202,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 99,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Review of PlayStation 5 Pro's enhanced performance and PSSR 2.0 upscaling for classic games."
+        "ai_angle": "High-end console upgrade with enhanced performance for 4K gaming and backward compatibility."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -277,6 +286,138 @@
     },
     {
       "topic": {
+        "category_key": "nas",
+        "category_label": "NAS",
+        "topic": "TerraMaster F2-425",
+        "candidate_product_name": "TerraMaster F2-425",
+        "asin_us": "B0FLH4WTPG",
+        "asin_us_url": "https://www.amazon.com/dp/B0FLH4WTPG",
+        "asin_us_listing_title": "TERRAMASTER F2-425 Plus NAS Storage - 2Bay Intel N150 Quad-Core CPU, 8GB RAM DDR5, 5GbE LAN x 2, M.2 Slot x 3, Network Attached Storage for Teamwork, Multimedia Server (Diskless)",
+        "asin_probe_error": null,
+        "confidence_score": 78,
+        "status": "shortlisted",
+        "discard_reason": null,
+        "market_evidence": {
+          "US": "https://www.amazon.com/dp/B0FLH4WTPG",
+          "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
+          "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
+        },
+        "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trends.",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3pzZVNRTHdhZExESGlBaG1aWFBkRlpLV2dYUUNlUHhMR1MyVGVEbHUtcU5rQ0xDTmF2dkt2cHdrT0JOaHVpcHVOVDZnbXEwdzNuZm1kQ2ZEdDRwZVRxUzlneGtqc0VHb0NaOGVHcXlrWHJQeWF0UFJ5NWdwNkpFRDlSQXVqUEE1VXhzZ29RWDJYaFc3Z2VvN2w4NFdZS3I1ZFhVaHJOWENiWndlX2ljc29pNHRuOXJSUDFuclVpeXpUMUZhTmFv?oc=5",
+          "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3RlNTAxWW1sOXZhcmRjZTZiM3N6U3VmdGhSbTBQd3BQaTZvY0VsS2xzblZVX2tqWUZvSkxGejVSVFVWT29rVXk3UjR1SW9EOHRieDl3MUtkVVVTOGJsMWV4ak1IaUlCMjAwLTY0Tk81ejJXZDV4ZTFQbE04S2dza0lTbUw?oc=5",
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjVtTmFXSzFBM2l6NGhXb3R0bGNWcVZTbXNYcDZwTHlNcjVfOFRGNlczWklVVXUweU9HWmlpVHJIV0doM1NuaWUtX3pBWmFEOEhQb3dTdjc0WE1wRzVyMWdLQ1lrYmMzcGJzb0wwVWZHME1PNHZHbTBkamNEWTZNMXBCVTJmc1EtOXJEakNpb0l3cVkwVjhyOTBKZmZMSW82U0dnLWVqZXJaaENRWDgyNlJLWQ?oc=5",
+          "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpaNXplb2pTMEthSnBIR0xzRVMzbndyOGFiNjBCX093cjFrczBZSkVSVC02UG55a3o1TTFYdXpPQWVKbzlrZzNCRHllQlcxbXUtTlNxWFBvemV4OFdVaE5nMkNpU212dmNzT19ldnNUa0ZmNTVPcTBqR2lhNFl6Ukc2U2dDeW5sOGFuUXNwQ0lUczg4Y3Q4YzJMSS1xQzZaWWZDMGlHZUJhTUpQdkN1dlhRbTJ3ZzhHaVRkOXotQWtTSjFkV2txdmcxMWhmMWxZbU85dXpZdWotSUFyc19FNWptb9IB6wFBVV95cUxOSDN3R2NjQVVjZm51bDhPdVRTRWVNZG81d0I1ZkNhdi0xbENEaVFIUVJPd1JJeFlZdE8xSHRTR2NobFVoX3pYY3BfV2RpNjJLSkw4dGxuLW1TNVo1LTNlbEZOQWJUeGxVU0ljZmlzZkc3S0JoWmxhTjhfY2ZvdHg3ZWJtMkRiS3AtUHpuUDNuTWJxM3J1b3A0UGFsSGQ4VkpYamZWVHkxSmx0LTBFa083Q1ZwME5lbXlHa2dNdjduZEJYbVBzZzJSWVhoQlpUVUJreGozVHBqcWFQajZOLUdBa0VFM2VMNks5YlQ4?oc=5",
+          "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OQm9JLUZZdExDWmpLeG11RWpKaHc0UUY1a2gyeVhfOFB2eHpudWNJc3JXUnpncW5DaktkVGR5d2NycFBnelV2c25rdlpHYWFXMHg1RGE0UU9yZjBwR2tYdG9lMjdfdXZoQU0xaEZmZ2lRNDdfS1UyVDh3?oc=5",
+          "https://www.amazon.com/dp/B0FLH4WTPG"
+        ],
+        "compliant": true,
+        "rule": "major_markets",
+        "available_markets": [
+          "US",
+          "UK",
+          "DE",
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "coverage": {
+          "US": true,
+          "UK": true,
+          "DE": true,
+          "FR": true,
+          "IT": true,
+          "ES": true
+        },
+        "trend_7d": 3,
+        "trend_30d": 4,
+        "novelty_hits": 9,
+        "score": 78,
+        "ai_mode": "deepseek",
+        "ai_confidence": 78,
+        "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
+      },
+      "fact_bundle": {
+        "asin_candidates": {
+          "us": "absent",
+          "de": "absent",
+          "fr": "absent",
+          "it": "absent",
+          "es": "absent",
+          "uk": "absent",
+          "primary_region": "absent",
+          "primary_url": "absent"
+        },
+        "amazon_candidate_urls": [
+          "https://www.amazon.com/s?k=TerraMaster%20F2-425",
+          "https://www.amazon.de/s?k=TerraMaster%20F2-425",
+          "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
+        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
+        "quote_candidates": [],
+        "related_reviews_candidates": [],
+        "editorial_seed": {
+          "title_candidate": "NAS: TerraMaster F2-425",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
+          "rating_candidate": null,
+          "rating_source_url": "absent"
+        },
+        "collection_mode": "fallback",
+        "notes": [
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
+        ]
+      },
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "ready_for_pass_a": false,
+      "blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers_top3": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
+      ],
+      "validator": {
+        "reachable_probe_urls": 2,
+        "checked_urls": [
+          "https://www.amazon.com/s?k=TerraMaster%20F2-425",
+          "https://www.amazon.de/s?k=TerraMaster%20F2-425"
+        ],
+        "has_us_asin": false,
+        "has_rating_source": false,
+        "amazon_url_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
+        "quote_candidate_count": 0,
+        "related_candidate_count": 0,
+        "seed_evidence_units": 0
+      }
+    },
+    {
+      "topic": {
         "category_key": "sbc",
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
@@ -285,7 +426,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 77,
+        "confidence_score": 76,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -293,7 +434,7 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score candidate, available in all major markets, exact model matches term.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -321,13 +462,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 6,
-        "novelty_hits": 6,
-        "score": 77,
+        "trend_30d": 5,
+        "novelty_hits": 7,
+        "score": 75.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 77,
-        "ai_reason": "Highest score candidate, available in all major markets, exact model matches term.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and AI capabilities compared to alternatives."
+        "ai_confidence": 76,
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value compared to 16GB model amid price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -341,38 +482,48 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.raspberrypi.com/products/raspberry-pi-5/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
+            "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+          }
+        ],
         "quote_candidates": [],
-        "related_reviews_candidates": [],
+        "related_reviews_candidates": [
+          {
+            "title": "absent",
+            "url": "absent",
+            "reason": "No specific review pages identified"
+          }
+        ],
         "editorial_seed": {
-          "title_candidate": "SBC: Raspberry Pi 5 8GB",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "title_candidate": "Raspberry Pi 5 8GB Model",
+          "description_candidate": "A single-board computer with 8GB RAM, featuring improved performance over previous models.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No specific ASINs found across markets; product may be pre-order or not listed with exact 8GB variant. Manufacturer site provides primary specs. Amazon search URLs provided for candidate discovery."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -380,7 +531,6 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -388,155 +538,25 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+          "https://www.raspberrypi.com/products/raspberry-pi-5/",
+          "https://www.raspberrypi.com/products/raspberry-pi-5/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "amazon_url_count": 6,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 1,
         "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 0
-      }
-    },
-    {
-      "topic": {
-        "category_key": "gaming",
-        "category_label": "Gaming Hardware",
-        "topic": "Valve Steam Deck OLED",
-        "candidate_product_name": "Valve Steam Deck OLED",
-        "asin_us": "B0CXPX5V21",
-        "asin_us_url": "https://www.amazon.com/dp/B0CXPX5V21",
-        "asin_us_listing_title": "Valve Steam Deck OLED Limited Edition 1TB model with Smoky Translucent Colorway",
-        "asin_probe_error": null,
-        "confidence_score": 80,
-        "status": "shortlisted",
-        "discard_reason": null,
-        "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CXPX5V21",
-          "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-          "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
-        },
-        "reasoning_short": "Highest score, major market availability, exact model matches rules, avoids generic phrases.",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
-          "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
-          "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
-          "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
-          "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVM5LVZqM1hYUnhGWjA3aGtWTmpRRVpkcmRiVTc2MlNyYVlSWC1rWUF5N3hkYXlFYXdBOVR2cHRLVXBaeldRUjcxa2hYcHE5V1hqVjN5elYxSWV2aTVnX3Jmc3RReXZqa3NCX0lUVFdQNDlhM2xMM3NxQUxaaEtpLTdsYzlxU3lnRTFETURQSGNmTG1QcGs2RTdqNlQ4eDExSDI3SE53SW5BWHhod0VlQ2ZnTklfa1AzYTdXeGFwMlJoRGdXNl91SkttZ1lxeUJhWEVSbWg2Y3JBUFk?oc=5",
-          "https://www.amazon.com/dp/B0CXPX5V21"
-        ],
-        "compliant": true,
-        "rule": "major_markets",
-        "available_markets": [
-          "US",
-          "UK",
-          "DE",
-          "FR",
-          "IT",
-          "ES"
-        ],
-        "coverage": {
-          "US": true,
-          "UK": true,
-          "DE": true,
-          "FR": true,
-          "IT": true,
-          "ES": true
-        },
-        "trend_7d": 16,
-        "trend_30d": 20,
-        "novelty_hits": 1,
-        "score": 80,
-        "ai_mode": "deepseek",
-        "ai_confidence": 80,
-        "ai_reason": "Highest score, major market availability, exact model matches rules, avoids generic phrases.",
-        "ai_angle": "Review of Valve Steam Deck OLED: Performance, display quality, and availability challenges in 2026."
-      },
-      "fact_bundle": {
-        "asin_candidates": {
-          "us": "absent",
-          "de": "absent",
-          "fr": "absent",
-          "it": "absent",
-          "es": "absent",
-          "uk": "absent",
-          "primary_region": "absent",
-          "primary_url": "absent"
-        },
-        "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
-        ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
-        "quote_candidates": [],
-        "related_reviews_candidates": [],
-        "editorial_seed": {
-          "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-          "price_category_candidate": "mid",
-          "rating_candidate": null,
-          "rating_source_url": "absent"
-        },
-        "collection_mode": "fallback",
-        "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
-        ]
-      },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "ready_for_pass_a": false,
-      "blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers_top3": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
-      ],
-      "validator": {
-        "reachable_probe_urls": 2,
-        "checked_urls": [
-          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
-        ],
-        "has_us_asin": false,
-        "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
-        "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "related_candidate_count": 1,
+        "seed_evidence_units": 2
       }
     },
     {
@@ -557,13 +577,13 @@
           "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
           "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
         },
-        "reasoning_short": "Available in all major Amazon markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+        "reasoning_short": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
           "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
-          "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNzFLZ29NdGZ5Vk5GTEI5Q0tCZFJ1Q2hYMU1SSGdjY2FQODlGQTYySFo2bnpEbUUtZ2NYTHcxWmtjMHJKN3JBSkY1TERhOFYtM3RZbzVwZEFwR25sZFB1SVd2N0xYMy1ISXBQOUlGbWpUa2xaaUVsQWxMTEZVcjhQQnZpa0FvNktEUEJqNUlBdURwVFZLSHpUTGZmUE4wLU1zTy14MWcycm5wYmpCNGJSN2l6Z9IBuAFBVV95cUxQaTRjVDRqTUVYcEEyZEZBazFPb0wtTnNKZUxfNGxCcjA3S01qWm02Z25KMXRuWGE4dFNyakc3Yzh5enZtb3c2SXF0bHg0d3J2clVRY0VacGtaTjgzMjdKOVZCNmdRS3Z6ejZMS0gxZ0lub1hkdkxJUC15WkRzQ2NfOC1FNXd5ODF4ZHVQUjN1Z0daUFFQUF9Qa2o2cGhsWnpSSHIzMFFZOFVydlF4djQtOHcxYVNmRzhJ?oc=5",
           "https://www.amazon.com/dp/B09X6BMSXX"
         ],
         "compliant": true,
@@ -585,12 +605,12 @@
         },
         "trend_7d": 0,
         "trend_30d": 1,
-        "novelty_hits": 13,
+        "novelty_hits": 14,
         "score": 60.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Available in all major Amazon markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-        "ai_angle": "Professional workstation with Core Ultra 9 and RTX 5000 Ada for AI development workloads"
+        "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
       },
       "fact_bundle": {
         "asin_candidates": {
