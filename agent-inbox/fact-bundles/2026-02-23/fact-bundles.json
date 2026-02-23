@@ -1,9 +1,9 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T11:27:22.067Z",
+  "generated_at": "2026-02-23T11:32:23.665Z",
   "total": 6,
-  "seed_ready_count": 1,
-  "seed_blocked_count": 5,
+  "seed_ready_count": 2,
+  "seed_blocked_count": 4,
   "pass_a_ready_count": 0,
   "pass_a_blocked_count": 6,
   "ready_count": 0,
@@ -27,13 +27,13 @@
           "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         },
-        "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
+        "reasoning_short": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
           "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
+          "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
           "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
           "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-          "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQak1va0dWRDIxQlYzRUhxRXRyaVlySVZtWlBQOWlUQnJ6SGtVMkZ5RkswdktGTlFmQ25UN2JfN0Rad0FxRTN0QWVfVWhvMEVLX1UwUWdMWklDbnFTamNhbjFvYzFYYVhtQUVaN01xOExGc1IzYkdsdFVKRDBCQ1RDbThlZHFaZllvWlJBMW1DajJ6eEdOUkxpVmJzSmNWUG5NOVJuRk5FdlY?oc=5",
           "https://www.amazon.com/dp/B0D6BKM3M1"
         ],
         "compliant": true,
@@ -60,8 +60,8 @@
         "score": 58.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
-        "ai_angle": "Compact AI-ready mini PC with Intel Core Ultra processors, balancing performance and connectivity in a small form factor."
+        "ai_reason": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
+        "ai_angle": "Compact mini PC with Intel Core Ultra processors, dual Thunderbolt 4 ports, and professional-grade connectivity for productivity."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -79,66 +79,75 @@
           "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.asus.com/microsite/nuc/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "ASUS NUC 14 Pro is a mini PC with Intel Core Ultra processors",
+            "source_url": "https://www.asus.com/microsite/nuc/"
+          },
+          {
+            "claim": "Supports up to 96GB DDR5 RAM and dual M.2 PCIe 4.0 SSDs",
+            "source_url": "https://www.asus.com/microsite/nuc/"
+          },
+          {
+            "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
+            "source_url": "https://www.asus.com/microsite/nuc/"
+          }
+        ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Mini PC: ASUS NUC 14 Pro",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "title_candidate": "ASUS NUC 14 Pro Mini PC",
+          "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and light gaming",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. ASINs cannot be confirmed without active Amazon listings."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
           "https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro",
-          "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro"
+          "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
+          "https://www.asus.com/microsite/nuc/",
+          "https://www.asus.com/microsite/nuc/",
+          "https://www.asus.com/microsite/nuc/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 3,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "seed_evidence_units": 4
       }
     },
     {
@@ -151,7 +160,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0DGY63Z2H",
         "asin_us_listing_title": "PlayStation 5 Pro Console",
         "asin_probe_error": null,
-        "confidence_score": 100,
+        "confidence_score": 99,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -186,14 +195,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 8,
-        "trend_30d": 8,
-        "novelty_hits": 8,
-        "score": 100,
+        "trend_7d": 7,
+        "trend_30d": 7,
+        "novelty_hits": 7,
+        "score": 98.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 100,
+        "ai_confidence": 99,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Review of PlayStation 5 Pro's enhanced performance and PSSR 2.0 upscaling for classic games."
+        "ai_angle": "High-end console upgrade with enhanced performance and PSSR 2.0 technology for premium gaming experience."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -231,7 +240,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "PlayStation 5 Pro is currently a rumored/unannounced product with no official ASINs or Amazon listings available across all specified markets. Manufacturer URLs point to current PlayStation 5 product pages as official sources. No verified specifications, quotes, or reviews exist for this unannounced product."
+          "No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All spec facts, quotes, and reviews are absent due to unannounced product status. Title and description based on industry rumors and leaks."
         ]
       },
       "seed_ready": true,
@@ -425,7 +434,7 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score (77) with strong trends and availability across all major Amazon marketplaces.",
+        "reasoning_short": "Highest score candidate with major market availability and strong recent trend data.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -458,8 +467,8 @@
         "score": 77,
         "ai_mode": "deepseek",
         "ai_confidence": 77,
-        "ai_reason": "Highest score (77) with strong trends and availability across all major Amazon marketplaces.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and recent price changes in the AI shortage context."
+        "ai_reason": "Highest score candidate with major market availability and strong recent trend data.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Latest model with improved performance for DIY projects and computing tasks."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -543,28 +552,28 @@
       "topic": {
         "category_key": "gaming",
         "category_label": "Gaming Hardware",
-        "topic": "ASUS ROG Ally X",
-        "candidate_product_name": "ASUS ROG Ally X",
-        "asin_us": "B0D7MZLDN9",
-        "asin_us_url": "https://www.amazon.com/dp/B0D7MZLDN9",
-        "asin_us_listing_title": "HIDevolution [2024] ASUS ROG Ally X RC72LA 7\" FHD 120Hz, 3.3 GHz Ryzen Z1 Extreme, AMD Radeon, 24 GB LPDDR5 RAM, 1 TB PCIe SSD, Windows 11 Home",
+        "topic": "Nintendo Switch OLED",
+        "candidate_product_name": "Nintendo Switch OLED",
+        "asin_us": "B09J652L1P",
+        "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
+        "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 80,
+        "confidence_score": 81,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0D7MZLDN9",
-          "DE": "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
-          "FR": "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
+          "US": "https://www.amazon.com/dp/B09J652L1P",
+          "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
+          "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Available in major markets, exact model name, avoids generic handheld PC phrasing.",
+        "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM1VIWVJCV09uYXFQb0VHd1RveG92S1JNV3dFN3d0NXpMSDBZRUt3RWhSYTNrcUdKNjlKR2NWTDY3bnhWd05DVVYxcEdXUnllemtZWjRYYndOcHJjOHpyVDloMEJOQkNMeGQ5d1dVWEpaZDlTa0JsVk5ydVgwTUJEWXRyTnB3ZW5iWUxhTWItdExqc1JrNnVtVWM0UzFqaGpvd01UMDlqS2MtXzlqM0FDXzdSSQ?oc=5",
-          "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXdDaDBGSzJlbS1qSzhiZHgzRmNhLWNYWWE2eTFNRWZJbkNhU245YW9tTGtRMnBGYXpTbFVHdHlsdVloRzFrdUFadW1yVkF2THpCTmhsTTRzV2g1TWNlSHpmN1R6bmN2M2E2UXVvY1VabGlhR2lhYlRibU5jb0R0UlBhUGF5TmN4NDhGckt5VGpVODVSSkxTVG9WRmRpUFVNN0F1TEJFNWktVExLYUIzSWNLWEI5ZVBZa1E?oc=5",
-          "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lZGFuWVd1VWpVdk1YY1pzSnVrbnNINFJmNDZKOXVuOWxOWk1oWHZIMnd6R2ZEWGthY1diWnRBSkRZR0JRalVySEpJbVlvYWpfY3htaWw5UmRrZXg5NVo0QWczcnVDSzFUVXdkZW5Sd1pocGlLTXVDVUJxWFU?oc=5",
-          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXMxckxzajRkUUNacWljXzBGSWZpcUd5aG9RS2l3ZElPNk1RZlZnVmU4WTl5QlA3dTZZa2o3WDJWdXNJa2YxVnhVTVNDdWN0RTdlZURQa2xhNU1FRGc4V1lhY3d3NW8xQkVzQmh2alFWRFBBT01fd3NBdTFYZWEtZlkwX1I3RUc3STNtTGZnUVJ0bnBiNW1pd3paOEQ4UF9sT3hZRFRQSXZ2dw?oc=5",
-          "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3cycUR5WkEyTE9sZkd5SnEwd29ieDBMUFdQVG5ySHhsdWloZDItMkFQT1NBeG1lLUZRTjJfMGp0aWtyc0FQeFFjQmM5bkIxTmdOTTdtcFdmcTlKc1hvRE5kUVhsSS1KSmgyaFppV2JJZVduR1dhRG9zNHlJeGU2Wnlyd09ZT2tFb2ZWX1U2U2R2NHQ5V21NYzVtQndFU2huakNTVFhqSC0xX3NpTnFENVY4UQ?oc=5",
-          "https://www.amazon.com/dp/B0D7MZLDN9"
+          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
+          "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTE5aOUNGVUtSUENwTm9KelJYQmNxMjlleTlUQzMzekxlUzFtNDdreEZuTFM5ZGoyYWZadjNzaTVaWHE0c05BcU12Q3V3ZGxNSXNqRWhsN2ZwSWxuQ24zelp2QmVDWTB5djNIMjltVno5RlYwUG1LUUZ0NzBzelFWNjNMMmxxbGZ3VFdKbmxDNU40NTh4WHY0ZlA1YlJNNlhtSU12YWs0eEpHSlF2cDRqcFkyYlA5ejhJc0wzc1A4SkhyUGpvNTFFS2RWYThWcWh4QVBVWko3LVJ6Wjh6Q0tkMkNOeFEyNUd5ZjN4Z19XZzRBTk5iZHc?oc=5",
+          "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
+          "https://www.amazon.com/dp/B09J652L1P"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -584,14 +593,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 11,
-        "trend_30d": 16,
-        "novelty_hits": 1,
-        "score": 80,
+        "trend_7d": 4,
+        "trend_30d": 6,
+        "novelty_hits": 5,
+        "score": 81,
         "ai_mode": "deepseek",
-        "ai_confidence": 80,
-        "ai_reason": "Available in major markets, exact model name, avoids generic handheld PC phrasing.",
-        "ai_angle": "ASUS ROG Ally X handheld gaming device review focusing on performance, battery life, and market availability."
+        "ai_confidence": 81,
+        "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
+        "ai_angle": "Nintendo Switch OLED review: Is it still the best console to buy in 2026 for gaming and emulation?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -605,16 +614,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
-          "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X",
-          "https://www.amazon.fr/s?k=ASUS%20ROG%20Ally%20X"
+          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Gaming Hardware: ASUS ROG Ally X",
+          "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -658,8 +667,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X",
-          "https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X"
+          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
