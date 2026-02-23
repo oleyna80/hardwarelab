@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T22:27:55.104Z",
+  "generated_at": "2026-02-23T22:32:34.144Z",
   "total": 7,
   "seed_ready_count": 1,
   "seed_blocked_count": 6,
@@ -107,7 +107,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no pricing or availability details. Trend data suggests recent interest increase."
+          "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. Trend data suggests emerging interest but limited market presence."
         ]
       },
       "seed_ready": true,
@@ -174,7 +174,7 @@
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
-          "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUnl2dk1kVXozMVhNSGFBa3RycGJreXRuZW51QVd3WnFtREdoOVFfT292SldNY2t0N1lMeTRuWHlkN3EteURLM2xGdEJEZGZpWkZNSWVjeC11MC1KNlJHTWN6RmlHZnl1UDkxQVFQU0ZRd2NjdzVZU0Z4VmdMRWRfWjFqOFhDVUhxZ2pTMWZ1c3RuVTM2eFdLYlVUdy16d2d4RmlmbmhJRnZzTG1y?oc=5",
+          "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
           "https://www.amazon.com/dp/B092KKFHJ2"
         ],
         "compliant": true,
@@ -202,7 +202,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
+        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps performance."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -334,7 +334,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 78,
         "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -556,7 +556,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B098RKWHHZ",
         "asin_us_listing_title": "Nintendo Switch – OLED Model w/White Joy-Con",
         "asin_probe_error": null,
-        "confidence_score": 98,
+        "confidence_score": 91,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -564,7 +564,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact console model name.",
+        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -591,14 +591,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 6,
-        "trend_30d": 9,
+        "trend_7d": 5,
+        "trend_30d": 7,
         "novelty_hits": 6,
-        "score": 97.5,
+        "score": 90.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 98,
-        "ai_reason": "Highest score, available in all major markets, exact console model name.",
-        "ai_angle": "Nintendo Switch OLED review: Is it still the best console to buy in 2026?"
+        "ai_confidence": 91,
+        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 with strong market presence and emulation capabilities."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -823,7 +823,7 @@
           "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
           "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
         },
-        "reasoning_short": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+        "reasoning_short": "Available in all major markets (US/UK/DE), exact model name, highest score among candidates.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
@@ -855,8 +855,8 @@
         "score": 60.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
+        "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among candidates.",
+        "ai_angle": "Review of Lenovo ThinkStation P3 Tower Gen 2 with Core Ultra 9 and RTX 5000 Ada for AI workloads"
       },
       "fact_bundle": {
         "asin_candidates": {
