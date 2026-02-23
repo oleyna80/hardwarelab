@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no pricing or availability details. Trend data suggests recent interest increase.
+- No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. Trend data suggests emerging interest but limited market presence.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
