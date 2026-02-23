@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "mini-pc",
     "category_label": "Mini PC",
-    "topic": "Aoostar GEM12",
-    "candidate_product_name": "Aoostar GEM12",
-    "asin_us": "B0DZHC2BGS",
-    "asin_us_url": "https://www.amazon.com/dp/B0DZHC2BGS",
-    "asin_us_listing_title": "AOOSTAR GEM12 MAX Mini PC Ryzen 7 8745HS (8C/16T up to 5.1GHz), NO DDR5 RAM NO PCIe4.0 SSD Radeon 780M Graphics Gaming Computers, with OCuLink Dual USB4, HDMI/Dual 2.5G LAN/ BT5.2/WIFl6",
+    "topic": "ASUS NUC 14 Pro",
+    "candidate_product_name": "ASUS NUC 14 Pro",
+    "asin_us": "B0D6BKM3M1",
+    "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
+    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0DZHC2BGS",
-      "DE": "https://www.amazon.de/s?k=Aoostar%20GEM12",
-      "FR": "https://www.amazon.fr/s?k=Aoostar%20GEM12"
+      "US": "https://www.amazon.com/dp/B0D6BKM3M1",
+      "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
+      "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     },
-    "reasoning_short": "Highest score (54), available in all major markets, recent headlines confirm exact model with specific features.",
+    "reasoning_short": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPejBOMm54Wm5sUG5SdTBrYkxNbFhzc1hPc1BPdC1zeTZxeEpmTDRWaEh0RERRa1IzVVBiWFIwMGRBLTNJZ2VVcF9uZ3N3LWwzY29HRGFyTkJLYkktbjdVY29kdE0yVUN3QTV4QjVBUEt4dXhjWDV4LTlaUHZBV1JzZVpNdWZnVEVGUEpQZ3FUNENsaDJzU0lhSHFJWWtHM1Q2WU1iQl9Hc3VuYTVKZC1tSHFQQWNtazRPQUVxemZTVWJSV2V6MkxoUVUtZw?oc=5",
-      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTlc5eUc0Y2ZYN0ZKcTUxcmZ0azg5Q2FEVkczVXoxN21XZ0kxQTBiX1NQQkhLNHVHdm9CeWhCblRMSXBLUzJnM0ZiSWhPTjJGUlhVaVA0b2NTN3UyNkl5a25GNmppOVhRV21RMy1iTy1oOW9wNkJPNU5oMC01TmJ1MjUzSDM3bWlx?oc=5",
-      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcm94czY3bzJwWDJlMjZuRzhqNTZaMTVKNzJVNDZEd05zM2Y4N2J0MkRJOU43S195S0Rhc1J0V21jZUFFXzhScFFTUHVkd0pJdzg0akxOdXE5bWpvamhhTno3S3JVNjhwYkpSb1lCVldYaXM4b3E0QXk2cjIxYW9hTk5Ic3FQU01GS184LWJjVXhrcl9LckZkWnp1MnJ2OC01WDhFUkh3aDBpcDV6cVpwalRDY0R6YUt1OXdjVVBFYmRDSGhaa21wRFdDTVUtX1pkdDdCMXpoYw?oc=5",
-      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajl2M3N1X0lGYWtTQ1NBYlBELVZZck51M1lpS1dqUncwTFFpai1QNGlIbU9IcGZ5N1hyX2ozZ0h0dHBIMTE4b3FCUHd4U25nQUU2ZHBSWGI5Wi1MZmo1eXJqeU13NGpIcFd2ekg1N09TVWNHMUd5UlVNT1pHVXE5TllRLTBzYl9FR3dr?oc=5",
-      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTElvSWJUb1pBdEpnbWUzWV9aY3lOMHl2dURGQXpqd05HR0hwaDFWUVZibmQzbktSS2tDZUktNGJjT3R2V0hRZXU4eWFkTVVjYjV0X20wZm1kQnBUNWRwNnhtSmk5d2ozbnJmVGV6ZW9rZHpRVTBWcURsUktoYlhzLVpRY3o1dzhz?oc=5",
-      "https://www.amazon.com/dp/B0DZHC2BGS"
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
+      "https://www.amazon.com/dp/B0D6BKM3M1"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 0,
-    "trend_30d": 0,
+    "trend_30d": 3,
     "novelty_hits": 6,
-    "score": 54,
+    "score": 58.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score (54), available in all major markets, recent headlines confirm exact model with specific features.",
-    "ai_angle": "Mini PC with OCuLink eGPU expansion and AMD Ryzen APU options for under $340."
+    "ai_reason": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
+    "ai_angle": "Compact mini PC with Intel Core Ultra processors, dual Thunderbolt 4 ports, and professional-grade connectivity for productivity."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -63,11 +63,11 @@
   "validator": {
     "reachable_probe_urls": 3,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Aoostar%20GEM12",
-      "https://www.amazon.de/s?k=Aoostar%20GEM12",
-      "https://aoostar.com/products/aoostar-gem12-mini-pc",
-      "https://aoostar.com/products/aoostar-gem12-mini-pc",
-      "https://aoostar.com/products/aoostar-gem12-mini-pc"
+      "https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro",
+      "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
+      "https://www.asus.com/microsite/nuc/",
+      "https://www.asus.com/microsite/nuc/",
+      "https://www.asus.com/microsite/nuc/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -90,39 +90,39 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Aoostar%20GEM12",
-      "https://www.amazon.de/s?k=Aoostar%20GEM12",
-      "https://www.amazon.fr/s?k=Aoostar%20GEM12"
+      "https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro",
+      "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
+      "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     ],
     "manufacturer_urls": [
-      "https://aoostar.com/products/aoostar-gem12-mini-pc"
+      "https://www.asus.com/microsite/nuc/"
     ],
     "spec_facts": [
       {
-        "claim": "Aoostar GEM12 is a mini PC with Intel Core i7-12650H processor",
-        "source_url": "https://aoostar.com/products/aoostar-gem12-mini-pc"
+        "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics",
+        "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Supports up to 64GB DDR4 RAM and 4TB storage",
-        "source_url": "https://aoostar.com/products/aoostar-gem12-mini-pc"
+        "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+        "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Features dual HDMI 2.0, dual DisplayPort 1.4, and multiple USB ports",
-        "source_url": "https://aoostar.com/products/aoostar-gem12-mini-pc"
+        "claim": "Features Intel Killer Wi-Fi 6E and 2.5Gb Ethernet connectivity",
+        "source_url": "https://www.asus.com/microsite/nuc/"
       }
     ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Aoostar GEM12 Mini PC",
-      "description_candidate": "Compact mini PC with Intel Core i7 processor, suitable for office and home entertainment use",
+      "title_candidate": "ASUS NUC 14 Pro Mini PC",
+      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and multimedia",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon listings found for specified markets. Manufacturer website provides specifications. No user reviews or quotes available from verified sources."
+      "No Amazon listings found for ASUS NUC 14 Pro across specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no purchase links or reviews. Trend data suggests emerging interest but limited market presence."
     ]
   }
 }
