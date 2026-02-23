@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
     "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 77,
+    "confidence_score": 76,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
-    "reasoning_short": "Highest score (77) with strong trends and availability across all major Amazon marketplaces.",
+    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
       "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -45,17 +45,18 @@
       "ES": true
     },
     "trend_7d": 2,
-    "trend_30d": 6,
+    "trend_30d": 5,
     "novelty_hits": 6,
-    "score": 77,
+    "score": 75.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 77,
-    "ai_reason": "Highest score (77) with strong trends and availability across all major Amazon marketplaces.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value assessment amid recent price changes."
+    "ai_confidence": 76,
+    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and AI capabilities compared to alternatives."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
@@ -63,20 +64,19 @@
   "validator": {
     "reachable_probe_urls": 3,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.raspberrypi.com/products/raspberry-pi-5/",
+      "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
       "https://www.raspberrypi.com/products/raspberry-pi-5/",
       "https://www.raspberrypi.com/products/raspberry-pi-5/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
-    "amazon_url_count": 3,
+    "amazon_url_count": 6,
     "manufacturer_url_count": 1,
-    "spec_fact_count": 5,
+    "spec_fact_count": 1,
     "quote_candidate_count": 0,
-    "related_candidate_count": 0,
-    "seed_evidence_units": 6
+    "related_candidate_count": 1,
+    "seed_evidence_units": 2
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -90,9 +90,12 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+      "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
     ],
     "manufacturer_urls": [
       "https://www.raspberrypi.com/products/raspberry-pi-5/"
@@ -101,36 +104,26 @@
       {
         "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
         "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-      },
-      {
-        "claim": "Raspberry Pi 5 includes VideoCore VII GPU supporting OpenGL ES 3.1, Vulkan 1.2",
-        "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-      },
-      {
-        "claim": "Raspberry Pi 5 has 8GB LPDDR4X-4267 SDRAM",
-        "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-      },
-      {
-        "claim": "Raspberry Pi 5 supports dual 4Kp60 HDMI display output",
-        "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-      },
-      {
-        "claim": "Raspberry Pi 5 includes PCIe 2.0 interface for high-speed peripherals",
-        "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
       }
     ],
     "quote_candidates": [],
-    "related_reviews_candidates": [],
+    "related_reviews_candidates": [
+      {
+        "title": "absent",
+        "url": "absent",
+        "reason": "No specific review pages identified"
+      }
+    ],
     "editorial_seed": {
-      "title_candidate": "Raspberry Pi 5 8GB Single Board Computer",
-      "description_candidate": "Latest generation Raspberry Pi with 2.4GHz quad-core CPU, 8GB RAM, dual 4K display support, and PCIe interface for enhanced performance and connectivity.",
+      "title_candidate": "Raspberry Pi 5 8GB Model",
+      "description_candidate": "Single-board computer with 8GB RAM, quad-core CPU, and improved connectivity",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon ASINs found for Raspberry Pi 5 8GB across specified markets. Manufacturer website used for specifications. Price category estimated based on typical Raspberry Pi pricing tiers."
+      "No specific ASINs found across markets; product may be pre-order or not listed with consistent ASINs. Manufacturer site provides primary specs. Amazon search URLs included for candidate discovery."
     ]
   }
 }
