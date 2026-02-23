@@ -17,13 +17,13 @@
       "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
       "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
     },
-    "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
+    "reasoning_short": "Exact console model available in major markets, matches category rules precisely.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
       "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzckJJWUctM3l4aldmcDZ3TTV1bHJpVTZLdVA0WGs3REJmSnJTS2o0bXMxdFY3YW1FbWhIUWU0RnBLVEtFbE40TFBpT2ViakFnTV9tMWpzR0tHLXprRmZueEhaSVdabEkxUUlwd1hHNXY3UVM3TzR4ddIBfkFVX3lxTE5iclZpQnFDZmw5eTJyelV0RVZadUtZQU9rN1BHLVhha3UyS1RHRVpKZnkwcjFZTHhSYnpLSnZ1T2JGRU5sT3R6d2pHM3VwdFVEZHdVekNzNjdBTXFMeVRWX2wzSWFkVmwyXzkwc0hyRDFGSG9DRHAzcGlxODJhQQ?oc=5",
       "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJXd3RqN050eWdDNDFuQ2k3SWJMWENwLWIxc1FFU0M2WXhrWldyYTQ5LXp3dy1rQXB4ZnJPN0tuTjg5WEVia3g0VHc1Zzhvbzl3NGd4RnpIVDY3QWg2ZzZrLXl3VjB4NTBnY0pwdHVrazhSSzRRdlpCblpkOFBvYy1hdFh2eDUyRllpSjNjS2dfeV90R0otTWtOdjlycm5Nei1oX2lxR0FSbk0?oc=5",
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNkM2M2lBZ21BLXZEQmUwN2J0bWs5MmYxbm9Vc0J0SDVobENxeEhDVUJnV0RlOEtuaE9rcWc1cHkxOXBBOGdKQ0RkaUZ5czlKWUR6ckN6cFhVU0lyaFJLaHM3WjJDUXdwc0JCOExuMUxoelJtbkYtMXQ1bWxLcTNFNTdRN1RZUXdJVlE1NUItSW5GeXFLWkFZOVFsMTBVNzg3Zm11QkptVGN3MGdoUmlVY1NqUzJ5N0U?oc=5",
       "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkItTGV6WmhYSk1aZ1lhcUZfdXZkT0tYUjZUa2JkeHA4YVBud2NhWUVmeURLd0owb0lHZE1sRWFqZ01OZVZQSU9NaHNGbi14THpMX2FEMzE2ZHhnRmtZb19WYVpZQmJ0UmNDRkhHWVE3d3VzTmM2NjJJLUJveEx2RHhnR3JmanNRVDlJajI1NllxTUphaHlPYzh1d0dSZmRkNTJBd2F5ZGJlVzUz?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTVVYXzBNYXdnVk1tZmhOMUVNSDlqalA5NjJiQTZRUFFJd080ZUN4YVh6YUhpYk1MMWc4a3pFMWhaeGR2T3ZubnIycW5FbnJBeWd6cVZHZ201SGYzbkUya2h2QlRLRnU1YjRPWjltWGVIVWlvSnlkUnloekZtbzhCV0FlTXlMc3FJRUp6dXBDWQ?oc=5",
       "https://www.amazon.com/dp/B092KKFHJ2"
     ],
     "compliant": true,
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 10,
-    "trend_30d": 12,
+    "trend_30d": 11,
     "novelty_hits": 6,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
-    "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
-    "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
+    "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
+    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps capability."
   },
   "ready_for_pass_a": false,
   "blockers": [
