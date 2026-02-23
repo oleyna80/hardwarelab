@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
     "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
     "asin_probe_error": null,
-    "confidence_score": 96,
+    "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -46,12 +46,12 @@
     },
     "trend_7d": 13,
     "trend_30d": 15,
-    "novelty_hits": 5,
-    "score": 96,
+    "novelty_hits": 6,
+    "score": 100,
     "ai_mode": "deepseek",
-    "ai_confidence": 96,
+    "ai_confidence": 100,
     "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-    "ai_angle": "Compact next-gen gaming with Game Pass access and 1440p/120fps support in a digital-only design."
+    "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration"
   },
   "ready_for_pass_a": false,
   "blockers": [
