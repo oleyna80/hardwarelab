@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
     "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
     "asin_probe_error": null,
-    "confidence_score": 100,
+    "confidence_score": 96,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
       "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
-    "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
+    "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 11,
-    "trend_30d": 12,
-    "novelty_hits": 6,
-    "score": 100,
+    "trend_30d": 13,
+    "novelty_hits": 5,
+    "score": 96,
     "ai_mode": "deepseek",
-    "ai_confidence": 100,
-    "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
-    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps capabilities."
+    "ai_confidence": 96,
+    "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
+    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
   },
   "ready_for_pass_a": false,
   "blockers": [
