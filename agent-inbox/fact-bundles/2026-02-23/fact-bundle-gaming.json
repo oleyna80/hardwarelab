@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
     "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 81,
+    "confidence_score": 87,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,12 +17,12 @@
       "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
       "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
     },
-    "reasoning_short": "Exact console model available in major markets, avoids generic phrases, matches gaming category.",
+    "reasoning_short": "Highest score, major market availability, exact console model matches rules.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
-      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTE5aOUNGVUtSUENwTm9KelJYQmNxMjlleTlUQzMzekxlUzFtNDdreEZuTFM5ZGoyYWZadjNzaTVaWHE0c05BcU12Q3V3ZGxNSXNqRWhsN2ZwSWxuQ24zelp2QmVDWTB5djNIMjltVno5RlYwUG1LUUZ0NzBzelFWNjNMMmxxbGZ3VFdKbmxDNU40NTh4WHY0ZlA1YlJNNlhtSU12YWs0eEpHSlF2cDRqcFkyYlA5ejhJc0wzc1A4SkhyUGpvNTFFS2RWYThWcWh4QVBVWko3LVJ6Wjh6Q0tkMkNOeFEyNUd5ZjN4Z19XZzRBTk5iZHc?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE9MSm1vOHQ1eEhBakFlRWMzMjZBb1RtRnhpRTFNc19CZXFrbGtMTC1xWDc4dF9CbjloZ2JjNGM3Y2tfZWZMeGhJaEVuY3F2NmI1eTBmYmdOQW1xS2NCSlNFb0VQU2RwdnhaRVZtSWNZS0RFUQ?oc=5",
       "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
       "https://www.amazon.com/dp/B09J652L1P"
     ],
@@ -44,13 +44,13 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 4,
-    "trend_30d": 6,
+    "trend_7d": 5,
+    "trend_30d": 7,
     "novelty_hits": 5,
-    "score": 81,
+    "score": 86.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 81,
-    "ai_reason": "Exact console model available in major markets, avoids generic phrases, matches gaming category.",
+    "ai_confidence": 87,
+    "ai_reason": "Highest score, major market availability, exact console model matches rules.",
     "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite newer handheld PC competition?"
   },
   "ready_for_pass_a": false,
