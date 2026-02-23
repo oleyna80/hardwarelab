@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T11:22:16.375Z",
+  "generated_at": "2026-02-23T11:27:27.247Z",
   "status": "blocked",
   "reason": "No single product candidate met minimum handoff fields (valid external category + US ASIN + ratingSourceURL).",
   "action_needed": "Manually provide REVIEW and CATEGORY, or improve candidate fact bundle quality for one product."
