@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
       "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
     },
-    "reasoning_short": "Available in all major markets (US/UK/DE), highest score, exact model matches category requirements.",
+    "reasoning_short": "Available in all major markets (US, UK, DE), highest score, exact model matches category.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQnJIZVpNTzhZNkhXUmplSjRkVkFkLVY0cDdlTFlhdFlLbzZtRUF6XzY1ay15ZDlXbEZIRjJRYjJ2RGpoU0w1YVpic1VETmlSY2tCaFdrSW1STFlNd1dTeFl2SzFXUnN3SmZLenUtQ3V5VklYbjFoLVQyemNnN0lHcVVEcEZkVmFYUUg4N29rNA?oc=5",
@@ -49,7 +49,7 @@
     "score": 62,
     "ai_mode": "deepseek",
     "ai_confidence": 62,
-    "ai_reason": "Available in all major markets (US/UK/DE), highest score, exact model matches category requirements.",
+    "ai_reason": "Available in all major markets (US, UK, DE), highest score, exact model matches category.",
     "ai_angle": "Professional workstation with NVIDIA GPU support for AI/ML workloads, compact tower form factor."
   },
   "ready_for_pass_a": false,
