@@ -51,31 +51,32 @@
     "ai_mode": "deepseek",
     "ai_confidence": 99,
     "ai_reason": "Exact console model available in major markets, avoids generic terms and family words.",
-    "ai_angle": "Review of PlayStation 5 Pro performance and value compared to standard PS5."
+    "ai_angle": "Premium console with enhanced 4K gaming, ray tracing, and PlayStation exclusives."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 4,
     "checked_urls": [
       "https://www.amazon.com/s?k=PlayStation%205%20Pro",
-      "https://www.amazon.de/s?k=PlayStation%205%20Pro"
+      "https://www.amazon.de/s?k=PlayStation%205%20Pro",
+      "https://www.playstation.com/en-us/ps5/",
+      "https://www.playstation.com/en-gb/ps5/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
+    "manufacturer_url_count": 6,
     "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "seed_evidence_units": 6
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -93,21 +94,27 @@
       "https://www.amazon.de/s?k=PlayStation%205%20Pro",
       "https://www.amazon.fr/s?k=PlayStation%205%20Pro"
     ],
-    "manufacturer_urls": [],
+    "manufacturer_urls": [
+      "https://www.playstation.com/en-us/ps5/",
+      "https://www.playstation.com/en-gb/ps5/",
+      "https://www.playstation.com/de-de/ps5/",
+      "https://www.playstation.com/fr-fr/ps5/",
+      "https://www.playstation.com/it-it/ps5/",
+      "https://www.playstation.com/es-es/ps5/"
+    ],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Consoles: PlayStation 5 Pro",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-      "price_category_candidate": "mid",
+      "title_candidate": "PlayStation 5 Pro",
+      "description_candidate": "Rumored enhanced version of PlayStation 5 console with upgraded hardware specifications",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All spec facts, quotes, and reviews are absent due to unannounced product status. Title and description based on industry rumors and leaks."
     ]
   }
 }
