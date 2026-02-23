@@ -1,0 +1,108 @@
+{
+  "generated_date_utc": "2026-02-23",
+  "topic": {
+    "category_key": "gaming-pcs",
+    "category_label": "Gaming PCs",
+    "topic": "Corsair Vengeance i7400",
+    "candidate_product_name": "Corsair Vengeance i7400",
+    "asin_us": "B0BYTGQ3SM",
+    "asin_us_url": "https://www.amazon.com/dp/B0BYTGQ3SM",
+    "asin_us_listing_title": "Corsair Vengeance i7400 Series Gaming PC - Liquid Cooled Intel® Core™ i7 13700K CPU - NVIDIA® GeForce RTX™ 4070 Ti Graphics - 32GB Vengeance RGB DDR5 Memory, Black",
+    "asin_probe_error": null,
+    "confidence_score": 85,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/dp/B0BYTGQ3SM",
+      "DE": "absent",
+      "FR": "absent"
+    },
+    "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model name matches rules.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT3p3ZnBiSnFUNi00dEpLNFhDaGZfR2xtUXE2SmExSVVpQWdCOEJUUjBLVVNYbThMb3ktb3hUVllERTNpRnc3R3RrR0RtZGUtcE5VTFYweVRqMUo5dnktUldRTGpETG1OZ1hDanR0ejIwT2h6M2VKdnFpTEtvZw?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWlhScGNPSk5lNTFOcnZCYjg0Rm5QTExpay1LbmR3cnB0YWJUMTh0NnBHWVkzSzdxMk1la3UwUkllMHYxVFJ0dTZjLUd3eXlxZTNJa2NzRmg3ZTk0WUxyUnh5eTdLbHNNTVRsem9TX0M?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbnVQWmdJVEI4dGN4bXNCanBNSlFlQ1JZRnBjcDljdjF0Ul81U2FxZkpibUZKVkdjRnRPRGF6akktSHRtZ2h2anN5TEZwN2tiNXJpT2k2VDg4dGxTd3BfeV9tNjZDdDVqeGtNS1R6bko3Q1NKYU5MQlBvTU1rWmdmR180LTlSdkNIRXVyRFpfM1dXbFc2bWV0eU05SEF0cW9ZdVE4d2owZ2lWemJVaGRzZHROeWpLakN3bTNWQml3?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdVJ0OXloUmdvVnQ2MEs1cFZFT3JmeDl3ODl4c1dJb0lSZlNNaWlVZktWQUVWM3NrU1Z4dXB6VERXeDdPRVpEYW1qTGRXRmNGSTV6VGlYd1M5WXl5WEdwaWw2VUYxYTNUUUpRNTlkLS1oZ3NJejFpN3UxMFFFSGx3WWp5bU1wRVJ0dmxQLTBwWURnZjIyWGI2dFBwd2ptTkZyZTJSOHIzN2M4NlhUcU5UaHN2YW1zb29Mb0RJM2kzT25Jdw?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxORk9QMEZKbDhncmF4b00yTmstbzNYY2ptbGR2ZU52a0xhSFloQzRJS1FnX1FFQVZXRlFocVhzSGktWE94ZDJmR3JNUGpmd2VoM1JkdlIzbngzVjd4V2xMeV9DR2lmNXc3cE56WGdVNVM4cEZlZDN6T0pjY3pEVHVEM29samxKa01FdjJMVWUzbjdESUFMUjJXWmZ6bkxHZklpenYwTlZUZGotMUZ6X0lITzBhOGl2dmppb05iVEwzQmhsZXIyamdr?oc=5",
+      "https://www.amazon.com/dp/B0BYTGQ3SM"
+    ],
+    "compliant": false,
+    "rule": "insufficient_coverage",
+    "available_markets": [
+      "US"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": false,
+      "DE": false,
+      "FR": false,
+      "IT": false,
+      "ES": false
+    },
+    "trend_7d": 0,
+    "trend_30d": 0,
+    "novelty_hits": 0,
+    "score": 5,
+    "ai_mode": "deepseek",
+    "ai_confidence": 85,
+    "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name matches rules.",
+    "ai_angle": "Corsair Vengeance i7400 gaming PC review: RTX 4070 performance in a pre-built system with Corsair ecosystem integration."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400",
+      "https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0,
+    "seed_evidence_units": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400",
+      "https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400",
+      "https://www.amazon.fr/s?k=Corsair%20Vengeance%20i7400"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Gaming PCs: Corsair Vengeance i7400",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
