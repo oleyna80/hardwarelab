@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T22:07:28.962Z",
+  "generated_at": "2026-02-23T22:12:30.165Z",
   "total": 7,
   "seed_ready_count": 2,
   "seed_blocked_count": 5,
@@ -15,26 +15,26 @@
         "category_label": "Mini PC",
         "topic": "ASUS NUC 14 Pro",
         "candidate_product_name": "ASUS NUC 14 Pro",
-        "asin_us": "B0D6BKM3M1",
-        "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
-        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
+        "asin_us": "B0D67CR9B2",
+        "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
+        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
         "asin_probe_error": null,
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0D6BKM3M1",
+          "US": "https://www.amazon.com/dp/B0D67CR9B2",
           "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         },
-        "reasoning_short": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
+        "reasoning_short": "Highest score candidate available in all major markets with recent media coverage and positive trends.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
           "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
           "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
           "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-          "https://www.amazon.com/dp/B0D6BKM3M1"
+          "https://www.amazon.com/dp/B0D67CR9B2"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -60,8 +60,8 @@
         "score": 58.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-        "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office use."
+        "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trends.",
+        "ai_angle": "Compact mini PC with Intel Core Ultra processors offering desktop performance in small form factor for productivity and light gaming."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -88,11 +88,11 @@
             "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
+            "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
             "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Supports up to 96GB DDR5 memory and multiple storage options",
+            "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
             "source_url": "https://www.asus.com/microsite/nuc/"
           }
         ],
@@ -100,14 +100,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "ASUS NUC 14 Pro Mini PC",
-          "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and Thunderbolt 4 connectivity for productivity and light gaming",
+          "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and Thunderbolt 4 connectivity",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No ASINs found across specified markets. Product appears to be newly announced with limited availability. Manufacturer site provides specifications but no purchase links. No user quotes or reviews located."
+          "No Amazon listings found for ASUS NUC 14 Pro in specified markets. Product appears to be newly announced/pre-release based on manufacturer site. All ASIN fields set to 'absent' per constraints."
         ]
       },
       "seed_ready": true,
@@ -155,18 +155,18 @@
         "category_key": "consoles",
         "category_label": "Consoles",
         "topic": "xbox series s",
-        "candidate_product_name": "Microsoft Xbox Series S",
-        "asin_us": "B092KKFHJ2",
-        "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
-        "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
+        "candidate_product_name": "Xbox Series S",
+        "asin_us": "B0D932YWSZ",
+        "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+        "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
         "asin_probe_error": null,
         "confidence_score": 96,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B092KKFHJ2",
-          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+          "US": "https://www.amazon.com/dp/B0D932YWSZ",
+          "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
         "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
         "source_urls": [
@@ -175,7 +175,7 @@
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
           "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUnl2dk1kVXozMVhNSGFBa3RycGJreXRuZW51QVd3WnFtREdoOVFfT292SldNY2t0N1lMeTRuWHlkN3EteURLM2xGdEJEZGZpWkZNSWVjeC11MC1KNlJHTWN6RmlHZnl1UDkxQVFQU0ZRd2NjdzVZU0Z4VmdMRWRfWjFqOFhDVUhxZ2pTMWZ1c3RuVTM2eFdLYlVUdy16d2d4RmlmbmhJRnZzTG1y?oc=5",
-          "https://www.amazon.com/dp/B092KKFHJ2"
+          "https://www.amazon.com/dp/B0D932YWSZ"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -202,7 +202,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 96,
         "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming with digital-only library and Game Pass integration."
+        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -216,16 +216,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Microsoft Xbox Series S",
+          "title_candidate": "Consoles: Xbox Series S",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -269,8 +269,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -420,15 +420,15 @@
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
         "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0CK2FCG1K",
-        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
-        "asin_us_listing_title": "Raspberry Pi 5 8GB",
+        "asin_us": "B0CTT6X2ZJ",
+        "asin_us_url": "https://www.amazon.com/dp/B0CTT6X2ZJ",
+        "asin_us_listing_title": "Vilros Raspberry Pi 5-8GB Starter Kit - Turbo Cooled Edition - 32GB Memory (Aluminum Black)",
         "asin_probe_error": null,
         "confidence_score": 75,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
+          "US": "https://www.amazon.com/dp/B0CTT6X2ZJ",
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
@@ -439,7 +439,7 @@
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
           "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-          "https://www.amazon.com/dp/B0CK2FCG1K"
+          "https://www.amazon.com/dp/B0CTT6X2ZJ"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -466,7 +466,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 75,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs. price after recent increases, essential upgrades vs. useless accessories."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -567,7 +567,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B098RKWHHZ",
         "asin_us_listing_title": "Nintendo Switch – OLED Model w/White Joy-Con",
         "asin_probe_error": null,
-        "confidence_score": 98,
+        "confidence_score": 91,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -602,12 +602,12 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 6,
-        "trend_30d": 9,
+        "trend_7d": 5,
+        "trend_30d": 7,
         "novelty_hits": 6,
-        "score": 97.5,
+        "score": 90.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 98,
+        "ai_confidence": 91,
         "ai_reason": "Highest score, available in all major markets, exact model matches rules.",
         "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026?"
       },
