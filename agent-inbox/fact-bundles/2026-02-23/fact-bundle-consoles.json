@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 8,
-    "trend_30d": 8,
-    "novelty_hits": 8,
+    "trend_7d": 9,
+    "trend_30d": 9,
+    "novelty_hits": 7,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Review of PlayStation 5 Pro's enhanced performance and exclusive features compared to standard PS5."
+    "ai_angle": "Review of PlayStation 5 Pro performance, features, and value compared to standard PS5 for 2025 gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -114,7 +114,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "PlayStation 5 Pro is currently a rumored/unannounced product with no official ASINs or Amazon listings available. Manufacturer URLs point to current PS5 product pages as no dedicated Pro pages exist. No verified specifications, quotes, or reviews available due to unannounced status."
+      "PlayStation 5 Pro is currently a rumored/unannounced product with no official ASINs or Amazon listings available. Manufacturer URLs point to current PS5 product pages as no dedicated Pro pages exist. All ASIN fields marked absent due to product not being officially released or listed on Amazon markets. No verified specifications, quotes, or reviews available for unannounced product."
     ]
   }
 }
