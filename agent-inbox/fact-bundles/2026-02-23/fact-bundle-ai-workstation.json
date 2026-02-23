@@ -50,7 +50,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-    "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities and performance benchmarks."
+    "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
   },
   "ready_for_pass_a": false,
   "blockers": [
