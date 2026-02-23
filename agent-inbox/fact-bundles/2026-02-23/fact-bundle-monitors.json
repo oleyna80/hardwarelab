@@ -1,0 +1,113 @@
+{
+  "generated_date_utc": "2026-02-23",
+  "topic": {
+    "category_key": "monitors",
+    "category_label": "Monitors",
+    "topic": "MSI MPG 321URX",
+    "candidate_product_name": "MSI MPG 321URX",
+    "asin_us": "B0CTSC3VS4",
+    "asin_us_url": "https://www.amazon.com/dp/B0CTSC3VS4",
+    "asin_us_listing_title": "msi MPG 321URX QD-OLED, 32&#34; 4K UHD Quantum Dot OLED Gaming Monitor, 3840 x 2160, 0.03ms, 240Hz, True Black HDR 400, 90W USB Type C, HDMI, DP Port",
+    "asin_probe_error": null,
+    "confidence_score": 70,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/dp/B0CTSC3VS4",
+      "DE": "https://www.amazon.de/s?k=MSI%20MPG%20321URX",
+      "FR": "https://www.amazon.fr/s?k=MSI%20MPG%20321URX"
+    },
+    "reasoning_short": "Highest score, available in all major markets, recent headlines show active deals and reviews.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMivgJBVV95cUxOOVVsdl9GdFhBZUFjUG9hd0dLeXMtM0tLY1Q0MlJhNkp0OVFSeXpkWS1sbnRfd2kwREhkalBUandWZ2tpVnJDc1MzNUloU1R3LXAtRnh5WV91a01HdVBQblBKV2cyRERtOENROUc1aEEwWTR1MURLX2pISXV4SjlPWURIdUpZLV8xU2dFa3E3NmxWb3FxZlhUY0FUQTN5NU53R2cwdXZMT2dyc21GQXR4RUZIMU1jVGdiVFBfUWdFTkd1Q3BBbVpOX1VjdG9nMmpRTmRnWDdfQVNqd08tNjU1Um5Felc3enh5OE1BZVF1eGx3bGVMVFhkNktMdDF4T2pQSXgtRUFESC13V3ZVZEZmSHdjdXNSWWRvTGpKcnhUX1FrMDNzdzFmaDBMMV91YTBSZm1HMjhPVVQxTzJhemc?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM1lCdDFQV3o1VlhsT0dLXzNhdjJyMDA4b2s4WThVSnZ5Z3BIRFRJYzUtRExXT0lUNklKb01kRlVHalBmZWljcVp5ajZMblkwRGJBa2NkTFJGdldoV1JNLXZ5MHcxLThsYUpiTXZEZERBeUV2b1FHYzFjQTc4S0VHb1poS3d6SnB3Q0Faa2FGc3FWVWhzUzBldC1uNFJHUWxyZDhB?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiak5NY1hxSGt5Z3hfcUxNTFJjZGFfbWF4TFY5SjZ1NkF1TEFvRVgtUXo0WGc3c25FQXF5M1NGSWoxc1VDMTdPaW5xWnoxdVkzZ2FXdnBTOVBCeU9ZQVozUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNOC1PaTBsdGh4bEtRVTZTbjhWNWVSM2ZNUjZlMFpUUzJUdlUxbHBRMFlnVDQ4ZlE3ZWpKYUVKRzNLSUhQQ1VXOVo3Q3hYazZXTVlGWHo1cGU2dG54d0o2WWRNRjI3S0hPaWd3U1NIaXZ1dU5EbVNma0lpZG9jRDVWY203Vjdpa3F6SVZDNzFta2pvYTJFUXpqVWdzTEplVWZqZ29ZdWI1b1RzelBrdThqUmZrV3ljRmx5Z2xIdGNkYzRhYUFNcGd4M2d3dFpIUVliU294dmJsMHp6eUZManY5QkRZaXBVN2RnRWc0YzJfUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYzRQX25YYzJPVm1DZWZhTjJSVlV4MzJqS05QbkZPbWZPLXJ3a2VVNjZRYURYLXcwUUxNNVJCaXJuRDlFd3hDSjU3SFh2djVMdzFock1uN1lqTko2QkdRVzVqT3U1N185LTdVcElENTFiU3RPYXhoUHhRdXFDQnYxVUljU1pRT1lpbWdZ?oc=5",
+      "https://www.amazon.com/dp/B0CTSC3VS4"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 1,
+    "trend_30d": 4,
+    "novelty_hits": 6,
+    "score": 70,
+    "ai_mode": "deepseek",
+    "ai_confidence": 70,
+    "ai_reason": "Highest score, available in all major markets, recent headlines show active deals and reviews.",
+    "ai_angle": "4K 240Hz OLED gaming monitor with recent $200 discount on Amazon, but long-term burn-in concerns noted in testing."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=MSI%20MPG%20321URX",
+      "https://www.amazon.de/s?k=MSI%20MPG%20321URX"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0,
+    "seed_evidence_units": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=MSI%20MPG%20321URX",
+      "https://www.amazon.de/s?k=MSI%20MPG%20321URX",
+      "https://www.amazon.fr/s?k=MSI%20MPG%20321URX"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Monitors: MSI MPG 321URX",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
