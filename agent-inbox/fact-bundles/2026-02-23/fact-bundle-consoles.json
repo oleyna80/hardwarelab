@@ -4,18 +4,18 @@
     "category_key": "consoles",
     "category_label": "Consoles",
     "topic": "xbox series s",
-    "candidate_product_name": "Microsoft Xbox Series S",
-    "asin_us": "B092KKFHJ2",
-    "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
-    "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
+    "candidate_product_name": "Xbox Series S",
+    "asin_us": "B0D932YWSZ",
+    "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+    "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
     "asin_probe_error": null,
     "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B092KKFHJ2",
-      "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-      "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+      "US": "https://www.amazon.com/dp/B0D932YWSZ",
+      "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
     "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
     "source_urls": [
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJXd3RqN050eWdDNDFuQ2k3SWJMWENwLWIxc1FFU0M2WXhrWldyYTQ5LXp3dy1rQXB4ZnJPN0tuTjg5WEVia3g0VHc1Zzhvbzl3NGd4RnpIVDY3QWg2ZzZrLXl3VjB4NTBnY0pwdHVrazhSSzRRdlpCblpkOFBvYy1hdFh2eDUyRllpSjNjS2dfeV90R0otTWtOdjlycm5Nei1oX2lxR0FSbk0?oc=5",
       "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYUxnazVZN08zUkdxQVFWcWkyQmw4UGRmQ3pkRXV3SndHYmJmWlgxbmk4emFNR04xR1M2c0p0SE1ZdE9acjdfVEludlNJMUI4ZE9sSnYxTWlNdERXS2VUZEJFbWZpdDRieXhMcmVUZ1RfT2MzMy1jZlM5VWhPTUNMX0RDUkM4MWNrNERNMmJsUFhLRWFEY0RuaVEyS2RmcEFNaHlMbHA3bG03Q2NhUm9YTHEtckpqQVExZzVPYnIwZG1OSHVvTGxlZFpWbkt2aHlDVVliYXgwYw?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNkM2M2lBZ21BLXZEQmUwN2J0bWs5MmYxbm9Vc0J0SDVobENxeEhDVUJnV0RlOEtuaE9rcWc1cHkxOXBBOGdKQ0RkaUZ5czlKWUR6ckN6cFhVU0lyaFJLaHM3WjJDUXdwc0JCOExuMUxoelJtbkYtMXQ1bWxLcTNFNTdRN1RZUXdJVlE1NUItSW5GeXFLWkFZOVFsMTBVNzg3Zm11QkptVGN3MGdoUmlVY1NqUzJ5N0U?oc=5",
-      "https://www.amazon.com/dp/B092KKFHJ2"
+      "https://www.amazon.com/dp/B0D932YWSZ"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 12,
-    "trend_30d": 14,
+    "trend_7d": 11,
+    "trend_30d": 13,
     "novelty_hits": 6,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
     "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-    "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
+    "ai_angle": "Compact next-gen gaming with Game Pass access and 1440p/120fps support."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-      "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-      "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-      "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Consoles: Microsoft Xbox Series S",
+      "title_candidate": "Consoles: Xbox Series S",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
