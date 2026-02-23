@@ -1,9 +1,9 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T20:27:37.062Z",
+  "generated_at": "2026-02-23T20:32:38.088Z",
   "total": 7,
-  "seed_ready_count": 1,
-  "seed_blocked_count": 6,
+  "seed_ready_count": 2,
+  "seed_blocked_count": 5,
   "pass_a_ready_count": 0,
   "pass_a_blocked_count": 7,
   "ready_count": 0,
@@ -100,14 +100,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "ASUS NUC 14 Pro Mini PC",
-          "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and light gaming",
+          "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for professional and home use.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. Trend data suggests emerging interest but limited market presence."
+          "No ASINs found across specified markets; product appears newly announced or not widely listed on Amazon yet. Manufacturer site provides specifications but no user reviews or ratings available."
         ]
       },
       "seed_ready": true,
@@ -202,7 +202,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 96,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
+        "ai_angle": "Compact digital-only Xbox with Game Pass access, ideal for budget-conscious gamers seeking next-gen performance."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -424,7 +424,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 79,
+        "confidence_score": 75,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -459,14 +459,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 3,
+        "trend_7d": 2,
         "trend_30d": 7,
         "novelty_hits": 5,
-        "score": 78.5,
+        "score": 74.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 79,
+        "ai_confidence": 75,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC faces price hikes but remains a versatile platform for projects and AI experimentation."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -480,38 +480,48 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.raspberrypi.com/products/raspberry-pi-5/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
+            "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+          }
+        ],
         "quote_candidates": [],
-        "related_reviews_candidates": [],
+        "related_reviews_candidates": [
+          {
+            "title": "absent",
+            "url": "absent",
+            "reason": "No specific review pages identified"
+          }
+        ],
         "editorial_seed": {
-          "title_candidate": "SBC: Raspberry Pi 5 8GB",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "title_candidate": "Raspberry Pi 5 8GB Model",
+          "description_candidate": "A single-board computer with 8GB RAM, featuring improved performance over previous models.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No ASINs found due to constraints against hallucination; Amazon search URLs provided for manual verification. Manufacturer URL is from Raspberry Pi official site. Spec fact sourced from manufacturer. Price category estimated as mid-range for SBCs. No user quotes or review pages available without specific product listings."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -519,7 +529,6 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -527,23 +536,25 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+          "https://www.raspberrypi.com/products/raspberry-pi-5/",
+          "https://www.raspberrypi.com/products/raspberry-pi-5/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "amazon_url_count": 6,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 1,
         "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "related_candidate_count": 1,
+        "seed_evidence_units": 2
       }
     },
     {
@@ -556,7 +567,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
         "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 98,
+        "confidence_score": 91,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -569,8 +580,8 @@
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
-          "https://news.google.com/rss/articles/CBMickFVX3lxTE9MSm1vOHQ1eEhBakFlRWMzMjZBb1RtRnhpRTFNc19CZXFrbGtMTC1xWDc4dF9CbjloZ2JjNGM3Y2tfZWZMeGhJaEVuY3F2NmI1eTBmYmdOQW1xS2NCSlNFb0VQU2RwdnhaRVZtSWNZS0RFUQ?oc=5",
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
+          "https://news.google.com/rss/articles/CBMickFVX3lxTE9MSm1vOHQ1eEhBakFlRWMzMjZBb1RtRnhpRTFNc19CZXFrbGtMTC1xWDc4dF9CbjloZ2JjNGM3Y2tfZWZMeGhJaEVuY3F2NmI1eTBmYmdOQW1xS2NCSlNFb0VQU2RwdnhaRVZtSWNZS0RFUQ?oc=5",
           "https://www.amazon.com/dp/B09J652L1P"
         ],
         "compliant": true,
@@ -592,13 +603,13 @@
           "ES": true
         },
         "trend_7d": 6,
-        "trend_30d": 9,
-        "novelty_hits": 6,
-        "score": 97.5,
+        "trend_30d": 7,
+        "novelty_hits": 5,
+        "score": 90.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 98,
+        "ai_confidence": 91,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 with PSP emulation capabilities and 90s VR nostalgia."
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 for gaming versatility and PSP emulation."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -725,7 +736,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
-        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance at 17% discount."
+        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -811,15 +822,15 @@
         "category_label": "AI Workstations",
         "topic": "Lenovo ThinkStation P3 Tower",
         "candidate_product_name": "Lenovo ThinkStation P3 Tower",
-        "asin_us": "B09X6BMSXX",
-        "asin_us_url": "https://www.amazon.com/dp/B09X6BMSXX",
-        "asin_us_listing_title": "Lenovo ThinkStation P3 Tiny Workstation Intel i7-14700, 32GB DDR5, 1TB NVMe, T400 4GB Discrete Graphics, WiFi 6E + BT, RJ-45, 3X miniDP, DP Port, HDMI (5 Monitor Max), Win 11 Pro, 3 Yr Wty",
+        "asin_us": "B0GMG4WRF7",
+        "asin_us_url": "https://www.amazon.com/dp/B0GMG4WRF7",
+        "asin_us_listing_title": "Lenovo ThinkStation P2 Tower Desktop Computer • 20-core Intel Ultra 7 265K Processor • 32GB DDR5 • 1TB SSD • Office 365 for The Web • HDMI + 2X DisplayPort • Wi-Fi 7 • Wired KB & Mouse • Windows 11",
         "asin_probe_error": null,
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09X6BMSXX",
+          "US": "https://www.amazon.com/dp/B0GMG4WRF7",
           "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
           "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
         },
@@ -830,7 +841,7 @@
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
           "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
           "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
-          "https://www.amazon.com/dp/B09X6BMSXX"
+          "https://www.amazon.com/dp/B0GMG4WRF7"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -856,7 +867,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
+        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities and performance benchmarks."
       },
       "fact_bundle": {
         "asin_candidates": {
