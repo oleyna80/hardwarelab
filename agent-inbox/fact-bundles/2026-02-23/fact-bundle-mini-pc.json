@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
       "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     },
-    "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model availability.",
+    "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
@@ -50,7 +50,7 @@
     "score": 58.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model availability.",
+    "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
     "ai_angle": "Compact AI-ready mini PC with Intel Core Ultra processors, balancing performance and connectivity in a small form factor."
   },
   "ready_for_pass_a": false,
