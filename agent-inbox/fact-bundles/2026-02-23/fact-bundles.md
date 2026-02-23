@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found across specified markets; product appears newly announced or not widely listed on Amazon yet. Manufacturer URLs provide primary specifications. Price category estimated based on typical NUC Pro series positioning.
+- No ASINs found across specified markets; product appears newly announced or not widely listed on Amazon yet. Manufacturer URLs provide primary specifications. Price category estimated based on typical mini PC positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
