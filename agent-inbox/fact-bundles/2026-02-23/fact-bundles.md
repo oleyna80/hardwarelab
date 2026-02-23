@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
-- Total: 7
-- Seed ready: 2
+- Total: 6
+- Seed ready: 1
 - Seed blocked: 5
 - PASS A ready: 0
-- PASS A blocked: 7
+- PASS A blocked: 6
 
 ## Mini PC
 
@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for ASUS NUC 14 Pro across specified markets. Product appears to be newly announced with manufacturer information available but not yet available for purchase on Amazon. All ASIN fields set to 'absent' per constraints against hallucinated ASINs.
+- No ASINs found across specified markets. Manufacturer site confirms product existence but no retail listings identified. Product appears to be newly announced based on novelty hits.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
@@ -49,8 +49,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
-- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.com/s?k=Xbox%20Series%20S
+- https://www.amazon.de/s?k=Xbox%20Series%20S
 
 ## NAS
 
@@ -74,29 +74,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=TerraMaster%20F2-425
 - https://www.amazon.de/s?k=TerraMaster%20F2-425
-
-## SBC
-
-- Topic: **Raspberry Pi 5 8GB**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 6
-- Manufacturer URLs: 1
-- Spec facts: 1
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- No ASINs found due to constraints against hallucination; Amazon search URLs provided for manual verification. Manufacturer URL from Raspberry Pi official site. Spec fact sourced from manufacturer. Price category estimated as mid-range based on typical SBC pricing. No user quotes or review pages identified.
-### Probe URLs
-- https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
-- https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
-- https://www.raspberrypi.com/products/raspberry-pi-5/
-- https://www.raspberrypi.com/products/raspberry-pi-5/
 
 ## Gaming Hardware
 
