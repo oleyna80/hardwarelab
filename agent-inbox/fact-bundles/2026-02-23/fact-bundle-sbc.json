@@ -5,15 +5,15 @@
     "category_label": "SBC",
     "topic": "Raspberry Pi 5 8GB",
     "candidate_product_name": "Raspberry Pi 5 8GB",
-    "asin_us": "B0CTT6X2ZJ",
-    "asin_us_url": "https://www.amazon.com/dp/B0CTT6X2ZJ",
-    "asin_us_listing_title": "Vilros Raspberry Pi 5-8GB Starter Kit - Turbo Cooled Edition - 32GB Memory (Aluminum Black)",
+    "asin_us": "B0CK2FCG1K",
+    "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
+    "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 75,
+    "confidence_score": 74,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0CTT6X2ZJ",
+      "US": "https://www.amazon.com/dp/B0CK2FCG1K",
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
       "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-      "https://www.amazon.com/dp/B0CTT6X2ZJ"
+      "https://www.amazon.com/dp/B0CK2FCG1K"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -45,38 +45,37 @@
       "ES": true
     },
     "trend_7d": 2,
-    "trend_30d": 7,
-    "novelty_hits": 5,
-    "score": 74.5,
+    "trend_30d": 9,
+    "novelty_hits": 4,
+    "score": 73.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 75,
+    "ai_confidence": 74,
     "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Performance vs. price after recent increases, essential upgrades vs. useless accessories."
+    "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC with recent AI focus and price volatility."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 3,
+    "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
-      "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
-      "https://www.raspberrypi.com/products/raspberry-pi-5/",
-      "https://www.raspberrypi.com/products/raspberry-pi-5/"
+      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
+      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
-    "amazon_url_count": 6,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 1,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
-    "related_candidate_count": 1,
-    "seed_evidence_units": 2
+    "related_candidate_count": 0,
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -90,40 +89,25 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
-      "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
-      "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
-      "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
-      "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
-      "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
+      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
+      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
+      "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     ],
-    "manufacturer_urls": [
-      "https://www.raspberrypi.com/products/raspberry-pi-5/"
-    ],
-    "spec_facts": [
-      {
-        "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
-        "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
-    "related_reviews_candidates": [
-      {
-        "title": "absent",
-        "url": "absent",
-        "reason": "No specific review pages identified"
-      }
-    ],
+    "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Raspberry Pi 5 8GB Single Board Computer",
-      "description_candidate": "A high-performance single-board computer with 8GB RAM, featuring a 2.4GHz quad-core CPU and improved connectivity.",
+      "title_candidate": "SBC: Raspberry Pi 5 8GB",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No specific ASINs found for Raspberry Pi 5 8GB across requested markets; product may be pre-order or not yet listed on Amazon. Manufacturer URL provides official specifications. Amazon search URLs included for candidate discovery. Price category estimated based on typical Raspberry Pi pricing."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
