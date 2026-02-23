@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 75,
     "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price changes."
+    "ai_angle": "Raspberry Pi 5 8GB review: Performance vs price after recent increases, essential upgrades vs useless accessories."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -75,7 +75,7 @@
     "manufacturer_url_count": 1,
     "spec_fact_count": 1,
     "quote_candidate_count": 0,
-    "related_candidate_count": 1,
+    "related_candidate_count": 0,
     "seed_evidence_units": 2
   },
   "fact_bundle": {
@@ -107,23 +107,17 @@
       }
     ],
     "quote_candidates": [],
-    "related_reviews_candidates": [
-      {
-        "title": "absent",
-        "url": "absent",
-        "reason": "No specific review pages identified"
-      }
-    ],
+    "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Raspberry Pi 5 8GB Single Board Computer",
-      "description_candidate": "A high-performance single-board computer with 8GB RAM, featuring a quad-core CPU and improved connectivity.",
+      "title_candidate": "Raspberry Pi 5 8GB Model",
+      "description_candidate": "Latest Raspberry Pi single-board computer with 8GB RAM, improved CPU and GPU performance, and enhanced connectivity options.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No ASINs found due to constraints against hallucination; Amazon search URLs provided for manual verification. Manufacturer URL is from Raspberry Pi official site. Spec fact sourced from manufacturer. Editorial seed based on general product knowledge."
+      "No specific ASINs found across requested markets; product may be sold through third-party sellers or not yet widely listed. Manufacturer URL provides official specifications. Amazon search URLs provided for all markets as candidate starting points."
     ]
   }
 }
