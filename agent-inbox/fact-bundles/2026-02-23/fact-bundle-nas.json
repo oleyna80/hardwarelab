@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
       "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trends.",
+    "reasoning_short": "Highest score, available in all major markets, recent positive reviews.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3pzZVNRTHdhZExESGlBaG1aWFBkRlpLV2dYUUNlUHhMR1MyVGVEbHUtcU5rQ0xDTmF2dkt2cHdrT0JOaHVpcHVOVDZnbXEwdzNuZm1kQ2ZEdDRwZVRxUzlneGtqc0VHb0NaOGVHcXlrWHJQeWF0UFJ5NWdwNkpFRDlSQXVqUEE1VXhzZ29RWDJYaFc3Z2VvN2w4NFdZS3I1ZFhVaHJOWENiWndlX2ljc29pNHRuOXJSUDFuclVpeXpUMUZhTmFv?oc=5",
       "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3RlNTAxWW1sOXZhcmRjZTZiM3N6U3VmdGhSbTBQd3BQaTZvY0VsS2xzblZVX2tqWUZvSkxGejVSVFVWT29rVXk3UjR1SW9EOHRieDl3MUtkVVVTOGJsMWV4ak1IaUlCMjAwLTY0Tk81ejJXZDV4ZTFQbE04S2dza0lTbUw?oc=5",
@@ -50,8 +50,8 @@
     "score": 78,
     "ai_mode": "deepseek",
     "ai_confidence": 78,
-    "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-    "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
+    "ai_reason": "Highest score, available in all major markets, recent positive reviews.",
+    "ai_angle": "Cost-effective alternative to cloud storage subscriptions with versatile desktop NAS functionality."
   },
   "ready_for_pass_a": false,
   "blockers": [
