@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B09CKFYKWB",
     "asin_us_listing_title": "Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 96,
+    "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -46,10 +46,10 @@
     },
     "trend_7d": 14,
     "trend_30d": 16,
-    "novelty_hits": 5,
-    "score": 96,
+    "novelty_hits": 7,
+    "score": 100,
     "ai_mode": "deepseek",
-    "ai_confidence": 96,
+    "ai_confidence": 100,
     "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
     "ai_angle": "Compact next-gen gaming at an accessible price point with Game Pass integration."
   },
