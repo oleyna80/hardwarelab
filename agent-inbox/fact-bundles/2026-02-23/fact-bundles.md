@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for ASUS NUC 14 Pro in specified markets. Product appears to be newly announced/pre-release based on manufacturer site. All ASIN fields set to 'absent' per constraints.
+- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No verified Amazon listings or ASINs found across specified regions. Manufacturer site provides specifications but no pricing or reviews. Product likely in pre-order or early launch phase.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
@@ -49,8 +49,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20X
-- https://www.amazon.de/s?k=Xbox%20Series%20X
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
 
 ## NAS
 
