@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-    "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office and light creative work."
+    "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office use."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -122,7 +122,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications."
+      "ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer website provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications."
     ]
   }
 }
