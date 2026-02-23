@@ -5,26 +5,26 @@
     "category_label": "Mini PC",
     "topic": "ASUS NUC 14 Pro",
     "candidate_product_name": "ASUS NUC 14 Pro",
-    "asin_us": "B0D6BKM3M1",
-    "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
-    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
+    "asin_us": "B0D67CR9B2",
+    "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
+    "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0D6BKM3M1",
+      "US": "https://www.amazon.com/dp/B0D67CR9B2",
       "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
       "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     },
-    "reasoning_short": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
+    "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
-      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
       "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
       "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-      "https://www.amazon.com/dp/B0D6BKM3M1"
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQak1va0dWRDIxQlYzRUhxRXRyaVlySVZtWlBQOWlUQnJ6SGtVMkZ5RkswdktGTlFmQ25UN2JfN0Rad0FxRTN0QWVfVWhvMEVLX1UwUWdMWklDbnFTamNhbjFvYzFYYVhtQUVaN01xOExGc1IzYkdsdFVKRDBCQ1RDbThlZHFaZllvWlJBMW1DajJ6eEdOUkxpVmJzSmNWUG5NOVJuRk5FdlY?oc=5",
+      "https://www.amazon.com/dp/B0D67CR9B2"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,8 +50,8 @@
     "score": 58.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
-    "ai_angle": "Compact mini PC with Intel Core Ultra processors, dual Thunderbolt 4 ports, and professional-grade connectivity for business and creative workflows."
+    "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model name.",
+    "ai_angle": "Compact AI-ready mini PC with Intel Core Ultra processors, balancing performance and connectivity in small form factor."
   },
   "ready_for_pass_a": false,
   "blockers": [
