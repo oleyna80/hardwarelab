@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-    "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office and light creative work."
+    "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office use."
   },
   "ready_for_pass_a": false,
   "blockers": [
