@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
       "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
     },
-    "reasoning_short": "Available on all major Amazon markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+    "reasoning_short": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
@@ -49,8 +49,8 @@
     "score": 60.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Available on all major Amazon markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-    "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada GPU capabilities."
+    "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+    "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada configurations."
   },
   "ready_for_pass_a": false,
   "blockers": [
