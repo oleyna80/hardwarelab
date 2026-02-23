@@ -17,13 +17,13 @@
       "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
       "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
     },
-    "reasoning_short": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+    "reasoning_short": "Available in all major Amazon markets (US/UK/DE), exact model name, highest score among qualified candidates.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
       "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
       "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNzFLZ29NdGZ5Vk5GTEI5Q0tCZFJ1Q2hYMU1SSGdjY2FQODlGQTYySFo2bnpEbUUtZ2NYTHcxWmtjMHJKN3JBSkY1TERhOFYtM3RZbzVwZEFwR25sZFB1SVd2N0xYMy1ISXBQOUlGbWpUa2xaaUVsQWxMTEZVcjhQQnZpa0FvNktEUEJqNUlBdURwVFZLSHpUTGZmUE4wLU1zTy14MWcycm5wYmpCNGJSN2l6Z9IBuAFBVV95cUxQaTRjVDRqTUVYcEEyZEZBazFPb0wtTnNKZUxfNGxCcjA3S01qWm02Z25KMXRuWGE4dFNyakc3Yzh5enZtb3c2SXF0bHg0d3J2clVRY0VacGtaTjgzMjdKOVZCNmdRS3Z6ejZMS0gxZ0lub1hkdkxJUC15WkRzQ2NfOC1FNXd5ODF4ZHVQUjN1Z0daUFFQUF9Qa2o2cGhsWnpSSHIzMFFZOFVydlF4djQtOHcxYVNmRzhJ?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
       "https://www.amazon.com/dp/B09X6BMSXX"
     ],
     "compliant": true,
@@ -45,12 +45,12 @@
     },
     "trend_7d": 0,
     "trend_30d": 1,
-    "novelty_hits": 14,
+    "novelty_hits": 13,
     "score": 60.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-    "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada configurations."
+    "ai_reason": "Available in all major Amazon markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+    "ai_angle": "Professional workstation with Core Ultra 9 and RTX 5000 Ada for AI development workloads"
   },
   "ready_for_pass_a": false,
   "blockers": [
