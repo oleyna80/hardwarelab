@@ -99,15 +99,15 @@
     ],
     "spec_facts": [
       {
-        "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics",
+        "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics.",
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+        "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs.",
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Features Intel Killer Wi-Fi 6E and 2.5Gb Ethernet connectivity",
+        "claim": "Features Intel Wi-Fi 6E, Bluetooth 5.3, and multiple connectivity ports including Thunderbolt 4.",
         "source_url": "https://www.asus.com/microsite/nuc/"
       }
     ],
@@ -115,14 +115,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "ASUS NUC 14 Pro Mini PC",
-      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and multimedia",
+      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and versatile connectivity for productivity and light gaming.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no user reviews or ratings yet. Product appears positioned in mid-range price category based on specifications."
+      "No ASINs found due to constraints against hallucination; product appears to be newly announced or not widely listed on Amazon in specified markets; manufacturer site used for spec facts; no user quotes or reviews available yet."
     ]
   }
 }
