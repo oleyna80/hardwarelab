@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
 - Total: 6
-- Seed ready: 1
-- Seed blocked: 5
+- Seed ready: 2
+- Seed blocked: 4
 - PASS A ready: 0
 - PASS A blocked: 6
 
@@ -12,22 +12,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Manufacturer URLs: 1
+- Spec facts: 3
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. ASINs cannot be confirmed without active Amazon listings.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
 
 ## Consoles
 
@@ -45,7 +45,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- PlayStation 5 Pro is currently a rumored/unannounced product with no official ASINs or Amazon listings available across all specified markets. Manufacturer URLs point to current PlayStation 5 product pages as official sources. No verified specifications, quotes, or reviews exist for this unannounced product.
+- No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All spec facts, quotes, and reviews are absent due to unannounced product status. Title and description based on industry rumors and leaks.
 ### Probe URLs
 - https://www.amazon.com/s?k=PlayStation%205%20Pro
 - https://www.amazon.de/s?k=PlayStation%205%20Pro
@@ -100,7 +100,7 @@
 
 ## Gaming Hardware
 
-- Topic: **ASUS ROG Ally X**
+- Topic: **Nintendo Switch OLED**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -118,8 +118,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=ASUS%20ROG%20Ally%20X
-- https://www.amazon.de/s?k=ASUS%20ROG%20Ally%20X
+- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
+- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
 
 ## AI Workstations
 
