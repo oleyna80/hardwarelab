@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T19:32:37.688Z",
+  "generated_at": "2026-02-23T19:37:35.976Z",
   "total": 7,
   "seed_ready_count": 1,
   "seed_blocked_count": 6,
@@ -107,7 +107,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for ASUS NUC 14 Pro across specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no purchase links or reviews. Trend data suggests emerging interest but limited market presence."
+          "ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications."
         ]
       },
       "seed_ready": true,
@@ -197,7 +197,7 @@
         },
         "trend_7d": 10,
         "trend_30d": 12,
-        "novelty_hits": 7,
+        "novelty_hits": 6,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
@@ -334,7 +334,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 78,
         "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -466,7 +466,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 79,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
-        "ai_angle": "Raspberry Pi 5 8GB review: The mainstream SBC facing price hikes but remains the most popular single-board computer."
+        "ai_angle": "Raspberry Pi 5 8GB: The popular SBC facing price hikes amid AI demand, but remains a versatile platform for projects."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -556,7 +556,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
         "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 91,
+        "confidence_score": 92,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -564,7 +564,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model name matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -592,13 +592,13 @@
           "ES": true
         },
         "trend_7d": 6,
-        "trend_30d": 7,
+        "trend_30d": 8,
         "novelty_hits": 5,
-        "score": 90.5,
+        "score": 92,
         "ai_mode": "deepseek",
-        "ai_confidence": 91,
-        "ai_reason": "Highest score, available in all major markets, exact model name matches rules.",
-        "ai_angle": "Nintendo Switch OLED remains a top console choice in 2026 with PSP emulation and Virtual Boy VR revival features."
+        "ai_confidence": 92,
+        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 with strong market presence and versatility."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -696,7 +696,7 @@
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model specified.",
+        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model name provided.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT3p3ZnBiSnFUNi00dEpLNFhDaGZfR2xtUXE2SmExSVVpQWdCOEJUUjBLVVNYbThMb3ktb3hUVllERTNpRnc3R3RrR0RtZGUtcE5VTFYweVRqMUo5dnktUldRTGpETG1OZ1hDanR0ejIwT2h6M2VKdnFpTEtvZw?oc=5",
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWlhScGNPSk5lNTFOcnZCYjg0Rm5QTExpay1LbmR3cnB0YWJUMTh0NnBHWVkzSzdxMk1la3UwUkllMHYxVFJ0dTZjLUd3eXlxZTNJa2NzRmg3ZTk0WUxyUnh5eTdLbHNNTVRsem9TX0M?oc=5",
@@ -724,7 +724,7 @@
         "score": 5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model specified.",
+        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
         "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - 17% off deal review"
       },
       "fact_bundle": {
@@ -828,8 +828,8 @@
           "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
-          "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSU93anhOSUlKMllFX0I4VThnTzZ4VkhQMWxfRFVYMllUTGtVcUtvbmVfTEVVOHQyVXM3TFdzMFNjODhZem5JSnZxbTc1dHhxSll5SERCWHp3bTBiUXhzZUpHUWlYdUY2ZGdEOFFmWkk1NXBWYXFsWVQ3eEJSc1VId05iTnJoam5CWXZJdGEzd1VTZw?oc=5",
           "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
+          "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
           "https://www.amazon.com/dp/B09X6BMSXX"
         ],
         "compliant": true,
@@ -856,7 +856,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
+        "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada GPU capabilities."
       },
       "fact_bundle": {
         "asin_candidates": {
