@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T21:27:31.977Z",
-  "total": 6,
+  "generated_at": "2026-02-23T21:32:35.488Z",
+  "total": 7,
   "seed_ready_count": 1,
-  "seed_blocked_count": 5,
+  "seed_blocked_count": 6,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 6,
+  "pass_a_blocked_count": 7,
   "ready_count": 0,
-  "blocked_count": 6,
+  "blocked_count": 7,
   "rows": [
     {
       "topic": {
@@ -15,26 +15,26 @@
         "category_label": "Mini PC",
         "topic": "ASUS NUC 14 Pro",
         "candidate_product_name": "ASUS NUC 14 Pro",
-        "asin_us": "B0D6BKM3M1",
-        "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
-        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
+        "asin_us": "B0D67CR9B2",
+        "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
+        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
         "asin_probe_error": null,
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0D6BKM3M1",
+          "US": "https://www.amazon.com/dp/B0D67CR9B2",
           "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         },
-        "reasoning_short": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
+        "reasoning_short": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model availability.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
           "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
-          "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
           "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
           "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-          "https://www.amazon.com/dp/B0D6BKM3M1"
+          "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWHBmRFVYUE1NN25DMXA5enlOaFZwbUJsaGZ6WTdEMkI2N2JKc0lFY0p2S09JV2hVMmJ3VlRTR1lLdFdMRFJlR1MyMEk3OTM5ckFnNm9CeXB3TXpKZGRPNllIVE1TTzF6Q2pMVmhJZm5FTE1WOVh3OEotM1c2d21LcDRUTHdoQVBEVEc1SVk3VFZCZ1dNVnBLZ3dxZHQ4LWdzMDJ2Q0IwQ3RnaGVKSnZHVjFrdlBfZFlwTjZfbU1DcVAxdG5KUEhhRW5LTnItTldsYlE?oc=5",
+          "https://www.amazon.com/dp/B0D67CR9B2"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -60,8 +60,8 @@
         "score": 58.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score candidate available in all major markets with recent media coverage and positive trend.",
-        "ai_angle": "Compact mini PC with professional features but compromises on expandability - ideal for office and light creative work."
+        "ai_reason": "Highest score (58.5), available in all major markets, recent press coverage confirms exact model availability.",
+        "ai_angle": "Compact AI-ready mini PC with Intel Core Ultra processors, balancing performance and connectivity in small form factor."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -92,7 +92,7 @@
             "source_url": "https://www.asus.com/microsite/nuc/"
           },
           {
-            "claim": "Features Intel Wi-Fi 6E, Bluetooth 5.3, and multiple connectivity ports including Thunderbolt 4",
+            "claim": "Features Intel Killer Wi-Fi 6E and 2.5Gb Ethernet connectivity",
             "source_url": "https://www.asus.com/microsite/nuc/"
           }
         ],
@@ -100,14 +100,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "ASUS NUC 14 Pro Mini PC",
-          "description_candidate": "Compact mini PC powered by Intel Core Ultra processors with Intel Arc graphics, supporting up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
+          "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and multimedia",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for ASUS NUC 14 Pro across specified markets. Manufacturer website provides specifications but no pricing or availability details. Product appears to be newly announced based on trend data."
+          "No ASINs found across specified markets; product appears to be newly announced or not yet widely available on Amazon; manufacturer site provides specifications but no purchase links; trend data suggests emerging interest but limited market presence"
         ]
       },
       "seed_ready": true,
@@ -160,7 +160,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
         "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
         "asin_probe_error": null,
-        "confidence_score": 96,
+        "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -197,12 +197,12 @@
         },
         "trend_7d": 13,
         "trend_30d": 15,
-        "novelty_hits": 5,
-        "score": 96,
+        "novelty_hits": 6,
+        "score": 100,
         "ai_mode": "deepseek",
-        "ai_confidence": 96,
+        "ai_confidence": 100,
         "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming with Game Pass access and 1440p/120fps support in a digital-only design."
+        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -300,7 +300,7 @@
           "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
           "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trends.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trending upward.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3pzZVNRTHdhZExESGlBaG1aWFBkRlpLV2dYUUNlUHhMR1MyVGVEbHUtcU5rQ0xDTmF2dkt2cHdrT0JOaHVpcHVOVDZnbXEwdzNuZm1kQ2ZEdDRwZVRxUzlneGtqc0VHb0NaOGVHcXlrWHJQeWF0UFJ5NWdwNkpFRDlSQXVqUEE1VXhzZ29RWDJYaFc3Z2VvN2w4NFdZS3I1ZFhVaHJOWENiWndlX2ljc29pNHRuOXJSUDFuclVpeXpUMUZhTmFv?oc=5",
           "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3RlNTAxWW1sOXZhcmRjZTZiM3N6U3VmdGhSbTBQd3BQaTZvY0VsS2xzblZVX2tqWUZvSkxGejVSVFVWT29rVXk3UjR1SW9EOHRieDl3MUtkVVVTOGJsMWV4ak1IaUlCMjAwLTY0Tk81ejJXZDV4ZTFQbE04S2dza0lTbUw?oc=5",
@@ -333,8 +333,8 @@
         "score": 78,
         "ai_mode": "deepseek",
         "ai_confidence": 78,
-        "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
+        "ai_reason": "Highest score, available in all major markets, strong recent coverage and trending upward.",
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -420,26 +420,26 @@
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
         "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0CK2FCG1K",
-        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
-        "asin_us_listing_title": "Raspberry Pi 5 8GB",
+        "asin_us": "B0CTT6X2ZJ",
+        "asin_us_url": "https://www.amazon.com/dp/B0CTT6X2ZJ",
+        "asin_us_listing_title": "Vilros Raspberry Pi 5-8GB Starter Kit - Turbo Cooled Edition - 32GB Memory (Aluminum Black)",
         "asin_probe_error": null,
-        "confidence_score": 76,
+        "confidence_score": 75,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
+          "US": "https://www.amazon.com/dp/B0CTT6X2ZJ",
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and novelty.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
           "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-          "https://www.amazon.com/dp/B0CK2FCG1K"
+          "https://www.amazon.com/dp/B0CTT6X2ZJ"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -460,13 +460,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 8,
+        "trend_30d": 7,
         "novelty_hits": 5,
-        "score": 76,
+        "score": 74.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 76,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, AI capabilities, and recent price changes analyzed."
+        "ai_confidence": 75,
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, AI capabilities, and value amid recent price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -556,7 +556,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
         "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 98,
+        "confidence_score": 91,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -564,7 +564,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -591,14 +591,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 6,
-        "trend_30d": 9,
+        "trend_7d": 5,
+        "trend_30d": 7,
         "novelty_hits": 6,
-        "score": 97.5,
+        "score": 90.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 98,
-        "ai_reason": "Highest score, available in all major markets, exact model matches rules.",
-        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026?"
+        "ai_confidence": 91,
+        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer handheld competition."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -680,19 +680,146 @@
     },
     {
       "topic": {
-        "category_key": "ai-workstation",
-        "category_label": "AI Workstations",
-        "topic": "Lenovo ThinkStation P3 Tower",
-        "candidate_product_name": "Lenovo ThinkStation P3 Tower",
-        "asin_us": "B0GJV5T1HX",
-        "asin_us_url": "https://www.amazon.com/dp/B0GJV5T1HX",
-        "asin_us_listing_title": "Lenovo Thinkstation P3 Tower PC Core i7-13700 32GB RAM 1TB SSD W11P (Renewed)",
+        "category_key": "gaming-pcs",
+        "category_label": "Gaming PCs",
+        "topic": "Corsair Vengeance i7400",
+        "candidate_product_name": "Corsair Vengeance i7400",
+        "asin_us": "B0BYTGQ3SM",
+        "asin_us_url": "https://www.amazon.com/dp/B0BYTGQ3SM",
+        "asin_us_listing_title": "Corsair Vengeance i7400 Series Gaming PC - Liquid Cooled Intel® Core™ i7 13700K CPU - NVIDIA® GeForce RTX™ 4070 Ti Graphics - 32GB Vengeance RGB DDR5 Memory, Black",
         "asin_probe_error": null,
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0GJV5T1HX",
+          "US": "https://www.amazon.com/dp/B0BYTGQ3SM",
+          "DE": "absent",
+          "FR": "absent"
+        },
+        "reasoning_short": "Only candidate with confirmed US marketplace availability, exact model name provided.",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT3p3ZnBiSnFUNi00dEpLNFhDaGZfR2xtUXE2SmExSVVpQWdCOEJUUjBLVVNYbThMb3ktb3hUVllERTNpRnc3R3RrR0RtZGUtcE5VTFYweVRqMUo5dnktUldRTGpETG1OZ1hDanR0ejIwT2h6M2VKdnFpTEtvZw?oc=5",
+          "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWlhScGNPSk5lNTFOcnZCYjg0Rm5QTExpay1LbmR3cnB0YWJUMTh0NnBHWVkzSzdxMk1la3UwUkllMHYxVFJ0dTZjLUd3eXlxZTNJa2NzRmg3ZTk0WUxyUnh5eTdLbHNNTVRsem9TX0M?oc=5",
+          "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbnVQWmdJVEI4dGN4bXNCanBNSlFlQ1JZRnBjcDljdjF0Ul81U2FxZkpibUZKVkdjRnRPRGF6akktSHRtZ2h2anN5TEZwN2tiNXJpT2k2VDg4dGxTd3BfeV9tNjZDdDVqeGtNS1R6bko3Q1NKYU5MQlBvTU1rWmdmR180LTlSdkNIRXVyRFpfM1dXbFc2bWV0eU05SEF0cW9ZdVE4d2owZ2lWemJVaGRzZHROeWpLakN3bTNWQml3?oc=5",
+          "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdVJ0OXloUmdvVnQ2MEs1cFZFT3JmeDl3ODl4c1dJb0lSZlNNaWlVZktWQUVWM3NrU1Z4dXB6VERXeDdPRVpEYW1qTGRXRmNGSTV6VGlYd1M5WXl5WEdwaWw2VUYxYTNUUUpRNTlkLS1oZ3NJejFpN3UxMFFFSGx3WWp5bU1wRVJ0dmxQLTBwWURnZjIyWGI2dFBwd2ptTkZyZTJSOHIzN2M4NlhUcU5UaHN2YW1zb29Mb0RJM2kzT25Jdw?oc=5",
+          "https://news.google.com/rss/articles/CBMixwFBVV95cUxORk9QMEZKbDhncmF4b00yTmstbzNYY2ptbGR2ZU52a0xhSFloQzRJS1FnX1FFQVZXRlFocVhzSGktWE94ZDJmR3JNUGpmd2VoM1JkdlIzbngzVjd4V2xMeV9DR2lmNXc3cE56WGdVNVM4cEZlZDN6T0pjY3pEVHVEM29samxKa01FdjJMVWUzbjdESUFMUjJXWmZ6bkxHZklpenYwTlZUZGotMUZ6X0lITzBhOGl2dmppb05iVEwzQmhsZXIyamdr?oc=5",
+          "https://www.amazon.com/dp/B0BYTGQ3SM"
+        ],
+        "compliant": false,
+        "rule": "insufficient_coverage",
+        "available_markets": [
+          "US"
+        ],
+        "coverage": {
+          "US": true,
+          "UK": false,
+          "DE": false,
+          "FR": false,
+          "IT": false,
+          "ES": false
+        },
+        "trend_7d": 0,
+        "trend_30d": 0,
+        "novelty_hits": 0,
+        "score": 5,
+        "ai_mode": "deepseek",
+        "ai_confidence": 85,
+        "ai_reason": "Only candidate with confirmed US marketplace availability, exact model name provided.",
+        "ai_angle": "Corsair Vengeance i7400 gaming PC with RTX 4070 - premium pre-built performance at 17% discount."
+      },
+      "fact_bundle": {
+        "asin_candidates": {
+          "us": "absent",
+          "de": "absent",
+          "fr": "absent",
+          "it": "absent",
+          "es": "absent",
+          "uk": "absent",
+          "primary_region": "absent",
+          "primary_url": "absent"
+        },
+        "amazon_candidate_urls": [
+          "https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400",
+          "https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400",
+          "https://www.amazon.fr/s?k=Corsair%20Vengeance%20i7400"
+        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
+        "quote_candidates": [],
+        "related_reviews_candidates": [],
+        "editorial_seed": {
+          "title_candidate": "Gaming PCs: Corsair Vengeance i7400",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
+          "rating_candidate": null,
+          "rating_source_url": "absent"
+        },
+        "collection_mode": "fallback",
+        "notes": [
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
+        ]
+      },
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "ready_for_pass_a": false,
+      "blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers_top3": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
+      ],
+      "validator": {
+        "reachable_probe_urls": 2,
+        "checked_urls": [
+          "https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400",
+          "https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400"
+        ],
+        "has_us_asin": false,
+        "has_rating_source": false,
+        "amazon_url_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
+        "quote_candidate_count": 0,
+        "related_candidate_count": 0,
+        "seed_evidence_units": 0
+      }
+    },
+    {
+      "topic": {
+        "category_key": "ai-workstation",
+        "category_label": "AI Workstations",
+        "topic": "Lenovo ThinkStation P3 Tower",
+        "candidate_product_name": "Lenovo ThinkStation P3 Tower",
+        "asin_us": "B09X6BMSXX",
+        "asin_us_url": "https://www.amazon.com/dp/B09X6BMSXX",
+        "asin_us_listing_title": "Lenovo ThinkStation P3 Tiny Workstation Intel i7-14700, 32GB DDR5, 1TB NVMe, T400 4GB Discrete Graphics, WiFi 6E + BT, RJ-45, 3X miniDP, DP Port, HDMI (5 Monitor Max), Win 11 Pro, 3 Yr Wty",
+        "asin_probe_error": null,
+        "confidence_score": 85,
+        "status": "shortlisted",
+        "discard_reason": null,
+        "market_evidence": {
+          "US": "https://www.amazon.com/dp/B09X6BMSXX",
           "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
           "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
         },
@@ -703,7 +830,7 @@
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
           "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSU93anhOSUlKMllFX0I4VThnTzZ4VkhQMWxfRFVYMllUTGtVcUtvbmVfTEVVOHQyVXM3TFdzMFNjODhZem5JSnZxbTc1dHhxSll5SERCWHp3bTBiUXhzZUpHUWlYdUY2ZGdEOFFmWkk1NXBWYXFsWVQ3eEJSc1VId05iTnJoam5CWXZJdGEzd1VTZw?oc=5",
           "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
-          "https://www.amazon.com/dp/B0GJV5T1HX"
+          "https://www.amazon.com/dp/B09X6BMSXX"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -729,7 +856,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-        "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
+        "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada GPU capabilities."
       },
       "fact_bundle": {
         "asin_candidates": {
