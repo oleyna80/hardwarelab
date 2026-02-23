@@ -8,7 +8,7 @@
 
 ## Mini PC
 
-- Topic: **ASUS NUC 14 Pro**
+- Topic: **Aoostar GEM12**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -21,13 +21,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. ASINs cannot be confirmed without active Amazon listings.
+- No Amazon listings found for Aoostar GEM12 across specified markets. Manufacturer website provides product specifications. Limited user reviews or quotes available from authoritative sources.
 ### Probe URLs
-- https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
-- https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
-- https://www.asus.com/microsite/nuc/
-- https://www.asus.com/microsite/nuc/
-- https://www.asus.com/microsite/nuc/
+- https://www.amazon.com/s?k=Aoostar%20GEM12
+- https://www.amazon.de/s?k=Aoostar%20GEM12
+- https://aoostar.com/
+- https://aoostar.com/products/aoostar-gem12-mini-pc-intel-core-i7-12650h
+- https://aoostar.com/products/aoostar-gem12-mini-pc-intel-core-i7-12650h
 
 ## Consoles
 
@@ -72,8 +72,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=TerraMaster%20F2-425
-- https://www.amazon.de/s?k=TerraMaster%20F2-425
+- https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
+- https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
 
 ## SBC
 
@@ -91,7 +91,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found due to constraints against hallucination; Amazon search URLs provided for manual verification. Manufacturer URL is from Raspberry Pi official site. Spec fact sourced from manufacturer. Editorial seed based on general product knowledge.
+- No specific ASINs found across requested markets; product may be sold through third-party sellers or not yet widely listed. Manufacturer URL provides official specifications. Amazon search URLs provided for all markets as candidate starting points.
 ### Probe URLs
 - https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
 - https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
