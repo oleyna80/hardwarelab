@@ -1,12 +1,12 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T01:30:49.511Z",
-  "seed_ready_count": 0,
-  "seed_blocked_count": 0,
+  "generated_at": "2026-02-23T01:37:13.637Z",
+  "seed_ready_count": 3,
+  "seed_blocked_count": 2,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 0,
+  "pass_a_blocked_count": 5,
   "ready_count": 0,
-  "blocked_count": 0,
-  "total": 0,
+  "blocked_count": 5,
+  "total": 5,
   "ready_ratio": 0
 }
