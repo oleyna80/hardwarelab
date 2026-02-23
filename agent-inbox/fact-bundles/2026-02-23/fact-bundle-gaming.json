@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B098RKWHHZ",
     "asin_us_listing_title": "Nintendo Switch – OLED Model w/White Joy-Con",
     "asin_probe_error": null,
-    "confidence_score": 98,
+    "confidence_score": 91,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 6,
-    "trend_30d": 9,
+    "trend_7d": 5,
+    "trend_30d": 7,
     "novelty_hits": 6,
-    "score": 97.5,
+    "score": 90.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 98,
+    "ai_confidence": 91,
     "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-    "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 for gaming versatility and PSP emulation."
+    "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026?"
   },
   "ready_for_pass_a": false,
   "blockers": [
