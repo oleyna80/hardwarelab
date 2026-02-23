@@ -99,15 +99,15 @@
     ],
     "spec_facts": [
       {
-        "claim": "ASUS NUC 14 Pro is a mini PC with Intel Core Ultra processors",
+        "claim": "ASUS NUC 14 Pro is a mini PC powered by Intel Core Ultra processors with Intel Arc graphics",
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Supports up to 96GB DDR5 RAM and dual M.2 PCIe 4.0 SSDs",
+        "claim": "Supports up to 96GB DDR5 memory and dual M.2 PCIe 4.0 SSDs",
         "source_url": "https://www.asus.com/microsite/nuc/"
       },
       {
-        "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
+        "claim": "Features Intel Killer Wi-Fi 6E and 2.5Gb Ethernet connectivity",
         "source_url": "https://www.asus.com/microsite/nuc/"
       }
     ],
@@ -115,14 +115,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "ASUS NUC 14 Pro Mini PC",
-      "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options",
+      "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and multimedia",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon listings found for ASUS NUC 14 Pro across specified markets. Product appears to be newly announced with manufacturer information only available. No user quotes or reviews located."
+      "ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications."
     ]
   }
 }
