@@ -12,7 +12,7 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
+- Manufacturer URLs: 2
 - Spec facts: 3
 - Quote candidates: 0
 ### Blockers
@@ -21,17 +21,18 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found across specified markets; product appears newly announced or not yet widely listed on Amazon. Manufacturer site used for specs. No user quotes or reviews available due to novelty.
+- No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provided for specifications. Price category estimated based on typical mini PC market positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
 - https://www.asus.com/microsite/nuc/
-- https://www.asus.com/microsite/nuc/
-- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/commercial-mini-pcs/nuc/
+- https://www.asus.com/commercial-mini-pcs/nuc/
+- https://www.asus.com/commercial-mini-pcs/nuc/
 
 ## Consoles
 
-- Topic: **playstation 5 pro**
+- Topic: **xbox series s**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -49,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=PlayStation%205%20Pro
-- https://www.amazon.de/s?k=PlayStation%205%20Pro
+- https://www.amazon.com/s?k=Xbox%20Series%20S
+- https://www.amazon.de/s?k=Xbox%20Series%20S
 
 ## NAS
 
