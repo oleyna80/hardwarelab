@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0DGY63Z2H",
     "asin_us_listing_title": "PlayStation 5 Pro Console",
     "asin_probe_error": null,
-    "confidence_score": 99,
+    "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 7,
-    "trend_30d": 7,
-    "novelty_hits": 7,
-    "score": 98.5,
+    "trend_7d": 8,
+    "trend_30d": 8,
+    "novelty_hits": 8,
+    "score": 100,
     "ai_mode": "deepseek",
-    "ai_confidence": 99,
+    "ai_confidence": 100,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Premium console upgrade with enhanced performance for demanding games and 4K gaming."
+    "ai_angle": "Review of PlayStation 5 Pro's enhanced performance and PSSR 2.0 upscaling for classic games."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -114,7 +114,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No official ASINs found for PlayStation 5 Pro across all specified markets as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All spec facts, quotes, and reviews are absent due to lack of official product information."
+      "PlayStation 5 Pro is currently a rumored/unannounced product with no official ASINs or Amazon listings available across all specified markets. Manufacturer URLs point to current PlayStation 5 product pages as official sources. No verified specifications, quotes, or reviews exist for this unannounced product."
     ]
   }
 }
