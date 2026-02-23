@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 99,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "High-end console upgrade with enhanced performance for 4K gaming and backward compatibility."
+    "ai_angle": "Premium console upgrade with enhanced performance for demanding games and 4K gaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -114,7 +114,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No official ASINs found for PlayStation 5 Pro as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All spec facts, quotes, and reviews are absent due to unannounced product status. Title and description based on industry rumors and leaks."
+      "No official ASINs found for PlayStation 5 Pro across all specified markets as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All spec facts, quotes, and reviews are absent due to lack of official product information."
     ]
   }
 }
