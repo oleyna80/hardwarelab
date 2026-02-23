@@ -22,8 +22,8 @@
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxObHhFRllSQlN5ZTlpMVY5dG91WG5uWDQtY2FUYnZmYmF3bnhhVF90REFhWDNoUHhfWERXMEt6X1JVSDdkTFBBbXItUVl5OThQa3J3TkxKaXk4ZlI1LVZJNWZET3FKOGZqZGE1UTBTMEZaUmhxSW9RVU1jYjFjYkM3aVZxUjBCY0ZqcFFaYi1tYVg3Q1gxYi1GZGNLaTJWbG5qeFVtUlRB?oc=5",
       "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkZGRngzR2dhNzJVanFTX3U1SWlJY3ZuOXlwbkFMSF9EQ1Y3OXlLMzgwWkxRZm9HeUdhbllWck5mUjVGVW5EQzh4V2xOeExPbXJLMGlCRmtjZzRSMXV6S3VKNVptckY2S1RUdzVlLWxtcXd4bEVMMTZlOEVQRHNhWldja1VXelR1aFRTVFlBbnRGT3doc0ozRGNoby1pSG5aSGZZX0xsYXU?oc=5",
       "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDalhYU3A0Rl9nNnp0VlduQzcxWnBGTHRxbFRsWl9QMU9mdlJSbTQ4OHlOdkFLWlduYW11QTQ4SE9adm9iZWNobEJ3czFPT1JmenhJM2VnYnhBNkJJY1NxdWppSlE0UQ?oc=5",
-      "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdTk2Rlh6aGdSUVlabExiQXZIYnVvUkU2Q2RKSFB1Z1ViOGRvTXFtRU5KckRpSEVlVmtDSU1KRGNhdWNLbnlMUkZHXzNWN3ZjaVdoaENUOUJqb2E5QVpPbGc4RHVoeFY0Y2doeXFYc3M4NjBKQjdrbGVPTUZsVnl3SVZDLTV0QknSAYwBQVVfeXFMUDZKWlFsZXBYLWE4VW52SGlXekVLTHJqUUZNYmg2dXZtWXpKVXVFaUVvUmotUXJGNklod2JXemd1RWVjaFQwdFdsX1dqZUc3R2Q0bC13TXZCR3pvZlNpNXRpbGkwSGxPQXZZZzdUQUpaaFN6Y3VfVFZkbUUzWjRyQjF1SHd0QVFtSm1WbEQ?oc=5",
       "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWTdWVnB3UDBULVFlYm1BV2Z6QXJWVmJzM3lyNU95TWJkZ3JVOGduWmd4RzJVY0pOcWduTHV5Ymx4RF9UN2JXRUkzWjVCVHBxaDFCaW45QUYyLWRaWHdKRmpqaWpfVXV3MGVDRHBlZHp6RTNYY24tQ1pyRlEwdzEtRUtueDBNY0Z1MjBSU29sYUFSUWtZaFdFcnU0QXByZ3o5RnU3OE9vRVJJSXhNcG4xS1JHN0EzT0xIS1FoUTdxamNuYXpzNkx0eW51ZzV3ekR3Z1NMekh5dE1Hb1M40gHiAUFVX3lxTE1yT0RsOUxfbTlzWEJ0Y0d6bUQxbGJoRU0tamtSeDhfR3lPX2oxQm9BRVFCU1RLRnplVHFSdWhSemhhek1iTWVkVU9GRVF3N3gya2NRaXBrZVNhR1VoeFlsS1J2NnlrMHc1cVN6RWwtUGxvNmpNU1NWRS16ajRFakZSZFlBVEkwNHMtRTlEYmFiSjkwMC1HZk4xb1lrOERnQjhfTXRodUFrdE5SeW1HUVFISWV6M1ZIcFZkUWNzZExqQ2tkdUhOdVZMXzFBZUhib2lBVU05UnpDem9za0hKZXlJOGc?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdTk2Rlh6aGdSUVlabExiQXZIYnVvUkU2Q2RKSFB1Z1ViOGRvTXFtRU5KckRpSEVlVmtDSU1KRGNhdWNLbnlMUkZHXzNWN3ZjaVdoaENUOUJqb2E5QVpPbGc4RHVoeFY0Y2doeXFYc3M4NjBKQjdrbGVPTUZsVnl3SVZDLTV0QknSAYwBQVVfeXFMUDZKWlFsZXBYLWE4VW52SGlXekVLTHJqUUZNYmg2dXZtWXpKVXVFaUVvUmotUXJGNklod2JXemd1RWVjaFQwdFdsX1dqZUc3R2Q0bC13TXZCR3pvZlNpNXRpbGkwSGxPQXZZZzdUQUpaaFN6Y3VfVFZkbUUzWjRyQjF1SHd0QVFtSm1WbEQ?oc=5",
       "https://www.amazon.com/dp/B0DGY63Z2H"
     ],
     "compliant": true,
@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 100,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "PS5 Pro review: Is the $749 premium over standard PS5 justified by performance gains for 2025 gaming?"
+    "ai_angle": "Review of PlayStation 5 Pro performance enhancements and value proposition compared to standard PS5."
   },
   "ready_for_pass_a": false,
   "blockers": [
