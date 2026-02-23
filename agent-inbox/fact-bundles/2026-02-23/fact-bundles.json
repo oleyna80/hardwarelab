@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T20:07:34.923Z",
+  "generated_at": "2026-02-23T20:12:38.841Z",
   "total": 7,
   "seed_ready_count": 1,
   "seed_blocked_count": 6,
@@ -170,7 +170,7 @@
           "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
           "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
@@ -203,8 +203,8 @@
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
+        "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
+        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps capabilities."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -302,7 +302,7 @@
           "DE": "https://www.amazon.de/s?k=TerraMaster%20F2-425",
           "FR": "https://www.amazon.fr/s?k=TerraMaster%20F2-425"
         },
-        "reasoning_short": "Highest score candidate available in all major markets with strong recent trend and coverage.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent coverage and trends.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3pzZVNRTHdhZExESGlBaG1aWFBkRlpLV2dYUUNlUHhMR1MyVGVEbHUtcU5rQ0xDTmF2dkt2cHdrT0JOaHVpcHVOVDZnbXEwdzNuZm1kQ2ZEdDRwZVRxUzlneGtqc0VHb0NaOGVHcXlrWHJQeWF0UFJ5NWdwNkpFRDlSQXVqUEE1VXhzZ29RWDJYaFc3Z2VvN2w4NFdZS3I1ZFhVaHJOWENiWndlX2ljc29pNHRuOXJSUDFuclVpeXpUMUZhTmFv?oc=5",
           "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3RlNTAxWW1sOXZhcmRjZTZiM3N6U3VmdGhSbTBQd3BQaTZvY0VsS2xzblZVX2tqWUZvSkxGejVSVFVWT29rVXk3UjR1SW9EOHRieDl3MUtkVVVTOGJsMWV4ak1IaUlCMjAwLTY0Tk81ejJXZDV4ZTFQbE04S2dza0lTbUw?oc=5",
@@ -335,7 +335,7 @@
         "score": 78,
         "ai_mode": "deepseek",
         "ai_confidence": 78,
-        "ai_reason": "Highest score candidate available in all major markets with strong recent trend and coverage.",
+        "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
         "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
       },
       "fact_bundle": {
@@ -426,7 +426,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 80,
+        "confidence_score": 83,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -434,7 +434,7 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score candidate, available in all major markets, strong recent trends and headlines.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
@@ -462,13 +462,13 @@
           "ES": true
         },
         "trend_7d": 3,
-        "trend_30d": 8,
-        "novelty_hits": 5,
-        "score": 80,
+        "trend_30d": 7,
+        "novelty_hits": 6,
+        "score": 82.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 80,
-        "ai_reason": "Highest score candidate, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Latest model with 8GB RAM, performance benchmarks, and real-world project applications."
+        "ai_confidence": 83,
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid AI-driven price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -566,7 +566,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -599,8 +599,8 @@
         "score": 90.5,
         "ai_mode": "deepseek",
         "ai_confidence": 91,
-        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy?"
+        "ai_reason": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 with PSP emulation capabilities and 90s VR nostalgia."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -830,8 +830,8 @@
           "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
           "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
-          "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSU93anhOSUlKMllFX0I4VThnTzZ4VkhQMWxfRFVYMllUTGtVcUtvbmVfTEVVOHQyVXM3TFdzMFNjODhZem5JSnZxbTc1dHhxSll5SERCWHp3bTBiUXhzZUpHUWlYdUY2ZGdEOFFmWkk1NXBWYXFsWVQ3eEJSc1VId05iTnJoam5CWXZJdGEzd1VTZw?oc=5",
           "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
+          "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
           "https://www.amazon.com/dp/B09X6BMSXX"
         ],
         "compliant": true,
