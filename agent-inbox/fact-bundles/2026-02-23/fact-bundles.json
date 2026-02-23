@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T21:07:32.012Z",
-  "total": 7,
-  "seed_ready_count": 2,
+  "generated_at": "2026-02-23T21:12:26.660Z",
+  "total": 6,
+  "seed_ready_count": 1,
   "seed_blocked_count": 5,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 7,
+  "pass_a_blocked_count": 6,
   "ready_count": 0,
-  "blocked_count": 7,
+  "blocked_count": 6,
   "rows": [
     {
       "topic": {
@@ -15,15 +15,15 @@
         "category_label": "Mini PC",
         "topic": "ASUS NUC 14 Pro",
         "candidate_product_name": "ASUS NUC 14 Pro",
-        "asin_us": "B0D6BKM3M1",
-        "asin_us_url": "https://www.amazon.com/dp/B0D6BKM3M1",
-        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, Ultra 7 155H (16C/22T, Up to 4.8GHz) Mini Desktop, 32GB DDR5 RAM, 1TB PCIe 4 SSD, Intel Arc GPU, Type C 3.2, 8K, HDR, WiFi 6E",
+        "asin_us": "B0D67CR9B2",
+        "asin_us_url": "https://www.amazon.com/dp/B0D67CR9B2",
+        "asin_us_listing_title": "ASUS NUC 14 Pro AI Mini PC, DDR5 32GB RAM & 1TB PCIe 4 SSD, Intel Core Ultra 7-155H Processor (16C/22T/24M Cache, Up to 4.8GHz), Intel Arc GPU, Type C 3.2, 8K, BT5.3, WiFi 6E",
         "asin_probe_error": null,
         "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0D6BKM3M1",
+          "US": "https://www.amazon.com/dp/B0D67CR9B2",
           "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
           "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
         },
@@ -34,7 +34,7 @@
           "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFF3Z0RSRF9uXzNjZ3Nod0dDWmNzV0hXalRwN21hUFhUeHdCTUoya0UxNzVPTGRTdjBxeTR0MFNpSk5GN3VHVmE4cGs4dEN6SGJNNUZQdGZqZHgxaUJjbW56aUNfeUs3MDBsU3lIUnpRVVkxVDdzcEFDYUNqUV9JbGx2Smd4SHM?oc=5",
           "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWDZVTzdyOGNCZTgwUXZQdFRndF9kZ3dYWTlBSDV5YTNUbmVzcDBQTXA0VWhHZWZ5WERRX19hREJUbkZpeks3RThnMk1TRXhXY01lbXVSM1YwREpSMmtrYndwbTRnWXg5am93UWtfdFZxMXBMNVIyQ0tB?oc=5",
           "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnFXcFZqajcyTW1rWEdiV2FlVUVZMzlYQUZlZHlVdDNldG4yblZYYWNEMXJITkJEbFliOFdnX2xZd1NvWDRLb01ha0V3WVFsWi0xRGUtV0ctc2FPWFRWN2pIN2d1bHo5WHVfRjVNQnpCRjE4VHN2OUFXbUt0Mzc3SDdjbUw4SzdFSG9ENTNBVnZVZEhkVGJMbHFweEVoaWljdnJnQ0JQeUZYUnozR1hPSFhfVTRIeDVyT3ZfQV94UXZwVkhLb0hSNzl3?oc=5",
-          "https://www.amazon.com/dp/B0D6BKM3M1"
+          "https://www.amazon.com/dp/B0D67CR9B2"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -100,14 +100,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "ASUS NUC 14 Pro Mini PC",
-          "description_candidate": "Compact mini PC with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and content creation",
+          "description_candidate": "Compact mini PC powered by Intel Core Ultra processors with Intel Arc graphics, supporting high-speed DDR5 memory and PCIe 4.0 storage",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon listings found for ASUS NUC 14 Pro across specified markets. Product appears to be newly announced with manufacturer information available but not yet available for purchase on Amazon. All ASIN fields set to 'absent' per constraints against hallucinated ASINs."
+          "No ASINs found across specified markets. Manufacturer site confirms product existence but no retail listings identified. Product appears to be newly announced based on novelty hits."
         ]
       },
       "seed_ready": true,
@@ -155,18 +155,18 @@
         "category_key": "consoles",
         "category_label": "Consoles",
         "topic": "xbox series s",
-        "candidate_product_name": "Microsoft Xbox Series S",
-        "asin_us": "B092KKFHJ2",
-        "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
-        "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
+        "candidate_product_name": "Xbox Series S",
+        "asin_us": "B0D932YWSZ",
+        "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+        "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
         "asin_probe_error": null,
         "confidence_score": 96,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B092KKFHJ2",
-          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+          "US": "https://www.amazon.com/dp/B0D932YWSZ",
+          "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
         "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
         "source_urls": [
@@ -175,7 +175,7 @@
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
           "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXJXd3RqN050eWdDNDFuQ2k3SWJMWENwLWIxc1FFU0M2WXhrWldyYTQ5LXp3dy1rQXB4ZnJPN0tuTjg5WEVia3g0VHc1Zzhvbzl3NGd4RnpIVDY3QWg2ZzZrLXl3VjB4NTBnY0pwdHVrazhSSzRRdlpCblpkOFBvYy1hdFh2eDUyRllpSjNjS2dfeV90R0otTWtOdjlycm5Nei1oX2lxR0FSbk0?oc=5",
           "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUHdXZGZGal9odV9nMFYtU05vVy1zbEt1VW9KNG1GVUU1bmdvUktYTENPYjJKYUszNmtybUFzaGk5TXVDMGF0c0VYalRzYk0wVlpQakdtSGhJWThEbk1KVEJnRnNkZEJ4WUtpR2VRWGFTcHBkWEJWSWdyVVU0cjc0ZS1IMk1RamQ4N3cxVkhZZzJzT1pHNldhSGNNQVFPUUhvSlVaR29fNHgxY1dhdGFWdVNWTGpYQQ?oc=5",
-          "https://www.amazon.com/dp/B092KKFHJ2"
+          "https://www.amazon.com/dp/B0D932YWSZ"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -202,7 +202,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 96,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps capability."
+        "ai_angle": "Compact digital-only next-gen console with Game Pass integration and 1440p gaming."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -216,16 +216,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Microsoft Xbox Series S",
+          "title_candidate": "Consoles: Xbox Series S",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -269,8 +269,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -334,7 +334,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 78,
         "ai_reason": "Highest score, available in all major markets, strong recent coverage and trends.",
-        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile features."
+        "ai_angle": "Cost-effective desktop NAS alternative to cloud storage subscriptions with versatile functionality."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -416,149 +416,6 @@
     },
     {
       "topic": {
-        "category_key": "sbc",
-        "category_label": "SBC",
-        "topic": "Raspberry Pi 5 8GB",
-        "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0CK2FCG1K",
-        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
-        "asin_us_listing_title": "Raspberry Pi 5 8GB",
-        "asin_probe_error": null,
-        "confidence_score": 75,
-        "status": "shortlisted",
-        "discard_reason": null,
-        "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
-          "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-          "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
-        },
-        "reasoning_short": "Highest score candidate with major market availability and strong recent trends.",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
-          "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
-          "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
-          "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-          "https://www.amazon.com/dp/B0CK2FCG1K"
-        ],
-        "compliant": true,
-        "rule": "major_markets",
-        "available_markets": [
-          "US",
-          "UK",
-          "DE",
-          "FR",
-          "IT",
-          "ES"
-        ],
-        "coverage": {
-          "US": true,
-          "UK": true,
-          "DE": true,
-          "FR": true,
-          "IT": true,
-          "ES": true
-        },
-        "trend_7d": 2,
-        "trend_30d": 7,
-        "novelty_hits": 5,
-        "score": 74.5,
-        "ai_mode": "deepseek",
-        "ai_confidence": 75,
-        "ai_reason": "Highest score candidate with major market availability and strong recent trends.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs price after recent increases, essential upgrades vs unnecessary accessories."
-      },
-      "fact_bundle": {
-        "asin_candidates": {
-          "us": "absent",
-          "de": "absent",
-          "fr": "absent",
-          "it": "absent",
-          "es": "absent",
-          "uk": "absent",
-          "primary_region": "absent",
-          "primary_url": "absent"
-        },
-        "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
-          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
-          "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
-          "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
-          "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
-          "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
-        ],
-        "manufacturer_urls": [
-          "https://www.raspberrypi.com/products/raspberry-pi-5/"
-        ],
-        "spec_facts": [
-          {
-            "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
-            "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-          }
-        ],
-        "quote_candidates": [],
-        "related_reviews_candidates": [
-          {
-            "title": "absent",
-            "url": "absent",
-            "reason": "No specific review pages identified"
-          }
-        ],
-        "editorial_seed": {
-          "title_candidate": "Raspberry Pi 5 8GB Single Board Computer",
-          "description_candidate": "A high-performance single-board computer with 8GB RAM, featuring a 2.4GHz quad-core CPU and improved connectivity.",
-          "price_category_candidate": "mid",
-          "rating_candidate": null,
-          "rating_source_url": "absent"
-        },
-        "collection_mode": "deepseek",
-        "notes": [
-          "No ASINs found due to constraints against hallucination; Amazon search URLs provided for manual verification. Manufacturer URL from Raspberry Pi official site. Spec fact sourced from manufacturer. Price category estimated as mid-range based on typical SBC pricing. No user quotes or review pages identified."
-        ]
-      },
-      "seed_ready": true,
-      "seed_blockers": [],
-      "seed_blockers_top3": [],
-      "ready_for_pass_a": false,
-      "blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers_top3": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4)."
-      ],
-      "validator": {
-        "reachable_probe_urls": 3,
-        "checked_urls": [
-          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
-          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
-          "https://www.raspberrypi.com/products/raspberry-pi-5/",
-          "https://www.raspberrypi.com/products/raspberry-pi-5/"
-        ],
-        "has_us_asin": false,
-        "has_rating_source": false,
-        "amazon_url_count": 6,
-        "manufacturer_url_count": 1,
-        "spec_fact_count": 1,
-        "quote_candidate_count": 0,
-        "related_candidate_count": 1,
-        "seed_evidence_units": 2
-      }
-    },
-    {
-      "topic": {
         "category_key": "gaming",
         "category_label": "Gaming Hardware",
         "topic": "Nintendo Switch OLED",
@@ -575,7 +432,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model name matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -608,8 +465,8 @@
         "score": 97.5,
         "ai_mode": "deepseek",
         "ai_confidence": 98,
-        "ai_reason": "Highest score, available in all major markets, exact model name matches rules.",
-        "ai_angle": "Nintendo Switch OLED review: Is it still the best console to buy in 2026?"
+        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 for gaming and PSP emulation."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -834,7 +691,7 @@
           "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
           "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
         },
-        "reasoning_short": "Available in all major markets (US/UK/DE), highest score, recent reviews confirm exact model.",
+        "reasoning_short": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
           "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
@@ -866,8 +723,8 @@
         "score": 60.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Available in all major markets (US/UK/DE), highest score, recent reviews confirm exact model.",
-        "ai_angle": "Professional workstation review focusing on AI/ML performance with Core Ultra 9 and RTX 5000 Ada GPU capabilities."
+        "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
+        "ai_angle": "Lenovo ThinkStation P3 Tower Gen 2 review: Core Ultra 9 and RTX 5000 Ada performance for AI workloads"
       },
       "fact_bundle": {
         "asin_candidates": {
