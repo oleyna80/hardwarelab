@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
 - Total: 7
-- Seed ready: 0
-- Seed blocked: 7
+- Seed ready: 1
+- Seed blocked: 6
 - PASS A ready: 0
 - PASS A blocked: 7
 
@@ -12,26 +12,26 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Manufacturer URLs: 1
+- Spec facts: 3
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No Amazon listings found for ASUS NUC 14 Pro in specified markets. Product appears to be newly announced/pre-release based on manufacturer site. All ASIN fields set to 'absent' per constraints.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
 
 ## Consoles
 
-- Topic: **xbox series s**
+- Topic: **xbox series x**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -49,8 +49,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Xbox%20Series%20X
+- https://www.amazon.de/s?k=Xbox%20Series%20X
 
 ## NAS
 
