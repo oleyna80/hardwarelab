@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
       "FR": "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     },
-    "reasoning_short": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
+    "reasoning_short": "Highest score candidate with major market availability, exact model name, and recent media coverage.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWVuUjh6TU8ybVMwbG52bV83azJIQTUyRm9WSlAySkpBdGZoaURteTJlZld6UkI1cGtMa0N4YUViNUFLT2wtTlZRM2FlT0cybk11MjdkNWV4c0VmTGVzUHFzNGxSNU5kcHpYN2FsZi0wenJLbDAzTDM1VUlQWHQtUWp2TTJIZWs?oc=5",
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YU0dUak5QZ3V5OWYwWWpFWFo2dHFIcVRYdjRwbTN4WkRmRF9aYTF5WHhSUnNITExsWWhpWE5yNDV4X1FmX1JleTIyeVcySHdYNGd5Z19UVlhsdnRjVUdQUXBFNA?oc=5",
@@ -50,33 +50,32 @@
     "score": 58.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score (58.5), available in all major markets, trending upward, and from established brand ASUS.",
-    "ai_angle": "Compact mini PC with Intel Core Ultra processors, dual Thunderbolt 4 ports, and professional-grade connectivity for productivity."
+    "ai_reason": "Highest score candidate with major market availability, exact model name, and recent media coverage.",
+    "ai_angle": "Compact mini PC with critical performance compromise according to recent reviews"
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 3,
+    "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro",
-      "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
-      "https://www.asus.com/microsite/nuc/",
-      "https://www.asus.com/microsite/nuc/",
-      "https://www.asus.com/microsite/nuc/"
+      "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 4
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -94,35 +93,21 @@
       "https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro",
       "https://www.amazon.fr/s?k=ASUS%20NUC%2014%20Pro"
     ],
-    "manufacturer_urls": [
-      "https://www.asus.com/microsite/nuc/"
-    ],
-    "spec_facts": [
-      {
-        "claim": "ASUS NUC 14 Pro is a mini PC with Intel Core Ultra processors",
-        "source_url": "https://www.asus.com/microsite/nuc/"
-      },
-      {
-        "claim": "Supports up to 96GB DDR5 RAM and dual M.2 PCIe 4.0 SSDs",
-        "source_url": "https://www.asus.com/microsite/nuc/"
-      },
-      {
-        "claim": "Features Intel Arc graphics and Thunderbolt 4 connectivity",
-        "source_url": "https://www.asus.com/microsite/nuc/"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "ASUS NUC 14 Pro Mini PC",
-      "description_candidate": "Compact desktop computer with Intel Core Ultra processors, Intel Arc graphics, and extensive connectivity options for productivity and light gaming",
+      "title_candidate": "Mini PC: ASUS NUC 14 Pro",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No Amazon listings found for ASUS NUC 14 Pro in specified markets; product appears to be newly announced or not yet widely available. Manufacturer site provides specifications but no user reviews or pricing. ASINs cannot be confirmed without active Amazon listings."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
