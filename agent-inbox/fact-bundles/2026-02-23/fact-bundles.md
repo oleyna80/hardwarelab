@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
 - Total: 7
-- Seed ready: 2
-- Seed blocked: 5
+- Seed ready: 1
+- Seed blocked: 6
 - PASS A ready: 0
 - PASS A blocked: 7
 
@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon listings found for ASUS NUC 14 Pro across specified markets. Product appears to be newly announced with manufacturer details only. No user quotes or reviews available yet.
+- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no user reviews or ratings yet. Product appears positioned in mid-range price category based on specifications.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
@@ -72,31 +72,31 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=TerraMaster%20F2-425%20Plus
-- https://www.amazon.de/s?k=TerraMaster%20F2-425%20Plus
+- https://www.amazon.com/s?k=TerraMaster%20F2-425
+- https://www.amazon.de/s?k=TerraMaster%20F2-425
 
 ## SBC
 
 - Topic: **Raspberry Pi 5 8GB**
 - Status: BLOCKED
 - ASIN_US: absent
-- Amazon URLs: 6
-- Manufacturer URLs: 1
-- Spec facts: 1
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found due to constraints against hallucination; search URLs provided for all markets. Manufacturer URL from Raspberry Pi official site. Spec fact sourced from manufacturer. Editorial seed based on general product knowledge.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
-- https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
-- https://www.raspberrypi.com/products/raspberry-pi-5/
-- https://www.raspberrypi.com/products/raspberry-pi-5/
+- https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
+- https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
 
 ## Gaming Hardware
 
