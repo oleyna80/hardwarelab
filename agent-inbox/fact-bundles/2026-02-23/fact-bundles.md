@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-23
 
 - Total: 6
-- Seed ready: 1
-- Seed blocked: 5
+- Seed ready: 2
+- Seed blocked: 4
 - PASS A ready: 0
 - PASS A blocked: 6
 
@@ -21,7 +21,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provided for specifications. Price category estimated based on typical mini PC market positioning.
+- No ASINs found across specified markets; product appears to be newly announced or not yet widely listed on Amazon. Manufacturer URLs provide primary specifications. Price category estimated based on typical mini PC positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
 - https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
@@ -32,26 +32,26 @@
 
 ## Consoles
 
-- Topic: **xbox series s**
+- Topic: **playstation 5 pro**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
+- Manufacturer URLs: 6
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No official ASINs found for PlayStation 5 Pro across all specified markets as product is not officially announced or released. Manufacturer URLs point to current PlayStation 5 product pages. All ASIN fields marked 'absent' per constraints against hallucinated data. No spec facts, quotes, or reviews available for unannounced product.
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=PlayStation%205%20Pro
+- https://www.amazon.de/s?k=PlayStation%205%20Pro
+- https://www.playstation.com/en-us/ps5/
+- https://www.playstation.com/en-gb/ps5/
 
 ## NAS
 
