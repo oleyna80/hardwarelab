@@ -5,15 +5,15 @@
     "category_label": "AI Workstations",
     "topic": "Lenovo ThinkStation P3 Tower",
     "candidate_product_name": "Lenovo ThinkStation P3 Tower",
-    "asin_us": "B09X6BMSXX",
-    "asin_us_url": "https://www.amazon.com/dp/B09X6BMSXX",
-    "asin_us_listing_title": "Lenovo ThinkStation P3 Tiny Workstation Intel i7-14700, 32GB DDR5, 1TB NVMe, T400 4GB Discrete Graphics, WiFi 6E + BT, RJ-45, 3X miniDP, DP Port, HDMI (5 Monitor Max), Win 11 Pro, 3 Yr Wty",
+    "asin_us": "B0GMG4WRF7",
+    "asin_us_url": "https://www.amazon.com/dp/B0GMG4WRF7",
+    "asin_us_listing_title": "Lenovo ThinkStation P2 Tower Desktop Computer • 20-core Intel Ultra 7 265K Processor • 32GB DDR5 • 1TB SSD • Office 365 for The Web • HDMI + 2X DisplayPort • Wi-Fi 7 • Wired KB & Mouse • Windows 11",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B09X6BMSXX",
+      "US": "https://www.amazon.com/dp/B0GMG4WRF7",
       "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
       "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
     },
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
       "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
       "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXdBZ1JEUzFncjBBSjJpbm1tMmlYaWZqRG9jcFJqcUx1cTVuZ2w3NGQ5dHkxNDIxV1V6OERTQm9MSmFUamFNczZsdVFtQVBaQS1FdTRKeUIyT0VjZFJ4Wm5adWM1LW1BNzhxX0RzcmZRWi1VMmcxT2NPanU4endvc0lMNHUweHFtYVJTa0t0X1NSSTVlSG9JX0JfbGk4WmpCRk9MWUx4VEI4TlIwc3M40gG0AUFVX3lxTE90dVVBN0tCRDNIdkNPLUNFN1lsSGhzV01GV1NZcThhQmpKc3FLSExfcTV6YmlRWWZtaDNOQ0tib00yRmtJUmZOZWUwb2wtYWduczcxRGdYUS1jS3ZpdkE1SEpYZlIzSDBoblo1VEZzNW5tT0NjMC1xbFpvMkJhdUU5Vmh1dGI3MmdXQVprNDVYQTZTOFc4MDRnUG9EUV9MbmJQb3pxTmY3aTQwUTZmSFUyM1RqVw?oc=5",
-      "https://www.amazon.com/dp/B09X6BMSXX"
+      "https://www.amazon.com/dp/B0GMG4WRF7"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,7 +50,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Available in all major markets (US/UK/DE), exact model name, highest score among qualified candidates.",
-    "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities, performance benchmarks, and real-world application testing."
+    "ai_angle": "Professional review of Lenovo ThinkStation P3 Tower's AI workstation capabilities and performance benchmarks."
   },
   "ready_for_pass_a": false,
   "blockers": [
