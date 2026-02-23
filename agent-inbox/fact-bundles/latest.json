@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-23",
-  "generated_at": "2026-02-23T21:07:38.445Z",
+  "generated_at": "2026-02-23T21:12:32.589Z",
   "status": "partial",
-  "seed_ready_count": 2,
+  "seed_ready_count": 1,
   "seed_blocked_count": 5,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 7,
+  "pass_a_blocked_count": 6,
   "ready_count": 0,
-  "blocked_count": 7,
+  "blocked_count": 6,
   "md_path": "agent-inbox/fact-bundles/2026-02-23/fact-bundles.md",
   "json_path": "agent-inbox/fact-bundles/2026-02-23/fact-bundles.json",
   "status_path": "agent-inbox/fact-bundles/2026-02-23/status.json",
@@ -29,11 +29,6 @@
       "category_key": "nas",
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-23/fact-bundle-nas.json",
       "path": "agent-inbox/fact-bundles/2026-02-23/fact-bundle-nas.json"
-    },
-    {
-      "category_key": "sbc",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-23/fact-bundle-sbc.json",
-      "path": "agent-inbox/fact-bundles/2026-02-23/fact-bundle-sbc.json"
     },
     {
       "category_key": "gaming",
