@@ -137,7 +137,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found for specific 'HP Omen 45L RTX 4070 Ti' configuration. Manufacturer website shows product exists but specific configurations may vary. Search limited to English sources per constraints.
+- No Amazon ASINs found for specific 'HP Omen 45L RTX 4070 Ti' configuration. Manufacturer website provides specifications but no user reviews or ratings. Search results show multiple Omen 45L configurations with different GPU options.
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
