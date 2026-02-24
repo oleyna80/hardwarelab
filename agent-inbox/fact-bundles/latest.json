@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T12:52:25.242Z",
+  "generated_at": "2026-02-24T12:57:23.117Z",
   "status": "partial",
   "seed_ready_count": 2,
   "seed_blocked_count": 4,
@@ -26,14 +26,14 @@
       "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-consoles.json"
     },
     {
-      "category_key": "nas",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-nas.json",
-      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-nas.json"
-    },
-    {
       "category_key": "sbc",
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-sbc.json",
       "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-sbc.json"
+    },
+    {
+      "category_key": "gaming",
+      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-gaming.json",
+      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-gaming.json"
     },
     {
       "category_key": "gaming-pcs",
