@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
     "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 76,
+    "confidence_score": 75,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "reasoning_short": "Highest score candidate with major market availability and strong recent trend data.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
       "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 2,
-    "trend_30d": 8,
+    "trend_30d": 7,
     "novelty_hits": 5,
-    "score": 76,
+    "score": 74.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 76,
-    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and price analysis amid recent increases."
+    "ai_confidence": 75,
+    "ai_reason": "Highest score candidate with major market availability and strong recent trend data.",
+    "ai_angle": "Raspberry Pi 5 8GB review: Performance vs price after recent memory-driven increases"
   },
   "ready_for_pass_a": false,
   "blockers": [
