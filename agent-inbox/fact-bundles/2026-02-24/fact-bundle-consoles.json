@@ -4,18 +4,18 @@
     "category_key": "consoles",
     "category_label": "Consoles",
     "topic": "xbox series s",
-    "candidate_product_name": "Microsoft Xbox Series S",
-    "asin_us": "B092KKFHJ2",
-    "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
-    "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
+    "candidate_product_name": "Xbox Series S",
+    "asin_us": "B0D932YWSZ",
+    "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+    "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
     "asin_probe_error": null,
     "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B092KKFHJ2",
-      "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-      "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+      "US": "https://www.amazon.com/dp/B0D932YWSZ",
+      "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
     "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
     "source_urls": [
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
       "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
-      "https://www.amazon.com/dp/B092KKFHJ2"
+      "https://www.amazon.com/dp/B0D932YWSZ"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 100,
     "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-    "ai_angle": "Compact next-gen gaming with digital-only library and Game Pass integration."
+    "ai_angle": "Compact next-gen gaming at an accessible price point with Game Pass integration."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-      "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-      "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-      "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Consoles: Microsoft Xbox Series S",
+      "title_candidate": "Consoles: Xbox Series S",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
