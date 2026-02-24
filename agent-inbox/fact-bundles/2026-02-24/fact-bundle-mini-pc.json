@@ -1,0 +1,125 @@
+{
+  "generated_date_utc": "2026-02-24",
+  "topic": {
+    "category_key": "mini-pc",
+    "category_label": "Mini PC",
+    "topic": "Apple Mac mini M4",
+    "candidate_product_name": "Apple Mac mini M4",
+    "asin_us": "B0DTPT3NNQ",
+    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
+    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+    "asin_probe_error": null,
+    "confidence_score": 67,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+      "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
+    },
+    "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxa3RQUWN0bDZEbkw3U05zMXdrckpILUFPLXJkUzBYZl9DRFZBYnpkSDRDQnRuTjNqZUw1Sng5SWRWMmFtaXU0SnNpalFnTHlBM055aU5sRWdXOExGZWRETWJpazhuVzhW?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zclFxYlNaMG1wNnJKWWtNekhscUtNN192OGh5RDlGTlV3Wm90c0ZpN1dKeEFFdEhIVUpDcnVLbWxRMno4RFROeVBHT1BoTzg3T2FmUlE0M0NfV3YxaWlMTlVDVFZ4YUxG?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPck4ySFdCUklMTlpKdEZ6T3pvMUdVY0E0aEs0VUI1OWxsMGJhVTJNaFpqZ0t0eHJzVHNKb2tXN1JQemZWWkNPNkNoNXRiT29SenBaMmNkNmVWMkF3UllqMEc0LXIyNlFWc2JobktwZzJGbXpBOE02ajZFRkdJTWU4WFctc1FQMjM4cnVJbER5LVJXUDlaNm55Y2lMZVhYYTdoajZyUmJnMlExdw?oc=5",
+      "https://www.amazon.com/dp/B0DTPT3NNQ"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 3,
+    "trend_30d": 7,
+    "novelty_hits": 2,
+    "score": 66.5,
+    "ai_mode": "deepseek",
+    "ai_confidence": 67,
+    "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
+    "ai_angle": "Apple's M4-powered compact desktop with AI capabilities and potential supply constraints."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 3,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.apple.com/mac-mini/",
+      "https://www.apple.com/mac-mini/",
+      "https://www.apple.com/mac-mini/"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 1,
+    "spec_fact_count": 2,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0,
+    "seed_evidence_units": 3
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
+    ],
+    "manufacturer_urls": [
+      "https://www.apple.com/mac-mini/"
+    ],
+    "spec_facts": [
+      {
+        "claim": "Apple Mac mini M4 is not yet released as of current date",
+        "source_url": "https://www.apple.com/mac-mini/"
+      },
+      {
+        "claim": "Current Mac mini models use M2 or M2 Pro chips",
+        "source_url": "https://www.apple.com/mac-mini/"
+      }
+    ],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Rumored upcoming Apple Mac mini with M4 chip",
+      "price_category_candidate": "high",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "deepseek",
+    "notes": [
+      "Product appears to be rumored/upcoming, not currently available on Amazon markets. No ASINs found. Manufacturer URL points to current Mac mini models. Spec facts based on Apple's official website showing current models."
+    ]
+  }
+}
