@@ -1,9 +1,9 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T09:12:24.228Z",
+  "generated_at": "2026-02-24T09:17:16.691Z",
   "total": 6,
-  "seed_ready_count": 3,
-  "seed_blocked_count": 3,
+  "seed_ready_count": 2,
+  "seed_blocked_count": 4,
   "pass_a_ready_count": 0,
   "pass_a_blocked_count": 6,
   "ready_count": 0,
@@ -15,15 +15,15 @@
         "category_label": "Mini PC",
         "topic": "Apple Mac mini M4",
         "candidate_product_name": "Apple Mac mini M4",
-        "asin_us": "B0DTPT3NNQ",
-        "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-        "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+        "asin_us": "B082YHCN4X",
+        "asin_us_url": "https://www.amazon.com/dp/B082YHCN4X",
+        "asin_us_listing_title": "Apple Late 2018 Mac Mini with 3.0GHz Intel Core i5 (8GB RAM, 256GB SSD) Space Gray (Renewed)",
         "asin_probe_error": null,
         "confidence_score": 88,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+          "US": "https://www.amazon.com/dp/B082YHCN4X",
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
@@ -34,7 +34,7 @@
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
           "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
-          "https://www.amazon.com/dp/B0DTPT3NNQ"
+          "https://www.amazon.com/dp/B082YHCN4X"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -61,7 +61,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 88,
         "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-        "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain changes amid global tech production shifts."
+        "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech production trends."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,26 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current date.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
             "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
-            "source_url": "https://www.apple.com/mac-mini/specs/"
+            "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4 (Unreleased)",
-          "description_candidate": "Potential future Mac mini model with Apple M4 chip, not currently available.",
+          "title_candidate": "Apple Mac mini M4",
+          "description_candidate": "Potential future Apple Mac mini model with M4 chip, not yet released.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears speculative or based on unconfirmed rumors; no product exists yet for data collection. Trend and novelty hits may reflect search interest in anticipated releases. Manufacturer URL points to current Mac mini page, as no M4-specific page exists."
+          "Keyword 'Apple Mac mini M4' appears to refer to an unannounced or future product; no ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page. Spec facts based on current Apple information. Trend data suggests search interest in this unconfirmed product."
         ]
       },
       "seed_ready": true,
@@ -130,13 +130,13 @@
         "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 4,
+        "reachable_probe_urls": 2,
         "checked_urls": [
           "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
           "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "https://www.apple.com/mac-mini/",
           "https://www.apple.com/mac-mini/",
-          "https://www.apple.com/mac-mini/specs/"
+          "https://www.apple.com/mac-mini/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -166,7 +166,7 @@
           "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
           "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
         },
-        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in all major markets with high trend scores and clear product identity.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbS1QV2tyd3RUWWpDbUd5a1RWeTI0Sm1DanBwV001QjFSaTRUUU9sV005b0ktSnhTN0x5ZTV4XzhfY3dETVFLTTVSOF9hdEptQ3h4dGRmVy0yQXdsX1BnVnMxZ1AxUUVMdW85ak1GRDVma2JJTkRnSERDOEJldW40ek1EWlhjcHAyRWlncFBFazZtYkZfb3NaY3ZWeG1HdzJFWHlUVVFHQTR5eXQxXzdvOF9TRQ?oc=5",
           "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
@@ -193,14 +193,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 12,
+        "trend_7d": 13,
         "trend_30d": 15,
         "novelty_hits": 5,
         "score": 96,
         "ai_mode": "deepseek",
         "ai_confidence": 96,
-        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Microsoft Xbox Series X console review: performance, game library, and value compared to alternatives."
+        "ai_reason": "Exact console model available in all major markets with high trend scores and clear product identity.",
+        "ai_angle": "Microsoft's flagship console delivers 4K gaming with backward compatibility and Game Pass integration."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -286,15 +286,15 @@
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
         "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0CK2FCG1K",
-        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
-        "asin_us_listing_title": "Raspberry Pi 5 8GB",
+        "asin_us": "B0CTT6X2ZJ",
+        "asin_us_url": "https://www.amazon.com/dp/B0CTT6X2ZJ",
+        "asin_us_listing_title": "Vilros Raspberry Pi 5-8GB Starter Kit - Turbo Cooled Edition - 32GB Memory (Aluminum Black)",
         "asin_probe_error": null,
         "confidence_score": 76,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
+          "US": "https://www.amazon.com/dp/B0CTT6X2ZJ",
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
@@ -305,7 +305,7 @@
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
-          "https://www.amazon.com/dp/B0CK2FCG1K"
+          "https://www.amazon.com/dp/B0CTT6X2ZJ"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -332,7 +332,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, AI capabilities, and value amid recent price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -430,7 +430,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
+        "reasoning_short": "Available in all major markets, highest score, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -463,7 +463,7 @@
         "score": 86.5,
         "ai_mode": "deepseek",
         "ai_confidence": 87,
-        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_reason": "Available in all major markets, highest score, exact console model matches rules.",
         "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer hardware announcements."
       },
       "fact_bundle": {
@@ -589,7 +589,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Performance and thermal insights for gaming PCs."
+        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - performance and thermal analysis"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -607,39 +607,34 @@
           "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
           "https://www.amazon.fr/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
         ],
-        "manufacturer_urls": [
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc"
-        ],
-        "spec_facts": [
-          {
-            "claim": "HP Omen 45L is a gaming desktop PC with customizable configurations",
-            "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc"
-          },
-          {
-            "claim": "RTX 4070 Ti is an NVIDIA graphics card option for gaming PCs",
-            "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-ti/"
-          }
-        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "HP Omen 45L Gaming Desktop with RTX 4070 Ti",
-          "description_candidate": "High-performance gaming PC with customizable components including NVIDIA RTX 4070 Ti graphics",
-          "price_category_candidate": "high",
+          "title_candidate": "Gaming PCs: HP Omen 45L RTX 4070 Ti",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "deepseek",
+        "collection_mode": "fallback",
         "notes": [
-          "No specific ASIN found for exact 'HP Omen 45L RTX 4070 Ti' configuration. HP Omen 45L appears as a customizable desktop series with various component options. Manufacturer site shows configurable builds but no direct product page for this exact specification."
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
         ]
       },
-      "seed_ready": true,
-      "seed_blockers": [],
-      "seed_blockers_top3": [],
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -647,6 +642,7 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -654,26 +650,23 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4)."
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
       ],
       "validator": {
-        "reachable_probe_urls": 3,
+        "reachable_probe_urls": 2,
         "checked_urls": [
           "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-          "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc",
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc",
-          "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-ti/"
+          "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 1,
-        "spec_fact_count": 2,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 3
+        "seed_evidence_units": 0
       }
     },
     {
@@ -728,7 +721,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 62,
         "ai_reason": "Exact model matches category, available in all major markets, highest score among candidates.",
-        "ai_angle": "Compact Strix Halo Ryzen AI Max workstation with 128GB RAM - premium but pricey package for AI workloads."
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM for professional AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -754,14 +747,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "AI workstation from Corsair, likely a high-performance desktop for AI/ML workloads",
+          "description_candidate": "High-performance workstation designed for AI and machine learning workloads, featuring powerful components optimized for data processing and model training.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair is known for gaming and high-performance PC components, but this exact model name appears unverified. Search results show general Corsair workstations or custom builds, not a distinct 'AI Workstation 300' model. No ASINs can be confirmed due to lack of evidence."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation. No user quotes, reviews, or detailed specs available due to lack of product presence."
         ]
       },
       "seed_ready": true,
