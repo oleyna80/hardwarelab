@@ -8,7 +8,7 @@
 
 ## Mini PC
 
-- Topic: **MINISFORUM UM790 Pro**
+- Topic: **Apple Mac mini M4**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -26,8 +26,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=MINISFORUM%20UM790%20Pro
-- https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro
+- https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
+- https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 
 ## Consoles
 
@@ -160,7 +160,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and PC components, but this exact model appears absent or may be a conceptual/upcoming product. Manufacturer URL provided for Corsair's main site. No ASINs, reviews, or detailed specs available based on current search constraints.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
