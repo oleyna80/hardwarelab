@@ -22,17 +22,17 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to be speculative/rumor-based as no official product exists yet. All ASIN fields set to 'absent' per constraints. Manufacturer URL points to current Mac mini page. No Amazon listings or reviews available for unreleased product.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no confirmed product exists. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASINs set to 'absent' due to no confirmed product availability on Amazon in specified markets.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
-- Topic: **xbox series x**
+- Topic: **xbox series s**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
-- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product found matching 'Corsair AI Workstation 300' on Amazon or Corsair's website. Corsair is known for gaming and PC components, but an AI workstation with this exact name appears unconfirmed. Search results may be limited or refer to custom builds or unreleased products.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
