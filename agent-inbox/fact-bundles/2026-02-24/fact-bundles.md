@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
 - Total: 7
-- Seed ready: 3
-- Seed blocked: 4
+- Seed ready: 2
+- Seed blocked: 5
 - PASS A ready: 0
 - PASS A blocked: 7
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to be speculative or based on unannounced product; no current Amazon listings or ASINs found across specified markets. Manufacturer URL points to existing Mac mini models with M2 chips. Trend data may reflect search interest in anticipated releases.
+- Keyword 'Apple Mac mini M4' appears to reference a product not yet released; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini models with M2 chips. Trend data may reflect speculation or anticipation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -124,26 +124,26 @@
 
 ## Gaming PCs
 
-- Topic: **HP Omen 45L RTX 4070 Ti**
+- Topic: **Corsair Vengeance i7400**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found for specific 'HP Omen 45L RTX 4070 Ti' configuration. Manufacturer website provides specifications but no user reviews or ratings. Search results show multiple Omen 45L configurations with different GPU options.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
+- https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400
+- https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400
 
 ## AI Workstations
 
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
