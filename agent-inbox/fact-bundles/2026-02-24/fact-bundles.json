@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T14:12:23.753Z",
-  "total": 6,
-  "seed_ready_count": 1,
+  "generated_at": "2026-02-24T14:17:31.471Z",
+  "total": 7,
+  "seed_ready_count": 2,
   "seed_blocked_count": 5,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 6,
+  "pass_a_blocked_count": 7,
   "ready_count": 0,
-  "blocked_count": 6,
+  "blocked_count": 7,
   "rows": [
     {
       "topic": {
@@ -19,7 +19,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
         "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 88,
+        "confidence_score": 92,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -27,13 +27,13 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trend and novelty.",
+        "reasoning_short": "Highest score, major market availability, strong trends, and exact model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
+          "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iV3hORVdzTUVHZ3hWZWNNdzh3VUluekoycHo5R01VZTdzNkhXNElKV3g5REZ1T2JZbjNqYXdWWkUzVDVxNjVPRzROVUJITFJaVTBBSXpiaXRKdHRCalpN?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IZ25OWW5vMmowNEVsZGlfeXBBUzRxaE9JNEFEM1pwdWgyQi1WWXFjWWJoNUxBRDZlQ0pVU1VKTTc1S3UzT0M0dXk1N05zZWF1Tk1faGNLWmRYVVM3azFyMlJlb3Q1Y2R5cF9HM3M0MncwSHk0aXZ1M20zMFI1dw?oc=5",
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
           "https://www.amazon.com/dp/B0DTPT3NNQ"
         ],
         "compliant": true,
@@ -54,14 +54,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 9,
-        "trend_30d": 13,
-        "novelty_hits": 3,
-        "score": 88,
+        "trend_7d": 11,
+        "trend_30d": 14,
+        "novelty_hits": 4,
+        "score": 92,
         "ai_mode": "deepseek",
-        "ai_confidence": 88,
-        "ai_reason": "Highest score, available in all major markets, strong recent trend and novelty.",
-        "ai_angle": "Apple's first US-made Mac mini with M4 chip brings production home while maintaining compact performance."
+        "ai_confidence": 92,
+        "ai_reason": "Highest score, major market availability, strong trends, and exact model matches rules.",
+        "ai_angle": "Powerful M4 chip in compact form factor with US production shift creating supply chain buzz."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -79,34 +79,41 @@
           "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.apple.com/mac-mini/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "Apple Mac mini M4 is not yet released as of current date",
+            "source_url": "https://www.apple.com/mac-mini/"
+          },
+          {
+            "claim": "Current Mac mini models use M2 or M2 Pro chips",
+            "source_url": "https://www.apple.com/mac-mini/"
+          }
+        ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Mini PC: Apple Mac mini M4",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-          "price_category_candidate": "mid",
+          "title_candidate": "Apple Mac mini M4 (Unreleased)",
+          "description_candidate": "Expected next-generation Apple Mac mini featuring M4 chip, not yet officially announced or released",
+          "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "Product appears to be unreleased/rumored based on manufacturer website showing only M2 models",
+          "No Amazon listings found for Mac mini M4 across specified markets",
+          "Keyword may refer to anticipated future product rather than currently available item"
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -114,7 +121,6 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -122,23 +128,26 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
           "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
-          "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4"
+          "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+          "https://www.apple.com/mac-mini/",
+          "https://www.apple.com/mac-mini/",
+          "https://www.apple.com/mac-mini/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 2,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "seed_evidence_units": 3
       }
     },
     {
@@ -186,9 +195,9 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 14,
+        "trend_7d": 13,
         "trend_30d": 15,
-        "novelty_hits": 9,
+        "novelty_hits": 7,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
@@ -275,6 +284,138 @@
     },
     {
       "topic": {
+        "category_key": "nas",
+        "category_label": "NAS",
+        "topic": "QNAP TS-464",
+        "candidate_product_name": "QNAP TS-464",
+        "asin_us": "B0BQ5TWCL8",
+        "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
+        "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
+        "asin_probe_error": null,
+        "confidence_score": 60,
+        "status": "shortlisted",
+        "discard_reason": null,
+        "market_evidence": {
+          "US": "https://www.amazon.com/dp/B0BQ5TWCL8",
+          "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
+          "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
+        },
+        "reasoning_short": "Highest score candidate available in all major markets with exact model match.",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
+          "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uOXBLc3hDRHQxV2JqU1Z2OFVGS29kYnJBOF9IN1g4NUd4dUEzRTFoOXNjNGJNbkhGUEE1SWJaMEN4dkhtX3g0QWk2UXhtdmpkTDMxWjVOYXQzaEJ6LXF3VUZNYXBhbWNzY0duVTVFa0Nlel9o?oc=5",
+          "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
+          "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVNKbTVZZmlKR25pdzdLMHVhS3RlOENlXzVMc2dSNmJleWQ1a21ZY1BJZGRtQmVRd3BhSkZEY2pZdGZjbnZXdlhMRllybTd1RDF6bktxUkROYzJvOU1vdkp4UHBzamVTbi13MDh0V2p3OHBhZXlpeEN0bUVELUF3bHp5RDg0R2sxSk0xUl9hdjcxYnc5cDJnNnB5cHNiQ3c?oc=5",
+          "https://www.amazon.com/dp/B0BQ5TWCL8"
+        ],
+        "compliant": true,
+        "rule": "major_markets",
+        "available_markets": [
+          "US",
+          "UK",
+          "DE",
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "coverage": {
+          "US": true,
+          "UK": true,
+          "DE": true,
+          "FR": true,
+          "IT": true,
+          "ES": true
+        },
+        "trend_7d": 0,
+        "trend_30d": 0,
+        "novelty_hits": 8,
+        "score": 60,
+        "ai_mode": "deepseek",
+        "ai_confidence": 60,
+        "ai_reason": "Highest score candidate available in all major markets with exact model match.",
+        "ai_angle": "QNAP TS-464 NAS review: A versatile 4-bay storage solution for home and small business use."
+      },
+      "fact_bundle": {
+        "asin_candidates": {
+          "us": "absent",
+          "de": "absent",
+          "fr": "absent",
+          "it": "absent",
+          "es": "absent",
+          "uk": "absent",
+          "primary_region": "absent",
+          "primary_url": "absent"
+        },
+        "amazon_candidate_urls": [
+          "https://www.amazon.com/s?k=QNAP%20TS-464",
+          "https://www.amazon.de/s?k=QNAP%20TS-464",
+          "https://www.amazon.fr/s?k=QNAP%20TS-464"
+        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
+        "quote_candidates": [],
+        "related_reviews_candidates": [],
+        "editorial_seed": {
+          "title_candidate": "NAS: QNAP TS-464",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
+          "rating_candidate": null,
+          "rating_source_url": "absent"
+        },
+        "collection_mode": "fallback",
+        "notes": [
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
+        ]
+      },
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "ready_for_pass_a": false,
+      "blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers_top3": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
+      ],
+      "validator": {
+        "reachable_probe_urls": 2,
+        "checked_urls": [
+          "https://www.amazon.com/s?k=QNAP%20TS-464",
+          "https://www.amazon.de/s?k=QNAP%20TS-464"
+        ],
+        "has_us_asin": false,
+        "has_rating_source": false,
+        "amazon_url_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
+        "quote_candidate_count": 0,
+        "related_candidate_count": 0,
+        "seed_evidence_units": 0
+      }
+    },
+    {
+      "topic": {
         "category_key": "sbc",
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
@@ -283,7 +424,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 75,
+        "confidence_score": 76,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -291,7 +432,7 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score candidate with major market availability and strong recent trend data.",
+        "reasoning_short": "Highest score (76), available in all major markets, strong 30-day trend (8), and recent headlines confirm availability.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -319,13 +460,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 7,
+        "trend_30d": 8,
         "novelty_hits": 5,
-        "score": 74.5,
+        "score": 76,
         "ai_mode": "deepseek",
-        "ai_confidence": 75,
-        "ai_reason": "Highest score candidate with major market availability and strong recent trend data.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs price after recent memory-driven increases"
+        "ai_confidence": 76,
+        "ai_reason": "Highest score (76), available in all major markets, strong 30-day trend (8), and recent headlines confirm availability.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs. price after recent memory-driven increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -423,7 +564,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model matches rules.",
+        "reasoning_short": "Highest score, available in all major markets, exact model name matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -456,8 +597,8 @@
         "score": 86.5,
         "ai_mode": "deepseek",
         "ai_confidence": 87,
-        "ai_reason": "Highest score, available in all major markets, exact model matches rules.",
-        "ai_angle": "Nintendo Switch OLED review: Still the best portable console in 2026 despite Switch 2 rumors?"
+        "ai_reason": "Highest score, available in all major markets, exact model name matches rules.",
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 despite Switch 2 comparisons."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -672,7 +813,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
         "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
         "asin_probe_error": null,
-        "confidence_score": 62,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -680,13 +821,13 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Exact model name matches category, available in all major markets, highest score among candidates.",
+        "reasoning_short": "Exact model name matches category, available in all major markets, and has recent review coverage.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
           "https://news.google.com/rss/articles/CBMiugFBVV95cUxQallOLTA1QXBrOVIwZ2hFTGRWZHpiUlNkcXRIb2xIUHNwOHk5UTU1NUIwMlpCM3pySEtXUVJNZi1rZmRnMUQ4SndJeEhHTDcySDBUcGN3bEVCRHVjNHBpMXZJZVVfazhhSVMwV250RlJ1MzhyUnlfaFFYaXdtU0FiZGV3MGdYTDNNeE41dVZMY0Q2aEUzZXFobjZrSmZZQVd4clRnY09zTTNkUnBzQ1RXVV80WV9TQUJJY1E?oc=5",
-          "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLU13VkVVNUxDZTZ1bWoycVQwWDlueGt4eWZicVVMSFVselU5ZzB1VEY3bHdJOXJfTTlqQ2ZMTEptcHUwOXhYSDhpbmNWbzhhTXhtSkxHX25hTV80OXVJbWRpMno4cExtZEJPRDRIUDdZRE9oZkxVOGFWLUlvaS13eDNwMWEzcDZWTDNZRlhidHZzczRIa0JTMDgwam56NkpXbGRmLWNhTEVmdWYxVkU2dlpVdWtTbzREZk9DVEVvQjJfbGtMYy1pVmVHTFNNdVVtRTlFRW91M3ZHNDYyc1ZiYUFmY2FHd25EOWVhWmU1Y0VHTlE?oc=5",
           "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV0VkMGF3cHBlcDZ6NXVYb0x3Sl8zNGJrZGxnRlFTVWVYeGhOVm8yek5uTXRmM0ZfS3FEWFVsOHBPWGtzRGtVdXlzQ0Q5VVktYm5XYmxxeHEtd2tGeXpiLTRlNC0xQWU2WW4xQTNSVjJxMzhKd3VPc0NwUHMzRU11c2lUZjFIYjFWU2Y0ZXFzYzRKWHc5aV9nS2xDTllHRGdoWHlkR2RVSkw4VmRoMEtVQXVSeUc3TkM4UktCZlRDVGRLdTRKYzJaS1Z6Tjg4ZjlGQkNTQk83bDHSAd4BQVVfeXFMUGsxbWt3RzNtRWsySWhDWHBxa2VvOUlqNGR3WHVYRzN0U1lxSmc2Nkp6a3lPdGFPQ0VmWVBDc1F5S1I5QmYwWG04V1JLVVZoa09PVjlZUUw5MmFCLVBxcWItT2VUZmV1OTVVZDRaSFcteWsxNWg3bzNKNGJCR3dUbTM4ZE5odFpTa1dGcXNKVTgyYnVUMjdHdTlYenpVR3p4dzUzdHJwX2RvaVNCeWxaOHBhMkRkZ3d3SnlwcG93ZnNGRGc1WmQtVHFBX3ZoeWdockR3YkNNTUhFOTBfQ0h3?oc=5",
+          "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLU13VkVVNUxDZTZ1bWoycVQwWDlueGt4eWZicVVMSFVselU5ZzB1VEY3bHdJOXJfTTlqQ2ZMTEptcHUwOXhYSDhpbmNWbzhhTXhtSkxHX25hTV80OXVJbWRpMno4cExtZEJPRDRIUDdZRE9oZkxVOGFWLUlvaS13eDNwMWEzcDZWTDNZRlhidHZzczRIa0JTMDgwam56NkpXbGRmLWNhTEVmdWYxVkU2dlpVdWtTbzREZk9DVEVvQjJfbGtMYy1pVmVHTFNNdVVtRTlFRW91M3ZHNDYyc1ZiYUFmY2FHd25EOWVhWmU1Y0VHTlE?oc=5",
           "https://www.amazon.com/dp/B0GKPJRXW4"
         ],
         "compliant": true,
@@ -712,9 +853,9 @@
         "novelty_hits": 8,
         "score": 61.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 62,
-        "ai_reason": "Exact model name matches category, available in all major markets, highest score among candidates.",
-        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM - premium but pricey package."
+        "ai_confidence": 85,
+        "ai_reason": "Exact model name matches category, available in all major markets, and has recent review coverage.",
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM, praised for design but noted as pricey."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -740,14 +881,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "High-performance AI workstation designed for machine learning and data science workloads",
+          "description_candidate": "AI workstation from Corsair designed for machine learning and data science workloads",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across all specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear to be a current product listing. The category 'AI-workstation' suggests a system optimized for artificial intelligence tasks, likely with high-end GPUs and CPUs."
         ]
       },
       "seed_ready": true,
