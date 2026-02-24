@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T17:17:27.454Z",
-  "total": 6,
+  "generated_at": "2026-02-24T17:22:23.222Z",
+  "total": 5,
   "seed_ready_count": 2,
-  "seed_blocked_count": 4,
+  "seed_blocked_count": 3,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 6,
+  "pass_a_blocked_count": 5,
   "ready_count": 0,
-  "blocked_count": 6,
+  "blocked_count": 5,
   "rows": [
     {
       "topic": {
@@ -27,7 +27,7 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, major market availability, exact model matches rules, strong recent trends.",
+        "reasoning_short": "Highest score, major market availability, strong trends, and exact model specification.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
@@ -54,13 +54,13 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 11,
-        "trend_30d": 15,
+        "trend_7d": 13,
+        "trend_30d": 16,
         "novelty_hits": 4,
         "score": 92,
         "ai_mode": "deepseek",
         "ai_confidence": 92,
-        "ai_reason": "Highest score, major market availability, exact model matches rules, strong recent trends.",
+        "ai_reason": "Highest score, major market availability, strong trends, and exact model specification.",
         "ai_angle": "Apple's first US-made Mac mini with M4 chip brings production shift and performance gains to compact desktop computing."
       },
       "fact_bundle": {
@@ -84,28 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released as of current date",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 and M2 Pro chips",
+            "claim": "Apple Mac mini currently features M2 and M2 Pro chips, with no official M4 variant announced.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Unreleased Apple Mac mini with M4 chip - not yet available for purchase",
-          "price_category_candidate": "absent",
+          "title_candidate": "Apple Mac mini M4 (Unreleased)",
+          "description_candidate": "Potential future iteration of Apple's compact desktop computer, expected to feature the M4 chip for enhanced performance and efficiency.",
+          "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Product appears to be unreleased/upcoming based on manufacturer website showing only M2 models",
-          "No ASINs found across all specified markets",
-          "Keyword 'Apple Mac mini M4' shows search trends but no actual product listings found"
+          "The Apple Mac mini M4 appears to be a speculative or rumored product based on the keyword provided. No official release or ASINs exist across the specified markets. Manufacturer URL points to the current Mac mini page, which does not mention an M4 model. All ASIN fields are set to 'absent' as per constraints to avoid hallucination. Spec facts are derived from the manufacturer's current product information, indicating no M4 variant is available."
         ]
       },
       "seed_ready": true,
@@ -170,10 +168,10 @@
         },
         "reasoning_short": "Exact console model available in major markets, matches category rules precisely.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZUZkZHRoc0EwUVFfUktxUldpcElSN3pqUG5QZ0wxQUpGSzREZnhXakF3cHpKcWt2dF8xUUhQZ1QtS2hBcVhMOThUemxERXhTVy1ISWpJSzl6NWR4VWpiM2hxNXBVNThqUVE0U25kRUVxN3VyQXBDUjQ4Q3lYVmI5WHVVXzAzVC13QmV6aUF3cEFFWjVwaEgxMWxWN0E3ZGk3c1dTeUEwbWZNSmVTOEU1Q2lNN3lqSGRkNmgzNl9vZHhGN0w2VG93REZ6XzdpU3NnVGc?oc=5",
           "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQldYemF5OXlyQWdGdFVrTzJULWJlR1QzelZqVk03TE9RMDZjbjk5a091NUkzRUg4SnNxTGFPUlRoUUFlRzgzWGNYX1ZSZFh0WFZqTEVlVUIyZWhjd3JLZE9QMUh2QXFHNk5pX0QwQncxMjhmZGZKSUFDSFZXZnJwOTUyNnlaY2tCN0h6WFBjeHo4WVU2SjhVMkRKS0VDM1gzdHp4ZXRrb0cySmhSTHJ0UmFwWlRHZmpPYVZEX216WVRyOXpmbnhQOUFDS1ZJY1FMdmRwb3ZhSXR4NkpzcEczbDExeno?oc=5",
+          "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZUZkZHRoc0EwUVFfUktxUldpcElSN3pqUG5QZ0wxQUpGSzREZnhXakF3cHpKcWt2dF8xUUhQZ1QtS2hBcVhMOThUemxERXhTVy1ISWpJSzl6NWR4VWpiM2hxNXBVNThqUVE0U25kRUVxN3VyQXBDUjQ4Q3lYVmI5WHVVXzAzVC13QmV6aUF3cEFFWjVwaEgxMWxWN0E3ZGk3c1dTeUEwbWZNSmVTOEU1Q2lNN3lqSGRkNmgzNl9vZHhGN0w2VG93REZ6XzdpU3NnVGc?oc=5",
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZzd0YzA3YkthbGF4M1kwRHc5eFhOTGF5dVl2eHh5YUlSUFFob2VxeGd4bEFfbElQcFhxN2RHN21YVm1wOWxTZ2xrUGdTZ2pZUy1iQVhnUE5sZDVYMkNFNzQ1Tm1Qc2RoT3djMktqR0xVYWYySW9JVGhXRlJ4am9rU2hZVi1zQkh0MGdOQWlVU0VpU2I0dDlxa1NycGo1NkJ5VlpWSnJrS3ZwSDZZYnB3czlHckE1Y2s?oc=5",
           "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
-          "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPczlfcjdCTHMyQkI4VEtqbE1xMmY1ZmJsaFUweGRYbFZ2ZHh2WFFTcDRXaTZYOEYtZlRYdXpJNzhENUROMGhNTWJFVXNJTk5rLUpTVXIzdlJZdGtTeDB2dXBlUTBfemZ3RGpHaWEwZTJpbHRNZDZiRlJzekNpY3MtSlZfb1AwMWJNQ01mLV9NLThaRGd6ZjNIcnlVamg3cGJfdEY5OW5jdFBfdFp1WHo0WTRRMjJGdkQtNUdHb2RRaWxQLVB5NWhjMGQ0MkNDUmxTM1NXTVhyNjBPZmFmaDJuajE4U3FIZjFiV2FVd0JPVWxEVmdWNDdqNE5IclZ0MnNaaFYtS0p1cUYyZW9OU1Y5Zml2bEZYZ2d1Z21QMS1IdGx5cm1lTUZkaWxNYzhZZGdadmpWY1JpR3cwMWQzYmhlN3BKTmFJbU1qZnhSVUNJUnFWZjg?oc=5",
           "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByTjBhQlBMcGZHWWtwS3NjS1loLWpncDFaMktjb3NGdDhQWGpTbExoUXo2YXRCNFVjZk1sV2N0OXpXNmhiN3NnWEVXTlpZOUlTM3N2UmNXUndCSnUySDhUZ0JjS3E?oc=5",
           "https://www.amazon.com/dp/B08H75RTZ8"
         ],
@@ -202,7 +200,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-        "ai_angle": "Xbox Series X price drops to early-2025 lows with controller included, offering premium gaming value."
+        "ai_angle": "Xbox Series X price drops to early-2025 lows with controller included, making it a compelling value proposition."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -284,30 +282,30 @@
     },
     {
       "topic": {
-        "category_key": "sbc",
-        "category_label": "SBC",
-        "topic": "Raspberry Pi 5 8GB",
-        "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0CK2FCG1K",
-        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
-        "asin_us_listing_title": "Raspberry Pi 5 8GB",
+        "category_key": "monitors",
+        "category_label": "Monitors",
+        "topic": "Samsung Odyssey OLED G8 G80SD",
+        "candidate_product_name": "Samsung Odyssey OLED G8 G80SD",
+        "asin_us": "B0DB8Y2T26",
+        "asin_us_url": "https://www.amazon.com/dp/B0DB8Y2T26",
+        "asin_us_listing_title": "SAMSUNG 32-Inch Odyssey OLED G8 (G80SD) Series 4K UHD Smart Gaming Monitor, 240Hz 0.03ms, Glare-Free Display, Gaming Hub, Adjustable Sleek Metal Design, LS32DG802SNXZA, 2024 (Renewed), Silver",
         "asin_probe_error": null,
-        "confidence_score": 75,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
-          "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-          "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+          "US": "https://www.amazon.com/dp/B0DB8Y2T26",
+          "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+          "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and novelty.",
+        "reasoning_short": "Highest score candidate, available in all major markets, avoids prohibited generic phrases.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
-          "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
-          "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
-          "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-          "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNXZpUWFYbFJidGlxMExrelh6SHN4SE54aFM1OWJxUmphWV8zWkduYUNXTWFnMWsxbzc5QUNESm9Fb3U3TTh6RWpFRXZJTFpGU0VTdDNTSWpLVmNiSVpadXNHS0dmdl95Mkh6VGlISUVFaUYzSzluVHM3VzFMZndLbDlJLVd6akZGcTY2eGMxbWp6b3Nqb0VCanpNckJUR2pLVDU0RDJBVWVsYUZsUmpRRERsWmFZZ0pjOHo3VkFOaHd4THhWTHRYbG1n?oc=5",
-          "https://www.amazon.com/dp/B0CK2FCG1K"
+          "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWanpBS0pnb0hpY0dnOTBmYjZoWUZBM0xBTXdqTlJ2RlFNakY5Qm0xeTc0SzN6TkVaaGR1VkpnLUJhY1dBal9qWjF4NXZsVXc5a21JanJaUkQ2TmZlb05GRWpBMEgzUQ?oc=5",
+          "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUlJyMWwyaFB6c1l4TGQxNmNnNngtY2l6QndPNUcwWHFTLXU1ejd4VG54akNrcGJRc1paeGtWQ0xIT08tRTNxOXdSQVh0MWc5OXZGZDBEc2tuZ3NIZ213LVNOSk9qRmlVVXZRamVCQjF0R1J6eWVRYUVjUENYZkJyRDZkNktzdmVaZ25ZcXVyTQ?oc=5",
+          "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zZWJDdzBzZzIzNXk5Z0hnVzcxclR4UUtObWkyOTBXUld1a2RGUUZTZnVJWVRRTTN4Q0JPNWV6QU1JUGtjTk80aFdrZE1BNlVVbFQtbmk3MnVLc0hMSUdXdGx2WERCcEUtZ3VUd3JJMlg?oc=5",
+          "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNFFLSXRIWEVvbmsyeDZNaThYZWE5Z2E5RHh5OHhjRllSTkphdXF6cmVwY2VidlFYZm1OLUFwUk9FSEVjNS05S0V0Y1lCNmpEb2N2VG5DT25POWZiZk5jck9DNWctTDQ2YUM4VUMzTElSOFRoYU5OZEZiZWhvaGdBbQ?oc=5",
+          "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRWdyeVh0VFhpaERxRXJvQ1dtR0lXTDZETDVtaVdzYzZILWZnRE82OVlIRTdnNFRxVHh6WXZWM2JjT3JnN1VZaV9kVWp3bUhXZTZGRXV6MXgzTklydnU4SVctdVFhQlNTN1RkM2hmeGZpTHh1VkU0cWtLV3RpRWxPQlowTC03UGhoQmMzbXhKNjlOMDZXZXlORi1wM012Y09XZW1HUW9VS1dZLWFPOFBidnlRM0VGS1JhMVpzaVJYMDl6aEZ2MHJ0WmdYUkE1bmdTTE01VUJyV0s?oc=5",
+          "https://www.amazon.com/dp/B0DB8Y2T26"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -327,14 +325,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 2,
-        "trend_30d": 7,
-        "novelty_hits": 5,
-        "score": 74.5,
+        "trend_7d": 0,
+        "trend_30d": 1,
+        "novelty_hits": 8,
+        "score": 61.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 75,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price changes."
+        "ai_confidence": 85,
+        "ai_reason": "Highest score candidate, available in all major markets, avoids prohibited generic phrases.",
+        "ai_angle": "Samsung's 32-inch 4K 240Hz OLED gaming monitor with sleek metal chassis, reviewed as top-class."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -348,16 +346,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+          "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+          "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "SBC: Raspberry Pi 5 8GB",
+          "title_candidate": "Monitors: Samsung Odyssey OLED G8 G80SD",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -401,140 +399,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
-        ],
-        "has_us_asin": false,
-        "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
-        "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 0
-      }
-    },
-    {
-      "topic": {
-        "category_key": "gaming",
-        "category_label": "Gaming Hardware",
-        "topic": "Nintendo Switch OLED",
-        "candidate_product_name": "Nintendo Switch OLED",
-        "asin_us": "B09J652L1P",
-        "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
-        "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
-        "asin_probe_error": null,
-        "confidence_score": 87,
-        "status": "shortlisted",
-        "discard_reason": null,
-        "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09J652L1P",
-          "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-          "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
-        },
-        "reasoning_short": "Available in all major markets, highest score, exact model matches console category.",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
-          "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
-          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
-          "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQzVRNzNJRmNvU0MwV0ltRW1sZkI1QURyeW1rYjJkWC0tQzhXemdqb0s2ZGw2OHJVNUdUX1JEaFM5VmN4QmJnM3RoYWhzQTljYWlLOWhrVU1sRzJYaDF0bXpSWHQtZmxDeG9NVUdGOUZZNmdEdTVR?oc=5",
-          "https://www.amazon.com/dp/B09J652L1P"
-        ],
-        "compliant": true,
-        "rule": "major_markets",
-        "available_markets": [
-          "US",
-          "UK",
-          "DE",
-          "FR",
-          "IT",
-          "ES"
-        ],
-        "coverage": {
-          "US": true,
-          "UK": true,
-          "DE": true,
-          "FR": true,
-          "IT": true,
-          "ES": true
-        },
-        "trend_7d": 4,
-        "trend_30d": 7,
-        "novelty_hits": 6,
-        "score": 86.5,
-        "ai_mode": "deepseek",
-        "ai_confidence": 87,
-        "ai_reason": "Available in all major markets, highest score, exact model matches console category.",
-        "ai_angle": "Nintendo Switch OLED review: Is it still the best console to buy in 2026?"
-      },
-      "fact_bundle": {
-        "asin_candidates": {
-          "us": "absent",
-          "de": "absent",
-          "fr": "absent",
-          "it": "absent",
-          "es": "absent",
-          "uk": "absent",
-          "primary_region": "absent",
-          "primary_url": "absent"
-        },
-        "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
-        ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
-        "quote_candidates": [],
-        "related_reviews_candidates": [],
-        "editorial_seed": {
-          "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-          "price_category_candidate": "mid",
-          "rating_candidate": null,
-          "rating_source_url": "absent"
-        },
-        "collection_mode": "fallback",
-        "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
-        ]
-      },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "ready_for_pass_a": false,
-      "blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers_top3": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
-      ],
-      "validator": {
-        "reachable_probe_urls": 2,
-        "checked_urls": [
-          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
+          "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+          "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -591,7 +457,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score, recent headlines confirm availability and market presence.",
-        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights."
+        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU for high-performance gaming."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -749,14 +615,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "AI workstation from Corsair, likely a high-performance system for AI/ML workloads",
+          "description_candidate": "High-performance AI workstation designed for machine learning and data science workloads",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in search results. Manufacturer website (corsair.com) may have information about AI workstation products, but no direct URL for this specific model found. ASINs cannot be provided due to lack of matching products."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
         ]
       },
       "seed_ready": true,
