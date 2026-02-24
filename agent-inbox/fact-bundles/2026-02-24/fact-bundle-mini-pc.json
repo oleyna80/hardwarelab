@@ -5,26 +5,26 @@
     "category_label": "Mini PC",
     "topic": "Apple Mac mini M4",
     "candidate_product_name": "Apple Mac mini M4",
-    "asin_us": "B0DTPT3NNQ",
-    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+    "asin_us": "B0CC6SDHJ8",
+    "asin_us_url": "https://www.amazon.com/dp/B0CC6SDHJ8",
+    "asin_us_listing_title": "Apple 2023 Mac Mini with Apple M2 Pro Chip with 10-core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 92,
+    "confidence_score": 88,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+      "US": "https://www.amazon.com/dp/B0CC6SDHJ8",
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
+    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0w5TXVNMnJFTzZEWnpXQ3I3eEhhY1NpTmxLa3lzbjl4VzNTS2ZwTDdueXFhT1pGUmhnR25mOVprOXVaX19KcGdtbUNDYzI3R3NYMnh6WllhT1FMSlpvNmF4b3hFbUVmUERIam1LZHpSYy1JRVJQRTlVRlFuNElneE44NG52NlpvbWFWWi1hdEJZZjA?oc=5",
-      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iV3hORVdzTUVHZ3hWZWNNdzh3VUluekoycHo5R01VZTdzNkhXNElKV3g5REZ1T2JZbjNqYXdWWkUzVDVxNjVPRzROVUJITFJaVTBBSXpiaXRKdHRCalpN?oc=5",
       "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTUhsc2VqbnJkenRsLWRNUjVaRVBvWXJzMkFGZFlEY1ZNcWxhMkZlYVFyMklod21oNEhTRk9hd2UzSjdWUzg0VDFELVpOenNXMWJSVXktU0NST2NNZDczcDJsVlFxdGhvaDZqMFV3R0s3OWdSbmZGUTNjWlVQRGQzTzhhekRhWXlUVlRVOHR1ZVk4TEZZ0gGaAUFVX3lxTE1ZOEZxdzhfR015LUJRWFMwRG5ZbEFjalhMNEYyWjhDRkhZRGFtSXczdE9BSUNmOElISnJ1VjNlYnM0R2lJUUFGSzBSMHAwU0ItcU9ZMEFsWlY1TEFBREQzOFNDMnNCNzZIQzNGOXZkYjhYNjBpeFZxc3NFdV9IZEdvZzlhU2R6Tk5vRDFxM3UxOHdjY0d4RXM4Znc?oc=5",
-      "https://www.amazon.com/dp/B0DTPT3NNQ"
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IZ25OWW5vMmowNEVsZGlfeXBBUzRxaE9JNEFEM1pwdWgyQi1WWXFjWWJoNUxBRDZlQ0pVU1VKTTc1S3UzT0M0dXk1N05zZWF1Tk1faGNLWmRYVVM3azFyMlJlb3Q1Y2R5cF9HM3M0MncwSHk0aXZ1M20zMFI1dw?oc=5",
+      "https://www.amazon.com/dp/B0CC6SDHJ8"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 12,
-    "trend_30d": 15,
-    "novelty_hits": 4,
-    "score": 92,
+    "trend_7d": 10,
+    "trend_30d": 14,
+    "novelty_hits": 3,
+    "score": 88,
     "ai_mode": "deepseek",
-    "ai_confidence": 92,
-    "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-    "ai_angle": "Apple shifts Mac mini production to Texas in major US manufacturing push, highlighting domestic production changes."
+    "ai_confidence": 88,
+    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "ai_angle": "Apple shifts Mac mini M4 production to Texas, marking major US manufacturing push with new chip sourcing."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -62,13 +62,13 @@
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 4,
+    "reachable_probe_urls": 3,
     "checked_urls": [
       "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
       "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "https://www.apple.com/mac-mini/",
       "https://www.apple.com/mac-mini/",
-      "https://www.apple.com/mac-mini/specs/"
+      "https://www.apple.com/mac-mini/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -100,26 +100,26 @@
     ],
     "spec_facts": [
       {
-        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+        "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 models.",
-        "source_url": "https://www.apple.com/mac-mini/specs/"
+        "claim": "Current Mac mini models use M2 or M2 Pro chips.",
+        "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, not yet announced or available.",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential upcoming Apple Mac mini with M4 chip, not yet released.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to reference an unreleased or rumored product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini models. Spec facts based on official Apple information showing no M4 variant exists yet. Trend data may reflect speculation or anticipation rather than actual product availability."
+      "Keyword 'Apple Mac mini M4' appears speculative; no confirmed product exists yet. Trend data may reflect anticipation or rumors. Manufacturer URL points to current Mac mini page, which does not mention M4."
     ]
   }
 }
