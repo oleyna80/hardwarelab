@@ -5,26 +5,26 @@
     "category_label": "Mini PC",
     "topic": "Apple Mac mini M4",
     "candidate_product_name": "Apple Mac mini M4",
-    "asin_us": "B0DTPT3NNQ",
-    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+    "asin_us": "B082YHCN4X",
+    "asin_us_url": "https://www.amazon.com/dp/B082YHCN4X",
+    "asin_us_listing_title": "Apple Late 2018 Mac Mini with 3.0GHz Intel Core i5 (8GB RAM, 256GB SSD) Space Gray (Renewed)",
     "asin_probe_error": null,
     "confidence_score": 84,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+      "US": "https://www.amazon.com/dp/B082YHCN4X",
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, exact model matches rules, strong recent trends.",
+    "reasoning_short": "Highest score, major market availability, exact model matches rules, strong trends.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
       "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
       "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zclFxYlNaMG1wNnJKWWtNekhscUtNN192OGh5RDlGTlV3Wm90c0ZpN1dKeEFFdEhIVUpDcnVLbWxRMno4RFROeVBHT1BoTzg3T2FmUlE0M0NfV3YxaWlMTlVDVFZ4YUxG?oc=5",
-      "https://www.amazon.com/dp/B0DTPT3NNQ"
+      "https://www.amazon.com/dp/B082YHCN4X"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,8 +50,8 @@
     "score": 84,
     "ai_mode": "deepseek",
     "ai_confidence": 84,
-    "ai_reason": "Highest score, major market availability, exact model matches rules, strong recent trends.",
-    "ai_angle": "Apple's shift to US manufacturing for the Mac mini M4 signals strategic supply chain changes amid global tech production shifts."
+    "ai_reason": "Highest score, major market availability, exact model matches rules, strong trends.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals supply chain evolution amid compact computing demand."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -112,14 +112,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Anticipated next-generation Apple Mac mini with M4 chip, not yet officially announced or released",
+      "description_candidate": "Anticipated next-generation Apple Mac mini featuring the M4 chip, not yet officially announced or released.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No ASINs available as product is not yet released. Manufacturer URL points to current Mac mini models. All markets show 'absent' for ASINs due to product non-existence. Spec facts based on current Apple product information."
+      "Product appears to be unreleased/rumored based on manufacturer website showing only M2 models. No Amazon listings found across specified markets. Trend data suggests speculative interest. Manufacturer URL points to current product line."
     ]
   }
 }
