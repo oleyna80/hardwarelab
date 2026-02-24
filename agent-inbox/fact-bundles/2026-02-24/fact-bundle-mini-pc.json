@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
+    "reasoning_short": "Highest score, major market availability, strong recent trends, and exact model specification.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0w5TXVNMnJFTzZEWnpXQ3I3eEhhY1NpTmxLa3lzbjl4VzNTS2ZwTDdueXFhT1pGUmhnR25mOVprOXVaX19KcGdtbUNDYzI3R3NYMnh6WllhT1FMSlpvNmF4b3hFbUVmUERIam1LZHpSYy1JRVJQRTlVRlFuNElneE44NG52NlpvbWFWWi1hdEJZZjA?oc=5",
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
@@ -50,8 +50,8 @@
     "score": 88,
     "ai_mode": "deepseek",
     "ai_confidence": 88,
-    "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic production changes amid global supply chain considerations."
+    "ai_reason": "Highest score, major market availability, strong recent trends, and exact model specification.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 highlights supply chain strategy and premium compact computing."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -111,15 +111,15 @@
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4",
-      "description_candidate": "Expected next-generation Apple Mac mini with M4 chip, not yet released.",
-      "price_category_candidate": "mid",
+      "title_candidate": "Apple Mac mini M4 (Unreleased)",
+      "description_candidate": "Potential upcoming mini desktop computer from Apple featuring the M4 chip, expected to offer enhanced performance and efficiency.",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Product appears to be unreleased; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini models. Spec facts based on Apple's official site and product cycle expectations."
+      "No ASINs available as product is not yet released. Manufacturer URL points to current Mac mini models. Spec facts based on existing product line and typical Apple release patterns."
     ]
   }
 }
