@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Product appears to be unreleased based on available information; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini page, which does not mention M4. Spec facts reflect current product state and lack of M4 confirmation.
+- No ASINs found as product is not yet available on Amazon. Manufacturer URL points to current Mac mini models. Spec facts based on current Apple product page and lack of official M4 announcement. Editorial seed is speculative based on product naming conventions and typical Mac mini positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -52,6 +52,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Xbox%20Series%20X
 - https://www.amazon.de/s?k=Xbox%20Series%20X
+
+## NAS
+
+- Topic: **QNAP TS-464**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=QNAP%20TS-464
+- https://www.amazon.de/s?k=QNAP%20TS-464
 
 ## SBC
 
@@ -98,29 +121,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 - https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
-
-## Gaming Hardware
-
-- Topic: **Nintendo Switch OLED**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
-- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
 
 ## Gaming PCs
 
