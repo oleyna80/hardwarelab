@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 12,
-    "trend_30d": 14,
+    "trend_7d": 13,
+    "trend_30d": 15,
     "novelty_hits": 5,
     "score": 96,
     "ai_mode": "deepseek",
     "ai_confidence": 96,
     "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-    "ai_angle": "High-performance 4K gaming console with backward compatibility and Game Pass integration."
+    "ai_angle": "Microsoft's flagship 4K gaming console with backward compatibility and Game Pass integration."
   },
   "ready_for_pass_a": false,
   "blockers": [
