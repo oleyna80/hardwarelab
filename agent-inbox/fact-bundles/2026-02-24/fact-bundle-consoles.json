@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0DSQZ57VC",
     "asin_us_listing_title": "Microsoft Xbox Series X – 1TB Digital Edition (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 100,
+    "confidence_score": 96,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 12,
-    "trend_30d": 15,
-    "novelty_hits": 7,
-    "score": 100,
+    "trend_30d": 14,
+    "novelty_hits": 5,
+    "score": 96,
     "ai_mode": "deepseek",
-    "ai_confidence": 100,
+    "ai_confidence": 96,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Microsoft Xbox Series X: Next-gen gaming performance with 4K 120Hz, ray tracing, and Quick Resume features."
+    "ai_angle": "Microsoft Xbox Series X console review: Next-gen gaming performance and features analysis."
   },
   "ready_for_pass_a": false,
   "blockers": [
