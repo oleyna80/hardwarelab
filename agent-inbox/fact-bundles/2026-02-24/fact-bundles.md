@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
-- Seed ready: 2
-- Seed blocked: 4
+- Total: 7
+- Seed ready: 1
+- Seed blocked: 6
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 7
 
 ## Mini PC
 
@@ -12,23 +12,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 2
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product based on current information. No ASINs found across specified markets. Manufacturer URL points to existing Mac mini page, which does not list an M4 model. Spec facts derived from official Apple sources indicate no M4 version exists yet. Editorial seed reflects this as a placeholder for potential future release.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
@@ -121,6 +120,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
 - https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
+
+## Gaming PCs
+
+- Topic: **HP Omen 45L RTX 4070 Ti**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 
 ## AI Workstations
 
