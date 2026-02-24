@@ -44,7 +44,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
-    "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and configuration flexibility."
+    "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and recent sale visibility."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -108,14 +108,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "HP Omen 45L Gaming Desktop with NVIDIA RTX 4070 Ti",
-      "description_candidate": "High-performance gaming PC featuring NVIDIA GeForce RTX 4070 Ti graphics, advanced Cryo Chamber cooling system, and customizable configurations for demanding gamers.",
+      "description_candidate": "High-performance gaming PC featuring NVIDIA GeForce RTX 4070 Ti graphics, advanced Cryo Chamber cooling system, and customizable configurations with latest Intel processors.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No Amazon ASINs found for specific RTX 4070 Ti configuration. Manufacturer site lists multiple configurations. Search limited to English sources per constraints."
+      "No Amazon ASINs found for specific 'HP Omen 45L RTX 4070 Ti' configuration. Manufacturer website shows product exists but specific configurations may vary. Search limited to English sources per constraints."
     ]
   }
 }
