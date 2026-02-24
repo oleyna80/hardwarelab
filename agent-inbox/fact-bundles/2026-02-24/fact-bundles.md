@@ -22,9 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Product appears to be unreleased/rumored based on manufacturer website showing only M2 models
-- No Amazon listings found across specified markets
-- Keyword may refer to anticipated future product rather than current availability
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest for unannounced products. Manufacturer URL points to current Mac mini models with M2 chips.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -52,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -144,8 +142,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.com/s?k=HP%20Omen%2045L
+- https://www.amazon.de/s?k=HP%20Omen%2045L
 
 ## AI Workstations
 
@@ -163,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current listings. The term may be a placeholder or conceptual name. Manufacturer URL provided for Corsair's main site, but no direct product page identified.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
