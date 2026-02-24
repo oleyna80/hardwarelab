@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Product appears to be unreleased; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini models. Spec facts based on Apple's official site and typical product cycle patterns.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. ASINs absent as product is not available on Amazon. Manufacturer URL points to current Mac mini page. Spec facts reflect current models and lack of M4 announcement. Editorial seed is tentative based on typical Mac mini positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -76,9 +76,9 @@
 - https://www.amazon.com/s?k=QNAP%20TS-464
 - https://www.amazon.de/s?k=QNAP%20TS-464
 
-## Monitors
+## SBC
 
-- Topic: **Samsung Odyssey OLED G8 G80SD**
+- Topic: **Raspberry Pi 5 8GB**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -96,8 +96,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
+- https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
+- https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
 
 ## Gaming PCs
 
