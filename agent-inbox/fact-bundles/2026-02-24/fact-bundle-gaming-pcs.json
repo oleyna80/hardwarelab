@@ -44,7 +44,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
-    "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and recent sale visibility."
+    "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and configuration flexibility."
   },
   "ready_for_pass_a": false,
   "blockers": [
