@@ -100,26 +100,26 @@
     ],
     "spec_facts": [
       {
-        "claim": "Apple Mac mini M4 is not yet released as of current date",
+        "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 and M2 Pro chips",
+        "claim": "Current Mac mini models use M2 or M2 Pro chips.",
         "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Rumored next-generation Mac mini with M4 chip, not yet officially announced by Apple",
-      "price_category_candidate": "mid",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential upcoming mini desktop computer from Apple featuring the M4 chip.",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to reference an unreleased product. No ASINs exist as product is not available for sale. Manufacturer URL points to current Mac mini models. All ASIN fields set to 'absent' per constraints against hallucinated ASINs."
+      "No ASINs found as product is not yet released; manufacturer URL provided for reference; spec facts based on current Apple lineup and typical release patterns."
     ]
   }
 }
