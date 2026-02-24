@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
     "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
     "asin_probe_error": null,
-    "confidence_score": 85,
+    "confidence_score": 58,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,13 +17,13 @@
       "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
       "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
     },
-    "reasoning_short": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES and recent media coverage.",
+    "reasoning_short": "Highest score candidate with exact model name available across all major Amazon markets.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
-      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
       "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uOXBLc3hDRHQxV2JqU1Z2OFVGS29kYnJBOF9IN1g4NUd4dUEzRTFoOXNjNGJNbkhGUEE1SWJaMEN4dkhtX3g0QWk2UXhtdmpkTDMxWjVOYXQzaEJ6LXF3VUZNYXBhbWNzY0duVTVFa0Nlel9o?oc=5",
       "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVNKbTVZZmlKR25pdzdLMHVhS3RlOENlXzVMc2dSNmJleWQ1a21ZY1BJZGRtQmVRd3BhSkZEY2pZdGZjbnZXdlhMRllybTd1RDF6bktxUkROYzJvOU1vdkp4UHBzamVTbi13MDh0V2p3OHBhZXlpeEN0bUVELUF3bHp5RDg0R2sxSk0xUl9hdjcxYnc5cDJnNnB5cHNiQ3c?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYTWtyVlhxdUtxSXJwczF0VHFCNnQ1UGVpMTN3MFU3RGc4ZHJORVNmay1WSE9pcG5SS0pOTlpqYUEza29OTUVsZzlrYWpRU0w4UEYyZHF3a0lkdHVPWGpfSEN1MW53bTVGSGlZ0gFwQVVfeXFMTVRYRjN6dVVyelJ2X2dVYWg0ZkNWRk1lbWUyUzVHcjZ0ckhhZUxJT3JGaU9OWEtBYUtUWUVmSTlNbkZsSGlxSzMzeEVtb0dQcHM5OGRfZXhlY0JvdjV6Zk5ib0JTUHJ0MDl5dXd4SWRxXw?oc=5",
       "https://www.amazon.com/dp/B0BQ5TWCL8"
     ],
     "compliant": true,
@@ -46,12 +46,12 @@
     },
     "trend_7d": 0,
     "trend_30d": 0,
-    "novelty_hits": 8,
-    "score": 60,
+    "novelty_hits": 7,
+    "score": 58,
     "ai_mode": "deepseek",
-    "ai_confidence": 85,
-    "ai_reason": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES and recent media coverage.",
-    "ai_angle": "High-performance 4-bay NAS with quad-core Intel Celeron processor, 4GB DDR4 RAM, dual 2.5GbE ports, and PCIe expansion for 10GbE networking."
+    "ai_confidence": 58,
+    "ai_reason": "Highest score candidate with exact model name available across all major Amazon markets.",
+    "ai_angle": "QNAP TS-464 NAS: A high-performance 4-bay network-attached storage solution with quad-core processing and 10GbE connectivity options."
   },
   "ready_for_pass_a": false,
   "blockers": [
