@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
+- Total: 7
 - Seed ready: 2
-- Seed blocked: 4
+- Seed blocked: 5
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 7
 
 ## Mini PC
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- The Apple Mac mini M4 appears to be a speculative or future product based on trends and novelty hits, as no official release or ASINs exist across the specified markets. Manufacturer URL points to current Mac mini models. Spec facts reflect the absence of confirmed M4 details. Editorial seed is based on typical Apple product positioning and expectations.
+- Product appears to be unreleased based on available information; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini page, which does not mention M4. Spec facts reflect current product state and lack of M4 confirmation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -98,6 +98,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 - https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
+
+## Gaming Hardware
+
+- Topic: **Nintendo Switch OLED**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
+- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
 
 ## Gaming PCs
 
