@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
     "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 92,
+    "confidence_score": 84,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -23,7 +23,7 @@
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
       "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
-      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE9MSm1vOHQ1eEhBakFlRWMzMjZBb1RtRnhpRTFNc19CZXFrbGtMTC1xWDc4dF9CbjloZ2JjNGM3Y2tfZWZMeGhJaEVuY3F2NmI1eTBmYmdOQW1xS2NCSlNFb0VQU2RwdnhaRVZtSWNZS0RFUQ?oc=5",
       "https://www.amazon.com/dp/B09J652L1P"
     ],
     "compliant": true,
@@ -45,11 +45,11 @@
       "ES": true
     },
     "trend_7d": 5,
-    "trend_30d": 8,
-    "novelty_hits": 6,
-    "score": 92,
+    "trend_30d": 5,
+    "novelty_hits": 5,
+    "score": 83.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 92,
+    "ai_confidence": 84,
     "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
     "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer hardware announcements."
   },
