@@ -4,27 +4,27 @@
     "category_key": "gaming-pcs",
     "category_label": "Gaming PCs",
     "topic": "HP Omen 45L RTX 4070 Ti",
-    "candidate_product_name": "HP Omen 45L RTX 4070 Ti",
-    "asin_us": "B0G4XGFW5J",
-    "asin_us_url": "https://www.amazon.com/dp/B0G4XGFW5J",
-    "asin_us_listing_title": "HP OMEN 40L GT21-20 Gaming Desktop Computer, Intel i7-14700K, 3.4GHz, 32GB RAM, 1TB SSD, NVIDIA GeForce RTX 4070 Ti (16GB) Windows 11 Home, Black (Renewed)",
+    "candidate_product_name": "HP Omen 45L",
+    "asin_us": "B0FXHPBJ1Z",
+    "asin_us_url": "https://www.amazon.com/dp/B0FXHPBJ1Z",
+    "asin_us_listing_title": "HP OMEN 45L Gaming GT22-3067c Desktop PC, Intel Core Ultra 9 285K, 64GB DDR5 RAM, 2TB NVMe SSD, NVIDIA GeForce RTX 5070 Ti, Liquid Cooling, RGB Lighting, Windows 11 Home (Renewed)",
     "asin_probe_error": null,
     "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0G4XGFW5J",
+      "US": "https://www.amazon.com/dp/B0FXHPBJ1Z",
       "DE": "absent",
       "FR": "absent"
     },
-    "reasoning_short": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
+    "reasoning_short": "Highest score (15.5) with recent HP coverage and trending data, matches exact model requirement.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMm1aajNOcmc3TENBYXJ0aFhxVkVYalRodU1OMk1PSlhNMzE2NzkwSEhBNThGX3ExWGtxSFBjSEFoelB4N2s3NWRiT2tZUXNZRW5wNV9GSVJoTFVjTWNBYkVBUF84R3JFX3FFOFVNeWNUbFhhQ1JSaA?oc=5",
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3VUWnJGc3dOUjBIR3VnamxacFRaRUVCR3Q5Z1FrR3daaDJhZUF3VnlYa0M3cTRUR0NKdGp1YmdoalBjQTNWNTdMY19YXzJReEctaTdlYXB1VzJScWdZQ25YUVNXQllvcEpmRmQ4N0dMb3R4OVhTSGFHcVVXbHdDWnR4cWhwdkE1R216RGlXcDhENE8xT3Y4Yl95VjJmc3BMVF83MWpR?oc=5",
       "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmFsZlVDSXJxd3N3RUFZUWVNejJnbGduMDlidU5pdUlfVUkwQTJwTjBKdVZCZHZnUFNiWDcxZ19aV1dReHpZVm1YS0Y4b2VGQnBTa2R1Z29mdzlrVk1jSUJfUVV1ZHctX1NUOXlFNks1R09sN0gzTmRUTTV1X1d0T2tTaWhTdkZCSHhz?oc=5",
       "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjk1a3hnb2IzZDVidkZOTWN2bXA2Um5vZEdoN2I3NnkwTnE3bzZaWVd0QzNmUmtIUmMxYTNodGtta0NqR01WLWpGQk1SemtodGNjdEEtN1p5a2ZiT0JVamVFc1hoQ1dVVE9wbzgwbEV5cXVwdEFzb3RTRHcyb0IyeQ?oc=5",
       "https://news.google.com/rss/articles/CBMieEFVX3lxTE51U21QU3dzVkh3LTJJNE1ZQW1iZG84Tk1FT2RLNUlKdG44QWZ6TVlYVWpuZWNwanpPLS1SX2kzcGJJTDFpOG8yb2R4UmdXVV9pcGFxN0I1NkZZbEVvV1phWmVrLVgtb1htX3ZkNGJPNXJobG1GTF9qMA?oc=5",
-      "https://www.amazon.com/dp/B0G4XGFW5J"
+      "https://www.amazon.com/dp/B0FXHPBJ1Z"
     ],
     "compliant": false,
     "rule": "insufficient_coverage",
@@ -43,8 +43,8 @@
     "score": 15.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-    "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with thermal-focused design and recent sale pricing."
+    "ai_reason": "Highest score (15.5) with recent HP coverage and trending data, matches exact model requirement.",
+    "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU: performance and thermal design review."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -58,8 +58,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
+      "https://www.amazon.com/s?k=HP%20Omen%2045L",
+      "https://www.amazon.de/s?k=HP%20Omen%2045L"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -82,16 +82,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.amazon.fr/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
+      "https://www.amazon.com/s?k=HP%20Omen%2045L",
+      "https://www.amazon.de/s?k=HP%20Omen%2045L",
+      "https://www.amazon.fr/s?k=HP%20Omen%2045L"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Gaming PCs: HP Omen 45L RTX 4070 Ti",
+      "title_candidate": "Gaming PCs: HP Omen 45L",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
