@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T02:42:29.412Z",
+  "generated_at": "2026-02-24T02:47:32.168Z",
   "total": 7,
   "seed_ready_count": 2,
   "seed_blocked_count": 5,
@@ -61,7 +61,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 64,
         "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
-        "ai_angle": "Apple's M4-powered Mac mini faces potential shortage amid AI demand surge, available under $550."
+        "ai_angle": "Compact AI powerhouse with M4 chip, facing potential shortage due to high demand."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,26 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current data collection.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Apple Mac mini currently available models use M2 or M2 Pro chips.",
+            "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 models.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4 (Unreleased)",
-          "description_candidate": "Potential future update to Apple's compact desktop computer with M4 chip, not yet announced.",
+          "title_candidate": "Apple Mac mini M4",
+          "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears to reference an unreleased product based on current information. No ASINs found across specified markets. Manufacturer URL points to current Mac mini models with M2 chips. Trend data may reflect speculation or anticipation rather than actual product availability."
+          "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest or anticipation. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASIN fields set to 'absent' due to no confirmed product listings."
         ]
       },
       "seed_ready": true,
@@ -166,7 +166,7 @@
           "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
           "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
@@ -199,8 +199,8 @@
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps performance."
+        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "ai_angle": "Compact next-gen gaming console offering 1440p gaming at an affordable price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -464,7 +464,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing price hikes amid AI demand, but remains versatile."
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -554,7 +554,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
         "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 84,
+        "confidence_score": 92,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -568,7 +568,7 @@
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
-          "https://news.google.com/rss/articles/CBMickFVX3lxTE9MSm1vOHQ1eEhBakFlRWMzMjZBb1RtRnhpRTFNc19CZXFrbGtMTC1xWDc4dF9CbjloZ2JjNGM3Y2tfZWZMeGhJaEVuY3F2NmI1eTBmYmdOQW1xS2NCSlNFb0VQU2RwdnhaRVZtSWNZS0RFUQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
           "https://www.amazon.com/dp/B09J652L1P"
         ],
         "compliant": true,
@@ -590,13 +590,13 @@
           "ES": true
         },
         "trend_7d": 5,
-        "trend_30d": 5,
-        "novelty_hits": 5,
-        "score": 83.5,
+        "trend_30d": 8,
+        "novelty_hits": 6,
+        "score": 92,
         "ai_mode": "deepseek",
-        "ai_confidence": 84,
+        "ai_confidence": 92,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED remains a top console choice in 2026 despite newer hardware rumors."
+        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite Switch 2 rumors?"
       },
       "fact_bundle": {
         "asin_candidates": {
