@@ -49,6 +49,7 @@
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
@@ -58,19 +59,16 @@
     "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc-1",
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc-1",
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc-1"
+      "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 2,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 3
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -88,31 +86,21 @@
       "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
       "https://www.amazon.fr/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
     ],
-    "manufacturer_urls": [
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc-1"
-    ],
-    "spec_facts": [
-      {
-        "claim": "HP Omen 45L is a gaming desktop PC with customizable configurations",
-        "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc-1"
-      },
-      {
-        "claim": "RTX 4070 Ti is a graphics card option available for HP Omen 45L configurations",
-        "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc-1"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "HP Omen 45L Gaming Desktop with NVIDIA GeForce RTX 4070 Ti",
-      "description_candidate": "High-performance gaming PC with customizable components including RTX 4070 Ti GPU",
-      "price_category_candidate": "high",
+      "title_candidate": "Gaming PCs: HP Omen 45L RTX 4070 Ti",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No specific ASIN found for exact 'HP Omen 45L RTX 4070 Ti' configuration. HP website shows customizable options. Amazon search may yield various configurations but no exact match confirmed."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
