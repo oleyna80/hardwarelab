@@ -22,7 +22,9 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found as product is not released; based on Apple's current Mac mini lineup and typical naming conventions.
+- Product appears to be unreleased/upcoming based on manufacturer website showing only M2 models
+- No ASINs found across all specified markets
+- Keyword 'Apple Mac mini M4' shows search trends but no actual product listings found
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -53,6 +55,29 @@
 - https://www.amazon.com/s?k=Xbox%20Series%20X
 - https://www.amazon.de/s?k=Xbox%20Series%20X
 
+## NAS
+
+- Topic: **QNAP TS-464**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=QNAP%20TS-464
+- https://www.amazon.de/s?k=QNAP%20TS-464
+
 ## SBC
 
 - Topic: **Raspberry Pi 5 8GB**
@@ -75,29 +100,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
 - https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
-
-## Gaming Hardware
-
-- Topic: **Valve Steam Deck OLED**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
-- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
 
 ## Gaming PCs
 
@@ -138,7 +140,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components, but this exact workstation model does not appear to be listed. Consider checking for similar Corsair pre-built systems or components for AI builds.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and PC components, but this exact model name does not appear in search results. Manufacturer website provides general information about Corsair products but not this specific workstation model.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
