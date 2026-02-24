@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
-- Seed ready: 3
+- Total: 5
+- Seed ready: 2
 - Seed blocked: 3
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 5
 
 ## Mini PC
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs available as product is not yet released. Manufacturer URL points to current Mac mini models. Spec facts based on existing product line and typical Apple release patterns.
+- No ASINs found as product is not released; based on Apple's current Mac mini page and typical product cycle; keyword 'Apple Mac mini M4' appears speculative or based on rumors.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -75,29 +75,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=QNAP%20TS-464
 - https://www.amazon.de/s?k=QNAP%20TS-464
-
-## SBC
-
-- Topic: **Raspberry Pi 5 8GB**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 6
-- Manufacturer URLs: 1
-- Spec facts: 1
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- ASINs not provided due to uncertainty; manufacturer site confirms product existence; price category estimated based on typical SBC pricing; no user quotes or reviews sourced.
-### Probe URLs
-- https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
-- https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
-- https://www.raspberrypi.com/products/raspberry-pi-5/
-- https://www.raspberrypi.com/products/raspberry-pi-5/
 
 ## Gaming PCs
 
