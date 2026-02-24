@@ -22,7 +22,9 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Apple Mac mini M4 appears to be a rumored or upcoming product not yet released. No ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini models with M2 chips. Spec facts based on Apple's official website and product cycle expectations.
+- Product appears to be unreleased/upcoming based on manufacturer website showing only M2 models
+- No ASINs found across all specified markets
+- Keyword 'Apple Mac mini M4' shows search trends but no actual product listings found
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -99,9 +101,9 @@
 - https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
 - https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
 
-## Monitors
+## Gaming Hardware
 
-- Topic: **Samsung Odyssey OLED G8 G80SD**
+- Topic: **Nintendo Switch OLED**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -119,8 +121,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
-- https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
+- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
+- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
 
 ## Gaming PCs
 
