@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 96,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Microsoft Xbox Series X console review: Next-gen gaming performance and features analysis."
+    "ai_angle": "Next-gen gaming performance with 4K 120fps, ray tracing, and Quick Resume features."
   },
   "ready_for_pass_a": false,
   "blockers": [
