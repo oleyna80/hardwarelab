@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
@@ -50,8 +50,8 @@
     "score": 77.5,
     "ai_mode": "deepseek",
     "ai_confidence": 78,
-    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-    "ai_angle": "Apple's latest Mac mini with M4 chip offers compact performance for professionals and home users."
+    "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain changes amid compact PC demand."
   },
   "ready_for_pass_a": false,
   "blockers": [
