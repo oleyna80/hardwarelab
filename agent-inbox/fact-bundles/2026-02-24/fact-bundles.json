@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T00:22:35.974Z",
+  "generated_at": "2026-02-24T00:27:35.568Z",
   "total": 7,
   "seed_ready_count": 3,
   "seed_blocked_count": 4,
@@ -61,7 +61,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 67,
         "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-        "ai_angle": "Apple's M4-powered Mac mini faces potential shortage due to AI demand surge."
+        "ai_angle": "Apple's latest Mac mini with M4 chip balances compact design with AI-ready performance for creative and professional workflows."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -154,26 +154,26 @@
         "category_label": "Consoles",
         "topic": "xbox series s",
         "candidate_product_name": "Microsoft Xbox Series S",
-        "asin_us": "B09CKFYKWB",
-        "asin_us_url": "https://www.amazon.com/dp/B09CKFYKWB",
-        "asin_us_listing_title": "Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi (Renewed)",
+        "asin_us": "B092KKFHJ2",
+        "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
+        "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
         "asin_probe_error": null,
         "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09CKFYKWB",
+          "US": "https://www.amazon.com/dp/B092KKFHJ2",
           "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
           "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
           "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
-          "https://www.amazon.com/dp/B09CKFYKWB"
+          "https://www.amazon.com/dp/B092KKFHJ2"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -194,13 +194,13 @@
           "ES": true
         },
         "trend_7d": 14,
-        "trend_30d": 17,
-        "novelty_hits": 6,
+        "trend_30d": 16,
+        "novelty_hits": 7,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps support."
+        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -464,7 +464,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing price hikes amid AI demand, but remains versatile."
+        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC faces price hikes amid AI shortage, but remains a versatile choice."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -554,7 +554,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B098RKWHHZ",
         "asin_us_listing_title": "Nintendo Switch – OLED Model w/White Joy-Con",
         "asin_probe_error": null,
-        "confidence_score": 92,
+        "confidence_score": 84,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -568,7 +568,7 @@
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGxYcGZUSDVOYlhBMEY2QUdXMlhWbzc1eFR1U3VmSmZWcmpnZG1PeGY5T21KUUNSTzB2amlKSUZFd2RrZ0N3ek9EbjNtb3ZpVUpJNjI5YVZSQmgydVZwa3hZRS1rN3RueklNQXQtWDV0cHF4ZUMzc2h2bHNBdWNXQWljMXlQNVlfQkFDTXI5WTF0Vzh2U2RTMVdHUUxoNTl3VGp3VUlmVDJMRjZheE5xUjlLa2ZUS0kzZ2xOX3BudGg?oc=5",
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
-          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
+          "https://news.google.com/rss/articles/CBMickFVX3lxTE9MSm1vOHQ1eEhBakFlRWMzMjZBb1RtRnhpRTFNc19CZXFrbGtMTC1xWDc4dF9CbjloZ2JjNGM3Y2tfZWZMeGhJaEVuY3F2NmI1eTBmYmdOQW1xS2NCSlNFb0VQU2RwdnhaRVZtSWNZS0RFUQ?oc=5",
           "https://www.amazon.com/dp/B098RKWHHZ"
         ],
         "compliant": true,
@@ -590,13 +590,13 @@
           "ES": true
         },
         "trend_7d": 5,
-        "trend_30d": 8,
-        "novelty_hits": 6,
-        "score": 92,
+        "trend_30d": 5,
+        "novelty_hits": 5,
+        "score": 83.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 92,
+        "ai_confidence": 84,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite newer handheld PC competition?"
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -694,7 +694,7 @@
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
+        "reasoning_short": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMm1aajNOcmc3TENBYXJ0aFhxVkVYalRodU1OMk1PSlhNMzE2NzkwSEhBNThGX3ExWGtxSFBjSEFoelB4N2s3NWRiT2tZUXNZRW5wNV9GSVJoTFVjTWNBYkVBUF84R3JFX3FFOFVNeWNUbFhhQ1JSaA?oc=5",
           "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3VUWnJGc3dOUjBIR3VnamxacFRaRUVCR3Q5Z1FrR3daaDJhZUF3VnlYa0M3cTRUR0NKdGp1YmdoalBjQTNWNTdMY19YXzJReEctaTdlYXB1VzJScWdZQ25YUVNXQllvcEpmRmQ4N0dMb3R4OVhTSGFHcVVXbHdDWnR4cWhwdkE1R216RGlXcDhENE8xT3Y4Yl95VjJmc3BMVF83MWpR?oc=5",
@@ -720,8 +720,8 @@
         "score": 15.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
-        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and recent sale visibility."
+        "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
+        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal performance and current sale pricing."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -760,14 +760,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "HP Omen 45L Gaming Desktop with NVIDIA RTX 4070 Ti",
-          "description_candidate": "High-performance gaming PC featuring NVIDIA GeForce RTX 4070 Ti graphics, advanced Cryo Chamber cooling system, and customizable configurations with latest Intel processors.",
+          "description_candidate": "High-performance gaming PC featuring NVIDIA GeForce RTX 4070 Ti graphics, Cryo Chamber cooling system, and customizable configurations with Intel Core processors and DDR5 memory.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No Amazon ASINs found for specific 'HP Omen 45L RTX 4070 Ti' configuration. Manufacturer website shows product exists but specific configurations may vary. Search limited to English sources per constraints."
+          "No Amazon ASINs found for specific 'HP Omen 45L RTX 4070 Ti' configuration. Manufacturer website provides specifications but no user reviews or ratings. Search results show multiple Omen 45L configurations with different GPU options."
         ]
       },
       "seed_ready": true,
