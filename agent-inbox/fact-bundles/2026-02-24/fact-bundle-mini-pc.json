@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
     "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 83,
+    "confidence_score": 84,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,13 +17,13 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, exact model matches rules, avoids generic phrasing.",
+    "reasoning_short": "Highest score, major market availability, exact model matches rules, strong recent trends.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IZ25OWW5vMmowNEVsZGlfeXBBUzRxaE9JNEFEM1pwdWgyQi1WWXFjWWJoNUxBRDZlQ0pVU1VKTTc1S3UzT0M0dXk1N05zZWF1Tk1faGNLWmRYVVM3azFyMlJlb3Q1Y2R5cF9HM3M0MncwSHk0aXZ1M20zMFI1dw?oc=5",
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
-      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVTZucDcwbVFjMmg4eUdqTjFqMEY5WFpwTTQ1R3AybnJ2XzFrVi1GOEpNLU9tR3hCN09QSk5SMmZnX2ZfeGZUTzI4WnFQXy10N21jYnpYckpzWl90MWtpcEpfVDZ0aGZqSWMwemNNck94ZjRTUHRfXzM5Rjl4ZjBPbkFxX0NOZ9IBiwFBVV95cUxOTURWbG14T0FjYy1vRHpQSU9LZnJvQ3ZrTDRpZmNoM0dVNndXLWVPeDFmSUwxNjYzVlh1MjZlSGJHUnJaNG9vYVN6cTRHYkpwa0dUeS1hYVZIOFZxaThubGFCbEVlZGF5X3dWNDdQUnN6dHh4eEtmeVo1dzU0ZFJLNG1FNWZTTGVDc3lj?oc=5",
       "https://www.amazon.com/dp/B0DTPT3NNQ"
     ],
     "compliant": true,
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 6,
-    "trend_30d": 10,
+    "trend_7d": 8,
+    "trend_30d": 11,
     "novelty_hits": 2,
-    "score": 83,
+    "score": 84,
     "ai_mode": "deepseek",
-    "ai_confidence": 83,
-    "ai_reason": "Highest score, major market availability, exact model matches rules, avoids generic phrasing.",
-    "ai_angle": "Apple's shift to US production for Mac mini M4 signals strategic supply chain changes amid global manufacturing trends."
+    "ai_confidence": 84,
+    "ai_reason": "Highest score, major market availability, exact model matches rules, strong recent trends.",
+    "ai_angle": "Apple's US production shift for Mac mini M4 signals strategic supply chain changes amid global tech manufacturing shifts."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -100,11 +100,11 @@
     ],
     "spec_facts": [
       {
-        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+        "claim": "Apple Mac mini M4 is not yet released as of current date.",
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
+        "claim": "Current Mac mini models use M2 or M2 Pro chips.",
         "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
@@ -112,14 +112,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Apple Mac mini M4",
-      "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, not currently available.",
-      "price_category_candidate": "high",
+      "description_candidate": "Anticipated next-generation Mac mini with Apple M4 chip, expected to offer improved performance and efficiency over M2 models.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No ASINs found as product is not released; based on Apple's current Mac mini lineup and typical naming conventions."
+      "Product appears to be unreleased/upcoming based on manufacturer website and market data. No ASINs available across specified regions. Speculative information based on Apple's product cycle and current M2 models."
     ]
   }
 }
