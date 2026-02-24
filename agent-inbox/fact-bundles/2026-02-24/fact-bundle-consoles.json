@@ -4,18 +4,18 @@
     "category_key": "consoles",
     "category_label": "Consoles",
     "topic": "nintendo switch oled",
-    "candidate_product_name": "Nintendo Switch OLED",
+    "candidate_product_name": "Nintendo Switch OLED Model",
     "asin_us": "B09J652L1P",
     "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
     "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 92,
+    "confidence_score": 87,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
       "US": "https://www.amazon.com/dp/B09J652L1P",
-      "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-      "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+      "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED%20Model",
+      "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED%20Model"
     },
     "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
     "source_urls": [
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 5,
-    "trend_30d": 8,
-    "novelty_hits": 6,
-    "score": 92,
+    "trend_30d": 7,
+    "novelty_hits": 5,
+    "score": 86.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 92,
+    "ai_confidence": 87,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Nintendo Switch OLED review: Is it still the best portable console in 2026?"
+    "ai_angle": "Nintendo Switch OLED Model review: Premium handheld gaming with vibrant display and enhanced audio."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-      "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
+      "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED%20Model",
+      "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED%20Model"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-      "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-      "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+      "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED%20Model",
+      "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED%20Model",
+      "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED%20Model"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Consoles: Nintendo Switch OLED",
+      "title_candidate": "Consoles: Nintendo Switch OLED Model",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
