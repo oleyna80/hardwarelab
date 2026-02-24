@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T02:27:23.783Z",
+  "generated_at": "2026-02-24T02:32:32.630Z",
   "total": 7,
   "seed_ready_count": 2,
   "seed_blocked_count": 5,
@@ -19,7 +19,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
         "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 70,
+        "confidence_score": 68,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -27,7 +27,7 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, available on all major markets, strong recent trend and headlines.",
+        "reasoning_short": "Highest score, major market availability, strong recent trend and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lUF9pbnJRZVd0TDJBWFRDak9zekg3aGJJalBIb0ZjQzkzQ3NuczY2aWVRZ0MtOE94Z1hLbTFVbUJZT3p0cWNyS0J5SHlWQ0NzeHhhRG9IMDM2bnpvRmU5cVZVNTRaZw?oc=5",
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
@@ -55,13 +55,13 @@
           "ES": true
         },
         "trend_7d": 3,
-        "trend_30d": 9,
+        "trend_30d": 8,
         "novelty_hits": 2,
-        "score": 69.5,
+        "score": 68,
         "ai_mode": "deepseek",
-        "ai_confidence": 70,
-        "ai_reason": "Highest score, available on all major markets, strong recent trend and headlines.",
-        "ai_angle": "Compact Apple Silicon powerhouse with M4 chip, ideal for creative pros and OpenClaw users."
+        "ai_confidence": 68,
+        "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
+        "ai_angle": "Compact Apple Silicon powerhouse with M4 chip, ideal for creative pros and OpenClaw enthusiasts."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,11 +84,11 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released as of current knowledge.",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips.",
+            "claim": "Apple Mac mini currently available models use M2 or M2 Pro chips.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
@@ -96,14 +96,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Apple Mac mini M4 (Unreleased)",
-          "description_candidate": "Potential future update to Apple's compact desktop computer with M4 chip.",
-          "price_category_candidate": "mid",
+          "description_candidate": "Potential future iteration of Apple's compact desktop computer, expected to feature the M4 chip for enhanced performance and efficiency.",
+          "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No ASINs found as product is not released; based on Apple's current Mac mini page and typical product cycles."
+          "Keyword 'Apple Mac mini M4' appears speculative or based on unconfirmed rumors; no official product exists yet. Trend data may reflect search interest in anticipated releases. Manufacturer URL points to current Mac mini models. No ASINs or Amazon listings found due to product unreleased status."
         ]
       },
       "seed_ready": true,
@@ -166,7 +166,7 @@
           "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
           "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available on all major Amazon marketplaces, matches category rules precisely.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
           "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
@@ -194,13 +194,13 @@
           "ES": true
         },
         "trend_7d": 14,
-        "trend_30d": 17,
+        "trend_30d": 16,
         "novelty_hits": 6,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console offering 1440p gaming at an affordable price point."
+        "ai_reason": "Exact console model available on all major Amazon marketplaces, matches category rules precisely.",
+        "ai_angle": "Compact next-gen gaming console offering 1440p gaming at an affordable price point with Game Pass integration."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
         "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
         "asin_probe_error": null,
-        "confidence_score": 58,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,7 +298,7 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score candidate with exact model name available across all major Amazon markets.",
+        "reasoning_short": "Highest score candidate available across all major Amazon markets with exact model match.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
           "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
@@ -330,9 +330,9 @@
         "novelty_hits": 7,
         "score": 58,
         "ai_mode": "deepseek",
-        "ai_confidence": 58,
-        "ai_reason": "Highest score candidate with exact model name available across all major Amazon markets.",
-        "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution for home and small business use."
+        "ai_confidence": 85,
+        "ai_reason": "Highest score candidate available across all major Amazon markets with exact model match.",
+        "ai_angle": "QNAP TS-464 NAS review: High-performance 4-bay storage solution with quad-core processor and 2.5GbE connectivity."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -418,26 +418,26 @@
         "category_label": "SBC",
         "topic": "Raspberry Pi 5 8GB",
         "candidate_product_name": "Raspberry Pi 5 8GB",
-        "asin_us": "B0DFMNHL62",
-        "asin_us_url": "https://www.amazon.com/dp/B0DFMNHL62",
-        "asin_us_listing_title": "Vemico Raspberry Pi 5 Kit 8GB RAM with Active Cooler, Pi 5 27W 5.1V5A PD Type-C Power Supply, Raspberry Pi 5 8GB Single Board and Warranty Card Included(8GB RAM)",
+        "asin_us": "B0CK2FCG1K",
+        "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
+        "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
         "confidence_score": 76,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0DFMNHL62",
+          "US": "https://www.amazon.com/dp/B0CK2FCG1K",
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "reasoning_short": "Highest score (76), available in all major markets, strong 30-day trend (8), and recent headlines confirm product relevance.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
           "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-          "https://www.amazon.com/dp/B0DFMNHL62"
+          "https://www.amazon.com/dp/B0CK2FCG1K"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -463,8 +463,8 @@
         "score": 76,
         "ai_mode": "deepseek",
         "ai_confidence": 76,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_reason": "Highest score (76), available in all major markets, strong 30-day trend (8), and recent headlines confirm product relevance.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price increases and AI-driven demand."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -562,7 +562,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+        "reasoning_short": "Highest score, available in all major markets, exact model name matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -595,8 +595,8 @@
         "score": 92,
         "ai_mode": "deepseek",
         "ai_confidence": 92,
-        "ai_reason": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
-        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 despite Switch 2 rumors?"
+        "ai_reason": "Highest score, available in all major markets, exact model name matches rules.",
+        "ai_angle": "Nintendo Switch OLED review: Is it still the best gaming console to buy in 2026?"
       },
       "fact_bundle": {
         "asin_candidates": {
