@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to reference an unreleased product. No ASINs exist as product is not available for sale. Manufacturer URL points to current Mac mini models. All ASIN fields set to 'absent' per constraints against hallucinated ASINs.
+- No ASINs found as product is not yet released; manufacturer URL provided for reference; spec facts based on current Apple lineup and typical release patterns.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20X
-- https://www.amazon.de/s?k=Xbox%20Series%20X
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
 
 ## SBC
 
@@ -78,7 +78,7 @@
 
 ## Gaming Hardware
 
-- Topic: **Nintendo Switch OLED**
+- Topic: **Valve Steam Deck OLED**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -96,8 +96,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
-- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
+- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
 
 ## Gaming PCs
 
@@ -119,8 +119,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=HP%20Omen%2045L
-- https://www.amazon.de/s?k=HP%20Omen%2045L
+- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 
 ## AI Workstations
 
@@ -138,7 +138,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information but no dedicated page for this specific workstation model.
+- No direct ASINs found for 'Corsair AI Workstation 300' across specified markets. Corsair is a known manufacturer of PC components, but this specific product name does not appear in Amazon search results. The topic may refer to a custom-built or hypothetical workstation using Corsair parts. Manufacturer URL provided for Corsair's main site. Spec facts and quotes are absent due to lack of verifiable product listings. Editorial seed is based on the keyword and typical AI workstation characteristics.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
