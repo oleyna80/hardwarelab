@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found as the product appears to be unreleased or speculative based on current information. Manufacturer URL points to existing Mac mini models. Spec facts reflect lack of official data for M4 variant.
+- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or rumored product; no ASINs found across specified markets due to lack of availability. Manufacturer URL points to current Mac mini models. Spec facts based on official Apple information as of latest data. Trend and novelty hits may relate to online speculation or leaks.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and PC components, but this exact model name does not appear in current Amazon listings. Manufacturer website may have information about AI workstation products or custom builds.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
