@@ -101,14 +101,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Corsair AI Workstation 300",
-      "description_candidate": "High-performance AI workstation designed for machine learning and data science workloads",
+      "description_candidate": "High-performance AI workstation designed for machine learning, data science, and computational workloads",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
+      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Search results show Corsair components (RAM, PSUs, cases) but not complete AI workstations under this name. Manufacturer website shows workstation components but not a pre-built 'AI Workstation 300' model."
     ]
   }
 }
