@@ -5,15 +5,15 @@
     "category_label": "SBC",
     "topic": "Raspberry Pi 5 8GB",
     "candidate_product_name": "Raspberry Pi 5 8GB",
-    "asin_us": "B0CTT6X2ZJ",
-    "asin_us_url": "https://www.amazon.com/dp/B0CTT6X2ZJ",
-    "asin_us_listing_title": "Vilros Raspberry Pi 5-8GB Starter Kit - Turbo Cooled Edition - 32GB Memory (Aluminum Black)",
+    "asin_us": "B0CK2FCG1K",
+    "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
+    "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
     "confidence_score": 76,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0CTT6X2ZJ",
+      "US": "https://www.amazon.com/dp/B0CK2FCG1K",
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
       "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-      "https://www.amazon.com/dp/B0CTT6X2ZJ"
+      "https://www.amazon.com/dp/B0CK2FCG1K"
     ],
     "compliant": true,
     "rule": "major_markets",
