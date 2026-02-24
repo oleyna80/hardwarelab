@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T09:42:27.735Z",
+  "generated_at": "2026-02-24T09:47:25.838Z",
   "total": 7,
   "seed_ready_count": 2,
   "seed_blocked_count": 5,
@@ -15,26 +15,26 @@
         "category_label": "Mini PC",
         "topic": "Apple Mac mini M4",
         "candidate_product_name": "Apple Mac mini M4",
-        "asin_us": "B0DTPT3NNQ",
-        "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-        "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+        "asin_us": "B082YHCN4X",
+        "asin_us_url": "https://www.amazon.com/dp/B082YHCN4X",
+        "asin_us_listing_title": "Apple Late 2018 Mac Mini with 3.0GHz Intel Core i5 (8GB RAM, 256GB SSD) Space Gray (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 92,
+        "confidence_score": 88,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+          "US": "https://www.amazon.com/dp/B082YHCN4X",
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, major market availability, strong trends, exact model matches rules.",
+        "reasoning_short": "Highest score, major market availability, strong trends, and exact model matches rules.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxa3RQUWN0bDZEbkw3U05zMXdrckpILUFPLXJkUzBYZl9DRFZBYnpkSDRDQnRuTjNqZUw1Sng5SWRWMmFtaXU0SnNpalFnTHlBM055aU5sRWdXOExGZWRETWJpazhuVzhW?oc=5",
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
           "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
-          "https://www.amazon.com/dp/B0DTPT3NNQ"
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
+          "https://www.amazon.com/dp/B082YHCN4X"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -54,14 +54,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 8,
-        "trend_30d": 12,
-        "novelty_hits": 4,
-        "score": 92,
+        "trend_7d": 7,
+        "trend_30d": 10,
+        "novelty_hits": 3,
+        "score": 88,
         "ai_mode": "deepseek",
-        "ai_confidence": 92,
-        "ai_reason": "Highest score, major market availability, strong trends, exact model matches rules.",
-        "ai_angle": "Apple's latest Mac mini with M4 chip offers compact power for professionals and home users alike."
+        "ai_confidence": 88,
+        "ai_reason": "Highest score, major market availability, strong trends, and exact model matches rules.",
+        "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech production shifts."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,26 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff in 2024.",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips.",
-            "source_url": "https://www.apple.com/mac-mini/"
+            "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 variants.",
+            "source_url": "https://www.apple.com/mac-mini/specs/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Rumored next-generation Mac mini with M4 chip, not yet officially announced by Apple.",
-          "price_category_candidate": "mid",
+          "title_candidate": "Apple Mac mini M4 (Unreleased)",
+          "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, not currently available on the market.",
+          "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears to be speculative/rumor-based as no official product exists yet. All ASIN fields set to 'absent' per constraints. Manufacturer URL points to current Mac mini page. No Amazon listings or reviews available for unreleased product."
+          "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no confirmed product exists. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASINs set to 'absent' due to no confirmed product availability on Amazon in specified markets."
         ]
       },
       "seed_ready": true,
@@ -130,13 +130,13 @@
         "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 3,
+        "reachable_probe_urls": 4,
         "checked_urls": [
           "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
           "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "https://www.apple.com/mac-mini/",
           "https://www.apple.com/mac-mini/",
-          "https://www.apple.com/mac-mini/"
+          "https://www.apple.com/mac-mini/specs/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -152,28 +152,28 @@
       "topic": {
         "category_key": "consoles",
         "category_label": "Consoles",
-        "topic": "xbox series x",
-        "candidate_product_name": "Microsoft Xbox Series X",
-        "asin_us": "B0DSQZ57VC",
-        "asin_us_url": "https://www.amazon.com/dp/B0DSQZ57VC",
-        "asin_us_listing_title": "Microsoft Xbox Series X – 1TB Digital Edition (Renewed)",
+        "topic": "xbox series s",
+        "candidate_product_name": "Microsoft Xbox Series S",
+        "asin_us": "B092KKFHJ2",
+        "asin_us_url": "https://www.amazon.com/dp/B092KKFHJ2",
+        "asin_us_listing_title": "Microsoft Xbox Series S Console - 512GB",
         "asin_probe_error": null,
         "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0DSQZ57VC",
-          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
-          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
+          "US": "https://www.amazon.com/dp/B092KKFHJ2",
+          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
+          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQldYemF5OXlyQWdGdFVrTzJULWJlR1QzelZqVk03TE9RMDZjbjk5a091NUkzRUg4SnNxTGFPUlRoUUFlRzgzWGNYX1ZSZFh0WFZqTEVlVUIyZWhjd3JLZE9QMUh2QXFHNk5pX0QwQncxMjhmZGZKSUFDSFZXZnJwOTUyNnlaY2tCN0h6WFBjeHo4WVU2SjhVMkRKS0VDM1gzdHp4ZXRrb0cySmhSTHJ0UmFwWlRHZmpPYVZEX216WVRyOXpmbnhQOUFDS1ZJY1FMdmRwb3ZhSXR4NkpzcEczbDExeno?oc=5",
-          "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
-          "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPczlfcjdCTHMyQkI4VEtqbE1xMmY1ZmJsaFUweGRYbFZ2ZHh2WFFTcDRXaTZYOEYtZlRYdXpJNzhENUROMGhNTWJFVXNJTk5rLUpTVXIzdlJZdGtTeDB2dXBlUTBfemZ3RGpHaWEwZTJpbHRNZDZiRlJzekNpY3MtSlZfb1AwMWJNQ01mLV9NLThaRGd6ZjNIcnlVamg3cGJfdEY5OW5jdFBfdFp1WHo0WTRRMjJGdkQtNUdHb2RRaWxQLVB5NWhjMGQ0MkNDUmxTM1NXTVhyNjBPZmFmaDJuajE4U3FIZjFiV2FVd0JPVWxEVmdWNDdqNE5IclZ0MnNaaFYtS0p1cUYyZW9OU1Y5Zml2bEZYZ2d1Z21QMS1IdGx5cm1lTUZkaWxNYzhZZGdadmpWY1JpR3cwMWQzYmhlN3BKTmFJbU1qZnhSVUNJUnFWZjg?oc=5",
-          "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByTjBhQlBMcGZHWWtwS3NjS1loLWpncDFaMktjb3NGdDhQWGpTbExoUXo2YXRCNFVjZk1sV2N0OXpXNmhiN3NnWEVXTlpZOUlTM3N2UmNXUndCSnUySDhUZ0JjS3E?oc=5",
-          "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aZFFySkNMQXZMa1lhc2phaUgyOWJ1ZFhQMEo0Vllqdmx1dXRwT3daRWc0dkFBX292M3dEN18zbnh1enVhNUZ5RVBkLVFuVFN3SWluSlJWaVFCNktWcXJfRzBqQ1hWZw?oc=5",
-          "https://www.amazon.com/dp/B0DSQZ57VC"
+          "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
+          "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
+          "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
+          "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
+          "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDZNZHY3X1JaSnZra3RNbUVjUDM3UEdsWlRvNzZJdmlzeTRRTmVqak5MenEwQUlwVVRBUFdJVFMwSFZhV3pKWVBmaVlhZHkwcFBZODNzNng1dlFtQk5jZDBNN3dENkVxMnB5NFdqS0JVRFd3enBkQ2h2X1lzMXFhVnlxaHhySWtUVzd3VmJWeFUzZUXSAZgBQVVfeXFMT294YVZDNTNuclA2VVJ3OUc5Z3BMcFhGdmUxbUljTVRwcURhMEdkVmRUZ0hPSjlWSlhUZjRlb1VSUGVMT1JFdmJWNm05VzgzeXM5bEJQd2JxTzlTR3lWMk4xVndsRFMybHRUNmZnT19GT3lOSG5hTkpIU3R5dFptUkhVQWthYU05YVluclE5c3ZoZUlwTFdlMlo?oc=5",
+          "https://www.amazon.com/dp/B092KKFHJ2"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -194,13 +194,13 @@
           "ES": true
         },
         "trend_7d": 12,
-        "trend_30d": 15,
-        "novelty_hits": 6,
+        "trend_30d": 13,
+        "novelty_hits": 7,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Microsoft's flagship console with 4K gaming, backward compatibility, and Game Pass integration."
+        "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
+        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -214,16 +214,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
-          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
+          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
+          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Microsoft Xbox Series X",
+          "title_candidate": "Consoles: Microsoft Xbox Series S",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -267,8 +267,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X"
+          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
         "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
         "asin_probe_error": null,
-        "confidence_score": 85,
+        "confidence_score": 60,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,7 +298,7 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
+        "reasoning_short": "Highest score candidate, available in all major markets, exact model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
@@ -330,9 +330,9 @@
         "novelty_hits": 8,
         "score": 60,
         "ai_mode": "deepseek",
-        "ai_confidence": 85,
-        "ai_reason": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
-        "ai_angle": "QNAP TS-464 NAS review: High-performance 4-bay storage solution with comprehensive market availability and strong media coverage."
+        "ai_confidence": 60,
+        "ai_reason": "Highest score candidate, available in all major markets, exact model matches rules.",
+        "ai_angle": "QNAP TS-464 NAS review: A high-performance 4-bay network-attached storage solution for home and small business users."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -464,7 +464,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing price hikes amid AI demand, but remains versatile."
+        "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid AI-driven price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -596,7 +596,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 87,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED review: Is it still the best gaming console to buy in 2026?"
+        "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer hardware announcements."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -699,8 +699,8 @@
           "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMm1aajNOcmc3TENBYXJ0aFhxVkVYalRodU1OMk1PSlhNMzE2NzkwSEhBNThGX3ExWGtxSFBjSEFoelB4N2s3NWRiT2tZUXNZRW5wNV9GSVJoTFVjTWNBYkVBUF84R3JFX3FFOFVNeWNUbFhhQ1JSaA?oc=5",
           "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3VUWnJGc3dOUjBIR3VnamxacFRaRUVCR3Q5Z1FrR3daaDJhZUF3VnlYa0M3cTRUR0NKdGp1YmdoalBjQTNWNTdMY19YXzJReEctaTdlYXB1VzJScWdZQ25YUVNXQllvcEpmRmQ4N0dMb3R4OVhTSGFHcVVXbHdDWnR4cWhwdkE1R216RGlXcDhENE8xT3Y4Yl95VjJmc3BMVF83MWpR?oc=5",
           "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmFsZlVDSXJxd3N3RUFZUWVNejJnbGduMDlidU5pdUlfVUkwQTJwTjBKdVZCZHZnUFNiWDcxZ19aV1dReHpZVm1YS0Y4b2VGQnBTa2R1Z29mdzlrVk1jSUJfUVV1ZHctX1NUOXlFNks1R09sN0gzTmRUTTV1X1d0T2tTaWhTdkZCSHhz?oc=5",
-          "https://news.google.com/rss/articles/CBMieEFVX3lxTE51U21QU3dzVkh3LTJJNE1ZQW1iZG84Tk1FT2RLNUlKdG44QWZ6TVlYVWpuZWNwanpPLS1SX2kzcGJJTDFpOG8yb2R4UmdXVV9pcGFxN0I1NkZZbEVvV1phWmVrLVgtb1htX3ZkNGJPNXJobG1GTF9qMA?oc=5",
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjk1a3hnb2IzZDVidkZOTWN2bXA2Um5vZEdoN2I3NnkwTnE3bzZaWVd0QzNmUmtIUmMxYTNodGtta0NqR01WLWpGQk1SemtodGNjdEEtN1p5a2ZiT0JVamVFc1hoQ1dVVE9wbzgwbEV5cXVwdEFzb3RTRHcyb0IyeQ?oc=5",
+          "https://news.google.com/rss/articles/CBMieEFVX3lxTE51U21QU3dzVkh3LTJJNE1ZQW1iZG84Tk1FT2RLNUlKdG44QWZ6TVlYVWpuZWNwanpPLS1SX2kzcGJJTDFpOG8yb2R4UmdXVV9pcGFxN0I1NkZZbEVvV1phWmVrLVgtb1htX3ZkNGJPNXJobG1GTF9qMA?oc=5",
           "https://www.amazon.com/dp/B0G4XGFW5J"
         ],
         "compliant": false,
@@ -721,7 +721,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Configuration guide and thermal performance insights for gaming PCs."
+        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - performance and thermal analysis"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -819,13 +819,13 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Exact model matches category, available in major markets, recent reviews confirm product specificity.",
+        "reasoning_short": "Exact model matches category, available in all major markets, recent reviews confirm product specificity.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
           "https://news.google.com/rss/articles/CBMiugFBVV95cUxQallOLTA1QXBrOVIwZ2hFTGRWZHpiUlNkcXRIb2xIUHNwOHk5UTU1NUIwMlpCM3pySEtXUVJNZi1rZmRnMUQ4SndJeEhHTDcySDBUcGN3bEVCRHVjNHBpMXZJZVVfazhhSVMwV250RlJ1MzhyUnlfaFFYaXdtU0FiZGV3MGdYTDNNeE41dVZMY0Q2aEUzZXFobjZrSmZZQVd4clRnY09zTTNkUnBzQ1RXVV80WV9TQUJJY1E?oc=5",
-          "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLU13VkVVNUxDZTZ1bWoycVQwWDlueGt4eWZicVVMSFVselU5ZzB1VEY3bHdJOXJfTTlqQ2ZMTEptcHUwOXhYSDhpbmNWbzhhTXhtSkxHX25hTV80OXVJbWRpMno4cExtZEJPRDRIUDdZRE9oZkxVOGFWLUlvaS13eDNwMWEzcDZWTDNZRlhidHZzczRIa0JTMDgwam56NkpXbGRmLWNhTEVmdWYxVkU2dlpVdWtTbzREZk9DVEVvQjJfbGtMYy1pVmVHTFNNdVVtRTlFRW91M3ZHNDYyc1ZiYUFmY2FHd25EOWVhWmU1Y0VHTlE?oc=5",
           "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV0VkMGF3cHBlcDZ6NXVYb0x3Sl8zNGJrZGxnRlFTVWVYeGhOVm8yek5uTXRmM0ZfS3FEWFVsOHBPWGtzRGtVdXlzQ0Q5VVktYm5XYmxxeHEtd2tGeXpiLTRlNC0xQWU2WW4xQTNSVjJxMzhKd3VPc0NwUHMzRU11c2lUZjFIYjFWU2Y0ZXFzYzRKWHc5aV9nS2xDTllHRGdoWHlkR2RVSkw4VmRoMEtVQXVSeUc3TkM4UktCZlRDVGRLdTRKYzJaS1Z6Tjg4ZjlGQkNTQk83bDHSAd4BQVVfeXFMUGsxbWt3RzNtRWsySWhDWHBxa2VvOUlqNGR3WHVYRzN0U1lxSmc2Nkp6a3lPdGFPQ0VmWVBDc1F5S1I5QmYwWG04V1JLVVZoa09PVjlZUUw5MmFCLVBxcWItT2VUZmV1OTVVZDRaSFcteWsxNWg3bzNKNGJCR3dUbTM4ZE5odFpTa1dGcXNKVTgyYnVUMjdHdTlYenpVR3p4dzUzdHJwX2RvaVNCeWxaOHBhMkRkZ3d3SnlwcG93ZnNGRGc1WmQtVHFBX3ZoeWdockR3YkNNTUhFOTBfQ0h3?oc=5",
+          "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLU13VkVVNUxDZTZ1bWoycVQwWDlueGt4eWZicVVMSFVselU5ZzB1VEY3bHdJOXJfTTlqQ2ZMTEptcHUwOXhYSDhpbmNWbzhhTXhtSkxHX25hTV80OXVJbWRpMno4cExtZEJPRDRIUDdZRE9oZkxVOGFWLUlvaS13eDNwMWEzcDZWTDNZRlhidHZzczRIa0JTMDgwam56NkpXbGRmLWNhTEVmdWYxVkU2dlpVdWtTbzREZk9DVEVvQjJfbGtMYy1pVmVHTFNNdVVtRTlFRW91M3ZHNDYyc1ZiYUFmY2FHd25EOWVhWmU1Y0VHTlE?oc=5",
           "https://www.amazon.com/dp/B0GKPJRXW4"
         ],
         "compliant": true,
@@ -852,8 +852,8 @@
         "score": 61.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Exact model matches category, available in major markets, recent reviews confirm product specificity.",
-        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM for demanding AI workloads."
+        "ai_reason": "Exact model matches category, available in all major markets, recent reviews confirm product specificity.",
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration for demanding AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -879,14 +879,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "AI workstation designed for machine learning and data science workloads",
+          "description_candidate": "AI workstation from Corsair, likely designed for AI/ML workloads with high-performance components.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
+          "No specific product found matching 'Corsair AI Workstation 300' on Amazon or Corsair's website. Corsair is known for gaming and PC components, but an AI workstation with this exact name appears unconfirmed. Search results may be limited or refer to custom builds or unreleased products."
         ]
       },
       "seed_ready": true,
