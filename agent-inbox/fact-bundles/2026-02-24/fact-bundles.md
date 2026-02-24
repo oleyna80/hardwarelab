@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found as product is not released; based on Apple's current Mac mini page and typical product cycles.
+- The Apple Mac mini M4 appears to be a speculative or future product based on trends and novelty hits, as no official release or ASINs exist across the specified markets. Manufacturer URL points to current Mac mini models. Spec facts reflect the absence of confirmed M4 details. Editorial seed is based on typical Apple product positioning and expectations.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -52,29 +52,6 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Xbox%20Series%20X
 - https://www.amazon.de/s?k=Xbox%20Series%20X
-
-## NAS
-
-- Topic: **QNAP TS-464**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=QNAP%20TS-464
-- https://www.amazon.de/s?k=QNAP%20TS-464
 
 ## SBC
 
@@ -121,6 +98,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 - https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
+
+## Gaming PCs
+
+- Topic: **HP Omen 45L RTX 4070 Ti**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=HP%20Omen%2045L
+- https://www.amazon.de/s?k=HP%20Omen%2045L
 
 ## AI Workstations
 
