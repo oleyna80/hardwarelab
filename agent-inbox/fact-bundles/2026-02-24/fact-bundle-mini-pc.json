@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "reasoning_short": "Highest score, major market availability, exact model matches rules, strong recent trends.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
@@ -44,40 +44,38 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 11,
-    "trend_30d": 14,
+    "trend_7d": 10,
+    "trend_30d": 13,
     "novelty_hits": 4,
     "score": 92,
     "ai_mode": "deepseek",
     "ai_confidence": 92,
-    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-    "ai_angle": "Powerful M4 chip in compact form factor, with production shifting to US for supply chain resilience."
+    "ai_reason": "Highest score, major market availability, exact model matches rules, strong recent trends.",
+    "ai_angle": "Apple's M4 Mac mini brings desktop power to compact form with US production shift gaining attention."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 3,
+    "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
-      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
-      "https://www.apple.com/mac-mini/",
-      "https://www.apple.com/mac-mini/",
-      "https://www.apple.com/mac-mini/"
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 2,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 3
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -95,31 +93,21 @@
       "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     ],
-    "manufacturer_urls": [
-      "https://www.apple.com/mac-mini/"
-    ],
-    "spec_facts": [
-      {
-        "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
-        "source_url": "https://www.apple.com/mac-mini/"
-      },
-      {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips.",
-        "source_url": "https://www.apple.com/mac-mini/"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4",
-      "description_candidate": "Potential upcoming mini desktop computer from Apple featuring the M4 chip.",
-      "price_category_candidate": "high",
+      "title_candidate": "Mini PC: Apple Mac mini M4",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No ASINs found as product is not yet released; manufacturer URL provided for reference; spec facts based on current Apple lineup and typical release patterns."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
