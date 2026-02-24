@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 88,
     "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain changes amid global tech production shifts."
+    "ai_angle": "Apple's first US-assembled Mac mini with M4 chip brings performance and manufacturing shift."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -100,11 +100,11 @@
     ],
     "spec_facts": [
       {
-        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+        "claim": "Apple Mac mini M4 is not yet released or announced as of current date",
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
+        "claim": "Current Mac mini models use M2 or M2 Pro chips",
         "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
@@ -112,14 +112,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Apple Mac mini M4",
-      "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
+      "description_candidate": "Potential future Apple Mac mini model with M4 chip, not yet released",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini page, which does not mention M4."
+      "Product appears to be speculative/future model based on keyword search. No current Amazon listings found across specified markets. Manufacturer site shows only M2/M2 Pro models. Trend data suggests interest in potential future release."
     ]
   }
 }
