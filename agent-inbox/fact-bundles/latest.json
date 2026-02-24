@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T15:37:43.682Z",
+  "generated_at": "2026-02-24T15:42:29.400Z",
   "status": "partial",
   "seed_ready_count": 2,
-  "seed_blocked_count": 5,
+  "seed_blocked_count": 4,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 7,
+  "pass_a_blocked_count": 6,
   "ready_count": 0,
-  "blocked_count": 7,
+  "blocked_count": 6,
   "md_path": "agent-inbox/fact-bundles/2026-02-24/fact-bundles.md",
   "json_path": "agent-inbox/fact-bundles/2026-02-24/fact-bundles.json",
   "status_path": "agent-inbox/fact-bundles/2026-02-24/status.json",
@@ -29,11 +29,6 @@
       "category_key": "sbc",
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-sbc.json",
       "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-sbc.json"
-    },
-    {
-      "category_key": "monitors",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-monitors.json",
-      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-monitors.json"
     },
     {
       "category_key": "gaming",
