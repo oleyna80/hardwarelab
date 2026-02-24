@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
-- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.com/s?k=Xbox%20Series%20S
+- https://www.amazon.de/s?k=Xbox%20Series%20S
 
 ## NAS
 
@@ -137,7 +137,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No Amazon ASINs found for specific RTX 4070 Ti configuration. Manufacturer site lists multiple configurations but no direct RTX 4070 Ti model with confirmed ASIN. Search limited to English sources per constraints.
+- No specific ASINs found for RTX 4070 Ti configuration across Amazon regions. Manufacturer site lists Omen 45L as configurable product with multiple GPU options including RTX 4070 Ti. Price category estimated based on typical RTX 4070 Ti gaming PC market positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
