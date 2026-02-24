@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
       "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
-    "reasoning_short": "Exact console model available in all major markets, avoids prohibited generic phrases.",
+    "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZUZkZHRoc0EwUVFfUktxUldpcElSN3pqUG5QZ0wxQUpGSzREZnhXakF3cHpKcWt2dF8xUUhQZ1QtS2hBcVhMOThUemxERXhTVy1ISWpJSzl6NWR4VWpiM2hxNXBVNThqUVE0U25kRUVxN3VyQXBDUjQ4Q3lYVmI5WHVVXzAzVC13QmV6aUF3cEFFWjVwaEgxMWxWN0E3ZGk3c1dTeUEwbWZNSmVTOEU1Q2lNN3lqSGRkNmgzNl9vZHhGN0w2VG93REZ6XzdpU3NnVGc?oc=5",
       "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
@@ -45,12 +45,12 @@
       "ES": true
     },
     "trend_7d": 14,
-    "trend_30d": 16,
-    "novelty_hits": 7,
+    "trend_30d": 15,
+    "novelty_hits": 9,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
-    "ai_reason": "Exact console model available in all major markets, avoids prohibited generic phrases.",
+    "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
     "ai_angle": "Compact next-gen console offering Game Pass access and 1440p gaming at an affordable price point."
   },
   "ready_for_pass_a": false,
