@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Exact model matches category, available in major markets, recent reviews confirm product specificity.",
-    "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration - premium but pricey package."
+    "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration - premium performance in small form factor."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -101,14 +101,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Corsair AI Workstation 300",
-      "description_candidate": "High-performance workstation designed for AI and machine learning workloads, featuring powerful components for data processing and model training.",
+      "description_candidate": "High-performance AI workstation designed for machine learning, data science, and computational workloads, featuring Corsair components for reliability and cooling.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information but no dedicated page for this specific workstation model."
+      "No direct ASINs found for 'Corsair AI Workstation 300' across specified markets. Corsair is a known manufacturer of PC components, but this specific product name does not appear in Amazon search results. The topic may refer to a custom-built or hypothetical workstation using Corsair parts. Manufacturer URL provided for Corsair's main site. Spec facts and quotes are absent due to lack of verifiable product listings. Editorial seed is based on the keyword and typical AI workstation characteristics."
     ]
   }
 }
