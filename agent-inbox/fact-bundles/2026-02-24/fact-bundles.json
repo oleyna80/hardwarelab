@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T02:37:29.759Z",
+  "generated_at": "2026-02-24T02:42:29.412Z",
   "total": 7,
   "seed_ready_count": 2,
   "seed_blocked_count": 5,
@@ -19,7 +19,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
         "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 70,
+        "confidence_score": 64,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -27,13 +27,13 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trend and headlines.",
+        "reasoning_short": "Highest score, major market availability, strong recent trend and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lUF9pbnJRZVd0TDJBWFRDak9zekg3aGJJalBIb0ZjQzkzQ3NuczY2aWVRZ0MtOE94Z1hLbTFVbUJZT3p0cWNyS0J5SHlWQ0NzeHhhRG9IMDM2bnpvRmU5cVZVNTRaZw?oc=5",
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
-          "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
           "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zclFxYlNaMG1wNnJKWWtNekhscUtNN192OGh5RDlGTlV3Wm90c0ZpN1dKeEFFdEhIVUpDcnVLbWxRMno4RFROeVBHT1BoTzg3T2FmUlE0M0NfV3YxaWlMTlVDVFZ4YUxG?oc=5",
+          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPck4ySFdCUklMTlpKdEZ6T3pvMUdVY0E0aEs0VUI1OWxsMGJhVTJNaFpqZ0t0eHJzVHNKb2tXN1JQemZWWkNPNkNoNXRiT29SenBaMmNkNmVWMkF3UllqMEc0LXIyNlFWc2JobktwZzJGbXpBOE02ajZFRkdJTWU4WFctc1FQMjM4cnVJbER5LVJXUDlaNm55Y2lMZVhYYTdoajZyUmJnMlExdw?oc=5",
           "https://www.amazon.com/dp/B0DTPT3NNQ"
         ],
         "compliant": true,
@@ -54,14 +54,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 3,
-        "trend_30d": 9,
+        "trend_7d": 2,
+        "trend_30d": 8,
         "novelty_hits": 2,
-        "score": 69.5,
+        "score": 64,
         "ai_mode": "deepseek",
-        "ai_confidence": 70,
-        "ai_reason": "Highest score, available in all major markets, strong recent trend and headlines.",
-        "ai_angle": "Compact Apple Silicon powerhouse with M4 chip, ideal for creative pros and OpenClaw users."
+        "ai_confidence": 64,
+        "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
+        "ai_angle": "Apple's M4-powered Mac mini faces potential shortage amid AI demand surge, available under $550."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,11 +84,11 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips.",
+            "claim": "Apple Mac mini currently available models use M2 or M2 Pro chips.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
@@ -96,14 +96,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Apple Mac mini M4 (Unreleased)",
-          "description_candidate": "Anticipated next-generation Mac mini with Apple M4 chip, expected to offer improved performance and efficiency over M2 models.",
-          "price_category_candidate": "high",
+          "description_candidate": "Potential future update to Apple's compact desktop computer with M4 chip, not yet announced.",
+          "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Topic appears speculative; no ASINs exist for unreleased product. Manufacturer URL points to current Mac mini lineup. Spec facts reflect current state and anticipation based on Apple's chip progression."
+          "Keyword 'Apple Mac mini M4' appears to reference an unreleased product based on current information. No ASINs found across specified markets. Manufacturer URL points to current Mac mini models with M2 chips. Trend data may reflect speculation or anticipation rather than actual product availability."
         ]
       },
       "seed_ready": true,
@@ -200,7 +200,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps capabilities."
+        "ai_angle": "Compact next-gen gaming console with digital-only design, Game Pass integration, and 1440p/120fps performance."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
         "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
         "asin_probe_error": null,
-        "confidence_score": 58,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,13 +298,13 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score among NAS candidates, available on all major Amazon markets, exact model specified.",
+        "reasoning_short": "Highest score candidate with major market availability across all required regions.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
+          "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
           "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
           "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uOXBLc3hDRHQxV2JqU1Z2OFVGS29kYnJBOF9IN1g4NUd4dUEzRTFoOXNjNGJNbkhGUEE1SWJaMEN4dkhtX3g0QWk2UXhtdmpkTDMxWjVOYXQzaEJ6LXF3VUZNYXBhbWNzY0duVTVFa0Nlel9o?oc=5",
           "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVNKbTVZZmlKR25pdzdLMHVhS3RlOENlXzVMc2dSNmJleWQ1a21ZY1BJZGRtQmVRd3BhSkZEY2pZdGZjbnZXdlhMRllybTd1RDF6bktxUkROYzJvOU1vdkp4UHBzamVTbi13MDh0V2p3OHBhZXlpeEN0bUVELUF3bHp5RDg0R2sxSk0xUl9hdjcxYnc5cDJnNnB5cHNiQ3c?oc=5",
-          "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYTWtyVlhxdUtxSXJwczF0VHFCNnQ1UGVpMTN3MFU3RGc4ZHJORVNmay1WSE9pcG5SS0pOTlpqYUEza29OTUVsZzlrYWpRU0w4UEYyZHF3a0lkdHVPWGpfSEN1MW53bTVGSGlZ0gFwQVVfeXFMTVRYRjN6dVVyelJ2X2dVYWg0ZkNWRk1lbWUyUzVHcjZ0ckhhZUxJT3JGaU9OWEtBYUtUWUVmSTlNbkZsSGlxSzMzeEVtb0dQcHM5OGRfZXhlY0JvdjV6Zk5ib0JTUHJ0MDl5dXd4SWRxXw?oc=5",
           "https://www.amazon.com/dp/B0BQ5TWCL8"
         ],
         "compliant": true,
@@ -327,12 +327,12 @@
         },
         "trend_7d": 0,
         "trend_30d": 0,
-        "novelty_hits": 7,
-        "score": 58,
+        "novelty_hits": 8,
+        "score": 60,
         "ai_mode": "deepseek",
-        "ai_confidence": 58,
-        "ai_reason": "Highest score among NAS candidates, available on all major Amazon markets, exact model specified.",
-        "ai_angle": "QNAP TS-464 NAS: A high-performance 4-bay network-attached storage solution with quad-core processor and hardware transcoding support."
+        "ai_confidence": 85,
+        "ai_reason": "Highest score candidate with major market availability across all required regions.",
+        "ai_angle": "High-performance 4-bay NAS with Intel Celeron processor for home and small business use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -464,7 +464,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing price hikes amid AI demand, but remains versatile."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -596,7 +596,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 84,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite Switch 2 rumors?"
+        "ai_angle": "Nintendo Switch OLED remains a top console choice in 2026 despite newer hardware rumors."
       },
       "fact_bundle": {
         "asin_candidates": {
