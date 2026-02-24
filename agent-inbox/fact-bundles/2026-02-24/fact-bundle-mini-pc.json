@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "mini-pc",
     "category_label": "Mini PC",
-    "topic": "MINISFORUM UM790 Pro",
-    "candidate_product_name": "MINISFORUM UM790 Pro",
-    "asin_us": "B0FH269396",
-    "asin_us_url": "https://www.amazon.com/dp/B0FH269396",
-    "asin_us_listing_title": "MINISFORUM AI Mini PC M1 Pro-125H with Intel Core Ultra 5 Processor 125H(14C/18T,up to 4.5Ghz), Mini Computer 32GB DDR5 PCIe4.0 SSD 1TB,Triple Display with HDMI 2.1/USB4/DP,5X USB Ports, WiFi 7,BT5.4",
+    "topic": "Apple Mac mini M4",
+    "candidate_product_name": "Apple Mac mini M4",
+    "asin_us": "B0DTPT3NNQ",
+    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
+    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 85,
+    "confidence_score": 88,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0FH269396",
-      "DE": "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro",
-      "FR": "https://www.amazon.fr/s?k=MINISFORUM%20UM790%20Pro"
+      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+      "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "High-performance AMD mini PC with major marketplace availability and strong recent coverage.",
+    "reasoning_short": "Highest score, major market availability, strong trends, and exact model specification.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNW0yVnNYRnlvZE9jSmNVeFVFLUZYR0luT2RIcml6bGJyazZUWnBVRkRWdDJ2dGlUX0NQblVFVEU3WG9hSVhraVV6TF9PdE5qdVRZdEt6Wi1mUzk3dXpvYlVRdmprQ0xIbmJtSi1FU2phc3V6T01pSERscFBvMzkxT2Z0SmNFSVBSSnpCTFVaV0VYZF9SYUZQNFdfV0NFWHIwajYtUTc0X282TEMtNlhMM0tWLWFUUTNoTWl5TVMxUER4TXNDb0NGaWRoS3NINFdZUmszYS1DYWs5YVozaHhlV2EyWE1fb1V6Z1RxT092dkpRNENacG53?oc=5",
-      "https://news.google.com/rss/articles/CBMieEFVX3lxTFBacEQ5UFB2MDBnNzNhNjBsME91cWxlMUdNV1JJN1U3YTRvYzRrQ1lMb3RVd3A2UEJESXFjZkd3MDU2Wmd4S09Pa1ljd0ZkUUdZd1E3VmtxNnpydm0yRmlNTzRoaUk2TXo4bURTT1FYOWZOZ18zSkhLdg?oc=5",
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUkZZbmRucFlwQW5hTXpLblZCVzJDT3AxajJUbE9fRk12aTlxQk5TTGJYWDA4OEpQSHBWVXJ0dm80ZHVCWVdmRzBUNnl3cGJOTmJVYnlsMV9LVUhtWHo0eUpoRl9wSjZudmFsSlBJMG90SzBMSmJMYWMyWDJ1Tk9yOXdTcUVYaElYOXdGSmh3cXMwWVlzNUE?oc=5",
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXNWak9TTzRhZDZGQVVsc0dVb0xmLWROT3JKcWNlbUk3RE1ydHNTN1JiYWRFaUJ0MXl5M2FOekt5MmRNODA3ODhvZWg3TWFranN1QjhfTHJxdk1tN2w2OTJVQ0ZsVS1kYjF6Y05WZDllel81cEx4NEJfYnk1aFlHREpnREhCeDhlQ1A3OXFoZHc1WW9CUnpTYg?oc=5",
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc0VwOThYdV80cE5Od3h0dWFiSV9uaEVFRnp5WUtTWXd1bFV0X3hSV1JaQXhHRlBoOThRT3RUNVBfZEtBQlp6ZGh3VFBWY1VWdFhHM2dZdGxjdDBYYzJLRDlfSFhHS1llTEhzNldwUjh0MTVtWEluMm9RNlBrM0N5SktFdjI5SWQxSDU5NWhzYzN3U3dZbW90dlJfblIydjTSAaQBQVVfeXFMTVlpaE41TEhDZFdBRDBqeFVtNUFNRW5LZmNKdzVZbjNKeU9pQnBOekxsTVhaMnF4TzBPMlNJRDRpZVhIOE5BbXdlTm9OLUU3aFlnckVKRWVIanU2Z0RxeDZ1eG83Tlc0T2x0am1mODV0N1EtR0tJdmdISU4tWC1MQVFVMHF1c0haaG43ODVSNjJVUERiV21pLVN6blJTbEk5YlhEdjc?oc=5",
-      "https://www.amazon.com/dp/B0FH269396"
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaEUzVE9RM3c3Vk5EYkhLX2EwaWo4S051UkhGTG95bG9weHhMYUlvYXB1QU5iSy1PYzBfcnQ0ckVLZ0xBMUUwbGpDQVF4UTdiNUhMNzkxNUhjbkp6eFpkX205WDMwc0hHVXhHb0N0aU5hWlNLY3NSRDJVUmo0a3JOT1Bod1dWRi1Kb01mUkc2TThBT2tDOGROYTloU3VfcUxFNTNhZjJwMzVSbVlESm5TOHI1dFAteHh1Mm1Ta0M0U24yQUtmeW5MckM0el8yN0dhc2lwUlRNMA?oc=5",
+      "https://www.amazon.com/dp/B0DTPT3NNQ"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 1,
-    "trend_30d": 1,
-    "novelty_hits": 5,
-    "score": 61.5,
+    "trend_7d": 7,
+    "trend_30d": 10,
+    "novelty_hits": 3,
+    "score": 88,
     "ai_mode": "deepseek",
-    "ai_confidence": 85,
-    "ai_reason": "High-performance AMD mini PC with major marketplace availability and strong recent coverage.",
-    "ai_angle": "High-performance compact workstation with AMD Ryzen 9 7940HS for creative professionals and power users."
+    "ai_confidence": 88,
+    "ai_reason": "Highest score, major market availability, strong trends, and exact model specification.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech production trends."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=MINISFORUM%20UM790%20Pro",
-      "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro"
+      "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=MINISFORUM%20UM790%20Pro",
-      "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro",
-      "https://www.amazon.fr/s?k=MINISFORUM%20UM790%20Pro"
+      "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Mini PC: MINISFORUM UM790 Pro",
+      "title_candidate": "Mini PC: Apple Mac mini M4",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
