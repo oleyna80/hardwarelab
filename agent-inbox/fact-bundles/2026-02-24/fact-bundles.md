@@ -22,13 +22,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- The Apple Mac mini M4 appears to be a speculative or rumored product not yet available on Amazon or officially announced by Apple. No ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini models. Spec facts based on Apple's official website and current product lineup. Editorial seed is speculative due to product unreleased status.
+- Apple Mac mini M4 appears to be a rumored or upcoming product not yet available on Amazon markets. Current Mac mini models use M2 chips. No ASINs found due to product not being released.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/specs/
+- https://www.apple.com/mac-mini/
 
 ## Consoles
 
@@ -52,6 +52,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Xbox%20Series%20X
 - https://www.amazon.de/s?k=Xbox%20Series%20X
+
+## NAS
+
+- Topic: **QNAP TS-464**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=QNAP%20TS-464
+- https://www.amazon.de/s?k=QNAP%20TS-464
 
 ## SBC
 
@@ -99,29 +122,6 @@
 - https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 - https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD
 
-## Gaming Hardware
-
-- Topic: **Nintendo Switch OLED**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
-- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
-
 ## Gaming PCs
 
 - Topic: **HP Omen 45L RTX 4070 Ti**
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current listings. Manufacturer website provides general information but no dedicated page for this specific model. No user quotes, reviews, or detailed specifications available from verifiable sources.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. The term may be hypothetical or not yet released. Manufacturer URL provided for Corsair's main site.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
