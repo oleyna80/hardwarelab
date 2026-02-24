@@ -5,26 +5,26 @@
     "category_label": "Mini PC",
     "topic": "Apple Mac mini M4",
     "candidate_product_name": "Apple Mac mini M4",
-    "asin_us": "B0DTPT3NNQ",
-    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+    "asin_us": "B0DLBX4B1K",
+    "asin_us_url": "https://www.amazon.com/dp/B0DLBX4B1K",
+    "asin_us_listing_title": "Apple 2024 Mac mini Desktop Computer with M4 chip with 10‑core CPU and 10‑core GPU: Built for Apple Intelligence, 16GB Unified Memory, 512GB SSD Storage, Gigabit Ethernet. Works with iPhone/iPad",
     "asin_probe_error": null,
     "confidence_score": 72,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+      "US": "https://www.amazon.com/dp/B0DLBX4B1K",
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent trend and headlines.",
+    "reasoning_short": "Highest score, major market availability, strong recent trend and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxa3RQUWN0bDZEbkw3U05zMXdrckpILUFPLXJkUzBYZl9DRFZBYnpkSDRDQnRuTjNqZUw1Sng5SWRWMmFtaXU0SnNpalFnTHlBM055aU5sRWdXOExGZWRETWJpazhuVzhW?oc=5",
       "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
       "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zclFxYlNaMG1wNnJKWWtNekhscUtNN192OGh5RDlGTlV3Wm90c0ZpN1dKeEFFdEhIVUpDcnVLbWxRMno4RFROeVBHT1BoTzg3T2FmUlE0M0NfV3YxaWlMTlVDVFZ4YUxG?oc=5",
-      "https://www.amazon.com/dp/B0DTPT3NNQ"
+      "https://www.amazon.com/dp/B0DLBX4B1K"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,8 +50,8 @@
     "score": 72,
     "ai_mode": "deepseek",
     "ai_confidence": 72,
-    "ai_reason": "Highest score, available in all major markets, strong recent trend and headlines.",
-    "ai_angle": "Mac mini M4's power button design controversy amid OpenClaw software popularity surge."
+    "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
+    "ai_angle": "Compact Apple Silicon powerhouse with OpenClaw compatibility driving renewed interest."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -104,7 +104,7 @@
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 models.",
+        "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
         "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
@@ -119,7 +119,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no confirmed product exists. Manufacturer URL points to current Mac mini page. No ASINs or Amazon URLs found due to product unavailability. Trend data may reflect search interest in unannounced products."
+      "Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no ASINs found across specified markets due to product not being released. Manufacturer URL points to current Mac mini page. Trend data may reflect search interest for rumored product."
     ]
   }
 }
