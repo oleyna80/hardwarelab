@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
     "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 68,
+    "confidence_score": 70,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, strong recent trend and headlines.",
+    "reasoning_short": "Highest score, available in all major markets, strong recent trend and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lUF9pbnJRZVd0TDJBWFRDak9zekg3aGJJalBIb0ZjQzkzQ3NuczY2aWVRZ0MtOE94Z1hLbTFVbUJZT3p0cWNyS0J5SHlWQ0NzeHhhRG9IMDM2bnpvRmU5cVZVNTRaZw?oc=5",
       "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 3,
-    "trend_30d": 8,
+    "trend_30d": 9,
     "novelty_hits": 2,
-    "score": 68,
+    "score": 69.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 68,
-    "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
-    "ai_angle": "Compact Apple Silicon powerhouse with M4 chip, ideal for creative pros and OpenClaw enthusiasts seeking premium mini PC performance."
+    "ai_confidence": 70,
+    "ai_reason": "Highest score, available in all major markets, strong recent trend and headlines.",
+    "ai_angle": "Compact Apple Silicon powerhouse with M4 chip, ideal for creative pros and OpenClaw users."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -104,22 +104,22 @@
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 models.",
+        "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
         "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, not yet announced or available.",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculative product based on current Apple lineup and announcements. No ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page, which does not mention M4. Trend and novelty data may reflect search interest or rumors rather than actual product availability."
+      "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. ASINs and Amazon URLs are absent as product is not listed. Manufacturer URL points to current Mac mini page. Spec facts reflect current state. Editorial seed is based on typical Apple pricing and product naming conventions."
     ]
   }
 }
