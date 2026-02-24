@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
-- Seed ready: 1
+- Total: 7
+- Seed ready: 2
 - Seed blocked: 5
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 7
 
 ## Mini PC
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found as product is not released; based on Apple's current Mac mini page and typical product naming conventions.
+- Product appears to be unreleased; no ASINs or Amazon listings found. Manufacturer site shows current M2 models only. Trend data may reflect speculation or anticipation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -101,7 +101,7 @@
 
 ## Gaming Hardware
 
-- Topic: **Valve Steam Deck OLED**
+- Topic: **Nintendo Switch OLED**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -119,8 +119,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED
-- https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED
+- https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
+- https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
 
 ## Gaming PCs
 
@@ -144,3 +144,25 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+
+## AI Workstations
+
+- Topic: **Corsair AI Workstation 300**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 1
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- No direct product listings found for 'Corsair AI Workstation 300' on Amazon across specified markets. Corsair is a known manufacturer of gaming and PC components, but this specific AI workstation model appears unlisted or may be a conceptual or discontinued product. Manufacturer website (corsair.com) is included as a reference, but no specific product page was identified. All ASIN fields set to 'absent' per constraints to avoid hallucination.
+### Probe URLs
+- https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
+- https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
+- https://www.corsair.com/
