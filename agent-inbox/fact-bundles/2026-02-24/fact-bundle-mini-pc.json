@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro",
       "FR": "https://www.amazon.fr/s?k=MINISFORUM%20UM790%20Pro"
     },
-    "reasoning_short": "High-performance AMD mini PC with major marketplace availability and strong recent coverage as ideal for creative professionals.",
+    "reasoning_short": "High-performance AMD mini PC with major marketplace availability and strong recent coverage.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNW0yVnNYRnlvZE9jSmNVeFVFLUZYR0luT2RIcml6bGJyazZUWnBVRkRWdDJ2dGlUX0NQblVFVEU3WG9hSVhraVV6TF9PdE5qdVRZdEt6Wi1mUzk3dXpvYlVRdmprQ0xIbmJtSi1FU2phc3V6T01pSERscFBvMzkxT2Z0SmNFSVBSSnpCTFVaV0VYZF9SYUZQNFdfV0NFWHIwajYtUTc0X282TEMtNlhMM0tWLWFUUTNoTWl5TVMxUER4TXNDb0NGaWRoS3NINFdZUmszYS1DYWs5YVozaHhlV2EyWE1fb1V6Z1RxT092dkpRNENacG53?oc=5",
       "https://news.google.com/rss/articles/CBMieEFVX3lxTFBacEQ5UFB2MDBnNzNhNjBsME91cWxlMUdNV1JJN1U3YTRvYzRrQ1lMb3RVd3A2UEJESXFjZkd3MDU2Wmd4S09Pa1ljd0ZkUUdZd1E3VmtxNnpydm0yRmlNTzRoaUk2TXo4bURTT1FYOWZOZ18zSkhLdg?oc=5",
@@ -50,8 +50,8 @@
     "score": 53.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "High-performance AMD mini PC with major marketplace availability and strong recent coverage as ideal for creative professionals.",
-    "ai_angle": "High-performance compact AMD system with professional creative workflow capabilities and recent significant price reduction."
+    "ai_reason": "High-performance AMD mini PC with major marketplace availability and strong recent coverage.",
+    "ai_angle": "Compact powerhouse for creative professionals with recent significant price reduction."
   },
   "ready_for_pass_a": false,
   "blockers": [
