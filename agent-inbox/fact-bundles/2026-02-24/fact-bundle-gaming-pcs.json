@@ -49,6 +49,8 @@
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
@@ -57,19 +59,16 @@
     "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000",
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000",
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
+      "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 4
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -87,35 +86,21 @@
       "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
       "https://www.amazon.fr/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
     ],
-    "manufacturer_urls": [
-      "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-    ],
-    "spec_facts": [
-      {
-        "claim": "HP Omen 45L desktop with NVIDIA GeForce RTX 4070 Ti graphics card",
-        "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-      },
-      {
-        "claim": "Omen 45L features a Cryo Chamber cooling system with liquid cooling for CPU",
-        "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-      },
-      {
-        "claim": "Supports up to Intel Core i9-14900K processor and up to 64GB DDR5 RAM",
-        "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "HP Omen 45L Gaming Desktop with NVIDIA RTX 4070 Ti",
-      "description_candidate": "High-performance gaming PC featuring NVIDIA GeForce RTX 4070 Ti graphics, advanced Cryo Chamber cooling system, and customizable configurations for demanding gamers.",
-      "price_category_candidate": "high",
+      "title_candidate": "Gaming PCs: HP Omen 45L RTX 4070 Ti",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "No Amazon ASINs found for specific RTX 4070 Ti configuration. Manufacturer site lists multiple configurations. Search suggests this is a high-end gaming desktop category."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
