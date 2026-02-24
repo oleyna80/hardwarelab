@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 64,
     "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
-    "ai_angle": "Apple's M4-powered Mac mini faces potential shortage amid AI demand surge, available under $550."
+    "ai_angle": "Compact AI powerhouse with M4 chip, facing potential shortage due to high demand."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -100,26 +100,26 @@
     ],
     "spec_facts": [
       {
-        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+        "claim": "Apple Mac mini M4 is not yet released or announced as of current data collection.",
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Apple Mac mini currently available models use M2 or M2 Pro chips.",
+        "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 models.",
         "source_url": "https://www.apple.com/mac-mini/"
       }
     ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Potential future update to Apple's compact desktop computer with M4 chip, not yet announced.",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to reference an unreleased product based on current information. No ASINs found across specified markets. Manufacturer URL points to current Mac mini models with M2 chips. Trend data may reflect speculation or anticipation rather than actual product availability."
+      "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest or anticipation. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASIN fields set to 'absent' due to no confirmed product listings."
     ]
   }
 }
