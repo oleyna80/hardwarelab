@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
 - Total: 7
-- Seed ready: 3
-- Seed blocked: 4
+- Seed ready: 2
+- Seed blocked: 5
 - PASS A ready: 0
 - PASS A blocked: 7
 
@@ -22,13 +22,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no actual product exists in markets as of now. Trend data may reflect search interest for unannounced products. Manufacturer URL points to current Mac mini page, which does not mention M4.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini models. No ASINs or Amazon URLs available as product is not listed.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
@@ -128,22 +128,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific ASINs found for RTX 4070 Ti configuration across Amazon markets. Manufacturer site lists multiple configurations but no direct Amazon links provided. RTX 4070 Ti is a current-generation GPU option for Omen 45L series.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
 
 ## AI Workstations
 
