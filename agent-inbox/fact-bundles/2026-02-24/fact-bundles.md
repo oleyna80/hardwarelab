@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
 - Total: 6
-- Seed ready: 3
-- Seed blocked: 3
+- Seed ready: 2
+- Seed blocked: 4
 - PASS A ready: 0
 - PASS A blocked: 6
 
@@ -22,13 +22,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears speculative or based on unconfirmed rumors; no product exists yet for data collection. Trend and novelty hits may reflect search interest in anticipated releases. Manufacturer URL points to current Mac mini page, as no M4-specific page exists.
+- Keyword 'Apple Mac mini M4' appears to refer to an unannounced or future product; no ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page. Spec facts based on current Apple information. Trend data suggests search interest in this unconfirmed product.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/specs/
+- https://www.apple.com/mac-mini/
 
 ## Consoles
 
@@ -105,23 +105,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 2
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific ASIN found for exact 'HP Omen 45L RTX 4070 Ti' configuration. HP Omen 45L appears as a customizable desktop series with various component options. Manufacturer site shows configurable builds but no direct product page for this exact specification.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc
-- https://www.hp.com/us-en/shop/pdp/omen-45l-gaming-desktop-pc
-- https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-ti/
 
 ## AI Workstations
 
@@ -139,7 +138,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon or Corsair's website. Corsair is known for gaming and high-performance PC components, but this exact model name appears unverified. Search results show general Corsair workstations or custom builds, not a distinct 'AI Workstation 300' model. No ASINs can be confirmed due to lack of evidence.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation. No user quotes, reviews, or detailed specs available due to lack of product presence.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
