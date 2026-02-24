@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
 - Total: 7
-- Seed ready: 1
-- Seed blocked: 6
+- Seed ready: 2
+- Seed blocked: 5
 - PASS A ready: 0
 - PASS A blocked: 7
 
@@ -22,13 +22,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to reference a rumored or future product not currently available on Amazon markets. No ASINs found across specified regions. Manufacturer URL points to current Mac mini models with M2 chips. Spec facts based on Apple's official site showing no M4 model exists yet. Editorial seed reflects speculative nature based on keyword.
+- No ASINs found as product is not released. Manufacturer URL points to current Mac mini page. Spec facts based on current Apple information and lack of official M4 announcement. Editorial seed is speculative based on typical Apple product naming and market positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -147,23 +147,22 @@
 
 ## AI Workstations
 
-- Topic: **Lenovo ThinkStation P3 Tower**
+- Topic: **Corsair AI Workstation 300**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 0
+- Manufacturer URLs: 1
 - Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model.
 ### Probe URLs
-- https://www.amazon.com/s?k=Lenovo%20ThinkStation%20P3%20Tower
-- https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower
+- https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
+- https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
+- https://www.corsair.com/
