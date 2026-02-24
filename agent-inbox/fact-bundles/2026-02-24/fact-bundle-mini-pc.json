@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, strong trends, and exact model specification.",
+    "reasoning_short": "Highest score, major market availability, strong trends, and exact model matches rules.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
@@ -50,32 +50,34 @@
     "score": 88,
     "ai_mode": "deepseek",
     "ai_confidence": 88,
-    "ai_reason": "Highest score, major market availability, strong trends, and exact model specification.",
-    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech production trends."
+    "ai_reason": "Highest score, major market availability, strong trends, and exact model matches rules.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech tensions."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 3,
     "checked_urls": [
       "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
-      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4"
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.apple.com/mac-mini/",
+      "https://www.apple.com/mac-mini/",
+      "https://www.apple.com/mac-mini/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
-    "spec_fact_count": 0,
+    "manufacturer_url_count": 1,
+    "spec_fact_count": 2,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "seed_evidence_units": 3
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -93,21 +95,33 @@
       "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     ],
-    "manufacturer_urls": [],
-    "spec_facts": [],
+    "manufacturer_urls": [
+      "https://www.apple.com/mac-mini/"
+    ],
+    "spec_facts": [
+      {
+        "claim": "Apple Mac mini M4 is not yet released as of current date",
+        "source_url": "https://www.apple.com/mac-mini/"
+      },
+      {
+        "claim": "Current Mac mini models use M2 or M2 Pro chips",
+        "source_url": "https://www.apple.com/mac-mini/"
+      }
+    ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Mini PC: Apple Mac mini M4",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-      "price_category_candidate": "mid",
+      "title_candidate": "Apple Mac mini M4 (Unreleased)",
+      "description_candidate": "Expected next-generation Apple Mac mini with M4 chip, not yet available for purchase",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "Product appears to be unreleased/rumored based on manufacturer website showing only M2 models",
+      "No Amazon listings found across specified markets",
+      "Keyword may refer to anticipated future product rather than current availability"
     ]
   }
 }
