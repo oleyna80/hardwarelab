@@ -1,8 +1,8 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
 - Total: 7
-- Seed ready: 2
-- Seed blocked: 5
+- Seed ready: 1
+- Seed blocked: 6
 - PASS A ready: 0
 - PASS A blocked: 7
 
@@ -12,23 +12,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 2
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to be speculative or based on rumors, as no such product exists in official Apple lineup. Trend data may reflect search interest in unannounced products. No ASINs found across all markets due to product not being released.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
@@ -48,7 +47,7 @@
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
 - DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: read ECONNRESET
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
 - https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
@@ -161,7 +160,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No direct Amazon listings found for 'Corsair AI Workstation 300' across specified markets. Corsair is a known manufacturer of PC components and systems, but this specific model may not be widely available or may be a conceptual/upcoming product. Search results show general Corsair workstations and components, but not this exact model. No user quotes or reviews identified due to lack of product listings.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
