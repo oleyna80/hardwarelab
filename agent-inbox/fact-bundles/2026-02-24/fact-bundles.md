@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no current Amazon listings or ASINs found across specified markets. Manufacturer URL points to existing Mac mini models with M2 chips. Trend data suggests recent interest, possibly due to rumors or anticipation.
+- Keyword 'Apple Mac mini M4' appears to reference a product that has not been announced or released by Apple. Current Mac mini models use M2 chips. No Amazon listings found for M4 variant across specified markets. Manufacturer URL points to current product page showing M2 models only.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -81,23 +81,25 @@
 - Topic: **Raspberry Pi 5 8GB**
 - Status: BLOCKED
 - ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Amazon URLs: 6
+- Manufacturer URLs: 1
+- Spec facts: 1
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No ASINs found due to constraints against hallucination; search URLs provided for manual verification.
+- Manufacturer URL is from Raspberry Pi official site.
+- Spec fact sourced from manufacturer page; other details like RAM and price are inferred from general knowledge but not explicitly verified in provided sources.
 ### Probe URLs
-- https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
-- https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
+- https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
+- https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
+- https://www.raspberrypi.com/products/raspberry-pi-5/
+- https://www.raspberrypi.com/products/raspberry-pi-5/
 
 ## Gaming Hardware
 
@@ -128,22 +130,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific ASINs found for RTX 4070 Ti configuration across Amazon regions. Manufacturer site lists Omen 45L as configurable product with multiple GPU options including RTX 4070 Ti. Price category estimated based on typical RTX 4070 Ti gaming PC market positioning.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
-- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
 
 ## AI Workstations
 
@@ -161,7 +163,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
