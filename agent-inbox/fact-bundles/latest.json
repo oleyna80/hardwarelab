@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T11:22:29.819Z",
+  "generated_at": "2026-02-24T11:27:28.778Z",
   "status": "partial",
-  "seed_ready_count": 2,
-  "seed_blocked_count": 5,
+  "seed_ready_count": 3,
+  "seed_blocked_count": 3,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 7,
+  "pass_a_blocked_count": 6,
   "ready_count": 0,
-  "blocked_count": 7,
+  "blocked_count": 6,
   "md_path": "agent-inbox/fact-bundles/2026-02-24/fact-bundles.md",
   "json_path": "agent-inbox/fact-bundles/2026-02-24/fact-bundles.json",
   "status_path": "agent-inbox/fact-bundles/2026-02-24/status.json",
@@ -24,11 +24,6 @@
       "category_key": "consoles",
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-consoles.json",
       "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-consoles.json"
-    },
-    {
-      "category_key": "nas",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-nas.json",
-      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-nas.json"
     },
     {
       "category_key": "sbc",
