@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
       "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
     },
-    "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
+    "reasoning_short": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -50,8 +50,8 @@
     "score": 86.5,
     "ai_mode": "deepseek",
     "ai_confidence": 87,
-    "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-    "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer hardware releases."
+    "ai_reason": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+    "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer hardware announcements."
   },
   "ready_for_pass_a": false,
   "blockers": [
