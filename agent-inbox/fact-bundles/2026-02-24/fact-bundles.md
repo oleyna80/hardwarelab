@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found as product is not released; based on Apple's current Mac mini page and typical product cycles.
+- Keyword 'Apple Mac mini M4' appears speculative or based on unconfirmed rumors; no official product exists yet. Trend data may reflect search interest in anticipated releases. Manufacturer URL points to current Mac mini models. No ASINs or Amazon listings found due to product unreleased status.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
