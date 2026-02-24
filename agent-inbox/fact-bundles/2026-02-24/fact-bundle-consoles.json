@@ -44,9 +44,9 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 14,
+    "trend_7d": 13,
     "trend_30d": 15,
-    "novelty_hits": 9,
+    "novelty_hits": 7,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
