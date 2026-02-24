@@ -12,23 +12,22 @@
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
-- Manufacturer URLs: 1
-- Spec facts: 2
+- Manufacturer URLs: 0
+- Spec facts: 0
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to reference a product not yet released; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini models with M2 chips. Trend data may reflect speculation or anticipation.
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
 
 ## Consoles
 
@@ -81,23 +80,23 @@
 - Topic: **Raspberry Pi 5 8GB**
 - Status: BLOCKED
 - ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
+- Amazon URLs: 6
+- Manufacturer URLs: 1
+- Spec facts: 1
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
 - Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
+- No ASINs found due to constraints against hallucination; search URLs provided for all markets; manufacturer specs sourced from official site; price category estimated based on typical Raspberry Pi pricing; no user quotes or reviews available without specific product listings.
 ### Probe URLs
-- https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
-- https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
+- https://www.amazon.com/s?k=Raspberry+Pi+5+8GB
+- https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB
+- https://www.raspberrypi.com/products/raspberry-pi-5/
+- https://www.raspberrypi.com/products/raspberry-pi-5/
 
 ## Gaming Hardware
 
@@ -124,7 +123,7 @@
 
 ## Gaming PCs
 
-- Topic: **Corsair Vengeance i7400**
+- Topic: **HP Omen 45L RTX 4070 Ti**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -142,8 +141,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Corsair%20Vengeance%20i7400
-- https://www.amazon.de/s?k=Corsair%20Vengeance%20i7400
+- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 
 ## AI Workstations
 
