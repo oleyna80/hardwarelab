@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
-- Seed ready: 2
+- Total: 7
+- Seed ready: 3
 - Seed blocked: 4
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 7
 
 ## Mini PC
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or rumored product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini models. Spec facts based on official Apple information showing no M4 variant exists yet. Trend data may reflect speculation or anticipation rather than actual product availability.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini models. No ASINs or Amazon URLs available as product is not listed.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -121,6 +121,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
 - https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
+
+## Gaming PCs
+
+- Topic: **HP Omen 45L RTX 4070 Ti**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 1
+- Spec facts: 3
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- No Amazon ASINs found for specific RTX 4070 Ti configuration. Manufacturer site lists multiple configurations. Search limited to English sources per constraints.
+### Probe URLs
+- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
+- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
+- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
 
 ## AI Workstations
 
