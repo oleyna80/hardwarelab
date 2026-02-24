@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
       "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
     },
-    "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
+    "reasoning_short": "Exact console model available in all major markets with strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQldYemF5OXlyQWdGdFVrTzJULWJlR1QzelZqVk03TE9RMDZjbjk5a091NUkzRUg4SnNxTGFPUlRoUUFlRzgzWGNYX1ZSZFh0WFZqTEVlVUIyZWhjd3JLZE9QMUh2QXFHNk5pX0QwQncxMjhmZGZKSUFDSFZXZnJwOTUyNnlaY2tCN0h6WFBjeHo4WVU2SjhVMkRKS0VDM1gzdHp4ZXRrb0cySmhSTHJ0UmFwWlRHZmpPYVZEX216WVRyOXpmbnhQOUFDS1ZJY1FMdmRwb3ZhSXR4NkpzcEczbDExeno?oc=5",
       "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
@@ -50,8 +50,8 @@
     "score": 96,
     "ai_mode": "deepseek",
     "ai_confidence": 96,
-    "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Next-gen gaming performance with 4K 120fps, ray tracing, and Quick Resume features."
+    "ai_reason": "Exact console model available in all major markets with strong recent trends and headlines.",
+    "ai_angle": "Microsoft's flagship 4K gaming console with backward compatibility and Game Pass integration."
   },
   "ready_for_pass_a": false,
   "blockers": [
