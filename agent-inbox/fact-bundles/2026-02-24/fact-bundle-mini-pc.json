@@ -17,10 +17,10 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, available in all major markets, strong recent headlines and trend data.",
+    "reasoning_short": "Highest score, major market availability, exact model matches rules, avoids generic phrasing.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
       "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
       "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaEUzVE9RM3c3Vk5EYkhLX2EwaWo4S051UkhGTG95bG9weHhMYUlvYXB1QU5iSy1PYzBfcnQ0ckVLZ0xBMUUwbGpDQVF4UTdiNUhMNzkxNUhjbkp6eFpkX205WDMwc0hHVXhHb0N0aU5hWlNLY3NSRDJVUmo0a3JOT1Bod1dWRi1Kb01mUkc2TThBT2tDOGROYTloU3VfcUxFNTNhZjJwMzVSbVlESm5TOHI1dFAteHh1Mm1Ta0M0U24yQUtmeW5MckM0el8yN0dhc2lwUlRNMA?oc=5",
@@ -50,34 +50,32 @@
     "score": 88,
     "ai_mode": "deepseek",
     "ai_confidence": 88,
-    "ai_reason": "Highest score, available in all major markets, strong recent headlines and trend data.",
-    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain realignment amid global tech tensions."
+    "ai_reason": "Highest score, major market availability, exact model matches rules, avoids generic phrasing.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain changes amid global tech competition."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 4,
+    "reachable_probe_urls": 2,
     "checked_urls": [
       "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
-      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
-      "https://www.apple.com/mac-mini/",
-      "https://www.apple.com/mac-mini/",
-      "https://www.apple.com/mac-mini/specs/"
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 1,
-    "spec_fact_count": 2,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 3
+    "seed_evidence_units": 0
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -95,31 +93,21 @@
       "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     ],
-    "manufacturer_urls": [
-      "https://www.apple.com/mac-mini/"
-    ],
-    "spec_facts": [
-      {
-        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
-        "source_url": "https://www.apple.com/mac-mini/"
-      },
-      {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 variants.",
-        "source_url": "https://www.apple.com/mac-mini/specs/"
-      }
-    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, based on speculation and trends.",
-      "price_category_candidate": "high",
+      "title_candidate": "Mini PC: Apple Mac mini M4",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "deepseek",
+    "collection_mode": "fallback",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to be speculative or based on unconfirmed rumors, as no such product is officially listed by Apple or available on Amazon markets. Trend data may reflect search interest in anticipated releases. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASIN fields set to 'absent' due to no confirmed product listings."
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
     ]
   }
 }
