@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Exact model matches category, available in all major markets, and has recent review coverage.",
-    "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM, praised for design but noted as pricey."
+    "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration reviewed as pricey but classy package."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -101,7 +101,7 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Corsair AI Workstation 300",
-      "description_candidate": "AI workstation designed for machine learning and data science workloads",
+      "description_candidate": "High-performance workstation designed for AI and machine learning workloads",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
