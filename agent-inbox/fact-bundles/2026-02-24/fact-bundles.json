@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T00:47:34.022Z",
+  "generated_at": "2026-02-24T00:52:26.056Z",
   "total": 7,
   "seed_ready_count": 3,
   "seed_blocked_count": 4,
@@ -19,7 +19,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
         "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 67,
+        "confidence_score": 80,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -27,13 +27,13 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
+        "reasoning_short": "Highest score, major market availability, strong trends, and exact model specification.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxa3RQUWN0bDZEbkw3U05zMXdrckpILUFPLXJkUzBYZl9DRFZBYnpkSDRDQnRuTjNqZUw1Sng5SWRWMmFtaXU0SnNpalFnTHlBM055aU5sRWdXOExGZWRETWJpazhuVzhW?oc=5",
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
+          "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
+          "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SX2x3R1YtQVdRa1VKaXFob3dwallmMXR4TllFdW9WbW16UFhMbFJRa245S2J3SGlZNVVIUmswcnEteGlGdjRsNkxzVENIYk5pM2wteHZaV3Z6VVkzSHNxY1RDQUMtdjVMbHlIamV6QS14cjk4LWJZQnJ3?oc=5",
           "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zclFxYlNaMG1wNnJKWWtNekhscUtNN192OGh5RDlGTlV3Wm90c0ZpN1dKeEFFdEhIVUpDcnVLbWxRMno4RFROeVBHT1BoTzg3T2FmUlE0M0NfV3YxaWlMTlVDVFZ4YUxG?oc=5",
-          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPck4ySFdCUklMTlpKdEZ6T3pvMUdVY0E0aEs0VUI1OWxsMGJhVTJNaFpqZ0t0eHJzVHNKb2tXN1JQemZWWkNPNkNoNXRiT29SenBaMmNkNmVWMkF3UllqMEc0LXIyNlFWc2JobktwZzJGbXpBOE02ajZFRkdJTWU4WFctc1FQMjM4cnVJbER5LVJXUDlaNm55Y2lMZVhYYTdoajZyUmJnMlExdw?oc=5",
           "https://www.amazon.com/dp/B0DTPT3NNQ"
         ],
         "compliant": true,
@@ -55,13 +55,13 @@
           "ES": true
         },
         "trend_7d": 3,
-        "trend_30d": 7,
-        "novelty_hits": 2,
-        "score": 66.5,
+        "trend_30d": 8,
+        "novelty_hits": 5,
+        "score": 80,
         "ai_mode": "deepseek",
-        "ai_confidence": 67,
-        "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-        "ai_angle": "AI-driven demand surge creates potential shortage for this compact Apple desktop."
+        "ai_confidence": 80,
+        "ai_reason": "Highest score, major market availability, strong trends, and exact model specification.",
+        "ai_angle": "Compact AI powerhouse with M4 chip, ideal for creative pros and developers seeking silent performance."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,11 +84,11 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current date",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Apple Mac mini currently features M2 or M2 Pro chips, with M4 not available in this product line.",
+            "claim": "Current Mac mini models use M2 or M2 Pro chips",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
@@ -96,14 +96,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Hypothetical future model of Apple's compact desktop computer, expected to feature the M4 chip for enhanced performance and efficiency.",
-          "price_category_candidate": "mid",
+          "description_candidate": "Potential future Apple Mac mini model with M4 chip, not yet released",
+          "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no current Amazon listings or ASINs found across specified markets. Manufacturer URL points to existing Mac mini models with M2 chips. Trend data suggests recent interest, possibly due to rumors or anticipation."
+          "Keyword 'Apple Mac mini M4' appears to reference a product that has not been announced or released by Apple. Current Mac mini models use M2 chips. No Amazon listings found for M4 variant across specified markets. Manufacturer URL points to current product page showing M2 models only."
         ]
       },
       "seed_ready": true,
@@ -193,14 +193,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 13,
-        "trend_30d": 15,
+        "trend_7d": 14,
+        "trend_30d": 17,
         "novelty_hits": 6,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
+        "ai_angle": "Compact next-gen gaming at an accessible price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
         "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
         "asin_probe_error": null,
-        "confidence_score": 85,
+        "confidence_score": 60,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,7 +298,7 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
+        "reasoning_short": "Highest score among candidates, available in all major markets, exact model matches requirements.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
           "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
@@ -330,9 +330,9 @@
         "novelty_hits": 8,
         "score": 60,
         "ai_mode": "deepseek",
-        "ai_confidence": 85,
-        "ai_reason": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
-        "ai_angle": "QNAP TS-464 NAS review: A high-performance 4-bay network-attached storage solution with robust features for home and small business use."
+        "ai_confidence": 60,
+        "ai_reason": "Highest score among candidates, available in all major markets, exact model matches requirements.",
+        "ai_angle": "QNAP TS-464 NAS review: A high-performance 4-bay storage solution with robust features for home and small business use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -422,7 +422,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 76,
+        "confidence_score": 75,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -458,13 +458,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 8,
+        "trend_30d": 7,
         "novelty_hits": 5,
-        "score": 76,
+        "score": 74.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 76,
+        "ai_confidence": 75,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid recent price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -478,38 +478,50 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
         ],
-        "manufacturer_urls": [],
-        "spec_facts": [],
+        "manufacturer_urls": [
+          "https://www.raspberrypi.com/products/raspberry-pi-5/"
+        ],
+        "spec_facts": [
+          {
+            "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
+            "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+          }
+        ],
         "quote_candidates": [],
-        "related_reviews_candidates": [],
+        "related_reviews_candidates": [
+          {
+            "title": "absent",
+            "url": "absent",
+            "reason": "No specific review pages identified"
+          }
+        ],
         "editorial_seed": {
-          "title_candidate": "SBC: Raspberry Pi 5 8GB",
-          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "title_candidate": "Raspberry Pi 5 8GB Model",
+          "description_candidate": "A single-board computer with 8GB RAM, featuring improved performance over previous models.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "fallback",
+        "collection_mode": "deepseek",
         "notes": [
-          "DeepSeek unavailable or invalid output; only baseline links collected.",
-          "DeepSeek error: Timeout"
+          "No ASINs found due to constraints against hallucination; search URLs provided for manual verification.",
+          "Manufacturer URL is from Raspberry Pi official site.",
+          "Spec fact sourced from manufacturer page; other details like RAM and price are inferred from general knowledge but not explicitly verified in provided sources."
         ]
       },
-      "seed_ready": false,
-      "seed_blockers": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
-      "seed_blockers_top3": [
-        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
-      ],
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -517,7 +529,6 @@
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
         "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
@@ -525,23 +536,25 @@
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Missing manufacturer source URLs.",
-        "Insufficient source-backed spec facts (need >=3)."
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 2,
+        "reachable_probe_urls": 3,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-          "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
+          "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+          "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+          "https://www.raspberrypi.com/products/raspberry-pi-5/",
+          "https://www.raspberrypi.com/products/raspberry-pi-5/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 0,
-        "spec_fact_count": 0,
+        "amazon_url_count": 6,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 1,
         "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 0
+        "related_candidate_count": 1,
+        "seed_evidence_units": 2
       }
     },
     {
@@ -562,7 +575,7 @@
           "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
           "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+        "reasoning_short": "Highest score, available in all major markets, exact console model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
@@ -595,8 +608,8 @@
         "score": 83.5,
         "ai_mode": "deepseek",
         "ai_confidence": 84,
-        "ai_reason": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
-        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026 for gaming versatility and PSP emulation."
+        "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -694,7 +707,7 @@
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
+        "reasoning_short": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMm1aajNOcmc3TENBYXJ0aFhxVkVYalRodU1OMk1PSlhNMzE2NzkwSEhBNThGX3ExWGtxSFBjSEFoelB4N2s3NWRiT2tZUXNZRW5wNV9GSVJoTFVjTWNBYkVBUF84R3JFX3FFOFVNeWNUbFhhQ1JSaA?oc=5",
           "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3VUWnJGc3dOUjBIR3VnamxacFRaRUVCR3Q5Z1FrR3daaDJhZUF3VnlYa0M3cTRUR0NKdGp1YmdoalBjQTNWNTdMY19YXzJReEctaTdlYXB1VzJScWdZQ25YUVNXQllvcEpmRmQ4N0dMb3R4OVhTSGFHcVVXbHdDWnR4cWhwdkE1R216RGlXcDhENE8xT3Y4Yl95VjJmc3BMVF83MWpR?oc=5",
@@ -720,8 +733,8 @@
         "score": 15.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium cooling meets high-end gaming performance in a configurable desktop."
+        "ai_reason": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
+        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and configuration flexibility."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -739,75 +752,66 @@
           "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
           "https://www.amazon.fr/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
         ],
-        "manufacturer_urls": [
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-        ],
-        "spec_facts": [
-          {
-            "claim": "HP Omen 45L desktop with NVIDIA GeForce RTX 4070 Ti graphics card",
-            "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-          },
-          {
-            "claim": "Omen 45L features a Cryo Chamber cooling system with liquid cooling for CPU",
-            "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-          },
-          {
-            "claim": "Supports up to Intel Core i9-13900K processor and up to 64GB DDR5 RAM",
-            "source_url": "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
-          }
-        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "HP Omen 45L Gaming Desktop with NVIDIA RTX 4070 Ti",
-          "description_candidate": "High-performance gaming PC featuring NVIDIA GeForce RTX 4070 Ti graphics, advanced Cryo Chamber cooling system, and customizable configurations with Intel Core processors and DDR5 memory.",
-          "price_category_candidate": "high",
+          "title_candidate": "Gaming PCs: HP Omen 45L RTX 4070 Ti",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
-        "collection_mode": "deepseek",
+        "collection_mode": "fallback",
         "notes": [
-          "No specific ASINs found for RTX 4070 Ti configuration across Amazon regions. Manufacturer site lists Omen 45L as configurable product with multiple GPU options including RTX 4070 Ti. Price category estimated based on typical RTX 4070 Ti gaming PC market positioning."
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
         ]
       },
-      "seed_ready": true,
-      "seed_blockers": [],
-      "seed_blockers_top3": [],
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
       "ready_for_pass_a": false,
       "blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
         "Insufficient quote candidates with source links (need >=4).",
         "Insufficient related review candidates (need >=2).",
         "Missing valid ratingSourceURL in editorial seed."
       ],
       "pass_a_blockers_top3": [
         "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2)."
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
       ],
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
           "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-          "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000",
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000",
-          "https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000"
+          "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
         "amazon_url_count": 3,
-        "manufacturer_url_count": 1,
-        "spec_fact_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
-        "seed_evidence_units": 4
+        "seed_evidence_units": 0
       }
     },
     {
@@ -820,7 +824,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
         "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
         "asin_probe_error": null,
-        "confidence_score": 85,
+        "confidence_score": 62,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -828,7 +832,7 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Exact model matches category, available in all major markets, and has recent review coverage.",
+        "reasoning_short": "Exact model matches category, available in all major markets, highest score among candidates.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
@@ -860,9 +864,9 @@
         "novelty_hits": 8,
         "score": 61.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 85,
-        "ai_reason": "Exact model matches category, available in all major markets, and has recent review coverage.",
-        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM in a pricey but classy package."
+        "ai_confidence": 62,
+        "ai_reason": "Exact model matches category, available in all major markets, highest score among candidates.",
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM - premium but pricey package for demanding AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -895,7 +899,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
         ]
       },
       "seed_ready": true,
