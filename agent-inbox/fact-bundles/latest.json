@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T16:28:03.622Z",
+  "generated_at": "2026-02-24T16:32:20.799Z",
   "status": "partial",
   "seed_ready_count": 1,
-  "seed_blocked_count": 6,
+  "seed_blocked_count": 3,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 7,
+  "pass_a_blocked_count": 4,
   "ready_count": 0,
-  "blocked_count": 7,
+  "blocked_count": 4,
   "md_path": "agent-inbox/fact-bundles/2026-02-24/fact-bundles.md",
   "json_path": "agent-inbox/fact-bundles/2026-02-24/fact-bundles.json",
   "status_path": "agent-inbox/fact-bundles/2026-02-24/status.json",
@@ -24,21 +24,6 @@
       "category_key": "consoles",
       "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-consoles.json",
       "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-consoles.json"
-    },
-    {
-      "category_key": "nas",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-nas.json",
-      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-nas.json"
-    },
-    {
-      "category_key": "monitors",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-monitors.json",
-      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-monitors.json"
-    },
-    {
-      "category_key": "gaming",
-      "url": "https://github.com/oleyna80/hardwarelab/blob/main/agent-inbox/fact-bundles/2026-02-24/fact-bundle-gaming.json",
-      "path": "agent-inbox/fact-bundles/2026-02-24/fact-bundle-gaming.json"
     },
     {
       "category_key": "gaming-pcs",
