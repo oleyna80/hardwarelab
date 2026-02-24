@@ -44,7 +44,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 65,
     "ai_reason": "Highest score candidate with recent headlines confirming exact model availability and configuration details.",
-    "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights."
+    "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights"
   },
   "ready_for_pass_a": false,
   "blockers": [
