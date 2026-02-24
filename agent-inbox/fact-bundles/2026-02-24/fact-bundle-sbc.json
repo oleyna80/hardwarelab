@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
     "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 76,
+    "confidence_score": 75,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -45,11 +45,11 @@
       "ES": true
     },
     "trend_7d": 2,
-    "trend_30d": 8,
+    "trend_30d": 7,
     "novelty_hits": 5,
-    "score": 76,
+    "score": 74.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 76,
+    "ai_confidence": 75,
     "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
     "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price changes."
   },
