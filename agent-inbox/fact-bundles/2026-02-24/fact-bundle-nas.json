@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
       "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
     },
-    "reasoning_short": "Highest score candidate with major market availability across all required regions.",
+    "reasoning_short": "Highest score candidate with major market availability across all required regions and exact model specification.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
@@ -50,8 +50,8 @@
     "score": 60,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score candidate with major market availability across all required regions.",
-    "ai_angle": "High-performance 4-bay NAS with Intel Celeron processor for home and small business use."
+    "ai_reason": "Highest score candidate with major market availability across all required regions and exact model specification.",
+    "ai_angle": "High-performance 4-bay NAS with Intel Celeron processor, 2.5GbE ports, and hardware transcoding for media streaming."
   },
   "ready_for_pass_a": false,
   "blockers": [
