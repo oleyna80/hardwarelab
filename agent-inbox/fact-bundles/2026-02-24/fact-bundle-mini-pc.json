@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 86,
     "ai_reason": "Highest score, major market availability, strong trends, and exact model matches rules.",
-    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech tensions."
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain changes amid global tech competition."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -62,13 +62,13 @@
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 3,
+    "reachable_probe_urls": 4,
     "checked_urls": [
       "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
       "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "https://www.apple.com/mac-mini/",
       "https://www.apple.com/mac-mini/",
-      "https://www.apple.com/mac-mini/"
+      "https://www.apple.com/mac-mini/specs/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -104,22 +104,22 @@
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
-        "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
-        "source_url": "https://www.apple.com/mac-mini/"
+        "claim": "Current Mac mini models use M2 or M2 Pro chips, with no M4 variant available.",
+        "source_url": "https://www.apple.com/mac-mini/specs/"
       }
     ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
-      "price_category_candidate": "mid",
+      "description_candidate": "Hypothetical future mini PC from Apple featuring the M4 chip, not currently available on the market.",
+      "price_category_candidate": "absent",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product. No ASINs found across all markets. Manufacturer URL points to current Mac mini page. Spec facts based on current Apple product lineup. No quotes or reviews available for unreleased product."
+      "Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculative product based on search trends. No ASINs found across specified markets. Manufacturer URL points to current Mac mini models with M2 chips. Spec facts indicate no M4 variant exists yet. All ASIN fields set to 'absent' per constraints to avoid hallucination."
     ]
   }
 }
