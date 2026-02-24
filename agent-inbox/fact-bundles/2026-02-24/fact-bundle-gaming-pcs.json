@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0FXHPBJ1Z",
     "asin_us_listing_title": "HP OMEN 45L Gaming GT22-3067c Desktop PC, Intel Core Ultra 9 285K, 64GB DDR5 RAM, 2TB NVMe SSD, NVIDIA GeForce RTX 5070 Ti, Liquid Cooling, RGB Lighting, Windows 11 Home (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 85,
+    "confidence_score": 65,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -42,9 +42,9 @@
     "novelty_hits": 1,
     "score": 15.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 85,
+    "ai_confidence": 65,
     "ai_reason": "Highest score candidate with recent headlines confirming exact model availability and configuration details.",
-    "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights"
+    "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights for budget-conscious gamers."
   },
   "ready_for_pass_a": false,
   "blockers": [
