@@ -8,27 +8,26 @@
 
 ## Mini PC
 
-- Topic: **Apple Mac mini M4**
+- Topic: **ASUS NUC 14 Pro**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
 - Manufacturer URLs: 1
-- Spec facts: 2
+- Spec facts: 3
 - Quote candidates: 0
 ### Blockers
 - Missing confirmed US ASIN (required for PASS A handoff).
-- Insufficient source-backed spec facts (need >=3).
 - Insufficient quote candidates with source links (need >=4).
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs available as product is not yet released. Manufacturer URL points to current Mac mini models. Spec facts based on existing product line and typical Apple release patterns.
+- ASUS NUC 14 Pro appears to be a newly announced product with limited market availability. No Amazon listings found across specified regions. Manufacturer site provides technical specifications but no pricing or reviews yet. Product appears positioned in mid-range segment based on specifications.
 ### Probe URLs
-- https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
-- https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.amazon.com/s?k=ASUS%20NUC%2014%20Pro
+- https://www.amazon.de/s?k=ASUS%20NUC%2014%20Pro
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
+- https://www.asus.com/microsite/nuc/
 
 ## Consoles
 
@@ -161,7 +160,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website may have information about AI workstation products or configurations.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
