@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, exact model matches rules, strong recent headlines.",
+    "reasoning_short": "Highest score, major market availability, strong recent trends, exact model matches rules.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
@@ -50,8 +50,8 @@
     "score": 88,
     "ai_mode": "deepseek",
     "ai_confidence": 88,
-    "ai_reason": "Highest score, major market availability, exact model matches rules, strong recent headlines.",
-    "ai_angle": "Apple's first US-assembled Mac mini with M4 chip represents a major shift in production strategy and performance."
+    "ai_reason": "Highest score, major market availability, strong recent trends, exact model matches rules.",
+    "ai_angle": "Apple's first US-assembled Mac mini with M4 chip brings production shift and performance gains to compact desktop."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -111,15 +111,15 @@
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Expected next-generation Apple Mac mini with M4 chip, not yet available for purchase.",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential upcoming mini desktop computer from Apple featuring the M4 chip.",
       "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Product appears to be unreleased based on manufacturer website and market checks. No ASINs found across specified regions. Trend data may reflect speculation or anticipation rather than actual product availability."
+      "Product appears to be unreleased; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini models. Speculative based on keyword trend."
     ]
   }
 }
