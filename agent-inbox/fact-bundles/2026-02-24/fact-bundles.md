@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 7
+- Total: 6
 - Seed ready: 2
-- Seed blocked: 5
+- Seed blocked: 4
 - PASS A ready: 0
-- PASS A blocked: 7
+- PASS A blocked: 6
 
 ## Mini PC
 
@@ -22,17 +22,17 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product; no ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page. Trend data may reflect search interest in rumors or anticipation.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. ASINs set to 'absent' per constraints. Manufacturer URL points to current Mac mini page. Spec facts reflect current state and lack of M4 model. Editorial seed based on typical Apple pricing and product naming.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
-- Topic: **xbox series x**
+- Topic: **xbox series s**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -50,31 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20X
-- https://www.amazon.de/s?k=Xbox%20Series%20X
-
-## NAS
-
-- Topic: **QNAP TS-464**
-- Status: BLOCKED
-- ASIN_US: absent
-- Amazon URLs: 3
-- Manufacturer URLs: 0
-- Spec facts: 0
-- Quote candidates: 0
-### Blockers
-- Missing confirmed US ASIN (required for PASS A handoff).
-- Missing manufacturer source URLs.
-- Insufficient source-backed spec facts (need >=3).
-- Insufficient quote candidates with source links (need >=4).
-- Insufficient related review candidates (need >=2).
-- Missing valid ratingSourceURL in editorial seed.
-### Notes
-- DeepSeek unavailable or invalid output; only baseline links collected.
-- DeepSeek error: Timeout
-### Probe URLs
-- https://www.amazon.com/s?k=QNAP%20TS-464
-- https://www.amazon.de/s?k=QNAP%20TS-464
+- https://www.amazon.com/s?k=Xbox%20Series%20S
+- https://www.amazon.de/s?k=Xbox%20Series%20S
 
 ## SBC
 
@@ -161,7 +138,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in search results. The term may refer to a custom or discontinued configuration. Manufacturer website provides general information about Corsair products but not this specific workstation.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
