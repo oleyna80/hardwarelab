@@ -45,13 +45,13 @@
       "ES": true
     },
     "trend_7d": 14,
-    "trend_30d": 16,
-    "novelty_hits": 7,
+    "trend_30d": 15,
+    "novelty_hits": 8,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Compact next-gen console offering Game Pass access and 1440p gaming at an affordable price point."
+    "ai_angle": "Compact next-gen Xbox with digital-only gaming, ideal for budget-conscious players seeking 1440p performance."
   },
   "ready_for_pass_a": false,
   "blockers": [
