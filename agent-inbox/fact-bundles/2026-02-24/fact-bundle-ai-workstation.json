@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "ai-workstation",
     "category_label": "AI Workstations",
-    "topic": "Lenovo ThinkStation P3 Tower",
-    "candidate_product_name": "Lenovo ThinkStation P3 Tower",
-    "asin_us": "B09X6BMSXX",
-    "asin_us_url": "https://www.amazon.com/dp/B09X6BMSXX",
-    "asin_us_listing_title": "Lenovo ThinkStation P3 Tiny Workstation Intel i7-14700, 32GB DDR5, 1TB NVMe, T400 4GB Discrete Graphics, WiFi 6E + BT, RJ-45, 3X miniDP, DP Port, HDMI (5 Monitor Max), Win 11 Pro, 3 Yr Wty",
+    "topic": "Corsair AI Workstation 300",
+    "candidate_product_name": "Corsair AI Workstation 300",
+    "asin_us": "B0GKPJRXW4",
+    "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
+    "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
     "asin_probe_error": null,
-    "confidence_score": 85,
+    "confidence_score": 62,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B09X6BMSXX",
-      "DE": "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
-      "FR": "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
+      "US": "https://www.amazon.com/dp/B0GKPJRXW4",
+      "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+      "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     },
-    "reasoning_short": "Exact model matches category, available in major markets, and has highest score among candidates.",
+    "reasoning_short": "Exact model matches category, available in all major markets, highest score among AI workstations.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzg1bnljQkQwSm1BcXdrc3MyYTlqMDM3MGdEaU85SEd2Y0JOckwwZjVHbWhaMHRTTUVoQTdLbWhKbVhsU2VkWklhaE1sbERld1g3QW50c3EwNG1sV0lTTTBLQlNwa2pJU1ViTGRnek0yRjl3SmFkNEg2TER6aFA5ZkRLSUFWWlF3OTdTaVJsUC1JSlZ6dy0tTjVQQ0N1bWFNOHdVUmI4ZjBMQUJsOUFFaA?oc=5",
-      "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OX3NKVU1nc0hURUhnREpYVlQ2VjJhcURoeFR5WkVNTUV4SWFoWUstUW1qM0ptam5BOF9KLWQxQzczS1dkVllOUzFfS2dsZS0wdFF0Tk9pcmk3LWwyREdvMW03dXBkZnNoX1V0RUk3UDA0dnJiS0R3SUZraw?oc=5",
-      "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTZDVkl0U3lQMC1pWFJOTEdnYm0xLWFZSks5MWZzZlRtUmlncmdCRW80YjNtVFpNZ09GeWlUNENfVlRteTJaSGc3ek9vUFlWYWJJSlhXQ19Zd3Jka0dtcmhjUE1oUVFCM05rcTRQakMwbjd4aFJkT2JGa0hzdktkTnNJdnlqNzF3bll2Y2xKTXZqeHR6T0h3RE05ONIBoAFBVV95cUxPdEZYMzFJWGV1OVM3UHdpano3R1U4TVlkM0xnNHlPS2Y4YkZHaEYyNEZ6ZTVSOWhuUmp6dk13RDdSZFpldVEzYl9DMWlJel90Zzc5cHlHaDdRY0lsR0ZfbWVBa2VpVW94NVp1akdLT3dhM3hoSFI4ZzRjcDZ0dzBra1J2WDJtbTlKWGtLQWhoWG9ZdGxzblFDd3NvX25MS29q?oc=5",
-      "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSU93anhOSUlKMllFX0I4VThnTzZ4VkhQMWxfRFVYMllUTGtVcUtvbmVfTEVVOHQyVXM3TFdzMFNjODhZem5JSnZxbTc1dHhxSll5SERCWHp3bTBiUXhzZUpHUWlYdUY2ZGdEOFFmWkk1NXBWYXFsWVQ3eEJSc1VId05iTnJoam5CWXZJdGEzd1VTZw?oc=5",
-      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT240a1RIUTZsSTlNS1VWTkg4NXFlcTY0cHVVdHR2a0VUVDVHSTlIN1lIcmxyNDBHbzkzRU1mTEtoMUVEYlhWMmRzREY3MFhjVEJJSGw4eTNCeUFncUZZSTZPQ3pvZ1JvT3VmZ29uQmRYV1RPVWlxTUpTMlpYeFV2T1ZSeF9LZUEzQllaeXJVUmE4ZjlIYUFYbFhuTjkxVVlXMWdLQUFoVjFzWDlGNm8xZjFSOGkwNG44dXExYVN6eWJNREJQWWdVSU0tV0JkVXBPRFFNRnozalo0YVVaM1BLTE5Cdi15LW8?oc=5",
-      "https://www.amazon.com/dp/B09X6BMSXX"
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQallOLTA1QXBrOVIwZ2hFTGRWZHpiUlNkcXRIb2xIUHNwOHk5UTU1NUIwMlpCM3pySEtXUVJNZi1rZmRnMUQ4SndJeEhHTDcySDBUcGN3bEVCRHVjNHBpMXZJZVVfazhhSVMwV250RlJ1MzhyUnlfaFFYaXdtU0FiZGV3MGdYTDNNeE41dVZMY0Q2aEUzZXFobjZrSmZZQVd4clRnY09zTTNkUnBzQ1RXVV80WV9TQUJJY1E?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV0VkMGF3cHBlcDZ6NXVYb0x3Sl8zNGJrZGxnRlFTVWVYeGhOVm8yek5uTXRmM0ZfS3FEWFVsOHBPWGtzRGtVdXlzQ0Q5VVktYm5XYmxxeHEtd2tGeXpiLTRlNC0xQWU2WW4xQTNSVjJxMzhKd3VPc0NwUHMzRU11c2lUZjFIYjFWU2Y0ZXFzYzRKWHc5aV9nS2xDTllHRGdoWHlkR2RVSkw4VmRoMEtVQXVSeUc3TkM4UktCZlRDVGRLdTRKYzJaS1Z6Tjg4ZjlGQkNTQk83bDHSAd4BQVVfeXFMUGsxbWt3RzNtRWsySWhDWHBxa2VvOUlqNGR3WHVYRzN0U1lxSmc2Nkp6a3lPdGFPQ0VmWVBDc1F5S1I5QmYwWG04V1JLVVZoa09PVjlZUUw5MmFCLVBxcWItT2VUZmV1OTVVZDRaSFcteWsxNWg3bzNKNGJCR3dUbTM4ZE5odFpTa1dGcXNKVTgyYnVUMjdHdTlYenpVR3p4dzUzdHJwX2RvaVNCeWxaOHBhMkRkZ3d3SnlwcG93ZnNGRGc1WmQtVHFBX3ZoeWdockR3YkNNTUhFOTBfQ0h3?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLU13VkVVNUxDZTZ1bWoycVQwWDlueGt4eWZicVVMSFVselU5ZzB1VEY3bHdJOXJfTTlqQ2ZMTEptcHUwOXhYSDhpbmNWbzhhTXhtSkxHX25hTV80OXVJbWRpMno4cExtZEJPRDRIUDdZRE9oZkxVOGFWLUlvaS13eDNwMWEzcDZWTDNZRlhidHZzczRIa0JTMDgwam56NkpXbGRmLWNhTEVmdWYxVkU2dlpVdWtTbzREZk9DVEVvQjJfbGtMYy1pVmVHTFNNdVVtRTlFRW91M3ZHNDYyc1ZiYUFmY2FHd25EOWVhWmU1Y0VHTlE?oc=5",
+      "https://www.amazon.com/dp/B0GKPJRXW4"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -33,7 +33,8 @@
       "UK",
       "DE",
       "FR",
-      "IT"
+      "IT",
+      "ES"
     ],
     "coverage": {
       "US": true,
@@ -41,40 +42,40 @@
       "DE": true,
       "FR": true,
       "IT": true,
-      "ES": false
+      "ES": true
     },
     "trend_7d": 0,
     "trend_30d": 1,
-    "novelty_hits": 14,
-    "score": 60.5,
+    "novelty_hits": 8,
+    "score": 61.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 85,
-    "ai_reason": "Exact model matches category, available in major markets, and has highest score among candidates.",
-    "ai_angle": "Professional workstation with Core Ultra 9 and RTX 5000 Ada for AI development tasks"
+    "ai_confidence": 62,
+    "ai_reason": "Exact model matches category, available in all major markets, highest score among AI workstations.",
+    "ai_angle": "Compact Strix Halo Ryzen AI Max workstation with 128GB RAM - premium but pricey package for AI workloads."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 3,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Lenovo%20ThinkStation%20P3%20Tower",
-      "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower"
+      "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.corsair.com/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
+    "manufacturer_url_count": 1,
     "spec_fact_count": 0,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "seed_evidence_units": 1
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -88,25 +89,26 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Lenovo%20ThinkStation%20P3%20Tower",
-      "https://www.amazon.de/s?k=Lenovo%20ThinkStation%20P3%20Tower",
-      "https://www.amazon.fr/s?k=Lenovo%20ThinkStation%20P3%20Tower"
+      "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+      "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     ],
-    "manufacturer_urls": [],
+    "manufacturer_urls": [
+      "https://www.corsair.com/"
+    ],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "AI Workstations: Lenovo ThinkStation P3 Tower",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-      "price_category_candidate": "mid",
+      "title_candidate": "Corsair AI Workstation 300",
+      "description_candidate": "High-performance AI workstation designed for machine learning and data science workloads",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model."
     ]
   }
 }
