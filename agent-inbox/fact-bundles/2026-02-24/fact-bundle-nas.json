@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
       "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
     },
-    "reasoning_short": "Highest score candidate, available across all major Amazon markets, exact model matches requirements.",
+    "reasoning_short": "Highest score (60) among NAS candidates, available on all major Amazon markets, exact model specified.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
@@ -50,8 +50,8 @@
     "score": 60,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Highest score candidate, available across all major Amazon markets, exact model matches requirements.",
-    "ai_angle": "QNAP TS-464 NAS review: High-performance 4-bay storage solution with quad-core CPU and 2.5GbE connectivity for home and small business use."
+    "ai_reason": "Highest score (60) among NAS candidates, available on all major Amazon markets, exact model specified.",
+    "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution for home and small business data management."
   },
   "ready_for_pass_a": false,
   "blockers": [
