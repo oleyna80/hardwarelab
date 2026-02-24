@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini page. Trend data may reflect search interest in rumors or anticipation.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no confirmed product exists. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini models. ASINs are absent due to no confirmed product listings.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -32,7 +32,7 @@
 
 ## Consoles
 
-- Topic: **playstation 5 pro**
+- Topic: **xbox series s**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=PlayStation%205%20Pro
-- https://www.amazon.de/s?k=PlayStation%205%20Pro
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. The editorial seed is based on the keyword provided and typical Corsair workstation positioning.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
