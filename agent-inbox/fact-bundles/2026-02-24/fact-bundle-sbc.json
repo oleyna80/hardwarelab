@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
-    "reasoning_short": "Highest score (76), available in all major markets, strong 30-day trend (8), recent AI/upgrade headlines.",
+    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
       "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -50,8 +50,8 @@
     "score": 76,
     "ai_mode": "deepseek",
     "ai_confidence": 76,
-    "ai_reason": "Highest score (76), available in all major markets, strong 30-day trend (8), recent AI/upgrade headlines.",
-    "ai_angle": "Raspberry Pi 5 8GB review: AI-ready SBC facing price hikes but still essential for makers."
+    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing price hikes amid AI demand, but remains versatile."
   },
   "ready_for_pass_a": false,
   "blockers": [
