@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T15:07:23.555Z",
-  "total": 6,
+  "generated_at": "2026-02-24T15:12:33.786Z",
+  "total": 7,
   "seed_ready_count": 2,
-  "seed_blocked_count": 4,
+  "seed_blocked_count": 5,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 6,
+  "pass_a_blocked_count": 7,
   "ready_count": 0,
-  "blocked_count": 6,
+  "blocked_count": 7,
   "rows": [
     {
       "topic": {
@@ -61,7 +61,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 92,
         "ai_reason": "Highest score, major market availability, exact model matches rules, strong trends.",
-        "ai_angle": "Apple shifts Mac mini M4 production to Texas in major US manufacturing push with strong performance."
+        "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain realignment amid global tech tensions."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -88,22 +88,22 @@
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
-            "source_url": "https://www.apple.com/mac-mini/"
+            "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 versions.",
+            "source_url": "https://www.apple.com/mac-mini/specs/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
-          "price_category_candidate": "high",
+          "title_candidate": "Apple Mac mini M4 (Unreleased)",
+          "description_candidate": "Potential future Mac mini model with Apple M4 chip, not yet announced or available.",
+          "price_category_candidate": "absent",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No ASINs found as product is not released; based on Apple's current Mac mini page and typical product naming conventions."
+          "Keyword 'Apple Mac mini M4' appears to reference an unreleased or speculated product based on current information. No ASINs found across specified markets. Manufacturer URL points to existing Mac mini page, which does not mention M4. Spec facts reflect absence of official M4 details. All ASIN fields set to 'absent' per constraints to avoid hallucination."
         ]
       },
       "seed_ready": true,
@@ -130,13 +130,13 @@
         "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 3,
+        "reachable_probe_urls": 4,
         "checked_urls": [
           "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
           "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "https://www.apple.com/mac-mini/",
           "https://www.apple.com/mac-mini/",
-          "https://www.apple.com/mac-mini/"
+          "https://www.apple.com/mac-mini/specs/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -200,7 +200,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Xbox Series X returns to early-2025 pricing with wireless controller included, offering premium console value."
+        "ai_angle": "Xbox Series X returns to early-2025 pricing with wireless controller included, offering premium console gaming value."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
         "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
         "asin_probe_error": null,
-        "confidence_score": 60,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,7 +298,7 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score among candidates, available in all major markets, exact model matches requirements.",
+        "reasoning_short": "Highest score candidate available across all major Amazon markets with exact model match.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
           "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
@@ -330,9 +330,9 @@
         "novelty_hits": 8,
         "score": 60,
         "ai_mode": "deepseek",
-        "ai_confidence": 60,
-        "ai_reason": "Highest score among candidates, available in all major markets, exact model matches requirements.",
-        "ai_angle": "QNAP TS-464 NAS review: A versatile 4-bay solution for home and small business storage needs."
+        "ai_confidence": 85,
+        "ai_reason": "Highest score candidate available across all major Amazon markets with exact model match.",
+        "ai_angle": "QNAP TS-464 NAS review: 4-bay storage solution with Intel Celeron processor and 2.5GbE connectivity for home and small business use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -422,7 +422,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 76,
+        "confidence_score": 75,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -430,7 +430,7 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and novelty.",
+        "reasoning_short": "Highest score candidate, available in all major markets, recent news coverage confirms availability and pricing.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
@@ -458,13 +458,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 8,
+        "trend_30d": 7,
         "novelty_hits": 5,
-        "score": 76,
+        "score": 74.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 76,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price changes."
+        "ai_confidence": 75,
+        "ai_reason": "Highest score candidate, available in all major markets, recent news coverage confirms availability and pricing.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs price after recent memory-driven increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -546,6 +546,138 @@
     },
     {
       "topic": {
+        "category_key": "gaming",
+        "category_label": "Gaming Hardware",
+        "topic": "Nintendo Switch OLED",
+        "candidate_product_name": "Nintendo Switch OLED",
+        "asin_us": "B09J652L1P",
+        "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
+        "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
+        "asin_probe_error": null,
+        "confidence_score": 87,
+        "status": "shortlisted",
+        "discard_reason": null,
+        "market_evidence": {
+          "US": "https://www.amazon.com/dp/B09J652L1P",
+          "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
+          "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+        },
+        "reasoning_short": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
+          "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
+          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
+          "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQzVRNzNJRmNvU0MwV0ltRW1sZkI1QURyeW1rYjJkWC0tQzhXemdqb0s2ZGw2OHJVNUdUX1JEaFM5VmN4QmJnM3RoYWhzQTljYWlLOWhrVU1sRzJYaDF0bXpSWHQtZmxDeG9NVUdGOUZZNmdEdTVR?oc=5",
+          "https://www.amazon.com/dp/B09J652L1P"
+        ],
+        "compliant": true,
+        "rule": "major_markets",
+        "available_markets": [
+          "US",
+          "UK",
+          "DE",
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "coverage": {
+          "US": true,
+          "UK": true,
+          "DE": true,
+          "FR": true,
+          "IT": true,
+          "ES": true
+        },
+        "trend_7d": 4,
+        "trend_30d": 7,
+        "novelty_hits": 6,
+        "score": 86.5,
+        "ai_mode": "deepseek",
+        "ai_confidence": 87,
+        "ai_reason": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+        "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 with strong market presence and PSP emulation capabilities."
+      },
+      "fact_bundle": {
+        "asin_candidates": {
+          "us": "absent",
+          "de": "absent",
+          "fr": "absent",
+          "it": "absent",
+          "es": "absent",
+          "uk": "absent",
+          "primary_region": "absent",
+          "primary_url": "absent"
+        },
+        "amazon_candidate_urls": [
+          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
+        "quote_candidates": [],
+        "related_reviews_candidates": [],
+        "editorial_seed": {
+          "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
+          "rating_candidate": null,
+          "rating_source_url": "absent"
+        },
+        "collection_mode": "fallback",
+        "notes": [
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
+        ]
+      },
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "ready_for_pass_a": false,
+      "blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers_top3": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
+      ],
+      "validator": {
+        "reachable_probe_urls": 2,
+        "checked_urls": [
+          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
+        ],
+        "has_us_asin": false,
+        "has_rating_source": false,
+        "amazon_url_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
+        "quote_candidate_count": 0,
+        "related_candidate_count": 0,
+        "seed_evidence_units": 0
+      }
+    },
+    {
+      "topic": {
         "category_key": "gaming-pcs",
         "category_label": "Gaming PCs",
         "topic": "HP Omen 45L RTX 4070 Ti",
@@ -562,7 +694,7 @@
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
+        "reasoning_short": "Highest score (15.5) with recent headlines confirming availability and configuration guides.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMm1aajNOcmc3TENBYXJ0aFhxVkVYalRodU1OMk1PSlhNMzE2NzkwSEhBNThGX3ExWGtxSFBjSEFoelB4N2s3NWRiT2tZUXNZRW5wNV9GSVJoTFVjTWNBYkVBUF84R3JFX3FFOFVNeWNUbFhhQ1JSaA?oc=5",
           "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3VUWnJGc3dOUjBIR3VnamxacFRaRUVCR3Q5Z1FrR3daaDJhZUF3VnlYa0M3cTRUR0NKdGp1YmdoalBjQTNWNTdMY19YXzJReEctaTdlYXB1VzJScWdZQ25YUVNXQllvcEpmRmQ4N0dMb3R4OVhTSGFHcVVXbHdDWnR4cWhwdkE1R216RGlXcDhENE8xT3Y4Yl95VjJmc3BMVF83MWpR?oc=5",
@@ -588,8 +720,8 @@
         "score": 15.5,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - performance and thermal analysis"
+        "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration guides.",
+        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration and thermal performance analysis"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -679,7 +811,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
         "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
         "asin_probe_error": null,
-        "confidence_score": 62,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -687,7 +819,7 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Exact model matches category, available in all major markets, highest score among AI workstations.",
+        "reasoning_short": "Exact model matches category, available in all major markets, recent headlines confirm product specificity.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
@@ -719,9 +851,9 @@
         "novelty_hits": 8,
         "score": 61.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 62,
-        "ai_reason": "Exact model matches category, available in all major markets, highest score among AI workstations.",
-        "ai_angle": "Compact Strix Halo Ryzen AI Max 395+ 128GB workstation with premium build but high price point."
+        "ai_confidence": 85,
+        "ai_reason": "Exact model matches category, available in all major markets, recent headlines confirm product specificity.",
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration - premium performance in a space-efficient design."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -747,14 +879,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "High-performance workstation designed for AI and machine learning workloads",
+          "description_candidate": "AI workstation from Corsair, likely a high-performance system for AI/ML workloads",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model appears to be a hypothetical or unreleased product. Manufacturer website provides general information about Corsair products but not this specific workstation."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in search results. Manufacturer website may have information about AI workstation offerings."
         ]
       },
       "seed_ready": true,
