@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T09:32:21.565Z",
+  "generated_at": "2026-02-24T09:37:17.455Z",
   "total": 6,
   "seed_ready_count": 2,
   "seed_blocked_count": 4,
@@ -27,7 +27,7 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, major market availability, strong trends, and exact model specification.",
+        "reasoning_short": "Highest score, major market availability, strong trends, and exact model matches rules.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
@@ -60,8 +60,8 @@
         "score": 88,
         "ai_mode": "deepseek",
         "ai_confidence": 88,
-        "ai_reason": "Highest score, major market availability, strong trends, and exact model specification.",
-        "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech tensions."
+        "ai_reason": "Highest score, major market availability, strong trends, and exact model matches rules.",
+        "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech production trends."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,28 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released or announced as of current date",
+            "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips",
-            "source_url": "https://www.apple.com/mac-mini/"
+            "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
+            "source_url": "https://www.apple.com/mac-mini/specs/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Potential future Apple Mac mini model with M4 chip, not yet released",
+          "title_candidate": "Apple Mac mini M4 (Unreleased)",
+          "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, expected to offer improved performance and efficiency over current M2 models.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No ASINs found for Apple Mac mini M4 across all specified markets as product appears to be unreleased/rumored",
-          "Current Mac mini models use M2 chips, M4 version not yet available",
-          "Manufacturer URL points to current Mac mini product page"
+          "No ASINs found as the product appears to be unreleased or unannounced. Based on Apple's typical release cycles, an M4 Mac mini might be expected in the future, but no official information is available. Manufacturer URL points to current Mac mini models with M2 chips."
         ]
       },
       "seed_ready": true,
@@ -132,13 +130,13 @@
         "Insufficient quote candidates with source links (need >=4)."
       ],
       "validator": {
-        "reachable_probe_urls": 3,
+        "reachable_probe_urls": 4,
         "checked_urls": [
           "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
           "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "https://www.apple.com/mac-mini/",
           "https://www.apple.com/mac-mini/",
-          "https://www.apple.com/mac-mini/"
+          "https://www.apple.com/mac-mini/specs/"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -168,7 +166,7 @@
           "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
           "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
         },
-        "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
+        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbS1QV2tyd3RUWWpDbUd5a1RWeTI0Sm1DanBwV001QjFSaTRUUU9sV005b0ktSnhTN0x5ZTV4XzhfY3dETVFLTTVSOF9hdEptQ3h4dGRmVy0yQXdsX1BnVnMxZ1AxUUVMdW85ak1GRDVma2JJTkRnSERDOEJldW40ek1EWlhjcHAyRWlncFBFazZtYkZfb3NaY3ZWeG1HdzJFWHlUVVFHQTR5eXQxXzdvOF9TRQ?oc=5",
           "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
@@ -201,8 +199,8 @@
         "score": 96,
         "ai_mode": "deepseek",
         "ai_confidence": 96,
-        "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
-        "ai_angle": "Microsoft's flagship 4K gaming console with backward compatibility and Game Pass integration."
+        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "ai_angle": "Microsoft Xbox Series X console review: Next-gen gaming performance and features analysis."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -300,13 +298,13 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and novelty.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
+          "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
-          "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://www.amazon.com/dp/B0CK2FCG1K"
         ],
         "compliant": true,
@@ -333,8 +331,8 @@
         "score": 76,
         "ai_mode": "deepseek",
         "ai_confidence": 76,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs. price hikes amid AI shortage concerns."
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -591,7 +589,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Configuration guide and thermal performance insights for gaming PCs."
+        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - performance and thermal analysis"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -723,7 +721,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Exact model matches category, available in all major markets, and has recent review coverage.",
-        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM, praised for design but noted as pricey."
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration reviewed as pricey but classy package."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -749,7 +747,7 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "AI workstation designed for machine learning and data science workloads",
+          "description_candidate": "High-performance workstation designed for AI and machine learning workloads",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
