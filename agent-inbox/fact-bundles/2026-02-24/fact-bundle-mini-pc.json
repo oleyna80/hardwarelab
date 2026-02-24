@@ -5,15 +5,15 @@
     "category_label": "Mini PC",
     "topic": "Apple Mac mini M4",
     "candidate_product_name": "Apple Mac mini M4",
-    "asin_us": "B0CC6SDHJ8",
-    "asin_us_url": "https://www.amazon.com/dp/B0CC6SDHJ8",
-    "asin_us_listing_title": "Apple 2023 Mac Mini with Apple M2 Pro Chip with 10-core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+    "asin_us": "B0DTPT3NNQ",
+    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
+    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
     "asin_probe_error": null,
     "confidence_score": 92,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0CC6SDHJ8",
+      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iV3hORVdzTUVHZ3hWZWNNdzh3VUluekoycHo5R01VZTdzNkhXNElKV3g5REZ1T2JZbjNqYXdWWkUzVDVxNjVPRzROVUJITFJaVTBBSXpiaXRKdHRCalpN?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IZ25OWW5vMmowNEVsZGlfeXBBUzRxaE9JNEFEM1pwdWgyQi1WWXFjWWJoNUxBRDZlQ0pVU1VKTTc1S3UzT0M0dXk1N05zZWF1Tk1faGNLWmRYVVM3azFyMlJlb3Q1Y2R5cF9HM3M0MncwSHk0aXZ1M20zMFI1dw?oc=5",
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
-      "https://www.amazon.com/dp/B0CC6SDHJ8"
+      "https://www.amazon.com/dp/B0DTPT3NNQ"
     ],
     "compliant": true,
     "rule": "major_markets",
