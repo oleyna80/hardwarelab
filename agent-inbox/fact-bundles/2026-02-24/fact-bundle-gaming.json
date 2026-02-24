@@ -17,13 +17,13 @@
       "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
       "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
     },
-    "reasoning_short": "Exact console model available in all major markets, matches gaming category, avoids generic phrasing.",
+    "reasoning_short": "Exact console model available in all major markets with highest score and strong trends.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
       "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
       "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
-      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQzVRNzNJRmNvU0MwV0ltRW1sZkI1QURyeW1rYjJkWC0tQzhXemdqb0s2ZGw2OHJVNUdUX1JEaFM5VmN4QmJnM3RoYWhzQTljYWlLOWhrVU1sRzJYaDF0bXpSWHQtZmxDeG9NVUdGOUZZNmdEdTVR?oc=5",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTE5aOUNGVUtSUENwTm9KelJYQmNxMjlleTlUQzMzekxlUzFtNDdreEZuTFM5ZGoyYWZadjNzaTVaWHE0c05BcU12Q3V3ZGxNSXNqRWhsN2ZwSWxuQ24zelp2QmVDWTB5djNIMjltVno5RlYwUG1LUUZ0NzBzelFWNjNMMmxxbGZ3VFdKbmxDNU40NTh4WHY0ZlA1YlJNNlhtSU12YWs0eEpHSlF2cDRqcFkyYlA5ejhJc0wzc1A4SkhyUGpvNTFFS2RWYThWcWh4QVBVWko3LVJ6Wjh6Q0tkMkNOeFEyNUd5ZjN4Z19XZzRBTk5iZHc?oc=5",
       "https://www.amazon.com/dp/B098RKWHHZ"
     ],
     "compliant": true,
@@ -50,8 +50,8 @@
     "score": 86.5,
     "ai_mode": "deepseek",
     "ai_confidence": 87,
-    "ai_reason": "Exact console model available in all major markets, matches gaming category, avoids generic phrasing.",
-    "ai_angle": "Nintendo Switch OLED: Still the best portable console in 2026 for PSP emulation and hybrid gaming."
+    "ai_reason": "Exact console model available in all major markets with highest score and strong trends.",
+    "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite newer models emerging?"
   },
   "ready_for_pass_a": false,
   "blockers": [
