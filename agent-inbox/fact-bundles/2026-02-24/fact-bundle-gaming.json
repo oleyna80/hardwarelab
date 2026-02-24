@@ -5,26 +5,26 @@
     "category_label": "Gaming Hardware",
     "topic": "Valve Steam Deck OLED",
     "candidate_product_name": "Valve Steam Deck OLED",
-    "asin_us": "B0CXPX5V21",
-    "asin_us_url": "https://www.amazon.com/dp/B0CXPX5V21",
-    "asin_us_listing_title": "Valve Steam Deck OLED Limited Edition 1TB model with Smoky Translucent Colorway",
+    "asin_us": "B0CQ3L4726",
+    "asin_us_url": "https://www.amazon.com/dp/B0CQ3L4726",
+    "asin_us_listing_title": "Valve Steam Deck OLED 1TB Handheld Gaming Console",
     "asin_probe_error": null,
     "confidence_score": 84,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0CXPX5V21",
+      "US": "https://www.amazon.com/dp/B0CQ3L4726",
       "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
       "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
     },
-    "reasoning_short": "Exact model name matches rules, available in major markets, avoids generic phrasing.",
+    "reasoning_short": "Exact model matches rules, available in major markets, avoids generic phrases.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
-      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGd6T2RLOGNHRTFVdHJmXzhyTkEtNE1ROWt4VU9GVzdjQnpoNHV4SXJKY2RBNFJQXzBpV0JTdVZjOGlqS3BjSnZuU1dUY2NHUW5ySGN5bE4waDBSYVhDZ1VLUFlCQTRvVE91MlY3QWdQNnJUQWRSSlBQcVV2V01mNGRFWEIzWFhJV2VYRzRacC11Qm9wWklWUE9Yc2xZLVBvTVRYRVV0bFliUS1QcUU3TWw4cWRqQzQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
       "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
       "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
-      "https://www.amazon.com/dp/B0CXPX5V21"
+      "https://www.amazon.com/dp/B0CQ3L4726"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,7 +50,7 @@
     "score": 84,
     "ai_mode": "deepseek",
     "ai_confidence": 84,
-    "ai_reason": "Exact model name matches rules, available in major markets, avoids generic phrasing.",
+    "ai_reason": "Exact model matches rules, available in major markets, avoids generic phrases.",
     "ai_angle": "Handheld gaming PC with OLED display for portable Steam library access."
   },
   "ready_for_pass_a": false,
