@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 96,
     "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-    "ai_angle": "Microsoft's flagship 4K gaming console with backward compatibility and Game Pass integration."
+    "ai_angle": "Next-gen gaming performance with 4K 120Hz, Quick Resume, and backward compatibility."
   },
   "ready_for_pass_a": false,
   "blockers": [
