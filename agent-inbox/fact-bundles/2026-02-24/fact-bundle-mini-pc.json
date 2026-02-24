@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score (92), available in all major markets, strong recent trend data and headlines.",
+    "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
@@ -50,8 +50,8 @@
     "score": 92,
     "ai_mode": "deepseek",
     "ai_confidence": 92,
-    "ai_reason": "Highest score (92), available in all major markets, strong recent trend data and headlines.",
-    "ai_angle": "Apple's latest Mac mini with M4 chip brings desktop-class performance to compact form factor, now with US manufacturing shift."
+    "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
+    "ai_angle": "Apple's shift to US production for Mac mini M4 signals strategic manufacturing changes amid global supply chain evolution."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -100,7 +100,7 @@
     ],
     "spec_facts": [
       {
-        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+        "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
         "source_url": "https://www.apple.com/mac-mini/"
       },
       {
@@ -112,14 +112,14 @@
     "related_reviews_candidates": [],
     "editorial_seed": {
       "title_candidate": "Apple Mac mini M4",
-      "description_candidate": "Potential upcoming mini PC from Apple featuring the M4 chip, expected to offer enhanced performance and efficiency.",
-      "price_category_candidate": "high",
+      "description_candidate": "Anticipated next-generation Mac mini with Apple M4 chip, expected to offer improved performance and efficiency over M2 models.",
+      "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "The Apple Mac mini M4 appears to be a speculative or future product based on trends and novelty hits, as no official release or ASINs exist across the specified markets. Manufacturer URL points to current Mac mini models. Spec facts reflect the absence of confirmed M4 details. Editorial seed is based on typical Apple product positioning and expectations."
+      "Product appears to be unreleased based on available information; no ASINs or Amazon listings found. Manufacturer URL points to current Mac mini page, which does not mention M4. Spec facts reflect current product state and lack of M4 confirmation."
     ]
   }
 }
