@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 58,
     "ai_reason": "Highest score candidate with exact model name available across all major Amazon markets.",
-    "ai_angle": "QNAP TS-464 NAS: A high-performance 4-bay network-attached storage solution with quad-core processing and 10GbE connectivity options."
+    "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution for home and small business use."
   },
   "ready_for_pass_a": false,
   "blockers": [
