@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to reference an unreleased or speculated product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini page. Trend and novelty data may relate to rumors or anticipation.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest in unannounced products. Manufacturer URL points to current Mac mini page, which does not mention M4.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -137,7 +137,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific ASINs found for RTX 4070 Ti variant across Amazon regions. Manufacturer site lists Omen 45L with various GPU options including RTX 4070 Ti. Price category inferred from typical gaming PC pricing with RTX 4070 Ti.
+- No specific ASINs found for RTX 4070 Ti configuration across Amazon regions. Manufacturer URL provides configuration details but no direct purchase link for this specific GPU variant. Search results show multiple Omen 45L configurations with different GPUs.
 ### Probe URLs
 - https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
 - https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
