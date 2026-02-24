@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score (60) among NAS candidates, available on all major Amazon markets, exact model specified.",
-    "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution for home and small business data management."
+    "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution for home and small business use."
   },
   "ready_for_pass_a": false,
   "blockers": [
