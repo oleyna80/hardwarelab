@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
     "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
     "asin_probe_error": null,
-    "confidence_score": 62,
+    "confidence_score": 85,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
       "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
     },
-    "reasoning_short": "Highest score, available in all major markets, recent headlines confirm exact model.",
+    "reasoning_short": "Exact model matches category, available in all major markets, recent reviews confirm product specificity.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
       "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
@@ -49,9 +49,9 @@
     "novelty_hits": 8,
     "score": 61.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 62,
-    "ai_reason": "Highest score, available in all major markets, recent headlines confirm exact model.",
-    "ai_angle": "Compact Strix Halo workstation with Ryzen AI Max 395+ and 128GB RAM - premium but pricey package."
+    "ai_confidence": 85,
+    "ai_reason": "Exact model matches category, available in all major markets, recent reviews confirm product specificity.",
+    "ai_angle": "Compact Strix Halo workstation with Ryzen AI Max 395+ and 128GB RAM - premium but pricey package for AI workloads."
   },
   "ready_for_pass_a": false,
   "blockers": [
