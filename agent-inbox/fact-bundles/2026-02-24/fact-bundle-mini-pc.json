@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "mini-pc",
     "category_label": "Mini PC",
-    "topic": "MINISFORUM UM790 Pro",
-    "candidate_product_name": "MINISFORUM UM790 Pro",
-    "asin_us": "B0F54CG4L4",
-    "asin_us_url": "https://www.amazon.com/dp/B0F54CG4L4",
-    "asin_us_listing_title": "MINISFORUM AI X1 Pro-370 Mini PC AMD Ryzen AI 9 HX 370(12C/24T) 32GB DDR5 1TB SSD Desktop Computer, HDMI|DP|2xUSB4 Output, 2xRJ45 Port, WiFi7, BT5.4, AMD Radeon 890M Graphics, Copilot Support AI PC",
+    "topic": "Apple Mac mini M4",
+    "candidate_product_name": "Apple Mac mini M4",
+    "asin_us": "B0DTPT3NNQ",
+    "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
+    "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
     "asin_probe_error": null,
-    "confidence_score": 85,
+    "confidence_score": 88,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0F54CG4L4",
-      "DE": "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro",
-      "FR": "https://www.amazon.fr/s?k=MINISFORUM%20UM790%20Pro"
+      "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+      "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "High-performance AMD mini PC with major marketplace availability and strong recent coverage.",
+    "reasoning_short": "Highest score, major market availability, exact model matches rules, avoids generic phrasing.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNW0yVnNYRnlvZE9jSmNVeFVFLUZYR0luT2RIcml6bGJyazZUWnBVRkRWdDJ2dGlUX0NQblVFVEU3WG9hSVhraVV6TF9PdE5qdVRZdEt6Wi1mUzk3dXpvYlVRdmprQ0xIbmJtSi1FU2phc3V6T01pSERscFBvMzkxT2Z0SmNFSVBSSnpCTFVaV0VYZF9SYUZQNFdfV0NFWHIwajYtUTc0X282TEMtNlhMM0tWLWFUUTNoTWl5TVMxUER4TXNDb0NGaWRoS3NINFdZUmszYS1DYWs5YVozaHhlV2EyWE1fb1V6Z1RxT092dkpRNENacG53?oc=5",
-      "https://news.google.com/rss/articles/CBMieEFVX3lxTFBacEQ5UFB2MDBnNzNhNjBsME91cWxlMUdNV1JJN1U3YTRvYzRrQ1lMb3RVd3A2UEJESXFjZkd3MDU2Wmd4S09Pa1ljd0ZkUUdZd1E3VmtxNnpydm0yRmlNTzRoaUk2TXo4bURTT1FYOWZOZ18zSkhLdg?oc=5",
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUkZZbmRucFlwQW5hTXpLblZCVzJDT3AxajJUbE9fRk12aTlxQk5TTGJYWDA4OEpQSHBWVXJ0dm80ZHVCWVdmRzBUNnl3cGJOTmJVYnlsMV9LVUhtWHo0eUpoRl9wSjZudmFsSlBJMG90SzBMSmJMYWMyWDJ1Tk9yOXdTcUVYaElYOXdGSmh3cXMwWVlzNUE?oc=5",
-      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMnpDUklVU05MRWtXT3c1aVdhYmJLSTVXcjYzNnA1akxaXzNMRnlBMmlLSFBxeXBXdWpWSFJybFhiU2d1SE1IWUZjRWJRVExLSDNuRS1TZjBLYjVYbi1CRnB5Qjc0ekNaYjdwcENqUUNpejlXQkNleGN3eTJ3LVd3d0xpclFnMkt6Zk42VW9RR3VxNUY4djZMTkk5cDRyWlJPeUROdE1DX0R1cElvcHBhSTVEaTBBejlza0ZkR1FvUnlHSW5pOUtnX0hZc2lGeUdwTVNIMmdzb2o1U1ZtdHV6Y085OWJuUEg3MmZ2cXpiYWtGZEZR?oc=5",
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXNWak9TTzRhZDZGQVVsc0dVb0xmLWROT3JKcWNlbUk3RE1ydHNTN1JiYWRFaUJ0MXl5M2FOekt5MmRNODA3ODhvZWg3TWFranN1QjhfTHJxdk1tN2w2OTJVQ0ZsVS1kYjF6Y05WZDllel81cEx4NEJfYnk1aFlHREpnREhCeDhlQ1A3OXFoZHc1WW9CUnpTYg?oc=5",
-      "https://www.amazon.com/dp/B0F54CG4L4"
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0w5TXVNMnJFTzZEWnpXQ3I3eEhhY1NpTmxLa3lzbjl4VzNTS2ZwTDdueXFhT1pGUmhnR25mOVprOXVaX19KcGdtbUNDYzI3R3NYMnh6WllhT1FMSlpvNmF4b3hFbUVmUERIam1LZHpSYy1JRVJQRTlVRlFuNElneE44NG52NlpvbWFWWi1hdEJZZjA?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IZ25OWW5vMmowNEVsZGlfeXBBUzRxaE9JNEFEM1pwdWgyQi1WWXFjWWJoNUxBRDZlQ0pVU1VKTTc1S3UzT0M0dXk1N05zZWF1Tk1faGNLWmRYVVM3azFyMlJlb3Q1Y2R5cF9HM3M0MncwSHk0aXZ1M20zMFI1dw?oc=5",
+      "https://www.amazon.com/dp/B0DTPT3NNQ"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,38 +44,40 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 1,
-    "trend_30d": 1,
+    "trend_7d": 11,
+    "trend_30d": 15,
     "novelty_hits": 3,
-    "score": 53.5,
+    "score": 88,
     "ai_mode": "deepseek",
-    "ai_confidence": 85,
-    "ai_reason": "High-performance AMD mini PC with major marketplace availability and strong recent coverage.",
-    "ai_angle": "Compact powerhouse for creative professionals with recent significant price reduction."
+    "ai_confidence": 88,
+    "ai_reason": "Highest score, major market availability, exact model matches rules, avoids generic phrasing.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic production changes amid global supply chain adjustments."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 3,
     "checked_urls": [
-      "https://www.amazon.com/s?k=MINISFORUM%20UM790%20Pro",
-      "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro"
+      "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.apple.com/mac-mini/",
+      "https://www.apple.com/mac-mini/",
+      "https://www.apple.com/mac-mini/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
     "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
-    "spec_fact_count": 0,
+    "manufacturer_url_count": 1,
+    "spec_fact_count": 2,
     "quote_candidate_count": 0,
     "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "seed_evidence_units": 3
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -89,25 +91,35 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=MINISFORUM%20UM790%20Pro",
-      "https://www.amazon.de/s?k=MINISFORUM%20UM790%20Pro",
-      "https://www.amazon.fr/s?k=MINISFORUM%20UM790%20Pro"
+      "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
+      "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     ],
-    "manufacturer_urls": [],
-    "spec_facts": [],
+    "manufacturer_urls": [
+      "https://www.apple.com/mac-mini/"
+    ],
+    "spec_facts": [
+      {
+        "claim": "Apple Mac mini M4 is not yet released or announced as of current knowledge.",
+        "source_url": "https://www.apple.com/mac-mini/"
+      },
+      {
+        "claim": "Current Mac mini models use M2 or M2 Pro chips.",
+        "source_url": "https://www.apple.com/mac-mini/"
+      }
+    ],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Mini PC: MINISFORUM UM790 Pro",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
-      "price_category_candidate": "mid",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, not yet released.",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini page, which does not list M4 model. Trend data may reflect search interest in rumors or anticipation."
     ]
   }
 }
