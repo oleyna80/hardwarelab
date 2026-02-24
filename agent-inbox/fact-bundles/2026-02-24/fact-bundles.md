@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
-- Seed ready: 2
+- Total: 7
+- Seed ready: 3
 - Seed blocked: 4
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 7
 
 ## Mini PC
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no ASINs found across specified markets due to product not being released. Manufacturer URL points to current Mac mini page, which does not mention M4. Trend data suggests interest but may reflect rumors or anticipation rather than actual product availability.
+- Keyword 'Apple Mac mini M4' appears to reference an unreleased or speculated product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini page. Trend and novelty data may relate to rumors or anticipation.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
@@ -121,6 +121,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=Nintendo%20Switch%20OLED
 - https://www.amazon.de/s?k=Nintendo%20Switch%20OLED
+
+## Gaming PCs
+
+- Topic: **HP Omen 45L RTX 4070 Ti**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 1
+- Spec facts: 3
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- No specific ASINs found for RTX 4070 Ti variant across Amazon regions. Manufacturer site lists Omen 45L with various GPU options including RTX 4070 Ti. Price category inferred from typical gaming PC pricing with RTX 4070 Ti.
+### Probe URLs
+- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
+- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
+- https://www.hp.com/us-en/shop/pdp/omen-45l-desktop-gt22-0000
 
 ## AI Workstations
 
