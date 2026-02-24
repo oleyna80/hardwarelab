@@ -1,0 +1,113 @@
+{
+  "generated_date_utc": "2026-02-24",
+  "topic": {
+    "category_key": "monitors",
+    "category_label": "Monitors",
+    "topic": "Samsung Odyssey OLED G8 G80SD",
+    "candidate_product_name": "Samsung Odyssey OLED G8 G80SD",
+    "asin_us": "B0DB8Y2T26",
+    "asin_us_url": "https://www.amazon.com/dp/B0DB8Y2T26",
+    "asin_us_listing_title": "SAMSUNG 32-Inch Odyssey OLED G8 (G80SD) Series 4K UHD Smart Gaming Monitor, 240Hz 0.03ms, Glare-Free Display, Gaming Hub, Adjustable Sleek Metal Design, LS32DG802SNXZA, 2024 (Renewed), Silver",
+    "asin_probe_error": null,
+    "confidence_score": 85,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/dp/B0DB8Y2T26",
+      "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+      "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
+    },
+    "reasoning_short": "Available in all major markets, exact model name matches rules, avoids prohibited phrases.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWanpBS0pnb0hpY0dnOTBmYjZoWUZBM0xBTXdqTlJ2RlFNakY5Qm0xeTc0SzN6TkVaaGR1VkpnLUJhY1dBal9qWjF4NXZsVXc5a21JanJaUkQ2TmZlb05GRWpBMEgzUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUlJyMWwyaFB6c1l4TGQxNmNnNngtY2l6QndPNUcwWHFTLXU1ejd4VG54akNrcGJRc1paeGtWQ0xIT08tRTNxOXdSQVh0MWc5OXZGZDBEc2tuZ3NIZ213LVNOSk9qRmlVVXZRamVCQjF0R1J6eWVRYUVjUENYZkJyRDZkNktzdmVaZ25ZcXVyTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zZWJDdzBzZzIzNXk5Z0hnVzcxclR4UUtObWkyOTBXUld1a2RGUUZTZnVJWVRRTTN4Q0JPNWV6QU1JUGtjTk80aFdrZE1BNlVVbFQtbmk3MnVLc0hMSUdXdGx2WERCcEUtZ3VUd3JJMlg?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNFFLSXRIWEVvbmsyeDZNaThYZWE5Z2E5RHh5OHhjRllSTkphdXF6cmVwY2VidlFYZm1OLUFwUk9FSEVjNS05S0V0Y1lCNmpEb2N2VG5DT25POWZiZk5jck9DNWctTDQ2YUM4VUMzTElSOFRoYU5OZEZiZWhvaGdBbQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRWdyeVh0VFhpaERxRXJvQ1dtR0lXTDZETDVtaVdzYzZILWZnRE82OVlIRTdnNFRxVHh6WXZWM2JjT3JnN1VZaV9kVWp3bUhXZTZGRXV6MXgzTklydnU4SVctdVFhQlNTN1RkM2hmeGZpTHh1VkU0cWtLV3RpRWxPQlowTC03UGhoQmMzbXhKNjlOMDZXZXlORi1wM012Y09XZW1HUW9VS1dZLWFPOFBidnlRM0VGS1JhMVpzaVJYMDl6aEZ2MHJ0WmdYUkE1bmdTTE01VUJyV0s?oc=5",
+      "https://www.amazon.com/dp/B0DB8Y2T26"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 0,
+    "trend_30d": 1,
+    "novelty_hits": 7,
+    "score": 59.5,
+    "ai_mode": "deepseek",
+    "ai_confidence": 85,
+    "ai_reason": "Available in all major markets, exact model name matches rules, avoids prohibited phrases.",
+    "ai_angle": "Samsung's 32-inch 4K 240Hz OLED gaming monitor with sleek metal chassis reviewed as top-class display."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+      "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0,
+    "seed_evidence_units": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+      "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
+      "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "Monitors: Samsung Odyssey OLED G8 G80SD",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
