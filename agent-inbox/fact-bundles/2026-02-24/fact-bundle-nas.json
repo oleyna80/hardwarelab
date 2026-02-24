@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
-    "ai_angle": "QNAP TS-464 NAS review: A high-performance 4-bay NAS with Intel Celeron processor, 4GB RAM, dual 2.5GbE ports, and HDMI output for multimedia applications."
+    "ai_angle": "QNAP TS-464 NAS review: A high-performance 4-bay network-attached storage solution with robust features for home and small business use."
   },
   "ready_for_pass_a": false,
   "blockers": [
