@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T01:52:24.656Z",
+  "generated_at": "2026-02-24T01:57:33.841Z",
   "total": 7,
   "seed_ready_count": 2,
   "seed_blocked_count": 5,
@@ -15,26 +15,26 @@
         "category_label": "Mini PC",
         "topic": "Apple Mac mini M4",
         "candidate_product_name": "Apple Mac mini M4",
-        "asin_us": "B0DTPT3NNQ",
-        "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-        "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+        "asin_us": "B0DLBX4B1K",
+        "asin_us_url": "https://www.amazon.com/dp/B0DLBX4B1K",
+        "asin_us_listing_title": "Apple 2024 Mac mini Desktop Computer with M4 chip with 10‑core CPU and 10‑core GPU: Built for Apple Intelligence, 16GB Unified Memory, 512GB SSD Storage, Gigabit Ethernet. Works with iPhone/iPad",
         "asin_probe_error": null,
         "confidence_score": 72,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+          "US": "https://www.amazon.com/dp/B0DLBX4B1K",
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trend and headlines.",
+        "reasoning_short": "Highest score, major market availability, strong recent trend and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxa3RQUWN0bDZEbkw3U05zMXdrckpILUFPLXJkUzBYZl9DRFZBYnpkSDRDQnRuTjNqZUw1Sng5SWRWMmFtaXU0SnNpalFnTHlBM055aU5sRWdXOExGZWRETWJpazhuVzhW?oc=5",
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
           "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDVLOUFCMkNRMW9HX041aThjUVJhanM3b0szbEo3ZEtyM0dYMWFKWnFCZ1FoUS1vNnNUa2ZFNFBVWkg5bW1lR1hWRkN3bjEzTU90emNMWFFwZTA1SElmOUwtdlFyVlpjcV9wUnp2bmtDMU0xTFZBdzYxUkFvWXNvTDVZUlV2cjdsTXNwaA?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
           "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zclFxYlNaMG1wNnJKWWtNekhscUtNN192OGh5RDlGTlV3Wm90c0ZpN1dKeEFFdEhIVUpDcnVLbWxRMno4RFROeVBHT1BoTzg3T2FmUlE0M0NfV3YxaWlMTlVDVFZ4YUxG?oc=5",
-          "https://www.amazon.com/dp/B0DTPT3NNQ"
+          "https://www.amazon.com/dp/B0DLBX4B1K"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -60,8 +60,8 @@
         "score": 72,
         "ai_mode": "deepseek",
         "ai_confidence": 72,
-        "ai_reason": "Highest score, available in all major markets, strong recent trend and headlines.",
-        "ai_angle": "Mac mini M4's power button design controversy amid OpenClaw software popularity surge."
+        "ai_reason": "Highest score, major market availability, strong recent trend and headlines.",
+        "ai_angle": "Compact Apple Silicon powerhouse with OpenClaw compatibility driving renewed interest."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -88,7 +88,7 @@
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips, with no official information on M4 models.",
+            "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
@@ -103,7 +103,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no confirmed product exists. Manufacturer URL points to current Mac mini page. No ASINs or Amazon URLs found due to product unavailability. Trend data may reflect search interest in unannounced products."
+          "Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no ASINs found across specified markets due to product not being released. Manufacturer URL points to current Mac mini page. Trend data may reflect search interest for rumored product."
         ]
       },
       "seed_ready": true,
@@ -193,14 +193,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 13,
-        "trend_30d": 15,
+        "trend_7d": 14,
+        "trend_30d": 17,
         "novelty_hits": 7,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen console offering digital-only gaming at an accessible price point."
+        "ai_angle": "Compact next-gen gaming at an accessible price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
         "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
         "asin_probe_error": null,
-        "confidence_score": 85,
+        "confidence_score": 60,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,7 +298,7 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score candidate with major market availability across all required regions.",
+        "reasoning_short": "Highest score candidate, available in all major markets, exact model matches requirements.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
@@ -330,9 +330,9 @@
         "novelty_hits": 8,
         "score": 60,
         "ai_mode": "deepseek",
-        "ai_confidence": 85,
-        "ai_reason": "Highest score candidate with major market availability across all required regions.",
-        "ai_angle": "QNAP TS-464 NAS review: High-performance 4-bay storage solution with comprehensive connectivity options."
+        "ai_confidence": 60,
+        "ai_reason": "Highest score candidate, available in all major markets, exact model matches requirements.",
+        "ai_angle": "QNAP TS-464 NAS: A high-performance 4-bay network-attached storage solution with quad-core processor and 10GbE connectivity for home and small business use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -596,7 +596,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 84,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED remains a top gaming console choice in 2026 despite newer hardware announcements."
+        "ai_angle": "Nintendo Switch OLED: Still the best console to buy in 2026?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -811,7 +811,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
         "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
         "asin_probe_error": null,
-        "confidence_score": 85,
+        "confidence_score": 62,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -819,7 +819,7 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Exact model matches category, available in all major markets, and has recent review coverage.",
+        "reasoning_short": "Exact model matches category, available in all major markets, highest score among AI workstations.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
@@ -851,9 +851,9 @@
         "novelty_hits": 8,
         "score": 61.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 85,
-        "ai_reason": "Exact model matches category, available in all major markets, and has recent review coverage.",
-        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM in a premium package."
+        "ai_confidence": 62,
+        "ai_reason": "Exact model matches category, available in all major markets, highest score among AI workstations.",
+        "ai_angle": "Compact Strix Halo Ryzen AI Max workstation with 128GB RAM - premium but pricey package for AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -886,7 +886,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. The category 'AI-workstation' suggests a specialized high-performance system for AI/ML tasks."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model."
         ]
       },
       "seed_ready": true,
