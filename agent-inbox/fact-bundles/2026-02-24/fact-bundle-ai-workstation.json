@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Exact model matches category, available in all major markets, and has recent review coverage.",
-    "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM in a premium package."
+    "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ and 128GB RAM in a pricey but classy package."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -108,7 +108,7 @@
     },
     "collection_mode": "deepseek",
     "notes": [
-      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific workstation model."
+      "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website may have more information about AI workstation offerings."
     ]
   }
 }
