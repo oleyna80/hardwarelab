@@ -5,15 +5,15 @@
     "category_label": "SBC",
     "topic": "Raspberry Pi 5 8GB",
     "candidate_product_name": "Raspberry Pi 5 8GB",
-    "asin_us": "B0FQC14HYK",
-    "asin_us_url": "https://www.amazon.com/dp/B0FQC14HYK",
-    "asin_us_listing_title": "Starter Kit for Raspberry Pi 5 8GB RAM,Pre-Loaded 64GB Edition Pi OS",
+    "asin_us": "B0CK2FCG1K",
+    "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
+    "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
     "confidence_score": 76,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0FQC14HYK",
+      "US": "https://www.amazon.com/dp/B0CK2FCG1K",
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
@@ -24,7 +24,7 @@
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
-      "https://www.amazon.com/dp/B0FQC14HYK"
+      "https://www.amazon.com/dp/B0CK2FCG1K"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 76,
     "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Performance, AI capabilities, and value amid recent price increases."
+    "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing AI-driven price hikes and essential upgrade debates."
   },
   "ready_for_pass_a": false,
   "blockers": [
