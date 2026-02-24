@@ -1,13 +1,13 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T13:32:20.325Z",
-  "total": 6,
-  "seed_ready_count": 1,
+  "generated_at": "2026-02-24T13:37:30.166Z",
+  "total": 7,
+  "seed_ready_count": 2,
   "seed_blocked_count": 5,
   "pass_a_ready_count": 0,
-  "pass_a_blocked_count": 6,
+  "pass_a_blocked_count": 7,
   "ready_count": 0,
-  "blocked_count": 6,
+  "blocked_count": 7,
   "rows": [
     {
       "topic": {
@@ -31,8 +31,8 @@
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNCVzFiUmYySWgtTFJFZEdqQlJZaDVYSlNrZXc2eDVJQXI2MF90bjl3OTVydldPZnNvZ2xvQW5YTkllak5fRU0tb1hhMWhVeUUyUkNCNnBXSVhlMnU3cGx1R3RxNW1UdzBOUFQ2b2Vkc3RQQ1Zia0JGT3RpQjRxdzVpdFJlbW10ejQxY1FWTU5TWkIzYm1Gem8wT2djYU14Vmc?oc=5",
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2p3VnpYV0dGYl8wbmNETFZyOWxuUldJMm55dm5FY3h6V2MxeWJpOXpnU3hGbThwZ0N0YmR6VUw4N3ZYVVR1MFBfUGVIN0JGTkc3MHZvUXFKWmdqenB6VnNPcncwWEc1bFF2eVR2eXE2TGZ0cktzZnlXb2lvWS15Tk9FNnVHQjRORlowN3YxbE5IN2FldmRwU3VGVlFseW45?oc=5",
-          "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IZ25OWW5vMmowNEVsZGlfeXBBUzRxaE9JNEFEM1pwdWgyQi1WWXFjWWJoNUxBRDZlQ0pVU1VKTTc1S3UzT0M0dXk1N05zZWF1Tk1faGNLWmRYVVM3azFyMlJlb3Q1Y2R5cF9HM3M0MncwSHk0aXZ1M20zMFI1dw?oc=5",
+          "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
           "https://www.amazon.com/dp/B0DTPT3NNQ"
         ],
@@ -54,14 +54,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 11,
-        "trend_30d": 14,
+        "trend_7d": 10,
+        "trend_30d": 13,
         "novelty_hits": 3,
         "score": 88,
         "ai_mode": "deepseek",
         "ai_confidence": 88,
         "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-        "ai_angle": "Apple's first US-assembled Mac mini with M4 chip brings production shift news alongside performance."
+        "ai_angle": "Apple's US production shift for Mac mini M4 signals strategic supply chain changes amid global tech manufacturing shifts."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -84,26 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released as of current knowledge.",
+            "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 or M2 Pro chips.",
+            "claim": "Apple Mac mini currently features M2 and M2 Pro chips.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Potential upcoming mini desktop computer from Apple featuring the M4 chip.",
-          "price_category_candidate": "high",
+          "title_candidate": "Apple Mac mini M4 (Unreleased)",
+          "description_candidate": "Expected next-generation Apple Mac mini with M4 chip, not yet available for purchase.",
+          "price_category_candidate": "mid",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No ASINs found as product is not released; based on Apple's current Mac mini page and typical product naming conventions."
+          "Product appears to be unreleased; no ASINs or Amazon listings found. Manufacturer site shows current M2 models only. Trend data may reflect speculation or anticipation."
         ]
       },
       "seed_ready": true,
@@ -166,7 +166,7 @@
           "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
           "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
-        "reasoning_short": "Exact console model available in major markets, avoids prohibited generic phrases and family words.",
+        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZUZkZHRoc0EwUVFfUktxUldpcElSN3pqUG5QZ0wxQUpGSzREZnhXakF3cHpKcWt2dF8xUUhQZ1QtS2hBcVhMOThUemxERXhTVy1ISWpJSzl6NWR4VWpiM2hxNXBVNThqUVE0U25kRUVxN3VyQXBDUjQ4Q3lYVmI5WHVVXzAzVC13QmV6aUF3cEFFWjVwaEgxMWxWN0E3ZGk3c1dTeUEwbWZNSmVTOEU1Q2lNN3lqSGRkNmgzNl9vZHhGN0w2VG93REZ6XzdpU3NnVGc?oc=5",
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
@@ -199,8 +199,8 @@
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in major markets, avoids prohibited generic phrases and family words.",
-        "ai_angle": "Compact next-gen console offering Game Pass access and 1440p gaming at an affordable price point."
+        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "ai_angle": "Compact next-gen Xbox with digital-only gaming at an accessible price point."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -298,7 +298,7 @@
           "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
           "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
         },
-        "reasoning_short": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
+        "reasoning_short": "Highest score (60) among NAS candidates, available on all major Amazon markets including US, UK, DE.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
           "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
@@ -331,8 +331,8 @@
         "score": 60,
         "ai_mode": "deepseek",
         "ai_confidence": 85,
-        "ai_reason": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
-        "ai_angle": "QNAP TS-464 NAS review: A high-performance 4-bay network-attached storage solution with robust features for home and small business use."
+        "ai_reason": "Highest score (60) among NAS candidates, available on all major Amazon markets including US, UK, DE.",
+        "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution with quad-core processor and hardware transcoding support."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -422,7 +422,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 75,
+        "confidence_score": 76,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -458,11 +458,11 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 7,
+        "trend_30d": 8,
         "novelty_hits": 5,
-        "score": 74.5,
+        "score": 76,
         "ai_mode": "deepseek",
-        "ai_confidence": 75,
+        "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
         "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price changes."
       },
@@ -548,28 +548,28 @@
       "topic": {
         "category_key": "gaming",
         "category_label": "Gaming Hardware",
-        "topic": "Valve Steam Deck OLED",
-        "candidate_product_name": "Valve Steam Deck OLED",
-        "asin_us": "B0CXPX5V21",
-        "asin_us_url": "https://www.amazon.com/dp/B0CXPX5V21",
-        "asin_us_listing_title": "Valve Steam Deck OLED Limited Edition 1TB model with Smoky Translucent Colorway",
+        "topic": "Nintendo Switch OLED",
+        "candidate_product_name": "Nintendo Switch OLED",
+        "asin_us": "B09J652L1P",
+        "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
+        "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 80,
+        "confidence_score": 87,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0CXPX5V21",
-          "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-          "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+          "US": "https://www.amazon.com/dp/B09J652L1P",
+          "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
+          "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         },
-        "reasoning_short": "Exact model matches gaming hardware category, available in major markets, and avoids generic phrases.",
+        "reasoning_short": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
-          "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGd6T2RLOGNHRTFVdHJmXzhyTkEtNE1ROWt4VU9GVzdjQnpoNHV4SXJKY2RBNFJQXzBpV0JTdVZjOGlqS3BjSnZuU1dUY2NHUW5ySGN5bE4waDBSYVhDZ1VLUFlCQTRvVE91MlY3QWdQNnJUQWRSSlBQcVV2V01mNGRFWEIzWFhJV2VYRzRacC11Qm9wWklWUE9Yc2xZLVBvTVRYRVV0bFliUS1QcUU3TWw4cWRqQzQ?oc=5",
-          "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
-          "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
-          "https://www.amazon.com/dp/B0CXPX5V21"
+          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
+          "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
+          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
+          "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQzVRNzNJRmNvU0MwV0ltRW1sZkI1QURyeW1rYjJkWC0tQzhXemdqb0s2ZGw2OHJVNUdUX1JEaFM5VmN4QmJnM3RoYWhzQTljYWlLOWhrVU1sRzJYaDF0bXpSWHQtZmxDeG9NVUdGOUZZNmdEdTVR?oc=5",
+          "https://www.amazon.com/dp/B09J652L1P"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -589,14 +589,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 9,
-        "trend_30d": 20,
-        "novelty_hits": 1,
-        "score": 80,
+        "trend_7d": 4,
+        "trend_30d": 7,
+        "novelty_hits": 6,
+        "score": 86.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 80,
-        "ai_reason": "Exact model matches gaming hardware category, available in major markets, and avoids generic phrases.",
-        "ai_angle": "Handheld gaming PC with OLED display for portable AAA gaming and emulation."
+        "ai_confidence": 87,
+        "ai_reason": "Highest score, available in all major markets, exact model matches rules, avoids generic phrasing.",
+        "ai_angle": "Nintendo Switch OLED review: Is it still the best console to buy in 2026?"
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -610,16 +610,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
+          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
+          "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -663,8 +663,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
-          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
+          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
+          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -721,7 +721,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
-        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - performance and thermal analysis for budget-conscious gamers."
+        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -799,6 +799,134 @@
         "quote_candidate_count": 0,
         "related_candidate_count": 0,
         "seed_evidence_units": 0
+      }
+    },
+    {
+      "topic": {
+        "category_key": "ai-workstation",
+        "category_label": "AI Workstations",
+        "topic": "Corsair AI Workstation 300",
+        "candidate_product_name": "Corsair AI Workstation 300",
+        "asin_us": "B0GKPJRXW4",
+        "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
+        "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
+        "asin_probe_error": null,
+        "confidence_score": 85,
+        "status": "shortlisted",
+        "discard_reason": null,
+        "market_evidence": {
+          "US": "https://www.amazon.com/dp/B0GKPJRXW4",
+          "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+          "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
+        },
+        "reasoning_short": "Exact model matches category, available in all major markets, and has recent review coverage.",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
+          "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxQallOLTA1QXBrOVIwZ2hFTGRWZHpiUlNkcXRIb2xIUHNwOHk5UTU1NUIwMlpCM3pySEtXUVJNZi1rZmRnMUQ4SndJeEhHTDcySDBUcGN3bEVCRHVjNHBpMXZJZVVfazhhSVMwV250RlJ1MzhyUnlfaFFYaXdtU0FiZGV3MGdYTDNNeE41dVZMY0Q2aEUzZXFobjZrSmZZQVd4clRnY09zTTNkUnBzQ1RXVV80WV9TQUJJY1E?oc=5",
+          "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV0VkMGF3cHBlcDZ6NXVYb0x3Sl8zNGJrZGxnRlFTVWVYeGhOVm8yek5uTXRmM0ZfS3FEWFVsOHBPWGtzRGtVdXlzQ0Q5VVktYm5XYmxxeHEtd2tGeXpiLTRlNC0xQWU2WW4xQTNSVjJxMzhKd3VPc0NwUHMzRU11c2lUZjFIYjFWU2Y0ZXFzYzRKWHc5aV9nS2xDTllHRGdoWHlkR2RVSkw4VmRoMEtVQXVSeUc3TkM4UktCZlRDVGRLdTRKYzJaS1Z6Tjg4ZjlGQkNTQk83bDHSAd4BQVVfeXFMUGsxbWt3RzNtRWsySWhDWHBxa2VvOUlqNGR3WHVYRzN0U1lxSmc2Nkp6a3lPdGFPQ0VmWVBDc1F5S1I5QmYwWG04V1JLVVZoa09PVjlZUUw5MmFCLVBxcWItT2VUZmV1OTVVZDRaSFcteWsxNWg3bzNKNGJCR3dUbTM4ZE5odFpTa1dGcXNKVTgyYnVUMjdHdTlYenpVR3p4dzUzdHJwX2RvaVNCeWxaOHBhMkRkZ3d3SnlwcG93ZnNGRGc1WmQtVHFBX3ZoeWdockR3YkNNTUhFOTBfQ0h3?oc=5",
+          "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLU13VkVVNUxDZTZ1bWoycVQwWDlueGt4eWZicVVMSFVselU5ZzB1VEY3bHdJOXJfTTlqQ2ZMTEptcHUwOXhYSDhpbmNWbzhhTXhtSkxHX25hTV80OXVJbWRpMno4cExtZEJPRDRIUDdZRE9oZkxVOGFWLUlvaS13eDNwMWEzcDZWTDNZRlhidHZzczRIa0JTMDgwam56NkpXbGRmLWNhTEVmdWYxVkU2dlpVdWtTbzREZk9DVEVvQjJfbGtMYy1pVmVHTFNNdVVtRTlFRW91M3ZHNDYyc1ZiYUFmY2FHd25EOWVhWmU1Y0VHTlE?oc=5",
+          "https://www.amazon.com/dp/B0GKPJRXW4"
+        ],
+        "compliant": true,
+        "rule": "major_markets",
+        "available_markets": [
+          "US",
+          "UK",
+          "DE",
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "coverage": {
+          "US": true,
+          "UK": true,
+          "DE": true,
+          "FR": true,
+          "IT": true,
+          "ES": true
+        },
+        "trend_7d": 0,
+        "trend_30d": 1,
+        "novelty_hits": 8,
+        "score": 61.5,
+        "ai_mode": "deepseek",
+        "ai_confidence": 85,
+        "ai_reason": "Exact model matches category, available in all major markets, and has recent review coverage.",
+        "ai_angle": "Compact Strix Halo workstation with Ryzen AI Max 395+ and 128GB RAM for AI development tasks."
+      },
+      "fact_bundle": {
+        "asin_candidates": {
+          "us": "absent",
+          "de": "absent",
+          "fr": "absent",
+          "it": "absent",
+          "es": "absent",
+          "uk": "absent",
+          "primary_region": "absent",
+          "primary_url": "absent"
+        },
+        "amazon_candidate_urls": [
+          "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
+        ],
+        "manufacturer_urls": [
+          "https://www.corsair.com/"
+        ],
+        "spec_facts": [],
+        "quote_candidates": [],
+        "related_reviews_candidates": [],
+        "editorial_seed": {
+          "title_candidate": "Corsair AI Workstation 300",
+          "description_candidate": "AI workstation from Corsair, likely designed for high-performance computing, machine learning, and data science tasks.",
+          "price_category_candidate": "high",
+          "rating_candidate": null,
+          "rating_source_url": "absent"
+        },
+        "collection_mode": "deepseek",
+        "notes": [
+          "No direct product listings found for 'Corsair AI Workstation 300' on Amazon across specified markets. Corsair is a known manufacturer of gaming and PC components, but this specific AI workstation model appears unlisted or may be a conceptual or discontinued product. Manufacturer website (corsair.com) is included as a reference, but no specific product page was identified. All ASIN fields set to 'absent' per constraints to avoid hallucination."
+        ]
+      },
+      "seed_ready": true,
+      "seed_blockers": [],
+      "seed_blockers_top3": [],
+      "ready_for_pass_a": false,
+      "blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers_top3": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4)."
+      ],
+      "validator": {
+        "reachable_probe_urls": 3,
+        "checked_urls": [
+          "https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
+          "https://www.corsair.com/"
+        ],
+        "has_us_asin": false,
+        "has_rating_source": false,
+        "amazon_url_count": 3,
+        "manufacturer_url_count": 1,
+        "spec_fact_count": 0,
+        "quote_candidate_count": 0,
+        "related_candidate_count": 0,
+        "seed_evidence_units": 1
       }
     }
   ]
