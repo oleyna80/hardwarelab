@@ -1,0 +1,113 @@
+{
+  "generated_date_utc": "2026-02-24",
+  "topic": {
+    "category_key": "nas",
+    "category_label": "NAS",
+    "topic": "QNAP TS-464",
+    "candidate_product_name": "QNAP TS-464",
+    "asin_us": "B0BQ5TWCL8",
+    "asin_us_url": "https://www.amazon.com/dp/B0BQ5TWCL8",
+    "asin_us_listing_title": "QNAP TS-464-8G-US 4 Bay High-Performance Desktop NAS with Intel Celeron Quad-core Processor, M.2 PCIe Slots and Dual 2.5GbE (2.5G/1G/100M) Network Connectivity (Diskless)",
+    "asin_probe_error": null,
+    "confidence_score": 85,
+    "status": "shortlisted",
+    "discard_reason": null,
+    "market_evidence": {
+      "US": "https://www.amazon.com/dp/B0BQ5TWCL8",
+      "DE": "https://www.amazon.de/s?k=QNAP%20TS-464",
+      "FR": "https://www.amazon.fr/s?k=QNAP%20TS-464"
+    },
+    "reasoning_short": "Highest candidate score (60), available on all major Amazon markets, exact model name matches requirements.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RaWxhbzd6QndaTEZNMVBWdTFubl9IM2ZBeFdzcHAybmEycnZvWW5GRzZNY3Bia2dzNGlsLXhRQlVIWmEya3VCUFNJQ0VNcFlTYkVPMzFuVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcWxHUFpEU1FCa2NRazJOcVc3eXlCRHRMZUlTLVE0QnNTU2tBa3hWeXAyV05UT0hBempFQkZid0ZXeUxGYmlzLTNzbVctcElBc1g0N2FCdjU?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uOXBLc3hDRHQxV2JqU1Z2OFVGS29kYnJBOF9IN1g4NUd4dUEzRTFoOXNjNGJNbkhGUEE1SWJaMEN4dkhtX3g0QWk2UXhtdmpkTDMxWjVOYXQzaEJ6LXF3VUZNYXBhbWNzY0duVTVFa0Nlel9o?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTzYzLU1yVUtzUUZRMER0Vmk3REpOYkR3TklMeW5SYTEyRjhCbGxtb0tqcFpmNUJycWxUOEthNmg5MlB1OTNoVU9IWnY0LTJkWERhQWM1WjhxN3FwRnZoa0RvSmVvOFBkZUxuaExrNWN0OWRNbW92UldEblZPZw?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVNKbTVZZmlKR25pdzdLMHVhS3RlOENlXzVMc2dSNmJleWQ1a21ZY1BJZGRtQmVRd3BhSkZEY2pZdGZjbnZXdlhMRllybTd1RDF6bktxUkROYzJvOU1vdkp4UHBzamVTbi13MDh0V2p3OHBhZXlpeEN0bUVELUF3bHp5RDg0R2sxSk0xUl9hdjcxYnc5cDJnNnB5cHNiQ3c?oc=5",
+      "https://www.amazon.com/dp/B0BQ5TWCL8"
+    ],
+    "compliant": true,
+    "rule": "major_markets",
+    "available_markets": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "coverage": {
+      "US": true,
+      "UK": true,
+      "DE": true,
+      "FR": true,
+      "IT": true,
+      "ES": true
+    },
+    "trend_7d": 0,
+    "trend_30d": 0,
+    "novelty_hits": 8,
+    "score": 60,
+    "ai_mode": "deepseek",
+    "ai_confidence": 85,
+    "ai_reason": "Highest candidate score (60), available on all major Amazon markets, exact model name matches requirements.",
+    "ai_angle": "QNAP TS-464 NAS review: A powerful 4-bay network-attached storage solution with quad-core processor and 2.5GbE connectivity."
+  },
+  "ready_for_pass_a": false,
+  "blockers": [
+    "Missing confirmed US ASIN (required for PASS A handoff).",
+    "Missing manufacturer source URLs.",
+    "Insufficient source-backed spec facts (need >=3).",
+    "Insufficient quote candidates with source links (need >=4).",
+    "Insufficient related review candidates (need >=2).",
+    "Missing valid ratingSourceURL in editorial seed."
+  ],
+  "validator": {
+    "reachable_probe_urls": 2,
+    "checked_urls": [
+      "https://www.amazon.com/s?k=QNAP%20TS-464",
+      "https://www.amazon.de/s?k=QNAP%20TS-464"
+    ],
+    "has_us_asin": false,
+    "has_rating_source": false,
+    "amazon_url_count": 3,
+    "manufacturer_url_count": 0,
+    "spec_fact_count": 0,
+    "quote_candidate_count": 0,
+    "related_candidate_count": 0,
+    "seed_evidence_units": 0
+  },
+  "fact_bundle": {
+    "asin_candidates": {
+      "us": "absent",
+      "de": "absent",
+      "fr": "absent",
+      "it": "absent",
+      "es": "absent",
+      "uk": "absent",
+      "primary_region": "absent",
+      "primary_url": "absent"
+    },
+    "amazon_candidate_urls": [
+      "https://www.amazon.com/s?k=QNAP%20TS-464",
+      "https://www.amazon.de/s?k=QNAP%20TS-464",
+      "https://www.amazon.fr/s?k=QNAP%20TS-464"
+    ],
+    "manufacturer_urls": [],
+    "spec_facts": [],
+    "quote_candidates": [],
+    "related_reviews_candidates": [],
+    "editorial_seed": {
+      "title_candidate": "NAS: QNAP TS-464",
+      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "price_category_candidate": "mid",
+      "rating_candidate": null,
+      "rating_source_url": "absent"
+    },
+    "collection_mode": "fallback",
+    "notes": [
+      "DeepSeek unavailable or invalid output; only baseline links collected.",
+      "DeepSeek error: Timeout"
+    ]
+  }
+}
