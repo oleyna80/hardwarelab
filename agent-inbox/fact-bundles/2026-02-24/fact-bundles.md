@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no official product exists yet. Trend data may reflect search interest or anticipation. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASIN fields set to 'absent' due to no confirmed product listings.
+- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculative product based on current Apple lineup and announcements. No ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page, which does not mention M4. Trend and novelty data may reflect search interest or rumors rather than actual product availability.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S
 
 ## NAS
 
