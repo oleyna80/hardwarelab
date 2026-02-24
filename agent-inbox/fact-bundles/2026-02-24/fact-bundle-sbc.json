@@ -5,26 +5,26 @@
     "category_label": "SBC",
     "topic": "Raspberry Pi 5 8GB",
     "candidate_product_name": "Raspberry Pi 5 8GB",
-    "asin_us": "B0CK2FCG1K",
-    "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
-    "asin_us_listing_title": "Raspberry Pi 5 8GB",
+    "asin_us": "B0DFMNHL62",
+    "asin_us_url": "https://www.amazon.com/dp/B0DFMNHL62",
+    "asin_us_listing_title": "Vemico Raspberry Pi 5 Kit 8GB RAM with Active Cooler, Pi 5 27W 5.1V5A PD Type-C Power Supply, Raspberry Pi 5 8GB Single Board and Warranty Card Included(8GB RAM)",
     "asin_probe_error": null,
     "confidence_score": 76,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B0CK2FCG1K",
+      "US": "https://www.amazon.com/dp/B0DFMNHL62",
       "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
       "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
     },
-    "reasoning_short": "Highest score candidate, available in all major markets, strong recent trends and novelty.",
+    "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
       "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
       "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
-      "https://www.amazon.com/dp/B0CK2FCG1K"
+      "https://www.amazon.com/dp/B0DFMNHL62"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -50,8 +50,8 @@
     "score": 76,
     "ai_mode": "deepseek",
     "ai_confidence": 76,
-    "ai_reason": "Highest score candidate, available in all major markets, strong recent trends and novelty.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value assessment amid recent price increases."
+    "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+    "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
   },
   "ready_for_pass_a": false,
   "blockers": [
