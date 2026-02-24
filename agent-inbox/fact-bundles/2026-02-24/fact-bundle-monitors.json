@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD",
       "FR": "https://www.amazon.fr/s?k=Samsung%20Odyssey%20OLED%20G8%20G80SD"
     },
-    "reasoning_short": "Available in all major markets, exact model name, avoids prohibited generic phrases, and has high novelty.",
+    "reasoning_short": "Available in all major markets (US, UK, DE), exact model specified, avoids prohibited generic phrases.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWanpBS0pnb0hpY0dnOTBmYjZoWUZBM0xBTXdqTlJ2RlFNakY5Qm0xeTc0SzN6TkVaaGR1VkpnLUJhY1dBal9qWjF4NXZsVXc5a21JanJaUkQ2TmZlb05GRWpBMEgzUQ?oc=5",
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUlJyMWwyaFB6c1l4TGQxNmNnNngtY2l6QndPNUcwWHFTLXU1ejd4VG54akNrcGJRc1paeGtWQ0xIT08tRTNxOXdSQVh0MWc5OXZGZDBEc2tuZ3NIZ213LVNOSk9qRmlVVXZRamVCQjF0R1J6eWVRYUVjUENYZkJyRDZkNktzdmVaZ25ZcXVyTQ?oc=5",
@@ -50,7 +50,7 @@
     "score": 61.5,
     "ai_mode": "deepseek",
     "ai_confidence": 85,
-    "ai_reason": "Available in all major markets, exact model name, avoids prohibited generic phrases, and has high novelty.",
+    "ai_reason": "Available in all major markets (US, UK, DE), exact model specified, avoids prohibited generic phrases.",
     "ai_angle": "Samsung's 32-inch 4K 240Hz OLED gaming monitor with sleek metal chassis, reviewed as a top-class display."
   },
   "ready_for_pass_a": false,
