@@ -17,7 +17,7 @@
       "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
       "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
     },
-    "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
+    "reasoning_short": "Highest score, major market availability, strong trends, and exact model matches rules.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
@@ -50,8 +50,8 @@
     "score": 88,
     "ai_mode": "deepseek",
     "ai_confidence": 88,
-    "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain changes amid rising demand."
+    "ai_reason": "Highest score, major market availability, strong trends, and exact model matches rules.",
+    "ai_angle": "Apple's US manufacturing shift for Mac mini M4 signals strategic supply chain evolution amid global tech production trends."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -111,15 +111,15 @@
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
+      "title_candidate": "Apple Mac mini M4",
       "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
-      "price_category_candidate": "absent",
+      "price_category_candidate": "high",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product; no ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page, which does not mention M4. Trend and novelty data may reflect search interest in rumors or anticipation."
+      "Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no ASINs exist due to no release. Manufacturer URL points to current Mac mini page. Trend data may reflect search interest in rumors."
     ]
   }
 }
