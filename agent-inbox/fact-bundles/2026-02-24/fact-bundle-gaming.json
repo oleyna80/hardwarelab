@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "gaming",
     "category_label": "Gaming Hardware",
-    "topic": "Nintendo Switch OLED",
-    "candidate_product_name": "Nintendo Switch OLED",
-    "asin_us": "B09J652L1P",
-    "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
-    "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
+    "topic": "Valve Steam Deck OLED",
+    "candidate_product_name": "Valve Steam Deck OLED",
+    "asin_us": "B0CXPX5V21",
+    "asin_us_url": "https://www.amazon.com/dp/B0CXPX5V21",
+    "asin_us_listing_title": "Valve Steam Deck OLED Limited Edition 1TB model with Smoky Translucent Colorway",
     "asin_probe_error": null,
-    "confidence_score": 81,
+    "confidence_score": 80,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B09J652L1P",
-      "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-      "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+      "US": "https://www.amazon.com/dp/B0CXPX5V21",
+      "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
+      "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
     },
-    "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
+    "reasoning_short": "Highest score, major market availability, exact model matches gaming hardware category.",
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
-      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
-      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
-      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQzVRNzNJRmNvU0MwV0ltRW1sZkI1QURyeW1rYjJkWC0tQzhXemdqb0s2ZGw2OHJVNUdUX1JEaFM5VmN4QmJnM3RoYWhzQTljYWlLOWhrVU1sRzJYaDF0bXpSWHQtZmxDeG9NVUdGOUZZNmdEdTVR?oc=5",
-      "https://www.amazon.com/dp/B09J652L1P"
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGd6T2RLOGNHRTFVdHJmXzhyTkEtNE1ROWt4VU9GVzdjQnpoNHV4SXJKY2RBNFJQXzBpV0JTdVZjOGlqS3BjSnZuU1dUY2NHUW5ySGN5bE4waDBSYVhDZ1VLUFlCQTRvVE91MlY3QWdQNnJUQWRSSlBQcVV2V01mNGRFWEIzWFhJV2VYRzRacC11Qm9wWklWUE9Yc2xZLVBvTVRYRVV0bFliUS1QcUU3TWw4cWRqQzQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
+      "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
+      "https://www.amazon.com/dp/B0CXPX5V21"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 4,
-    "trend_30d": 6,
-    "novelty_hits": 5,
-    "score": 81,
+    "trend_7d": 8,
+    "trend_30d": 20,
+    "novelty_hits": 1,
+    "score": 80,
     "ai_mode": "deepseek",
-    "ai_confidence": 81,
-    "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
-    "ai_angle": "Nintendo Switch OLED remains a top portable console choice in 2026 despite Switch 2 rumors."
+    "ai_confidence": 80,
+    "ai_reason": "Highest score, major market availability, exact model matches gaming hardware category.",
+    "ai_angle": "Reviewing the Valve Steam Deck OLED handheld gaming PC's performance, display quality, and current global availability status."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-      "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
+      "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+      "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-      "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-      "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+      "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+      "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
+      "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
+      "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
