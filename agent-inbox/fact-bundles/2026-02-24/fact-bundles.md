@@ -22,7 +22,9 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to reference a product that does not currently exist. Apple has not announced any Mac mini with M4 chip. Current Mac mini models use M2 or M2 Pro processors. All ASIN fields set to 'absent' as no such product exists on Amazon markets. Manufacturer URL points to current Mac mini product page.
+- Product appears to be unreleased/upcoming based on manufacturer website showing only M2 models
+- No ASINs found across all specified markets
+- Keyword shows search trend activity but no actual product listings found
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -32,7 +34,7 @@
 
 ## Consoles
 
-- Topic: **xbox series s**
+- Topic: **xbox series x**
 - Status: BLOCKED
 - ASIN_US: absent
 - Amazon URLs: 3
@@ -50,8 +52,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20S
-- https://www.amazon.de/s?k=Xbox%20Series%20S
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
 
 ## NAS
 
@@ -142,8 +144,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.com/s?k=HP%20Omen%2045L
+- https://www.amazon.de/s?k=HP%20Omen%2045L
 
 ## AI Workstations
 
@@ -161,7 +163,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in search results. The category 'AI Workstations' suggests a high-end system for AI tasks. Manufacturer website included for reference.
+- No direct product listings found for 'Corsair AI Workstation 300' on Amazon across specified markets. Corsair is a known manufacturer of PC components and systems, but this specific model name does not appear in current search results. The category 'AI-workstation' suggests a specialized desktop PC. Further verification needed for exact product existence and specifications.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
