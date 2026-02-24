@@ -111,15 +111,15 @@
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Apple Mac mini M4 (Unreleased)",
-      "description_candidate": "Potential future Mac mini model with Apple M4 chip, not currently available.",
+      "title_candidate": "Apple Mac mini M4",
+      "description_candidate": "Potential future Mac mini model with M4 chip, not currently available.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
     "collection_mode": "deepseek",
     "notes": [
-      "Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini page. Spec facts based on current Apple product lineup. Editorial seed assumes mid-range pricing typical of Mac mini series."
+      "Keyword 'Apple Mac mini M4' appears speculative or based on unannounced product; no ASINs found across specified markets due to product non-existence. Manufacturer URL points to current Mac mini page. Spec facts reflect current product state and lack of M4 model. Editorial seed is placeholder based on keyword context."
     ]
   }
 }
