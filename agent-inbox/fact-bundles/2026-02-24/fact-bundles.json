@@ -1,9 +1,9 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T05:37:29.139Z",
+  "generated_at": "2026-02-24T05:42:31.699Z",
   "total": 7,
-  "seed_ready_count": 2,
-  "seed_blocked_count": 5,
+  "seed_ready_count": 1,
+  "seed_blocked_count": 6,
   "pass_a_ready_count": 0,
   "pass_a_blocked_count": 7,
   "ready_count": 0,
@@ -15,26 +15,26 @@
         "category_label": "Mini PC",
         "topic": "Apple Mac mini M4",
         "candidate_product_name": "Apple Mac mini M4",
-        "asin_us": "B0DTPT3NNQ",
-        "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
-        "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
+        "asin_us": "B082YHCN4X",
+        "asin_us_url": "https://www.amazon.com/dp/B082YHCN4X",
+        "asin_us_listing_title": "Apple Late 2018 Mac Mini with 3.0GHz Intel Core i5 (8GB RAM, 256GB SSD) Space Gray (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 82,
+        "confidence_score": 78,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0DTPT3NNQ",
+          "US": "https://www.amazon.com/dp/B082YHCN4X",
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, major market availability, strong recent trends and headlines.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZjeXVVVFNISlR0RkZWblJUMjFsVklhUUpIcnhFcGFmUEhkUnNzektkM2xpVUo1emFVem9PYmlOR2p2S1hjUjUyTjVuQ1JXNGN2SEZXeWRsekxlX0FBUE1fbTRBbFhPZXY0dDdSYzRwcU9mYXZCQUZUMUVhNnhKazJpSmMwaVJMQkRVS2g3RC16NXVRTWZQd0RRZktVRkRucEZQWTZBTGs5dmhBTTN0SXRkenJ3MGc?oc=5",
           "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lUF9pbnJRZVd0TDJBWFRDak9zekg3aGJJalBIb0ZjQzkzQ3NuczY2aWVRZ0MtOE94Z1hLbTFVbUJZT3p0cWNyS0J5SHlWQ0NzeHhhRG9IMDM2bnpvRmU5cVZVNTRaZw?oc=5",
           "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGpZQ1RQdE5PUzRQQl9HZlNBVXpXTTJMSFRQWnJuazQ0TlFwQTVodUZBOVg2MkZzUWRZX3dHbVRVQktHR3B6OWIwNU02ZXFKNm1CUlRGZkpqazhORXB0ZGZEa2k5UDRMc2JCM2NTOUVzZTVVVGRscWVScmF2NlBvZEd5eFVBUkNLYmhhazU4LXlpUk1oTTVWVElPMWdQTmJOS0xFM0stNjk4ZTd6ckJfS1lYOHQ5a21IQ3lJaXZkMDZXZk5E?oc=5",
           "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ095QlV0cFlLWTZ2bEdZaEh4aV9qNFY0Y1YxRmZRWHExRVJ2VzlXSDhLbTJGUHY4T1NqUjlVRk5VZVcyMzFxY01xc2Y2aVdHdUFVWUpVUzRlUzBsTWk3SFZzckFYQTBxaEM0M3dvaVhlaklvaF9VemlLeXowa0ViVG1KSzhLdjZTT1BvS1NXZWtseWNLaHpMYndWT1ZMa1A1c2lqdW5TYTVQV2h4Yi1CWFZLMmtKdFJHeTllN25nVFY?oc=5",
-          "https://www.amazon.com/dp/B0DTPT3NNQ"
+          "https://www.amazon.com/dp/B082YHCN4X"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -56,12 +56,12 @@
         },
         "trend_7d": 4,
         "trend_30d": 9,
-        "novelty_hits": 4,
-        "score": 81.5,
+        "novelty_hits": 3,
+        "score": 77.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 82,
-        "ai_reason": "Highest score, major market availability, strong recent trends and headlines.",
-        "ai_angle": "Apple's US-assembled M4 Mac mini offers compact power with growing availability and buzz."
+        "ai_confidence": 78,
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "ai_angle": "Apple's latest Mac mini with M4 chip offers compact performance for professionals and home users."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -79,151 +79,12 @@
           "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         ],
-        "manufacturer_urls": [
-          "https://www.apple.com/mac-mini/"
-        ],
-        "spec_facts": [
-          {
-            "claim": "Apple Mac mini M4 is not yet released as of current knowledge.",
-            "source_url": "https://www.apple.com/mac-mini/"
-          },
-          {
-            "claim": "Apple Mac mini currently uses M2 and M2 Pro chips.",
-            "source_url": "https://www.apple.com/mac-mini/"
-          }
-        ],
-        "quote_candidates": [],
-        "related_reviews_candidates": [],
-        "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4",
-          "description_candidate": "Expected next-generation Mac mini with Apple M4 chip, not yet released.",
-          "price_category_candidate": "mid",
-          "rating_candidate": null,
-          "rating_source_url": "absent"
-        },
-        "collection_mode": "deepseek",
-        "notes": [
-          "Keyword 'Apple Mac mini M4' appears to refer to an unannounced or rumored product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini models with M2 chips. Spec facts based on official Apple information showing no M4 variant available."
-        ]
-      },
-      "seed_ready": true,
-      "seed_blockers": [],
-      "seed_blockers_top3": [],
-      "ready_for_pass_a": false,
-      "blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4).",
-        "Insufficient related review candidates (need >=2).",
-        "Missing valid ratingSourceURL in editorial seed."
-      ],
-      "pass_a_blockers_top3": [
-        "Missing confirmed US ASIN (required for PASS A handoff).",
-        "Insufficient source-backed spec facts (need >=3).",
-        "Insufficient quote candidates with source links (need >=4)."
-      ],
-      "validator": {
-        "reachable_probe_urls": 3,
-        "checked_urls": [
-          "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
-          "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
-          "https://www.apple.com/mac-mini/",
-          "https://www.apple.com/mac-mini/",
-          "https://www.apple.com/mac-mini/"
-        ],
-        "has_us_asin": false,
-        "has_rating_source": false,
-        "amazon_url_count": 3,
-        "manufacturer_url_count": 1,
-        "spec_fact_count": 2,
-        "quote_candidate_count": 0,
-        "related_candidate_count": 0,
-        "seed_evidence_units": 3
-      }
-    },
-    {
-      "topic": {
-        "category_key": "consoles",
-        "category_label": "Consoles",
-        "topic": "xbox series s",
-        "candidate_product_name": "Microsoft Xbox Series S",
-        "asin_us": "B09CKFYKWB",
-        "asin_us_url": "https://www.amazon.com/dp/B09CKFYKWB",
-        "asin_us_listing_title": "Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi (Renewed)",
-        "asin_probe_error": null,
-        "confidence_score": 100,
-        "status": "shortlisted",
-        "discard_reason": null,
-        "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09CKFYKWB",
-          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
-        },
-        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
-          "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
-          "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
-          "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
-          "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
-          "https://www.amazon.com/dp/B09CKFYKWB"
-        ],
-        "compliant": true,
-        "rule": "major_markets",
-        "available_markets": [
-          "US",
-          "UK",
-          "DE",
-          "FR",
-          "IT",
-          "ES"
-        ],
-        "coverage": {
-          "US": true,
-          "UK": true,
-          "DE": true,
-          "FR": true,
-          "IT": true,
-          "ES": true
-        },
-        "trend_7d": 14,
-        "trend_30d": 16,
-        "novelty_hits": 6,
-        "score": 100,
-        "ai_mode": "deepseek",
-        "ai_confidence": 100,
-        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming with digital-only focus and Game Pass integration."
-      },
-      "fact_bundle": {
-        "asin_candidates": {
-          "us": "absent",
-          "de": "absent",
-          "fr": "absent",
-          "it": "absent",
-          "es": "absent",
-          "uk": "absent",
-          "primary_region": "absent",
-          "primary_url": "absent"
-        },
-        "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
-        ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Microsoft Xbox Series S",
+          "title_candidate": "Mini PC: Apple Mac mini M4",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -267,8 +128,140 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4",
+          "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4"
+        ],
+        "has_us_asin": false,
+        "has_rating_source": false,
+        "amazon_url_count": 3,
+        "manufacturer_url_count": 0,
+        "spec_fact_count": 0,
+        "quote_candidate_count": 0,
+        "related_candidate_count": 0,
+        "seed_evidence_units": 0
+      }
+    },
+    {
+      "topic": {
+        "category_key": "consoles",
+        "category_label": "Consoles",
+        "topic": "xbox series s",
+        "candidate_product_name": "Xbox Series S",
+        "asin_us": "B0D932YWSZ",
+        "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+        "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
+        "asin_probe_error": null,
+        "confidence_score": 100,
+        "status": "shortlisted",
+        "discard_reason": null,
+        "market_evidence": {
+          "US": "https://www.amazon.com/dp/B0D932YWSZ",
+          "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
+        },
+        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
+          "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd2RXNlFSOEdqNVBjM1dtdk1vS2VTMjROMGdNcDhHRlZZb0ZYUXZPOC0tOWFfZWhJTmd2LS04TFh4T2Zpazk2V0NreHNWTHJFMVVpY3BKNF81dnU3R2hKNG5HdlR1ZnFZX2RfdnptRWs5bmVQRHNOQkFOeGJWU1pvTDJjbElPOV9fVWxPVlVfdjFYQ3c?oc=5",
+          "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
+          "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
+          "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
+          "https://www.amazon.com/dp/B0D932YWSZ"
+        ],
+        "compliant": true,
+        "rule": "major_markets",
+        "available_markets": [
+          "US",
+          "UK",
+          "DE",
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "coverage": {
+          "US": true,
+          "UK": true,
+          "DE": true,
+          "FR": true,
+          "IT": true,
+          "ES": true
+        },
+        "trend_7d": 14,
+        "trend_30d": 16,
+        "novelty_hits": 6,
+        "score": 100,
+        "ai_mode": "deepseek",
+        "ai_confidence": 100,
+        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
+      },
+      "fact_bundle": {
+        "asin_candidates": {
+          "us": "absent",
+          "de": "absent",
+          "fr": "absent",
+          "it": "absent",
+          "es": "absent",
+          "uk": "absent",
+          "primary_region": "absent",
+          "primary_url": "absent"
+        },
+        "amazon_candidate_urls": [
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "https://www.amazon.fr/s?k=Xbox%20Series%20S"
+        ],
+        "manufacturer_urls": [],
+        "spec_facts": [],
+        "quote_candidates": [],
+        "related_reviews_candidates": [],
+        "editorial_seed": {
+          "title_candidate": "Consoles: Xbox Series S",
+          "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+          "price_category_candidate": "mid",
+          "rating_candidate": null,
+          "rating_source_url": "absent"
+        },
+        "collection_mode": "fallback",
+        "notes": [
+          "DeepSeek unavailable or invalid output; only baseline links collected.",
+          "DeepSeek error: Timeout"
+        ]
+      },
+      "seed_ready": false,
+      "seed_blockers": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "seed_blockers_top3": [
+        "Need at least one evidence item (manufacturer URL, spec fact, or quote)."
+      ],
+      "ready_for_pass_a": false,
+      "blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3).",
+        "Insufficient quote candidates with source links (need >=4).",
+        "Insufficient related review candidates (need >=2).",
+        "Missing valid ratingSourceURL in editorial seed."
+      ],
+      "pass_a_blockers_top3": [
+        "Missing confirmed US ASIN (required for PASS A handoff).",
+        "Missing manufacturer source URLs.",
+        "Insufficient source-backed spec facts (need >=3)."
+      ],
+      "validator": {
+        "reachable_probe_urls": 2,
+        "checked_urls": [
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -464,7 +457,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
+        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC facing price hikes amid AI demand, but remains versatile."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -721,7 +714,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score (15.5) with recent HP coverage and trending data, meets exact model requirement.",
-        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and configuration flexibility."
+        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Premium gaming desktop with strong thermal design and recent sale visibility."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -853,7 +846,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 62,
         "ai_reason": "Exact model matches category, available in all major markets, highest score among AI workstations.",
-        "ai_angle": "Compact Strix Halo Ryzen AI Max workstation with 128GB RAM - premium but pricey package for AI workloads."
+        "ai_angle": "Compact Strix Halo Ryzen AI Max 395+ 128GB desktop PC for AI workloads - pricey but classy package."
       },
       "fact_bundle": {
         "asin_candidates": {
