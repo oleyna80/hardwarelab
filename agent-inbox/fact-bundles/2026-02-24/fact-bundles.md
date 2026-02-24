@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to reference an unreleased or rumored product; no ASINs found across specified markets. Manufacturer URL points to current Mac mini page. Spec facts based on official Apple information showing no M4 model exists yet. Editorial seed reflects speculative nature based on trend data.
+- No ASINs found as product is not yet released. Manufacturer URL points to current Mac mini models. Spec facts based on current Apple lineup and typical product cycle patterns.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20X
-- https://www.amazon.de/s?k=Xbox%20Series%20X
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
 
 ## NAS
 
@@ -161,7 +161,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current listings. The term may be a conceptual or discontinued product. Manufacturer website provides general information but no specific product page for this model.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website may have information about AI workstation offerings.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
