@@ -1,10 +1,10 @@
 # HardwareLab Fact Bundles - 2026-02-24
 
-- Total: 6
+- Total: 7
 - Seed ready: 2
-- Seed blocked: 4
+- Seed blocked: 5
 - PASS A ready: 0
-- PASS A blocked: 6
+- PASS A blocked: 7
 
 ## Mini PC
 
@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- Keyword 'Apple Mac mini M4' appears to refer to an unreleased or speculated product based on current information. No ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Apple Mac mini page, which does not mention M4. Spec facts reflect lack of official details. Editorial seed is based on typical Apple pricing and product naming conventions.
+- No ASINs available as product is not yet released. Manufacturer URL points to current Mac mini models. Spec facts based on existing product line and typical Apple release patterns.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -50,8 +50,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=Xbox%20Series%20X
-- https://www.amazon.de/s?k=Xbox%20Series%20X
+- https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X
+- https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X
 
 ## NAS
 
@@ -75,6 +75,29 @@
 ### Probe URLs
 - https://www.amazon.com/s?k=QNAP%20TS-464
 - https://www.amazon.de/s?k=QNAP%20TS-464
+
+## SBC
+
+- Topic: **Raspberry Pi 5 8GB**
+- Status: BLOCKED
+- ASIN_US: absent
+- Amazon URLs: 3
+- Manufacturer URLs: 0
+- Spec facts: 0
+- Quote candidates: 0
+### Blockers
+- Missing confirmed US ASIN (required for PASS A handoff).
+- Missing manufacturer source URLs.
+- Insufficient source-backed spec facts (need >=3).
+- Insufficient quote candidates with source links (need >=4).
+- Insufficient related review candidates (need >=2).
+- Missing valid ratingSourceURL in editorial seed.
+### Notes
+- DeepSeek unavailable or invalid output; only baseline links collected.
+- DeepSeek error: Timeout
+### Probe URLs
+- https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB
+- https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB
 
 ## Monitors
 
