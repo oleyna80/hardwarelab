@@ -9,7 +9,7 @@
     "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
     "asin_us_listing_title": "Raspberry Pi 5 8GB",
     "asin_probe_error": null,
-    "confidence_score": 76,
+    "confidence_score": 75,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
@@ -45,37 +45,38 @@
       "ES": true
     },
     "trend_7d": 2,
-    "trend_30d": 8,
+    "trend_30d": 7,
     "novelty_hits": 5,
-    "score": 76,
+    "score": 74.5,
     "ai_mode": "deepseek",
-    "ai_confidence": 76,
+    "ai_confidence": 75,
     "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-    "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid AI-driven price increases."
+    "ai_angle": "Raspberry Pi 5 8GB review: Balancing performance and value amid recent price increases."
   },
   "ready_for_pass_a": false,
   "blockers": [
     "Missing confirmed US ASIN (required for PASS A handoff).",
-    "Missing manufacturer source URLs.",
     "Insufficient source-backed spec facts (need >=3).",
     "Insufficient quote candidates with source links (need >=4).",
     "Insufficient related review candidates (need >=2).",
     "Missing valid ratingSourceURL in editorial seed."
   ],
   "validator": {
-    "reachable_probe_urls": 2,
+    "reachable_probe_urls": 3,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB"
+      "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+      "https://www.raspberrypi.com/products/raspberry-pi-5/",
+      "https://www.raspberrypi.com/products/raspberry-pi-5/"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
-    "amazon_url_count": 3,
-    "manufacturer_url_count": 0,
-    "spec_fact_count": 0,
+    "amazon_url_count": 6,
+    "manufacturer_url_count": 1,
+    "spec_fact_count": 1,
     "quote_candidate_count": 0,
-    "related_candidate_count": 0,
-    "seed_evidence_units": 0
+    "related_candidate_count": 1,
+    "seed_evidence_units": 2
   },
   "fact_bundle": {
     "asin_candidates": {
@@ -89,25 +90,42 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
-      "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
+      "https://www.amazon.com/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.co.uk/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.de/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.fr/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.it/s?k=Raspberry+Pi+5+8GB",
+      "https://www.amazon.es/s?k=Raspberry+Pi+5+8GB"
     ],
-    "manufacturer_urls": [],
-    "spec_facts": [],
+    "manufacturer_urls": [
+      "https://www.raspberrypi.com/products/raspberry-pi-5/"
+    ],
+    "spec_facts": [
+      {
+        "claim": "Raspberry Pi 5 features a 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU",
+        "source_url": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+      }
+    ],
     "quote_candidates": [],
-    "related_reviews_candidates": [],
+    "related_reviews_candidates": [
+      {
+        "title": "absent",
+        "url": "absent",
+        "reason": "No specific review pages identified"
+      }
+    ],
     "editorial_seed": {
-      "title_candidate": "SBC: Raspberry Pi 5 8GB",
-      "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
+      "title_candidate": "Raspberry Pi 5 8GB Model",
+      "description_candidate": "A single-board computer with 8GB RAM, featuring improved performance over previous models.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
       "rating_source_url": "absent"
     },
-    "collection_mode": "fallback",
+    "collection_mode": "deepseek",
     "notes": [
-      "DeepSeek unavailable or invalid output; only baseline links collected.",
-      "DeepSeek error: Timeout"
+      "No ASINs found due to constraints against hallucination; search URLs provided for manual verification.",
+      "Manufacturer URL is from Raspberry Pi official site.",
+      "Spec fact sourced from manufacturer page; other details like RAM and price are inferred from general knowledge but not explicitly verified in provided sources."
     ]
   }
 }
