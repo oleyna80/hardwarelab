@@ -51,7 +51,7 @@
     "ai_mode": "deepseek",
     "ai_confidence": 85,
     "ai_reason": "Highest score (60) with major market availability across US, UK, DE, FR, IT, ES, meeting exact model requirement.",
-    "ai_angle": "High-performance 4-bay NAS with quad-core Intel Celeron processor, 4GB DDR4 RAM, dual 2.5GbE ports, and PCIe expansion for 10GbE networking."
+    "ai_angle": "High-performance 4-bay NAS with 10GbE support, ideal for home media streaming and small business backup solutions."
   },
   "ready_for_pass_a": false,
   "blockers": [
