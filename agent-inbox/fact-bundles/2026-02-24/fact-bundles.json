@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T04:07:21.950Z",
+  "generated_at": "2026-02-24T04:12:18.539Z",
   "total": 6,
   "seed_ready_count": 2,
   "seed_blocked_count": 4,
@@ -19,7 +19,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0DTPT3NNQ",
         "asin_us_listing_title": "Apple 2024 Mac Mini with Apple M4 Chip with 10-Core CPU, 16GB RAM, 512GB SSD Storage, Silver (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 67,
+        "confidence_score": 74,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -27,7 +27,7 @@
           "DE": "https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4",
           "FR": "https://www.amazon.fr/s?k=Apple%20Mac%20mini%20M4"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trend and headlines.",
+        "reasoning_short": "Highest score, major market availability, strong recent trends and headlines confirm exact model.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWh6LXFVOFBUU2R6amlqakNfczN4RkNWWnNUc0FQeVc4SFNKN2l1VGdqWlNYQU9KRkkxcWI0NzZLVlJYSFZWRkFrT09iUDBvNUZwaGV4Z2NrRUItSlhNT3FnRmZuZlFmVVdxc0ZOV1Q?oc=5",
           "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lUF9pbnJRZVd0TDJBWFRDak9zekg3aGJJalBIb0ZjQzkzQ3NuczY2aWVRZ0MtOE94Z1hLbTFVbUJZT3p0cWNyS0J5SHlWQ0NzeHhhRG9IMDM2bnpvRmU5cVZVNTRaZw?oc=5",
@@ -55,12 +55,12 @@
           "ES": true
         },
         "trend_7d": 3,
-        "trend_30d": 7,
-        "novelty_hits": 2,
-        "score": 66.5,
+        "trend_30d": 9,
+        "novelty_hits": 3,
+        "score": 73.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 67,
-        "ai_reason": "Highest score, available in all major markets, strong recent trend and headlines.",
+        "ai_confidence": 74,
+        "ai_reason": "Highest score, major market availability, strong recent trends and headlines confirm exact model.",
         "ai_angle": "Apple's latest Mac mini with M4 chip offers compact power for creative pros and home offices."
       },
       "fact_bundle": {
@@ -88,7 +88,7 @@
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Apple Mac mini currently features M2 or M2 Pro chips, with M4 not available in this product line.",
+            "claim": "Current Mac mini models use M2 or M2 Pro chips, not M4.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
@@ -96,14 +96,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Apple Mac mini M4 (Unreleased)",
-          "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, not currently available on the market.",
+          "description_candidate": "Potential future mini PC from Apple featuring the M4 chip, expected to offer improved performance and efficiency over current M2 models.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears to reference a product that does not exist yet; current Mac mini models use M2 chips. No ASINs found across specified markets due to product unreleased status. Manufacturer URL points to current product page showing M2 models."
+          "Keyword 'Apple Mac mini M4' appears to reference an unreleased or speculated product; no ASINs or Amazon listings found across specified markets. Manufacturer URL points to current Mac mini page, which does not mention M4. Spec facts based on absence of official M4 announcement. Editorial seed is speculative due to product novelty."
         ]
       },
       "seed_ready": true,
@@ -153,18 +153,18 @@
         "category_key": "consoles",
         "category_label": "Consoles",
         "topic": "xbox series s",
-        "candidate_product_name": "Microsoft Xbox Series S",
-        "asin_us": "B09CKFYKWB",
-        "asin_us_url": "https://www.amazon.com/dp/B09CKFYKWB",
-        "asin_us_listing_title": "Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi (Renewed)",
+        "candidate_product_name": "Xbox Series S",
+        "asin_us": "B0D932YWSZ",
+        "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+        "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
         "asin_probe_error": null,
         "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09CKFYKWB",
-          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+          "US": "https://www.amazon.com/dp/B0D932YWSZ",
+          "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         },
         "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
         "source_urls": [
@@ -173,7 +173,7 @@
           "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
           "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
           "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTHp2bVF6TTROTmZNTXJXb0JDYlpKT1N2UWs0T0xGdVoxcm5EZWNNZVlReXRMNjFtdUdkYl9uUjdJdGY2Z053QVYybXdWUjhKbmxPdjRTUDFQYWY1MEpKVUVWMy1kVkFWSkc0N1Z2YW9UUk81Y1piRXFveF9kV2N6cld6X2FpOVZhcjJLT1lVbzIzemlnSjI4eTZDWUZUbVRpeURLc2xPQ2xSU2RlNm1xT2t4Z1g2TDgtQlpvQ05pTW41MnZvZHpxVnhhWU9xTTVnR3BtcVJ1dTE4a1lIOWQtanhHb0dZNktrcmFWcS16RlExeHZGRjM4?oc=5",
-          "https://www.amazon.com/dp/B09CKFYKWB"
+          "https://www.amazon.com/dp/B0D932YWSZ"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -193,14 +193,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 13,
-        "trend_30d": 15,
-        "novelty_hits": 7,
+        "trend_7d": 14,
+        "trend_30d": 16,
+        "novelty_hits": 6,
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
         "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
-        "ai_angle": "Compact next-gen gaming console with digital-only design and Game Pass integration."
+        "ai_angle": "Compact next-gen gaming at an affordable price point with Game Pass integration."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -214,16 +214,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S",
+          "https://www.amazon.fr/s?k=Xbox%20Series%20S"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Microsoft Xbox Series S",
+          "title_candidate": "Consoles: Xbox Series S",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -267,8 +267,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20S",
-          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20S"
+          "https://www.amazon.com/s?k=Xbox%20Series%20S",
+          "https://www.amazon.de/s?k=Xbox%20Series%20S"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -332,7 +332,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Highest score candidate with major market availability across all required regions.",
-        "ai_angle": "QNAP TS-464 NAS review: High-performance 4-bay storage solution with comprehensive connectivity options."
+        "ai_angle": "High-performance 4-bay NAS with Intel Celeron processor for home and small business use."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -464,7 +464,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 76,
         "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
-        "ai_angle": "Raspberry Pi 5 8GB review: The popular SBC faces price hikes amid AI shortage but remains versatile."
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid AI-driven price increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -596,7 +596,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 84,
         "ai_reason": "Highest score, available in all major markets, exact console model matches rules.",
-        "ai_angle": "Nintendo Switch OLED in 2026: Is it still the best console to buy despite Switch 2 rumors?"
+        "ai_angle": "Nintendo Switch OLED remains a top console choice in 2026 despite newer models emerging."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -686,7 +686,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0GKPJRXW4",
         "asin_us_listing_title": "Corsair AI Workstation 300 Desktop PC – AMD Ryzen AI Max 385 CPU – AMD Radeon 8050S iGPU (Up to 48GBs vRAM) – 64GB LPDDR5X 8000MHz Memory – 1TB M.2 SSD – Black",
         "asin_probe_error": null,
-        "confidence_score": 85,
+        "confidence_score": 62,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -694,7 +694,7 @@
           "DE": "https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300",
           "FR": "https://www.amazon.fr/s?k=Corsair%20AI%20Workstation%20300"
         },
-        "reasoning_short": "Exact model matches category, available in all major markets, recent reviews confirm product specificity.",
+        "reasoning_short": "Exact model matches category, available in all major markets, highest score among AI workstations.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFpVm9jVVdZT1dpMTB3aU9aZVZmZHZ6bkZRNlN0bU02M0JZZjdMZmpiYlVHTzRCcXBtb19mWjhzLVVEcjlCdnk4b21IYjJ0emtGRVZ0UDBrd0FRUnlFSV9LQ0dsWmpaRW1Bc0tvVmVuVUM4c2ZvVmUyTGdiWkt3cUZKZ2xFS0xW?oc=5",
           "https://news.google.com/rss/articles/CBMid0FVX3lxTE44T1ZIcVEyRnBjVU01UExMdW1MVXlybEhVU1hxTHJhMkpYa0hSZGJyUkhYVHBsMlhhY002LUN4Wl96Q1lsQzFBd3FObHlLRHh1RlM4MDJYT09nXzZoclN3WGFEUURTYVpMZGIyaG51cWNndnl1b1Yw?oc=5",
@@ -726,9 +726,9 @@
         "novelty_hits": 8,
         "score": 61.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 85,
-        "ai_reason": "Exact model matches category, available in all major markets, recent reviews confirm product specificity.",
-        "ai_angle": "Compact Strix Halo workstation with Ryzen AI Max 395+ and 128GB RAM - premium but pricey AI-focused desktop."
+        "ai_confidence": 62,
+        "ai_reason": "Exact model matches category, available in all major markets, highest score among AI workstations.",
+        "ai_angle": "Compact Strix Halo Ryzen AI Max workstation with 128GB RAM - premium but pricey package for AI workloads."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -761,7 +761,7 @@
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across all specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model."
+          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information about Corsair products but not this specific model."
         ]
       },
       "seed_ready": true,
