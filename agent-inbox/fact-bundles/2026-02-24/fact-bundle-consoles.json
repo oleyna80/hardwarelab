@@ -3,28 +3,28 @@
   "topic": {
     "category_key": "consoles",
     "category_label": "Consoles",
-    "topic": "xbox series x",
-    "candidate_product_name": "Xbox Series X",
-    "asin_us": "B08H75RTZ8",
-    "asin_us_url": "https://www.amazon.com/dp/B08H75RTZ8",
-    "asin_us_listing_title": "Xbox Series X - Gaming Console - 1TB SSD - Includes Wireless Controller - 4K Gaming - 120FPS - Carbon Black",
+    "topic": "xbox series s",
+    "candidate_product_name": "Xbox Series S",
+    "asin_us": "B0D932YWSZ",
+    "asin_us_url": "https://www.amazon.com/dp/B0D932YWSZ",
+    "asin_us_listing_title": "Xbox Series S - All Digital Gaming Console - 512GB SSD - Includes Wireless Controller - 120FPS - Robot White",
     "asin_probe_error": null,
     "confidence_score": 100,
     "status": "shortlisted",
     "discard_reason": null,
     "market_evidence": {
-      "US": "https://www.amazon.com/dp/B08H75RTZ8",
-      "DE": "https://www.amazon.de/s?k=Xbox%20Series%20X",
-      "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20X"
+      "US": "https://www.amazon.com/dp/B0D932YWSZ",
+      "DE": "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     },
-    "reasoning_short": "Exact console model available in major markets, matches category rules precisely.",
+    "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
     "source_urls": [
       "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZUZkZHRoc0EwUVFfUktxUldpcElSN3pqUG5QZ0wxQUpGSzREZnhXakF3cHpKcWt2dF8xUUhQZ1QtS2hBcVhMOThUemxERXhTVy1ISWpJSzl6NWR4VWpiM2hxNXBVNThqUVE0U25kRUVxN3VyQXBDUjQ4Q3lYVmI5WHVVXzAzVC13QmV6aUF3cEFFWjVwaEgxMWxWN0E3ZGk3c1dTeUEwbWZNSmVTOEU1Q2lNN3lqSGRkNmgzNl9vZHhGN0w2VG93REZ6XzdpU3NnVGc?oc=5",
-      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQldYemF5OXlyQWdGdFVrTzJULWJlR1QzelZqVk03TE9RMDZjbjk5a091NUkzRUg4SnNxTGFPUlRoUUFlRzgzWGNYX1ZSZFh0WFZqTEVlVUIyZWhjd3JLZE9QMUh2QXFHNk5pX0QwQncxMjhmZGZKSUFDSFZXZnJwOTUyNnlaY2tCN0h6WFBjeHo4WVU2SjhVMkRKS0VDM1gzdHp4ZXRrb0cySmhSTHJ0UmFwWlRHZmpPYVZEX216WVRyOXpmbnhQOUFDS1ZJY1FMdmRwb3ZhSXR4NkpzcEczbDExeno?oc=5",
-      "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPczlfcjdCTHMyQkI4VEtqbE1xMmY1ZmJsaFUweGRYbFZ2ZHh2WFFTcDRXaTZYOEYtZlRYdXpJNzhENUROMGhNTWJFVXNJTk5rLUpTVXIzdlJZdGtTeDB2dXBlUTBfemZ3RGpHaWEwZTJpbHRNZDZiRlJzekNpY3MtSlZfb1AwMWJNQ01mLV9NLThaRGd6ZjNIcnlVamg3cGJfdEY5OW5jdFBfdFp1WHo0WTRRMjJGdkQtNUdHb2RRaWxQLVB5NWhjMGQ0MkNDUmxTM1NXTVhyNjBPZmFmaDJuajE4U3FIZjFiV2FVd0JPVWxEVmdWNDdqNE5IclZ0MnNaaFYtS0p1cUYyZW9OU1Y5Zml2bEZYZ2d1Z21QMS1IdGx5cm1lTUZkaWxNYzhZZGdadmpWY1JpR3cwMWQzYmhlN3BKTmFJbU1qZnhSVUNJUnFWZjg?oc=5",
-      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByTjBhQlBMcGZHWWtwS3NjS1loLWpncDFaMktjb3NGdDhQWGpTbExoUXo2YXRCNFVjZk1sV2N0OXpXNmhiN3NnWEVXTlpZOUlTM3N2UmNXUndCSnUySDhUZ0JjS3E?oc=5",
-      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aZFFySkNMQXZMa1lhc2phaUgyOWJ1ZFhQMEo0Vllqdmx1dXRwT3daRWc0dkFBX292M3dEN18zbnh1enVhNUZ5RVBkLVFuVFN3SWluSlJWaVFCNktWcXJfRzBqQ1hWZw?oc=5",
-      "https://www.amazon.com/dp/B08H75RTZ8"
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUM3R0pMVVNROFBXR1lFb3lzU3l1ZHpLWWlzQ0FmMlZWS3YzOENsOFJ6dEpDQUpnVnJKaENLa2RISjRLQzJiX19BZjYzOVVyQ1dCQVlPTnFsZjNnRHJJYUZkeGFoREw0NGZwSDI3cmx5VzdiOFdTOXh3Q2ZxS0xaMw?oc=5",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUHJydXUtYWZiYWNTaWdRWXg5Q3dxX2k5VmdBVjZqQ3doVUVrRXh1R2M4SU50Wk9SbC1GTm5mWFFPLVFGQVdwVW1JS0c1ajVRSllVUjJyUVI2bUxrUjR6ODV5dDN6a2FFU2tWcElJMFlfd254bmU1dmtqTFFHYnNGZWh3WmFYbXVnZy0yQ0wxUG84b3k0bm1WRmhnWk94QjJIaTZjUGFMSVU3TjEyQ05hc2lHVGxscHh6eGZPcVVzR2RLaWE5LWpjQTEwdTg3UlBtRGZMY0hNcDZobTcz?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGFxTnNVajNBbTNnLU40cmZrN3FfZHR3Y3dqNE5xZnZ5bEJ5VEhCS2hrOEdkd0M0M2dESmYtQ0VYdnA4Y1BValhwWWg1aF9uN01WQjN3MURrWkxTdXhjbmNyd2xzWk12MjN4Q1o2cHBBeHFzLURtUnRvOE14NkhsTUNOVy1tUnpNVEt0S1h5eEc1MktuM05vSExpXzJYdWpf?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbm9YM25QN0xYVmRXa0lCbWZNZkozbmtQRWVaY0ExOXFXSkpqdVFITzM5U3RrT3doVEpoTUNoa1JOb2Y3VnBBRHdXcktoSjBCdjNRVXhTcGRDaG1PaUJ1LWNJM1I3emR3Q2JiUEw4enhBNjh4RHpLMUpoQXpNVW9JVHhRejVqY3ZTQURjOVRHV0JOcFRXYXRLSlRn?oc=5",
+      "https://www.amazon.com/dp/B0D932YWSZ"
     ],
     "compliant": true,
     "rule": "major_markets",
@@ -44,14 +44,14 @@
       "IT": true,
       "ES": true
     },
-    "trend_7d": 13,
-    "trend_30d": 15,
-    "novelty_hits": 6,
+    "trend_7d": 15,
+    "trend_30d": 17,
+    "novelty_hits": 8,
     "score": 100,
     "ai_mode": "deepseek",
     "ai_confidence": 100,
-    "ai_reason": "Exact console model available in major markets, matches category rules precisely.",
-    "ai_angle": "Xbox Series X returns to early-2025 low price with wireless controller included, offering premium 4K gaming value."
+    "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
+    "ai_angle": "Compact next-gen console offering Game Pass access and 1440p gaming at an affordable price point."
   },
   "ready_for_pass_a": false,
   "blockers": [
@@ -65,8 +65,8 @@
   "validator": {
     "reachable_probe_urls": 2,
     "checked_urls": [
-      "https://www.amazon.com/s?k=Xbox%20Series%20X",
-      "https://www.amazon.de/s?k=Xbox%20Series%20X"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S"
     ],
     "has_us_asin": false,
     "has_rating_source": false,
@@ -89,16 +89,16 @@
       "primary_url": "absent"
     },
     "amazon_candidate_urls": [
-      "https://www.amazon.com/s?k=Xbox%20Series%20X",
-      "https://www.amazon.de/s?k=Xbox%20Series%20X",
-      "https://www.amazon.fr/s?k=Xbox%20Series%20X"
+      "https://www.amazon.com/s?k=Xbox%20Series%20S",
+      "https://www.amazon.de/s?k=Xbox%20Series%20S",
+      "https://www.amazon.fr/s?k=Xbox%20Series%20S"
     ],
     "manufacturer_urls": [],
     "spec_facts": [],
     "quote_candidates": [],
     "related_reviews_candidates": [],
     "editorial_seed": {
-      "title_candidate": "Consoles: Xbox Series X",
+      "title_candidate": "Consoles: Xbox Series S",
       "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
       "price_category_candidate": "mid",
       "rating_candidate": null,
