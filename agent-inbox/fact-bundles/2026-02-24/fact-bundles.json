@@ -1,6 +1,6 @@
 {
   "generated_date_utc": "2026-02-24",
-  "generated_at": "2026-02-24T14:47:20.966Z",
+  "generated_at": "2026-02-24T14:52:20.954Z",
   "total": 6,
   "seed_ready_count": 2,
   "seed_blocked_count": 4,
@@ -84,26 +84,26 @@
         ],
         "spec_facts": [
           {
-            "claim": "Apple Mac mini M4 is not yet released as of current date",
+            "claim": "Apple Mac mini M4 is not yet released as of current knowledge cutoff.",
             "source_url": "https://www.apple.com/mac-mini/"
           },
           {
-            "claim": "Current Mac mini models use M2 and M2 Pro chips",
+            "claim": "Current Mac mini models use M2 or M2 Pro chips.",
             "source_url": "https://www.apple.com/mac-mini/"
           }
         ],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Apple Mac mini M4 (Unreleased)",
-          "description_candidate": "Rumored next-generation Mac mini with M4 chip, not yet officially announced by Apple",
-          "price_category_candidate": "mid",
+          "title_candidate": "Apple Mac mini M4",
+          "description_candidate": "Potential upcoming mini desktop computer from Apple featuring the M4 chip.",
+          "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "Keyword 'Apple Mac mini M4' appears to reference an unreleased product. No ASINs exist as product is not available for sale. Manufacturer URL points to current Mac mini models. All ASIN fields set to 'absent' per constraints against hallucinated ASINs."
+          "No ASINs found as product is not yet released; manufacturer URL provided for reference; spec facts based on current Apple lineup and typical release patterns."
         ]
       },
       "seed_ready": true,
@@ -153,27 +153,27 @@
         "category_key": "consoles",
         "category_label": "Consoles",
         "topic": "xbox series x",
-        "candidate_product_name": "Xbox Series X",
-        "asin_us": "B08H75RTZ8",
-        "asin_us_url": "https://www.amazon.com/dp/B08H75RTZ8",
-        "asin_us_listing_title": "Xbox Series X - Gaming Console - 1TB SSD - Includes Wireless Controller - 4K Gaming - 120FPS - Carbon Black",
+        "candidate_product_name": "Microsoft Xbox Series X",
+        "asin_us": "B0DSQZ57VC",
+        "asin_us_url": "https://www.amazon.com/dp/B0DSQZ57VC",
+        "asin_us_listing_title": "Microsoft Xbox Series X – 1TB Digital Edition (Renewed)",
         "asin_probe_error": null,
         "confidence_score": 100,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B08H75RTZ8",
-          "DE": "https://www.amazon.de/s?k=Xbox%20Series%20X",
-          "FR": "https://www.amazon.fr/s?k=Xbox%20Series%20X"
+          "US": "https://www.amazon.com/dp/B0DSQZ57VC",
+          "DE": "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
+          "FR": "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
         },
-        "reasoning_short": "Exact console model available in major markets, avoids generic phrases and family words.",
+        "reasoning_short": "Exact console model available in all major markets, avoids generic phrases and family words.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZUZkZHRoc0EwUVFfUktxUldpcElSN3pqUG5QZ0wxQUpGSzREZnhXakF3cHpKcWt2dF8xUUhQZ1QtS2hBcVhMOThUemxERXhTVy1ISWpJSzl6NWR4VWpiM2hxNXBVNThqUVE0U25kRUVxN3VyQXBDUjQ4Q3lYVmI5WHVVXzAzVC13QmV6aUF3cEFFWjVwaEgxMWxWN0E3ZGk3c1dTeUEwbWZNSmVTOEU1Q2lNN3lqSGRkNmgzNl9vZHhGN0w2VG93REZ6XzdpU3NnVGc?oc=5",
           "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQldYemF5OXlyQWdGdFVrTzJULWJlR1QzelZqVk03TE9RMDZjbjk5a091NUkzRUg4SnNxTGFPUlRoUUFlRzgzWGNYX1ZSZFh0WFZqTEVlVUIyZWhjd3JLZE9QMUh2QXFHNk5pX0QwQncxMjhmZGZKSUFDSFZXZnJwOTUyNnlaY2tCN0h6WFBjeHo4WVU2SjhVMkRKS0VDM1gzdHp4ZXRrb0cySmhSTHJ0UmFwWlRHZmpPYVZEX216WVRyOXpmbnhQOUFDS1ZJY1FMdmRwb3ZhSXR4NkpzcEczbDExeno?oc=5",
           "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUHBHVWpodGpsdVZfaGVMRkxfcVFMRGtzTi1UZEFOaFdxU2ZHRk44OG1LdnFMelAzMzM4VmdwMHJOa3g5OUpWLXJoZTg0R2VrbW1WSHFINV8ydnU3MGVvOGltdEVSdmVlS283SHdzQXd1d3g5MDRhTHhqaEszU1otYUxVckZPN25oek5URmVmX05yYnNKcDF5UFc2UEdSb0FHVUVhUFVzNVF3YjZhZnhDYUpDTlpvMXQ4RGlCUHd4dm11bmtsV1p0OWVqUEdYRGtsV3hj?oc=5",
+          "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPczlfcjdCTHMyQkI4VEtqbE1xMmY1ZmJsaFUweGRYbFZ2ZHh2WFFTcDRXaTZYOEYtZlRYdXpJNzhENUROMGhNTWJFVXNJTk5rLUpTVXIzdlJZdGtTeDB2dXBlUTBfemZ3RGpHaWEwZTJpbHRNZDZiRlJzekNpY3MtSlZfb1AwMWJNQ01mLV9NLThaRGd6ZjNIcnlVamg3cGJfdEY5OW5jdFBfdFp1WHo0WTRRMjJGdkQtNUdHb2RRaWxQLVB5NWhjMGQ0MkNDUmxTM1NXTVhyNjBPZmFmaDJuajE4U3FIZjFiV2FVd0JPVWxEVmdWNDdqNE5IclZ0MnNaaFYtS0p1cUYyZW9OU1Y5Zml2bEZYZ2d1Z21QMS1IdGx5cm1lTUZkaWxNYzhZZGdadmpWY1JpR3cwMWQzYmhlN3BKTmFJbU1qZnhSVUNJUnFWZjg?oc=5",
           "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByTjBhQlBMcGZHWWtwS3NjS1loLWpncDFaMktjb3NGdDhQWGpTbExoUXo2YXRCNFVjZk1sV2N0OXpXNmhiN3NnWEVXTlpZOUlTM3N2UmNXUndCSnUySDhUZ0JjS3E?oc=5",
-          "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aZFFySkNMQXZMa1lhc2phaUgyOWJ1ZFhQMEo0Vllqdmx1dXRwT3daRWc0dkFBX292M3dEN18zbnh1enVhNUZ5RVBkLVFuVFN3SWluSlJWaVFCNktWcXJfRzBqQ1hWZw?oc=5",
-          "https://www.amazon.com/dp/B08H75RTZ8"
+          "https://www.amazon.com/dp/B0DSQZ57VC"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -199,8 +199,8 @@
         "score": 100,
         "ai_mode": "deepseek",
         "ai_confidence": 100,
-        "ai_reason": "Exact console model available in major markets, avoids generic phrases and family words.",
-        "ai_angle": "Xbox Series X price drop with wireless controller bundle makes it a compelling 2025 console purchase."
+        "ai_reason": "Exact console model available in all major markets, avoids generic phrases and family words.",
+        "ai_angle": "Xbox Series X returns to early-2025 pricing with wireless controller included, offering premium console value."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -214,16 +214,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Xbox%20Series%20X",
-          "https://www.amazon.de/s?k=Xbox%20Series%20X",
-          "https://www.amazon.fr/s?k=Xbox%20Series%20X"
+          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X",
+          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X",
+          "https://www.amazon.fr/s?k=Microsoft%20Xbox%20Series%20X"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Consoles: Xbox Series X",
+          "title_candidate": "Consoles: Microsoft Xbox Series X",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -267,8 +267,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Xbox%20Series%20X",
-          "https://www.amazon.de/s?k=Xbox%20Series%20X"
+          "https://www.amazon.com/s?k=Microsoft%20Xbox%20Series%20X",
+          "https://www.amazon.de/s?k=Microsoft%20Xbox%20Series%20X"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -290,7 +290,7 @@
         "asin_us_url": "https://www.amazon.com/dp/B0CK2FCG1K",
         "asin_us_listing_title": "Raspberry Pi 5 8GB",
         "asin_probe_error": null,
-        "confidence_score": 76,
+        "confidence_score": 75,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
@@ -298,13 +298,13 @@
           "DE": "https://www.amazon.de/s?k=Raspberry%20Pi%205%208GB",
           "FR": "https://www.amazon.fr/s?k=Raspberry%20Pi%205%208GB"
         },
-        "reasoning_short": "Highest score, available in all major markets, strong recent trends and novelty.",
+        "reasoning_short": "Highest score, available in all major markets, strong recent trends and headlines.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjhqVHFBYm1yMk1MUTJuS1BPSlRtSDdGZXVEZ3VoM05xQU5uN3RPMWFqb195NzVDZW5VS1FyM2hKcXQydnNfQXBZd3pmWlcwakpuUjlaek5nOE5ZaVFka0I4eVZiclZ6eURhQXBkdndYbmg5N2p2Nmg0V3JueEdUZlNQcmRrajhORjU4NlhOYUlYS09NSnpub3I0bXhtbmZFMTk2Zg?oc=5",
           "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWXlqUFJmOS00WS1LRWhZamVldGxzOTVTSDVtdFd2NndUNnhabTQ0RDVpSDJ5bnEzYk50MjdmRWlGUnRscldPS2htSlozdy1jOUpwMEx3czlwSW9xcTBRV054c3NMR1dfcDdKVlpLeEg5aW5sUVR2QUJzRWFweXBENjgzUFpaYjlNSHc4UTdqdXBvVkdhX2dISm5zNlRkRFFadXItNzRiQ0hjVDNzckx1NE92Q2FTSmhpNGkycVIxNDQwRmZvTzBBbV9TVDk1cC1FZGRJa1lIR01xWlNfbHRnMTV6Y1c5ZTM0OWt4ZmNQWkdLaXZoaHNLTzFMMWNPZ2VZOFAxSENnbU5lLXc4Zy1RT1hvUWw0THJXRGRLcXVXTWxpMV9FNEpuQlVyVWpqTmExeDl4ZDJDd2tOWEVGdEE?oc=5",
           "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeDc0aGZYX00xeGh5LU8zYWlxeERtcVd0MEV4MUlLZVhtNl9jbm1jM0x0OC1fTVZBWklOWFktSHpodnNkZlcwYlRMOXFabWNaWDVvREMwRG84dC0yOGdBem12LTdHY0lHWDZWQXNPLVBBbGUyY2xWQnVPUmZ5dw?oc=5",
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29HOS1SNExQWFVlZ05QbHdRckdLeTdRMVV1QzdyMF9tTEpvUWpzczRFN0xVR0t0S1M3c045QU9rWnBVS1ZTMmVjZms2MjFkNjV4blVEQTlMQXpJYnlQUzB5SHJUdmhLRWRnWkZQSzByVUlZUHV3aWNZWWV2SGlSSmViQW03UDhrVGFJbkc1NzNwcDhyZ0RCVEwxaEdVSmRGTmNCVw?oc=5",
-          "https://news.google.com/rss/articles/CBMickFVX3lxTE1vY0JZamxtVzNLeklJUU04aUIwd3UtY2dFTXlqSUZpSWtjaUlYWUhjbTJDSXByWVdEQV9jczQ3Q2pwdlRpNEFPQWNaSU9YTk5CR2F3WEhXY1RKaW5wMW9tM1gtS3pNUU5RcDVFNV93TG9vUQ?oc=5",
+          "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVElBSXRaNVhEWERRSU02YnprSnBBUTVUU29oMVY5aVdXWUpzMlZ2WGU2bmhnOGIwa3BMMDJhRzN0SGk4XzZfU3I2QW15MF9Nd0dvdktmY1BBdXFfZHplV2hwSUFubG5hS2w3UVg3YUprQndmTThlaDRoajFFWWFLSU5yZHVrdmVmbFhacXhUVEc?oc=5",
           "https://www.amazon.com/dp/B0CK2FCG1K"
         ],
         "compliant": true,
@@ -326,13 +326,13 @@
           "ES": true
         },
         "trend_7d": 2,
-        "trend_30d": 8,
+        "trend_30d": 7,
         "novelty_hits": 5,
-        "score": 76,
+        "score": 74.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 76,
-        "ai_reason": "Highest score, available in all major markets, strong recent trends and novelty.",
-        "ai_angle": "Raspberry Pi 5 8GB review: Performance, availability, and value amid recent price changes."
+        "ai_confidence": 75,
+        "ai_reason": "Highest score, available in all major markets, strong recent trends and headlines.",
+        "ai_angle": "Raspberry Pi 5 8GB review: Performance vs price after recent memory-driven increases."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -416,28 +416,28 @@
       "topic": {
         "category_key": "gaming",
         "category_label": "Gaming Hardware",
-        "topic": "Nintendo Switch OLED",
-        "candidate_product_name": "Nintendo Switch OLED",
-        "asin_us": "B09J652L1P",
-        "asin_us_url": "https://www.amazon.com/dp/B09J652L1P",
-        "asin_us_listing_title": "Nintendo Switch OLED Model w/ White Joy-Con (Renewed)",
+        "topic": "Valve Steam Deck OLED",
+        "candidate_product_name": "Valve Steam Deck OLED",
+        "asin_us": "B0CXPX5V21",
+        "asin_us_url": "https://www.amazon.com/dp/B0CXPX5V21",
+        "asin_us_listing_title": "Valve Steam Deck OLED Limited Edition 1TB model with Smoky Translucent Colorway",
         "asin_probe_error": null,
-        "confidence_score": 81,
+        "confidence_score": 80,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B09J652L1P",
-          "DE": "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-          "FR": "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+          "US": "https://www.amazon.com/dp/B0CXPX5V21",
+          "DE": "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
+          "FR": "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
         },
-        "reasoning_short": "Exact console model available in all major markets, matches category rules precisely.",
+        "reasoning_short": "Highest score, major market availability, exact model matches gaming hardware category.",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdC0wa01tdmZQN1hCLUIzellpQllvM0Y5RTF5QWpFQkFqRmhXNVdfYjhvWVU1aUJFbWFQUnh4MVU1N0FQRGlBNUhSX0NwLXBSbF92U1FadEZpUzd6TDVBazVhaWszc2VKZUYya3hZOTNGQkw4OU51cm9BMk94djdfSEpHZ0VjOUpnNWgwcnFoOG81d2lLZUs5MnBWUmxidVc5?oc=5",
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUJlMHppUHVaaV9UWGtWVnA4dVlLNC1Qak5aQnJSVWx4bTRmVVFMSTNCSDNwQUxrWXljVXVnV1FjZ2VfV3VSaTZQNFU2bHA4a2JFeU5oUXF3ODBqeEZkS3hnaDVBSzhwd3Z0c051dkF4YWdUOUJ1bU1MWDlXVGltOWJmTmplNjBwVTNYeXI3YlI0SWlLcklqRGdsYmJlZFZLeFEzam9FMlFHX2hHYmt3c1Yya1pwRmdLX08xOThsMmY?oc=5",
-          "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNy1NUFNhcU41bUV4bzJQSnJWTUpyOFhTQm5tQXE5ZGozcWVlQUxRVDNNTjAzTjEyd0xWRlZQbmwwclQyTHl0WlBPYkRHQVRUZWhRSmdwdmQwVkNsSWhmZmswUUk1TVVJVnoteVFfWjZULU5MY3ZwUUpaM1JFNk55dA?oc=5",
-          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl9DcFU4OE40S2QxcUVJY3JzV0R0ZWtuT2FJMFdGRWZDSmthbzVJdERJTHdHSmJkTGlFNkJPVFk2RndJdWhDLS1XYUU2eXVPcmtaUFpBOVRuSzB3bmxBdDFrcW80cU5WZXJxeWRfOXA0TVVodGw4b3pHRGxJNXo0blpBdUVFTXNfUlc0?oc=5",
-          "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQzVRNzNJRmNvU0MwV0ltRW1sZkI1QURyeW1rYjJkWC0tQzhXemdqb0s2ZGw2OHJVNUdUX1JEaFM5VmN4QmJnM3RoYWhzQTljYWlLOWhrVU1sRzJYaDF0bXpSWHQtZmxDeG9NVUdGOUZZNmdEdTVR?oc=5",
-          "https://www.amazon.com/dp/B09J652L1P"
+          "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPenptXzBVTS01Ykt2dk42ZXQyWnhHb1Z2ekRyQWFSbWtoN2NxTVdFM3k3cEd5YUJmejlMa01zTUVrS0FNTUY2Z1pQM3diVVZVMTYtNEdPdURhaEJ2ZG10UHQxOHpEU1Q0d2V4N2RPaTBmTXNlLWhfTF9ZeTh5cFR5UVFOTHE0TEFPaXVvZmlZZTJneUgxWWYzdUMwQzRWM0NVYk1Bclo0QkhtZnZCTkU2eFNYektMQzk3OUkxYThubExNTXNpUHFXSUxFWHN1UWVpWGNLVE8wM3ZtakFndFBJVjJWdmRxcEU0MENrd2JEYlpPTC0zTkE?oc=5",
+          "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU9BeWJETDhFY2FIeDBmaUJJQTlTSjlWRGhMc0RKMjNRSDFFbkNsVkpGaUprZTlLU2dvb05tcVA0R1ItSG1QdkVUcVZQLWkzRXpyZEJLU3IzQmRrOVdNNHVqMndUZlJqLW1mR01aX0Fwd21rSE5DZUswVVlrSHl1eVNBSkxIVmFTNVlYbGlIaUh3bHlRemlqcVhpRQ?oc=5",
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGd6T2RLOGNHRTFVdHJmXzhyTkEtNE1ROWt4VU9GVzdjQnpoNHV4SXJKY2RBNFJQXzBpV0JTdVZjOGlqS3BjSnZuU1dUY2NHUW5ySGN5bE4waDBSYVhDZ1VLUFlCQTRvVE91MlY3QWdQNnJUQWRSSlBQcVV2V01mNGRFWEIzWFhJV2VYRzRacC11Qm9wWklWUE9Yc2xZLVBvTVRYRVV0bFliUS1QcUU3TWw4cWRqQzQ?oc=5",
+          "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BeGpPZUo3bTgzOXU3YldlQzhlR2hhTjNoZkl1d084OVlNTzN3VUZCSXFfQlpGeEZoZC1aUGk2eFQ4WHVPM1BCa2hLaFpYUlpfTW0yVEc5T1llbFhWRnYw?oc=5",
+          "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTVubUo2T1FSTnZ4aVc1VXotNmVkdVJiWkNqQWpLcU1yTk1OUFhkTENTNVB0anBtNTAyZHVQcUdaOXhYaE5tV3U3VVBCeUFqeXFKZ25lTzhhNWgwX092MV9SZkFlVlhzczNobjMtSUo3Y1ExRW0wbW5taFJJczVIRWtmYVRyYjA4eV8yTUJMY2FrX2hRdnlkb2hCTFVpVUNRblBmeWhNSnJCZ2pMSkpLWFdBa0o4Q2puRFR3UWR3cENiQk5IbXpWRDFUYlhUbUtyNUE1cnBWVDNSR2tBZkxWWmVnbnRacktORmhNMUZWWF9RdWhTUEJrT20yTE1MQQ?oc=5",
+          "https://www.amazon.com/dp/B0CXPX5V21"
         ],
         "compliant": true,
         "rule": "major_markets",
@@ -457,14 +457,14 @@
           "IT": true,
           "ES": true
         },
-        "trend_7d": 4,
-        "trend_30d": 6,
-        "novelty_hits": 5,
-        "score": 81,
+        "trend_7d": 8,
+        "trend_30d": 20,
+        "novelty_hits": 1,
+        "score": 80,
         "ai_mode": "deepseek",
-        "ai_confidence": 81,
-        "ai_reason": "Exact console model available in all major markets, matches category rules precisely.",
-        "ai_angle": "Nintendo Switch OLED remains a top portable console choice in 2026 despite Switch 2 rumors."
+        "ai_confidence": 80,
+        "ai_reason": "Highest score, major market availability, exact model matches gaming hardware category.",
+        "ai_angle": "Reviewing the Valve Steam Deck OLED handheld gaming PC's performance, display quality, and current global availability status."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -478,16 +478,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.fr/s?k=Nintendo%20Switch%20OLED"
+          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED",
+          "https://www.amazon.fr/s?k=Valve%20Steam%20Deck%20OLED"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Gaming Hardware: Nintendo Switch OLED",
+          "title_candidate": "Gaming Hardware: Valve Steam Deck OLED",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -531,8 +531,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=Nintendo%20Switch%20OLED",
-          "https://www.amazon.de/s?k=Nintendo%20Switch%20OLED"
+          "https://www.amazon.com/s?k=Valve%20Steam%20Deck%20OLED",
+          "https://www.amazon.de/s?k=Valve%20Steam%20Deck%20OLED"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -549,27 +549,27 @@
         "category_key": "gaming-pcs",
         "category_label": "Gaming PCs",
         "topic": "HP Omen 45L RTX 4070 Ti",
-        "candidate_product_name": "HP Omen 45L",
-        "asin_us": "B0FXHPBJ1Z",
-        "asin_us_url": "https://www.amazon.com/dp/B0FXHPBJ1Z",
-        "asin_us_listing_title": "HP OMEN 45L Gaming GT22-3067c Desktop PC, Intel Core Ultra 9 285K, 64GB DDR5 RAM, 2TB NVMe SSD, NVIDIA GeForce RTX 5070 Ti, Liquid Cooling, RGB Lighting, Windows 11 Home (Renewed)",
+        "candidate_product_name": "HP Omen 45L RTX 4070 Ti",
+        "asin_us": "B0G4XGFW5J",
+        "asin_us_url": "https://www.amazon.com/dp/B0G4XGFW5J",
+        "asin_us_listing_title": "HP OMEN 40L GT21-20 Gaming Desktop Computer, Intel i7-14700K, 3.4GHz, 32GB RAM, 1TB SSD, NVIDIA GeForce RTX 4070 Ti (16GB) Windows 11 Home, Black (Renewed)",
         "asin_probe_error": null,
-        "confidence_score": 65,
+        "confidence_score": 85,
         "status": "shortlisted",
         "discard_reason": null,
         "market_evidence": {
-          "US": "https://www.amazon.com/dp/B0FXHPBJ1Z",
+          "US": "https://www.amazon.com/dp/B0G4XGFW5J",
           "DE": "absent",
           "FR": "absent"
         },
-        "reasoning_short": "Highest score candidate with recent HP coverage and specific 45L model identification.",
+        "reasoning_short": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMm1aajNOcmc3TENBYXJ0aFhxVkVYalRodU1OMk1PSlhNMzE2NzkwSEhBNThGX3ExWGtxSFBjSEFoelB4N2s3NWRiT2tZUXNZRW5wNV9GSVJoTFVjTWNBYkVBUF84R3JFX3FFOFVNeWNUbFhhQ1JSaA?oc=5",
           "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3VUWnJGc3dOUjBIR3VnamxacFRaRUVCR3Q5Z1FrR3daaDJhZUF3VnlYa0M3cTRUR0NKdGp1YmdoalBjQTNWNTdMY19YXzJReEctaTdlYXB1VzJScWdZQ25YUVNXQllvcEpmRmQ4N0dMb3R4OVhTSGFHcVVXbHdDWnR4cWhwdkE1R216RGlXcDhENE8xT3Y4Yl95VjJmc3BMVF83MWpR?oc=5",
           "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmFsZlVDSXJxd3N3RUFZUWVNejJnbGduMDlidU5pdUlfVUkwQTJwTjBKdVZCZHZnUFNiWDcxZ19aV1dReHpZVm1YS0Y4b2VGQnBTa2R1Z29mdzlrVk1jSUJfUVV1ZHctX1NUOXlFNks1R09sN0gzTmRUTTV1X1d0T2tTaWhTdkZCSHhz?oc=5",
           "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjk1a3hnb2IzZDVidkZOTWN2bXA2Um5vZEdoN2I3NnkwTnE3bzZaWVd0QzNmUmtIUmMxYTNodGtta0NqR01WLWpGQk1SemtodGNjdEEtN1p5a2ZiT0JVamVFc1hoQ1dVVE9wbzgwbEV5cXVwdEFzb3RTRHcyb0IyeQ?oc=5",
           "https://news.google.com/rss/articles/CBMieEFVX3lxTE51U21QU3dzVkh3LTJJNE1ZQW1iZG84Tk1FT2RLNUlKdG44QWZ6TVlYVWpuZWNwanpPLS1SX2kzcGJJTDFpOG8yb2R4UmdXVV9pcGFxN0I1NkZZbEVvV1phWmVrLVgtb1htX3ZkNGJPNXJobG1GTF9qMA?oc=5",
-          "https://www.amazon.com/dp/B0FXHPBJ1Z"
+          "https://www.amazon.com/dp/B0G4XGFW5J"
         ],
         "compliant": false,
         "rule": "insufficient_coverage",
@@ -587,9 +587,9 @@
         "novelty_hits": 1,
         "score": 15.5,
         "ai_mode": "deepseek",
-        "ai_confidence": 65,
-        "ai_reason": "Highest score candidate with recent HP coverage and specific 45L model identification.",
-        "ai_angle": "HP Omen 45L gaming desktop with RTX 4070 Ti GPU - configuration guide and thermal performance insights."
+        "ai_confidence": 85,
+        "ai_reason": "Highest score (15.5) with recent headlines confirming availability and configuration details.",
+        "ai_angle": "HP Omen 45L with RTX 4070 Ti: Performance and thermal insights for gaming PCs."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -603,16 +603,16 @@
           "primary_url": "absent"
         },
         "amazon_candidate_urls": [
-          "https://www.amazon.com/s?k=HP%20Omen%2045L",
-          "https://www.amazon.de/s?k=HP%20Omen%2045L",
-          "https://www.amazon.fr/s?k=HP%20Omen%2045L"
+          "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
+          "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
+          "https://www.amazon.fr/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
         ],
         "manufacturer_urls": [],
         "spec_facts": [],
         "quote_candidates": [],
         "related_reviews_candidates": [],
         "editorial_seed": {
-          "title_candidate": "Gaming PCs: HP Omen 45L",
+          "title_candidate": "Gaming PCs: HP Omen 45L RTX 4070 Ti",
           "description_candidate": "Candidate topic selected by scout. Requires external PASS A research validation.",
           "price_category_candidate": "mid",
           "rating_candidate": null,
@@ -656,8 +656,8 @@
       "validator": {
         "reachable_probe_urls": 2,
         "checked_urls": [
-          "https://www.amazon.com/s?k=HP%20Omen%2045L",
-          "https://www.amazon.de/s?k=HP%20Omen%2045L"
+          "https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti",
+          "https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti"
         ],
         "has_us_asin": false,
         "has_rating_source": false,
@@ -721,7 +721,7 @@
         "ai_mode": "deepseek",
         "ai_confidence": 85,
         "ai_reason": "Exact model matches category, available in major markets, recent reviews confirm product specificity.",
-        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration - premium but pricey package."
+        "ai_angle": "Compact AI workstation with Strix Halo Ryzen AI Max 395+ 128GB configuration - premium performance in small form factor."
       },
       "fact_bundle": {
         "asin_candidates": {
@@ -747,14 +747,14 @@
         "related_reviews_candidates": [],
         "editorial_seed": {
           "title_candidate": "Corsair AI Workstation 300",
-          "description_candidate": "High-performance workstation designed for AI and machine learning workloads, featuring powerful components for data processing and model training.",
+          "description_candidate": "High-performance AI workstation designed for machine learning, data science, and computational workloads, featuring Corsair components for reliability and cooling.",
           "price_category_candidate": "high",
           "rating_candidate": null,
           "rating_source_url": "absent"
         },
         "collection_mode": "deepseek",
         "notes": [
-          "No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information but no dedicated page for this specific workstation model."
+          "No direct ASINs found for 'Corsair AI Workstation 300' across specified markets. Corsair is a known manufacturer of PC components, but this specific product name does not appear in Amazon search results. The topic may refer to a custom-built or hypothetical workstation using Corsair parts. Manufacturer URL provided for Corsair's main site. Spec facts and quotes are absent due to lack of verifiable product listings. Editorial seed is based on the keyword and typical AI workstation characteristics."
         ]
       },
       "seed_ready": true,
