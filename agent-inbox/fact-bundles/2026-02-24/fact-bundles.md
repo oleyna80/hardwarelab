@@ -22,7 +22,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- The Apple Mac mini M4 appears to be an unreleased product based on current information. No ASINs or Amazon listings found across specified markets. Manufacturer URL points to Apple's current Mac mini page, which does not list an M4 model. Spec facts reflect the unreleased status and current chip offerings. Editorial seed is speculative due to lack of official product details.
+- Keyword 'Apple Mac mini M4' appears to reference an unreleased product. No ASINs exist as product is not available for sale. Manufacturer URL points to current Mac mini models. All ASIN fields set to 'absent' per constraints against hallucinated ASINs.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
@@ -119,8 +119,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.com/s?k=HP%20Omen%2045L
+- https://www.amazon.de/s?k=HP%20Omen%2045L
 
 ## AI Workstations
 
@@ -138,7 +138,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across specified markets. Corsair is a known manufacturer of gaming and workstation components, but this exact model name does not appear to be a current product listing. The category suggests a high-performance workstation for AI tasks.
+- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. Manufacturer website provides general information but no dedicated page for this specific workstation model.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
