@@ -22,15 +22,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found for Apple Mac mini M4 across all specified markets as product appears to be unreleased/rumored
-- Current Mac mini models use M2 chips, M4 version not yet available
-- Manufacturer URL points to current Mac mini product page
+- No ASINs found as the product appears to be unreleased or unannounced. Based on Apple's typical release cycles, an M4 Mac mini might be expected in the future, but no official information is available. Manufacturer URL points to current Mac mini models with M2 chips.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
