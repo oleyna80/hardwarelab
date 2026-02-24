@@ -22,13 +22,13 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No ASINs found as product is not released; based on Apple's current Mac mini page and typical naming conventions; keyword appears speculative or based on rumors; no Amazon listings or reviews available.
+- Keyword 'Apple Mac mini M4' appears speculative or based on rumors; no product exists yet in markets. Trend data may reflect search interest for unannounced products. Manufacturer URL points to current Mac mini page, which does not mention M4. All ASINs set to 'absent' as no such product is listed on Amazon.
 ### Probe URLs
 - https://www.amazon.com/s?k=Apple%20Mac%20mini%20M4
 - https://www.amazon.de/s?k=Apple%20Mac%20mini%20M4
 - https://www.apple.com/mac-mini/
 - https://www.apple.com/mac-mini/
-- https://www.apple.com/mac-mini/
+- https://www.apple.com/mac-mini/specs/
 
 ## Consoles
 
@@ -119,8 +119,8 @@
 - DeepSeek unavailable or invalid output; only baseline links collected.
 - DeepSeek error: Timeout
 ### Probe URLs
-- https://www.amazon.com/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
-- https://www.amazon.de/s?k=HP%20Omen%2045L%20RTX%204070%20Ti
+- https://www.amazon.com/s?k=HP%20Omen%2045L
+- https://www.amazon.de/s?k=HP%20Omen%2045L
 
 ## AI Workstations
 
@@ -138,7 +138,7 @@
 - Insufficient related review candidates (need >=2).
 - Missing valid ratingSourceURL in editorial seed.
 ### Notes
-- No specific product matching 'Corsair AI Workstation 300' found on Amazon across US, UK, DE, FR, IT, ES markets. Corsair is a known manufacturer of PC components and systems, but this exact model name does not appear in current Amazon listings. The term may be a placeholder, discontinued, or not yet released. Manufacturer URL provided for reference.
+- No direct ASINs found for 'Corsair AI Workstation 300' across specified markets. Corsair manufactures gaming and PC components, but this specific model may not be listed on Amazon. Search results may refer to custom-built systems or components rather than a pre-configured workstation. Manufacturer website is the primary source for Corsair products.
 ### Probe URLs
 - https://www.amazon.com/s?k=Corsair%20AI%20Workstation%20300
 - https://www.amazon.de/s?k=Corsair%20AI%20Workstation%20300
