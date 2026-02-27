@@ -1,14 +1,14 @@
 # HardwareLab — Agent Instructions
 
 > Canonical source: `.agent/AGENT_CONTRACT.md`
-> Last validated: 2026-02-23
+> Last validated: 2026-02-26
 
 ---
 
 ## 🎯 Project Identity
 
 **HardwareLab** is an Amazon Affiliate hardware review site built with Astro v5.  
-Live: https://hardwarelab.org | Dev: `http://localhost:4321`
+Live: https://hardwarelab.org | Local dev: `npm run dev` (port `4321`)
 
 **Design aesthetic:** Clean minimalist tech ("Linear-style") with subtle Cyberpunk accents — dark mode, glow effects.
 
@@ -37,7 +37,7 @@ If docs conflict with code → **code wins**. Update the docs.
 | Language | TypeScript (strict mode) |
 | Content | MDX via Astro Content Collections |
 | Package manager | npm |
-| Locales | EN (default), FR, DE, RU |
+| Locales | EN (default), FR, DE, RU, ES, IT |
 | Deployment | Docker → VPS (nginx), CI via GitHub Actions |
 
 ---
@@ -48,7 +48,7 @@ If docs conflict with code → **code wins**. Update the docs.
 src/
 ├── pages/           # File-based routing
 │   ├── index.astro  # EN homepage
-│   ├── fr/ de/ ru/  # Localized homepages + reviews
+│   ├── fr/ de/ ru/ es/ it/  # Localized homepages + reviews
 │   ├── reviews/     # EN review pages
 │   ├── builds/      # Build guides
 │   └── categories/  # Category listing
@@ -62,7 +62,9 @@ src/
 │       ├── en/
 │       ├── fr/
 │       ├── de/
-│       └── ru/
+│       ├── ru/
+│       ├── es/
+│       └── it/
 ├── utils/           # i18n.ts, formatters, helpers
 └── types/           # Shared TypeScript types
 
@@ -144,7 +146,15 @@ Full matrix: `.agent/workflows/task-routing.md`
 ### Review assets naming
 - Hero image: `image.webp` (1200×675, 16:9)
 - Social image: `og.png` (1200×630, 1.91:1)
-- If the generator outputs square assets, resize via `contain` with off‑white background `#F8F7F5`.
+- Generator source standard (Nano Banana): square PNG `1024×1024` by default (`2048×2048`/`4096×4096` allowed).
+- Convert source assets with:
+  - `npm run images:review -- --slug <slug> --input <path/to/source.png>`
+  - Optional separate OG source: `--og-input <path/to/og-source.png>`
+- Default conversion mode: `contain` + background `#F8F7F5` (no product crop).
+- OG branding lock:
+  - Use official HardwareLab icon style from `public/favicon.svg`.
+  - Include exact wordmark `HardwareLab` in the same style as site header.
+  - Do not alter logo geometry or brand spelling.
 
 ---
 

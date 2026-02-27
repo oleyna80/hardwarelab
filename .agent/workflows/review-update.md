@@ -22,6 +22,9 @@ Use this workflow to modernize outdated reviews.
 3. Ensure EN assets exist:
    - `src/content/reviews/en/<slug>/image.webp`
    - `src/content/reviews/en/<slug>/og.png`
+   - Use canonical image pipeline for Nano Banana square source:
+     - `npm run images:review -- --slug <slug> --input <path/to/source.png>`
+     - Optional: `--og-input <path/to/og-source.png>`
 4. Run translations and sync assets:
 
 ```bash

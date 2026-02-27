@@ -17,6 +17,15 @@ This is the default content pipeline for HardwareLab.
 | 3 | `translator` | Creates RU/DE/FR versions | `{ru,de,fr}/<slug>/index.mdx` + copied assets |
 | 4 | `qa` | Final build/compliance/i18n gate | `_qa-report.md` + PASS/FAIL |
 
+Visual generation standard (for role `researcher`):
+- Source: square PNG (`1024x1024` default from Nano Banana; `2048x2048`/`4096x4096` allowed).
+- Convert with:
+  - `npm run images:review -- --slug <slug> --input <path/to/source.png>`
+  - Optional separate OG source: `--og-input <path/to/og-source.png>`
+- Outputs:
+  - `image.webp` (`1200x675`)
+  - `og.png` (`1200x630`)
+
 ## Operating Rule
 
 - Do not add extra roles unless explicitly requested by the user.

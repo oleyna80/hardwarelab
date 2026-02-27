@@ -52,6 +52,9 @@ If docs conflict with code, code wins and docs must be updated.
 ### Review assets
 - Hero image: `image.webp`
 - Social image: `og.png`
+- Source image for generation: square PNG `1024x1024` by default (`2048x2048`/`4096x4096` allowed).
+- Canonical conversion command:
+  - `npm run images:review -- --slug <slug> --input <path/to/source.png>`
 
 ### Report locations
 - Tech Lead plan: `.agent/reports/tech-lead/<YYYY-MM-DD>-<task-slug>-plan.md`

@@ -14,6 +14,7 @@
 - `coder.md` — реализация кода, infra/CI changes, self-verification.
 - `single-researcher.md` — **внешний агент**: web research и формирование `_research-pack.md`.
 - `researcher.md` — **внутренний расширенный контент-агент**: пишет `index.mdx`, делает self-check, генерирует `image.webp` и `og.png` через skills.
+  - Visual standard: source square PNG (`1024x1024` default), then convert via `npm run images:review -- --slug <slug> --input <source.png>`.
 - `translator.md` — перевод RU/DE/FR + sync ассетов.
 - `qa.md` — финальный build/compliance/i18n gate.
 

@@ -29,13 +29,17 @@ description: Workflow for creating new content (reviews, blog posts)
 3. **User Feedback:** Search Reddit (r/homelab, r/sysadmin) for real opinions
 4. **Benchmarks:** Find performance data if applicable
 
-**Data to Collect:**
+**Data to Collect (ASIN policy):**
 ```yaml
 Product: [Full Name]
 ASIN: 
-  US: B0XXXXXXX
-  DE: B0XXXXXXX
-  FR: B0XXXXXXX
+  US: B0XXXXXXX               # required
+  EU_PRIMARY: B0XXXXXXX       # required for EU monetization path; any of DE/FR/IT/ES/UK
+  DE: B0XXXXXXX | absent      # optional
+  FR: B0XXXXXXX | absent      # optional
+  IT: B0XXXXXXX | absent      # optional
+  ES: B0XXXXXXX | absent      # optional
+  UK: B0XXXXXXX | absent      # optional
 Price: $XXX (as of YYYY-MM-DD)
 Category: budget | mid | high | enterprise
 Specs:
@@ -47,6 +51,10 @@ User Quotes:
   - Negative: "..."
   - Neutral: "..."
 ```
+
+Note:
+- Do **not** require ASIN on every EU marketplace.
+- Minimum target is `US + one EU` ASIN; all other regional fields may be `absent`.
 
 ### Step 2: Create MDX File
 
@@ -162,15 +170,18 @@ Use the visual-asset-generator skill to create Hero and OG images for [Product N
 ```
 
 **What this skill does:**
-- Generates Hero `image.webp` (High-end product shot)
-- Generates Social `og.png` (With branding text)
-- Saves them to the correct directory
+- Generates square source assets (Nano Banana default `1024x1024`; `2048x2048`/`4096x4096` allowed)
+- Converts to Hero `image.webp` (`1200x675`) and Social `og.png` (`1200x630`)
+- Saves outputs to the correct review directory
 - Updates your MDX imports automatically
+- Enforces OG branding: official HardwareLab icon style + exact `HardwareLab` wordmark in site header style.
 
 **Manual Requirements (if not using skill):**
 - Hero format: `image.webp`
 - OG format: `og.png`
-- Max width: 1200px
+- Canonical conversion command:
+  - `npm run images:review -- --slug <slug> --input <path/to/source.png>`
+  - Optional separate OG source: `--og-input <path/to/og-source.png>`
 - Max file size: 200KB
 - Alt text: Descriptive, include product name
 
@@ -178,7 +189,7 @@ Use the visual-asset-generator skill to create Hero and OG images for [Product N
 
 ```bash
 npm run dev
-# Open http://localhost:4321/reviews/product-name
+# Open https://hardwarelab.org/reviews/product-name
 ```
 
 **Verification Checklist:**
