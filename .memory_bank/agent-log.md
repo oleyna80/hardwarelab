@@ -47,6 +47,17 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** go-live-rollback-checklist-added
+
+Статус:
+- ✅ В `docs/deployment/github-vps.md` добавлены короткие copy/paste чеклисты:
+  - `Go-Live` через `gh workflow run "Deploy to VPS" -f image_tag=sha-...`
+  - `Rollback` на предыдущий immutable SHA
+- ✅ Добавлены smoke-check команды для VPS (`/health`) и public endpoint.
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** docs-sync-after-successful-deploy
 
 Статус:

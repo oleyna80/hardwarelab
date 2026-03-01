@@ -87,3 +87,57 @@ curl -I http://127.0.0.1:${APP_PORT}
 - `app` container: Astro SSR (`@astrojs/node`) on `:4321`, health endpoint `GET /health`.
 - `web` container: Nginx reverse proxy using `nginx.proxy.conf` forwarding traffic to `app:4321`.
 - Static Nginx contract is deprecated for production deploy path.
+
+## 8) Go-Live checklist (copy/paste)
+
+Replace `NEW_SHA` and run from WSL:
+
+```bash
+REPO="oleyna80/hardwarelab"
+NEW_SHA="15e95e1d8c6f7630125babc0f5ad4521e63249c2"
+IMAGE_TAG="sha-${NEW_SHA}"
+
+gh workflow run "Deploy to VPS" -R "$REPO" -f image_tag="$IMAGE_TAG"
+sleep 5
+gh run list -R "$REPO" --workflow "Deploy to VPS" --limit 3
+```
+
+After workflow success, verify on VPS:
+
+```bash
+ssh dmitrii@178.156.212.10 '
+set -e
+cd /home/dmitrii/projects/hardwarelab-site
+docker compose -f docker-compose.vps.yml ps
+docker inspect hardwarelab-app --format "{{.Config.Image}}"
+curl -fsS http://127.0.0.1:4321/health
+'
+```
+
+Public smoke checks:
+
+```bash
+curl -f https://hardwarelab.org/
+curl -f https://hardwarelab.org/health
+```
+
+## 9) Rollback checklist (copy/paste)
+
+Replace `PREV_SHA` with last known-good commit SHA and run from WSL:
+
+```bash
+REPO="oleyna80/hardwarelab"
+PREV_SHA="15e95e1d8c6f7630125babc0f5ad4521e63249c2"
+IMAGE_TAG="sha-${PREV_SHA}"
+
+gh workflow run "Deploy to VPS" -R "$REPO" -f image_tag="$IMAGE_TAG"
+sleep 5
+gh run list -R "$REPO" --workflow "Deploy to VPS" --limit 3
+```
+
+If rollback run fails, inspect failed logs:
+
+```bash
+RUN_ID="<failed_run_id>"
+gh run view -R "$REPO" "$RUN_ID" --log-failed
+```
