@@ -117,6 +117,7 @@ hardwarelab/
 | `.github/workflows/ci.yml` | CI checks (lint/types/build/affiliate/e2e) |
 | `.github/workflows/docker-publish.yml` | Triggered after CI success; publishes immutable `sha-*` image to GHCR |
 | `.github/workflows/deploy-vps.yml` | Triggered after Docker Publish success (manual fallback available) |
+| `.github/workflows/uptime-monitor.yml` | Scheduled uptime monitor + issue/webhook alerts + failure artifacts |
 | `playwright.config.ts` | E2E test config |
 | `.env` / `.env.example` | Environment variables |
 
@@ -125,7 +126,7 @@ hardwarelab/
 | CI System | Status |
 |-----------|--------|
 | GitLab CI | ❌ Не используется |
-| GitHub Actions | ✅ Настроен (CI + Docker Publish + Deploy to VPS) |
+| GitHub Actions | ✅ Настроен (CI + Docker Publish + Deploy to VPS + Uptime Monitor) |
 | **Direct VPS Deploy** | ✅ Текущий рабочий режим |
 
 #### Current Deployment Workflow (Immutable SSR)
@@ -152,6 +153,7 @@ Known-good deploy SHA (2026-03-01):
 - [x] CI workflow для проверок качества
 - [x] Docker Publish workflow для GHCR
 - [x] Deploy workflow для VPS
+- [x] Uptime Monitor workflow (5-min probes + issue/webhook alert path)
 - [ ] Добавить Lighthouse CI для проверки performance
 
 ---

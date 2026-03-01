@@ -47,6 +47,24 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** observability-baseline-uptime-monitor-added
+
+Статус:
+- ✅ Добавлен `Uptime Monitor` workflow (`.github/workflows/uptime-monitor.yml`) с запуском каждые 5 минут.
+- ✅ Проверки: `/`, `/health`, `/sitemap-index.xml`.
+- ✅ На фейле:
+  - issue-алерт `Uptime alert: hardwarelab.org` создаётся/обновляется,
+  - лог-артефакты probe сохраняются,
+  - optional webhook (`UPTIME_ALERT_WEBHOOK`) отправляется при наличии секрета.
+- ✅ На восстановлении: открытый uptime issue закрывается автоматически.
+
+Документация:
+- `docs/deployment/github-vps.md` (section 10)
+- `docs/operations/monitoring-baseline.md`
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** go-live-rollback-checklist-added
 
 Статус:

@@ -8,6 +8,15 @@
 
 ## What Just Happened
 
+- ✅ **Monitoring baseline implemented for Phase A observability** (2026-03-01)
+  - Added GitHub Actions workflow `.github/workflows/uptime-monitor.yml` (cron every 5 minutes + manual run).
+  - Uptime probes added for `/`, `/health`, `/sitemap-index.xml`.
+  - Failure path now:
+    - creates/updates GitHub issue `Uptime alert: hardwarelab.org`
+    - uploads probe diagnostics artifacts
+    - can send optional webhook alert via `UPTIME_ALERT_WEBHOOK`.
+  - Recovery path now auto-closes open uptime alert issue.
+  - Added runbook: `docs/operations/monitoring-baseline.md`.
 - ✅ **Go-live and rollback checklists added to deploy docs** (2026-03-01)
   - Added copy/paste `Go-Live` and `Rollback` procedures to `docs/deployment/github-vps.md`.
   - Checklists use immutable image tags (`sha-*`) and include VPS + public smoke checks.
