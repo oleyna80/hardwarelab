@@ -47,6 +47,16 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** uptime-workflow-parse-hotfix
+
+Статус:
+- ✅ Найден post-merge дефект в `.github/workflows/uptime-monitor.yml`: workflow invalid (`0 jobs`) из-за использования `secrets.*` в step `if:`.
+- ✅ Внесён hotfix: step `if` оставлен как `failure()`, проверка наличия `UPTIME_ALERT_WEBHOOK` перенесена в shell runtime.
+- ✅ Ожидаемый результат: workflow parse-safe, no immediate failure on push due to syntax/context restrictions.
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** observability-baseline-uptime-monitor-added
 
 Статус:
