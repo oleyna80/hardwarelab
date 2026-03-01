@@ -134,44 +134,35 @@ Each page needs:
 
 | Pipeline | Status |
 |----------|--------|
-| GitLab CI | ❌ Не настроен |
-| GitHub Actions | ❌ Не настроен |
-| Manual Docker | ✅ Используется |
+| GitLab CI | ❌ Не используется |
+| GitHub Actions | ✅ Активен (`CI -> Docker Publish -> Deploy to VPS`) |
+| Manual Docker | ✅ Fallback-only (`./deploy.sh sha-<commit-sha>`) |
 
 ### Deployment Process
 
 ```
-Local → Build → Docker Image → VPS (port 8081) → Nginx Proxy Manager → HTTPS
+PR → Merge to `main` → CI checks → GHCR publish (`sha-*`) → Deploy to VPS → Smoke checks
 ```
 
-### Quality Gates (Manual)
+### Quality Gates
 
 | Check | Command | When |
 |-------|---------|------|
-| TypeScript | `npx astro check` | Before commit |
-| Build | `npm run build` | Before deploy |
-| Affiliate compliance | `npm run check:affiliate` | Before deploy |
-| Image Quality | `npm run lint:images` | Before deploy |
-| Agent docs consistency | `npm run lint:agent-docs` | Before doc/agent changes merge |
-| Agent roles policy | `npm run lint:agent-roles` | Before doc/agent changes merge |
-| Agent skills policy | `npm run lint:agent-skills` | Before doc/agent changes merge |
-| E2E tests | `npm run test:e2e` | Optional |
+| CI full gate | `npm run check:ci` | Required before publish/deploy |
+| TypeScript | `npx astro check` | Required for local validation |
+| Build | `npm run build` | Required for code/runtime changes |
+| Affiliate compliance | `npm run check:affiliate` | Required before deploy |
+| Image Quality | `npm run lint:images` | Required before deploy |
+| Agent docs consistency | `npm run lint:agent-docs` | Required for `.agent/**` / `.memory_bank/**` changes |
+| Agent roles policy | `npm run lint:agent-roles` | Required for `.agent/**` / `.memory_bank/**` changes |
+| Agent skills policy | `npm run lint:agent-skills` | Required for `.agent/**` / `.memory_bank/**` changes |
 
-### Recommended CI/CD Pipeline (TODO)
+### Deploy Contract
 
-```yaml
-# Future GitHub Actions
-on: push to main
-steps:
-  - npm ci
-  - npm run build
-  - npx astro check
-  - npm run check:affiliate
-  - npm run lint:agent-roles
-  - npm run lint:agent-skills
-  - docker build & push
-  - deploy to VPS
-```
+- Runtime: Astro SSR (`@astrojs/node`) on internal port `4321`.
+- Public ingress: Cloudflare → Nginx Proxy Manager → `hardwarelab-web` → `app:4321`.
+- Health endpoint: `GET /health` must return `200 OK`.
+- Deployment source: immutable GHCR tags `sha-*` (no `latest` for production rollout).
 
 ---
 

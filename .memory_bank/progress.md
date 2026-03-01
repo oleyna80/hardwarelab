@@ -5,9 +5,18 @@ Consolidated project status and milestones.
 ## Current Status
 
 **Phase**: Roadmap Phase A — Technical Foundation + VPS Migration  
-**Last Updated**: 2026-02-08
+**Last Updated**: 2026-03-01
 
 ## Milestones Completed
+
+### ✅ SSR Deploy Contract + CI/CD Chain (Mar 1, 2026)
+- Astro runtime contract switched to SSR (`output: 'server'`, `@astrojs/node`)
+- Added health endpoint: `GET /health`
+- Docker runtime aligned to Node SSR on `:4321`
+- CI/CD chain fixed to `CI -> Docker Publish -> Deploy to VPS` (workflow_run)
+- Immutable deploy source enforced (`sha-*`; `latest` rejected for deploy)
+- Production deploy recovered and verified on VPS
+- Known-good image SHA pinned: `15e95e1d8c6f7630125babc0f5ad4521e63249c2`
 
 ### ✅ Site Build (Completed)
 - 25+ pages generated
@@ -64,13 +73,12 @@ Consolidated project status and milestones.
 
 ## In Progress
 
-- [ ] VPS migration completion (from WSL to production VPS), deadline: 2026-03-31
-- [ ] CI baseline: build + affiliate + image lint checks
+- [ ] Phase A hardening: backup/restore drill + documented rollback rehearsal
+- [ ] Monitoring hardening: uptime and error signal baseline
 - [ ] Backup/restore runbook + recovery test
 - [ ] Uptime/error monitoring setup
 - [ ] OG image generation for existing reviews
 - [ ] Finish LG 39GX90SA-W review
-- [ ] GitHub Actions setup
 
 ## Backlog
 
@@ -94,6 +102,15 @@ Consolidated project status and milestones.
 ---
 
 ## Changelog
+
+### 2026-03-01: SSR Deploy Stabilization + Immutable Rollout
+
+**Changed:**
+- Canonicalized runtime to Astro SSR in production (`@astrojs/node`, `:4321`, `/health`).
+- Aligned Docker/runtime/compose contracts to SSR.
+- Switched deploy flow to immutable image tags (`sha-*`) and chained workflows (`CI -> Docker Publish -> Deploy`).
+- Fixed deployment blockers caused by missing GitHub repository secrets and invalid SSH host/key setup.
+- Verified successful deploy on VPS and recorded known-good SHA for rollback.
 
 ### 2026-02-08: Agent Efficiency Pass (Routing + Templates + CI Guards)
 
@@ -200,7 +217,7 @@ Consolidated project status and milestones.
 
 | Поле | Значение |
 |------|----------|
-| Последний проверенный коммит | `8a074992bcf5dbd8235b4d6b227dcad7bb6f7208` |
-| Дата проверки | 2026-01-09 |
+| Последний проверенный коммит | `15e95e1d8c6f7630125babc0f5ad4521e63249c2` |
+| Дата проверки | 2026-03-01 |
 
 > После появления новых коммитов сравни с `git log <last_checked_commit>..` и обнови этот раздел.

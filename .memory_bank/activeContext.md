@@ -8,6 +8,29 @@
 
 ## What Just Happened
 
+- ✅ **Memory Bank synced after successful VPS rollout** (2026-03-01)
+  - Updated infra docs to match factual runtime/deploy contract: SSR app on `:4321`, immutable GHCR tags `sha-*`, chained GitHub Actions.
+  - Synced pipeline/status notes across `techContext.md`, `systemPatterns.md`, and `agents.md`.
+  - Completion report prepared at `.agent/reports/coder/2026-03-01-docs-sync-post-deploy-completion.md`.
+- ✅ **VPS deploy chain recovered and verified on immutable image** (2026-03-01)
+  - Fixed repository secrets required for `Deploy to VPS`: `VPS_SSH_KEY`, `VPS_APP_DIR`, `VPS_HOST`, `VPS_PORT`, `GHCR_TOKEN`.
+  - Verified successful GitHub Actions deploy run: `Deploy to VPS #22549588059` (status: success).
+  - Confirmed runtime on VPS:
+    - `hardwarelab-app` image: `ghcr.io/oleyna80/hardwarelab:sha-15e95e1d8c6f7630125babc0f5ad4521e63249c2`
+    - `hardwarelab-app` status: `healthy`
+    - `hardwarelab-web` status: `healthy`
+  - Rollback-ready baseline pinned to known-good immutable SHA:
+    - `15e95e1d8c6f7630125babc0f5ad4521e63249c2`
+- ✅ **SSR deploy contract and CI/CD chain hardened** (2026-03-01)
+  - Fixed build/runtime mismatch that caused `NoAdapterInstalled` in CI.
+  - Set canonical runtime to Astro SSR (`output: 'server'`, `@astrojs/node`) with `GET /health` endpoint.
+  - Reworked `Dockerfile` for Node SSR runtime on `:4321`.
+  - Split Nginx contracts: added `nginx.proxy.conf` (reverse proxy) and converted `nginx.conf` to static-only legacy config.
+  - Enforced immutable deployment source (`sha-*`) and workflow chain:
+    - `CI` -> `Docker Publish` (`workflow_run`)
+    - `Docker Publish` -> `Deploy to VPS` (`workflow_run`)
+  - Updated deploy contract files: `.env.vps.example`, `docker-compose.vps.yml`, `deploy.sh`, `docs/deployment/github-vps.md`.
+  - Validation: `npx astro check` ✅, `npm run build` ✅.
 - ⚠️ **Coder run blocked by missing task context** (2026-03-01)
   - Incoming path `/home/dmitrii/projects/hardwarelab-site` not found in WSL.
   - Incoming request left placeholders unresolved: `<вставь TASK>`, `<вставь путь к plan.md>`.
