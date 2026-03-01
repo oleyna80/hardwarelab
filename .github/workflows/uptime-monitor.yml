@@ -159,12 +159,16 @@ jobs:
             core.info("Created new uptime alert issue.");
 
       - name: Send optional webhook alert
-        if: failure() && secrets.UPTIME_ALERT_WEBHOOK != ''
+        if: failure()
         shell: bash
         env:
           ALERT_WEBHOOK: ${{ secrets.UPTIME_ALERT_WEBHOOK }}
         run: |
           set -euo pipefail
+          if [ -z "${ALERT_WEBHOOK:-}" ]; then
+            echo "UPTIME_ALERT_WEBHOOK is not set; skipping external webhook alert."
+            exit 0
+          fi
           RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           MESSAGE="[hardwarelab] Uptime probe failed. Run: ${RUN_URL}"
           curl --fail --show-error --silent \

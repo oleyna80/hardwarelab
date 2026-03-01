@@ -8,6 +8,10 @@
 
 ## What Just Happened
 
+- ✅ **Hotfix for uptime workflow parse failure applied** (2026-03-01)
+  - Root cause: `secrets.UPTIME_ALERT_WEBHOOK` was used directly in step `if:` in `.github/workflows/uptime-monitor.yml`.
+  - Fix: removed secret from `if:` expression and moved optional webhook skip logic into shell runtime check.
+  - Outcome: workflow is parse-safe; no `0 jobs` failure from invalid workflow syntax.
 - ✅ **Monitoring baseline implemented for Phase A observability** (2026-03-01)
   - Added GitHub Actions workflow `.github/workflows/uptime-monitor.yml` (cron every 5 minutes + manual run).
   - Uptime probes added for `/`, `/health`, `/sitemap-index.xml`.
