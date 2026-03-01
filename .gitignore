@@ -37,3 +37,6 @@ coverage/
 
 # misc local debug artifacts
 chrome_debug.log
+
+# local backups created during recovery drills
+backups/

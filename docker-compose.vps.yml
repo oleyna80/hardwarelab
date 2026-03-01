@@ -1,31 +1,66 @@
 services:
-  web:
-    build:
-      context: .
-      args:
-        PUBLIC_SITE_DOMAIN: ${PUBLIC_SITE_DOMAIN:-https://hardwarelab.org}
-        PUBLIC_AMAZON_TAG_US: ${PUBLIC_AMAZON_TAG_US:-hardwarelab-20}
-        PUBLIC_AMAZON_TAG_DE: ${PUBLIC_AMAZON_TAG_DE:-hardwarelab-03}
-        PUBLIC_AMAZON_TAG_FR: ${PUBLIC_AMAZON_TAG_FR:-hardwarelab-21}
-        PUBLIC_GA_ID: ${PUBLIC_GA_ID:-}
-        PUBLIC_ANALYTICS_ENABLED: ${PUBLIC_ANALYTICS_ENABLED:-true}
+  app:
     image: ${IMAGE_REPO:-hardwarelab-site}:${IMAGE_TAG:-latest}
-    container_name: hardwarelab-web
+    container_name: hardwarelab-app
+    environment:
+      HOST: 0.0.0.0
+      PORT: 4321
+      N8N_WEBHOOK_URL: ${N8N_WEBHOOK_URL}
+      N8N_WEBHOOK_ALLOWED_HOSTS: ${N8N_WEBHOOK_ALLOWED_HOSTS:-n8n,n8n.hardwarelab.org,localhost,127.0.0.1}
+      N8N_WEBHOOK_SECRET: ${N8N_WEBHOOK_SECRET}
+      N8N_WEBHOOK_SECRET_FALLBACK: ${N8N_WEBHOOK_SECRET_FALLBACK:-}
+      TURNSTILE_SECRET_KEY: ${TURNSTILE_SECRET_KEY:-}
+      TURNSTILE_ENFORCE: ${TURNSTILE_ENFORCE:-true}
+      PUBLIC_TURNSTILE_SITE_KEY: ${PUBLIC_TURNSTILE_SITE_KEY:-}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-https://hardwarelab.org,https://www.hardwarelab.org}
     restart: unless-stopped
-    ports:
-      - "${APP_PORT:-8081}:80"
     healthcheck:
-      test: [ "CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ || exit 1" ]
-      interval: 30s
+      test: [ "CMD-SHELL", "wget --no-verbose --tries=1 --spider http://127.0.0.1:4321/health || exit 1" ]
+      interval: 15s
       timeout: 5s
-      retries: 3
-      start_period: 10s
+      retries: 5
+      start_period: 20s
     deploy:
       resources:
         limits:
-          memory: 256M
+          memory: 384M
     logging:
       driver: json-file
       options:
         max-size: "10m"
         max-file: "3"
+    networks:
+      - default
+      - npm_default
+
+  web:
+    image: nginx:1.27-alpine
+    container_name: hardwarelab-web
+    depends_on:
+      app:
+        condition: service_healthy
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    networks:
+      - default
+      - npm_default
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "wget --no-verbose --tries=1 --spider http://127.0.0.1/ || exit 1" ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  npm_default:
+    external: true

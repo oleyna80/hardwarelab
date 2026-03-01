@@ -2,6 +2,8 @@
 
 Технический стек, окружение и критические ограничения инфраструктуры.
 
+> Last validated: 2026-03-01
+
 ---
 
 ## Production Environment
@@ -11,30 +13,61 @@
 | Resource | Limit | Notes |
 |----------|-------|-------|
 | CPU | 1 vCPU | Single-threaded performance critical |
-| RAM | 512 MB | Hard limit in docker-compose |
+| RAM | 1.5 GB total | app ≤384M, web ≤128M, n8n ≤768M |
 | Storage | SSD | — |
-| Network | Shared | — |
+| OS | Ubuntu 24.04 LTS | Kernel 6.8.0 |
+| Node.js | v20.20.0 (LTS Iron) via nvm | `.nvmrc` locked to `20` |
 
-### Docker Configuration
+### Docker Network Topology
 
-```yaml
-# docker-compose.yml
-services:
-  web:
-    image: hardwarelab-site:latest
-    ports:
-      - "8081:80"
-    deploy:
-      resources:
-        limits:
-          memory: 512M
 ```
+Internet → Cloudflare → VPS :443/:80
+                              │
+                        [npm-app-1]  ← Nginx Proxy Manager (npm_default network)
+                         172.18.0.3
+                              │
+                    proxy → hardwarelab-web (by hostname)
+                              │
+                   [hardwarelab-site-web-1]  ← nginx:1.27-alpine
+                         172.18.0.4          (npm_default + hardwarelab-site_default)
+                         host: not published (internal-only)
+                              │
+                   [hardwarelab-site-app-1]  ← Astro SSR
+                         172.19.0.x          (hardwarelab-site_default only)
+                         internal: 4321
+
+                   [n8n]  ← n8n.hardwarelab.org
+                    172.18.0.2 (npm_default)
+                    host: 127.0.0.1:5678 only
+```
+
+### Docker Networks
+
+| Network | Containers | External |
+|---------|------------|----------|
+| `npm_default` | npm-app-1, n8n, **hardwarelab-site-web-1** | yes (external) |
+| `hardwarelab-site_default` | hardwarelab-site-app-1, hardwarelab-site-web-1 | no (internal) |
+| `n8n_default` | n8n | no (internal) |
+
+> **CRITICAL:** `hardwarelab-site-web-1` MUST be in `npm_default` network.
+> If the container is recreated without this network, Nginx Proxy Manager cannot resolve `hardwarelab-web` → **502 Bad Gateway**.
+> The fix: `docker network connect npm_default hardwarelab-site-web-1 --alias hardwarelab-web`
+
+### Port Map
+
+| Port | Container | Protocol | Notes |
+|------|-----------|----------|-------|
+| 80, 443 | npm-app-1 | HTTP/HTTPS | Public — Nginx Proxy Manager |
+| 81 | npm-app-1 | HTTP | NPM admin UI (internal) |
+| 80 (internal) | hardwarelab-site-web-1 | HTTP | Internal-only in Docker networks; no host port publish in current `docker-compose.vps.yml` |
+| 4321 | hardwarelab-site-app-1 | HTTP | Internal only (Astro SSR) |
+| 127.0.0.1:5678 | n8n | HTTP | n8n webhooks (localhost only) |
 
 ### Reverse Proxy
 
-- **Nginx Proxy Manager** перед контейнером
-- SSL через Let's Encrypt
-- Внешний порт: 443 → внутренний: 8081
+- **Nginx Proxy Manager** (`npm-app-1`) — точка входа для всего трафика
+- SSL через Let's Encrypt (auto-renew каждый час)
+- Маршрут: Cloudflare → NPM :443 → `hardwarelab-web`:80 → Astro app :4321
 
 ---
 
@@ -56,7 +89,7 @@ hardwarelab/
 ├── .agent/workflows/       # AI workflows
 │
 ├── Dockerfile              # Multi-stage build
-├── docker-compose.yml      # Production config
+├── docker-compose.yml      # Local development compose
 ├── astro.config.mjs        # Astro конфигурация
 ├── tailwind.config.mjs     # Tailwind конфигурация
 │
@@ -69,7 +102,7 @@ hardwarelab/
 | Точка входа | Путь |
 |-------------|------|
 | Главная EN | `src/pages/index.astro` |
-| Локализованные | `src/pages/{fr,ru,de}/index.astro` |
+| Локализованные | `src/pages/{fr,ru,de,es,it}/index.astro` |
 | Обзоры | `src/pages/reviews/[...slug].astro` |
 | Категории | `src/pages/categories/[category].astro` |
 
@@ -78,7 +111,12 @@ hardwarelab/
 | Файл | Назначение |
 |------|------------|
 | `Dockerfile` | Multi-stage: Node build → Nginx serve |
-| `docker-compose.yml` | Production deployment (port 8081) |
+| `docker-compose.yml` | **Только для локальной разработки** (нет npm_default) |
+| `docker-compose.vps.yml` | **Production VPS** — содержит npm_default network |
+| `deploy.sh` | **Скрипт деплоя на VPS** — всегда использовать этот |
+| `.github/workflows/ci.yml` | CI checks (lint/types/build/affiliate/e2e) |
+| `.github/workflows/docker-publish.yml` | Build and publish Docker image to GHCR |
+| `.github/workflows/deploy-vps.yml` | Manual VPS deploy via GitHub Actions |
 | `playwright.config.ts` | E2E test config |
 | `.env` / `.env.example` | Environment variables |
 
@@ -86,21 +124,29 @@ hardwarelab/
 
 | CI System | Status |
 |-----------|--------|
-| GitLab CI | ❌ Не настроен |
-| GitHub Actions | ❌ Не настроен |
-| **Manual Docker** | ✅ Используется |
+| GitLab CI | ❌ Не используется |
+| GitHub Actions | ✅ Настроен (CI + Docker Publish + Deploy to VPS) |
+| **Direct VPS Deploy** | ✅ Текущий рабочий режим |
 
-#### Current Deployment Workflow
+#### Current Deployment Workflow (Direct VPS)
 
+```bash
+# На VPS:
+cd /home/dmitrii/projects/hardwarelab-site
+./deploy.sh              # деплой latest
+./deploy.sh v1.2.3       # деплой конкретного тега
 ```
-1. npm run build          # Build static site
-2. docker compose build   # Build Docker image
-3. docker compose up -d   # Deploy to production
-```
 
-#### Recommended CI/CD (TODO)
+Скрипт `deploy.sh` выполняет:
+1. `docker compose -f docker-compose.vps.yml pull`
+2. `docker compose -f docker-compose.vps.yml up -d --remove-orphans`
+3. `docker image prune -f`
 
-- [ ] Добавить GitHub Actions для автоматического деплоя
+#### GitHub Actions Baseline (Configured)
+
+- [x] CI workflow для проверок качества
+- [x] Docker Publish workflow для GHCR
+- [x] Deploy workflow для VPS
 - [ ] Добавить Lighthouse CI для проверки performance
 
 ---
@@ -109,7 +155,7 @@ hardwarelab/
 
 | Layer | Technology | Version |
 |-------|------------|---------|
-| Framework | Astro | 5.16.6 |
+| Framework | Astro | 5.17.3 |
 | Styling | Tailwind CSS | 3.3.x |
 | Content | MDX | @astrojs/mdx |
 | Language | TypeScript | 5.x |
@@ -120,9 +166,9 @@ hardwarelab/
 
 ## Development Environment
 
-- **OS**: WSL2 (Ubuntu) → Production: Debian/Ubuntu
-- **Node**: ≥18.0.0
-- **Dev server**: `localhost:4321`
+- **OS**: Ubuntu 24.04 LTS (прямо на VPS, WSL не используется)
+- **Node**: v20.20.0 (nvm, `.nvmrc` → `20`)
+- **Local dev server**: `npm run dev` (port `4321`)
 - **IDE**: VS Code with Astro extension
 
 ---
@@ -133,18 +179,29 @@ hardwarelab/
 |-------|--------|
 | WSL development | ✅ Complete |
 | Docker containerization | ✅ Complete |
-| Production deployment (VPS) | 🔄 In progress (target: 2026-03-31) |
-| Reverse proxy + SSL | 🔄 In progress (Phase A) |
+| Production deployment (VPS) | ✅ Complete |
+| Reverse proxy + SSL | ✅ Complete |
 
 ---
 
-## Critical Notes
+## 🚨 Agent Safety Rules (MUST READ)
+
+> [!CAUTION]
+> **НЕ запускай `npm run build` или `docker compose up --build` прямо на VPS.**
+> Сборка образа на VPS занимает всю RAM и может положить живой сайт.
+> Образы собираются только в GitHub Actions (CI) и публикуются в GHCR.
+> На VPS деплоится **только готовый образ** через `./deploy.sh`.
+
+> [!CAUTION]
+> **НЕ используй `docker-compose.yml` на VPS.**
+> Этот файл не содержит `npm_default` сеть → после `up` сайт упадёт с 502.
+> Всегда используй `docker-compose.vps.yml` (через `./deploy.sh`).
 
 > [!WARNING]
-> **512MB RAM limit** — избегай тяжелых build-time операций. Используй статическую генерацию, не SSR.
+> **RAM limit: app ≤384M, web ≤128M** — избегай тяжелых операций в рантайме.
 
 > [!IMPORTANT]
-> Все изменения CI/CD должны отражаться в этом файле и в `systemPatterns.md`.
+> Все изменения CI/CD и сетевой топологии должны отражаться в этом файле.
 
 ---
 
