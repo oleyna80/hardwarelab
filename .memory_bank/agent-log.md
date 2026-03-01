@@ -47,6 +47,71 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** docs-sync-after-successful-deploy
+
+Статус:
+- ✅ Memory Bank синхронизирован с фактическим прод-контрактом после успешного rollout.
+- Обновлены: `activeContext.md`, `techContext.md`, `systemPatterns.md`, `agents.md`, `progress.md`.
+- Зафиксирован known-good deploy baseline: `sha-15e95e1d8c6f7630125babc0f5ad4521e63249c2`.
+
+Артефакт:
+- `.agent/reports/coder/2026-03-01-docs-sync-post-deploy-completion.md`
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** deploy-success-and-known-good-sha
+
+Статус:
+- ✅ Deploy chain restored after secrets/auth fixes (`VPS_SSH_KEY`, `VPS_APP_DIR`, `VPS_HOST`, `VPS_PORT`, `GHCR_TOKEN`).
+- ✅ Successful run: `Deploy to VPS #22549588059`.
+- ✅ Verified runtime on VPS:
+  - `hardwarelab-app` → `ghcr.io/oleyna80/hardwarelab:sha-15e95e1d8c6f7630125babc0f5ad4521e63249c2`
+  - app health: `healthy`
+  - web health: `healthy`
+
+Rollback anchor:
+- `known-good` image SHA: `15e95e1d8c6f7630125babc0f5ad4521e63249c2`
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** ssr-contract-cicd-chain-complete
+
+Статус:
+- ✅ Каноничный runtime-контракт зафиксирован как SSR (`output: 'server'`, `@astrojs/node`).
+- ✅ Добавлен health endpoint `GET /health` (`src/pages/health.ts`).
+- ✅ `Dockerfile` переведен на SSR runtime (`node ./dist/server/entry.mjs`, порт `4321`).
+- ✅ Контракты Nginx разведены: `nginx.proxy.conf` для reverse proxy, `nginx.conf` оставлен как static-only legacy.
+- ✅ CI/CD-цепочка переведена на последовательность `CI -> Docker Publish -> Deploy to VPS` через `workflow_run`.
+- ✅ Деплой-источник закреплён за immutable тегами `sha-*` (manual/auto deploy запрещают `latest`).
+
+Проверки:
+- `npx astro check` → PASS (0 errors, 0 warnings, 2 hints)
+- `npm run build` → PASS
+- `npm run lint:agent-docs` → PASS
+- `npm run lint:agent-roles` → PASS
+- `npm run lint:agent-skills` → PASS
+
+Артефакт:
+- `.agent/reports/coder/2026-03-01-ssr-contract-cicd-chain-completion.md`
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** missing-task-context-blocker
+
+Блокер:
+- Входные placeholders не были заполнены: `<вставь TASK>`, `<вставь путь к plan.md>`.
+- Указанный путь репозитория не существовал в WSL: `/home/dmitrii/projects/hardwarelab-site`.
+
+Safe fallback:
+- Изменения продуктового кода не выполнялись до уточнения контекста.
+- Создан отчёт-блокер: `.agent/reports/coder/2026-03-01-missing-task-context-completion.md`.
+
+---
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** deploy-contract-status-and-blocker
 
 Статус:

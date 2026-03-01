@@ -12,8 +12,8 @@
 
 | Resource | Limit | Notes |
 |----------|-------|-------|
-| CPU | 1 vCPU | Single-threaded performance critical |
-| RAM | 1.5 GB total | app ≤384M, web ≤128M, n8n ≤768M |
+| CPU | 2 vCPU | Production VPS |
+| RAM | 2 GB total | Shared with infra containers |
 | Storage | SSD | — |
 | OS | Ubuntu 24.04 LTS | Kernel 6.8.0 |
 | Node.js | v20.20.0 (LTS Iron) via nvm | `.nvmrc` locked to `20` |
@@ -110,13 +110,13 @@ hardwarelab/
 
 | Файл | Назначение |
 |------|------------|
-| `Dockerfile` | Multi-stage: Node build → Nginx serve |
+| `Dockerfile` | Multi-stage: Node build → Node SSR runtime (`:4321`) |
 | `docker-compose.yml` | **Только для локальной разработки** (нет npm_default) |
 | `docker-compose.vps.yml` | **Production VPS** — содержит npm_default network |
 | `deploy.sh` | **Скрипт деплоя на VPS** — всегда использовать этот |
 | `.github/workflows/ci.yml` | CI checks (lint/types/build/affiliate/e2e) |
-| `.github/workflows/docker-publish.yml` | Build and publish Docker image to GHCR |
-| `.github/workflows/deploy-vps.yml` | Manual VPS deploy via GitHub Actions |
+| `.github/workflows/docker-publish.yml` | Triggered after CI success; publishes immutable `sha-*` image to GHCR |
+| `.github/workflows/deploy-vps.yml` | Triggered after Docker Publish success (manual fallback available) |
 | `playwright.config.ts` | E2E test config |
 | `.env` / `.env.example` | Environment variables |
 
@@ -128,19 +128,24 @@ hardwarelab/
 | GitHub Actions | ✅ Настроен (CI + Docker Publish + Deploy to VPS) |
 | **Direct VPS Deploy** | ✅ Текущий рабочий режим |
 
-#### Current Deployment Workflow (Direct VPS)
+#### Current Deployment Workflow (Immutable SSR)
 
 ```bash
-# На VPS:
+# Primary path: GitHub Actions
+CI -> Docker Publish -> Deploy to VPS
+
+# Manual fallback on VPS (only immutable SHA tag):
 cd /home/dmitrii/projects/hardwarelab-site
-./deploy.sh              # деплой latest
-./deploy.sh v1.2.3       # деплой конкретного тега
+./deploy.sh sha-<commit-sha>
 ```
 
 Скрипт `deploy.sh` выполняет:
 1. `docker compose -f docker-compose.vps.yml pull`
 2. `docker compose -f docker-compose.vps.yml up -d --remove-orphans`
 3. `docker image prune -f`
+
+Known-good deploy SHA (2026-03-01):
+- `15e95e1d8c6f7630125babc0f5ad4521e63249c2`
 
 #### GitHub Actions Baseline (Configured)
 
@@ -160,13 +165,13 @@ cd /home/dmitrii/projects/hardwarelab-site
 | Content | MDX | @astrojs/mdx |
 | Language | TypeScript | 5.x |
 | Images | Sharp | 0.33.x |
-| Build | Static (SSG) | — |
+| Runtime Mode | SSR (`@astrojs/node`) | Adapter mode: standalone |
 
 ---
 
 ## Development Environment
 
-- **OS**: Ubuntu 24.04 LTS (прямо на VPS, WSL не используется)
+- **OS**: WSL2 (Ubuntu) for development; VPS Ubuntu 24.04 for production
 - **Node**: v20.20.0 (nvm, `.nvmrc` → `20`)
 - **Local dev server**: `npm run dev` (port `4321`)
 - **IDE**: VS Code with Astro extension

@@ -121,8 +121,8 @@ systemPatterns.md    techContext.md
 ## VPS Resource Awareness
 
 > [!WARNING]
-> **512MB RAM limit** — избегай тяжёлых операций в runtime.  
-> **1 vCPU** — оптимизируй build-time performance.
+> **2 GB RAM total** — избегай тяжёлых build-операций в runtime и не запускай сборку на VPS.
+> **2 vCPU** — ресурсы ограничены, держи деплой через готовые GHCR-образы.
 
 Детали в [techContext.md](techContext.md).
 
