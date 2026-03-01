@@ -8,6 +8,15 @@
 
 ## What Just Happened
 
+- ✅ **Uptime monitor got safe alert-test mode for webhook validation** (2026-03-01)
+  - Added `workflow_dispatch` input `alert_test_mode` in `.github/workflows/uptime-monitor.yml`.
+  - Added synthetic failure step for alert-path checks without forcing real production outage.
+  - Issue lifecycle steps are skipped in test mode to avoid false incident noise.
+  - Webhook alert prefix now includes `[hardwarelab][TEST]` in test mode.
+  - Updated operations runbook: `docs/operations/monitoring-baseline.md`.
+- ⚠️ **External webhook delivery validation blocked by missing repo secret** (2026-03-01)
+  - `UPTIME_ALERT_WEBHOOK` is not present in current repository secrets.
+  - Next action: add secret and run `gh workflow run "Uptime Monitor" -f alert_test_mode=true`.
 - ✅ **Lighthouse CI performance baseline gate added** (2026-03-01)
   - Added `lighthouserc.json` with assertion `categories:performance >= 0.5` for key pages (`/`, `/reviews/playstation-5-disc-slim`) as regression baseline.
   - Added `check:lighthouse` npm script and `lighthouse` job in `.github/workflows/ci.yml` after `quality`.
@@ -161,7 +170,7 @@
 ## Next Priority
 
 - Execute backup/restore drill from `.agent/workflows/vps-migration-runbook.md` and capture timings.
-- Wire and validate external uptime alert delivery (`UPTIME_ALERT_WEBHOOK`).
+- Add `UPTIME_ALERT_WEBHOOK` secret and run synthetic alert test (`alert_test_mode=true`).
 
 ## Quick Reference
 

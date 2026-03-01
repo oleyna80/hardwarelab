@@ -9,6 +9,12 @@ Consolidated project status and milestones.
 
 ## Milestones Completed
 
+### ✅ Uptime Alert-Test Mode Added (Mar 1, 2026)
+- Added safe synthetic alert mode (`alert_test_mode=true`) to `.github/workflows/uptime-monitor.yml`.
+- Synthetic mode forces failure path after successful probes to validate alert delivery logic.
+- Synthetic mode skips incident issue lifecycle to avoid false positives in issue tracker.
+- Updated monitoring runbook with dedicated command for webhook validation.
+
 ### ✅ Lighthouse CI Baseline Gate Activated (Mar 1, 2026)
 - Added `lighthouserc.json` with baseline performance assertion (`categories:performance >= 0.5`) for key pages.
 - Added `check:lighthouse` npm script and CI `lighthouse` job (`needs: quality`).
@@ -88,7 +94,7 @@ Consolidated project status and milestones.
 
 - [ ] Phase A hardening: backup/restore drill + documented rollback rehearsal
 - [ ] Backup/restore runbook + recovery test
-- [ ] Monitoring hardening: wire external alert channel (`UPTIME_ALERT_WEBHOOK`) and validate notification delivery
+- [ ] Monitoring hardening: add `UPTIME_ALERT_WEBHOOK` secret and validate notification delivery (`alert_test_mode=true`)
 - [ ] OG image generation for existing reviews
 - [ ] Finish LG 39GX90SA-W review
 
@@ -123,6 +129,14 @@ Consolidated project status and milestones.
 - Added auto issue alert lifecycle (open/update on failure, close on recovery).
 - Added optional webhook alert support via `UPTIME_ALERT_WEBHOOK`.
 - Added monitoring runbook: `docs/operations/monitoring-baseline.md`.
+
+### 2026-03-01: Uptime Webhook Validation Mode Added
+
+**Changed:**
+- Added `alert_test_mode` input in `.github/workflows/uptime-monitor.yml`.
+- Added synthetic failure path for safe external alert testing without real outage.
+- Suppressed issue create/close lifecycle in test mode.
+- Updated `docs/operations/monitoring-baseline.md` with test command and expected behavior.
 
 ### 2026-03-01: Lighthouse CI Baseline Gate Added
 

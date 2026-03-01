@@ -15,6 +15,7 @@ GitHub Actions workflow:
 Triggers:
 - `schedule`: every 5 minutes
 - `workflow_dispatch`: manual run
+  - optional input `alert_test_mode=true` for synthetic alert-path validation
 
 ## Probe Targets
 
@@ -33,6 +34,11 @@ When at least one endpoint is not `2xx`:
 2. GitHub issue `Uptime alert: hardwarelab.org` is created or updated.
 3. Probe artifacts are uploaded (`/tmp/uptime`): headers, response body snippets, summary.
 4. If `UPTIME_ALERT_WEBHOOK` secret is configured, webhook message is sent.
+
+When `alert_test_mode=true` is used in manual run:
+1. Synthetic failure is triggered after successful probes.
+2. Webhook alert is sent with `[hardwarelab][TEST]` prefix.
+3. Uptime issue create/update and recovery-close steps are skipped (no incident-noise in issue tracker).
 
 When all probes recover (`2xx`):
 1. Workflow succeeds.
@@ -53,6 +59,12 @@ Run monitor manually:
 
 ```bash
 gh workflow run "Uptime Monitor" -R oleyna80/hardwarelab
+```
+
+Run safe webhook alert test (no production outage required):
+
+```bash
+gh workflow run "Uptime Monitor" -R oleyna80/hardwarelab -f alert_test_mode=true
 ```
 
 Inspect recent monitor runs:
