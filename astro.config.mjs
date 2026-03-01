@@ -3,6 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import partytown from '@astrojs/partytown';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,7 +17,10 @@ export default defineConfig({
             },
         }),
     ],
-    output: 'static',
+    adapter: node({
+        mode: 'standalone',
+    }),
+    output: 'server',
     site: process.env.PUBLIC_SITE_DOMAIN || 'https://hardwarelab.org',
     i18n: {
         defaultLocale: 'en',
