@@ -9,6 +9,13 @@ Consolidated project status and milestones.
 
 ## Milestones Completed
 
+### ✅ Lighthouse CI Baseline Gate Activated (Mar 1, 2026)
+- Added `lighthouserc.json` with baseline performance assertion (`categories:performance >= 0.5`) for key pages.
+- Added `check:lighthouse` npm script and CI `lighthouse` job (`needs: quality`).
+- Added Lighthouse report artifact upload (`.lighthouseci`) for failed/successful CI diagnostics.
+- Added Chrome runtime hardening flags in LHCI config for containerized CI stability.
+- Captured current baseline for `/`: `0.53` (local run with Playwright Chromium).
+
 ### ✅ Observability Baseline Activated (Mar 1, 2026)
 - Added scheduled uptime workflow (`Uptime Monitor`) every 5 minutes.
 - Probes cover `/`, `/health`, `/sitemap-index.xml`.
@@ -116,6 +123,13 @@ Consolidated project status and milestones.
 - Added auto issue alert lifecycle (open/update on failure, close on recovery).
 - Added optional webhook alert support via `UPTIME_ALERT_WEBHOOK`.
 - Added monitoring runbook: `docs/operations/monitoring-baseline.md`.
+
+### 2026-03-01: Lighthouse CI Baseline Gate Added
+
+**Changed:**
+- Added `lighthouserc.json` with baseline performance assertions and CI-focused Chrome flags.
+- Added `check:lighthouse` script in `package.json`.
+- Added `lighthouse` job to `.github/workflows/ci.yml` and Lighthouse artifact upload.
 
 ### 2026-03-01: SSR Deploy Stabilization + Immutable Rollout
 

@@ -8,6 +8,11 @@
 
 ## What Just Happened
 
+- ✅ **Lighthouse CI performance baseline gate added** (2026-03-01)
+  - Added `lighthouserc.json` with assertion `categories:performance >= 0.5` for key pages (`/`, `/reviews/playstation-5-disc-slim`) as regression baseline.
+  - Added `check:lighthouse` npm script and `lighthouse` job in `.github/workflows/ci.yml` after `quality`.
+  - Enabled artifact upload of `.lighthouseci` reports in CI for regression debugging.
+  - Added CI-hardening flags for Chrome headless execution (`--no-sandbox`, `--disable-dev-shm-usage`).
 - ✅ **Hotfix for uptime workflow parse failure applied** (2026-03-01)
   - Root cause: `secrets.UPTIME_ALERT_WEBHOOK` was used directly in step `if:` in `.github/workflows/uptime-monitor.yml`.
   - Fix: removed secret from `if:` expression and moved optional webhook skip logic into shell runtime check.
@@ -151,12 +156,12 @@
 
 1. **Phase A delivery (VPS migration)** — finish technical migration by 2026-03-31.
 2. **Deployment hardening** — backup/restore drill, monitoring, rollback readiness.
-3. **CI baseline** — build + affiliate + image lint + agent docs/roles/skills lint + review package smoke-check.
+3. **CI baseline** — build + affiliate + image lint + lighthouse + agent docs/roles/skills lint + review package smoke-check.
 
 ## Next Priority
 
-- Implement production runbook steps from `.agent/workflows/vps-migration-runbook.md`
-- Finalize CI checks and validate repeatable deploy on VPS
+- Execute backup/restore drill from `.agent/workflows/vps-migration-runbook.md` and capture timings.
+- Wire and validate external uptime alert delivery (`UPTIME_ALERT_WEBHOOK`).
 
 ## Quick Reference
 
