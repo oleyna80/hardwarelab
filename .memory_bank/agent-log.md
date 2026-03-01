@@ -47,6 +47,15 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** lighthouse-ci-gate-baseline
+
+Статус:
+- ✅ Добавлен CI performance baseline gate: Lighthouse assertions (`categories:performance >= 0.5`) на ключевых страницах.
+- ✅ В CI (`.github/workflows/ci.yml`) добавлен job `lighthouse` после `quality`.
+- ✅ Добавлен артефакт `.lighthouseci` для отладки регрессий в PR/push pipeline.
+- ⚠️ Локальный WSL run `npm run check:lighthouse` нестабилен без Linux Chrome binary; целевой источник истины для gate — GitHub Actions runner c `browser-actions/setup-chrome`.
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** uptime-workflow-parse-hotfix
 
 Статус:

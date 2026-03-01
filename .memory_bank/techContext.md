@@ -154,7 +154,7 @@ Known-good deploy SHA (2026-03-01):
 - [x] Docker Publish workflow для GHCR
 - [x] Deploy workflow для VPS
 - [x] Uptime Monitor workflow (5-min probes + issue/webhook alert path)
-- [ ] Добавить Lighthouse CI для проверки performance
+- [x] Lighthouse CI workflow job для baseline performance guard (initial threshold >= 50, target >= 90 pending)
 
 ---
 

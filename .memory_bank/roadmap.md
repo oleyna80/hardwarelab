@@ -76,6 +76,7 @@
 - [ ] Documentation gate: `lint:agent-docs` + `lint:agent-roles` + `lint:agent-skills` before merging agent/process changes.
 - [ ] Наблюдаемость: uptime check, error logging, deploy log.
 - [ ] Recovery: backup + restore инструкция (проверенный тест восстановления).
+- [x] Lighthouse CI baseline gate в CI (performance regression guard, initial threshold >= 50).
 - [ ] Performance gate: Lighthouse mobile >= 90 на ключевых страницах.
 
 ---

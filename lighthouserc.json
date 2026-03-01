@@ -1,0 +1,32 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 1,
+      "startServerCommand": "npm run preview -- --host 127.0.0.1 --port 4173",
+      "startServerReadyPattern": "Server listening on http://127.0.0.1:4173",
+      "url": [
+        "http://127.0.0.1:4173/",
+        "http://127.0.0.1:4173/reviews/playstation-5-disc-slim"
+      ],
+      "settings": {
+        "chromeFlags": "--headless=new --no-sandbox --disable-dev-shm-usage --disable-gpu",
+        "onlyCategories": [
+          "performance"
+        ]
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": [
+          "error",
+          {
+            "minScore": 0.5
+          }
+        ]
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}

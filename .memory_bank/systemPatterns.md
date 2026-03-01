@@ -152,6 +152,7 @@ PR → Merge to `main` → CI checks → GHCR publish (`sha-*`) → Deploy to VP
 | CI full gate | `npm run check:ci` | Required before publish/deploy |
 | TypeScript | `npx astro check` | Required for local validation |
 | Build | `npm run build` | Required for code/runtime changes |
+| Lighthouse performance | `npm run check:lighthouse` | Required in GitHub CI (`lighthouse` job) |
 | Affiliate compliance | `npm run check:affiliate` | Required before deploy |
 | Image Quality | `npm run lint:images` | Required before deploy |
 | Agent docs consistency | `npm run lint:agent-docs` | Required for `.agent/**` / `.memory_bank/**` changes |
