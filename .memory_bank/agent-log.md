@@ -47,6 +47,16 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** uptime-webhook-alert-test-mode
+
+Статус:
+- ✅ В `.github/workflows/uptime-monitor.yml` добавлен `workflow_dispatch` input `alert_test_mode` для синтетической проверки alert-path.
+- ✅ Добавлен synthetic failure step после probe, чтобы валидировать alert flow без реальной деградации прода.
+- ✅ В test mode отключены issue lifecycle шаги (create/update/close), чтобы не загрязнять incident tracker.
+- ✅ Обновлён runbook `docs/operations/monitoring-baseline.md` с командой тестового запуска.
+- ⚠️ Блокер на полную валидацию доставки: в repo secrets отсутствует `UPTIME_ALERT_WEBHOOK`.
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** lighthouse-ci-gate-baseline
 
 Статус:

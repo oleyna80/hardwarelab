@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      alert_test_mode:
+        description: "Force synthetic failure to validate external webhook alert path"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -21,6 +27,18 @@ jobs:
       SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
       ALERT_ISSUE_TITLE: "Uptime alert: hardwarelab.org"
     steps:
+      - name: Resolve execution mode
+        id: mode
+        shell: bash
+        run: |
+          set -euo pipefail
+          TEST_MODE="false"
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ] && [ "${{ inputs.alert_test_mode }}" = "true" ]; then
+            TEST_MODE="true"
+          fi
+          echo "test_mode=${TEST_MODE}" >> "$GITHUB_OUTPUT"
+          echo "Alert test mode: ${TEST_MODE}" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Resolve target URL
         id: target
         shell: bash
@@ -104,8 +122,25 @@ jobs:
             exit 1
           fi
 
+      - name: Force synthetic failure for alert-path validation
+        if: ${{ steps.mode.outputs.test_mode == 'true' }}
+        shell: bash
+        env:
+          SUMMARY_FILE: ${{ steps.probe.outputs.summary_file }}
+        run: |
+          set -euo pipefail
+          {
+            echo
+            echo "## Synthetic failure"
+            echo
+            echo "Alert test mode was enabled via workflow_dispatch input."
+          } >> "${SUMMARY_FILE}"
+          cat "${SUMMARY_FILE}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Synthetic failure triggered for alert-path validation." >&2
+          exit 1
+
       - name: Create or update uptime alert issue
-        if: failure()
+        if: ${{ failure() && steps.mode.outputs.test_mode != 'true' }}
         uses: actions/github-script@v7
         env:
           ALERT_ISSUE_TITLE: ${{ env.ALERT_ISSUE_TITLE }}
@@ -163,6 +198,7 @@ jobs:
         shell: bash
         env:
           ALERT_WEBHOOK: ${{ secrets.UPTIME_ALERT_WEBHOOK }}
+          TEST_MODE: ${{ steps.mode.outputs.test_mode }}
         run: |
           set -euo pipefail
           if [ -z "${ALERT_WEBHOOK:-}" ]; then
@@ -170,7 +206,11 @@ jobs:
             exit 0
           fi
           RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          MESSAGE="[hardwarelab] Uptime probe failed. Run: ${RUN_URL}"
+          PREFIX="[hardwarelab]"
+          if [ "${TEST_MODE:-false}" = "true" ]; then
+            PREFIX="[hardwarelab][TEST]"
+          fi
+          MESSAGE="${PREFIX} Uptime probe failed. Run: ${RUN_URL}"
           curl --fail --show-error --silent \
             -X POST \
             -H "Content-Type: application/json" \
@@ -187,7 +227,7 @@ jobs:
           retention-days: 7
 
       - name: Close alert issue on recovery
-        if: success()
+        if: ${{ success() && steps.mode.outputs.test_mode != 'true' }}
         uses: actions/github-script@v7
         env:
           ALERT_ISSUE_TITLE: ${{ env.ALERT_ISSUE_TITLE }}
