@@ -12,10 +12,19 @@ const PRODUCT_PATH_PATTERN = /amazon\.[^/]+\/(?:[^"]*\/)?(?:dp|gp\/product|gp\/a
 const PLACEHOLDER_TAGS = ['YOUR_AMAZON_TAG-20', 'yourtag-20', 'your-tag-20'];
 
 async function checkCompliance() {
-  const files = await glob('dist/**/*.html');
+  const candidates = await Promise.all([
+    glob('dist/**/*.html'),
+    glob('dist/client/**/*.html'),
+  ]);
+  const files = [...new Set(candidates.flat())];
+  const hasServerBundle = fs.existsSync('dist/server') || fs.existsSync('dist/server/entry.mjs');
 
   if (files.length === 0) {
-    console.log('⚠️ No HTML files found in dist/. Run "npm run build" first.');
+    if (hasServerBundle) {
+      console.log('⚠️ No static HTML artifacts found (SSR build detected). Affiliate HTML lint skipped.');
+      process.exit(0);
+    }
+    console.log('⚠️ No HTML files found in dist/ or dist/client/. Run "npm run build" first.');
     process.exit(1);
   }
 

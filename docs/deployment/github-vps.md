@@ -18,8 +18,9 @@ git push origin main
 ```
 
 After push:
-- `CI` workflow validates lint/types/build/affiliate/e2e.
-- `Docker Publish` builds and pushes image to `ghcr.io/<owner>/<repo>`.
+- `CI` validates lint/types/build/affiliate/e2e.
+- `Docker Publish` runs only after successful `CI` and pushes immutable image tag: `sha-<commit>`.
+- `Deploy to VPS` runs only after successful `Docker Publish` and deploys the same immutable tag.
 
 ## 3) Prepare VPS (one-time)
 
@@ -43,7 +44,7 @@ cp .env.vps.example /opt/hardwarelab/.env
 
 Update `/opt/hardwarelab/.env`:
 - `IMAGE_REPO=ghcr.io/<owner>/<repo>`
-- `IMAGE_TAG=latest` (or a release tag)
+- `IMAGE_TAG=sha-<commit-sha>` (immutable deploy source)
 - `APP_PORT=8081` (or your choice)
 
 ## 4) Configure GitHub Secrets
@@ -59,13 +60,18 @@ Repository secrets required by `Deploy to VPS` workflow:
 
 ## 5) Deploy
 
-Run workflow `Deploy to VPS` manually (`workflow_dispatch`) and set `image_tag`.
+Default mode:
+- Automatic deploy after successful `CI -> Docker Publish` chain.
 
-The workflow will:
+Manual mode:
+- Run `Deploy to VPS` (`workflow_dispatch`) and pass explicit immutable `image_tag` (must be `sha-*`, never `latest`).
+
+Workflow deploy steps:
 1. SSH to VPS
 2. `docker login ghcr.io`
-3. `docker compose -f docker-compose.vps.yml pull`
-4. `docker compose -f docker-compose.vps.yml up -d --remove-orphans`
+3. `docker compose -f docker-compose.vps.yml config` (preflight render)
+4. `docker compose -f docker-compose.vps.yml pull`
+5. `docker compose -f docker-compose.vps.yml up -d --remove-orphans`
 
 ## 6) Verify on VPS
 
@@ -76,9 +82,8 @@ docker compose -f docker-compose.vps.yml logs -f --tail=100
 curl -I http://127.0.0.1:${APP_PORT}
 ```
 
-## 7) Reverse proxy (recommended)
+## 7) Runtime contract (canonical)
 
-Put Nginx/Caddy in front of app for:
-- HTTPS (Let's Encrypt)
-- domain routing (`hardwarelab.org`)
-- gzip/brotli and security headers
+- `app` container: Astro SSR (`@astrojs/node`) on `:4321`, health endpoint `GET /health`.
+- `web` container: Nginx reverse proxy using `nginx.proxy.conf` forwarding traffic to `app:4321`.
+- Static Nginx contract is deprecated for production deploy path.
