@@ -141,3 +141,29 @@ If rollback run fails, inspect failed logs:
 RUN_ID="<failed_run_id>"
 gh run view -R "$REPO" "$RUN_ID" --log-failed
 ```
+
+## 10) Monitoring baseline (Phase A)
+
+Repository includes `.github/workflows/uptime-monitor.yml`:
+- schedule: every 5 minutes
+- checks: `/`, `/health`, `/sitemap-index.xml`
+- failure actions:
+  - creates/updates GitHub issue `Uptime alert: hardwarelab.org`
+  - uploads probe artifacts (`/tmp/uptime`)
+  - optionally sends webhook alert (if `UPTIME_ALERT_WEBHOOK` secret is set)
+- recovery action:
+  - auto-closes open uptime alert issue
+
+Optional configuration:
+- Repository Variable: `SITE_BASE_URL` (default fallback: `https://hardwarelab.org`)
+- Repository Secret: `UPTIME_ALERT_WEBHOOK` (Telegram/Slack/custom webhook)
+
+Manual run:
+
+```bash
+gh workflow run "Uptime Monitor" -R oleyna80/hardwarelab
+gh run list -R oleyna80/hardwarelab --workflow "Uptime Monitor" --limit 3
+```
+
+Runbook:
+- `docs/operations/monitoring-baseline.md`

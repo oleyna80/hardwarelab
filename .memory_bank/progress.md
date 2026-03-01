@@ -9,6 +9,13 @@ Consolidated project status and milestones.
 
 ## Milestones Completed
 
+### ✅ Observability Baseline Activated (Mar 1, 2026)
+- Added scheduled uptime workflow (`Uptime Monitor`) every 5 minutes.
+- Probes cover `/`, `/health`, `/sitemap-index.xml`.
+- Failure path now records diagnostics (headers/body snippets + summary artifact).
+- Alert path now opens/updates GitHub issue and can send optional webhook (`UPTIME_ALERT_WEBHOOK`).
+- Recovery path auto-closes active uptime alert issue.
+
 ### ✅ SSR Deploy Contract + CI/CD Chain (Mar 1, 2026)
 - Astro runtime contract switched to SSR (`output: 'server'`, `@astrojs/node`)
 - Added health endpoint: `GET /health`
@@ -36,9 +43,9 @@ Consolidated project status and milestones.
 - JSON-LD structured data (basic)
 
 ### ✅ Docker Production Config (Completed)
-- Multi-stage Dockerfile (Node → Nginx)
-- docker-compose.yml (port 8081, 512MB limit)
-- Ready for deployment
+- Multi-stage Dockerfile aligned with Astro SSR runtime (`:4321`)
+- `docker-compose.vps.yml` + `nginx.proxy.conf` aligned with reverse-proxy contract
+- Immutable deploy source via GHCR `sha-*` tags
 
 ### ✅ Affiliate Compliance (Completed)
 - Environment variables for Amazon tags
@@ -56,10 +63,9 @@ Consolidated project status and milestones.
 - 37+ documentation files
 - Rule Zero established
 
-### ✅ CI/CD Configuration Verified (Jan 9, 2026)
-- No GitLab/GitHub CI configured
-- Manual Docker deployment active
-- TODO: Add GitHub Actions
+### ✅ CI/CD Historical Baseline (Jan 9, 2026)
+- Legacy state before migration: no CI configured, manual deployment only.
+- Superseded by Mar 1, 2026 milestones (`SSR Deploy Contract + CI/CD Chain`, `Observability Baseline`).
 
 ### ✅ Multi-Agent Documentation Audit (Jan 13, 2026)
 - Created Art Director role (`.agent/roles/art-director.md`)
@@ -74,9 +80,8 @@ Consolidated project status and milestones.
 ## In Progress
 
 - [ ] Phase A hardening: backup/restore drill + documented rollback rehearsal
-- [ ] Monitoring hardening: uptime and error signal baseline
 - [ ] Backup/restore runbook + recovery test
-- [ ] Uptime/error monitoring setup
+- [ ] Monitoring hardening: wire external alert channel (`UPTIME_ALERT_WEBHOOK`) and validate notification delivery
 - [ ] OG image generation for existing reviews
 - [ ] Finish LG 39GX90SA-W review
 
@@ -102,6 +107,15 @@ Consolidated project status and milestones.
 ---
 
 ## Changelog
+
+### 2026-03-01: Observability Baseline Added
+
+**Changed:**
+- Added `.github/workflows/uptime-monitor.yml` with 5-minute probes for production endpoints.
+- Added failure diagnostics artifact for probe failures.
+- Added auto issue alert lifecycle (open/update on failure, close on recovery).
+- Added optional webhook alert support via `UPTIME_ALERT_WEBHOOK`.
+- Added monitoring runbook: `docs/operations/monitoring-baseline.md`.
 
 ### 2026-03-01: SSR Deploy Stabilization + Immutable Rollout
 

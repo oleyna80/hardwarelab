@@ -136,6 +136,7 @@ Each page needs:
 |----------|--------|
 | GitLab CI | ❌ Не используется |
 | GitHub Actions | ✅ Активен (`CI -> Docker Publish -> Deploy to VPS`) |
+| Uptime Monitor | ✅ Активен (5-minute probes + alert issue lifecycle) |
 | Manual Docker | ✅ Fallback-only (`./deploy.sh sha-<commit-sha>`) |
 
 ### Deployment Process
