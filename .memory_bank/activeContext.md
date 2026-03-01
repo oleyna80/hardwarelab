@@ -8,6 +8,9 @@
 
 ## What Just Happened
 
+- ✅ **Go-live and rollback checklists added to deploy docs** (2026-03-01)
+  - Added copy/paste `Go-Live` and `Rollback` procedures to `docs/deployment/github-vps.md`.
+  - Checklists use immutable image tags (`sha-*`) and include VPS + public smoke checks.
 - ✅ **Memory Bank synced after successful VPS rollout** (2026-03-01)
   - Updated infra docs to match factual runtime/deploy contract: SSR app on `:4321`, immutable GHCR tags `sha-*`, chained GitHub Actions.
   - Synced pipeline/status notes across `techContext.md`, `systemPatterns.md`, and `agents.md`.
