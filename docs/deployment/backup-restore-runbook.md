@@ -56,7 +56,10 @@ docker network connect npm_default hardwarelab-web --alias hardwarelab-web
 ### Step 5: Deploy
 ```bash
 cd /home/dmitrii/projects/hardwarelab-site
-./deploy.sh
+# IMAGE_TAG must be immutable sha-* (latest is forbidden)
+IMAGE_TAG=$(grep -E '^IMAGE_TAG=' .env | head -n1 | cut -d= -f2-)
+test -n "$IMAGE_TAG" && [ "$IMAGE_TAG" != "latest" ]
+./deploy.sh "$IMAGE_TAG"
 ```
 
 ### Step 6: Smoke check
@@ -64,6 +67,10 @@ cd /home/dmitrii/projects/hardwarelab-site
 # Internal container check (preferred — no host port exposure required):
 docker compose -f docker-compose.vps.yml ps
 # Expected: hardwarelab-app = healthy, hardwarelab-web = healthy
+
+# SSR health from inside app container:
+docker exec hardwarelab-app wget -qO- http://127.0.0.1:4321/health
+# Expected: {"status":"ok"}
 
 # External check (requires live DNS/HTTPS):
 curl -s -o /dev/null -w "%{http_code}" https://hardwarelab.org/
@@ -77,6 +84,6 @@ Target: under 15 minutes from a fresh VPS when valid backup and image access are
 1. Take backup (`./scripts/backup-env.sh`)
 2. Simulate `.env` loss (rename)
 3. Restore `.env` from archive
-4. Redeploy (`./deploy.sh`)
-5. Verify app health via `docker compose -f docker-compose.vps.yml ps` (both services healthy) and `https://hardwarelab.org/` returns `200`
+4. Redeploy with immutable tag from `.env` (`IMAGE_TAG=sha-*`, never `latest`)
+5. Verify app health via `docker compose -f docker-compose.vps.yml ps` (both services healthy), `docker exec hardwarelab-app wget -qO- http://127.0.0.1:4321/health`, and `https://hardwarelab.org/` returns `200`
 6. Cleanup drill artifacts
