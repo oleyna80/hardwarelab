@@ -47,6 +47,14 @@ grep -n "@coder\|@all" .memory_bank/agent-log.md
 ---
 
 ## [2026-03-01] 👤 CODER → @tech-lead
+**Тема:** roadmap-phase-a-sync
+
+Статус:
+- ✅ Синхронизирован `roadmap.md` с фактическим состоянием `activeContext/progress`.
+- ✅ В чеклисте Phase A отмечены выполненные технические пункты (VPS/CI/docs/observability baseline).
+- ⚠️ Открытый blocker сохранён как отдельный пункт: добавить `UPTIME_ALERT_WEBHOOK` и подтвердить external alert delivery.
+
+## [2026-03-01] 👤 CODER → @tech-lead
 **Тема:** uptime-webhook-alert-test-mode
 
 Статус:

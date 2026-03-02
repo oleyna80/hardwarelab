@@ -8,15 +8,23 @@
 
 ## What Just Happened
 
+- ✅ **Phase A closure evidence consolidated** (2026-03-02)
+  - Final closure report created: `.agent/reports/coder/2026-03-01-phase-a-closure-completion.md`.
+  - Track C evidence locked by commit `b06e5ee26fb0d33562b4fee67a0eb9a8182ef2d3` (homepage Lighthouse optimizations).
+  - Track A evidence locked by GitHub Actions run `22595995662` (`Uptime Monitor`, `completed/failure`, test mode).
+  - Track B evidence locked by commit `9a6351e7f9ab9e0adc96d49cc4a7ff58dfdbf7ce` with measured RTO `379 sec` (`6.32 min`, PASS vs `< 15 min` target).
+- ✅ **Roadmap Phase A checklist synchronized with factual status** (2026-03-01)
+  - Updated `.memory_bank/roadmap.md` to reflect completed technical milestones (VPS infra, CI baseline, docs gate, observability baseline).
+  - Split remaining observability work into explicit open item: external webhook delivery validation via `UPTIME_ALERT_WEBHOOK`.
 - ✅ **Uptime monitor got safe alert-test mode for webhook validation** (2026-03-01)
   - Added `workflow_dispatch` input `alert_test_mode` in `.github/workflows/uptime-monitor.yml`.
   - Added synthetic failure step for alert-path checks without forcing real production outage.
   - Issue lifecycle steps are skipped in test mode to avoid false incident noise.
   - Webhook alert prefix now includes `[hardwarelab][TEST]` in test mode.
   - Updated operations runbook: `docs/operations/monitoring-baseline.md`.
-- ⚠️ **External webhook delivery validation blocked by missing repo secret** (2026-03-01)
-  - `UPTIME_ALERT_WEBHOOK` is not present in current repository secrets.
-  - Next action: add secret and run `gh workflow run "Uptime Monitor" -f alert_test_mode=true`.
+- ⚠️ **External webhook delivery still not confirmed end-to-end** (2026-03-02)
+  - Synthetic validation run executed: `Uptime Monitor` run `22595995662`.
+  - Run reached alert path and failed on `Send optional webhook alert`; external receipt remains unconfirmed.
 - ✅ **Lighthouse CI performance baseline gate added** (2026-03-01)
   - Added `lighthouserc.json` with assertion `categories:performance >= 0.5` for key pages (`/`, `/reviews/playstation-5-disc-slim`) as regression baseline.
   - Added `check:lighthouse` npm script and `lighthouse` job in `.github/workflows/ci.yml` after `quality`.
@@ -163,14 +171,13 @@
 
 ## Current Focus
 
-1. **Phase A delivery (VPS migration)** — finish technical migration by 2026-03-31.
-2. **Deployment hardening** — backup/restore drill, monitoring, rollback readiness.
-3. **CI baseline** — build + affiliate + image lint + lighthouse + agent docs/roles/skills lint + review package smoke-check.
+1. **Post-Phase-A documentation integrity** — keep roadmap/progress/evidence synchronized with immutable deploy and observability facts.
+2. **Operational stability** — keep uptime monitor and backup/restore runbook aligned with runtime behavior.
+3. **CI baseline continuity** — keep Lighthouse/affiliate/agent-docs gates green on new changes.
 
 ## Next Priority
 
-- Execute backup/restore drill from `.agent/workflows/vps-migration-runbook.md` and capture timings.
-- Add `UPTIME_ALERT_WEBHOOK` secret and run synthetic alert test (`alert_test_mode=true`).
+- Move execution planning to Phase B while preserving Phase A operational guardrails.
 
 ## Quick Reference
 

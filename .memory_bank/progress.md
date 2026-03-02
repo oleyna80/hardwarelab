@@ -92,8 +92,8 @@ Consolidated project status and milestones.
 
 ## In Progress
 
-- [ ] Phase A hardening: backup/restore drill + documented rollback rehearsal
-- [ ] Backup/restore runbook + recovery test
+- [x] Phase A hardening: backup/restore drill + documented rollback rehearsal
+- [x] Backup/restore runbook + recovery test
 - [ ] Monitoring hardening: add `UPTIME_ALERT_WEBHOOK` secret and validate notification delivery (`alert_test_mode=true`)
 - [ ] OG image generation for existing reviews
 - [ ] Finish LG 39GX90SA-W review
@@ -120,6 +120,22 @@ Consolidated project status and milestones.
 ---
 
 ## Changelog
+
+### 2026-03-02: Phase A Closure Finalization Sync
+
+**Changed:**
+- Consolidated final Phase A evidence in coder closure report (`.agent/reports/coder/2026-03-01-phase-a-closure-completion.md`).
+- Recorded Track A reference run: `Uptime Monitor` run `22595995662` (`completed/failure`, synthetic alert path reached).
+- Recorded Track B completion evidence with RTO `379 sec` (`6.32 min`, PASS vs `< 15 min`).
+- Confirmed Track C optimization commit reference: `b06e5ee26fb0d33562b4fee67a0eb9a8182ef2d3`.
+- Marked recovery drill items complete in progress checklist; monitoring hardening remains open pending confirmed external webhook delivery.
+
+### 2026-03-01: Roadmap Phase A Checklist Sync
+
+**Changed:**
+- Synchronized `.memory_bank/roadmap.md` checklist with current execution reality.
+- Marked completed: VPS infrastructure, CI pipeline, documentation gate, observability baseline.
+- Isolated remaining monitoring blocker as explicit item: missing `UPTIME_ALERT_WEBHOOK` delivery validation.
 
 ### 2026-03-01: Observability Baseline Added
 

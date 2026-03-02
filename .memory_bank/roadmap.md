@@ -2,7 +2,7 @@
 
 Статус: Draft v1  
 Владелец: Solo Founder (Dmitrii)  
-Последнее обновление: 2026-02-08
+Последнее обновление: 2026-03-02
 
 ---
 
@@ -71,11 +71,12 @@
 - Мониторинг доступности и ошибок подключен.
 
 ### Checklist Phase A
-- [ ] VPS инфраструктура: Docker + reverse proxy + SSL + restart policy.
-- [ ] CI pipeline: `build`, `check:affiliate`, `lint:images`, `lint:agent-docs`, `lint:agent-roles`, `lint:agent-skills`, smoke checks.
-- [ ] Documentation gate: `lint:agent-docs` + `lint:agent-roles` + `lint:agent-skills` before merging agent/process changes.
-- [ ] Наблюдаемость: uptime check, error logging, deploy log.
-- [ ] Recovery: backup + restore инструкция (проверенный тест восстановления).
+- [x] VPS инфраструктура: Docker + reverse proxy + SSL + restart policy.
+- [x] CI pipeline: `build`, `check:affiliate`, `lint:images`, `lint:agent-docs`, `lint:agent-roles`, `lint:agent-skills`, smoke checks.
+- [x] Documentation gate: `lint:agent-docs` + `lint:agent-roles` + `lint:agent-skills` before merging agent/process changes.
+- [x] Наблюдаемость baseline: uptime check, failure artifacts, issue lifecycle, synthetic alert-test mode.
+- [ ] Monitoring hardening: добавить `UPTIME_ALERT_WEBHOOK` и подтвердить внешнюю доставку уведомлений.
+- [x] Recovery: backup + restore инструкция (проверенный тест восстановления).
 - [x] Lighthouse CI baseline gate в CI (performance regression guard, initial threshold >= 50).
 - [ ] Performance gate: Lighthouse mobile >= 90 на ключевых страницах.
 
@@ -166,6 +167,15 @@
 ---
 
 ## Changelog
+
+### 2026-03-02
+- Подтверждено закрытие Recovery пункта Phase A на основании выполненного drill (RTO: `379 sec` = `6.32 min`, PASS относительно `< 15 min`).
+- Monitoring hardening оставлен открытым до подтверждённой внешней доставки webhook-уведомления.
+
+### 2026-03-01
+- Синхронизирован чеклист Phase A с фактическим статусом из `progress.md` и `activeContext.md`.
+- Отмечены как выполненные: VPS инфраструктура, CI pipeline, documentation gate, observability baseline.
+- Добавлен отдельный открытый пункт по валидации внешнего alert-канала (`UPTIME_ALERT_WEBHOOK`).
 
 ### 2026-02-08
 - Создан первый каноничный roadmap проекта.
