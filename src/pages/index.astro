@@ -18,7 +18,7 @@ const langReviews = allReviews
       new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
   );
 
-const latestReviews = langReviews.slice(0, 12);
+const latestReviews = langReviews.slice(0, 6);
 
 // Page metadata
 const pageTitle = `HardwareLab - ${t("siteDescription", lang)}`;

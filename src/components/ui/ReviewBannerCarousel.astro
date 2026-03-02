@@ -10,8 +10,8 @@ interface Props {
 
 const { reviews, lang = "en" } = Astro.props;
 
-// Take only the first 5 reviews
-const carouselReviews = reviews.slice(0, 5);
+// Keep carousel concise to reduce above-the-fold DOM and image work.
+const carouselReviews = reviews.slice(0, 3);
 ---
 
 <div
@@ -22,10 +22,11 @@ const carouselReviews = reviews.slice(0, 5);
         class="carousel-track flex transition-transform duration-700 ease-in-out"
     >
         {
-            carouselReviews.map((review) => {
+            carouselReviews.map((review, index) => {
                 const { title, heroImage } = review.data;
                 const urlSlug = review.slug.split("/").pop();
                 const reviewUrl = `/${lang === "en" ? "" : lang + "/"}reviews/${urlSlug}`;
+                const isFirstSlide = index === 0;
 
                 return (
                     <div class="carousel-slide min-w-full relative">
@@ -40,12 +41,24 @@ const carouselReviews = reviews.slice(0, 5);
                                         src={heroImage}
                                         alt={title}
                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                        loading={
+                                            isFirstSlide ? "eager" : "lazy"
+                                        }
+                                        fetchpriority={
+                                            isFirstSlide ? "high" : "auto"
+                                        }
                                     />
                                 ) : (
                                     <Image
                                         src={heroImage}
                                         alt={title}
                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                        loading={
+                                            isFirstSlide ? "eager" : "lazy"
+                                        }
+                                        fetchpriority={
+                                            isFirstSlide ? "high" : "auto"
+                                        }
                                     />
                                 )
                             ) : (
