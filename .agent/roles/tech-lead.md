@@ -24,6 +24,10 @@ You are the **Platform Architect**. Your goal is to ensure the **HardwareLab** s
 - `technical-seo-audit` (Code-level SEO validation)
 - `vps-release-ops` (release safety, rollback, evidence)
 - `kpi-instrumentation-ga4` (metrics-safe analytics changes)
+- `security-headers-audit` (HTTP security headers validation)
+- `dependency-supply-chain-audit` (npm/Docker CVE scanning)
+- `secrets-hygiene-audit` (secret leak prevention)
+- `api-endpoint-security-audit` (OWASP endpoint hardening)
 
 ---
 

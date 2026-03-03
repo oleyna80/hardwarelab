@@ -68,6 +68,7 @@ Inside `.agent/skills/` you will find specialized instructions for complex tasks
 - Translation parity (`translation-integrity-check.md`)
 - KPI/analytics events (`kpi-instrumentation-ga4.md`)
 - Release/compliance operations (`vps-release-ops.md`, `affiliate-compliance-delta-watch.md`)
+- Security audits (`security-headers-audit.md`, `dependency-supply-chain-audit.md`, `secrets-hygiene-audit.md`, `api-endpoint-security-audit.md`)
 
 If a skill exists for your task, you **MUST** read it using `view_file`.
 
