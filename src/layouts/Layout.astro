@@ -47,14 +47,14 @@ const analyticsEnabled = import.meta.env.PUBLIC_ANALYTICS_ENABLED !== "false";
       image={image}
       article={article}
       lang={lang}
-      {...(pubDate ? { pubDate } : {})}
-      {...(review ? { review } : {})}
+      {...pubDate ? { pubDate } : {}}
+      {...review ? { review } : {}}
     />
     {analyticsEnabled && <Analytics id={gaId} />}
   </head>
 
   <body
-    class="bg-primary-50 text-primary-900 dark:bg-primary-950 dark:text-primary-100 font-sans min-h-screen flex flex-col transition-colors duration-300"
+    class="bg-primary-50 text-gray-900 dark:bg-primary-950 dark:text-primary-100 font-sans min-h-screen flex flex-col transition-colors duration-300"
   >
     <Header lang={lang} />
 
