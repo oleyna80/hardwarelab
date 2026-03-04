@@ -64,10 +64,11 @@ src/
 ## 5. Agent Workflow
 
 ### Before Making Changes
-1. **Search First:** Use `rg` to find similar implementations.
-2. **Read Context:** View relevant files to understand imports.
-3. **Check Components:** Look for existing components in `src/components/ui/`.
-4. **Source of Truth (when docs conflict):**
+1. **Git Sync:** Verify local branch is in sync with `origin/main` (fetch, compare, pull if behind). See `_COMMON_RULES.md` → RULE ONE for detailed steps.
+2. **Search First:** Use `rg` to find similar implementations.
+3. **Read Context:** View relevant files to understand imports.
+4. **Check Components:** Look for existing components in `src/components/ui/`.
+5. **Source of Truth (when docs conflict):**
    - `src/content/config.ts` — frontmatter schema
    - `src/components/ui/` — real component APIs
    - `src/config.ts` + `.env.example` — affiliate/env vars

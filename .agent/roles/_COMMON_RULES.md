@@ -20,6 +20,35 @@ Always read:
 
 ---
 
+## 🔄 RULE ONE: Git Sync at Session Start
+
+At the **beginning of every new session**, verify the local branch is in sync with `origin`:
+
+```bash
+# 1. Check for uncommitted changes
+git status
+
+# 2. Fetch latest from remote
+git fetch origin
+
+# 3. Compare local vs remote
+git log HEAD..origin/main --oneline   # shows commits on remote not yet in local
+
+# 4. If behind, pull (fast-forward only)
+git pull --ff-only origin main
+```
+
+**Why:**
+- WSL environment — another session or CI may have pushed changes
+- Prevents working on stale code and merge conflicts
+- Ensures the agent starts from the latest known-good state
+
+**If local is ahead of remote (unpushed commits):**
+- Inform the user and suggest `git push origin main`
+- Do NOT push automatically without user confirmation
+
+---
+
 ## 📝 Post-Task Requirements
 
 After performing **ANY significant task** (not routine fixes):
@@ -77,6 +106,7 @@ If a skill exists for your task, you **MUST** read it using `view_file`.
 
 Before starting work:
 
+- [ ] **Git sync** — verify local is up-to-date with `origin/main`
 - [ ] Read `activeContext.md`
 - [ ] Read `agents.md` (if first time)
 - [ ] Check `progress.md` for current status
