@@ -101,6 +101,7 @@ systemPatterns.md    techContext.md
 - VPS/release операций (`vps-release-ops`)
 - KPI/аналитики (`kpi-instrumentation-ga4`)
 - Финального compliance/translation gate (`affiliate-compliance-delta-watch`, `translation-integrity-check`)
+- Безопасности (`security-headers-audit`, `dependency-supply-chain-audit`, `secrets-hygiene-audit`, `api-endpoint-security-audit`)
 
 Используй `view_file` для чтения навыка перед работой.
 

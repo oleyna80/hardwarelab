@@ -25,6 +25,7 @@ Ship safely to VPS with reproducible commands and explicit rollback readiness.
    - `npm run lint:agent-docs`
    - `npm run lint:agent-roles`
    - `npm run lint:agent-skills`
+   - `npm audit --audit-level=high`
 2. Deploy:
    - `docker compose up -d --build`
 3. Smoke:

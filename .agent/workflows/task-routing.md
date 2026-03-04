@@ -27,6 +27,7 @@ Use this file to pick the correct agent role with minimal ambiguity.
 | Affiliate policy delta review | `qa` or `tech-lead` | `affiliate-compliance-delta-watch` | `.agent/reports/compliance/<date>-<slug>-compliance.md` |
 | KPI tracking changes | `coder` (planned by tech-lead) | `kpi-instrumentation-ga4` | code + coder report with KPI impact note |
 | Agent docs/roles/skills governance | `tech-lead` | `memory-bank-manager` | updated docs + lint pass evidence |
+| Security audit | `tech-lead` (→ `coder` for fixes) | `security-headers-audit`, `dependency-supply-chain-audit`, `secrets-hygiene-audit`, `api-endpoint-security-audit` | `.agent/reports/tech-lead/<date>-<slug>-plan.md` |
 
 ## Required Gates
 

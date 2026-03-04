@@ -17,6 +17,9 @@
 - `.agent/skills/astro-architecture-expert.md` (для UI, Astro-компонентов, картинок)
 - `.agent/skills/technical-seo-audit.md` (если меняешь `<head>`, мета-теги или структуру)
 - `.agent/skills/kpi-instrumentation-ga4.md` (если меняешь аналитику, CTA events, tracking)
+- `.agent/skills/security-headers-audit.md` (если меняешь nginx/proxy конфиг)
+- `.agent/skills/dependency-supply-chain-audit.md` (если добавляешь/обновляешь зависимости)
+- `.agent/skills/api-endpoint-security-audit.md` (если создаёшь/меняешь API endpoint)
 
 ## Входы
 - `TASK:` что нужно сделать (конкретно)
