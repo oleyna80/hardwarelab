@@ -3,36 +3,27 @@ import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import ReviewCard from "@/components/ui/ReviewCard.astro";
 
+// Define category mappings at module level so it's available in both
+// getStaticPaths (static build) and at render time (SSR dev mode)
+const categoryMappings: Record<string, string[]> = {
+    "mini-pc": ["mini-pc", "mac-mini", "ryzen-7-5800h", "nuc"],
+    consoles: ["playstation", "xbox", "gaming-console", "steam-deck"],
+    nas: ["nas", "network-storage", "synology", "qnap"],
+    sbc: ["raspberry-pi", "orange-pi", "single-board", "maker"],
+    monitors: ["monitor", "display", "oled", "144hz", "4k-monitor"],
+    gaming: ["gaming", "gpu", "graphics-card", "gaming-pc"],
+    "ai-workstation": ["ai", "machine-learning", "workstation", "cuda", "llm"],
+};
+
 export async function getStaticPaths() {
-    // Define category mappings
-    const categoryMappings = {
-        "mini-pc": ["mini-pc", "mac-mini", "ryzen-7-5800h", "nuc"],
-        consoles: ["playstation", "xbox", "gaming-console", "steam-deck"],
-        nas: ["nas", "network-storage", "synology", "qnap"],
-        sbc: ["raspberry-pi", "orange-pi", "single-board", "maker"],
-        monitors: ["monitor", "display", "oled", "144hz", "4k-monitor"],
-        gaming: ["gaming", "gpu", "graphics-card", "gaming-pc"],
-        "ai-workstation": [
-            "ai",
-            "machine-learning",
-            "workstation",
-            "cuda",
-            "llm",
-        ],
-    };
-
-    const categories = Object.keys(categoryMappings);
-
-    return categories.map((category) => ({
+    return Object.keys(categoryMappings).map((category) => ({
         params: { category },
-        props: {
-            category,
-            tags: categoryMappings[category as keyof typeof categoryMappings],
-        },
     }));
 }
 
-const { category, tags } = Astro.props;
+// In SSR dev mode Astro.props won't have tags — derive from params instead
+const category = Astro.params.category as string;
+const tags = categoryMappings[category] ?? [];
 const lang = "en"; // kept for filtering, though hardcoded for now
 
 // Get all reviews and filter by category tags
@@ -41,9 +32,11 @@ const categoryReviews = allReviews
     .filter(
         (review) =>
             review.id.startsWith(`${lang}/`) &&
-            // Logic: either explicit category match (new schema) or tag match (legacy)
-            (review.data.category === category ||
-                review.data.tags?.some((tag) => tags.includes(tag))),
+            // If review has an explicit category, use that — don't fall through to tag matching
+            // Tag matching is legacy fallback only for reviews without a category field
+            (review.data.category
+                ? review.data.category === category
+                : review.data.tags?.some((tag) => tags.includes(tag))),
     )
     .sort(
         (a, b) =>

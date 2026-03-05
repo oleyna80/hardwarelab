@@ -40,7 +40,8 @@ const reviewsCollection = defineCollection({
             'ai-workstation',
             'mini-pc',
             'nas',
-            'sbc'
+            'sbc',
+            'consoles'
         ]).optional(), // Optional for backward compatibility with existing content
 
         asin: z.string(),

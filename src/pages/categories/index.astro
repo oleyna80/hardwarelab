@@ -10,33 +10,47 @@ const categories = [
     title: 'Mini PCs',
     description: 'Compact workstations for homelab, office, and entertainment',
     icon: '🖥️',
-    color: 'from-blue-500 to-cyan-500'
+    gradient: 'bg-gradient-to-br from-blue-500 to-cyan-500'
   },
   {
     slug: 'consoles',
     title: 'Game Consoles',
     description: 'Next-gen gaming platforms and accessories',
     icon: '🎮',
-    color: 'from-purple-500 to-pink-500'
+    gradient: 'bg-gradient-to-br from-purple-500 to-pink-500'
   },
   {
     slug: 'nas',
     title: 'Network Storage (NAS)',
     description: 'Data storage and backup solutions',
     icon: '🗄️',
-    color: 'from-green-500 to-emerald-500'
+    gradient: 'bg-gradient-to-br from-green-500 to-emerald-500'
   },
   {
     slug: 'sbc',
     title: 'Single Board Computers',
     description: 'DIY and maker boards for projects',
     icon: '🛠️',
-    color: 'from-orange-500 to-red-500'
+    gradient: 'bg-gradient-to-br from-orange-500 to-red-500'
+  },
+  {
+    slug: 'monitors',
+    title: 'Monitors',
+    description: 'Gaming and professional display reviews',
+    icon: '📺',
+    gradient: 'bg-gradient-to-br from-sky-500 to-blue-600'
+  },
+  {
+    slug: 'ai-workstation',
+    title: 'AI Workstations',
+    description: 'Hardware for Machine Learning and AI inference',
+    icon: '🤖',
+    gradient: 'bg-gradient-to-br from-indigo-500 to-violet-600'
   }
 ];
 
 const pageTitle = 'Hardware Categories | HardwareLab';
-const pageDescription = 'Browse computer hardware reviews by category: Mini PCs, Game Consoles, NAS, and Single Board Computers.';
+const pageDescription = 'Browse computer hardware reviews by category: Mini PCs, Game Consoles, NAS, Single Board Computers, Monitors, and Gaming Hardware.';
 ---
 
 <Layout title={pageTitle} description={pageDescription} lang={lang}>
@@ -46,7 +60,7 @@ const pageDescription = 'Browse computer hardware reviews by category: Mini PCs,
       <h1 class="text-4xl md:text-6xl font-bold mb-6">
         Browse by Category
       </h1>
-      <p class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto">
+      <p class="text-xl text-gray-600 dark:text-primary-400 max-w-2xl mx-auto">
         Find the perfect hardware for your needs. Explore our in-depth reviews organized by product category.
       </p>
     </section>
@@ -57,12 +71,13 @@ const pageDescription = 'Browse computer hardware reviews by category: Mini PCs,
         {categories.map((category) => (
           <a
             href={`/categories/${category.slug}`}
-            class="group relative overflow-hidden rounded-2xl bg-gradient-to-br {category.color} p-8 text-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            class:list={["group relative overflow-hidden rounded-2xl p-8 text-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl", category.gradient]}
           >
-            <div class="relative z-10">
+            <div class="absolute inset-0 rounded-2xl bg-black/15 dark:bg-black/5"></div>
+            <div class="relative z-10 drop-shadow-[0_1px_3px_rgba(0,0,0,0.45)]">
               <div class="text-6xl mb-4">{category.icon}</div>
               <h2 class="text-3xl font-bold mb-3">{category.title}</h2>
-              <p class="text-white/90 mb-6 text-lg">
+              <p class="text-white mb-6 text-lg">
                 {category.description}
               </p>
               <div class="inline-flex items-center gap-2 text-white font-semibold">
@@ -83,19 +98,19 @@ const pageDescription = 'Browse computer hardware reviews by category: Mini PCs,
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
           <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">50+</div>
-          <div class="text-sm text-primary-600 dark:text-primary-400">Expert Reviews</div>
+          <div class="text-sm text-gray-600 dark:text-primary-400">Expert Reviews</div>
         </div>
         <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
-          <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">4</div>
-          <div class="text-sm text-primary-600 dark:text-primary-400">Categories</div>
+          <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">{categories.length}</div>
+          <div class="text-sm text-gray-600 dark:text-primary-400">Categories</div>
         </div>
         <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
           <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">100%</div>
-          <div class="text-sm text-primary-600 dark:text-primary-400">Honest Reviews</div>
+          <div class="text-sm text-gray-600 dark:text-primary-400">Honest Reviews</div>
         </div>
         <div class="p-6 bg-primary-100 dark:bg-primary-900 rounded-xl">
           <div class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2">24/7</div>
-          <div class="text-sm text-primary-600 dark:text-primary-400">Updated</div>
+          <div class="text-sm text-gray-600 dark:text-primary-400">Updated</div>
         </div>
       </div>
     </section>
@@ -103,7 +118,7 @@ const pageDescription = 'Browse computer hardware reviews by category: Mini PCs,
     <!-- CTA -->
     <section class="py-12 text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-3xl">
       <h2 class="text-3xl font-bold mb-4">Can't find what you're looking for?</h2>
-      <p class="text-xl text-primary-600 dark:text-primary-400 mb-8">
+      <p class="text-xl text-gray-600 dark:text-primary-400 mb-8">
         Browse all our reviews or search for specific products
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
