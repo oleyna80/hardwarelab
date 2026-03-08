@@ -10,7 +10,7 @@ import { t, type Language } from "@/utils/i18n";
 const lang: Language = "ru";
 
 // Fetch reviews for this language, sort by date, take latest 6
-const allReviews = await getCollection("reviews");
+const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
 const langReviews = allReviews
     .filter((review) => review.id.startsWith(`${lang}/`))
     .sort(

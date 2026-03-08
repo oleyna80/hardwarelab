@@ -1,4 +1,13 @@
 import { z, defineCollection } from 'astro:content';
+import { isMissing } from '../utils/shared';
+
+const regionalAsinSchema = z.object({
+    us: z.string().optional(),
+    de: z.string().optional(),
+    fr: z.string().optional(),
+    it: z.string().optional(),
+    es: z.string().optional(),
+}).strict();
 
 // Продукты
 const productsCollection = defineCollection({
@@ -44,9 +53,11 @@ const reviewsCollection = defineCollection({
             'consoles'
         ]).optional(), // Optional for backward compatibility with existing content
 
-        asin: z.string(),
+        asin: z.union([z.string(), regionalAsinSchema]).optional(),
+        amazonUrl: z.string().url().optional(),
         priceCategory: z.enum(['budget', 'mid', 'high', 'enterprise']),
         rating: z.number().min(0).max(5),
+        draft: z.boolean().default(false),
 
         // Optional fields as data is in MDX components
         pros: z.array(z.string()).optional(),
@@ -94,6 +105,19 @@ const reviewsCollection = defineCollection({
             tensorCores: z.number().optional(),
             benchmarks: z.record(z.string(), z.string()).optional()
         }).optional(),
+    }).refine((data) => {
+        if (data.draft) return true;
+
+        const hasDirectUrl = !isMissing(data.amazonUrl);
+        const hasStringAsin = typeof data.asin === 'string' && !isMissing(data.asin);
+        const hasObjectAsin = typeof data.asin === 'object'
+            && data.asin !== null
+            && Object.values(data.asin).some((value) => !isMissing(value));
+
+        return hasDirectUrl || hasStringAsin || hasObjectAsin;
+    }, {
+        message: 'Published reviews must have at least one valid regional ASIN or amazonUrl',
+        path: ['asin'],
     }),
 });
 

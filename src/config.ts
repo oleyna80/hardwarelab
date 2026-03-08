@@ -8,28 +8,38 @@
 // Site Domain
 export const SITE_DOMAIN = import.meta.env.PUBLIC_SITE_DOMAIN || 'https://hardwarelab.example.com';
 
+const AMAZON_DOMAINS = {
+    us: 'amazon.com',
+    de: 'amazon.de',
+    fr: 'amazon.fr',
+} as const;
+
+const AMAZON_TAGS = {
+    us: import.meta.env.PUBLIC_AMAZON_TAG_US || 'YOUR_TAG-20',
+    de: import.meta.env.PUBLIC_AMAZON_TAG_DE || 'YOUR_TAG-03',
+    fr: import.meta.env.PUBLIC_AMAZON_TAG_FR || 'YOUR_TAG-21',
+} as const;
+
+export type ConfiguredRegion = keyof typeof AMAZON_TAGS;
+
 // Amazon Affiliate Configuration
 export const AMAZON_CONFIG = {
-    // Regional domains
-    domains: {
-        us: 'amazon.com',
-        de: 'amazon.de',
-        fr: 'amazon.fr',
-    } as Record<string, string>,
+    domains: AMAZON_DOMAINS,
+    tags: AMAZON_TAGS,
 
-    // Regional affiliate tags
-    tags: {
-        us: import.meta.env.PUBLIC_AMAZON_TAG_US || 'YOUR_TAG-20',
-        de: import.meta.env.PUBLIC_AMAZON_TAG_DE || 'YOUR_TAG-03',
-        fr: import.meta.env.PUBLIC_AMAZON_TAG_FR || 'YOUR_TAG-21',
-    } as Record<string, string>,
+    getRegionalConfig(region: ConfiguredRegion) {
+        return {
+            domain: AMAZON_DOMAINS[region],
+            tag: AMAZON_TAGS[region],
+        };
+    },
 
-    // Build affiliate link for a specific region
-    getAffiliateLink: (asin: string, region: string = 'us'): string => {
-        const domain = AMAZON_CONFIG.domains[region] || AMAZON_CONFIG.domains.us;
-        const tag = AMAZON_CONFIG.tags[region] || AMAZON_CONFIG.tags.us;
+    // Backward-compatible helper used in UI components.
+    getAffiliateLink(asin: string, region: string = 'us'): string {
+        const normalizedRegion = (region in AMAZON_TAGS ? region : 'us') as ConfiguredRegion;
+        const { domain, tag } = this.getRegionalConfig(normalizedRegion);
         return `https://www.${domain}/dp/${asin}?tag=${tag}`;
-    }
+    },
 };
 
 // Analytics Configuration

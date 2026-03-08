@@ -7,7 +7,7 @@ import { t, type Language } from "@/utils/i18n";
 const lang: Language = "en";
 
 // Get all English reviews
-const allReviews = await getCollection("reviews");
+const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
 const reviews = allReviews
     .filter((review) => review.id.startsWith(`${lang}/`))
     .sort(

@@ -6,7 +6,7 @@ import ComponentsGrid from "@/components/ui/ComponentsGrid.astro";
 import ShareButtons from "@/components/ui/ShareButtons.astro";
 
 export async function getStaticPaths() {
-    const reviews = await getCollection("reviews");
+    const reviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
 
     // Filter for build reviews only
     const buildReviews = reviews.filter(

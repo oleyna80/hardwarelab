@@ -45,7 +45,7 @@ function buildReviewUrl(slug: string): {
 }
 
 export const GET: APIRoute = async () => {
-    const allReviews = await getCollection('reviews');
+    const allReviews = await getCollection('reviews', ({ data }) => import.meta.env.DEV ? true : !data.draft);
     const sortedReviews = allReviews.sort(
         (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
     );

@@ -9,7 +9,7 @@ import { t, type Language } from "@/utils/i18n";
 const lang: Language = "fr";
 
 export async function getStaticPaths() {
-  const reviews = await getCollection("reviews");
+  const reviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
   const frReviews = reviews.filter((review) => review.slug.startsWith("fr/"));
 
   // Генерируем параметры slug как часть после 'fr/'
@@ -21,10 +21,10 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 
 // Получаем все обзоры и находим нужный по slug с префиксом 'fr/'
-const allReviews = await getCollection("reviews");
+const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
 
-// slug - массив, берем первый элемент
-const slugString = Array.isArray(slug) ? slug[0] : slug;
+// Поддерживаем вложенные сегменты slug
+const slugString = Array.isArray(slug) ? slug.join("/") : slug;
 
 const review = allReviews.find((r) => r.slug === `fr/${slugString}`);
 
@@ -57,6 +57,7 @@ const frontmatter = review.data;
       title={frontmatter.title}
       rating={frontmatter.rating}
       asin={frontmatter.asin}
+      amazonUrl={frontmatter.amazonUrl}
       priceCategory={frontmatter.priceCategory}
       lang={lang}
     />
@@ -81,7 +82,8 @@ const frontmatter = review.data;
             </p>
           </div>
           <AffiliateButton
-            asin={frontmatter.asin || ""}
+            asin={frontmatter.asin}
+            amazonUrl={frontmatter.amazonUrl}
             label={t("checkPrice", lang)}
             variant="primary"
             size="lg"

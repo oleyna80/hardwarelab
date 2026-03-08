@@ -4,37 +4,22 @@ import {
   useTranslations,
   type Language,
 } from "@/utils/i18n";
-import { AMAZON_CONFIG } from "../../config";
+import { resolveAffiliateUrl, type AsinInput } from "@/utils/affiliate";
 
 interface Props {
   title: string;
   rating: number;
-  asin: string | { us: string; fr?: string; de?: string; [key: string]: string | undefined };
+  asin?: AsinInput | undefined;
+  amazonUrl?: string | undefined;
   priceCategory: "budget" | "mid" | "high" | "enterprise";
   lang?: Language;
 }
 
-const { title, rating, asin, priceCategory, lang } = Astro.props;
+const { title, rating, asin, amazonUrl, priceCategory, lang } = Astro.props;
 const resolvedLang = lang ?? getLangFromUrl(Astro.url);
 const translate = useTranslations(resolvedLang);
 
-// Генерация URL Amazon на основе ASIN с affiliate тегом
-const regionMap: Record<Language, string> = {
-  en: "us",
-  fr: "fr",
-  ru: "us",
-  de: "de",
-};
-
-const resolveAsin = (): string => {
-  if (typeof asin === "string") return asin;
-  const region = regionMap[resolvedLang] || "us";
-  return asin[region] || asin.us || "";
-};
-
-const region = regionMap[resolvedLang] || "us";
-const finalAsin = resolveAsin();
-const amazonUrl = AMAZON_CONFIG.getAffiliateLink(finalAsin, region);
+const affiliate = resolveAffiliateUrl(asin, resolvedLang, amazonUrl);
 
 // Расчет звезд
 const fullStars = Math.floor(rating);
@@ -143,26 +128,30 @@ const priceCategoryColors = {
       >
         {translate("amazonDisclosure")}
       </p>
-      <a
-        href={amazonUrl}
-        target="_blank"
-        rel="sponsored nofollow noopener noreferrer"
-        class="inline-flex items-center justify-center px-6 py-3 bg-accent-600 hover:bg-accent-700 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
-      >
-        <svg
-          class="w-5 h-5 mr-2"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
-        </svg>
-        {currentLabels.checkPrice}
-      </a>
+      {
+        affiliate.url && (
+          <a
+            href={affiliate.url}
+            target="_blank"
+            rel="nofollow sponsored noopener noreferrer"
+            class="inline-flex items-center justify-center px-6 py-3 bg-accent-600 hover:bg-accent-700 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+            </svg>
+            {affiliate.label || currentLabels.checkPrice}
+          </a>
+        )
+      }
     </div>
   </div>
 </header>

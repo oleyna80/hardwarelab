@@ -27,7 +27,7 @@ const tags = categoryMappings[category] ?? [];
 const lang = "en"; // kept for filtering, though hardcoded for now
 
 // Get all reviews and filter by category tags
-const allReviews = await getCollection("reviews");
+const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
 const categoryReviews = allReviews
     .filter(
         (review) =>
