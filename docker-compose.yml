@@ -1,9 +1,12 @@
 services:
-  web:
+  app:
     build: .
-    image: hardwarelab-site:latest
+    image: hardwarelab-site:local
     ports:
-      - "8081:80"
+      - "8081:4321"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 4321
     restart: unless-stopped
     deploy:
       resources:

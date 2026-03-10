@@ -5,7 +5,7 @@ Consolidated project status and milestones.
 ## Current Status
 
 **Phase**: Roadmap Phase A — Technical Foundation + VPS Migration  
-**Last Updated**: 2026-03-01
+**Last Updated**: 2026-03-08
 
 ## Milestones Completed
 
@@ -14,6 +14,11 @@ Consolidated project status and milestones.
 - Synthetic mode forces failure path after successful probes to validate alert delivery logic.
 - Synthetic mode skips incident issue lifecycle to avoid false positives in issue tracker.
 - Updated monitoring runbook with dedicated command for webhook validation.
+
+### ✅ Webhook Delivery Validation Confirmed (Mar 8, 2026)
+- Configured repository secret `UPTIME_ALERT_WEBHOOK`.
+- Executed synthetic monitor run `22819993255` and confirmed webhook step success (`Send optional webhook alert`).
+- External Telegram receipt confirmed for `[hardwarelab][TEST]` alert format.
 
 ### ✅ Lighthouse CI Baseline Gate Activated (Mar 1, 2026)
 - Added `lighthouserc.json` with baseline performance assertion (`categories:performance >= 0.5`) for key pages.
@@ -94,7 +99,7 @@ Consolidated project status and milestones.
 
 - [x] Phase A hardening: backup/restore drill + documented rollback rehearsal
 - [x] Backup/restore runbook + recovery test
-- [ ] Monitoring hardening: add `UPTIME_ALERT_WEBHOOK` secret and validate notification delivery (`alert_test_mode=true`)
+- [x] Monitoring hardening: add `UPTIME_ALERT_WEBHOOK` secret and validate notification delivery (`alert_test_mode=true`)
 - [ ] OG image generation for existing reviews
 - [ ] Finish LG 39GX90SA-W review
 
@@ -120,6 +125,13 @@ Consolidated project status and milestones.
 ---
 
 ## Changelog
+
+### 2026-03-08: Monitoring Hardening Closed + Contract Drift Cleanup
+
+**Changed:**
+- Closed Phase A monitoring hardening blocker with confirmed external webhook delivery.
+- Updated documentation to align with canonical workflow: `WSL -> GitHub Actions -> VPS`.
+- Removed stale build-on-VPS guidance from migration runbook and synced deploy paths.
 
 ### 2026-03-02: Phase A Closure Finalization Sync
 

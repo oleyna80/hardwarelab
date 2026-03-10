@@ -1,7 +1,7 @@
 # HardwareLab — Agent Instructions
 
 > Canonical source: `.agent/AGENT_CONTRACT.md`
-> Last validated: 2026-02-26
+> Last validated: 2026-03-08
 
 ---
 
@@ -31,13 +31,13 @@ If docs conflict with code → **code wins**. Update the docs.
 
 | Component | Detail |
 |-----------|--------|
-| Framework | Astro v5 (server-first, static output) |
+| Framework | Astro v5 (server-first SSR) |
 | Interactivity | React (islands only — toggles, sliders) |
 | Styling | Tailwind CSS 3.x (mobile-first, dark-mode-first) |
 | Language | TypeScript (strict mode) |
 | Content | MDX via Astro Content Collections |
 | Package manager | npm |
-| Locales | EN (default), FR, DE, RU, ES, IT |
+| Locales | EN (default), FR, DE, RU |
 | Deployment | Docker → VPS (nginx), CI via GitHub Actions |
 
 ---
@@ -48,7 +48,7 @@ If docs conflict with code → **code wins**. Update the docs.
 src/
 ├── pages/           # File-based routing
 │   ├── index.astro  # EN homepage
-│   ├── fr/ de/ ru/ es/ it/  # Localized homepages + reviews
+│   ├── fr/ de/ ru/  # Localized homepages + reviews
 │   ├── reviews/     # EN review pages
 │   ├── builds/      # Build guides
 │   └── categories/  # Category listing
@@ -62,9 +62,7 @@ src/
 │       ├── en/
 │       ├── fr/
 │       ├── de/
-│       ├── ru/
-│       ├── es/
-│       └── it/
+│       └── ru/
 ├── utils/           # i18n.ts, formatters, helpers
 └── types/           # Shared TypeScript types
 

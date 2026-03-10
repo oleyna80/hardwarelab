@@ -4,7 +4,7 @@ description: Phase A runbook for WSL -> VPS migration and production hardening
 
 # VPS Migration Runbook (Phase A)
 
-`Last validated: 2026-02-08`
+`Last validated: 2026-03-08`
 
 ## Goal
 
@@ -31,11 +31,15 @@ Skills to use:
 
 ## 2) Environment And Secrets
 
-1. Prepare `.env` on VPS from `.env.example`.
-2. Validate required env vars for affiliate and site domain.
+1. Prepare `.env` on VPS from `.env.vps.example`.
+2. Set immutable deploy source:
+   - `IMAGE_REPO=ghcr.io/oleyna80/hardwarelab`
+   - `IMAGE_TAG=sha-<commit-sha>`
 3. Store secrets outside git (server-level env file or secrets manager).
 
 ## 3) Deployment Procedure
+
+WSL preflight:
 
 ```bash
 npm ci
@@ -45,13 +49,22 @@ npm run lint:images
 npm run lint:agent-docs
 npm run lint:agent-roles
 npm run lint:agent-skills
-docker compose up -d --build
 ```
+
+Production deploy path:
+1. Push to `main` and let chain execute: `CI -> Docker Publish -> Deploy to VPS`.
+2. Manual fallback on VPS (immutable image only):
+   ```bash
+   cd /home/dmitrii/projects/hardwarelab-site
+   ./deploy.sh sha-<commit-sha>
+   ```
 
 Post-deploy smoke checks:
 1. Homepage and at least 3 review URLs load.
-2. `/sitemap.xml` and `/robots.txt` are reachable.
+2. `/sitemap-index.xml` and `/robots.txt` are reachable.
 3. Affiliate links render with required `rel` attributes.
+
+> Never run `docker compose up --build` on VPS.
 
 ## 4) Backup And Recovery
 
@@ -76,6 +89,7 @@ Recommended GitHub Actions checks:
 5. `npm run lint:agent-docs`
 6. `npm run lint:agent-roles`
 7. `npm run lint:agent-skills`
+8. `npm run check:lighthouse`
 
 ## 7) Rollback
 

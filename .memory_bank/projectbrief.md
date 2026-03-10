@@ -31,7 +31,7 @@
 
 | Ограничение | Значение |
 |-------------|----------|
-| VPS ресурсы | 1 vCPU, 512MB RAM |
+| VPS ресурсы | 2 vCPU, 2GB RAM (app limit 384M, web limit 128M) |
 | Affiliate compliance | Amazon Operating Agreement |
 | Performance target | Lighthouse > 90 |
 | Content quality | Экспертные обзоры, не AI-spam |

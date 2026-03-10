@@ -28,21 +28,21 @@ Install on VPS:
 - Docker Engine
 - Docker Compose plugin
 
-Create app directory, for example:
+Create app directory (canonical path):
 
 ```bash
-sudo mkdir -p /opt/hardwarelab
-sudo chown -R $USER:$USER /opt/hardwarelab
+sudo mkdir -p /home/dmitrii/projects/hardwarelab-site
+sudo chown -R $USER:$USER /home/dmitrii/projects/hardwarelab-site
 ```
 
 Copy `docker-compose.vps.yml` and create `.env` from `.env.vps.example`:
 
 ```bash
-cp docker-compose.vps.yml /opt/hardwarelab/
-cp .env.vps.example /opt/hardwarelab/.env
+cp docker-compose.vps.yml /home/dmitrii/projects/hardwarelab-site/
+cp .env.vps.example /home/dmitrii/projects/hardwarelab-site/.env
 ```
 
-Update `/opt/hardwarelab/.env`:
+Update `/home/dmitrii/projects/hardwarelab-site/.env`:
 - `IMAGE_REPO=ghcr.io/<owner>/<repo>`
 - `IMAGE_TAG=sha-<commit-sha>` (immutable deploy source)
 - `APP_PORT=8081` (or your choice)
@@ -54,7 +54,7 @@ Repository secrets required by `Deploy to VPS` workflow:
 - `VPS_USER`
 - `VPS_SSH_KEY`
 - `VPS_PORT` (optional, default `22`)
-- `VPS_APP_DIR` (e.g. `/opt/hardwarelab`)
+- `VPS_APP_DIR` (e.g. `/home/dmitrii/projects/hardwarelab-site`)
 - `GHCR_USERNAME`
 - `GHCR_TOKEN` (PAT with `read:packages`)
 
@@ -76,10 +76,10 @@ Workflow deploy steps:
 ## 6) Verify on VPS
 
 ```bash
-cd /opt/hardwarelab
+cd /home/dmitrii/projects/hardwarelab-site
 docker compose -f docker-compose.vps.yml ps
 docker compose -f docker-compose.vps.yml logs -f --tail=100
-curl -I http://127.0.0.1:${APP_PORT}
+docker exec hardwarelab-app wget -qO- http://127.0.0.1:4321/health
 ```
 
 ## 7) Runtime contract (canonical)

@@ -8,6 +8,14 @@
 
 ## What Just Happened
 
+- ✅ **Monitoring hardening closed with confirmed external delivery** (2026-03-08)
+  - Added and validated `UPTIME_ALERT_WEBHOOK` repository secret for `oleyna80/hardwarelab`.
+  - Synthetic run `22819993255` reached expected failure path and completed webhook step successfully (`Send optional webhook alert`).
+  - External Telegram receipt confirmed for `[hardwarelab][TEST]` notification format.
+- ✅ **WSL/GitHub/VPS contract drift cleanup completed** (2026-03-08)
+  - Synced docs with factual workflow: `WSL -> GitHub Actions -> VPS deploy`.
+  - Removed stale VPS build instructions from migration runbook.
+  - Unified canonical VPS app path references and aligned local Docker compose with SSR port contract.
 - ✅ **Phase A closure evidence consolidated** (2026-03-02)
   - Final closure report created: `.agent/reports/coder/2026-03-01-phase-a-closure-completion.md`.
   - Track C evidence locked by commit `b06e5ee26fb0d33562b4fee67a0eb9a8182ef2d3` (homepage Lighthouse optimizations).
@@ -22,9 +30,9 @@
   - Issue lifecycle steps are skipped in test mode to avoid false incident noise.
   - Webhook alert prefix now includes `[hardwarelab][TEST]` in test mode.
   - Updated operations runbook: `docs/operations/monitoring-baseline.md`.
-- ⚠️ **External webhook delivery still not confirmed end-to-end** (2026-03-02)
-  - Synthetic validation run executed: `Uptime Monitor` run `22595995662`.
-  - Run reached alert path and failed on `Send optional webhook alert`; external receipt remains unconfirmed.
+- ✅ **External webhook delivery confirmed end-to-end** (2026-03-08)
+  - Prior failed run `22595995662` kept for history; root cause was invalid webhook URL in secret.
+  - Re-run `22819993255` confirmed external delivery path as working.
 - ✅ **Lighthouse CI performance baseline gate added** (2026-03-01)
   - Added `lighthouserc.json` with assertion `categories:performance >= 0.5` for key pages (`/`, `/reviews/playstation-5-disc-slim`) as regression baseline.
   - Added `check:lighthouse` npm script and `lighthouse` job in `.github/workflows/ci.yml` after `quality`.

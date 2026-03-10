@@ -6,11 +6,11 @@ Amazon affiliate hardware review site built with Astro 5.
 
 | Component | Version |
 |-----------|---------|
-| [Astro](https://astro.build) | 5.16.6 |
+| [Astro](https://astro.build) | 5.17.3 |
 | [Tailwind CSS](https://tailwindcss.com) | 3.3.x |
 | [MDX](https://mdxjs.com) | @astrojs/mdx |
 | TypeScript | 5.x |
-| Docker | Multi-stage (Node → Nginx) |
+| Docker | Multi-stage (Node build → Node SSR runtime) |
 
 ## 🚀 Quick Start
 
@@ -22,8 +22,10 @@ npm run dev          # Start dev server at localhost:4321
 
 ### Production (Docker)
 ```bash
-docker compose up -d --build   # Build and run at port 8081
+docker compose up -d --build   # Local SSR container at http://localhost:8081
 ```
+
+For VPS production deploys, use GitHub Actions + immutable `sha-*` images.
 
 ### Release Preflight
 ```bash

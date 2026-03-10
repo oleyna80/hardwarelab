@@ -2,7 +2,7 @@
 
 Статус: Draft v1  
 Владелец: Solo Founder (Dmitrii)  
-Последнее обновление: 2026-03-02
+Последнее обновление: 2026-03-08
 
 ---
 
@@ -75,7 +75,7 @@
 - [x] CI pipeline: `build`, `check:affiliate`, `lint:images`, `lint:agent-docs`, `lint:agent-roles`, `lint:agent-skills`, smoke checks.
 - [x] Documentation gate: `lint:agent-docs` + `lint:agent-roles` + `lint:agent-skills` before merging agent/process changes.
 - [x] Наблюдаемость baseline: uptime check, failure artifacts, issue lifecycle, synthetic alert-test mode.
-- [ ] Monitoring hardening: добавить `UPTIME_ALERT_WEBHOOK` и подтвердить внешнюю доставку уведомлений.
+- [x] Monitoring hardening: добавить `UPTIME_ALERT_WEBHOOK` и подтвердить внешнюю доставку уведомлений.
 - [x] Recovery: backup + restore инструкция (проверенный тест восстановления).
 - [x] Lighthouse CI baseline gate в CI (performance regression guard, initial threshold >= 50).
 - [ ] Performance gate: Lighthouse mobile >= 90 на ключевых страницах.
@@ -167,6 +167,10 @@
 ---
 
 ## Changelog
+
+### 2026-03-08
+- Подтверждена внешняя доставка webhook-уведомления через `UPTIME_ALERT_WEBHOOK` (synthetic run `22819993255`, step `Send optional webhook alert` — success).
+- Зафиксирована чистка doc drift после переходов WSL/VPS: обновлены runbook/deploy-path/SSR-контракт.
 
 ### 2026-03-02
 - Подтверждено закрытие Recovery пункта Phase A на основании выполненного drill (RTO: `379 sec` = `6.32 min`, PASS относительно `< 15 min`).

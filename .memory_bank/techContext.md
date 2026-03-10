@@ -2,7 +2,7 @@
 
 Технический стек, окружение и критические ограничения инфраструктуры.
 
-> Last validated: 2026-03-01
+> Last validated: 2026-03-08
 
 ---
 
@@ -102,7 +102,7 @@ hardwarelab/
 | Точка входа | Путь |
 |-------------|------|
 | Главная EN | `src/pages/index.astro` |
-| Локализованные | `src/pages/{fr,ru,de,es,it}/index.astro` |
+| Локализованные | `src/pages/{fr,ru,de}/index.astro` |
 | Обзоры | `src/pages/reviews/[...slug].astro` |
 | Категории | `src/pages/categories/[category].astro` |
 
