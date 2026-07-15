@@ -12,10 +12,21 @@ export function extractField(frontmatter, key) {
 export function parseTags(frontmatter) {
   const inline = extractField(frontmatter, "tags");
   if (inline) {
+    // Handle bracket-array format: [tag1, "tag2", 'tag3'] — quoted and unquoted
+    const bracketMatch = inline.match(/^\[(.+)\]$/);
+    if (bracketMatch) {
+      const tags = bracketMatch[1]
+        .split(',')
+        .map(t => t.trim().replace(/^["']|["']$/g, ''))
+        .filter(Boolean);
+      if (tags.length > 0) return tags;
+    }
+    // Fallback: quoted-only inline without brackets
     const tagMatches = [...inline.matchAll(/"([^"]+)"|'([^']+)'/g)].map((m) => m[1] ?? m[2]);
     if (tagMatches.length > 0) return tagMatches;
   }
 
+  // YAML list format: tags:\n  - item
   const lines = frontmatter.split("\n");
   const idx = lines.findIndex((line) => /^tags:\s*$/.test(line));
   if (idx === -1) return [];

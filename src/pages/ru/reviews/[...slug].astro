@@ -15,23 +15,11 @@ export async function getStaticPaths() {
   // Генерируем параметры slug как часть после 'ru/'
   return ruReviews.map((review) => ({
     params: { slug: review.id.replace(/^ru\//, "") },
+    props: { review },
   }));
 }
 
-const { slug } = Astro.params;
-
-// Получаем все обзоры и находим нужный по slug с префиксом 'ru/'
-const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
-
-// Поддерживаем вложенные сегменты slug
-const slugString = Array.isArray(slug) ? slug.join("/") : slug;
-
-const review = allReviews.find((r) => r.id === `ru/${slugString}`);
-
-if (!review) {
-  return Astro.redirect("/404");
-}
-
+const { review } = Astro.props;
 const { Content: ReviewContent } = await render(review);
 const frontmatter = review.data;
 ---

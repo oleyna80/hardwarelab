@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import AffiliateButton from "./AffiliateButton.astro";
+import type { Language } from "../../utils/i18n";
 
 type PriceCategory = "budget" | "mid" | "high" | "enterprise";
 
@@ -12,9 +13,11 @@ interface Props {
     keySpecs: string[];
     asin: string;
     amazonUrl?: string;
+    lang?: Language;
 }
 
-const { image, imageAlt, rating, priceCategory, keySpecs, asin, amazonUrl } = Astro.props;
+const { image, imageAlt, rating, priceCategory, keySpecs, asin, amazonUrl, lang: langProp } = Astro.props;
+const resolvedLang = langProp ?? (Astro.currentLocale as Language | undefined) ?? 'en';
 
 // Price category labels
 const priceCategoryLabels = {
@@ -150,7 +153,7 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
                     asin={asin}
                     amazonUrl={amazonUrl}
                     label="Check Current Price on Amazon"
-                    lang={Astro.currentLocale as any}
+                    lang={resolvedLang}
                 />
             </div>
         </div>

@@ -24,6 +24,9 @@ const REGION_MAP: Record<TargetLocale, ConfiguredRegion | NonConfiguredRegion> =
 
 const ALLOWED_DIRECT_HOSTS = new Set([
     'amazon.com',
+    'amazon.co.uk',
+    'amazon.ca',
+    'amazon.com.au',
     'amazon.de',
     'amazon.fr',
     'amazon.it',

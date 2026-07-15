@@ -89,6 +89,10 @@ function main() {
     console.error('Usage: npm run review:publish -- <slug>');
     process.exit(1);
   }
+  if (!/^[a-z0-9][a-z0-9-]*$/.test(slug)) {
+    console.error(`❌ Invalid slug: "${slug}". Only lowercase letters, digits, and hyphens allowed.`);
+    process.exit(1);
+  }
 
   const reviewDir = path.join(EN_REVIEWS_DIR, slug);
   const indexPath = path.join(reviewDir, "index.mdx");

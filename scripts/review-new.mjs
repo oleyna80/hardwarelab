@@ -152,7 +152,7 @@ function parseArgs(argv) {
 
 // ── PASS A prompt generation ─────────────────────────────────────────
 
-function generatePassAPrompt(productName, category, existingReviewsMd) {
+function generatePassAPrompt(productName, category) {
   // Read the consolidated pass-a.md if it exists
   let passATemplate = "";
   if (fs.existsSync(PASS_A_PROMPT)) {
