@@ -17,7 +17,7 @@ const reviewId = ({ entry }: { entry: string }) =>
 // Обзоры
 const reviewsCollection = defineCollection({
     loader: glob({
-        pattern: '**/*.{md,mdx}',
+        pattern: ['**/*.{md,mdx}', '!**/_*.{md,mdx}'],
         base: './src/content/reviews',
         generateId: reviewId,
     }),

@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+try { require('dotenv').config(); } catch { /* dotenv optional */ }
 import fs from 'fs';
 import path from 'path';
 import { spawn } from 'child_process';
@@ -126,7 +129,7 @@ function resolveAffiliateExpectation(asin, lang, amazonUrl) {
   if (typeof asin === 'string') {
     if (!isMissing(asin)) {
       targetAsin = asin.trim();
-      targetRegion = 'us';
+      targetRegion = configured;
     }
   } else {
     const asinObject = normalizeAsinObject(asin);

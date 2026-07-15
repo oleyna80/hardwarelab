@@ -6,6 +6,8 @@ import ProductHeader from "@/components/ui/ProductHeader.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 import { t, type Language } from "@/utils/i18n";
 
+export const prerender = true;
+
 const lang: Language = "fr";
 
 export async function getStaticPaths() {
