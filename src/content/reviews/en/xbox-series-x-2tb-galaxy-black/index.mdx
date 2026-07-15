@@ -8,7 +8,11 @@ ogImage: "./og.png"
 heroImage: "./image.webp"
 heroImageAlt: "Xbox Series X 2TB Galaxy Black Special Edition console and controller"
 category: "consoles"
-tags: ["gaming", "xbox-series-x", "2tb-storage", "galaxy-black"]
+tags:
+  - "consoles"
+  - "xbox-series-x"
+  - "2tb-storage"
+  - "galaxy-black"
 asin: "B0FRTRPQG9"
 rating: 4.4
 priceCategory: "high"
@@ -20,8 +24,10 @@ import UserFeedback from "@/components/ui/UserFeedback.astro";
 import ProsCons from "@/components/ui/ProsCons.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

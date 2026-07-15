@@ -8,7 +8,10 @@ heroImageAlt: "Изогнутый QD‑OLED монитор Dell Alienware AW3225
 ogImage: "./og.png"
 category: "monitors"
 tags: ["monitors", "alienware", "qd-oled", "4k", "240hz"]
-asin: "B0F2VTSSRY"
+asin:
+  us: "B0F2VTSSRY"
+  de: "B0CVQGSRZ9"
+  fr: "B0CVQGSRZ9"
 rating: 4.6
 priceCategory: "high"
 ---
@@ -18,10 +21,12 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
 import MonitorSpecs from '@/components/ui/MonitorSpecs.astro';
 
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

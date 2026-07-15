@@ -26,15 +26,17 @@ description: Workflow for creating new content (reviews, blog posts)
 **Using Browser Tool:**
 1. **Official Specs:** Search manufacturer website
 2. **Amazon Page:** Get ASIN and current price for target region
-3. **User Feedback:** Search Reddit (r/homelab, r/sysadmin) for real opinions
+3. **User Feedback:** Search Reddit / forums / Amazon customer reviews for real opinions
 4. **Benchmarks:** Find performance data if applicable
 
 **Data to Collect (ASIN policy):**
 ```yaml
 Product: [Full Name]
 ASIN: 
-  US: B0XXXXXXX               # required
-  EU_PRIMARY: B0XXXXXXX       # required for EU monetization path; any of DE/FR/IT/ES/UK
+  PRIMARY_REGION: amazon.com | amazon.de | amazon.fr | amazon.it | amazon.es | amazon.co.uk
+  PRIMARY: B0XXXXXXX          # required
+  US: B0XXXXXXX | absent
+  EU_PRIMARY: B0XXXXXXX       # required in standard case; any of DE/FR/IT/ES/UK
   DE: B0XXXXXXX | absent      # optional
   FR: B0XXXXXXX | absent      # optional
   IT: B0XXXXXXX | absent      # optional
@@ -54,7 +56,8 @@ User Quotes:
 
 Note:
 - Do **not** require ASIN on every EU marketplace.
-- Minimum target is `US + one EU` ASIN; all other regional fields may be `absent`.
+- Standard minimum target is `US + one EU` ASIN; all other regional fields may be `absent`.
+- Exception: if no exact amazon.com listing exists, allow `US: absent` only when a verified non-US primary marketplace plus at least one additional supported marketplace are confirmed and documented.
 
 ### Step 2: Create MDX File
 
@@ -135,13 +138,11 @@ import ReviewHero from '@/components/ui/ReviewHero.astro';
 ## User Experience
 
 <UserFeedback feedback={[
-  // 6 quotes total recommended (balanced sentiment; keep quote length similar)
+  // 4-6 quotes total; minimum 4, preferred 6 when strong verbatim sources are available
   { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "positive" },
   { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "negative" },
   { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "neutral" },
-  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "positive" },
-  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "negative" },
-  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "neutral" }
+  { user: "Reddit User (r/subreddit)", comment: "…", sentiment: "positive" }
 ]} />
 
 ## Pros & Cons
@@ -314,22 +315,22 @@ npm run dev
 
 ### Source of truth (current prompts)
 Use the prompts in `prompts/` (v1.3.0) for AI-assisted review creation:
-- `prompts/master_prompt_v_1_3_0.md` (format + strict validation)
-- `prompts/review-workflow-two-pass.md` (recommended two-pass process)
-- `prompts/asin-hunter-protocol.md` (ASIN discovery)
+- `prompts/archive/master_prompt_v_1_3_0.md` (format + strict validation)
+- `prompts/archive/review-workflow-two-pass.md` (recommended two-pass process)
+- `prompts/archive/asin-hunter-protocol.md` (ASIN discovery)
 - `prompts/existing-reviews-hardwarelab.md` (internal link source of truth)
-- `prompts/error-prevention-guide.md` (reference / common mistakes)
+- `prompts/archive/error-prevention-guide.md` (reference / common mistakes)
 
 ```bash
 # Open the master prompt as reference
-cat prompts/master_prompt_v_1_3_0.md
+cat prompts/archive/master_prompt_v_1_3_0.md
 ```
 
 ### AI Workflow
 1. **Research First** - Use browser to gather real specs and user feedback
 2. **Generate Draft** - Follow the master prompt format exactly
 3. **Verify Facts** - Cross-check all specs against official sources
-4. **Add Real Quotes** - Replace AI quotes with actual Reddit/forum feedback
+4. **Add Real Quotes** - Replace AI quotes with actual Reddit / forum / Amazon customer feedback
 5. **Localize** - Adapt for target market (different ASINs, currencies)
 
 ### AI Prompt Template
@@ -337,7 +338,7 @@ cat prompts/master_prompt_v_1_3_0.md
 Product: [Name]
 ASIN: [B0XXXXXXX]
 Target: [EN/FR/DE/RU]
-Category: [gaming|gaming-pcs|monitors|ai-workstation|mini-pc|nas|sbc]
+Category: [consoles|gaming|gaming-pcs|monitors|ai-workstation|mini-pc|nas|sbc]
 priceCategory: [budget|mid|high|enterprise]
 
 Research findings:
@@ -345,7 +346,7 @@ Research findings:
 - User feedback: [6 verbatim quotes]
 - Price: $XXX
 
-Generate review following prompts/master_prompt_v_1_3_0.md format and run its pre-output validation checklist.
+Generate review following prompts/archive/master_prompt_v_1_3_0.md format and run its pre-output validation checklist.
 ```
 
 ---
@@ -627,6 +628,6 @@ done
 - `/seo-optimization` - SEO checklist and best practices
 - `/amazon-affiliate-compliance` - Legal requirements
 - `/component-development` - Creating custom components
-- `prompts/master_prompt_v_1_3_0.md` - Review generation (source of truth)
-- `prompts/review-workflow-two-pass.md` - Two-pass writing process
-- `prompts/error-prevention-guide.md` - Reference checklist
+- `prompts/archive/master_prompt_v_1_3_0.md` - Review generation (source of truth)
+- `prompts/archive/review-workflow-two-pass.md` - Two-pass writing process
+- `prompts/archive/error-prevention-guide.md` - Reference checklist

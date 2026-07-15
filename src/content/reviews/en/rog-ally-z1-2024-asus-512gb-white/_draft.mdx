@@ -24,10 +24,12 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
 import GamingPerformance from '@/components/ui/GamingPerformance.astro';
 
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

@@ -52,7 +52,7 @@ export const GET: APIRoute = async () => {
 
     const feed = sortedReviews
         .map((review) => {
-            const urlMeta = buildReviewUrl(review.slug);
+            const urlMeta = buildReviewUrl(review.id);
             if (!urlMeta) return null;
 
             return {

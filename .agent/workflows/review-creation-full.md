@@ -44,7 +44,7 @@ Open `.agent/roles/researcher.md` and follow it strictly.
 
 INPUTS:
 - src/content/reviews/en/<slug>/_research-pack.md
-- prompts/master_prompt_v_1_3_0.md
+- prompts/archive/master_prompt_v_1_3_0.md
 - prompts/existing-reviews-hardwarelab.md
 
 WRITE TO:
@@ -70,6 +70,8 @@ STOP after writing EN review and assets.
 
 - `.agent/roles/README.md`
 - `.agent/AGENT_CONTRACT.md`
+- `.agent/workflows/external-review-agent-runbook.md`
+- `.agent/workflows/quotes-evidence.md`
 - `.agent/workflows/amazon-affiliate-compliance.md`
 - `.agent/workflows/prepublish-affiliate-gate.md`
 - `.agent/workflows/review-update.md`

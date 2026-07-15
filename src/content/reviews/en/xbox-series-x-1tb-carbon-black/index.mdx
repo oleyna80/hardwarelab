@@ -6,7 +6,12 @@ lastUpdated: 2026-01-11
 heroImage: "./image.webp"
 heroImageAlt: "Xbox Series X Carbon Black console with wireless controller for 4K gaming"
 category: "consoles"
-tags: ["gaming", "xbox-series-x", "carbon-black", "4k-120fps", "1tb-ssd"]
+tags:
+  - "consoles"
+  - "xbox-series-x"
+  - "carbon-black"
+  - "4k-120fps"
+  - "1tb-ssd"
 asin: "B08H75RTZ8"
 rating: 4.6
 priceCategory: "high"
@@ -19,8 +24,10 @@ import UserFeedback from "@/components/ui/UserFeedback.astro";
 import ProsCons from "@/components/ui/ProsCons.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

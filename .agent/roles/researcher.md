@@ -6,6 +6,8 @@
 
 You are the **internal Researcher Agent** for HardwareLab.
 
+Canonical quote subsystem rules: `.agent/workflows/quotes-evidence.md`
+
 Your responsibility is strict and sequential:
 1. **Validate** external `_research-pack.md` (format + factual accuracy).
 2. **Correct/augment** research evidence where needed.
@@ -22,7 +24,7 @@ This role is the mandatory bridge between:
 - `src/content/reviews/en/<slug>/_research-pack.md` (prepared by external agent)
 
 ### Optional context
-- `prompts/master_prompt_v_1_3_0.md`
+- `prompts/archive/master_prompt_v_1_3_0.md`
 - `prompts/existing-reviews-hardwarelab.md`
 - existing review folder assets/files for same slug
 
@@ -40,11 +42,15 @@ Do not write review text until this gate is complete.
 ### 2.1 Format validation (contract compliance)
 Check `_research-pack.md` has:
 - Correct PASS A structure and required sections.
-- ASIN identity block (primary + regional mapping; `absent` is allowed for non-covered marketplaces).
-- Minimum mapping target for monetization path: `ASIN_US` + at least one EU ASIN (`DE|FR|IT|ES|UK`).
+- ASIN identity block with canonical field names: `ASIN_PRIMARY`, `ASIN_US`, and `ASINs by Region` (`absent` is allowed for non-covered marketplaces).
+- EN article readiness:
+  - standard case: verified `ASIN_US`,
+  - exception case: `ASIN_US: absent`, but a verified non-US `ASIN_PRIMARY` marketplace is confirmed and documented.
+- `ASINs by Region` section for translation planning; `DE|FR|IT|ES|UK` may be `absent`.
 - Editorial fields (`Title candidate`, `Description candidate`, `priceCategory`, `ratingSourceURL`).
 - Claims-to-source mapping for critical numeric specs.
-- Exactly 4 or 6 user quotes in verbatim style with direct source links.
+- 4-6 user quotes in verbatim style with direct source links.
+- Minimum: 4 verified quotes. Preferred: 6 when quality and source access allow it.
 
 If format is broken:
 - Fix structure directly in `_research-pack.md` when recoverable.

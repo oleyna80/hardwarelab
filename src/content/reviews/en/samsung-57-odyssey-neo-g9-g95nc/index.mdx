@@ -14,7 +14,10 @@ socialHighlights:
   - "World's first Dual UHD monitor (two 4K screens side-by-side)."
   - "240Hz refresh rate + DisplayPort 2.1 connectivity."
   - "2,392 Mini-LED zones for blinding HDR1000 brightness."
-asin: "B0CDQM55C9"
+asin:
+  us: "B0CDQM55C9"
+  de: "B0CDTW2CNR"
+  fr: "B0CDTW2CNR"
 rating: 4.1
 priceCategory: "high"
 ---
@@ -26,7 +29,9 @@ import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 
-  image={frontmatter.heroImage}
+import heroImageSrc from './image.webp';
+
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

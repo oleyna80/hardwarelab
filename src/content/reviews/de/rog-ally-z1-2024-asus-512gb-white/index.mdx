@@ -5,8 +5,12 @@ pubDate: 2026-01-13
 lastUpdated: 2026-01-13
 heroImage: "./image.webp"
 heroImageAlt: "ASUS ROG Ally Z1 weiße Handheld-Konsole mit Windows 11 Desktop-Oberfläche"
-category: "gaming"
-tags: ["gaming", "asus", "handheld"]
+ogImage: "./og.png"
+category: "consoles"
+tags:
+  - "consoles"
+  - "asus"
+  - "handheld"
 socialPublish: true
 socialText: "Das ROG Ally Z1 (Non-Extreme) macht 120Hz Windows-Gaming erschwinglicher. Reicht der normale Z1-Chip für AAA-Gaming aus?"
 socialHighlights:
@@ -23,10 +27,12 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
 import GamingPerformance from '@/components/ui/GamingPerformance.astro';
 
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
@@ -46,7 +52,7 @@ Das **ASUS ROG Ally Z1** (RC71L) tritt als preiswerteres Geschwistermodell zum Z
 
 Im Kern arbeitet der AMD Ryzen Z1 Prozessor, ein spezieller Zen 4 Chip, der eigens für Handhelds entwickelt wurde. Er kombiniert 6 Kerne und 12 Threads mit RDNA 3-Grafik, um eine solide 720p/1080p-Leistung in einem leichten 608g-Paket zu liefern. Der Star der Show bleibt der 7-Zoll 1080p 120Hz Touchscreen mit FreeSync Premium, um das Gameplay auch bei sinkenden Bildraten flüssig zu halten.
 
-> **Offenlegung:** Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.
+> **Disclosure:** Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.
 
 <SpecGrid specs={{
   "SoC": "AMD Ryzen Z1 (6C/12T, bis zu 4,9GHz)",

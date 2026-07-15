@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { parseFrontmatter, extractField, parseTags } from "./_utils.mjs";
 
 const ROOT = process.cwd();
 const slug = process.argv[2];
@@ -33,38 +34,6 @@ async function readFileSafe(filePath) {
   }
 }
 
-function parseFrontmatter(content) {
-  const m = content.match(/^---\n([\s\S]*?)\n---\n?/);
-  if (!m) {
-    return null;
-  }
-  return m[1];
-}
-
-function extractField(frontmatter, key) {
-  return frontmatter.match(new RegExp(`^${key}:\\s*(.+)\\s*$`, "m"))?.[1]?.trim() ?? "";
-}
-
-function parseTags(frontmatter) {
-  const lines = frontmatter.split("\n");
-  const idx = lines.findIndex((line) => /^tags:\s*$/.test(line));
-  if (idx === -1) {
-    return [];
-  }
-
-  const tags = [];
-  for (let i = idx + 1; i < lines.length; i += 1) {
-    const line = lines[i];
-    if (!/^\s*-\s+/.test(line)) {
-      break;
-    }
-    const m = line.match(/^\s*-\s+["']?(.+?)["']?\s*$/);
-    if (m?.[1]) {
-      tags.push(m[1]);
-    }
-  }
-  return tags;
-}
 
 function getSection(content, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

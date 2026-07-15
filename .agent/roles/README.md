@@ -45,6 +45,7 @@ Compatibility aliases remain at original paths in `.agent/roles/*.md`.
 ## Canonical Docs
 
 - `.agent/AGENT_CONTRACT.md` (roles, naming, handoff policy)
+- `.agent/workflows/external-review-agent-runbook.md` (step-by-step external PASS A -> PASS B -> translation -> QA flow)
 - `.agent/workflows/task-routing.md` (which role to run for each task type)
 - `.agent/workflows/prepublish-affiliate-gate.md` (release compliance gate)
 - `.memory_bank/roadmap.md` (phases and priorities)

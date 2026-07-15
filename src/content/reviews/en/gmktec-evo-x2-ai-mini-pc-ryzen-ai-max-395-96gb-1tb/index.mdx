@@ -1,0 +1,121 @@
+---
+title: "GMKtec EVO-X2 Review: Ryzen AI Max+ 395 in a Mini PC"
+description: "GMKtec EVO-X2 combines Ryzen AI Max+ 395, Radeon 8060S, 96GB LPDDR5X and a 1TB PCIe 4.0 SSD in a Wi-Fi 7 mini PC with dual USB4 and quad-display output."
+pubDate: 2026-03-21
+lastUpdated: 2026-03-21
+heroImage: "./image.webp"
+heroImageAlt: "GMKtec EVO-X2 Mini PC with Ryzen AI Max+ 395"
+ogImage: "./og.png"
+category: "ai-workstation"
+tags:
+  - "ai-workstation"
+  - "gmktec"
+  - "ryzen-ai-max"
+  - "mini-pc"
+socialPublish: true
+socialText: "The GMKtec EVO-X2 packs a 16-core Ryzen AI Max+ 395 and 96GB of RAM into a miniature form factor, aimed directly at local AI tasks and compute workloads."
+socialHighlights:
+  - "Stellar 16-core compute performance"
+  - "Massive 96GB LPDDR5X for local LLMs"
+  - "Quad 8K display support"
+asin: "B0FLDJBS79"
+amazonUrl: "https://amzn.to/4bF3Fx7"
+rating: 4.4
+priceCategory: "high"
+---
+
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import SpecGrid from '@/components/ui/SpecGrid.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import ProsCons from '@/components/ui/ProsCons.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
+
+<ReviewHero
+  image={heroImageSrc}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "CPU: AMD Ryzen AI Max+ 395 (16C/32T, up to 5.1 GHz)",
+    "GPU: Radeon 8060S Graphics (RDNA 3.5, 40 cores)",
+    "RAM: 96GB LPDDR5X-8000",
+    "Storage: 1TB PCIe 4.0 M.2 2280 SSD",
+    "Connectivity: 2x USB4, Wi-Fi 7, 2.5GbE"
+  ]}
+  asin={frontmatter.asin}
+  amazonUrl={frontmatter.amazonUrl}
+/>
+
+## GMKtec EVO-X2 at a glance
+The GMKtec EVO-X2 pairs AMD's Ryzen AI Max+ 395 with 96GB of LPDDR5X-8000 in a tightly packed 193mm chassis. That combination alone makes it unusual in the current overlap between mini PCs and AI-first workstations: you get a 16-core mobile-class processor, Radeon 8060S integrated graphics, and far more unified memory than most compact desktops offer. What the PASS A pack verifies cleanly is the hardware package itself, while real-world local-AI performance still depends on software support, thermal tuning, and the exact runtime you plan to use.
+
+> **Disclosure:** As an Amazon Associate, we earn from qualifying purchases.
+
+<SpecGrid specs={{
+  "CPU": "AMD Ryzen AI Max+ 395 (16C/32T, up to 5.1 GHz)",
+  "GPU": "Radeon 8060S Graphics (RDNA 3.5, 40 cores)",
+  "Memory": "96GB LPDDR5X-8000 (soldered)",
+  "Storage": "1TB PCIe 4.0 M.2 2280 NVMe SSD",
+  "Networking": "Wi-Fi 7, Bluetooth 5.4, 2.5GbE",
+  "Ports": "2x USB4, HDMI 2.1, DisplayPort 1.4, SD 4.0",
+  "Dimensions": "193 x 185.8 x 77 mm"
+}} />
+
+## AI Workloads and Compute Performance
+At the heart of the EVO-X2 is the Ryzen AI Max+ 395, with 16 cores and 32 threads boosting up to 5.1 GHz. For local AI experimentation, the more interesting detail is not a vendor benchmark but the memory footprint: 96GB of LPDDR5X-8000 gives this system more headroom than the average mini PC for models, datasets, and creator workloads that quickly exhaust smaller shared-memory designs. PASS A does not include standardized benchmarks for this exact 96GB/1TB SKU, so the safer takeaway is capability headroom rather than a guaranteed token-per-second result. The Radeon 8060S and dual USB4 setup make it better suited to modern inference-oriented workflows than a typical office mini PC, but software maturity still matters.
+
+## Memory Capacity and Thermals
+To achieve this memory footprint and speed, the 96GB capacity is entirely soldered down. That removes any practical RAM upgrade path, but it also aligns with the high-bandwidth memory design this APU expects. Thermal management uses a triple-fan cooling system inside a 77mm-tall chassis, and that compact design has a tradeoff: user feedback points to meaningful fan noise and the possibility of black-screen instability under heavier sustained loads. In practice, this looks less like a silent office box and more like a compact workstation that may reward fan-curve tuning and realistic workload expectations.
+
+## Expandability and Ports
+The EVO-X2 embraces extensive connectivity standard to modern workstations. Display output spans dual USB4, HDMI 2.1, and DisplayPort 1.4, which safely drives up to four displays simultaneously—including up to 8K resolution at 60Hz. Between the SD 4.0 card reader, 2.5GbE networking, and Wi-Fi 7 on the backend, peripheral attachment handles vast data ingestion effortlessly. Storage is handled out-of-the-box by a 1TB PCIe 4.0 NVMe drive, with a second M.2 2280 slot available for future expansion.
+
+<UserFeedback feedback={[
+  {
+    user: "SomeAcanthocephala17",
+    sentiment: "positive",
+    comment: "I run gpt-oss-120b q4 at 51 tokens per second on my Gmktec x2 with 64/6GB config on lmstudio (using vulcan runtime), but qwen3 next 80B A3B has much better knowledge and feels smarter while it is smaller, that one gives me 57 tokens per second. Everything above 20 tokens/sec is fine"
+  },
+  {
+    user: "RedAversion2025",
+    sentiment: "neutral",
+    comment: "A+ on form factor and size, my entire gaming setup now sits in my backpack with a travel monitor rather than needing an entire cabin bag to itself. B on noise. The little fans in this baby sound like the whole unit wants to lift on if you leave the bios, which is horrible by the way, to its own devices. It's best to set them manually to say 70 or 80% and let it be."
+  },
+  {
+    user: "thomthehound",
+    sentiment: "neutral",
+    comment: "I am mostly happy with my Evo X-2 128 GB, which I have had for about two and a half weeks. The performance is even better than I had expected. However, with what seems like increasing frequency, I end up with a black-screen crash during intensive workloads or when I try to play games on it. I thought it might be an overheating issue, so I opened it up and repasted with PTM7950 on the APU, fresh thermal putty on the DRAM, and Arctic thermal pads for the VRMs."
+  },
+  {
+    user: "Novelaa",
+    sentiment: "positive",
+    comment: "First of all, I picked up the GMKtec EVO-X2 because its the smallest PC that pack a great performance. The only thing that comes close to this in gaming is Minisforum G7 PT/Ti. Yes, I know you can pick up something with oculink and hook up an eGPU but I those sometimes comes with bugs or some other complications. I wanted something small and simple."
+  }
+]} />
+
+<ProsCons 
+  pros={[
+    "96GB LPDDR5X-8000 gives this system more memory headroom than most mini PCs",
+    "Ryzen AI Max+ 395 brings unusually high core count to a compact chassis",
+    "Generous IO offering dual USB4, 2.5GbE, and an SD 4.0 reader",
+    "Ability to easily drive up to four 4K or 8K displays simultaneously"
+  ]}
+  cons={[
+    "System memory is entirely soldered and not user-upgradeable",
+    "Factory fan profiles can get obnoxiously loud under heavy compute loads",
+    "Prolonged extreme workloads may require additional thermal mitigation",
+    "High premium positioned against modular ITX builds"
+  ]}
+/>
+
+## Verdict
+The GMKtec EVO-X2 makes its case through packaging rather than hard benchmark proof: a Ryzen AI Max+ 395, 96GB of fast LPDDR5X memory, dual USB4, and compact dimensions that are far more desk-friendly than a full tower. The tradeoffs are real too, including soldered memory, premium pricing, and a thermal/noise profile that sounds closer to a compact workstation than a quiet office mini PC. If you want a small system with unusually large memory headroom for local AI experiments, creator workflows, and heavy multitasking, it is a very interesting configuration. If you want guaranteed model-throughput leadership without tuning, PASS A does not support making that promise.
+
+## Related Reviews
+- [Apple Mac mini M4 (16GB/256GB) Review: 5x5 Desktop Power](/reviews/mac-mini-m4)
+- [ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)
+- [Beelink EQR6 (6800U) Review: 24GB RAM & Silent PSU](/reviews/beelink-ser5-max-6800u)
+
+<AffiliateButton asin={frontmatter.asin} amazonUrl={frontmatter.amazonUrl} label="View on Amazon" />

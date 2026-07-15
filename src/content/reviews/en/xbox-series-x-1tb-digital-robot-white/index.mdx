@@ -6,7 +6,11 @@ lastUpdated: 2026-01-11
 heroImage: "./image.webp"
 heroImageAlt: "Xbox Series X 1TB Digital Edition (Robot White) console with matching wireless controller"
 category: "consoles"
-tags: ["gaming", "xbox-series-x", "all-digital", "robot-white"]
+tags:
+  - "consoles"
+  - "xbox-series-x"
+  - "all-digital"
+  - "robot-white"
 socialPublish: true
 socialText: "All-digital Xbox Series X in Robot White: 1TB SSD, HDMI 2.1, and true 4K/120 targets—value depends on price and how you buy games."
 socialHighlights:
@@ -26,8 +30,10 @@ import UserFeedback from "@/components/ui/UserFeedback.astro";
 import ProsCons from "@/components/ui/ProsCons.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

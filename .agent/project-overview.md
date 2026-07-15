@@ -117,7 +117,7 @@ npm run preview  # Предпросмотр production build
 - `.memory_bank/ui_extension/README.md` - Документация шаблонов страниц и компонентов
 - `.agent/workflows/codebase_research.md` - Исследование кодовой базы
 - .agent/workflows/ - Workflow для автоматизации
-- prompts/translation-guide-v1.md - Руководство по переводу (RU/DE/FR)
+- prompts/archive/translation-guide-v1.md - Руководство по переводу (RU/DE/FR)
 
 ---
 

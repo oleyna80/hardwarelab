@@ -8,6 +8,7 @@ Use these templates to reduce ambiguity and speed up handoff between roles.
 - `coder-task.md`
 - `researcher-task.md`
 - `qa-task.md`
+- `research-pack-pass-a-example.md` — the only canonical PASS A format example
 
 ## Usage
 

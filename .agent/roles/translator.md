@@ -17,15 +17,21 @@ Create/update:
 ## 🧠 Skills
 - `.agent/skills/translation-integrity-check.md` (структурная и ссылочная целостность переводов)
 
+## Translation Tier Policy
+- Canonical policy: `.agent/workflows/translation-tier-policy.md`
+- Default assumption: most categories may temporarily ship as structural translations when the goal is package completeness.
+- Exception: `ai-workstation` requires **editor-grade localization** for publication-quality RU/DE/FR deliverables.
+
 ## Rules
 - ❌ Do not change the MDX structure, components, props, and frontmatter keys.
 - ❌ Do not add/modify facts, numbers, conclusions.
 - ✅ Translate text, preserving meaning.
+- ✅ For `ai-workstation`, do not stop at structural mirroring; localize as native editorial copy.
 - ✅ `category`, `tags`, `rating`, `priceCategory` — leave as in EN.
 - ✅ If in `_research-pack.md` there is `ASIN_DE` / `ASIN_FR` — **insert** them into the frontmatter of the corresponding translation:
   - DE: `asin: "B0XXXXXX"` (value of ASIN_DE)
   - FR: `asin: "B0YYYYYY"` (value of ASIN_FR)
-  - If ASIN for the region `absent` or not found — leave US ASIN from EN version.
+  - If the regional value is `absent` or not found — leave the EN review's existing `asin` value unchanged.
 - ✅ Internal links `/reviews/...` and their link text — **do not translate** and do not change (must match `prompts/existing-reviews-hardwarelab.md`).
 - ✅ UserFeedback quotes translate “faithful translation” (without original in brackets).
 

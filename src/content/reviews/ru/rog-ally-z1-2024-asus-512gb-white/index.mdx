@@ -5,8 +5,12 @@ pubDate: 2026-01-13
 lastUpdated: 2026-01-13
 heroImage: "./image.webp"
 heroImageAlt: "Портативная консоль ASUS ROG Ally Z1 в белом цвете с интерфейсом рабочего стола Windows 11"
-category: "gaming"
-tags: ["gaming", "asus", "handheld"]
+ogImage: "./og.png"
+category: "consoles"
+tags:
+  - "consoles"
+  - "asus"
+  - "handheld"
 socialPublish: true
 socialText: "ROG Ally Z1 (не Extreme) делает гейминг на Windows с частотой 120 Гц более доступным. Достаточно ли обычного чипа Z1 для AAA-игр?"
 socialHighlights:
@@ -23,10 +27,12 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
 import GamingPerformance from '@/components/ui/GamingPerformance.astro';
 
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
@@ -46,7 +52,7 @@ import GamingPerformance from '@/components/ui/GamingPerformance.astro';
 
 В основе устройства лежит процессор AMD Ryzen Z1 — кастомный чип Zen 4, разработанный специально для портативных систем. Он объединяет 6 ядер и 12 потоков с графикой RDNA 3, обеспечивая стабильную производительность 720p/1080p в легком корпусе весом 608 г. Главной звездой остается 7-дюймовый сенсорный экран 1080p 120 Гц с поддержкой FreeSync Premium, которая сглаживает игровой процесс даже при просадках частоты кадров.
 
-> **Раскрытие информации:** Как партнер Amazon, я получаю комиссию с соответствующих покупок.
+> **Disclosure:** Как партнер Amazon, я получаю комиссию с соответствующих покупок.
 
 <SpecGrid specs={{
   "Процессор": "AMD Ryzen Z1 (6 ядер/12 потоков, до 4,9 ГГц)",

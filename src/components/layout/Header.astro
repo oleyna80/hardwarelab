@@ -6,6 +6,7 @@ export interface Props {
 }
 
 const { lang = "en" } = Astro.props;
+const lp = (path: string) => lang === "en" ? path : `/${lang}${path}`;
 ---
 
 <header
@@ -14,7 +15,7 @@ const { lang = "en" } = Astro.props;
   <div class="container mx-auto px-4 py-4">
     <nav class="flex items-center justify-between">
       <a
-        href="/"
+        href={lp("/")}
         class="flex items-center gap-2 text-2xl font-bold text-accent-600 dark:text-accent-500 hover:opacity-80 transition-opacity"
       >
         <svg
@@ -33,25 +34,25 @@ const { lang = "en" } = Astro.props;
         <span>{t("siteName", lang)}</span>
       </a>
 
-      <div class="flex items-center gap-4 md:gap-6">
-        <a
-          href="/"
-          class="hover:text-accent-600 transition-colors hidden md:inline"
-        >
-          {t("home", lang)}
-        </a>
-        <a href="/reviews" class="hover:text-accent-600 transition-colors">
-          {t("reviews", lang)}
-        </a>
-        <a href="/categories" class="hover:text-accent-600 transition-colors">
-          {t("categories", lang)}
-        </a>
-        <a href="/about" class="hover:text-accent-600 transition-colors">
-          {t("about", lang)}
-        </a>
-        <a href="/contact" class="hover:text-accent-600 transition-colors">
-          {t("contact", lang)}
-        </a>
+      <div class="flex items-center gap-2 md:gap-4">
+        <!-- Desktop Links -->
+        <div class="hidden md:flex items-center gap-6">
+          <a href={lp("/")} class="hover:text-accent-600 transition-colors">
+            {t("home", lang)}
+          </a>
+          <a href={lp("/reviews")} class="hover:text-accent-600 transition-colors">
+            {t("reviews", lang)}
+          </a>
+          <a href={lp("/categories")} class="hover:text-accent-600 transition-colors">
+            {t("categories", lang)}
+          </a>
+          <a href={lp("/about")} class="hover:text-accent-600 transition-colors">
+            {t("about", lang)}
+          </a>
+          <a href={lp("/contact")} class="hover:text-accent-600 transition-colors">
+            {t("contact", lang)}
+          </a>
+        </div>
 
         <!-- Language Picker -->
         <div class="relative group">
@@ -128,8 +129,31 @@ const { lang = "en" } = Astro.props;
           <span class="dark:hidden">🌙</span>
           <span class="hidden dark:inline">☀️</span>
         </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button
+          id="mobile-menu-toggle"
+          class="md:hidden p-2 rounded-lg text-primary-600 dark:text-primary-300 hover:bg-primary-100 dark:hover:bg-primary-800 transition-colors"
+          aria-label="Toggle Menu"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon-open" class="block" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            <path id="menu-icon-close" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
       </div>
     </nav>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-primary-200 dark:border-primary-800 bg-white/95 dark:bg-primary-900/95 absolute w-full shadow-lg backdrop-blur-sm">
+    <div class="flex flex-col px-4 py-4 space-y-4">
+      <a href={lp("/")} class="block text-lg hover:text-accent-600 transition-colors">{t("home", lang)}</a>
+      <a href={lp("/reviews")} class="block text-lg hover:text-accent-600 transition-colors">{t("reviews", lang)}</a>
+      <a href={lp("/categories")} class="block text-lg hover:text-accent-600 transition-colors">{t("categories", lang)}</a>
+      <a href={lp("/about")} class="block text-lg hover:text-accent-600 transition-colors">{t("about", lang)}</a>
+      <a href={lp("/contact")} class="block text-lg hover:text-accent-600 transition-colors">{t("contact", lang)}</a>
+    </div>
   </div>
 </header>
 
@@ -159,4 +183,26 @@ const { lang = "en" } = Astro.props;
     // Preserve query + hash.
     window.location.href = `${newPath}${window.location.search}${window.location.hash}`;
   };
+
+  function initMobileMenu() {
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    if (mobileMenuToggle && mobileMenu && !mobileMenuToggle.hasAttribute('data-init')) {
+      mobileMenuToggle.setAttribute('data-init', 'true');
+      mobileMenuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        iconOpen?.classList.toggle('hidden');
+        iconClose?.classList.toggle('hidden');
+        iconOpen?.classList.toggle('block');
+        iconClose?.classList.toggle('block');
+      });
+    }
+  }
+
+  // Initialize menu toggles
+  document.addEventListener('DOMContentLoaded', initMobileMenu);
+  document.addEventListener('astro:page-load', initMobileMenu);
 </script>

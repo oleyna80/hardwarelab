@@ -24,7 +24,7 @@ const carouselReviews = reviews.slice(0, 3);
         {
             carouselReviews.map((review, index) => {
                 const { title, heroImage } = review.data;
-                const urlSlug = review.slug.split("/").pop();
+                const urlSlug = review.id.split("/").pop();
                 const reviewUrl = `/${lang === "en" ? "" : lang + "/"}reviews/${urlSlug}`;
                 const isFirstSlide = index === 0;
 

@@ -109,9 +109,14 @@ export function resolveAffiliateUrl(
     if (typeof asin === 'string') {
         if (!isMissing(asin)) {
             targetAsin = asin.trim();
-            targetRegion = 'us';
-            if (!['en', 'ru', 'us'].includes(parseLocale(lang))) {
-                isFallback = true;
+            // Use the regional store if the current language maps to a configured region (de, fr…)
+            // For English/Russian/non-configured locales, fall back to US
+            if (isConfiguredRegion(preferredRegion)) {
+                targetRegion = preferredRegion;
+                isFallback = false;
+            } else {
+                targetRegion = 'us';
+                isFallback = !['en', 'ru'].includes(parseLocale(lang));
             }
         }
         return buildAsinResult(targetAsin, targetRegion, isFallback);

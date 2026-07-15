@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 
 import Layout from "../../../layouts/Layout.astro";
 import ProductHeader from "@/components/ui/ProductHeader.astro";
@@ -10,11 +10,11 @@ const lang: Language = "ru";
 
 export async function getStaticPaths() {
   const reviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
-  const ruReviews = reviews.filter((review) => review.slug.startsWith("ru/"));
+  const ruReviews = reviews.filter((review) => review.id.startsWith("ru/"));
 
   // Генерируем параметры slug как часть после 'ru/'
   return ruReviews.map((review) => ({
-    params: { slug: review.slug.replace(/^ru\//, "") },
+    params: { slug: review.id.replace(/^ru\//, "") },
   }));
 }
 
@@ -26,13 +26,13 @@ const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.
 // Поддерживаем вложенные сегменты slug
 const slugString = Array.isArray(slug) ? slug.join("/") : slug;
 
-const review = allReviews.find((r) => r.slug === `ru/${slugString}`);
+const review = allReviews.find((r) => r.id === `ru/${slugString}`);
 
 if (!review) {
   return Astro.redirect("/404");
 }
 
-const { Content: ReviewContent } = await review.render();
+const { Content: ReviewContent } = await render(review);
 const frontmatter = review.data;
 ---
 

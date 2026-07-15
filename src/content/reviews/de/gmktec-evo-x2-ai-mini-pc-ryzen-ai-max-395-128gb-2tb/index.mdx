@@ -1,0 +1,145 @@
+---
+title: "GMKtec EVO-X2 im Test: Ryzen AI Max+ 395 Mini Beast"
+description: "Der GMKtec EVO-X2 kombiniert Ryzen AI Max+ 395, Radeon 8060S, 128GB LPDDR5X und eine 2TB PCIe-4.0-SSD in einem Mini-PC mit Wi‑Fi 7, zwei USB4 und Quad-Display-Support."
+pubDate: 2026-03-22
+lastUpdated: 2026-03-22
+heroImage: "./image.webp"
+heroImageAlt: "GMKtec EVO-X2 AI-Mini-PC mit Ryzen AI Max+ 395"
+ogImage: "./og.png"
+category: "ai-workstation"
+tags:
+  - "ai-workstation"
+  - "gmktec"
+  - "ryzen-ai-max"
+  - "mini-pc"
+socialPublish: true
+socialText: "Der GMKtec EVO-X2 kombiniert einen 16-Kern Ryzen AI Max+ 395 mit 128GB Speicher in einem kompakten Gehäuse und zielt auf lokale AI-Aufgaben, Creator-Workloads und schweres Multitasking."
+socialHighlights:
+  - "128GB LPDDR5X bieten seltenen Speicherspielraum für einen Mini-PC"
+  - "Ryzen AI Max+ 395 und Radeon 8060S im kompakten 193-mm-Gehäuse"
+  - "Dual USB4, 2.5GbE, SD 4.0 und Unterstützung für vier Displays"
+asin: "B0F6X332N6"
+rating: 4.0
+priceCategory: "high"
+---
+
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import SpecGrid from '@/components/ui/SpecGrid.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import ProsCons from '@/components/ui/ProsCons.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
+
+<ReviewHero
+  image={heroImageSrc}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "CPU: AMD Ryzen AI Max+ 395 (16 Kerne/32 Threads, bis zu 5.1 GHz)",
+    "GPU: Radeon 8060S Graphics (40 Grafikkerne)",
+    "RAM: 128GB LPDDR5X-8000",
+    "Speicher: 2TB PCIe 4.0 M.2 2280 SSD",
+    "Konnektivität: 2x USB4, Wi‑Fi 7, 2.5GbE"
+  ]}
+  asin={frontmatter.asin}
+/>
+
+> **Disclosure:** Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.
+
+## GMKtec EVO-X2 auf einen Blick
+Die 128GB / 2TB-Version des GMKtec EVO-X2 nutzt dieselbe kompakte Strix-Halo-Plattform, zielt aber auf einen ganz anderen Käufertyp als ein typischer Mini-PC. Sie bietet denselben Ryzen AI Max+ 395, dieselbe Radeon 8060S und dasselbe dichte 193-mm-Gehäuse, aber die eigentliche Geschichte dieser Konfiguration ist der Speicher: 128GB LPDDR5X-8000 sind in dieser Baugröße für sich genommen schon ungewöhnlich, und genau das verschiebt das System in Richtung AI-Workstation statt „nur kompakter Desktop“.
+
+<SpecGrid specs={{
+  "CPU": "AMD Ryzen AI Max+ 395 (16 Kerne/32 Threads, bis zu 5.1 GHz)",
+  "GPU": "Radeon 8060S Graphics (40 Grafikkerne, bis zu 2900 MHz)",
+  "Memory": "128GB LPDDR5X-8000 (verlötet)",
+  "Storage": "2TB PCIe 4.0 M.2 2280 NVMe SSD",
+  "Expansion": "Dual M.2 2280 Slots, bis zu 16TB insgesamt",
+  "Networking": "Wi‑Fi 7, Bluetooth 5.4, 2.5GbE",
+  "Ports": "2x USB4, HDMI 2.1, DisplayPort 1.4, SD 4.0",
+  "Dimensions": "193 x 185.8 x 77 mm"
+}} />
+
+## Was verändert 128GB gegenüber dem 96GB-Modell?
+Die kurze Antwort lautet: nicht die CPU-Geschwindigkeit. Chip, Grafik, I/O und Gehäuse entsprechen grundsätzlich dem kleineren EVO-X2, also steigt diese Konfiguration nicht plötzlich in eine andere Rohleistungsklasse auf. Was sich ändert, ist der Arbeitsraum. Im Vergleich zu unserem [GMKtec EVO-X2 Review: Ryzen AI Max+ 395 in a Mini PC](/reviews/gmktec-evo-x2-ai-mini-pc-ryzen-ai-max-395-96gb-1tb) bietet die 128GB-LPDDR5X-Version einen deutlich größeren Unified-Memory-Rahmen und verdoppelt die Basiskapazität der SSD auf 2TB, was für lokale AI-Experimente, größere Datensätze und weniger kompromissbehaftetes Model-Fit deutlich wichtiger ist als für klassische Office- oder HTPC-Nutzung.
+
+Genau diese Speichermenge macht das SKU 2026 interessant. Sie verändert die Ökonomie lokaler Experimente: Statt an einen kompakten Desktop zu denken, der nebenbei auch AI-Tools starten kann, bekommt man eine kleine Workstation mit so viel gemeinsamem Speicher, dass sie in Bezug auf praktische Modellkapazität mit deutlich größeren und teureren Multi-GPU-Builds konkurriert. Das macht den EVO-X2 nicht zum Ersatz für jede CUDA-orientierte Tower-Workstation, aber die 128GB-Version ist klar ambitionierter als das 96GB-Modell.
+
+## Reicht ROCm 2026 aus, oder bleibt CUDA die sicherere Wahl?
+Genau hier lässt sich der EVO-X2 am leichtesten überschätzen, wenn man nur auf die Speicherzahl schaut. Für reines Inference ist die Kombination aus 128GB LPDDR5X und Radeon 8060S genau das, was das System attraktiv macht: ungewöhnlich viel lokaler Modellspielraum in einem sehr kompakten Gehäuse, und Nutzerfeedback deutet bereits darauf hin, dass sich die Plattform sowohl bei Gaming als auch bei LLM-orientierten Aufgaben stärker anfühlt als erwartet. Die Reife des Software-Stacks bleibt jedoch entscheidend. AMD ROCm ist 2026 deutlich weiter als früher, verlangt aber oft noch mehr Geduld und mehr „Feinarbeit“ als der typische CUDA-Weg, wenn ein Workflow von breiter Framework-Unterstützung, Custom Kernels oder einem glatteren Training-Setup abhängt.
+
+Damit ist der EVO-X2 am leichtesten für lokale Inference, Experimente und schweres Multitasking rund um AI-Workloads zu rechtfertigen. Wenn jedoch Training-Zuverlässigkeit, weniger Kompatibilitätsüberraschungen oder die reifere Ökosystem-Geschichte im Vordergrund stehen, bleiben NVIDIA-Systeme meist die komfortablere Wahl. Anders gesagt: Der GMKtec gewinnt bei Speicherdichte im Kompaktformat, CUDA-Systeme häufig bei Software-Komfort.
+
+## Kann die Kühlung mit Strix Halo mithalten?
+Nicht leise. Eine der zentralen Realitäten der EVO-X2-Plattform ist, dass Strix Halo sehr viel Chipfläche für ein kleines Gehäuse bedeutet, besonders wenn man die Maschine für langes Inference, längere Creator-Render oder schwere kombinierte CPU/GPU-Last nutzt. GMKtec nennt eine Kühlung mit drei Lüftern und ein Netzteil mit rund 230W, und allein das zeigt schon, dass das Gerät nicht als leiser Office-Mini-PC gedacht ist. Nutzerfeedback bestätigt dieselbe Richtung: Mit Thermal-Tuning kann das System stabil und schnell sein, aber Lautstärke, BIOS-Rough-Edges und gelegentliche Black-Screen-Instabilität unter härterer Last gehören zum Gesamtbild.
+
+Die praktische Erwartung sollte daher „kompakte Workstation“ lauten und nicht „leiser Desktop“. Wenn Speicherdichte wichtiger ist und man Lüftergeräusche unter echter Last akzeptieren kann, ist der Trade-off nachvollziehbar. Wenn Lautlosigkeit wichtiger ist als maximale Speicherkapazität im kleinsten Volumen, ist eine größere oder akustisch konservativer ausgelegte Workstation die sicherere Richtung.
+
+## Anschlüsse, Display-Support und Erweiterbarkeit
+Der Rest des Pakets lässt sich deutlich einfacher mögen. Es gibt Dual USB4, HDMI 2.1, DisplayPort 1.4, SD 4.0, Wi‑Fi 7, Bluetooth 5.4 und 2.5GbE – genau die Art von I/O-Mix, die eine kleine Workstation im Alltag wirklich praktisch macht. GMKtec nennt außerdem zwei M.2-2280-Slots und bis zu 16TB Gesamtspeicher, sodass die mitgelieferte 2TB-SSD nur der Anfang ist, wenn lokale Bibliotheken, Datensätze oder Scratch Storage später wachsen sollen.
+
+Für Käufer, die ein kompaktes System irgendwo zwischen Homelab-Node, Creator-Workstation und AI-Testbox suchen, ist diese Portausstattung ein echter Pluspunkt. Die Plattform kann außerdem bis zu vier Displays mit einem angegebenen Maximum von 7680×4320 bei 60 Hz ansteuern und bleibt damit auch für Setups relevant, in denen mehr als ein Monitor und mehr als ein Nutzungsszenario zusammenkommen.
+
+<UserFeedback feedback={[
+  {
+    user: "bytepursuits",
+    sentiment: "positive",
+    comment: "Nach dem Austausch und etwas Thermal-Tuning bin ich jetzt vollkommen zufrieden mit dem EVO X2. Er ist stabil, leistungsstark, kompakt und bewältigt sowohl Gaming als auch LLM-Arbeit besser als erwartet."
+  },
+  {
+    user: "bytepursuits",
+    sentiment: "mixed",
+    comment: "Es gibt immer noch raue Kanten (BIOS, Lautstärke, Support-Infrastruktur), aber endlich habe ich das Gefühl, dass dieses Gerät sein Versprechen einlöst. Wenn GMKtec den OEM dazu bringt, Lüfterkurven-Steuerung zu liefern und die Support-Ressourcen aufzuräumen, könnte die EVO-Reihe in diesem Bereich wirklich herausragen."
+  },
+  {
+    user: "RedAversion2025",
+    sentiment: "mixed",
+    comment: "Ehrlich gesagt läuft Gaming wirklich gut, solange man nicht versucht, super anspruchsvolle 4k- oder 1440p-Titel zu spielen; wenn doch, sollte man die FSR-Funktion in Adrenalin nutzen. Und wenn ich ganz ehrlich bin: Falls dieses Ding jemals als bezahlbares Standalone-Mainboard für ein SFF-PC-Setup mit x16-PCIe-Slot erscheint, geht meine alte AM4-Plattform mit Warp 10 in den Müll."
+  },
+  {
+    user: "Novelaa",
+    sentiment: "positive",
+    comment: "Zunächst habe ich den GMKtec EVO-X2 gewählt, weil es der kleinste PC ist, der trotzdem starke Leistung bietet. Das Einzige, was ihm beim Gaming nahekommt, ist der Minisforum G7 PT/Ti."
+  },
+  {
+    user: "Novelaa",
+    sentiment: "mixed",
+    comment: "Beim Gaming habe ich nach vielen Tests bemerkt, dass jenseits von 50W die Leistung nicht mehr so stark steigt. Die 120W machen eigentlich nur bei CPU-intensiven Aufgaben einen Unterschied."
+  },
+  {
+    user: "BOQAR",
+    sentiment: "positive",
+    comment: "Ich habe einige Spiele getestet und die Leistung war erstaunlich. Ganz am Anfang gab es ein paar Fälle von zufälligem Stottern im Spiel."
+  }
+]} />
+
+<ProsCons
+  pros={[
+    "128GB LPDDR5X-8000 geben dem EVO-X2 ungewöhnlich viel Unified-Memory-Spielraum",
+    "Ryzen AI Max+ 395 bringt eine ernsthafte Kernzahl in ein kompaktes Workstation-Gehäuse",
+    "Dual USB4, 2.5GbE, SD 4.0 und Unterstützung für vier Displays machen das System vielseitig",
+    "2TB SSD ab Werk plus zwei M.2-Slots schaffen gute Grundlagen für lokale Bibliotheken"
+  ]}
+  cons={[
+    "ROCm-Workflows erfordern in der Praxis oft mehr Tuning als der entsprechende CUDA-Weg",
+    "Die kompakte Strix-Halo-Plattform kann unter langer Last laut werden",
+    "Der Speicher ist verlötet, langfristige Kapazität wird also von Anfang an mitgekauft",
+    "Der hohe Preis ergibt nur Sinn, wenn der zusätzliche Speicher wirklich genutzt wird"
+  ]}
+/>
+
+## Fazit
+Der GMKtec EVO-X2 in 128GB / 2TB-Ausführung ist nicht einfach nur das 96GB-Modell mit größeren Zahlen auf dem Karton. Das ist die Version, in der die Plattform wirklich wie eine kleine AI-Workstation wirkt und nicht bloß wie ein ungewöhnlich leistungsstarker Mini-PC. Chip, Wärmeentwicklung und die Software-Vorbehalte rund um ROCm versus CUDA bleiben dieselben, aber der größere Unified-Memory-Pool verändert tatsächlich, welche lokalen Workflows ohne deutlich größeres und teureres System sinnvoll werden.
+
+Wenn Ihr Hauptinteresse bei lokaler Inference, Experimenten und speicherlastigem Multitasking in einem möglichst kleinen Workstation-Gehäuse liegt, ist genau diese EVO-X2-Konfiguration die überzeugendste. Wenn dagegen leiser Betrieb, turnkey CUDA-Support oder der planbarste Weg in Custom-Kernel-Training Priorität haben, gibt es sicherere Optionen. Für Käufer, die Strix Halo gezielt wegen der Unified-Memory-Dichte wollen, wirkt das 128GB-Modell jedoch wie das eigentliche Statement-Produkt.
+
+## Related Reviews
+- [Apple Mac mini M4 (16GB/256GB) Review: 5x5 Desktop Power](/reviews/mac-mini-m4)
+- [Mac mini M4 Pro Review: 24GB/512GB + Gigabit Ethernet](/reviews/mac-mini-m4-pro-24gb-512gb)
+- [ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)
+- [Beelink EQR6 (6800U) Review: 24GB RAM & Silent PSU](/reviews/beelink-ser5-max-6800u)
+- [Beelink SER5 5500U Review: Ultimate Value 32GB/500GB](/reviews/beelink-ser5-5500u)
+
+<AffiliateButton asin={frontmatter.asin} label="Bei Amazon ansehen" />

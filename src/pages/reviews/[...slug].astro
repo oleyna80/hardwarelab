@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import ProductHeader from "@/components/ui/ProductHeader.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
@@ -9,11 +9,11 @@ export async function getStaticPaths() {
   const reviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
 
   // Фильтруем только EN обзоры (id начинается с 'en/')
-  const enReviews = reviews.filter((review) => review.slug.startsWith("en/"));
+  const enReviews = reviews.filter((review) => review.id.startsWith("en/"));
 
   // Генерируем параметры slug как часть после 'en/'
   const paths = enReviews.map((review) => {
-    const slug = review.slug.replace(/^en\//, "");
+    const slug = review.id.replace(/^en\//, "");
     return {
       params: { slug },
     };
@@ -30,13 +30,13 @@ const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.
 // Поддерживаем вложенные сегменты slug
 const slugString = Array.isArray(slug) ? slug.join("/") : slug;
 
-const review = allReviews.find((r) => r.slug === `en/${slugString}`);
+const review = allReviews.find((r) => r.id === `en/${slugString}`);
 
 if (!review) {
   return Astro.redirect("/404");
 }
 
-const { Content: ReviewContent } = await review.render();
+const { Content: ReviewContent } = await render(review);
 const frontmatter = review.data;
 
 ---

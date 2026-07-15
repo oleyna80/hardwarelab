@@ -8,6 +8,44 @@
 
 ## What Just Happened
 
+- ✅ **single-researcher role contract aligned with real PASS A outputs** (2026-03-20)
+  - Updated `.agent/roles/single-researcher.md` to require `hardware-accuracy-check` and normalize legacy `consoles` input to canonical `gaming` for new work.
+  - Clarified PASS A exception path for products without an exact amazon.com listing (`ASIN_US: absent` with verified non-US primary marketplace).
+  - Synced the role template with actual research-pack fields used in production (`ASIN_PRIMARY`, primary region, affiliate routing inputs, nullable rating fallback).
+  - Normalized quote-count policy across PASS A/PASS B docs to `4-6`, with `minimum 4` and `preferred 6`.
+  - Synced PASS B validation docs with the same non-US-primary ASIN exception to avoid rejecting valid packs during researcher intake.
+  - Synced remaining prompt/workflow docs (`master_prompt`, `review-workflow-two-pass`, `content-creation`) to the same primary-marketplace ASIN contract and quote-count policy.
+  - Updated `asin-hunter-protocol.md` to the same primary-marketplace rule so PASS A discovery no longer assumes `EN => amazon.com` as a hard requirement.
+  - Normalized quote-source policy across active prompts: verbatim quotes may come from Reddit, forums, or Amazon customer reviews, with direct permalinks and attributable users.
+  - Normalized category input contract: external PASS A now consistently requires explicit `CATEGORY`; auto-detection is documented only as internal/single-agent fallback.
+  - Split EN article readiness from EU translation/monetization readiness so missing EU ASINs no longer block an otherwise valid EN research pack.
+  - Rewrote `src/content/reviews/en/asus-rog-xbox-ally-7-1080p-512gb-white-2025/_research-pack.md` into the canonical strict PASS A template to avoid format drift from legacy example structure.
+  - Added a concise normalized PASS A contract summary to `.agent/roles/single-researcher.md` so the production shape is explicit in one place.
+  - Mirrored the same normalized PASS A contract summary into `prompts/review-workflow-two-pass.md` so the external prompt matches the role doc.
+  - Hardened the quote subsystem contract: partial review-UI failures are now treated as documentable limitations, while blocking occurs only when fewer than 4 quotes can actually be verified from accessible source pages.
+  - Added canonical workflow `.agent/workflows/quotes-evidence.md` and linked active role/prompt docs to it so quote rules now have a single source of truth.
+  - Added `.agent/templates/research-pack-pass-a-example.md` as the only canonical PASS A format example and marked historical `_research-pack.md` files as non-canonical format references.
+  - Strengthened the canonical PASS A example so `Claims & Sources` now visibly demonstrates 5-8 concrete claim/source pairs; this makes the source-backed claims discipline explicit instead of letting agents hide numeric facts only inside `Specs`.
+  - Tightened `Related Reviews` formatting rules across PASS A docs: parser-safe output is now explicitly defined as one bullet per line with exactly one Markdown link and no `Title -> /slug` legacy shorthand.
+  - Cleaned remaining quote-validator platform bias in `bootstrap_v_1_3_0.md`: correction language is now source-agnostic across Reddit, forums, and Amazon customer reviews, and the checklist count in that block was fixed from 3 to 4.
+  - Unified category contract wording across role/prompt docs: canonical enum is now explicitly the same 7 slugs everywhere, while `consoles` is documented only as a legacy input alias that normalizes to `gaming`.
+  - Removed stale `master_prompt_v_1_3_0.md` mandatory-language from bootstrap readiness/checklist blocks; bootstrap now consistently treats `master_prompt` as optional Pass B/reference input rather than a required startup file.
+  - Demoted `asin-hunter-protocol.md` to a clearly optional helper across bootstrap/quickstart/two-pass docs; it is no longer framed as part of the default startup contract.
+  - Normalized ASIN terminology across active docs: `ASIN_PRIMARY` for the verified primary marketplace card, `ASIN_US` for amazon.com status, and `EU ASINs` for regional mapping. Ambiguous phrases like `primary ASIN` were removed from active prompts where they could blur field names.
+  - Extended the same canonical ASIN field vocabulary into role/template helper docs (`single-researcher`, `researcher`, `researcher-task`, `asin-hunter-protocol`): use `ASIN_PRIMARY`, `ASIN_US`, and `ASINs by Region` instead of mixed phrases like `primary ASIN` or `regional ASINs`.
+  - Removed the remaining identity-vocabulary drift in active roles: `single-researcher` now describes non-US exceptions via `ASIN_PRIMARY`, and `translator` no longer uses legacy `US ASIN` wording.
+  - Clarified the frontmatter exception for `ai-workstation` build guides in `master_prompt_v_1_3_0.md`: the `no extra frontmatter fields` rule applies only to standard reviews, while build guides may explicitly require `reviewType: "build"` and build-specific data.
+  - Made that exception more explicit at writer-layer by adding a short two-profile rule in `master_prompt_v_1_3_0.md`: standard reviews use the base schema, while `ai-workstation` build guides use the allowed exception profile.
+  - Reduced quote-policy duplication across `single-researcher`, `bootstrap`, and `master_prompt`: local docs now keep only role-specific operational checks, while permalink/accessibility/blocked-UI/source policy is centralized in `.agent/workflows/quotes-evidence.md`.
+  - Reduced that duplication one step further: removed local quote examples and detailed source-policy restatements from `bootstrap`/`master_prompt`, leaving `quotes-evidence.md` as the only detailed quote-policy document.
+  - Extended the same duplication cleanup to `review-workflow-two-pass.md` and `user-quotes-guide.md`, so quote permalink/accessibility/source-handling rules now live only in `quotes-evidence.md`; other docs keep only short operational summaries.
+  - Added a canonical `Content Ownership Map` to `.agent/AGENT_CONTRACT.md` and linked it from `review-workflow-two-pass.md` so PASS A vs PASS B responsibilities are explicit for ASINs, specs, claims, quotes, SEO planning, related reviews, character counts, and affiliate routing.
+  - Linked that ownership map from the main entry prompts (`bootstrap_v_1_3_0.md`, `master_prompt_v_1_3_0.md`) so the one-page contract is reachable from both startup and writer layers.
+  - Added `.agent/workflows/external-review-agent-runbook.md` as a canonical step-by-step runbook for the external-agent review flow (`PASS A -> PASS B -> translation -> QA`) and linked it from `AGENT_CONTRACT`, `roles/README`, and `review-creation-full`.
+  - Cleaned EN-first scope in `master_prompt_v_1_3_0.md`: removed translation-specific quote instructions from the default writer flow and pointed localized quote behavior to `.agent/roles/translator.md` and `prompts/translation-guide-v1.md`.
+  - Closed the last observed freeze-blocker on the `asus-rog-xbox-ally-7-1080p-512gb-white-2025` dry-run: aligned PASS B `UserFeedback` quotes in `index.mdx` to exact PASS A verbatim text from `_research-pack.md`, after which `check:researcher-output`, `check:review-package`, and full `npm run build` all passed on the same case.
+  - Updated upload/required-file guidance in bootstrap and quickstart docs to reflect the real PASS A architecture: bootstrap prompt, `single-researcher` contract, published reviews list, and optional canonical PASS A example.
+  - Normalized SEO ownership: PASS A no longer implies a mandatory standalone SEO keywords block; writer-side SEO planning is derived from ASIN-locked identity and verified claims in bootstrap/master prompt flow.
 - ✅ **Monitoring hardening closed with confirmed external delivery** (2026-03-08)
   - Added and validated `UPTIME_ALERT_WEBHOOK` repository secret for `oleyna80/hardwarelab`.
   - Synthetic run `22819993255` reached expected failure path and completed webhook step successfully (`Send optional webhook alert`).
@@ -209,3 +247,39 @@
 ← [projectbrief.md](projectbrief.md) — цели и рамки  
 ← [productContext.md](productContext.md) — аудитория  
 ← [techContext.md](techContext.md) — инфраструктура
+## 2026-03-21 - Category contract update: `ai-workstation` vs `mini-pc`
+
+- Reframed `ai-workstation` as a first-class product category for AI-first workstation systems and local-AI boxes, not just build guides.
+- Kept build guides as a subtype inside `ai-workstation`, marked in Pass B via `reviewType: "build"` only when the article is explicitly a build guide.
+- Updated `master_prompt_v_1_3_0.md`, `hardwarelab_quickstart.md`, and `review-workflow-two-pass.md` so `mini-pc` remains the general compact-desktop lane while `ai-workstation` covers inference/modeling-oriented systems.
+- Updated the GMKtec EVO-X2 PASS A pack to keep `Category: ai-workstation`, fix the `Ryzen AI` product-name typo, and normalize quote sentiment values to the canonical enum.
+
+## 2026-03-21 - Quotes sentiment mix clarified
+
+- Clarified in `.agent/workflows/quotes-evidence.md` that sentiment mix is editorially desirable but not a hard requirement.
+- Negative quotes are not mandatory; do not force synthetic balance when verified evidence is mostly positive or neutral.
+- The only strict PASS A quote gate remains the minimum verified quote count and source-verifiability contract.
+
+## 2026-03-22 - `mixed` added to canonical quote sentiment enum
+
+- Extended the canonical quote sentiment enum to `positive | neutral | negative | mixed`.
+- `mixed` is now explicitly allowed when a quote carries both meaningful positive and negative signal and reducing it to `neutral` would lose information.
+- Synced `.agent/workflows/quotes-evidence.md`, `.agent/roles/single-researcher.md`, and the `UserFeedback` type note in `prompts/master_prompt_v_1_3_0.md`.
+## 2026-03-22 - Category contract split: `consoles` vs `gaming`
+
+- Promoted `consoles` back into the canonical active category enum instead of treating it as a legacy alias.
+- New canonical meaning:
+  - `consoles` = gaming consoles and handheld gaming systems (Xbox, PlayStation, Steam Deck, ROG Ally class)
+  - `gaming` = gaming laptops and gaming-focused computers outside the `gaming-pcs` desktop-prebuilt lane
+  - `gaming-pcs` = ready-made desktop gaming PCs from manufacturers
+- Synced active prompts, role docs, bootstrap helpers, and existing-reviews generation to the 8-category contract.
+- Reclassified `asus-rog-xbox-ally-7-1080p-512gb-white-2025` from `gaming` to `consoles` across locales so registry output matches the new category meaning.
+
+## 2026-03-22 - Console metadata cleanup after category split
+
+- Normalized console/frontmatter metadata on legacy review files so `tags[0]` matches `category: consoles`.
+- Fixed `ROG Ally`, `Steam Deck OLED`, and Xbox EN reviews that still carried `gaming` as the leading tag after the category split.
+- Added missing `category: consoles` and parser-safe `tags` blocks to `playstation-5-disc-slim` locale files.
+- Regenerated `prompts/existing-reviews-hardwarelab.md` after the cleanup.
+- Closed the old console translation debt structurally by creating the missing `ru/de/fr` review files for `steam-deck-oled`, `xbox-series-s-robot-white`, `xbox-series-x-1tb-carbon-black`, `xbox-series-x-1tb-digital-robot-white`, `xbox-series-x-2tb-galaxy-black`, and `playstation-5-pro`, then syncing `image.webp`/`og.png` via the canonical asset-copy script.
+- `rog-ally-z1-2024-asus-512gb-white` is now package-green after locale `ogImage` fixes and disclosure-prefix normalization.

@@ -1,0 +1,119 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../../layouts/Layout.astro";
+import ReviewCard from "@/components/ui/ReviewCard.astro";
+import { t, type Language } from "@/utils/i18n";
+
+const lang: Language = "ru";
+
+const allReviews = await getCollection("reviews", ({ data }) => import.meta.env.DEV ? true : !data.draft);
+const reviews = allReviews
+    .filter((review) => review.id.startsWith("ru/"))
+    .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+
+const byCategory = (cat: string) => reviews.filter((r) => r.data.category === cat);
+
+const categoryList = [
+    { slug: "mini-pc", label: "Мини-ПК", icon: "🖥️" },
+    { slug: "consoles", label: "Консоли", icon: "🎮" },
+    { slug: "monitors", label: "Мониторы", icon: "📺" },
+    { slug: "nas", label: "NAS", icon: "🗄️" },
+    { slug: "sbc", label: "SBC", icon: "🛠️" },
+    { slug: "ai-workstation", label: "ИИ-рабочие станции", icon: "🤖" },
+];
+
+const pageTitle = "Все обзоры железа | HardwareLab";
+const pageDescription = "Все наши подробные обзоры железа. Экспертный анализ мини-ПК, игровых консолей, мониторов, NAS-систем, SBC и ИИ-рабочих станций.";
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+    <div class="fade-in">
+        <section class="text-center py-16">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Все обзоры
+            </h1>
+            <p class="text-xl text-primary-600 dark:text-primary-400 max-w-3xl mx-auto mb-8">
+                Экспертные, подробные обзоры новейшего компьютерного железа. Честный анализ для взвешенных решений о покупке.
+            </p>
+            <div class="flex items-center justify-center gap-2 text-sm text-primary-500 dark:text-primary-400">
+                <a href="/ru/" class="hover:text-accent-600 transition-colors">Главная</a>
+                <span>›</span>
+                <span class="text-primary-700 dark:text-primary-300">Все обзоры</span>
+            </div>
+        </section>
+
+        <section class="py-6 mb-8">
+            <div class="flex flex-wrap items-center justify-center gap-6 text-center">
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl font-bold text-accent-600 dark:text-accent-400">{reviews.length}</span>
+                    <span class="text-primary-600 dark:text-primary-400">Обзоров</span>
+                </div>
+                <div class="hidden md:block w-px h-8 bg-primary-300 dark:bg-primary-700"></div>
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl font-bold text-accent-600 dark:text-accent-400">{categoryList.length}</span>
+                    <span class="text-primary-600 dark:text-primary-400">Категорий</span>
+                </div>
+                <div class="hidden md:block w-px h-8 bg-primary-300 dark:bg-primary-700"></div>
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl font-bold text-accent-600 dark:text-accent-400">100%</span>
+                    <span class="text-primary-600 dark:text-primary-400">Честно</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-center">Обзоры по категориям</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                {categoryList.map((cat) => (
+                    <a
+                        href={`/ru/categories/${cat.slug}`}
+                        class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                    >
+                        <div class="text-3xl mb-2 group-hover:text-white">{cat.icon}</div>
+                        <h3 class="font-bold text-sm group-hover:text-white mb-1">{cat.label}</h3>
+                        <p class="text-xs text-primary-600 dark:text-primary-400 group-hover:text-white/80">
+                            {byCategory(cat.slug).length} обзоров
+                        </p>
+                    </a>
+                ))}
+            </div>
+        </section>
+
+        <section class="py-8">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-3xl font-bold">{t("latestReviews", lang)}</h2>
+                <div class="text-sm text-primary-600 dark:text-primary-400">Сортировка по дате</div>
+            </div>
+            {reviews.length > 0 ? (
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {reviews.map((review) => <ReviewCard review={review} lang={lang} />)}
+                </div>
+            ) : (
+                <div class="text-center py-16">
+                    <div class="text-6xl mb-4">📝</div>
+                    <h2 class="text-2xl font-bold mb-4">Обзоров пока нет</h2>
+                    <p class="text-primary-600 dark:text-primary-400">{t("noReviews", lang)}</p>
+                </div>
+            )}
+        </section>
+
+        <section class="py-16 mt-12 text-center bg-gradient-to-r from-primary-100 to-accent-100 dark:from-primary-900 dark:to-accent-900/30 rounded-3xl">
+            <h2 class="text-3xl font-bold mb-4">{t("stayUpdated", lang)}</h2>
+            <p class="text-xl text-primary-600 dark:text-primary-400 max-w-2xl mx-auto mb-8">
+                {t("newsletterDescription", lang)}
+            </p>
+            <form class="max-w-md mx-auto flex gap-2">
+                <input
+                    type="email"
+                    placeholder={t("emailPlaceholder", lang)}
+                    class="flex-grow px-4 py-3 rounded-lg border border-primary-300 dark:border-primary-700 bg-white dark:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-accent-500"
+                    required
+                />
+                <button type="submit" class="px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors whitespace-nowrap">
+                    {t("subscribe", lang)}
+                </button>
+            </form>
+            <p class="text-sm text-primary-500 dark:text-primary-400 mt-4">{t("noSpam", lang)}</p>
+        </section>
+    </div>
+</Layout>

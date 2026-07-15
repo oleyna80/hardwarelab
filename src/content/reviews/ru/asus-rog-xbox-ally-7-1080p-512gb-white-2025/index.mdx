@@ -6,8 +6,8 @@ lastUpdated: 2026-01-12
 heroImage: "./image.webp"
 heroImageAlt: "Портативная игровая консоль ASUS ROG Xbox Ally Z2 A в белом цвете"
 ogImage: "./og.png"
-category: "gaming"
-tags: ["gaming", "handheld", "rog-ally", "ryzen-z2-a", "xbox"]
+category: "consoles"
+tags: ["consoles", "handheld", "rog-ally", "ryzen-z2-a", "xbox"]
 socialPublish: true
 asin: "B0FM6C3ZMN"
 rating: 4.3
@@ -20,8 +20,10 @@ import UserFeedback from "@/components/ui/UserFeedback.astro";
 import ProsCons from "@/components/ui/ProsCons.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

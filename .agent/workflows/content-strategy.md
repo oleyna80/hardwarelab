@@ -114,7 +114,7 @@ Track in `content/schedule.md`:
    - Temperature/noise (if applicable)
 
 4. **User Feedback** (`<UserFeedback />`)
-   - 3+ real opinions from Reddit/forums
+   - 3+ real opinions from Reddit / forums / Amazon customer reviews
    - Mix of positive/negative
 
 5. **Pros & Cons** (`<ProsCons />`)

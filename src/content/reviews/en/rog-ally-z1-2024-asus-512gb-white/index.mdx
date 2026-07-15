@@ -5,8 +5,12 @@ pubDate: 2026-01-13
 lastUpdated: 2026-01-13
 heroImage: "./image.webp"
 heroImageAlt: "ASUS ROG Ally Z1 white handheld console showing Windows 11 desktop interface"
+ogImage: "./og.png"
 category: "consoles"
-tags: ["gaming", "asus", "handheld"]
+tags:
+  - "consoles"
+  - "asus"
+  - "handheld"
 socialPublish: true
 socialText: "The ROG Ally Z1 (Non-Extreme) brings 120Hz Windows gaming to a more accessible price point. Is the vanilla Z1 chip enough for AAA gaming?"
 socialHighlights:
@@ -23,10 +27,12 @@ import SpecGrid from '@/components/ui/SpecGrid.astro';
 import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
 import GamingPerformance from '@/components/ui/GamingPerformance.astro';
 
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

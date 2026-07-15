@@ -6,7 +6,10 @@ lastUpdated: 2026-01-11
 heroImage: "./image.webp"
 heroImageAlt: "Xbox Series S 1TB (Robot White) console with wireless controller"
 category: "consoles"
-tags: ["gaming", "xbox-series-s", "1tb-ssd"]
+tags:
+  - "consoles"
+  - "xbox-series-s"
+  - "1tb-ssd"
 socialPublish: true
 asin: "B0D934SHFG"
 rating: 4.4
@@ -21,8 +24,10 @@ import UserFeedback from "@/components/ui/UserFeedback.astro";
 import ProsCons from "@/components/ui/ProsCons.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

@@ -1,0 +1,121 @@
+---
+title: "GMKtec EVO-X2 im Test: Ryzen AI Max+ 395 im Mini-PC"
+description: "Der GMKtec EVO-X2 kombiniert Ryzen AI Max+ 395, Radeon 8060S, 96GB LPDDR5X und 1TB PCIe-4.0-SSD in einem Mini-PC mit Wi‑Fi 7, zwei USB4 und Quad-Display-Support."
+pubDate: 2026-03-21
+lastUpdated: 2026-03-21
+heroImage: "./image.webp"
+heroImageAlt: "GMKtec EVO-X2 Mini-PC mit Ryzen AI Max+ 395"
+ogImage: "./og.png"
+category: "ai-workstation"
+tags:
+  - "ai-workstation"
+  - "gmktec"
+  - "ryzen-ai-max"
+  - "mini-pc"
+socialPublish: true
+socialText: "Der GMKtec EVO-X2 bringt einen 16-Kern Ryzen AI Max+ 395 und 96GB Speicher in ein sehr kompaktes Gehäuse und zielt auf lokale AI-Aufgaben und schwere Compute-Workloads."
+socialHighlights:
+  - "16-Kern Ryzen AI Max+ 395 im kompakten Gehäuse"
+  - "96GB LPDDR5X bieten seltenen Spielraum für einen Mini-PC"
+  - "Dual USB4 und Unterstützung für bis zu vier Displays in 8K"
+asin: "B0FK2299GS"
+amazonUrl: "https://amzn.to/4rLNVhC"
+rating: 4.4
+priceCategory: "high"
+---
+
+import ReviewHero from '@/components/ui/ReviewHero.astro';
+import SpecGrid from '@/components/ui/SpecGrid.astro';
+import UserFeedback from '@/components/ui/UserFeedback.astro';
+import ProsCons from '@/components/ui/ProsCons.astro';
+import AffiliateButton from '@/components/ui/AffiliateButton.astro';
+
+import heroImageSrc from './image.webp';
+
+<ReviewHero
+  image={heroImageSrc}
+  imageAlt={frontmatter.heroImageAlt}
+  rating={frontmatter.rating}
+  priceCategory={frontmatter.priceCategory}
+  keySpecs={[
+    "CPU: AMD Ryzen AI Max+ 395 (16 Kerne/32 Threads, bis zu 5.1 GHz)",
+    "GPU: Radeon 8060S Graphics (RDNA 3.5, 40 Kerne)",
+    "RAM: 96GB LPDDR5X-8000",
+    "Speicher: 1TB PCIe 4.0 M.2 2280 SSD",
+    "Konnektivität: 2× USB4, Wi‑Fi 7, 2.5GbE",
+  ]}
+  asin={frontmatter.asin}
+  amazonUrl={frontmatter.amazonUrl}
+/>
+
+## GMKtec EVO-X2 auf einen Blick
+Der GMKtec EVO-X2 kombiniert AMDs Ryzen AI Max+ 395 mit 96GB LPDDR5X-8000 in einem dicht gepackten 193-mm-Gehäuse. Allein diese Kombination macht das System im aktuellen Überschneidungsbereich zwischen Mini-PC und AI-first Workstation ungewöhnlich: ein 16-Kern-Prozessor der Mobilklasse, integrierte Radeon-8060S-Grafik und deutlich mehr gemeinsamer Speicher als die meisten kompakten Desktops bieten. Was der PASS-A-Pack sauber bestätigt, ist das Hardware-Paket selbst; die reale lokale AI-Leistung hängt weiterhin von Software-Support, Thermik und der konkreten Runtime ab.
+
+> **Disclosure:** Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.
+
+<SpecGrid specs={{
+  "CPU": "AMD Ryzen AI Max+ 395 (16 Kerne/32 Threads, bis zu 5.1 GHz)",
+  "GPU": "Radeon 8060S Graphics (RDNA 3.5, 40 Kerne)",
+  "Memory": "96GB LPDDR5X-8000 (on-board)",
+  "Storage": "1TB PCIe 4.0 M.2 2280 NVMe SSD",
+  "Networking": "Wi‑Fi 7, Bluetooth 5.4, 2.5GbE",
+  "Ports": "2× USB4, HDMI 2.1, DisplayPort 1.4, SD 4.0",
+  "Dimensions": "193 x 185.8 x 77 mm"
+}} />
+
+## AI-Workloads und Compute-Profil
+Im Zentrum des EVO-X2 steckt der Ryzen AI Max+ 395 mit 16 Kernen und 32 Threads, der bis zu 5.1 GHz erreicht. Für lokale AI-Experimente ist hier weniger ein Marketing-Benchmark entscheidend als der Speicherausbau: 96GB LPDDR5X-8000 geben dem System mehr Spielraum als einem durchschnittlichen Mini-PC, wenn Modelle, Datensätze und Creator-Workloads kleinere Shared-Memory-Designs schnell ausreizen. PASS A enthält keine standardisierten Benchmarks für genau dieses 96GB/1TB-SKU, daher ist die sichere Aussage eher vorhandener Konfigurationsspielraum als ein garantierter Token-pro-Sekunde-Wert. Radeon 8060S und die beiden USB4-Ports machen das Gerät für moderne Inference-orientierte Workflows geeigneter als einen typischen Office-Mini-PC, aber Software-Reife bleibt wichtig.
+
+## Speicher, Kühlung und praktische Grenzen
+Um diese Speicherkapazität und Geschwindigkeit zu erreichen, sind die 96GB vollständig verlötet. Das nimmt den praktischen RAM-Upgrade-Pfad, passt aber zum High-Bandwidth-Memory-Ansatz dieses APU-Designs. Für die Kühlung arbeitet ein Triple-Fan-System in einem 77 mm hohen Gehäuse, und diese dichte Bauform hat ihren Preis: Nutzerfeedback weist auf deutlich hörbare Lüfter und mögliche Black-Screen-Probleme unter schwerer Dauerlast hin. In der Praxis wirkt das Gerät daher eher wie eine kompakte Workstation als wie ein leiser Office-Mini-PC, und Lüfterkurven-Tuning sowie realistische Erwartung an Dauerlast können sinnvoll sein.
+
+## Anschlüsse und Erweiterbarkeit
+Der EVO-X2 bietet eine Anschlussausstattung, die gut zu einem modernen kompakten Workstation-Szenario passt. Für die Bildausgabe stehen zwei USB4, HDMI 2.1 und DisplayPort 1.4 bereit, sodass man sicher von bis zu vier gleichzeitigen Displays sprechen kann, inklusive eines 8K-Modus bei 60 Hz. Ein SD-4.0-Kartenleser, 2.5GbE und Wi‑Fi 7 machen das System ebenso praktisch für Peripherie wie für schnelle Netzwerk-Workflows. Die Basiskonfiguration startet mit einer 1TB PCIe-4.0-NVMe-SSD, und in den GMKtec-Unterlagen wird zusätzlich ein zweiter M.2-2280-Slot für spätere Erweiterungen genannt.
+
+<UserFeedback feedback={[
+  {
+    user: "SomeAcanthocephala17",
+    sentiment: "positive",
+    comment: "Auf meinem Gmktec x2 mit 64/6GB-Konfiguration läuft gpt-oss-120b q4 in lmstudio (mit vulcan runtime) mit 51 Token pro Sekunde, aber qwen3 next 80B A3B hat viel besseres Wissen und wirkt klüger, obwohl es kleiner ist, und dieses Modell liefert 57 Token pro Sekunde. Alles über 20 Token/Sek. ist völlig in Ordnung."
+  },
+  {
+    user: "RedAversion2025",
+    sentiment: "neutral",
+    comment: "A+ für Formfaktor und Größe, mein gesamtes Gaming-Setup passt jetzt zusammen mit einem Reise-Monitor in meinen Rucksack, statt einen ganzen Kabinentrolley für sich zu brauchen. B für die Lautstärke. Die kleinen Lüfter in diesem Ding klingen so, als wollte die ganze Einheit abheben, wenn man das BIOS, das übrigens schrecklich ist, selbst arbeiten lässt. Am besten setzt man sie manuell auf etwa 70 oder 80 % und lässt es dann so."
+  },
+  {
+    user: "thomthehound",
+    sentiment: "neutral",
+    comment: "Ich bin mit meinem Evo X-2 128 GB größtenteils zufrieden, den ich jetzt seit etwa zweieinhalb Wochen habe. Die Leistung ist sogar besser, als ich erwartet hatte. Allerdings habe ich anscheinend immer häufiger Black-Screen-Abstürze bei intensiven Workloads oder wenn ich darauf spiele. Ich dachte, es könnte ein Überhitzungsproblem sein, also habe ich ihn geöffnet und PTM7950 auf die APU aufgetragen, frisches Thermal Putty auf den DRAM und Arctic Thermal Pads für die VRMs."
+  },
+  {
+    user: "Novelaa",
+    sentiment: "positive",
+    comment: "Zunächst einmal habe ich den GMKtec EVO-X2 gewählt, weil es der kleinste PC ist, der trotzdem eine starke Leistung bietet. Das Einzige, was ihm beim Gaming nahekommt, ist der Minisforum G7 PT/Ti. Ja, ich weiß, dass man etwas mit oculink nehmen und eine eGPU anschließen kann, aber das bringt oft Bugs oder andere Komplikationen mit sich. Ich wollte etwas Kleines und Einfaches."
+  }
+]} />
+
+<ProsCons
+  pros={[
+    "96GB LPDDR5X-8000 geben dem System mehr Speicherspielraum als den meisten Mini-PCs",
+    "Ryzen AI Max+ 395 bringt eine ungewöhnlich hohe Kernzahl in ein kompaktes Gehäuse",
+    "Großzügige I/O mit Dual USB4, 2.5GbE und SD-4.0-Kartenleser",
+    "Kann problemlos bis zu vier 4K- oder 8K-Displays gleichzeitig ansteuern"
+  ]}
+  cons={[
+    "Der Speicher ist vollständig verlötet und nicht aufrüstbar",
+    "Die ab Werk gesetzten Lüfterprofile können unter schwerer Last sehr laut werden",
+    "Bei extremer Dauerlast kann zusätzliches Thermal Tuning sinnvoll sein",
+    "Hohe Preispositionierung gegenüber modularen ITX-Builds"
+  ]}
+/>
+
+## Fazit
+Der GMKtec EVO-X2 überzeugt vor allem über seine Konfiguration, nicht über bereits bewiesene Benchmark-Dominanz: ein Ryzen AI Max+ 395, 96GB schneller LPDDR5X-Speicher, Dual USB4 und kompakte Abmessungen, die deutlich schreibtischfreundlicher sind als ein voller Tower. Die Kompromisse sind ebenfalls klar: verlöteter Speicher, hoher Preis und ein Thermik-/Lautstärkeprofil, das eher an eine kompakte Workstation als an einen leisen Office-Mini-PC erinnert. Wenn Sie ein kleines System mit ungewöhnlich viel Speicherspielraum für lokale AI-Experimente, Creator-Workloads und schweres Multitasking suchen, ist diese Konfiguration sehr interessant. Wenn Sie hingegen garantierte Spitzenwerte beim Model-Throughput ohne Tuning wollen, gibt PASS A dafür keine belastbare Grundlage.
+
+## Related Reviews
+- [Apple Mac mini M4 (16GB/256GB) Review: 5x5 Desktop Power](/reviews/mac-mini-m4)
+- [ASUS Intel NUC 13 Pro Review: Thunderbolt 4 for Homelabs](/reviews/asus-intel-nuc-13-pro)
+- [Beelink EQR6 (6800U) Review: 24GB RAM & Silent PSU](/reviews/beelink-ser5-max-6800u)
+
+<AffiliateButton asin={frontmatter.asin} amazonUrl={frontmatter.amazonUrl} label="Bei Amazon ansehen" />

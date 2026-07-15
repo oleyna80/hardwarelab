@@ -7,7 +7,7 @@ heroImage: "./image.webp"
 heroImageAlt: "ASUS ROG Xbox Ally Z2 A handheld gaming PC in white"
 ogImage: "./og.png"
 category: "consoles"
-tags: ["gaming", "handheld", "rog-ally", "ryzen-z2-a", "xbox"]
+tags: ["consoles", "handheld", "rog-ally", "ryzen-z2-a", "xbox"]
 socialPublish: true
 asin: "B0FM6C3ZMN"
 rating: 4.3
@@ -20,8 +20,10 @@ import UserFeedback from "@/components/ui/UserFeedback.astro";
 import ProsCons from "@/components/ui/ProsCons.astro";
 import AffiliateButton from "@/components/ui/AffiliateButton.astro";
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
@@ -87,25 +89,25 @@ For wireless, **Wi‑Fi 6E** is the most meaningful inclusion for crowded home n
       user: "Enrique Estrada (Amazon US)",
       sentiment: "positive",
       comment:
-        "“I’ve been using the ally for a while now and I’m really impressed. For a handheld gaming PC, it offers great value and feels well worth the price. The performance and screen quality stand out, especially compared to other devices in this category.”",
+        "I've been using the ally for a while now and I'm really impressed. For a handheld gaming PC, it offers great value and feels well worth the price. The performance and screen quality stand out, especially compared to other devices in this category.",
     },
     {
       user: "Shane (Amazon CA)",
       sentiment: "positive",
       comment:
-        "“Got it a day late which is whatever but the actual device was pretty good. Plays both Xbox and Steam games and it's super easy to switch between them also can setup Discord on it as well, not to mention you can install Ubisoft, EA and Epics store.”",
+        "Got it a day late which is whatever but the actual device was pretty good. Plays both Xbox and Steam games and it's super easy to switch between them also can setup Discord on it as well, not to mention you can install Ubisoft, EA and Epics store. Did a full gaming day on max settings playing some decently intensive games performance wise and handled it perfectly outside of a little bit of lag.",
     },
     {
       user: "Jeremy (Amazon CA)",
       sentiment: "positive",
       comment:
-        "“This is my first major gaming handheld and so far it’s a very nice unit. So far all my Xbox/pc/steam games I have installed have worked flawlessly. The Xbox inspired grips are very ergonomic and comfortable to hold.”",
+        "This is my first major gaming handheld and so far it's a very nice unit. So far all my Xbox/pc/steam games I have installed have worked flawlessly. The Xbox inspired grips are very ergonomic and comfortable to hold.",
     },
     {
       user: "JaiD (Amazon CA)",
       sentiment: "negative",
       comment:
-        "“I was excited to get this, but I have really struggled with how underpowered it is. Launching games from Steam and Xbox takes forever and the controls that we usually have with windows seem to be absent, like multiple windows.”",
+        "I was excited to get this, but I have really struggled with how underpowered it is. Launching games from Steam and Xbox takes forever and the controls that we usually have with windows seem to be absent, like multiple windows. I've also had a lot of random errors, like games not launching without reason.",
     },
   ]}
 />

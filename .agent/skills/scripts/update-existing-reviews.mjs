@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { CATEGORIES } from "./_categories.mjs";
 
 /**
  * Update Existing Reviews List
@@ -126,7 +127,7 @@ When adding internal links in reviews, **copy-paste** the exact URL and title fr
     // Add by category
     output += `\n---\n\n## By Category\n`;
 
-    const categoryOrder = ['gaming', 'gaming-pcs', 'monitors', 'ai-workstation', 'mini-pc', 'nas', 'sbc'];
+    const categoryOrder = CATEGORIES;
 
     for (const category of categoryOrder) {
         if (byCategory[category] && byCategory[category].length > 0) {

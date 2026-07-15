@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { parseFrontmatter, extractField, parseTags } from "./_utils.mjs";
 
 const ROOT = process.cwd();
 const LOCALES = ["en", "ru", "de", "fr"];
@@ -32,27 +33,6 @@ async function readFileSafe(filePath) {
   } catch {
     return "";
   }
-}
-
-function parseFrontmatter(content) {
-  const m = content.match(/^---\n([\s\S]*?)\n---\n?/);
-  if (!m) {
-    return null;
-  }
-  return m[1];
-}
-
-function extractField(frontmatter, key) {
-  return frontmatter.match(new RegExp(`^${key}:\\s*(.+)\\s*$`, "m"))?.[1]?.trim() ?? "";
-}
-
-function parseTags(frontmatter) {
-  const raw = extractField(frontmatter, "tags");
-  if (!raw) {
-    return [];
-  }
-  const tagMatches = [...raw.matchAll(/"([^"]+)"/g)].map((m) => m[1]);
-  return tagMatches;
 }
 
 async function checkLocale(locale) {

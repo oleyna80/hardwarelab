@@ -8,7 +8,11 @@ heroImageAlt: "Valve Steam Deck OLED handheld console"
 ogImage: "./og.png"
 ogType: "article"
 category: "consoles"
-tags: ["gaming", "steam-deck", "handheld", "oled"]
+tags:
+  - "consoles"
+  - "steam-deck"
+  - "handheld"
+  - "oled"
 socialPublish: true
 asin: "B0CQ3L4726"
 amazonUrl: "https://amzn.to/4aP3Fdw"
@@ -24,8 +28,10 @@ import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}

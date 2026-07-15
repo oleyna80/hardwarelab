@@ -11,9 +11,10 @@ interface Props {
     priceCategory: PriceCategory;
     keySpecs: string[];
     asin: string;
+    amazonUrl?: string;
 }
 
-const { image, imageAlt, rating, priceCategory, keySpecs, asin } = Astro.props;
+const { image, imageAlt, rating, priceCategory, keySpecs, asin, amazonUrl } = Astro.props;
 
 // Price category labels
 const priceCategoryLabels = {
@@ -147,6 +148,7 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
             <div class="pt-4">
                 <AffiliateButton
                     asin={asin}
+                    amazonUrl={amazonUrl}
                     label="Check Current Price on Amazon"
                     lang={Astro.currentLocale as any}
                 />

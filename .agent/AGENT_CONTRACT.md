@@ -30,6 +30,8 @@ Illustrations owner:
 | Project status / milestones | `.memory_bank/progress.md` |
 | Engineering standards | `.agent/workflows/AGENT_GUIDELINES.md` |
 | Task dispatch matrix | `.agent/workflows/task-routing.md` |
+| External review runbook | `.agent/workflows/external-review-agent-runbook.md` |
+| Quotes evidence rules | `.agent/workflows/quotes-evidence.md` |
 | Affiliate pre-publish gate | `.agent/workflows/prepublish-affiliate-gate.md` |
 | Role protocol | `.agent/roles/_COMMON_RULES.md` |
 | Content schema | `src/content/config.ts` |
@@ -37,7 +39,24 @@ Illustrations owner:
 
 If docs conflict with code, code wins and docs must be updated.
 
-## 2) Canonical Paths And Naming
+## 2) Content Ownership Map
+
+Use this ownership map to avoid PASS A / PASS B ambiguity.
+
+| Artifact / Decision | Primary Owner | Notes |
+|---|---|---|
+| `ASIN_PRIMARY`, `ASIN_US`, `ASINs by Region` | PASS A (`single-researcher`) | PASS B validates and consumes; does not redefine without approved addendum/correction |
+| Specs confirmation | PASS A (`single-researcher`) | PASS B may validate/fix before writing |
+| Claims & Sources | PASS A (`single-researcher`) | PASS B validates and only uses source-backed claims |
+| Quote evidence collection | PASS A (`single-researcher`) | Detailed rules live in `.agent/workflows/quotes-evidence.md` |
+| Quote final validation before MDX output | PASS B / writer (`researcher`) | Final gate before publishable MDX |
+| Related Reviews | PASS A if `existing-reviews-hardwarelab.md` is provided | Otherwise leave TODO marker for internal fill |
+| SEO keyword planning | PASS B / writer (`researcher`) | Writer-only; not a required standalone PASS A artifact |
+| MDX assembly and component composition | PASS B / writer (`researcher`) | Uses only validated PASS A evidence + approved addenda |
+| Final character counts (`title`, `description`) | PASS B / writer (`researcher`) | Writer-only validation step |
+| Affiliate routing normalization (`amazonUrl_global`, link resolution) | PASS A (`single-researcher`) | PASS B uses normalized routing inputs in frontmatter/CTA output |
+
+## 3) Canonical Paths And Naming
 
 ### Roles
 - Active roles (default handoff chain) are:
@@ -76,17 +95,17 @@ Optional legacy/auxiliary reports (only when explicitly used):
 - Full deprecated specs live in `.agent/roles/archive/*.md`.
 - Files at `.agent/roles/<deprecated>.md` are compatibility aliases only.
 
-## 3) Mandatory Role Header
+## 4) Mandatory Role Header
 
 Every role file in `.agent/roles/` must contain a pointer to `.agent/roles/_COMMON_RULES.md` before work.
 
-## 4) Documentation SLA
+## 5) Documentation SLA
 
 - Any role/workflow change: update related docs in the same PR/commit.
 - Revalidate core docs at least once every 2 weeks.
 - Include `Last validated: YYYY-MM-DD` in critical orchestration docs.
 
-## 5) Automated Checks
+## 6) Automated Checks
 
 Run:
 

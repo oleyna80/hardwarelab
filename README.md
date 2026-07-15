@@ -17,7 +17,7 @@ Amazon affiliate hardware review site built with Astro 5.
 ### Development
 ```bash
 npm install
-npm run dev          # Start dev server at localhost:4321
+npm run dev        # Start dev server at localhost:4321
 ```
 
 ### Production (Docker)

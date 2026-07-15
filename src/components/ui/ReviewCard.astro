@@ -13,7 +13,7 @@ const { title, description, pubDate, heroImage, rating, priceCategory } =
     review.data;
 
 // Generate URL (clean up 'en/' prefix if present)
-const cleanSlug = review.slug.split("/").pop() ?? review.slug;
+const cleanSlug = review.id.split("/").pop() ?? review.id;
 const reviewUrl = `/${lang === "en" ? "" : lang + "/"}reviews/${cleanSlug}`;
 
 // Format date (Dynamic locale based on content could be better, but keeping simple for now)

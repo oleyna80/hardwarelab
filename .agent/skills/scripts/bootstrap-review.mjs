@@ -14,6 +14,7 @@
 
 import fs from "fs";
 import path from "path";
+import { CATEGORIES } from "./_categories.mjs";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -27,15 +28,7 @@ const EXISTING_REVIEWS_MD = path.join(
   "existing-reviews-hardwarelab.md",
 );
 
-const VALID_CATEGORIES = new Set([
-  "gaming",
-  "gaming-pcs",
-  "monitors",
-  "ai-workstation",
-  "mini-pc",
-  "nas",
-  "sbc",
-]);
+const VALID_CATEGORIES = new Set(CATEGORIES);
 
 function readExistingSlugs() {
   const slugs = new Set();

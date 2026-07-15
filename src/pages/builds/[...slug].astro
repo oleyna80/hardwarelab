@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import BuildHero from "@/components/ui/BuildHero.astro";
 import ComponentsGrid from "@/components/ui/ComponentsGrid.astro";
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
     // Logic mirrors standard review page but filters by type
     return buildReviews.map((review) => {
         // Handling slugs like 'en/build-name', 'de/build-name'
-        const cleanSlug = review.slug.split("/").pop() ?? review.slug;
+        const cleanSlug = review.id.split("/").pop() ?? review.id;
         return {
             params: { slug: cleanSlug },
             props: { review },
@@ -26,7 +26,7 @@ export async function getStaticPaths() {
 }
 
 const { review } = Astro.props;
-const { Content } = await review.render();
+const { Content } = await render(review);
 const frontmatter = review.data;
 
 // Calculate total price if not provided explicitly but components exist

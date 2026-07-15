@@ -24,7 +24,7 @@
 - `src/content/reviews/en/<slug>/index.mdx`
 - `src/content/reviews/en/<slug>/_research-pack.md` (для ASIN/фактового контекста)
 - `prompts/existing-reviews-hardwarelab.md` (для проверки Related Reviews)
-- `prompts/master_prompt_v_1_3_0.md` (для правил)
+- `prompts/archive/master_prompt_v_1_3_0.md` (для правил)
 - `src/content/reviews/{ru,de,fr}/<slug>/index.mdx` (в финальном gate)
 
 ## Куда писать

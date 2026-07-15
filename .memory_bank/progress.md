@@ -105,6 +105,7 @@ Consolidated project status and milestones.
 
 ## Backlog
 
+- [ ] Roll out editor-grade localization for `ai-workstation` reviews (RU/DE/FR policy + rewrite pass for live AI workstation slugs)
 - [ ] Image optimization (migrate to `astro:assets Image`)
 - [ ] Full JSON-LD Schema.org (Product, Review types)
 - [ ] Breadcrumb schema

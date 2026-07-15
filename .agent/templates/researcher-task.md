@@ -6,14 +6,18 @@
 
 ## Inputs
 - `src/content/reviews/en/<slug>/_research-pack.md`
-- `prompts/master_prompt_v_1_3_0.md`
+- `prompts/archive/master_prompt_v_1_3_0.md`
 - `prompts/existing-reviews-hardwarelab.md`
 
 ## ASIN Validation Policy (for PASS A check)
-- Verify research pack meets minimum mapping target: `ASIN_US` + at least one EU ASIN (`DE|FR|IT|ES|UK`).
+- Use canonical field names: `ASIN_PRIMARY`, `ASIN_US`, and `ASINs by Region`.
+- Verify research pack meets EN article readiness:
+  - standard case: verified `ASIN_US`
+  - exception case: `ASIN_US: absent`, but a verified non-US `ASIN_PRIMARY` marketplace is confirmed and documented
 - Do not fail pack for missing ASIN on every EU marketplace.
 - Ensure non-verified regional marketplaces are explicitly marked `absent`.
 - Keep `ASIN_DE` and `ASIN_FR` fields present even when `absent`.
+- Treat EU mapping as translation/monetization planning data, not as an EN-writing blocker.
 
 ## Required Skills
 - `seo-content-structure`

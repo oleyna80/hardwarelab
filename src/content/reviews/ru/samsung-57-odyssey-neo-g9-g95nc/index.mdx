@@ -14,7 +14,10 @@ socialHighlights:
   - "Первый в мире монитор Dual UHD (два 4K экрана бок-о-бок)."
   - "Частота обновления 240 Гц + подключение DisplayPort 2.1."
   - "2392 зоны Mini-LED для ослепительной яркости HDR1000."
-asin: "B0CDQM55C9"
+asin:
+  us: "B0CDQM55C9"
+  de: "B0CDTW2CNR"
+  fr: "B0CDTW2CNR"
 rating: 4.1
 priceCategory: "high"
 ---
@@ -26,8 +29,10 @@ import UserFeedback from '@/components/ui/UserFeedback.astro';
 import ProsCons from '@/components/ui/ProsCons.astro';
 import AffiliateButton from '@/components/ui/AffiliateButton.astro';
 
+import heroImageSrc from './image.webp';
+
 <ReviewHero
-  image={frontmatter.heroImage}
+  image={heroImageSrc}
   imageAlt={frontmatter.heroImageAlt}
   rating={frontmatter.rating}
   priceCategory={frontmatter.priceCategory}
