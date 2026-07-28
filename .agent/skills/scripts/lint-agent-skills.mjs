@@ -79,7 +79,7 @@ async function collectSkillFiles() {
 
   for (const entry of entries) {
     const full = path.resolve(SKILLS_DIR, entry.name);
-    if (entry.isFile() && entry.name.endsWith(".md")) {
+    if (entry.isFile() && entry.name.endsWith(".md") && entry.name !== "README.md") {
       files.push(full);
       continue;
     }
