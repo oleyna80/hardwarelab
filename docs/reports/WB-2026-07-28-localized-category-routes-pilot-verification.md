@@ -9,7 +9,8 @@
 - **Runtime:** Node `v22.22.3`, npm `10.9.8`
 - **Candidate materialization:** final replay used a seven-path SHA-256 manifest:
   the six approved source/test files plus repaired `package-lock.json`.
-- **Verdict:** `READY`
+- **Verdict:** `READY` locally; final PR integration passed exact-head GitHub
+  Actions on `90f92ccca92987ee64e0480f742a359754ffed14`.
 
 ## Candidate scope
 
@@ -54,3 +55,19 @@ change the manifest or lockfile. The child repair changed only `package-lock.jso
 The candidate is PR-ready from the application and clean-install perspectives.
 Release-state contract adoption remains deliberately out of scope and requires
 its own future Work Block.
+
+## Final PR integration evidence
+
+The initial PR run exposed two framework-to-project compatibility defects that
+the detached application replay could not exercise: Agent Guards used an
+unsupported Node 20 runtime, then the skill linter treated the ordinary skills
+index README as a definition. Each received its own Owner-approved narrow
+repair. The final repair excludes only `.agent/skills/README.md` from root
+definition discovery; it does not alter the README or any skill definition.
+
+On the exact final PR head `90f92ccca92987ee64e0480f742a359754ffed14`, GitHub
+Actions reported `SUCCESS` for `Agent Guards / validate` and CI `quality`,
+`e2e`, and `lighthouse`; the PR merge state was `CLEAN`. The final child
+verification records the complete repeated local Agent Guards sequence and
+main route suite in
+`docs/reports/work-blocks/WB-2026-07-28-localized-category-routes-skill-index-linter-repair-verification.md`.

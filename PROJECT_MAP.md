@@ -125,9 +125,12 @@ scripts/validate-evaluation.py
 Its six source/test paths and a narrowly repaired `package-lock.json` passed
 ordinary `npm ci`, dependency-tree validation, tests, typecheck, production
 build, exact 28-route inventory, 28 positive runtime checks, and two 404
-negatives in a fresh detached worktree. Read the final verification report and
-the repair Work Block before changing this feature. Stable framework
-release-state adoption remains a deliberately separate future Work Block.
+negatives in a fresh detached worktree. Final GitHub Actions on
+`90f92ccc` also passed Agent Guards plus quality, e2e, and lighthouse after
+narrow Node-runtime and skill-index-linter compatibility repairs. Read the
+final verification report and repair Work Blocks before changing this feature.
+Stable framework release-state adoption remains a deliberately separate future
+Work Block.
 
 ## Safe Defaults
 

@@ -4,9 +4,9 @@
 
 - **Pilot tracking ID:** `WB-009`
 - **Canonical machine ID:** `WB-2026-07-28-localized-category-routes-pilot`
-- **Status:** `SUCCESS` — a separately scoped, one-round lockfile repair
-  restored ordinary `npm ci`; the complete seven-path candidate passed final
-  detached-worktree verification and is PR-ready.
+- **Status:** `SUCCESS` — the lockfile repair restored ordinary `npm ci`; two
+  Owner-approved, narrow CI-compatibility repairs then restored the actual
+  Agent Guards path. Exact-head GitHub checks are green on `90f92ccc`.
 - **Owner approval:** 2026-07-28; scope is one SDLC adaptation and one route feature.
 - **Baseline:** `main` at `e61ab9342e08` (2026-07-28T08:56:15Z).
 - **Upstream under test:** `oleyna80/agentic-sdlc-framework` at immutable SHA
@@ -23,6 +23,8 @@
   [`WB-2026-07-28-localized-category-routes-pilot-framework-provenance-matrix.md`](../reports/work-blocks/WB-2026-07-28-localized-category-routes-pilot-framework-provenance-matrix.md)
 - **Lockfile repair child Work Block:**
   [`WB-2026-07-28-localized-category-routes-lockfile-repair.md`](WB-2026-07-28-localized-category-routes-lockfile-repair.md)
+- **Final skill-index compatibility child Work Block:**
+  [`WB-2026-07-28-localized-category-routes-skill-index-linter-repair.md`](WB-2026-07-28-localized-category-routes-skill-index-linter-repair.md)
 - **Live hook proof:**
   [`WB-2026-07-28-localized-category-routes-pilot-codex-live-hook-proof.md`](../reports/work-blocks/WB-2026-07-28-localized-category-routes-pilot-codex-live-hook-proof.md)
 

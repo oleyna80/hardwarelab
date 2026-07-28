@@ -6,7 +6,10 @@
 
 The pilot delivered a working localized-category feature and, after one
 separately scoped lockfile repair, proved it reproducible with ordinary `npm ci`
-in a fresh detached worktree. It also demonstrated the intended controls:
+in a fresh detached worktree. Two final, Owner-approved compatibility repairs
+then made the real GitHub Agent Guards path green without changing product
+behaviour: Node 22 replaced unsupported Node 20, and only the root skill-index
+README was excluded from skill-definition discovery. It also demonstrated the intended controls:
 specification and task boundaries survived a deliberate Worker A → Worker B
 context switch; the live Hard Stop denied an unauthorized commit probe; review
 found three real routing defects; and the initial clean verifier prevented a
@@ -27,7 +30,7 @@ an unobserved mechanical shortcut.
 | Working feature | Yes — localized routes for FR/DE/RU plus English category routes |
 | Parent review | Two permitted rounds found and corrected three real defects; final frozen candidate received independent full verifier coverage |
 | Lockfile review | `APPROVE`, 0 findings in its single permitted round |
-| Verification | `READY`: ordinary clean install, tree, test, typecheck, build, inventory and runtime smoke pass |
+| Verification | `SUCCESS`: local clean install, tree, tests, typecheck, build, inventory and runtime smoke pass; exact-head GitHub Agent Guards, quality, e2e, and lighthouse green |
 | Evaluation | `READY`: all blocking application, route, and trajectory criteria pass |
 | Drift | `ALIGNED` |
 | Closeout | `SUCCESS`; PR-ready, not deployed |
@@ -36,18 +39,18 @@ an unobserved mechanical shortcut.
 
 | Metric | Observation |
 |---|---|
-| Idea to verified PR-ready candidate | about 2 h 10 min (10:38 CEST to final clean-verification evidence); PR creation follows this closeout |
-| Owner decisions | 5: pilot/scope, evaluation-plan integrity correction, Codex CLI admission, hook trust/sandbox authority, and the narrow lockfile repair after WB-008 merge |
-| Agent handoffs | 5 explicit: Worker A → Worker B, Critic → Coder, Coder → Reviewer, Reviewer → Verifier, Verifier → Orchestrator |
+| Idea to green PR-ready candidate | about 6 h 20 min (10:38 to 16:55 CEST), including the CI feedback/recovery wait |
+| Owner decisions | 7: pilot/scope, evaluation-plan integrity correction, Codex CLI admission, hook trust/sandbox authority, lockfile repair, Node-runtime CI repair, and final skill-index linter repair |
+| Agent handoffs | 8 explicit: Worker A → Worker B, Critic → Coder, Coder → Reviewer, Reviewer → Verifier, Verifier → Orchestrator, plus final linter Critic → Coder → Reviewer → Verifier |
 | Defects before review | 1 known product defect: missing localized category routes |
 | Defects found by review | 3 substantive route defects: dead localized breadcrumb, broad unknown/extra-segment money classification, and `/en/categories/<slug>` false positive |
-| Defects found by verification | 1 pre-existing release blocker: lockfile mismatch; repaired in a separate one-round WB |
-| Blocking controls | 2: live Hard Stop denied unauthorized commit probe; clean verifier blocked the premature closeout |
-| Commits / abandoned commits | Pending final PR commit / 0 abandoned commits |
-| Re-edited files | 3 feature files across two correction rounds; `package-lock.json` in the separate repair round |
+| Defects found by verification | 3 real integration blockers: pre-existing lockfile mismatch, unsupported Node 20 CI runtime, and README misclassified as a skill definition; each received one narrow Owner-approved repair |
+| Blocking controls | 4: live Hard Stop denied unauthorized commit probe; clean verifier blocked premature closeout; GitHub blocked unsupported Node 20; GitHub blocked README misclassification |
+| Commits / abandoned commits | 4 PR commits / 0 abandoned commits (the fourth is this documentation-only closeout) |
+| Re-edited files | 3 feature files across two correction rounds; `package-lock.json` in its repair round; Agent Guards workflow and skill linter each changed once in dedicated repairs |
 | Git merge conflicts | 0; one concurrent-writer process collision was stopped before a Git conflict or final-source overwrite |
-| Correction / review rounds | Feature 2 / 2 and 2 / 2; lockfile repair 1 / 1 and 1 / 1 |
-| Changes absent from final result | 0 confirmed source changes; one aborted raw Codex CLI invocation made no source edit |
+| Correction / review rounds | Feature 2 / 2 and 2 / 2; lockfile, Node-runtime, and skill-index repairs each 1 / 1 implementation/review round |
+| Changes absent from final result | 0 confirmed product/source changes; one aborted raw Codex CLI invocation made no source edit |
 | Lockfile churn | `package-lock.json` +60/−36; all retained as necessary AJV topology repair |
 | Lines created then deleted | Not captured exactly for intermediate feature revisions — instrumentation gap remains |
 | Manual correction | 0 manual product-source edits; 1 Owner-approved documentation-only integrity correction; two process interventions (concurrent/malformed CLI runs) |
@@ -64,6 +67,9 @@ an unobserved mechanical shortcut.
 - Correction reports made reviewer findings traceable.
 - The clean-worktree report separated a feature defect from repository
   reproducibility and prevented an unsafe closeout.
+- Exact-head GitHub status exposed two integration defects that the detached
+  replay did not cover; the narrow repair specifications kept their remedies
+  from expanding into framework or product changes.
 
 ## Documents or fields to simplify
 
