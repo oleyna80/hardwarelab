@@ -1,3 +1,9 @@
+import {
+  categorySlugs,
+  localizedCategoryLanguages,
+  type CategorySlug,
+} from "../data/categoryCatalog";
+
 export type Language = "en" | "fr" | "de" | "ru";
 
 export type RouteKind =
@@ -35,6 +41,16 @@ function isLang(value: string): value is Language {
   return SUPPORTED_LANGS.has(value as Language);
 }
 
+function isCategorySlug(value: string): value is CategorySlug {
+  return categorySlugs.includes(value as CategorySlug);
+}
+
+function isLocalizedCategoryLanguage(value: Language): boolean {
+  return localizedCategoryLanguages.includes(
+    value as (typeof localizedCategoryLanguages)[number],
+  );
+}
+
 function make(
   kind: RouteKind,
   lang: Language,
@@ -64,6 +80,16 @@ export function classifyRoute(pathname: string): RouteInfo {
     if (segments.length === 1) return make("home", first, true);
     if (second === "reviews" && rest.length >= 1) {
       return make("review", first, true, { slug: rest.join("/") });
+    }
+    const category = rest[0];
+    if (
+      second === "categories" &&
+      rest.length === 1 &&
+      category &&
+      isLocalizedCategoryLanguage(first) &&
+      isCategorySlug(category)
+    ) {
+      return make("category-detail", first, true, { category });
     }
     return make("other", first, true);
   }

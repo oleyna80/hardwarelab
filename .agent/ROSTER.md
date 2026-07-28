@@ -1,105 +1,150 @@
-# .agent/ROSTER.md — Agent & Skill Registry
+# Agent Routing Roster
 
-> Routing table for agents and skills. Authority model: Control Tower
-> (plan/sync), Scoped Coder (execute), Verifier (independent check),
-> Reviewer (read-only analysis), Critic (pre-implementation decision review).
+> Maps logical SDLC roles to authority, responsibilities, and portable skills.
+> Runtime-specific agent names, models, plugins, judges, and launch commands
+> belong in adapters or Work Block evidence. They do not create governance roles.
 
----
+## Core Logical Roles
 
-## Agents
-
-| Agent | Slug (`.claude/agents/`) | Role | Authority |
+| Role | Responsibility | Default authority | Core skills |
 |---|---|---|---|
-| **Control Tower** | — (main chat) | Orchestration, planning, SSOT | Plan approval, scope gate, closeout |
-| **Scoped Coder** | `scoped-coder` | Implementation executor | Write approved write-set only |
-| **Reviewer** | `reviewer` | Read-only analyst | Code audit, security triage, feedback |
-| **Verifier** | `verifier` | Acceptance gate | READY/BLOCKED verdict, halts pipeline |
-| **Critic** | `critic` | Decision reviewer | Pre-WB quality gate, SUPPLEMENT/RECONSIDER |
-| **GPT Critic** | `gpt-critic` | External adversarial critic | Second-opinion on CT decisions |
-| **GPT Verifier** | `gpt-verifier` | External adversarial verifier | Second-opinion on implementation |
-| **Solution Architect** | `solution-architect` | Pre-implementation research | Read-only, design/stack decisions |
+| Orchestrator | Frame Work Blocks, select profiles/evaluation posture, manage scope, route functions, consolidate evidence, enforce gates, close out | Workflow artifacts and approved coordination paths | task-decomposition, ssot-sync-closeout, memory-bank-manager, subagent-mission-brief, orchestrator-log |
+| Architect | Discover constraints, propose architecture, draft specifications and implementation/evaluation plans | Read-only by default; approved draft paths | architecture-discovery, technical-discovery, project-estimation |
+| Critic | Challenge scope, assumptions, risk, routing, verification, and evaluation design before implementation | Read-only; critic report path only | critic-review |
+| Coder | Implement the approved plan inside one explicit write-set | Approved source write-set only | scoped-coder, scoped-commit-guard, shell-context-guard, systematic-debugging |
+| Reviewer | Inspect the frozen diff for defects, regressions, security, architecture, and maintainability | Read-only; review report path only | reviewer, security-audit-triage |
+| Verifier | Test acceptance criteria and synthesize deterministic/output/trajectory evidence | Read-only for source/runtime; verification/evaluation artifacts only | verifier, webapp-testing, security-verification-gate |
 
----
+## Temporary Specializations
 
-## Content Pipeline Roles
+Specializations narrow focus but never expand authority. Examples:
 
-| Role | File | Responsibility |
-|---|---|---|
-| `tech-lead` | `.agent/roles/tech-lead.md` | Architecture, planning, code review |
-| `coder` | `.agent/roles/coder.md` | Implementation |
-| `single-researcher` | `.agent/roles/single-researcher.md` | External product research (PASS A) |
-| `researcher` | `.agent/roles/researcher.md` | EN review writing + visual assets |
-| `translator` | `.agent/roles/translator.md` | FR / DE / RU translations |
-| `qa` | `.agent/roles/qa.md` | Final content + compliance gate |
+- Architecture Analyst
+- Product Analyst
+- Frontend Reviewer
+- Backend Coder
+- Security Reviewer
+- QA Verifier
+- **Evaluator** — executes an approved output/trajectory evaluation plan
+- Documentation Analyst
+- Release Analyst
+- Specification Drift Auditor
 
-Content pipeline: `single-researcher → researcher → translator → qa`
+Evaluator is normally a read-only Verifier specialization. It may write only
+approved evaluation plans/reports/events or other evidence paths. It cannot edit
+implementation source, approve product scope, waive deterministic failures, open
+authority/integration/deployment gates, or request hidden reasoning/private
+chain-of-thought.
 
----
+A drift audit is normally a read-only Reviewer or Verifier specialization using
+`spec-drift-audit`. Add a permanent role only when the project requires a distinct
+authority model.
 
-## Installed Skills
+## Runtime Binding
 
-| # | Skill | Triggers | Mode | Location |
-|---|---|---|---|---|
-| 1 | **visual-asset-generator** | "generate image", "create og.png", "create image.webp" | Asset generation | `.agent/skills/visual-asset-generator/` |
-| 2 | **webapp-testing** | QA, smoke tests, visual regression | Browser tests, acceptance | `.agent/skills/webapp-testing/` |
-| 3 | **frontend-design** | UI component work, Astro/Tailwind design changes | Implementation | `.agent/skills/frontend-design/` |
-| 4 | **skill-creator** | Creating new skills | Skill curation | `.agent/skills/skill-creator/` |
-| 5 | **affiliate-compliance-delta-watch** | Affiliate link audit, compliance changes | Audit | `.agent/skills/affiliate-compliance-delta-watch.md` |
-| 6 | **hardware-accuracy-check** | Review content accuracy, spec validation | Content QA | `.agent/skills/hardware-accuracy-check.md` |
-| 7 | **seo-content-structure** | SEO audit, meta tags, structured data | SEO | `.agent/skills/seo-content-structure.md` |
-| 8 | **technical-seo-audit** | Technical SEO, Core Web Vitals, sitemap | SEO | `.agent/skills/technical-seo-audit.md` |
-| 9 | **translation-integrity-check** | Translation quality gate | Content | `.agent/skills/translation-integrity-check.md` |
-| 10 | **vps-release-ops** | VPS deploy, Docker, release | Ops | `.agent/skills/vps-release-ops.md` |
-| 11 | **narrative-strategy** | Review narrative, tone, story arc | Content | `.agent/skills/narrative-strategy.md` |
-| 12 | **journalistic-hook-mastery** | Hooks, intros, lede writing | Content | `.agent/skills/journalistic-hook-mastery.md` |
-| 13 | **integrator-tone-voice** | Brand tone consistency | Content | `.agent/skills/integrator-tone-voice.md` |
+The active Work Block records how each logical function executes:
 
----
+```yaml
+function: evaluation
+logical_role: verifier
+specialization: evaluator
+runtime: codex
+model_class: assurance
+isolation: separate-session
+authority: read-only-evidence
+adapter: runtimes/codex
+evaluation_plan: docs/evals/feature-x/plan.json
+event_source: docs/evals/feature-x/events.jsonl
+```
 
-## Engineering Skills (Not Installed — Port from azursystech When Needed)
+Valid runtimes are project-defined. Model or judge names must not be used as role
+names. Evaluation plan and event-source availability do not grant write authority.
 
-Available at `/home/azur/Projects/WSL/azursystech/.agent/skills/`:
+## Isolation Levels
 
-| Skill | Triggers | When to port |
-|---|---|---|
-| **discovery** | "research before coding", "best stack/API", "code map" | Pre-implementation research for complex features |
-| **security-pass** | "pentest report", auth/payments/security changes | Any security Work Block |
-| **memory-ops** | "log decision", "sync closeout", "housekeep memory" | SSOT sync and memory management |
-| **git-safety** | "commit these files", merge conflicts, multi-agent done | Any commit with 2+ agents |
-| **systematic-debugging** | Debugging, error isolation | Complex debugging sessions |
-| **subagent-mission-brief** | Subagent dispatch, mission framing | Multi-agent Work Blocks |
-| **sprint-analysis** | "analyse sprint", velocity review, retro | Sprint retrospectives |
+From weakest to strongest:
 
-To install: copy skill directory from azursystech into `.agent/skills/`, open a skill-curation Work Block.
+1. `same-context`
+2. `separate-subagent`
+3. `separate-session`
+4. `separate-worktree`
+5. `separate-runtime`
+6. `independent-readonly-root`
+7. `os-isolated`
 
----
+The Work Block chooses the minimum sufficient level and records the actual
+boundary. Different model names in one context do not establish independence.
+Trajectory evaluation also records the actual observable-event source.
 
-## Quick Skill Routing
+## Core Skill and Contract Routing
 
-| Brief | → Skill | Agent |
-|---|---|---|
-| "generate hero image" | visual-asset-generator | researcher |
-| "check affiliate links" | affiliate-compliance-delta-watch | Reviewer |
-| "validate hardware specs" | hardware-accuracy-check | Reviewer |
-| "SEO review" | seo-content-structure | Reviewer |
-| "deploy to VPS" | vps-release-ops | Control Tower + Scoped Coder |
-| "QA translation" | translation-integrity-check | qa |
-| "smoke test" | webapp-testing | Verifier |
-| Code review | reviewer agent | Reviewer |
-| Implementation | scoped-coder agent | Scoped Coder |
-| Pre-commit verification | verifier agent | Verifier |
+| Skill / contract | Route when |
+|---|---|
+| `architecture-discovery` | Architecture or subsystem boundary is unclear |
+| `technical-discovery` | Repository structure/dependencies need inspection |
+| `task-decomposition` | A goal needs bounded Work Blocks/write-sets |
+| `project-estimation` | Scope, risk, dependencies, verification/evaluation cost need classification |
+| `critic-review` | Define-stage decisions require independent challenge |
+| `scoped-coder` | Approved file-changing implementation work |
+| `reviewer` | Frozen diff requires independent review |
+| `verifier` | Acceptance criteria or technical contracts require evidence |
+| `governance/evaluation.md` + `validate-evaluation.py` | Output or observable trajectory evaluation is required |
+| `spec-drift-audit` | Spec, decisions, plans, code, tests/evals, and docs need alignment checking |
+| `systematic-debugging` | Root cause must be established before a fix |
+| `ssot-sync-closeout` | Closeout must synchronize normative/derived artifacts |
+| `merge-protocol` | Parallel results require consolidation/conflict handling |
+| `subagent-mission-brief` | Work is delegated to another agent/session/runtime/team |
+| `context-snapshot` | State must be frozen before parallel work/stage transition |
+| `scoped-commit-guard` | Staging/commit scope must be protected |
+| `shell-context-guard` | Shell location/target/side effects need explicit checking |
 
----
+## Evaluation Routing Rules
 
-## Model Routing
+Route evaluation when any condition applies:
 
-| Task Class | Model | Rationale |
-|---|---|---|
-| Discover/Explore | `haiku` | Fast, cheap research |
-| Implement/Code/Verify | `sonnet` | Capable, cost-effective |
-| Architect/Hard Decisions | `opus` | Strong reasoning |
+- materially non-deterministic output;
+- autonomous tool or path selection;
+- trajectory compliance is an acceptance condition;
+- consequential automation depends on process evidence;
+- benchmark/dataset/rubric/LM judge is part of acceptance;
+- Managed/Assured/Distributed profile requires it by risk.
 
----
+Route deterministic criteria to code/rule checks. Route non-deterministic output
+criteria to a human, rule-based evaluator, or approved LM judge. Route trajectory
+criteria only when observable event sources exist. Missing event sources produce
+`BLOCKED`/`UNVERIFIED`, never inferred pass.
 
-**This ROSTER is canonical for "which skill?" and "who decides?"**
-**All implementation and approval flows through Control Tower → Scoped Coder → Verifier.**
+## Domain Skill Routing
+
+Domain skills are selected only when relevant. Catalog visibility does not grant
+tool, file, runtime, data, deploy, evaluation, or Hard Stop authority.
+
+Examples:
+
+- frontend/design skills for UI work;
+- security triage/hardening for security-sensitive work;
+- MCP/handoff skills for integrations;
+- media production skills for video/motion assets.
+
+## Routing Priority
+
+1. Owner instruction, authority, Hard Stops.
+2. Approved specification and architecture decisions.
+3. Work Block scope, write-set, risk, evaluation posture, isolation.
+4. Critic gate when triggered.
+5. Coder implementation and observable event capture.
+6. Independent Reviewer.
+7. Verifier deterministic evidence.
+8. Evaluator output/trajectory evidence when required.
+9. Specification Drift Audit when triggered.
+10. Consolidation and closeout.
+
+## Degraded Execution
+
+When a required capability or event source is unavailable:
+
+1. preserve the logical function;
+2. choose the strongest approved fallback;
+3. record actual runtime, isolation, event source, and limitation;
+4. label the result degraded, blocked, or unverified as applicable;
+5. never upgrade a verdict because a preferred agent/model/judge was unavailable.

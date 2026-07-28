@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "artifact_type": "evaluation_plan",
+  "evaluation_id": "hardwarelab-localized-category-routes-pilot",
+  "status": "approved",
+  "work_block_id": "WB-2026-07-28-localized-category-routes-pilot",
+  "revision": "3",
+  "subject": {
+    "objective": "Evaluate one real localized-route feature and whether the observable new Agentic SDLC profile reduces conflicts, rework, manual context recovery, and non-substantive review cycles.",
+    "specification_revision": "docs/specs/WB-2026-07-28-localized-category-routes-pilot-spec.md#3",
+    "frozen_revision": "docs/specs/WB-2026-07-28-localized-category-routes-pilot-spec.md#3"
+  },
+  "deterministic_checks": [
+    {
+      "criterion_id": "profile-validation",
+      "description": "Validate the installed multi-runtime profile and its blocked default Work Block.",
+      "command": "python3 scripts/validate-installation-profile.py .",
+      "evidence": "docs/reports/WB-2026-07-28-localized-category-routes-pilot-verification.md",
+      "blocking": true
+    },
+    {
+      "criterion_id": "application-checks",
+      "description": "Run the agreed Astro type and production build checks after implementation.",
+      "command": "npx astro check && npm run build",
+      "evidence": "docs/reports/WB-2026-07-28-localized-category-routes-pilot-verification.md",
+      "blocking": true
+    }
+  ],
+  "output_criteria": [
+    {
+      "criterion_id": "route-contract",
+      "description": "Independent verifier confirms one supported localized category route per locale and one invalid localized route against the approved specification.",
+      "evaluator_type": "human",
+      "threshold": 1.0,
+      "weight": 1.0,
+      "blocking": true,
+      "evidence": "docs/reports/WB-2026-07-28-localized-category-routes-pilot-verification.md"
+    }
+  ],
+  "trajectory_requirements": [
+    {
+      "criterion_id": "managed-sdlc-observable-events",
+      "description": "Required role boundaries, gate events, corrections, and checks are recorded without hidden reasoning.",
+      "event_source": "docs/reports/evaluations/WB-2026-07-28-localized-category-routes-pilot-events.jsonl",
+      "required_events": [
+        "upstream_profile_pinned",
+        "architecture_completed",
+        "critic_completed",
+        "write_gate_ready",
+        "hard_stop_blocked_probe",
+        "model_routing_recorded",
+        "coder_handoff",
+        "context_recovery_completed",
+        "review_completed",
+        "verification_completed",
+        "drift_completed"
+      ],
+      "prohibited_events": [
+        "unauthorized_side_effect",
+        "source_write_outside_write_set",
+        "role_with_unapproved_write_authority"
+      ],
+      "blocking": true
+    }
+  ],
+  "benchmark_revision": "not-applicable",
+  "rubric_revision": "1",
+  "judge_policy": {
+    "lm_judge_allowed": false,
+    "judge_identity": "not-applicable",
+    "judge_prompt_revision": "not-applicable",
+    "can_override_deterministic": false,
+    "can_open_authority_gates": false
+  },
+  "isolation_requirement": "Separate read-only sessions for architect, critic, reviewer, and verifier; one write-capable Coder session.",
+  "pilot_tracking_id": "WB-009",
+  "pilot_limits": {
+    "maximum_correction_rounds": 2,
+    "maximum_review_rounds": 2,
+    "maximum_active_workers": 3,
+    "scope_expansion_requires_owner": true,
+    "optional_hardening_deferred": true
+  },
+  "model_routing": {
+    "orchestrator_architect": "strongest_reasoning_model",
+    "scope_decomposition": "strongest_reasoning_model",
+    "routine_implementation": "fast_coding_model",
+    "mechanical_fixes": "economical_coding_model",
+    "reviewer": "strong_model_distinct_from_coder_when_available",
+    "verifier": "medium_model_plus_deterministic_tools",
+    "drift_check": "deterministic_validation_first"
+  },
+  "measurement_fields": [
+    "elapsed_time_total",
+    "elapsed_time_implementation",
+    "elapsed_time_governance",
+    "owner_decision_count",
+    "agent_handoff_count",
+    "defects_before_review",
+    "defects_after_review",
+    "blocking_check_count",
+    "commits_created",
+    "commits_corrected_or_abandoned",
+    "files_reedited",
+    "merge_conflicts",
+    "correction_rounds",
+    "changes_not_in_final_result",
+    "lines_added_then_deleted",
+    "manual_corrections",
+    "non_substantive_review_cycles",
+    "helpful_artifacts",
+    "duplicated_artifacts_or_fields",
+    "context_recovery_chat_needed",
+    "second_function_speed_comparison"
+  ],
+  "aggregate_verdict_rule": "all_blocking_pass"
+}

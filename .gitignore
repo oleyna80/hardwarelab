@@ -1,43 +1,80 @@
-# build output
-dist/
-# generated types
-.astro/
+# Agentic SDLC Framework - generated project ignore file
+#
+# bootstrap.sh copies this file to .gitignore in new projects.
+# Keep this filename inactive inside the framework repository so the
+# publishable template files are not hidden by nested gitignore rules.
 
-# dependencies
+# Portable governance/runtime contracts are committed by default. The generated
+# ignore file contains no blanket `.agent/`, `.codex/`, `.claude/`, or
+# `.opencode/` rule. Test environments isolate user/global excludes separately.
+
+# Ignore only operational, private, generated, or user-local state.
+.agent/active-work-block.json
+.agent/critic-gate.md
+.agent/verification-gate.md
+.agent/project-config.md
+
+memory_bank/
+.claude/agent-memory/
+.claude/backups/
+.claude/plans/
+.claude/plugins/
+.claude/shell-snapshots/
+.claude/.last-cleanup
+
+# User-local Codex activation and cache/state.
+.codex/config.toml
+.codex/cache/
+.codex/logs/
+.codex/runtime/
+.codexignore
+.agentsignore
+
+# Dependencies
 node_modules/
+.pnp/
+.pnp.js
 
-# logs
-*.log
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# test artifacts
-test-results/
-playwright-report/
+# Local tool artifacts
+.playwright-cli/
 .playwright-mcp/
-coverage/
-
-# local build/cache
-.cache/
-.turbo/
-
-
-# environment variables
-.env
-.env.production
-.env.local
-.env.*.local
-
-# macOS-specific files
-.DS_Store
-
-# jetbrains setting folder
-.idea/
-
-# misc local debug artifacts
+.astro/
+.antigravity/
 chrome_debug.log
-
-# local backups created during recovery drills
-backups/
