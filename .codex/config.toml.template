@@ -1,0 +1,40 @@
+# Optional project-local Codex configuration.
+#
+# Copy this file to `.codex/config.toml` when the project should activate the
+# bundled Codex agents and hooks. Project-local config is loaded only after the
+# project is trusted.
+#
+# Keep provider credentials, provider definitions, auth, telemetry, and private
+# model endpoints in user-level Codex configuration. Do not store secrets here.
+
+[features]
+hooks = true
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 6
+interrupt_message = true
+
+# Optional project defaults. Leave concrete model routing to user/private config
+# unless the project has deliberately validated and published a model baseline.
+# default_subagent_model = "<validated-model-slug>"
+# default_subagent_reasoning_effort = "medium"
+
+# Standalone custom agents are discovered from `.codex/agents/*.toml`.
+# The main Codex thread performs the Orchestrator function. Use parallel agents
+# primarily for independent read-heavy work. Parallel writers require separate
+# worktrees and non-overlapping Work Block write-sets.
+
+# Hooks are declared in `.codex/hooks.json`. Do not also declare inline hooks in
+# this file, because Codex merges both sources and warns when both are present.
+
+# Optional MCP examples remain disabled until the Owner approves their tool and
+# credential boundaries.
+#
+# [mcp_servers.context7]
+# command = "npx"
+# args = ["-y", "@upstash/context7-mcp"]
+#
+# [mcp_servers.figma]
+# command = "npx"
+# args = ["-y", "figma-developer-mcp", "--stdio"]

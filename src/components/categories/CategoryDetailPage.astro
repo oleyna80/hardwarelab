@@ -1,0 +1,159 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import ReviewCard from "@/components/ui/ReviewCard.astro";
+import {
+    categoryCatalog,
+    categoryPageCopy,
+    categorySlugs,
+    type CategoryDefinition,
+} from "@/data/categoryCatalog";
+import type { Language } from "@/utils/i18n";
+
+interface Props {
+    category: CategoryDefinition;
+    lang: Language;
+}
+
+const { category, lang } = Astro.props;
+const metadata = category.translations[lang];
+const copy = categoryPageCopy[lang];
+const localePrefix = lang === "en" ? "" : `/${lang}`;
+
+const allReviews = await getCollection("reviews", ({ data }) =>
+    import.meta.env.DEV ? true : !data.draft,
+);
+const categoryReviews = allReviews
+    .filter(
+        (review) =>
+            review.id.startsWith(`${lang}/`) &&
+            (review.data.category
+                ? review.data.category === category.slug
+                : review.data.tags?.some((tag) => category.tags.includes(tag))),
+    )
+    .sort(
+        (a, b) =>
+            new Date(b.data.pubDate).getTime() -
+            new Date(a.data.pubDate).getTime(),
+    );
+
+const pageTitle = `${metadata.title} | HardwareLab`;
+---
+
+<Layout title={pageTitle} description={metadata.description} lang={lang}>
+    <div class="fade-in">
+        <section class="py-12 text-center">
+            <div class="inline-block text-6xl mb-4">{category.icon}</div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                {metadata.title}
+            </h1>
+            <p
+                class="text-xl text-primary-600 dark:text-primary-400 max-w-3xl mx-auto"
+            >
+                {metadata.description}
+            </p>
+            <div
+                class="mt-6 flex items-center justify-center gap-2 text-sm text-primary-500 dark:text-primary-400"
+            >
+                <a
+                    href={lang === "en" ? "/" : `${localePrefix}/`}
+                    class="hover:text-accent-600 transition-colors"
+                >
+                    {copy.home}
+                </a>
+                <span>›</span>
+                {
+                    lang === "en" ? (
+                        <a
+                            href="/categories"
+                            class="hover:text-accent-600 transition-colors"
+                        >
+                            {copy.categories}
+                        </a>
+                    ) : (
+                        <span>{copy.categories}</span>
+                    )
+                }
+                <span>›</span>
+                <span class="text-primary-700 dark:text-primary-300">
+                    {metadata.title}
+                </span>
+            </div>
+        </section>
+
+        <section class="py-8">
+            {
+                categoryReviews.length > 0 ? (
+                    <>
+                        <div class="flex items-center justify-between mb-8">
+                            <h2 class="text-2xl font-bold">
+                                {categoryReviews.length}{" "}
+                                {categoryReviews.length === 1
+                                    ? copy.reviewSingular
+                                    : copy.reviewPlural}
+                            </h2>
+                            <div class="text-sm text-primary-600 dark:text-primary-400">
+                                {copy.latestUpdates}
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {categoryReviews.map((review) => (
+                                <ReviewCard review={review} lang={lang} />
+                            ))}
+                        </div>
+                    </>
+                ) : (
+                    <div class="text-center py-16">
+                        <div class="text-6xl mb-4">📝</div>
+                        <h2 class="text-2xl font-bold mb-4">
+                            {copy.emptyTitle}
+                        </h2>
+                        <p class="text-primary-600 dark:text-primary-400 mb-8">
+                            {copy.emptyDescription}
+                        </p>
+                        <a
+                            href={`${localePrefix}/reviews`}
+                            class="inline-block px-6 py-3 bg-accent-600 text-white font-semibold rounded-lg hover:bg-accent-700 transition-colors"
+                        >
+                            {copy.browseAllReviews}
+                        </a>
+                    </div>
+                )
+            }
+        </section>
+
+        {
+            categoryReviews.length > 0 && (
+                <section class="py-12 mt-8 border-t border-primary-200 dark:border-primary-800">
+                    <h2 class="text-2xl font-bold mb-6 text-center">
+                        {copy.relatedCategories}
+                    </h2>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        {categorySlugs
+                            .filter((slug) => slug !== category.slug)
+                            .map((slug) => {
+                                const relatedCategory = categoryCatalog[slug];
+                                const relatedMetadata =
+                                    relatedCategory.translations[lang];
+
+                                return (
+                                    <a
+                                        href={`${localePrefix}/categories/${slug}`}
+                                        class="group p-4 bg-primary-100 dark:bg-primary-900 rounded-xl hover:bg-accent-500 dark:hover:bg-accent-600 transition-colors text-center"
+                                    >
+                                        <div class="text-3xl mb-2 group-hover:text-white">
+                                            {relatedCategory.icon}
+                                        </div>
+                                        <h3 class="font-bold text-sm group-hover:text-white">
+                                            {relatedMetadata.title}
+                                        </h3>
+                                    </a>
+                                );
+                            })}
+                    </div>
+                </section>
+            )
+        }
+    </div>
+</Layout>

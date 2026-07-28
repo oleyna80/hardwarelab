@@ -1,432 +1,307 @@
-# AGENTS.md — HardwareLab Operating Contract
+# AGENTS.md — Project Operating Contract
 
-> Primary contract for all AI agents working in this repository.
-> Read this file first, before any memory_bank or task docs.
+> Primary entry point for every AI agent working in HardwareLab.
+> Read this file before changing repository files or runtime state.
 
----
+## 1. Operating Model
 
-## Process Model
+HardwareLab uses a runtime-neutral Agentic SDLC control plane.
 
-HardwareLab uses an **Agentic SDLC**: an iterative-incremental,
-documentation-first, gate-based workflow with controlled multi-agent
-orchestration.
+The framework governs:
 
-The workflow borrows useful parts of Agile practice, but it is not strict Scrum.
-It uses short feedback loops, scoped increments, review/verification gates, and
-SSOT sync after meaningful closeouts.
+- objective and scope;
+- specification and architecture authority;
+- role and write authority;
+- risk and Hard Stops;
+- lifecycle gates;
+- deterministic, output, and observable trajectory evidence;
+- closeout and durable knowledge.
 
-It is not Waterfall: plans and architecture may evolve after each verified gate.
-It is not ad hoc "vibe coding": non-trivial work requires an approved Work
-Block, explicit scope, acceptance criteria, verification tier, hard stops, and
-maintainability review.
+Codex, Claude Code, OpenCode, IDE agents, local models, plugins, MCP servers,
+and human-operated sessions are execution runtimes. Runtime capability, model
+strength, judge score, or tool access does not change governance authority.
 
-## Autonomy Policy
+Canonical contracts:
 
-After an Owner-approved plan is in place, the orchestrator executes the
-**full planned agent stack without pausing for intermediate confirmation**.
+- `governance/`;
+- `governance/evaluation.md`;
+- `.agent/workflows/sdd-protocol.md`.
 
-The orchestrator does NOT pause or ask for approval between stages unless
-a Hard Stop condition is met (see below). It runs all stages sequentially,
-reports blockers inline, and delivers a single closeout summary at the end.
+Runtime-specific behavior belongs in approved adapters.
 
-Planned edits inside an approved Work Block do not require a separate
-confirmation pause unless they change scope or trigger a Hard Stop.
+## 2. Autonomy Policy
 
-Short discussion or decision-only turns may use a lightweight path: answer,
-recommend, or decide without running the full lifecycle. Use the full SDD flow
-only when work is non-trivial, risky, multi-domain, or file-changing.
+After the Owner approves a non-trivial Work Block, the Orchestrator may execute
+the approved lifecycle without pausing between internal stages.
 
-### Multi-Agent Default
+Pause only when:
 
-The main chat is the **Control Tower**: it frames the Work Block, routes work,
-tracks scope, handles hard stops, and consolidates the result.
+- a Hard Stop requires Owner approval;
+- objective, specification, evaluation plan, or scope must materially change;
+- required credentials, access, or decisions are missing;
+- a destructive or external side effect is not approved;
+- required evidence cannot be produced honestly;
+- the task cannot continue safely.
 
-Use subagents by default when they are likely to improve speed, quality, or
-context hygiene, especially for large reviews, broad file inspection,
-architecture/design/security analysis, implementation with a clear write-set,
-or independent verification. Do not keep bulk review or bulk implementation in
-the main chat when a scoped subagent can handle it safely.
+Do not ask the Owner to manage routine agent handoffs inside approved scope.
+Report blockers and evidence clearly.
 
-Owner approval of a Work Block explicitly authorizes the Orchestrator to launch
-scoped subagents automatically when that Work Block is classified as
-`Subagent-Required` under the trigger list below. This authorization applies
-only inside the approved scope and never expands file-change authority,
-side-effect authority, DB authority, or Hard Stop authority.
+## 3. Logical Roles
 
-A Work Block is `Subagent-Required` if any of these triggers apply:
+Roles define responsibility and authority. They are not model or runtime names.
 
-1. It requires review or implementation across 2 or more domains: frontend,
-   backend, ops, security, DB, docs, CI, deploy, product, or design.
-2. It touches, reviews, or verifies 4 or more files.
-3. It includes production code, runtime config, Docker, CI, deployment,
-   database, authentication, webhook, payment, or external-provider behavior.
-4. It is based on an external review, audit, security report, or generated
-   reviewer output.
-5. It requires independent verification after implementation.
-6. Investigation is expected to span more than 3 directories.
-7. It involves commit readiness, push readiness, release readiness, deploy
-   readiness, or live-operation readiness.
-
-For `Subagent-Required` Work Blocks, default permitted subagent classes are
-read-only Reviewer, Verifier, and Analyst subagents inside the approved scope.
-Write-capable Coder subagents require an approved write-set. Exactly one
-write-capable Scoped Coder may operate during an implementation stage.
-Parallel agents are read-only.
-
-### Execution Topology After Plan Approval
-
-After an approved Work Block plan, the Orchestrator (Control Tower) does not
-implement or verify directly. Instead:
-
-1. **Scoped Coder** implements the approved write-set.
-2. **Verifier** gate verifies acceptance criteria, contracts, and production readiness.
-3. **Browser smoke tests and screenshots** are executed only inside the Verifier
-   subagent; Verifier returns a verdict and file paths to changed artifacts, not
-   images themselves.
-
-Native same-session verification is advisory: it shares the parent runtime's
-effective sandbox and approval policy. Formal `READY` closeout uses the
-Verifier Isolation Tiers below; sensitive Work Blocks default to an independent
-top-level readonly root after the implementation diff is frozen.
-
-Control-layer files reserved to Control Tower by `File Write Authority` remain
-Control Tower-authored. Maintaining those governance files is not permission to
-implement application or runtime changes inline.
-
-**Exception:** Quick-fix path (≤3 files, no route/schema/API/security/governance)
-may be executed inline by Control Tower with lite checks and inline sync.
-
-Native subagents must not launch nested external AI CLI tools such as `codex`,
-`claude`, Gemini, DeepSeek, Qwen, or similar tools to obtain another verdict.
-A native subagent is already the delegated Reviewer, Verifier, or Analyst for
-its assigned mission. External AI review is a separate Control Tower work item.
-
-The Orchestrator may skip subagents for a `Subagent-Required` Work Block only
-when it records one of these reasons in Stage 0:
-
-- `trivial`: the trigger was false after inspection; the task is single-domain,
-  no more than 3 files, and has no production/runtime/security/deploy/DB impact.
-- `blocked`: native subagent tooling is unavailable or failing.
-- `hard-stop`: delegation would require an unapproved side effect.
-- `user-disabled`: the Owner explicitly requested no subagents for the Work Block.
-
-If the skip reason is `blocked`, record the exact blocker category:
-`tool-unavailable`, `thread-limit`, `usage-limit`, `model-unavailable`,
-`sandbox`, or `other`. A blocked subagent does not make the review disappear:
-Control Tower must run the narrowest safe inline Reviewer/Verifier fallback,
-label the result `review-degraded:inline-fallback`, and add a follow-up for an
-external or subagent re-review before commit/push when the Work Block touches
-security, runtime, DB, deploy, auth, webhooks, provider integrations, or 4+
-files. The fallback may not expand write authority or bypass Hard Stops.
-
-### Committed and Local Agent Layers
-
-The Agentic SDLC layer is split into committed policy/templates and local
-runtime state.
-
-Committed, portable workflow files include `AGENTS.md`, `AGENT.md`,
-`.agent/README.md`, `.agent/ROSTER.md`, `.agent/critic-gate.md`,
-`.agent/verification-gate.md`, `.agent/workflows/**`, `.agent/roles/**`,
-`.agent/templates/**`, and committed `.claude/` control files
-(`.claude/settings.json`, `.claude/hooks/**`, `.claude/agents/**`,
-curated `.claude/agent-memory/**`).
-
-Local-only runtime state includes `.memory_bank/**`, `.env*`, secrets,
-credentials, provider tokens, private runtime config, caches, generated
-browser/build artifacts, and runtime logs.
-
-### Temporary Specializations
-
-Roles define authority, not expertise. Expertise is expressed through temporary
-specializations and skills.
-
-Agents may receive a temporary specialization inside a Work Block, for example
-`Architecture Analyst`, `Security Analyst`, `Backend Coder`, or `Docs Analyst`.
-
-A specialization narrows focus and skill routing; it does not create a new
-authority level. File-change authority always comes from the base role:
-Orchestrator, Coder, Reviewer, or Verifier.
-
-### Structural Authority Model
-
-Authority is structural, not prompt-based. An agent may only act when all four
-boundaries allow it:
-
-1. Base role: Orchestrator, Coder, Reviewer, or Verifier.
-2. Approved Work Block scope and write-set.
-3. Side-effect class.
-4. Explicit Hard Stop approval, when required.
-
-Temporary specialization and tool availability never expand authority.
-
-### Verifier Isolation Tiers
-
-| Level | Meaning and permitted use |
-|---|---|
-| `same-session-degraded` | Verifier shares the parent session. Advisory only; cannot close `READY`. `ct-inline` is permitted only for `Sensitive Domains: none`. |
-| `independent-readonly-root` | Separate top-level read-only root after diff is frozen. Default minimum for sensitive domains. |
-| `os-isolated` | Separate OS user, container, or equivalent. Required for credentials, live DB, deploy, live infrastructure. |
-
-For `Status: READY`, `.agent/verification-gate.md` must record both
-`Required Verifier Isolation` and actual `Verifier Isolation`; actual isolation
-must be at least the required level.
-
-### Hard Stops — require explicit Owner approval before proceeding
-
-| Condition | Why |
-|---|---|
-| Production deploy (VPS, Docker push) | Irreversible side-effects |
-| Live DB migration apply | Data risk |
-| Credential rotation / secret changes | Security perimeter |
-| Destructive git ops (`reset --hard`, force push to main) | Data loss risk |
-| Sending real client communications | External impact |
-| Push to main (`git push origin main`) | Public repo side effect |
-
-**Push-to-main approval channel:** Owner may approve a plain `git push origin main`
-by instructing Control Tower to record an entry in `.memory_bank/orchestrator-log.md`
-with format `| YYYY-MM-DD | push-approval | push: APPROVED origin main - <reason> | Owner |`.
-This approval is valid for the calendar day only and does not unlock force-push or
-destructive operations.
-
-Everything else → **run through to closeout, then report**.
-
-### Side-Effect Classes
-
-| Class | Examples | Authority |
+| Role | Responsibility | Default authority |
 |---|---|---|
-| Read-only | file inspection, `git diff`, logs | Orchestrator, Reviewer, Verifier |
-| Local docs/workflow write | `.agent/*`, `.memory_bank/*` | Control Tower inside approved scope |
-| Production code write | `src/**`, `scripts/**` | Scoped Coder inside approved write-set |
-| Local/test side effect | local dev server, local test artifacts | Approved Work Block; no live data |
-| Public repo side effect | commit, push, release tag | Explicit Owner approval |
-| Live infra side effect | VPS deploy, Docker push/pull deploy | Hard Stop approval |
-| Live data side effect | live DB migration, live DB write | Hard Stop approval |
-| Destructive side effect | `reset --hard`, force push, delete | Hard Stop approval |
+| Owner | Approves objective, material spec/eval changes, Hard Stops, final acceptance | Human authority |
+| Orchestrator | Frames Work Blocks, controls scope, routes functions, enforces gates, consolidates evidence, closes work | Workflow and coordination artifacts |
+| Architect | Discovers constraints and drafts architecture/specification/plan proposals | Read-only; approved draft paths only |
+| Critic | Challenges Define-stage scope, risk, topology, verification/evaluation design | Read-only; critic report only |
+| Coder | Implements approved work | One approved write-set only |
+| Reviewer | Reviews the frozen diff for defects, risk, architecture, security, maintainability | Read-only; review report only |
+| Verifier | Tests acceptance criteria and synthesizes deterministic/evaluation evidence | Read-only for source/runtime; evidence artifacts only |
 
-### Production Maintainability Standard
+`Evaluator`, `Specification Drift Auditor`, security reviewer, and domain verifier
+are read-only specializations of Reviewer/Verifier. Specialization never expands authority.
 
-This is a mandatory acceptance rule for all production code changes. Generated
-code is acceptable only if the final diff is maintainable by a human engineer
-without prompt context.
+## 4. Structural Authority
 
-Production code must:
+An action is allowed only when all applicable boundaries permit it:
 
-- follow existing project patterns and naming;
-- keep abstractions small and justified by current complexity;
-- expose side effects, data flow, failure modes, and ownership boundaries clearly;
-- avoid prompt-shaped, over-broad, or speculative helper code;
-- include targeted checks that prove the changed contract, not just a green build;
-- be explainable in the closeout without relying on hidden prompt history.
+1. current Owner instruction;
+2. logical role;
+3. active Work Block scope;
+4. explicit write-set;
+5. side-effect class;
+6. data/DB action mode;
+7. Hard Stop approval;
+8. runtime/tool policy.
 
-### Security Review Baseline
+Tool availability, sandbox access, plugin installation, model capability, shell
+access, evaluation score, or LM-judge output never grants authority by itself.
 
-Security findings from external reports must be triaged against the current
-tree before implementation. Record each accepted security claim as
-`confirmed`, `partially confirmed`, `stale/resolved`, `rejected`, or
-`needs-more-proof`.
+Use exactly one write-capable Coder per write-set. Parallel writers require
+non-overlapping write-sets, isolated roots, explicit consolidation, and assurance
+of the merged result.
 
-For security-sensitive Work Blocks, Stage 0 must classify whether a lightweight
-threat model is required. Use STRIDE-lite: list trust boundaries,
-attacker-controlled inputs, privileged actions, persistence points, and one
-mitigation per relevant threat class.
+Reviewer, Verifier, Evaluator, Critic, and Drift Auditor are read-only for source,
+infrastructure, production state, secrets, and business data except narrow
+approved evidence/draft paths.
 
-Tier Full security verification checklist:
+## 5. Source of Truth
 
-- no SQL string interpolation; queries are parameterized;
-- no `dangerouslySetInnerHTML` without explicit sanitization;
-- no `eval`, `new Function`, or dynamic execution of user-controlled input;
-- mutation endpoints have CSRF, origin, webhook secret, or equivalent guard;
-- redirect URLs and file/path parameters validated against allowlists;
-- errors do not expose stack traces, SQL messages, internal paths, or secrets;
-- logs never include tokens, secrets, passwords, full request bodies;
-- security headers present; CSP set for browser app;
-- no hardcoded API keys, tokens, or credentials.
+When project artifacts conflict:
 
----
+1. current Owner instruction or approved change request;
+2. approved specification;
+3. accepted architecture decisions and external contracts;
+4. approved implementation and evaluation plans;
+5. active tasklist;
+6. review, verification, evaluation, drift, and closeout reports;
+7. durable engineering memory;
+8. operational memory and logs;
+9. generated, discovered, or external references.
 
-## Stage Flow
+Plans, tasklists, scores, and reports must not silently override an approved specification.
+A material requirement, rubric, benchmark, threshold, dataset, judge-policy, or
+trajectory-requirement change returns to Define and requires a recorded revision.
 
-```
-Standard:
-  Plan & Discover (Control Tower)
-    └─→ Implement (exactly one write-capable Scoped Coder)
-          └─→ Verify (Verifier gate, tier-scoped)
-                └─→ Sync & Report (SSOT Sync + Owner report)
+## 6. Lifecycle
 
-Quick-fix (≤2 planned write-set files, no route/schema/API/security/governance):
-  Implement (Lite checks) → Inline sync → Done
-```
+```text
+Stage 0 — Define
+  Discovery -> Architecture -> Specification -> Implementation/Evaluation Plans -> Critic
 
-**Pre-Edit Lifecycle Check.** Before editing files created or renamed in the
-last 5 calendar days, ask the Owner: "These pages are recently created — are
-they staying, or are we restructuring?"
+Stage 1 — Execute
+  Scoped implementation -> self-check -> observable event capture -> frozen diff
 
-**Crash Test Gate.** Before `git commit` on any Work Block that changes routes,
-navigation, or sitemap entries, run a local crash test:
-- All affected routes return expected HTTP status;
-- Deleted routes return 404;
-- All anchor targets exist on the target page;
-- `npx vitest run` for affected test files;
-- Zero new errors in dev server logs.
+Stage 2 — Assure
+  Independent Review -> Technical Verification -> Agent Evaluation -> Drift Audit
 
-Between stages: no confirmation pause unless a Hard Stop is triggered.
-If a stage fails: report the blocker, attempt recovery or skip with documented risk,
-then continue remaining stages.
-
-See `.agent/workflows/sdd-protocol.md` for full stage definitions, verification tiers, and check suite.
-
----
-
-## Session Start Read Set
-
-For non-trivial work, read these files before planning edits:
-
-1. `AGENTS.md` — operating contract, autonomy policy, hard stops, file authority
-2. `AGENT.md` — project identity, tech stack, task routing, coding standards
-3. `.agent/AGENT_CONTRACT.md` — canonical content pipeline conventions
-4. `.agent/workflows/sdd-protocol.md` — stage flow, verification tiers, quick-fix rules
-5. `.agent/ROSTER.md` — agent/skill routing
-6. `.memory_bank/activeContext.md` — current operational focus and next gate
-7. `.memory_bank/progress.md` — rolling operational status log
-8. `.memory_bank/orchestrator-log.md` — WB history
-
-Read additional workflows, skills, or code only when relevant to the approved objective.
-
-### Stage 0 Routing Preflight Write Gate
-
-For any non-trivial Work Block, **Stage 0 Routing Preflight is the write gate**.
-Before any edit/write-capable tool is used, the Work Block must visibly record:
-
-- Work Block type;
-- side-effect class;
-- Skill Routing Gate result;
-- Subagent Topology classification and dispatch/skip decision;
-- Hard Stops in scope;
-- `Write gate: READY` or `Write gate: BLOCKED`.
-
-**Compact preflight** — for Control-Tower-Only tasks (≤2 planned write-set
-files, no DB, no deploy, no security, no client-facing, no governance impact):
-
-```
-PREFLIGHT: CTO | <side-effect-class> | no DB | no HS | Skills: <checked>/<used>/<skipped> | READY
+Stage 3 — Close
+  SSOT sync -> engineering memory -> closeout report
 ```
 
-### Skill Routing Gate
+The lifecycle requires functions, not a fixed number of agents. Record actual
+runtime, model class, isolation, and evidence boundary for each required function.
+Only passing required assurance gates permit successful closeout.
 
-Before any non-trivial Work Block:
+## 7. Governance Profiles
 
-0. **Relevance filter.** State which skill categories are relevant to this task.
-   - **Always relevant:** `git-safety` (if installed) for commit decisions.
-   - **Relevant to this task:** match by domain (security, content, ops, etc.).
-   - **Not relevant to this task:** skip these categories explicitly.
+Select the smallest sufficient profile:
 
-1. Inspect `.agent/ROSTER.md` for routing-critical skill candidates.
-2. Search approved `.agent/skills/*/SKILL.md` files within relevant categories.
-   If no matching skill file exists, record `skill-file-unavailable`.
-3. Read only the matching skill files.
-4. State in the Work Block:
-   - `Skills checked`, `Skills matched`, `Skills used`, `Skills skipped and why`.
+- `Advisory`: read-only analysis; evaluation normally optional.
+- `Controlled`: bounded executor, explicit scope/write-set, deterministic checks.
+- `Managed`: approved spec/plan, Critic, Reviewer, Verifier, evaluation for
+  non-deterministic outputs or consequential agent behavior.
+- `Assured`: stronger independence, fixed rubric/benchmark, output/trajectory
+  evaluation, drift audit, risk/threat analysis where relevant.
+- `Distributed`: multiple runtimes/worktrees/teams with event provenance, handoff,
+  consolidation, and recovery.
 
-### Hook-Enforced Gate Rules
+Governance profile is independent of runtime and installation profile.
 
-Three SDLC rules are enforced by `.claude/hooks/`:
+## 8. Session Start
 
-1. **Skills Routing field** (`critic-gate.sh`, every gated edit). Repository
-   edits are denied until `.agent/critic-gate.md` records routing evidence,
-   bracket-free: `Skills Routing: checked=...; matched=...; used=...; skipped=...`
+Always for non-trivial work:
 
-2. **Write-set amendment** (`critic-gate.sh`, `Status: READY`). Editing a path
-   absent from the Critic Report requires a same-day orchestrator-log entry:
-   `| YYYY-MM-DD | <WB-id> | amendment: write-set + <path> - <reason> | Control Tower |`
+1. `AGENTS.md`;
+2. `.agent/bootstrap-profile.json` when availability matters;
+3. active Work Block;
+4. active specification/revision and architecture decisions;
+5. approved implementation/evaluation plans;
+6. current repository status and diff.
 
-3. **Verifier identity and isolation** (`verification-gate.sh`, `Status: READY`).
-   Must record `Verifier`, `Sensitive Domains`, `Required Verifier Isolation`,
-   and `Verifier Isolation`. Actual isolation must meet or exceed required level.
+Read conditionally:
 
----
+- relevant `governance/*`, especially `evaluation.md`;
+- `.agent/workflows/sdd-protocol.md` and `.agent/ROSTER.md`;
+- installed/approved runtime and integration adapters;
+- relevant evaluation plans/events/reports;
+- relevant skills, engineering memory, and operational logs.
 
-## SSOT Hierarchy
+Use progressive disclosure. Do not load every registry, skill, memory, runtime doc,
+or event log by default.
 
-- `.agent/reports/**` are immutable historical evidence snapshots.
-- `.agent/workflows/**` are approved workflow contracts; use as requirements/reference.
-- `.memory_bank/orchestrator-log.md` is the live WB history log.
-- `.memory_bank/activeContext.md` contains current focus, scope, and next gate.
-- `.memory_bank/progress.md` contains the rolling status log.
+## 9. Work Block and Write Gate
 
-If docs conflict with code → code wins. Update the docs.
+Before non-trivial mutation, the active Work Block must record:
 
----
+- objective, expected result, approved specification/revision, architecture baseline;
+- in-scope/out-of-scope boundaries and write-set;
+- governance profile, side-effect class, data mode, Hard Stops;
+- runtime capability, function bindings, model class, actual isolation;
+- review, verification, evaluation, and drift plans;
+- evaluation ID/plan/rubric/benchmark/event sources when required;
+- rollback/recovery and write gate status.
 
-## Agent Roster
+If the write gate is `BLOCKED`, do not edit source, stage, commit, push, deploy,
+change credentials, mutate live data, or send client communications.
 
-| Agent / Mode | Role |
-|---|---|
-| Control Tower | Orchestration, planning, task slicing, SSOT |
-| Reviewer | Read-only audit, SSOT drift checks |
-| Scoped Coder | Approved-scope implementation only |
-| Verifier | AC verification gate |
-| Critic | Pre-implementation decision review |
+A runtime hook may enforce the gate. The written contract remains authoritative
+when hooks are unavailable.
 
-Full roster with skill assignments: `.agent/ROSTER.md`
+## 10. Evaluation Assurance
 
-### Claude Code Model Routing
+Evaluation has three evidence classes:
 
-| Task Type | Model |
-|---|---|
-| Explore, inventory, research | `haiku` |
-| Scoped Coder, Verifier, Reviewer, Critic | `sonnet` |
-| Solution Architect (hard architecture only) | `opus` |
+- **Deterministic tests:** compilation, types, unit/integration/contract/property/
+  regression tests, schema and rule checks.
+- **Output evaluation:** the final artifact against approved criteria, thresholds,
+  weights, and evaluator types.
+- **Observable trajectory evaluation:** tool calls/results, file/diff/command/test/
+  gate events, retries, failures/recoveries, side-effect attempts, stopping
+  conditions, and produced evidence.
 
----
+Trajectory evidence must not request, expose, or claim private chain-of-thought,
+hidden reasoning, model scratchpads, or internal deliberation. User-visible
+rationales are outputs, not privileged traces.
 
-## Memory Bank Protocol
+An LM judge may evaluate approved non-deterministic criteria only. It cannot:
 
-Memory bank files in the session start read set (all under `.memory_bank/`):
+- prove deterministic correctness or waive a deterministic failure;
+- approve architecture, product scope, or specification revisions;
+- open write, integration, deployment, or Hard Stop gates;
+- convert missing/blocked evidence into `READY`.
 
-1. `activeContext.md` — current focus, scope, next step
-2. `progress.md` — done / in-progress / next
-3. `orchestrator-log.md` — WB opening and closeout rows
+Required evaluation cannot be skipped. Missing event sources or unavailable checks
+are `BLOCKED`, `UNVERIFIED`, or `not_run`, never `pass`.
 
-Update memory bank only after a meaningful closeout has verification evidence.
+## 11. Hard Stops
 
-**Committing sessions write log rows.** Any session that produces a git commit
-must record at least a WB-opening row and a closeout row in
-`.memory_bank/orchestrator-log.md`, and reference the WB id in the commit
-subject or body when practical.
+Explicit Owner approval is required before:
 
----
+- production deploy or live service restart;
+- live DB migration or direct live-data mutation;
+- credential, token, key, or secret changes;
+- destructive git/filesystem/database operations;
+- push to the default branch;
+- release publication or irreversible public-repo action;
+- real client/user communications;
+- payment, order, stock, CRM, or consequential external mutation;
+- material objective, specification, evaluation-plan, or scope expansion.
 
-## Key Constraints (all agents)
+Evaluation cannot grant or infer Hard Stop approval.
 
-- No env/secret changes without Owner approval.
-- No deploy/infra changes without Owner approval.
-- No real client communications without Owner approval.
-- No scope expansion beyond the approved task write-set.
-- Do not commit secrets, tokens, or production credentials.
-- Tool capability is not authority.
+## 12. Runtime Data Mutation Boundary
 
----
+Agents may design and implement reviewed code paths. They are not trusted direct
+executors for business data.
 
-## Skill Index
+For consequential runtime mutations:
 
-Approved project-local skills live in `.agent/skills/<skill-name>/SKILL.md`.
-Each skill defines: Triggers · Workflow · Guardrails · Handoff.
+1. agent produces a structured action proposal;
+2. trusted backend validates identity, payload, scope, and invariants;
+3. policy decides deny, read-only, approval-required, or execute;
+4. risky actions show a concrete preview/diff and collect approval;
+5. trusted code executes with transaction, idempotency, and audit logging.
 
-Engineering skills (discovery, security-pass, memory-ops, git-safety, etc.)
-are available in `/home/azur/Projects/WSL/azursystech/.agent/skills/` and
-can be ported to this project when needed via a skill-curation Work Block.
+Forbidden by default: raw live SQL, unrestricted provider mutation calls, direct
+agent writes to payment/order/stock/CRM systems, secrets/private payloads in prompts
+or logs.
 
-See `.agent/README.md` for navigation guide and `.agent/ROSTER.md` for routing.
+## 13. Security and Maintainability Baseline
 
----
+Production changes must:
 
-## File Write Authority
+- follow existing patterns and naming;
+- keep abstractions proportional to demonstrated complexity;
+- expose data flow, side effects, failure modes, ownership, and evidence clearly;
+- avoid speculative helpers and duplicated generated boilerplate;
+- validate untrusted inputs and external boundaries;
+- avoid hardcoded secrets and sensitive log leakage;
+- use parameterized queries and safe path/redirect handling;
+- include targeted deterministic and evaluation evidence where applicable;
+- remain understandable without hidden prompt history.
 
-| Path pattern | Who can write |
-|---|---|
-| `AGENTS.md`, `AGENT.md`, `.agent/README.md`, `.agent/ROSTER.md`, `.agent/critic-gate.md`, `.agent/verification-gate.md`, `.agent/workflows/**`, approved `.agent/skills/**` | Control Tower |
-| `.memory_bank/**` | Control Tower |
-| `.claude/settings.json`, `.claude/hooks/**`, `.claude/agents/**`, `.claude/agent-memory/**` | Control Tower |
-| `src/**`, `scripts/**`, `public/**` | Scoped Coder (within approved write-set) |
-| `.agent/reports/**` | Verifier, Scoped Coder, Control Tower |
-| `.env`, secrets, production infra | Owner only |
+Unavailable runtime evidence is `UNVERIFIED`.
+
+## 14. Assurance Semantics
+
+The Stage 2 functions are distinct:
+
+- **Reviewer:** Is the frozen diff safe, correct, maintainable, and architecture-consistent?
+- **Verifier:** Do acceptance criteria and observable contracts hold?
+- **Evaluator specialization:** Do output and observable trajectory meet the approved rubric/plan?
+- **Drift Auditor:** Do spec, decisions, plans, code, tests/evals, and docs agree?
+
+A green build alone is not sufficient verification. A good review does not prove
+runtime behavior. Passing tests do not prove specification alignment. A fluent
+response does not prove trajectory compliance. Record gaps and degraded isolation honestly.
+
+## 15. Failure Policy
+
+When a stage fails:
+
+- downstream success claims remain blocked;
+- continue only with diagnostics, corrective planning, evidence capture, or reporting;
+- do not skip required assurance because a preferred runtime, model, plugin, or
+  event source is unavailable;
+- choose the strongest available fallback and record limitations;
+- never upgrade `BLOCKED` or `UNVERIFIED` to `READY` without new evidence.
+
+## 16. Closeout
+
+`success-closeout` requires:
+
+- implementation completed inside approved scope;
+- required review gate passing;
+- verification verdict `READY`;
+- required evaluation status/verdict `READY`;
+- required drift gate `READY`/`ALIGNED` or valid documented skip;
+- required approvals recorded;
+- normative/derived artifacts synchronized;
+- residual risks and inspection gaps documented;
+- reusable engineering knowledge classified.
+
+Otherwise use `reporting-only`; keep the task blocked or incomplete.
+Operational logs belong in `memory_bank/`. Promote only reusable, evidence-backed,
+secret-free knowledge to `docs/engineering-memory/`.
+
+## 17. Runtime Adapters and Compatibility
+
+Existing `.codex/`, `.claude/`, MCP, plugin, OpenCode, and file-handoff layers
+are adapters. Prefer native or official integrations when they satisfy governance.
+Retain file-based handoff for durable queues, cross-machine work, recovery, or
+formal audit requirements.
+
+No adapter may redefine core authority, SSOT, evaluation rules, Hard Stops, or closeout.

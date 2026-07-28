@@ -1,0 +1,23 @@
+---
+import CategoryDetailPage from "@/components/categories/CategoryDetailPage.astro";
+import {
+    categoryCatalog,
+    categorySlugs,
+    localizedCategoryLanguages,
+} from "@/data/categoryCatalog";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+    return localizedCategoryLanguages.flatMap((lang) =>
+        categorySlugs.map((category) => ({
+            params: { lang, category },
+        })),
+    );
+}
+
+const lang = Astro.params.lang as (typeof localizedCategoryLanguages)[number];
+const category = categoryCatalog[Astro.params.category as keyof typeof categoryCatalog];
+---
+
+<CategoryDetailPage category={category} lang={lang} />
