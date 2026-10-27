@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+git diff --cached --check
+
+blocked=0
+while IFS= read -r -d '' path; do
+  name=$(basename -- "$path")
+  case "$name" in
+    .env|.env.*|.npmrc|id_rsa|id_ed25519|credentials.json|service-account.json|*.pem|*.key|*.p12|*.pfx)
+      case "$name" in .env.example|.env.sample) continue ;; esac
+      printf 'Blocked staged sensitive filename: %s\n' "$path" >&2
+      blocked=1
+      ;;
+  esac
+done < <(git diff --cached --name-only -z --diff-filter=ACMR)
+
+if (( blocked != 0 )); then
+  exit 1
+fi
+
+if git diff --cached --no-color --unified=0 --diff-filter=ACMR -- . |
+    grep -Eq '^\+(<<<<<<< |=======($|[[:space:]])|>>>>>>> )'; then
+  echo 'Blocked: staged merge-conflict markers detected.' >&2
+  exit 1
+fi

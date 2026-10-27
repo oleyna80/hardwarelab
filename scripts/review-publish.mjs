@@ -114,9 +114,9 @@ function main() {
 
   const checks = [
     ["Disclosure check", `node scripts/check-disclosure.mjs`],
-    ["Review package check (EN)", `node .agent/skills/scripts/check-review-package.mjs ${slug}`],
+    ["Review package check (EN)", `node scripts/app-checks/check-review-package.mjs ${slug}`],
     ["Astro build", `npx astro build`],
-    ["Affiliate links check", `node .agent/skills/scripts/check-affiliate-links.js`],
+    ["Affiliate links check", `node scripts/app-checks/check-affiliate-links.js`],
   ];
 
   let allPassed = true;
