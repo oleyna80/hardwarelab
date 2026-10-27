@@ -128,3 +128,24 @@ On re-entry the Owner's correction was already present: common config has `exten
 HEAD is still `20350b5f6fa059e4dccf81b67d05d18be7789faf`; the Lite tracked diff is exactly the three authorized sidecar deletions plus the handoff, with this report untracked and nothing staged. The tracked diff and this untracked report were inspected; `git diff --check` returned 0. `git diff --no-index --check /dev/null` on the untracked report returned 1 for the addition, without whitespace diagnostics; a focused conflict-marker/trailing-whitespace search returned no matches. No new application check was run in this continuation: the previous results above apply to the then-uncommitted working tree, not a future commit.
 
 The sandbox permits Git metadata read-only; no staging or commit was attempted. Formal same-S Reviewer/Verifier were not run because S does not exist. **Recommendation remains BLOCKED.** The main worktree has an unrelated modified `test-results/.last-run.json` and was not changed. Next action is scoped staging and commit in a session with writable Git metadata, followed by same-S independent assurance, as detailed in the handoff. No push is authorized in R1.
+
+
+## R1 exact-source independent assurance — 2026-10-27
+
+S is `ab6f702b283c876e51ca2f9d1e205cd99528e3fe` (parent `20350b5f6fa059e4dccf81b67d05d18be7789faf`). Earlier R1 checkpoints reflect the state before S and are superseded for current status. S has exactly five changed paths: these two evidence documents and the three authorized sidecar deletions. At the start of independent verification S was checked out with a clean Lite worktree.
+
+A native independent Reviewer inspected S and the full adoption diff and ultimately returned **READY on S**. Its initial REWORK regarding pre-commit checkpoint text was expressly withdrawn after reconsidering the canonical predecessor checkpoint and evidence-only S/H procedure. Reviewer found no unrelated source changes, confirmed hook selection and syntax, and specified a subsequent evidence-only H. Hook execution was not observed.
+
+A separate native independent Verifier returned **PASS on the same S**. It observed clean staged/unstaged diffs before and after verification; ran `npm run check:ci` with the documented Chromium cache and platform override (exit 0, ESLint and build passed, 0 Astro errors, 0 warnings, 92 hints, 93 affiliate pages passed, 4/4 E2E passed); ran `npm run lint:images` (exit 0 with 35 image findings); and confirmed the scoped deletions, content-loader exclusion, absence of active legacy role directives under `src`, effective hook settings, executable bits and hook syntax. The Verifier did not claim native hook invocation or OS isolation. Both agents shared this worktree and Git storage. These paragraphs summarize their responses. The available responses were copied into separate encoded `.md.b64` files, with readable copies `reviewer-initial-s-ab6f702.md`, `reviewer-s-ab6f702.md` (corrected final verdict), and `verifier-s-ab6f702.md`; they are not yet Git-committed.
+
+**Delivery remains BLOCKED:** these latest evidence updates are uncommitted, no evidence-only delivery H exists, and applicable CI on H has not run. The sandbox continues to deny Git metadata writes, and R1 forbids push. Commit the prepared independent original responses and these updates as evidence-only H when Git metadata is writable, verify `S..H`, and run applicable CI on H only after separately authorized publication. Earlier GitHub CI evidence pertains to the prior SHA, not H. PR #14 remains subject to Owner disposition; no merge or deployment is authorized.
+
+### Original agent response preservation
+
+The three `.md.b64` files losslessly encode the respective original agent final-response text copied from this conversation (UTF-8, including Markdown hard-break trailing spaces). Decode with `base64 -d <file>.md.b64` to recover those bytes. The `.md` files are readable copies with only trailing horizontal whitespace removed, because the active pre-commit hook rejects trailing whitespace. The conversation responses were not originally Git blobs; the hashes below identify the copied bytes and do not prove an independently retrieved original blob. The initial Reviewer report is superseded by its corrected final response.
+
+| Response | Original copied SHA-256 | Readable copy SHA-256 |
+| --- | --- | --- |
+| `reviewer-initial-s-ab6f702` | `b6805735c2ded9be2de183543ca34a1222eeb21cd36c5275e0678b63c401720c` | `6fb36c70dafe8ec2dd0f08fd8b1098bc2deeb7bad9ce38035fbbe07be593cec3` |
+| `reviewer-s-ab6f702` | `36af18c644829fd77e1ff2dbe70bcef3debc7468401de5ad6e96d1fe9f4a3a1c` | `36af18c644829fd77e1ff2dbe70bcef3debc7468401de5ad6e96d1fe9f4a3a1c` |
+| `verifier-s-ab6f702` | `6f2fba5a1651485c1ba8035fbf5b01c0d842921ae836d2ec634b598d768c0d91` | `bb2e2140d8b0a9b78f3bbd60d73c2bc7781bb516beabc52e9f11193953b68941` |

@@ -1,5 +1,13 @@
 # HardwareLab — Clean SDLC Lite Initialization Handoff
 
+## R1 exact-source assurance checkpoint — 2026-10-27
+
+Source candidate **S `ab6f702b283c876e51ca2f9d1e205cd99528e3fe`**, parent `20350b5f6fa059e4dccf81b67d05d18be7789faf`, is committed locally on `chore/sdlc-lite-adoption`. The previous checkpoints below record earlier states and are superseded by this one. Separate native Reviewer and Verifier contexts both assessed this exact S: **Reviewer READY** (after withdrawing an initial REWORK on historical checkpoints) and **Verifier PASS**. They shared the same worktree/Git store and were not OS-isolated. The Verifier independently ran `check:ci` (exit 0; 4/4 E2E; 93 affiliate pages; 0 errors, 0 warnings, 92 hints) and `lint:images` (exit 0 with 35 findings). The image findings and prior audit/research findings remain backlog. Original agent responses were copied from the available conversation into separate losslessly encoded `.md.b64` files; their linked `.md` copies remove trailing whitespace only: [Reviewer initial verdict](reviewer-initial-s-ab6f702.md), [Reviewer corrected verdict](reviewer-s-ab6f702.md), and [Verifier verdict](verifier-s-ab6f702.md). The corrected Reviewer verdict withdraws the initial REWORK. These files have not yet been Git-committed.
+
+**Recommendation: BLOCKED for completed delivery.** This checkpoint and report update are uncommitted evidence-only work; the sandbox still makes Git metadata read-only. No delivery HEAD H, Git-committed independent reports, checked `S..H` or applicable CI on H exists. No push was authorized. Actual hook execution was not independently observed. The local S is one commit ahead of the previously observed remote-tracking branch; no live PR refresh is claimed.
+
+**Next action:** commit the prepared evidence-only handoff, validation report and three separate original agent responses as H in a writable Git session, verify the full `S..H` diff changes evidence only, and obtain applicable CI on H when a separate push is authorized. Keep PR #14 Draft; request Owner review only with the delivery limitations and actual CI status stated. Do not merge, deploy or upgrade dependencies.
+
 ## R1 continuation checkpoint — 2026-10-27
 
 **BLOCKED / NOT_COMMITTED.** The Owner's hooks configuration correction is now observed: `extensions.worktreeConfig=true` in common config, `core.hooksPath=.githooks` in the Lite worktree config, and no effective `core.hooksPath` in the main worktree. Hook syntax and executable bits pass; actual hook execution was not observed. The main worktree has a separate modified `test-results/.last-run.json`, preserved without inspection or change.
