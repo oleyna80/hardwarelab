@@ -28,7 +28,7 @@ Preexisting uncommitted work, outside the new task draft:
 
 ## Next action and limits
 
-The initial next action above is superseded by the planning checkpoint below. Merge and any automatically triggered production publishing/deployment still require separate Owner disposition.
+The initial Spec-acceptance next action is superseded by the dated checkpoints below. Merge and any automatically triggered production publishing/deployment still require separate Owner disposition.
 
 ## Planning checkpoint — 2026-10-30
 
@@ -39,3 +39,12 @@ The initial next action above is superseded by the planning checkpoint below. Me
 - Planning write-set: new project `plan.md`, `owner-decisions.md`, `image-write-set.txt`, and this task checkpoint. Existing `.dockerignore` and adoption-handoff dirty changes remain excluded, with the hashes recorded above; no other staged content is authorized by this checkpoint.
 - Planning checks: repository/ref/spec identity, finite path list and scope/hash consistency, full planning diff/whitespace and normal commit hooks. Application tests, upgraded install, Docker execution, source assurance and candidate CI are NOT_RUN in this planning phase.
 - Next: independently review committed exact P and scope-list blobs against the accepted Spec. Preserve the original Project Critic report separately. READY then goes to Owner exact-P review; REWORK returns to bounded planning correction. Only approved P can be handed to the project Codex CLI Orchestrator for W → Stage Critic → execution. There is no Owner-per-conforming-W approval and no implementation authority from this checkpoint.
+
+## Project Critic checkpoint — 2026-10-30
+
+- Observed predecessor HEAD: `e6d460b76370020d9a5e22d6cafc7b55cfb35dff`, same verified original worktree/branch. That commit contains complete P, its finite scope input, Spec acceptance record and planning checkpoint; it changes only four task-planning files.
+- Exact reviewed P: `docs/projects/application-maintenance/plan.md`, commit `e6d460b76370020d9a5e22d6cafc7b55cfb35dff`, blob `62e685cec97758866d3e5ff627fc98a195e20961`. Scope-list blob: `79159117388e500f5b9cc8fb56628835de653dd3`. Accepted Spec commit/blob remain unchanged.
+- Independent native mission `/root/maintenance_project_critic` returned READY, with no blocking findings. [Original report](../../projects/application-maintenance/project-critic.md), blob `dd640b0f7e9d9ab4714c6f38755765ccbc4c3f60`, SHA-256 `fa8bd63330b656b3b24b12ff052132ddfab5fbbe2b0f7f3b11700f67abe10c47`, is preserved byte-for-byte. It is a planning verdict, not source/security/CI PASS. The mission shares filesystem/Git and does not establish OS isolation.
+- Nonblocking execution notes concern full decode, explicit focused-test commands/CI wiring, owned local server and concrete Node/native runtime verification. They explain existing P requirements and do not add acceptance criteria or require a P revision.
+- The evidence checkpoint includes only the original Critic report and this handoff update; reviewed P/Spec/scope are frozen. Normal planning commit hooks and scope/whitespace/hash checks completed on the predecessor; application checks remain NOT_RUN. Both unrelated dirty-file hashes remain as recorded above; no install, new workspace, push, PR mutation, merge or deployment occurred.
+- Current phase: ready for Owner exact-P review. Present the exact reviewed P and READY report, explicitly including the proposed stacked PR base and delegated autonomous task bounds. Owner P approval has not yet been given. After it, prepare the Orchestrator handoff and actionable W in project Codex CLI; preserve separate Stage Critic and same-S source assurance gates.
