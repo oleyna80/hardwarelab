@@ -206,5 +206,5 @@ const ogLocale = ogLocaleMap[lang] || "en_US";
 <script
     is:inline
     type="application/ld+json"
-    set:html={JSON.stringify(schema.length === 1 ? schema[0] : schema)}
+    set:html={JSON.stringify(schema.length === 1 ? schema[0] : schema).replace(/</g, "\\u003c")}
 />

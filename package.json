@@ -27,18 +27,17 @@
     "review:publish": "node scripts/review-publish.mjs"
   },
   "dependencies": {
-    "@astrojs/mdx": "^7.0.3",
-    "@astrojs/node": "^11.0.2",
-    "@astrojs/partytown": "^2.1.7",
-    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/mdx": "^8.1.2",
+    "@astrojs/node": "^11.1.9",
+    "@astrojs/partytown": "^2.1.9",
+    "@astrojs/sitemap": "^3.7.4",
     "@fontsource/inter": "^5.2.8",
     "@fontsource/jetbrains-mono": "^5.2.8",
-    "astro": "^7.0.9",
+    "astro": "^7.4.4",
     "autoprefixer": "^10.5.3",
     "send": "^1.2.1",
-    "sharp": "^0.33.0",
-    "tailwindcss": "^3.3.0",
-    "zod": "^3.22.0"
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.3.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
@@ -54,6 +53,6 @@
     "vitest": "^4.0.16"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.23.4"
   }
 }

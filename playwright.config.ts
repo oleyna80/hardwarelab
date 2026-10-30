@@ -5,12 +5,12 @@ export default defineConfig({
     fullyParallel: true,
     reporter: 'list',
     use: {
-        baseURL: 'http://localhost:4321',
+        baseURL: 'http://127.0.0.1:4321',
         trace: 'on-first-retry',
     },
     webServer: {
-        command: 'npm run preview',
-        url: 'http://localhost:4321',
-        reuseExistingServer: !process.env.CI,
+        command: 'HOST=127.0.0.1 PORT=4321 node ./dist/server/entry.mjs',
+        url: 'http://127.0.0.1:4321',
+        reuseExistingServer: false,
     },
 });
