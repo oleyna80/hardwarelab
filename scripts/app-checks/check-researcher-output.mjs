@@ -35,9 +35,9 @@ async function readFileSafe(filePath) {
 }
 
 
-function getSection(content, heading) {
+function getSection(content, heading, headingPattern) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const headingRe = new RegExp(`^#{2,3}\\s+${escaped}\\s*$`, "m");
+  const headingRe = new RegExp(`^#{2,3}\\s+${headingPattern ?? escaped}\\s*$`, "m");
   const headingMatch = headingRe.exec(content);
   if (!headingMatch || headingMatch.index === undefined) {
     return "";
@@ -90,7 +90,8 @@ function parseUserFeedbackComments(indexContent) {
 }
 
 function parseResearchPackQuotes(packContent) {
-  const section = getSection(packContent, "User Quotes (source-verbatim)");
+  const section = getSection(packContent, "User Quotes (source-verbatim)",
+    String.raw`(?:User Quotes \(source-verbatim\)|6\) User Quotes \(source-verbatim, 4–6\))`);
   const quotes = [];
   const re = /^\s*\*\s+quote:\s+"(.*)"\s*$/gm;
   let m;
