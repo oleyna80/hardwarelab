@@ -1,6 +1,6 @@
 # HardwareLab
 
-Multilingual hardware review and affiliate website. This experimental branch keeps the application `src/`, `public/`, `tests/` Git trees and dependency lockfile unchanged from `main` at `72ada873d66d19de2609515b443766065fe132c9`, but replaces the old agent infrastructure with a clean Agentic SDLC Lite installation from `oleyna80/agentic-sdlc-lite` `55ebee6cf26db99d708f089f297344ef0341f698`.
+Multilingual hardware review and affiliate website. The original adoption replaced the old agent infrastructure with a clean Agentic SDLC Lite installation from `oleyna80/agentic-sdlc-lite` `55ebee6cf26db99d708f089f297344ef0341f698`. It preserved application content from `main` at `72ada873d66d19de2609515b443766065fe132c9` except for three authorized deletions of historical editor and technical-audit sidecars. Later, two ROG Ally article comments were corrected under separate authorization. A limited workspace procedure update comes from Lite merge `8db525ab1f1443cee944cba07fcccafd71408be8`; this update changes no article content.
 
 ## Local setup
 
@@ -25,11 +25,7 @@ Use an existing clean clone or an isolated `git worktree` if preferable. Playwri
 
 Before new work, inspect `AGENTS.md`, `PROJECT_BRIEF.md`, `PROJECT_MAP.md`, `docs/workflow/initialization.md`, `docs/security/boundaries.md`, and current Git state. Run Codex at the verified repository root.
 
-Lite cooperative Git hooks are in `.githooks/`. Inspect them and their limitations, then enable locally if approved:
-
-```bash
-git config --local core.hooksPath .githooks
-```
+Lite cooperative Git hooks are in `.githooks/`. Follow the [workspace guide](docs/workflow/workspaces.md#connecting-git-hooks) to inspect existing hooks and their limitations and select the appropriate configuration scope before an authorized change.
 
 These hooks are not security isolation or a replacement for GitHub permissions. The migrated `scripts/app-checks/` files are **application QA tools**, not agent Skills; associated `package.json` and CI paths have been updated. Historical agent contracts, memory, hooks and process-related Skills are intentionally absent from the experimental tree.
 
