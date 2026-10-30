@@ -82,3 +82,54 @@ This was an independent read-only native-agent review, but agents share the repo
 ### Next authorized action
 
 Orchestrator should prepare a **new, bounded W** that resolves the three findings without changing Spec/P scope, commit it, and request a new independent Stage Critic review. No Coder implementation should begin from `46376a928fcccd09cf24f9ec893a97da5f76d25b`.
+
+---
+
+## Independent Stage Critic — `application-maintenance-runtime`
+
+Mission: `/root/runtime_critic_r2`. Original report transcribed verbatim below by Orchestrator.
+
+**Verdict: READY** for the exact committed W only:
+
+- Commit: `e3f801a4e5aaf4d9ad79c04893ad46aa842082b1`
+- Path: `docs/changes/application-maintenance-runtime/work-block.md`
+- Blob: `ac73a1b81ccaa26f5ed4ebc3684350379d78541f`
+
+This READY permits bounded Coder work only within that W, the approved P, actual platform permissions, and its stated stop conditions. It is neither source assurance nor permission to merge, deploy, or alter release/security policy.
+
+### Binding, lifecycle, and scope
+
+- The exact W is a descendant of the accepted Spec `3360d201…`, approved P `e6d460b…`, and original Project Critic report `b296ab08…`; all three ancestry checks returned exit `0`.
+- The referenced P blob `62e685ce…`, Spec blob `08e0c7e…`, Project Critic blob `dd640b0…`, and W blob above are readable and match the W’s stated identity.
+- P §3 permits the finite S1 source set listed by W; W excludes S2 image/content paths, release workflows, production policy, secrets, editorial changes, and deployment. One named runtime Coder owns overlapping paths, as required.
+- `git diff --check` for the corrected W returned no diagnostics. The correction commit modifies only the W.
+- The preserved prior Stage Critic REWORK applies to original W `46376a92…` / blob `bab563bd…`, not to this revised object. A fresh decision is therefore required and is supplied here.
+
+### Prior REWORK disposition
+
+All three former blocking findings are corrected:
+
+1. **Focused-test CI coverage:** W item 4 now requires explicit `quality`-job steps for `npm run test:affiliate` and `node --test scripts/app-checks/check-researcher-output.test.mjs`, plus the same concrete Vitest command locally and in CI when contact tests are introduced. This meets P §6’s requirement not to assume existing CI covers focused tests.
+
+2. **Docker route:** W item 5 no longer claims an absent CI smoke job is equivalent. It requires local loopback-only Docker build/start and makes loss of daemon access a fail-closed `BLOCKED/NOT_RUN` condition requiring Orchestrator disposition/revised W.
+
+3. **Baseline failure:** W item 1 now fails closed: record the failure, stop the affected stage, and return for permitted remediation or a revised W plus new Stage Critic. It does not attempt an impossible after-the-fact Critic authorization.
+
+### Gate feasibility
+
+- The committed workflow has the required `pull_request` route: `quality → e2e/lighthouse`, plus Lite Checks. The corrected W requires the Coder to add the missing focused-test commands in the permitted `quality` job while retaining all existing gates.
+- This Critic mission directly observed Node `v22.22.3`, npm `10.9.8`, Docker client/server `29.1.3`, an installed Google Chrome binary, and executable pre-commit hook. The selected Node `22.23.4` remains a candidate to verify during implementation, not a currently asserted success.
+- Direct read access to `origin` works. This Critic’s own `gh` token and SSH-agent boundary are unavailable, so I cannot independently prove push/PR mutation from this subagent.
+- The Orchestrator’s immediately repeated publisher-boundary checks supplied the missing feasibility evidence: authenticated `gh api user` succeeded as `oleyna80`; repository permissions reported `pull: true`, `push: true`, `admin: true`; and the exact task-ref `git push --dry-run` succeeded. That is sufficient evidence of a current permitted publication/CI route for the authorized publisher.
+- `gh pr view`’s GraphQL call returned `401` in the parent environment while authenticated REST access succeeds. This is an observation limitation, not a W defect: the W/P do not mandate GraphQL, and a REST-compatible PR route remains available. Before the eventual publication, the Orchestrator must still perform W/P-required rechecks of the target branch, PR state, ancestry, and overlaps.
+
+### Required conditions before Coder starts
+
+- Reconfirm the exact W blob/commit and clean intended worktree state; do not use the earlier `46376a92…` W.
+- Confirm the publisher-boundary permissions remain available immediately before push/PR actions; credentials are time-sensitive and this READY does not preserve them.
+- Apply all W fail-closed stops: unavailable safe baseline, Node 22.23.4 route failure, Docker daemon loss, missing mandatory CI evidence, unlisted path, material security/scope change, or undisposed reachable critical/high residual.
+- Preserve exact-S Reviewer READY and Verifier PASS independence, then prove S..H is evidence-only and observe actual hosted CI on H.
+
+### Limitations
+
+No dependency installation, source tests, Docker build/start, browser execution, PR mutation, hosted CI, or security remediation was executed by this read-only Critic. Local runtime availability is feasibility evidence only; it is not a PASS for native Sharp, container behavior, upgraded dependency compatibility, or production behavior. This mission also shares filesystem/Git storage with other agents and is not OS isolation.
