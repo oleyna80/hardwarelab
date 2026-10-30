@@ -23,3 +23,7 @@ Independent static triage by `/root/security_assessment`, using the rework audit
 | zod 3.25.76 | GHSA-mrhx-c7xc-m3w5 high | Lighthouse → Puppeteer → chromium-bidi; requires a huge attacker-controlled collection reaching an affected parser. BiDi usage and hostile input not established. Astro uses separate zod 4.6.7. |
 
 Inherited audit records: `@lhci/cli`, `@lhci/utils`, `@puppeteer/browsers`, `chromium-bidi`, `external-editor`, `get-uri`, `inquirer`, `lighthouse`, `pac-proxy-agent`, `proxy-agent`, `puppeteer-core`; severity derives from the direct advisories above. These are not independent additional vulnerabilities. Fixes and compatibility remain subject to future upstream updates. No confirmed reachable high/critical was identified within the examined scenarios; that is not an assertion that none exists in unobserved environments. Independent Reviewer/Verifier and exact-S audit remain pending.
+
+Later redirect-test rework: the pre-S limitation above is superseded by the owned loopback native-fetch test described in runtime implementation.md. It does not establish real provider redirect requirements or production behavior.
+
+Later production-Zod rework changes the lock hash to `2242c4afe83d61d2d95806b668d5808d03bcfd01fdae44fdd2c36e58c4880082`; earlier lock hash/audit are historical. Coder reports fresh production audit zero and full audit 18 records; exact-S independent audit and triage are pending. Direct runtime zod 4.6.7 restores SSR's `zod/v4` import after a real container startup failure.

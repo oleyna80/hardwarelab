@@ -31,3 +31,15 @@ Final package.json SHA-256 `0f82e76f41e6db344a3ccd4924949fce46cb14e76cc0e65bf66b
 The complete local lint, type check, build, affiliate, image lint, affiliate tests, researcher unit tests, contact tests and E2E sequence was rerun after the lock change; each exited 0. Lighthouse recheck and exact-S/container/hosted/independent gates are recorded separately when available.
 
 Post-rework Lighthouse collect and assert both exited 0 for two URLs, upload disabled. Port 4173 was occupied at preflight, so it was not reused; a task-temp copy of the same config changed only 4173 to 44173, which was free. Task-owned XDG directories and Chromium were used as above. A first attempted collection on occupied 4173 exited 1. Afterward `ss` showed 4173, 4321 and 44173 free. This is local working-tree evidence; it does not satisfy hosted CI or the later exact-S gates.
+
+## Redirect test rework
+
+After Reviewer feedback on S `872adc236d9b2cf8da1310b0a55f1c3cd3c2a8b9`, the mock now rejects like native fetch with `redirect: error`, yielding 503. A fourth test uses native fetch against an owned ephemeral loopback server: the redirect endpoint receives one request, its target receives none, and the handler yields 503. The server is closed in `finally`; no provider is contacted. On the modified working tree, contact tests (4/4), type check, lint and `git diff --check` exited 0. Earlier descriptions of three tests and missing native redirect transport refer to the previous candidate. A new S and independent gates are required.
+
+## Production-mode browser server rework
+
+Reviewer also found that browser server commands omitted `NODE_ENV=production`. Both now set it explicitly. A synthetic route test sets production before import and checks that a configured development-only localhost origin gets 403 with no outgoing requests. After this change the Coder reports contact tests 5/5, type check, build, E2E 4/4, and Lighthouse collect/assert for both URLs passed; Lighthouse used task-owned XDG and no upload. This working-tree evidence is not independent exact-S assurance.
+
+## Production Zod rework
+
+The independent Verifier's exact-S Docker build succeeded but container startup failed because generated SSR imports `zod/v4` while the previous lock did not provide it in the production install. This supersedes the earlier conclusion that the direct dependency could safely be removed. The Coder restored direct runtime `zod` at `^4.6.7`, compatible with Astro's `^4.6.6`; final package-lock SHA-256 `2242c4afe83d61d2d95806b668d5808d03bcfd01fdae44fdd2c36e58c4880082`. Updated audits report full 18 package records (14 high, 2 moderate, 2 low) and production zero; JSON in task temp `audit-zod-full.json` and `audit-zod-prod.json`. Coder reports lint, types, Vitest 11/11 and a committed-equivalent (not exact-new-S) Docker build passed; loopback homepage and review 200, runtime zod/v4 import and native Sharp 2x2 PNG passed; owned container removed. Independent committed-context Docker and full matrix on the replacement S remain mandatory.

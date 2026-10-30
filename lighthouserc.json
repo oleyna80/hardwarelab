@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "numberOfRuns": 1,
-      "startServerCommand": "HOST=127.0.0.1 PORT=4173 node ./dist/server/entry.mjs",
+      "startServerCommand": "NODE_ENV=production HOST=127.0.0.1 PORT=4173 node ./dist/server/entry.mjs",
       "startServerReadyPattern": "Server listening on http://127.0.0.1:4173",
       "url": [
         "http://127.0.0.1:4173/",

@@ -9,7 +9,7 @@ export default defineConfig({
         trace: 'on-first-retry',
     },
     webServer: {
-        command: 'HOST=127.0.0.1 PORT=4321 node ./dist/server/entry.mjs',
+        command: 'NODE_ENV=production HOST=127.0.0.1 PORT=4321 node ./dist/server/entry.mjs',
         url: 'http://127.0.0.1:4321',
         reuseExistingServer: false,
     },
