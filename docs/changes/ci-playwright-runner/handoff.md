@@ -59,3 +59,10 @@ Accepted Lite Spec: commit `cccc54d717b9f72d262ce89e3378bcc4abf872cb`, path `doc
 ## Выполнение — 2026-10-30
 
 Исходное состояние подтверждено: HEAD и PR head `f9e61130c12694fe9be0953ebcaf00a9199ba04e`, PR base `72ada873d66d19de2609515b443766065fe132c9`, индекс пуст; четыре посторонних файла совпали с SHA-256 выше, blob Spec совпал. Журнал исходного e2e подтверждает отказ установки Playwright 1.57.0 на Ubuntu 26.04 до запуска тестов; установленный `playwright-core` объявляет Ubuntu 24.04 поддерживаемой. В `jobs.e2e.runs-on` выполнена единственная разрешённая замена на `ubuntu-24.04`. Hosted CI для изменения ожидается после push; этот checkpoint не утверждает PASS.
+
+### Результат проверки source candidate
+
+- Source candidate `e26613dfbfc7e13340c7af0f61dee18331d3e412` отправлен обычным push. Проверены полный tracked diff, новый handoff, staged diff, `git diff --check`, отсутствие конфликтных маркеров и разбор YAML через установленный PyYAML; workflow diff содержит только согласованную замену. Полный локальный quality-набор не запускался согласно заданию.
+- Автоматические [Lite Checks](https://github.com/oleyna80/hardwarelab/actions/runs/41041411920) — SUCCESS; [CI](https://github.com/oleyna80/hardwarelab/actions/runs/41041413980) — SUCCESS, все три job (`quality`, `e2e`, `lighthouse`) успешны. PR #14 head `e26613dfbfc7e13340c7af0f61dee18331d3e412`, base `72ada873d66d19de2609515b443766065fe132c9`; checkout job использовал сгенерированный PR merge commit `c8343cdc32ab9f8b9e55fa41667e5e67c5749897`.
+- [Журнал e2e](https://github.com/oleyna80/hardwarelab/actions/runs/41041413980/job/124015247523): образ `ubuntu-24.04`, Chromium установлен, `npm run test:e2e` выполнен — 4 passed.
+- Четыре посторонних файла сохранили SHA-256 из таблицы; индекс после первого коммита пуст. Следующий шаг — доставить этот evidence-only checkpoint и проверить автоматический CI на итоговом HEAD. Затем вернуться к согласованию плана `lite-workspace-update`; приёмка Owner, merge и deploy остаются отдельными действиями.
