@@ -48,3 +48,60 @@ The following are **not source findings in S** and must remain separated from th
 - Remaining security claims needing runtime/deployment proof include proxy-header trust, rate-limit process scope, optional Turnstile policy and hostname/action verification, external-provider behavior, CSP/edge headers, deployment secrets/configuration, and final container runtime restrictions.
 
 This verdict binds only `872adc236d9b2cf8da1310b0a55f1c3cd3c2a8b9`. A replacement source candidate requires a new independent review.
+
+---
+
+## Reviewer Report — повторный независимый технический review
+
+**Mission identity:** `/root/runtime_reviewer`
+**Verdict:** **READY** — исключительно для независимого source-level Reviewer gate на exact source candidate
+**Exact S:** `65b69c3c7e05d44600468c114065d7c5e6be21d4`
+**Baseline:** `c2fced7fc0b2f4f5031f6dfe11001e54b07df9bd`
+**W:** `e3f801a4e5aaf4d9ad79c04893ad46aa842082b1`
+**P:** `e6d460b76370020d9a5e22d6cafc7b55cfb35dff`
+
+**Dimensions:** code, security, architecture, docs, CI/configuration, drift
+**Files reviewed:** полный stage diff `c2fced7..65b69c3`; runtime Docker/Node/Lighthouse/Playwright/CI-конфигурация; `contact.ts` и focused tests; lockfile/dependency graph; security disposition и historical Reviewer/Verifier evidence.
+**Working tree:** чистый. `git diff --check c2fced7..S` завершён без диагностик.
+
+**Findings:** 0 новых source findings.
+
+### By severity
+
+- 🔴 HIGH: 0
+- 🟡 MEDIUM: 0
+- ⚪ LOW: 0
+
+### Проверка исправлений прежних findings
+
+| Предыдущее finding | Evidence в exact S | Независимый вывод |
+|---|---|---|
+| HIGH: E2E/Lighthouse запускали SSR без явного production режима | `playwright.config.ts:12`, `lighthouserc.json:5` | Исправлено. Обе команды теперь запускают built SSR entrypoint с `NODE_ENV=production`, loopback host/port и без переиспользования чужого E2E-сервера. |
+| MEDIUM: redirect-проверка была только mocked и не моделировала нативное Fetch-поведение `redirect: "error"` | `contact.test.ts:59`, `contact.test.ts:79`, `contact.test.ts:82`, `contact.test.ts:84`, `contact.ts:543` | Исправлено. Новый owned loopback HTTP server отдаёт реальный `302`; тест подтверждает один запрос к `/redirect`, отсутствие перехода на `/target` и закрытый отказ `503`. Это именно нативный transport-path, а не искусственный `Response(302)`. |
+| Подтверждённый Verifier Docker defect: SSR в runtime-образе не находил `zod/v4` после `npm ci --omit=dev` | `package.json:41`, `Dockerfile:36`, `Dockerfile:37` | Исправлено статически: `zod` 4.6.7 вновь является прямой production dependency, поэтому включается в runtime install. Lockfile exact S содержит root `node_modules/zod` 4.6.7; это согласовано с import SSR bundle. |
+
+Дополнительно focused production-origin test действительно загружает модуль после `NODE_ENV=production` и `ALLOWED_ORIGINS=http://localhost:4321`, затем получает `403` до любого outbound fetch: `contact.test.ts:26`–`contact.test.ts:34`. Это покрывает важную module-initialization границу `IS_PRODUCTION` в `contact.ts:13` и HTTPS-only фильтр production origins в `contact.ts:68`–`contact.ts:82`.
+
+### Security disposition
+
+Я независимо выполнил dependency-аудит exact lockfile с изолированным NPM cache:
+
+- `npm audit --package-lock-only --omit=dev --json`: **0 vulnerabilities** в production graph exact S.
+- Полный `npm audit --package-lock-only --json`: **18** package records: 14 high, 2 moderate, 2 low, 0 critical.
+
+Оставшиеся advisories находятся в dev/Lighthouse/Playwright transitive graph. В частности, вложенный `zod` 3.25.76 относится к `chromium-bidi` в tooling graph; это не прямой runtime `zod` 4.6.7. Текущая disposition корректна как **needs-more-proof**, а не как «устранено» или «невозможно эксплуатировать»: `docs/changes/application-maintenance/security-review.md:13`–`docs/changes/application-maintenance/security-review.md:25`.
+
+Не найдено статического доказательства reachable production critical/high residual. Следовательно, W-stop из `docs/changes/application-maintenance-runtime/work-block.md:21` не срабатывает на основании текущего источника. Отдельно проверены source fixes: Turnstile timeout `contact.ts:193`–`contact.ts:228` и webhook redirect rejection / fail-closed `503` `contact.ts:535`–`contact.ts:589`.
+
+### Scope and drift
+
+- Изменённые source/config paths лежат в разрешённом write-set W; docs evidence paths предусмотрены прямо W: `work-block.md:11`–`work-block.md:15`.
+- Исторический `review.md` корректно остаётся evidence старого REWORK и не заявляет READY на новый S.
+- `lighthouserc.json` сохраняет `temporary-public-storage` для CI, но это не противоречит W: локальный запуск с upload disabled — требование execution evidence; source CI-конфигурация не обязана отключать CI upload.
+- Упрощений security boundary не обнаружено: webhook URL остаётся host-restricted, credentials в URL запрещены `contact.ts:101`–`contact.ts:113`.
+
+### Ограничения и следующие обязательные gates
+
+- `READY` не означает, что весь W завершён. Я **не запускал** на новом S полную локальную matrix, E2E/Lighthouse либо Docker build/start с loopback/native Sharp. Результаты старого Verifier нельзя переносить на changed S. Это обязательный независимый **Verifier PASS** на том же exact S по W `work-block.md:22`–`work-block.md:24`.
+- Полный audit остаётся residual-risk observation, а не production penetration test. Не наблюдались production proxy/header trust, in-process rate-limit поведение под несколькими репликами, Turnstile provider/action/hostname enforcement, host CSP/edge headers, secrets и deployment configuration.
+- **Hosted CI не является finding для S и не запущен мной.** Он остаётся будущим evidence-only **H gate** после same-S Reviewer READY и Verifier PASS; его нельзя подменить ни этим source review, ни локальными утверждениями Coder.
