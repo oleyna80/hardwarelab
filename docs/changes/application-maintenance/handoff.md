@@ -1,5 +1,7 @@
 # application-maintenance — architecture checkpoint
 
+Current planning phase and next gate are recorded in the final checkpoint below. The initial Spec-preparation observations in this section are historical.
+
 - Date: 2026-10-30; phase: intent/scope accepted; specification candidate prepared for exact-revision acceptance. Verify checkpoint commit identity in Git; this document does not record its own future commit.
 - Repository/worktree: `oleyna80/hardwarelab`, `/home/azur/Projects/WSL/projects/Amazon_aff/hardwarelab-lite`.
 - Observed predecessor HEAD: `a9e221af43049c709dd6c5171bd8ad3d8d08e283`, branch `chore/sdlc-lite-adoption`.
@@ -26,4 +28,14 @@ Preexisting uncommitted work, outside the new task draft:
 
 ## Next action and limits
 
-Present the committed Spec path/commit/blob for exact Owner acceptance. Then prepare complete project-local P with implementation branch/base, pending Lite adoption dependency, finite write-sets, gate feasibility and delegated local delivery actions. Independent Project Critic precedes Owner exact-P approval; approved stages then go to project Codex CLI Orchestrator. No application implementation starts from this checkpoint. Merge and any automatically triggered production publishing/deployment require separate Owner disposition.
+The initial next action above is superseded by the planning checkpoint below. Merge and any automatically triggered production publishing/deployment still require separate Owner disposition.
+
+## Planning checkpoint — 2026-10-30
+
+- Observed predecessor HEAD: `3360d201366c2cad3d8bd843cec4984e68f805f6`, tree `6e5c4c48357d50f1b48a33de4a60118486ad18b1`; verified worktree `/home/azur/Projects/WSL/projects/Amazon_aff/hardwarelab-lite`, branch `chore/sdlc-lite-adoption`, origin `git@github.com:oleyna80/hardwarelab.git`.
+- Owner accepted the exact Spec at that commit, blob `08e0c7e6b6653e320c096836a21a8cf7ffb62239`, and requested P. The original message and acceptance boundary are in [owner-decisions.md](../../projects/application-maintenance/owner-decisions.md). Accepted Spec and historical preliminary assessment remain unchanged.
+- Complete [P proposal](../../projects/application-maintenance/plan.md) has two dependent stages: compatible runtime/security, then illustrations/final regression. Its finite [content/asset scope](../../projects/application-maintenance/image-write-set.txt) is frozen as a P input; W narrows actual affected paths. No source files were edited and no application checks were represented as newly passed.
+- PR #14 was observed OPEN/Draft with remote head `a9e221af43049c709dd6c5171bd8ad3d8d08e283`, base main `72ada873d66d19de2609515b443766065fe132c9`. Existing PR body CI references are not new candidate CI. P proposes a separate clean maintenance worktree/task branch and a stacked PR base, explicitly requiring Owner exact-P approval for that project-specific base choice. No worktree/branch, push or PR was created.
+- Planning write-set: new project `plan.md`, `owner-decisions.md`, `image-write-set.txt`, and this task checkpoint. Existing `.dockerignore` and adoption-handoff dirty changes remain excluded, with the hashes recorded above; no other staged content is authorized by this checkpoint.
+- Planning checks: repository/ref/spec identity, finite path list and scope/hash consistency, full planning diff/whitespace and normal commit hooks. Application tests, upgraded install, Docker execution, source assurance and candidate CI are NOT_RUN in this planning phase.
+- Next: independently review committed exact P and scope-list blobs against the accepted Spec. Preserve the original Project Critic report separately. READY then goes to Owner exact-P review; REWORK returns to bounded planning correction. Only approved P can be handed to the project Codex CLI Orchestrator for W → Stage Critic → execution. There is no Owner-per-conforming-W approval and no implementation authority from this checkpoint.
