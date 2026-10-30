@@ -33,3 +33,14 @@ The Owner agreed to prepare and settle the separate parser task and requested se
 
 - The Owner explicitly authorized a separate local commit of only the three presented files: `docs/projects/lite-workspace-update/plan.md`, this decision record and `docs/changes/lite-workspace-update/handoff.md`.
 - Commit those files with normal hooks on `chore/sdlc-lite-adoption`, preserving the unrelated dirty adoption handoff. This decision permits the planning checkpoint; it does not accept exact P or authorize publication, merge or deployment. Independent Project Critic remains the next planning gate.
+
+## 2026-10-30 — exact P accepted; Orchestrator continuation authorized
+
+Owner message in the architecture conversation, immediately after presentation of exact P and the independent READY report:
+
+> план принимаю. Дальше предлагаю передать задачу оркестратору и он пройдет по этапам плана
+
+- Accepted subject: repository `oleyna80/hardwarelab`, project `lite-workspace-update`, P commit `37dc99a66b620277000aa076fb43d6adb9c6298e`, path `docs/projects/lite-workspace-update/plan.md`, blob `32bd3571b6426bc5e1b017f25c9d83f7cecafd25`.
+- Preceding independent Project Critic: [original report](project-critic.md), verdict READY on that exact P and accepted Spec. Original report blob `5d4ffd8c54a921b8601e1bec708907a5a4dbdef0`, SHA-256 `c3f8e00f0a037459309dcde999e8c0ae5b3548b2fb0a30104b6349610c92d173`. Preserve its bytes in this evidence commit; no presentation changes were made.
+- The Owner accepts P with its finite scope, delegated actions and stops, and requests Orchestrator execution through its stages in the project Codex CLI. Covered local commits (including this original report/decision/checkpoint), conforming W preparation, independent Stage Critic, bounded Coder/Reviewer/Verifier and REWORK, non-force publication to the existing task branch, existing PR #14 updates and automatic CI observation need no repeated approval.
+- This decision does not create a Stage Critic verdict or source assurance. Conforming W needs no separate Owner approval. Material departures from Spec/P, unavailable mandatory gates and excluded actions require escalation. Final Owner acceptance, PR merge, production/deployment and manual workflow dispatch remain outside this delegation.
