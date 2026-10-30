@@ -1,0 +1,201 @@
+name: Lite Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Verify canonical documents and committed memory
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in \
+            AGENTS.md PROJECT_MAP.md PROJECT_BRIEF.md \
+            docs/architecture/overview.md \
+            docs/workflow/development.md docs/workflow/memory.md docs/workflow/initialization.md \
+            docs/workflow/workspaces.md docs/workflow/agent-roles.md \
+            docs/security/boundaries.md docs/decisions/README.md \
+            memory_bank/context.md memory_bank/progress.md \
+            memory_bank/decisions.md memory_bank/orchestrator-log.md; do
+            test -s "$file"
+          done
+          for role in orchestrator architect critic coder reviewer verifier; do
+            test -s ".agents/roles/$role.md"
+          done
+          for file in memory_bank/context.md memory_bank/progress.md \
+            memory_bank/decisions.md memory_bank/orchestrator-log.md; do
+            git ls-files --error-unmatch "$file" >/dev/null
+          done
+
+      - name: Guard new projects against inherited template state
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${GITHUB_REPOSITORY:-}" ]]; then
+            echo 'Missing GITHUB_REPOSITORY' >&2; exit 1
+          fi
+          test -s PROJECT_BRIEF.md || { echo 'Missing PROJECT_BRIEF.md' >&2; exit 1; }
+          if identity_count=$(grep -Ec '^[[:space:]]*- \*\*Repository identity:\*\*' PROJECT_BRIEF.md); then
+            :
+          else
+            inspection_status=$?
+            [[ "$inspection_status" -eq 1 ]] || { echo 'Repository identity inspection failed' >&2; exit 1; }
+          fi
+          if [[ "$identity_count" -ne 1 ]]; then
+            echo 'Repository identity field must occur exactly once' >&2; exit 1
+          fi
+          expected_identity='- **Repository identity:** `'"$GITHUB_REPOSITORY"'`'
+          grep -Fxq -- "$expected_identity" PROJECT_BRIEF.md || { echo 'Repository identity must exactly match GITHUB_REPOSITORY' >&2; exit 1; }
+          if [[ "$GITHUB_REPOSITORY" == 'oleyna80/agentic-sdlc-lite' ]]; then
+            exit 0
+          fi
+          if initialization_count=$(grep -Ec '^[[:space:]]*- \*\*Initialization:\*\*' PROJECT_BRIEF.md); then
+            :
+          else
+            inspection_status=$?
+            [[ "$inspection_status" -eq 1 ]] || { echo 'Initialization inspection failed' >&2; exit 1; }
+          fi
+          if [[ "$initialization_count" -ne 1 ]]; then
+            echo 'Initialization field must occur exactly once' >&2; exit 1
+          fi
+          grep -Fxq -- '- **Initialization:** INITIALIZED' PROJECT_BRIEF.md || { echo 'Derived project not INITIALIZED' >&2; exit 1; }
+          test -s memory_bank/context.md && test -s memory_bank/progress.md || { echo 'Missing derived active memory' >&2; exit 1; }
+          reject_source_marker() {
+            local pattern=$1 file=$2 diagnostic=$3 grep_status
+            if grep -Eq "$pattern" "$file"; then
+              printf '%s\n' "$diagnostic" >&2
+              exit 1
+            else
+              grep_status=$?
+              [[ "$grep_status" -eq 1 ]] || { printf 'Source marker inspection failed for %s (exit %s)\n' "$file" "$grep_status" >&2; exit 1; }
+            fi
+          }
+          reject_source_marker '^- \*\*Project:\*\* `oleyna80/agentic-sdlc-lite`([[:space:]]|$)' memory_bank/context.md 'Source project identity in active context'
+          reject_source_marker '^- \*\*Integrated baseline:\*\* SDLC Lite v0[.]1 Foundation([[:space:]]|[,.;:]|$)' memory_bank/context.md 'Source integrated baseline in active context'
+          reject_source_marker '^- \*\*Delivered task:\*\* WB-LITE-001([[:space:]]|[,.;:]|$)' memory_bank/context.md 'Source task in active context'
+          reject_source_marker '^- \*\*[0-9]{4}-[0-9]{2}-[0-9]{2} — WB-LITE-001 integrated into Foundation:\*\*([[:space:]]|$)' memory_bank/progress.md 'Source WB milestone in active progress'
+          reject_source_marker '^- \*\*[0-9]{4}-[0-9]{2}-[0-9]{2} — Foundation v0[.]1 integrated into `main`:\*\*([[:space:]]|$)' memory_bank/progress.md 'Source Foundation milestone in active progress'
+
+      - name: Reject copied legacy authority paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          test ! -e .agent/controllers
+          test ! -e .agent/workflows/sdd-protocol.md
+          test ! -e governance/lifecycle.md
+
+      - name: Validate hook syntax and executable bits
+        shell: bash
+        run: |
+          set -euo pipefail
+          for hook in pre-commit commit-msg pre-push; do
+            bash -n ".githooks/$hook"
+            test -x ".githooks/$hook"
+          done
+
+      - name: Check introduced whitespace errors
+        shell: bash
+        run: |
+          set -euo pipefail
+          stop_history_inspection() {
+            local status=$1 detail=$2
+            printf 'STOP: cannot establish Git parentage for whitespace check: %s (exit %s)\n' "$detail" "$status" >&2
+            exit "$status"
+          }
+
+          if head_oid=$(git rev-parse --verify 'HEAD^{commit}'); then
+            :
+          else
+            inspection_status=$?
+            stop_history_inspection "$inspection_status" 'HEAD is not a readable commit'
+          fi
+          if [[ ! "$head_oid" =~ ^[0-9a-f]{40,64}$ ]]; then
+            stop_history_inspection 1 'HEAD inspection returned an invalid object ID'
+          fi
+
+          if commit_metadata_file=$(mktemp "${RUNNER_TEMP:-${TMPDIR:-/tmp}}/issue-009-commit.XXXXXX"); then
+            trap 'rm -f -- "$commit_metadata_file"' EXIT
+          else
+            inspection_status=$?
+            stop_history_inspection "$inspection_status" 'cannot create commit metadata inspection file'
+          fi
+          if git cat-file commit "$head_oid" >"$commit_metadata_file"; then
+            :
+          else
+            inspection_status=$?
+            stop_history_inspection "$inspection_status" 'cannot read HEAD commit metadata'
+          fi
+          header_section=1
+          separator_seen=0
+          tree_seen=0
+          author_seen=0
+          committer_seen=0
+          last_header=''
+          parent_oids=()
+          while IFS= read -r header_line || [[ -n "$header_line" ]]; do
+            if (( header_section )); then
+              if [[ -z "$header_line" ]]; then
+                header_section=0
+                separator_seen=1
+                continue
+              fi
+              if [[ "$header_line" =~ ^tree\ ([0-9a-f]{40,64})$ ]]; then
+                (( tree_seen == 0 )) || stop_history_inspection 1 'commit metadata has multiple tree headers'
+                tree_seen=1
+                last_header=tree
+              elif [[ "$header_line" =~ ^parent\ ([0-9a-f]{40,64})$ ]]; then
+                parent_oids+=("${BASH_REMATCH[1]}")
+                last_header=parent
+              elif [[ "$header_line" == tree\ * || "$header_line" == parent\ * ]]; then
+                stop_history_inspection 1 'commit metadata contains a malformed object header'
+              elif [[ "$header_line" =~ ^author\ .+$ ]]; then
+                (( author_seen == 0 )) || stop_history_inspection 1 'commit metadata has multiple author headers'
+                author_seen=1
+                last_header=author
+              elif [[ "$header_line" =~ ^committer\ .+$ ]]; then
+                (( committer_seen == 0 )) || stop_history_inspection 1 'commit metadata has multiple committer headers'
+                committer_seen=1
+                last_header=committer
+              elif [[ "$header_line" == author\ * || "$header_line" == committer\ * ]]; then
+                stop_history_inspection 1 'commit metadata contains a malformed identity header'
+              elif [[ "$header_line" =~ ^\  ]]; then
+                [[ -n "$last_header" ]] || stop_history_inspection 1 'commit metadata starts with a continuation line'
+              elif [[ "$header_line" =~ ^[A-Za-z][A-Za-z0-9-]*\ .+$ ]]; then
+                last_header=other
+              else
+                stop_history_inspection 1 'commit metadata contains a malformed header'
+              fi
+            fi
+          done <"$commit_metadata_file"
+          if (( separator_seen == 0 || tree_seen != 1 || author_seen != 1 || committer_seen != 1 )); then
+            stop_history_inspection 1 'HEAD commit metadata is incomplete or lacks a header/message separator'
+          fi
+
+          if (( ${#parent_oids[@]} == 0 )); then
+            git diff-tree --check --root --no-commit-id -r "$head_oid"
+            exit $?
+          fi
+
+          first_parent=${parent_oids[0]}
+          if parent_type=$(git cat-file -t "$first_parent"); then
+            :
+          else
+            inspection_status=$?
+            stop_history_inspection "$inspection_status" 'first parent is unavailable or unreadable'
+          fi
+          if [[ "$parent_type" != commit ]]; then
+            stop_history_inspection 1 'first parent is not a commit object'
+          fi
+          git diff --check "$first_parent" "$head_oid"

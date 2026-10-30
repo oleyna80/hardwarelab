@@ -1,152 +1,52 @@
 # HardwareLab
 
-Amazon affiliate hardware review site built with Astro 5.
+Multilingual hardware review and affiliate website. The original adoption replaced the old agent infrastructure with a clean Agentic SDLC Lite installation from `oleyna80/agentic-sdlc-lite` `55ebee6cf26db99d708f089f297344ef0341f698`. It preserved application content from `main` at `72ada873d66d19de2609515b443766065fe132c9` except for three authorized deletions of historical editor and technical-audit sidecars. Later, two ROG Ally article comments were corrected under separate authorization. A limited workspace procedure update comes from Lite merge `8db525ab1f1443cee944cba07fcccafd71408be8`; this update changes no article content.
 
-## 🔧 Tech Stack
+## Local setup
 
-| Component | Version |
-|-----------|---------|
-| [Astro](https://astro.build) | 5.17.3 |
-| [Tailwind CSS](https://tailwindcss.com) | 3.3.x |
-| [MDX](https://mdxjs.com) | @astrojs/mdx |
-| TypeScript | 5.x |
-| Docker | Multi-stage (Node build → Node SSR runtime) |
-
-## 🚀 Quick Start
-
-### Development
 ```bash
-npm install
-npm run dev        # Start dev server at localhost:4321
+git clone https://github.com/oleyna80/hardwarelab.git
+cd hardwarelab
+git fetch origin
+git switch --track origin/chore/sdlc-lite-adoption
+git status --short --branch
+npm ci
+npm run lint
+npm run check:types
+npm run build
+npm run check:affiliate
+npm run lint:images
+npm run test:e2e
 ```
 
-### Production (Docker)
+Use an existing clean clone or an isolated `git worktree` if preferable. Playwright requires browser installation (`npx playwright install --with-deps chromium` as appropriate). None of these commands is claimed PASS until executed.
+
+## Codex engineering environment
+
+Before new work, inspect `AGENTS.md`, `PROJECT_BRIEF.md`, `PROJECT_MAP.md`, `docs/workflow/initialization.md`, `docs/security/boundaries.md`, and current Git state. Run Codex at the verified repository root.
+
+Lite cooperative Git hooks are in `.githooks/`. Follow the [workspace guide](docs/workflow/workspaces.md#connecting-git-hooks) to inspect existing hooks and their limitations and select the appropriate configuration scope before an authorized change.
+
+These hooks are not security isolation or a replacement for GitHub permissions. The migrated `scripts/app-checks/` files are **application QA tools**, not agent Skills; associated `package.json` and CI paths have been updated. Historical agent contracts, memory, hooks and process-related Skills are intentionally absent from the experimental tree.
+
+**No feature changes in the setup branch.** The next real Codex task (Astro/Tailwind upgrade) requires separate scoping/authorization and Lite lifecycle evidence. Do not merge, manually dispatch workflows, publish images or deploy without Owner GO.
+
+## Product and deployment
+
+- Source: `src/`. Static assets: `public/`. Tests: `tests/`.
+- Stack: Astro SSR, MDX, TypeScript, Tailwind CSS, Node.js 22; actual dependency versions in `package.json`.
+- EN at `/`, FR/RU/DE at locale prefixes.
+- Content workflow: `COPYWRITER_GUIDE.md`; `npm run review:new`, `review:write`, `review:publish`.
+- CI: `.github/workflows/ci.yml` and `.github/workflows/lite-checks.yml`.
+- GHCR and VPS: `.github/workflows/docker-publish.yml`, `.github/workflows/deploy-vps.yml`, runbook `docs/deployment/github-vps.md`. Their automatic paths remain main-only.
+
+## Read-only historical context
+
+Old files remain in the Git ancestry at `72ada873d66d19de2609515b443766065fe132c9`. They can be inspected without restoring them:
+
 ```bash
-docker compose up -d --build   # Local SSR container at http://localhost:8081
+git show 72ada873d66d19de2609515b443766065fe132c9:.memory_bank/activeContext.md
+git show 72ada873d66d19de2609515b443766065fe132c9:PROJECT_MAP.md
 ```
 
-For VPS production deploys, use GitHub Actions + immutable `sha-*` images.
-
-### Release Preflight
-```bash
-npm run check:ci
-```
-
-## 🌐 Domains & Ports
-
-| Environment | URL |
-|-------------|-----|
-| Development | `http://localhost:4321` |
-| Production (Docker) | `http://localhost:8081` |
-| Live | `https://hardwarelab.org` |
-
-## 🌍 Internationalization
-
-Supported languages: **English** (default), **French**, **Russian**, **German**
-
-| Language | Route Prefix |
-|----------|--------------|
-| English | `/` |
-| French | `/fr/` |
-| Russian | `/ru/` |
-| German | `/de/` |
-
-## 🏗️ Architecture Overview
-
-### Subsystems
-
-| Layer | Location | Purpose |
-|-------|----------|---------|
-| **Routing** | `src/pages/` | File-based routing, entry points |
-| **Components** | `src/components/` | UI, Layout, Reviews |
-| **Content** | `src/content/reviews/` | MDX product reviews |
-| **Layouts** | `src/layouts/` | Page wrappers (Layout.astro) |
-| **Utilities** | `src/utils/` | i18n, formatters, helpers |
-| **Public** | `public/` | Static assets, robots.txt |
-
-### Routes (Top-level Pages)
-
-| Route | File | Description |
-|-------|------|-------------|
-| `/` | `src/pages/index.astro` | Homepage (EN) |
-| `/fr/`, `/ru/`, `/de/` | `src/pages/{fr,ru,de}/index.astro` | Localized homepages |
-| `/reviews/*` | `src/pages/reviews/[...slug].astro` | Product reviews |
-| `/builds/*` | `src/pages/builds/[...slug].astro` | Build reviews |
-| `/categories/*` | `src/pages/categories/[category].astro` | Category pages |
-| `/about`, `/privacy` | `src/pages/*.astro` | Static pages |
-
-### Key Modules
-
-| Module | Path | Responsibility |
-|--------|------|----------------|
-| `i18n` | `src/utils/i18n.ts` | Translations, language switching |
-| `SEO` | `src/components/head/SEO.astro` | Meta tags, OG, hreflang |
-| `Affiliate` | `src/components/ui/AffiliateButton.astro` | Amazon links with compliance |
-| `Content Schema` | `src/content/config.ts` | Zod validation for MDX |
-
-### Module Dependencies
-
-```
-pages/* ──imports──→ layouts/Layout.astro
-    │                       │
-    │                       ├──→ components/layout/Header.astro
-    │                       ├──→ components/layout/Footer.astro
-    │                       └──→ components/head/SEO.astro
-    │
-    └──getCollection──→ content/reviews/[lang]/*.mdx
-                              │
-                              └──validated by──→ content/config.ts
-```
-
-## 📁 Directory Structure
-
-```
-src/
-├── components/
-│   ├── layout/     # Header, Footer, Hero
-│   ├── ui/         # Buttons, Cards, Review UI
-│   └── head/       # SEO.astro
-├── content/        # MDX reviews by language
-├── layouts/        # Page templates
-├── pages/          # Route pages
-└── utils/          # i18n, helpers
-.memory_bank/       # Project knowledge base
-.agent/workflows/   # AI workflows
-```
-
-## 🧞 Commands
-
-| Command | Action |
-|---------|--------|
-| `npm run dev` | Start dev server |
-| `npm run check:types` | Run Astro type checks |
-| `npm run check:ci` | Full release gate: lint + types + build + affiliate + e2e |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build |
-| `npm run check:affiliate` | Validate affiliate links |
-| `npm run lint:agent-docs` | Validate agent and memory-bank docs |
-| `npm run lint:agent-roles` | Validate lean role set and legacy alias integrity |
-| `npm run lint:agent-skills` | Validate agent skill frontmatter, links, and placeholders |
-| `npm run check:review-package -- <slug>` | Smoke-check EN/RU/DE/FR review package integrity |
-| `npm run test:e2e` | Run Playwright tests |
-
-## GitHub & VPS Deployment
-
-- CI workflow: `.github/workflows/ci.yml`
-- Docker publish workflow (GHCR): `.github/workflows/docker-publish.yml`
-- Manual VPS deploy workflow: `.github/workflows/deploy-vps.yml`
-- VPS compose file: `docker-compose.vps.yml`
-- VPS env template: `.env.vps.example`
-- Full runbook: `docs/deployment/github-vps.md`
-
-## 📚 Documentation
-
-- **AI Agents**: Start with [.memory_bank/activeContext.md](.memory_bank/activeContext.md)
-- **Roadmap**: [.memory_bank/roadmap.md](.memory_bank/roadmap.md)
-- **KPI Framework**: [.memory_bank/kpi-framework.md](.memory_bank/kpi-framework.md)
-- **Agent Contract**: [.agent/AGENT_CONTRACT.md](.agent/AGENT_CONTRACT.md)
-- **Task Routing**: [.agent/workflows/task-routing.md](.agent/workflows/task-routing.md)
-- **Pre-publish Compliance Gate**: [.agent/workflows/prepublish-affiliate-gate.md](.agent/workflows/prepublish-affiliate-gate.md)
-- **Role Templates**: [.agent/templates/](.agent/templates/)
-- **Workflows**: See [.agent/workflows/](.agent/workflows/)
-- **Component Guide**: [.agent/workflows/component-development.md](.agent/workflows/component-development.md)
+Their instructions **are not active** in this branch. Before a future merge into `main`, consider creating an archive tag because `origin/main` will eventually point to the new tree.
