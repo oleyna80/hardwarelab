@@ -1,6 +1,17 @@
 # Lite workspace update — architecture checkpoint
 
-## Latest checkpoint — P accepted, ready for project CLI Orchestrator
+## Latest checkpoint — independent S assurance, delivery CI pending
+
+- Execution baseline `e0264fc596a33062c2747c3ae1fd251a6116c720`, tree `979f8779b47e2a59906753fd9a17208b74c73c38`; accepted P `37dc99a66b620277000aa076fb43d6adb9c6298e`, blob `32bd3571b6426bc5e1b017f25c9d83f7cecafd25`; accepted Spec `cccc54d717b9f72d262ce89e3378bcc4abf872cb`, blob `778907a738f1677328092e7849f166cc762d5b92`. Project Critic READY and Owner acceptance are preserved in the baseline.
+- W `e3b79b6aa28d209303b25128b80c2ae8f4eec7cb`, blob `1812219b5aefb4b74d846121e95b56cc58a63b18`; independent Stage Critic READY report committed at `bb5b97032b3f9ee3f83141565d211bb7547754b9`, blob `c5f1dce31af842163bdcaeb25c5290b525d9781d`.
+- Coder source S `81aef2f11c5b56c8c277905953f9e2b3a8a259bf`, tree `85c269a303ca6b25e97959609623958405125232`: exact workspace guide import and bounded README adaptation; see [implementation report](implementation.md). Source guide blob `20a5ba7f4be7a921c1ad1ef4acdb8e6b82d49621`, SHA-256 `420fb49b3fc0678c4cad4a2c211175594c8aa44be992dde6199bbfad7d28364d`.
+- Independent [Reviewer READY](review.md) and [Verifier PASS](validation.md) both bind the same S; original report blobs `6c05ffb38db4d61229af626c9be0d419d5274a78` and `01754b5a51783537e1c7f7a0780cf0327ffd181e`, respectively, committed at `a7fc7be6`. Reviewer was read-only; Orchestrator transcribed its original report verbatim as documented in the report. Roles shared a filesystem and Git store, not OS isolation.
+- Static checks include byte identity, complete baseline-to-S scope, local links and anchors, whitespace/conflict checks and syntax of all six Bash fences. Examples, worktree operations and hooks were not executed. No application test or hosted CI is claimed by the S gate.
+- The PR-base diff contains the separately approved earlier adoption, parser/article corrections and runner fix; this update itself touches no application, article, dependency, workflow or hook. The previous successful hosted CI at `5ac777ba28d35e9c4a205123ad677de5df2d4ef3` is predecessor evidence only.
+- This checkpoint cannot predict its own commit or future CI. Next: inspect the evidence-only S..H and full PR-base..H diff, publish the existing branch non-force, update draft PR #14, and observe actual Lite Checks and CI quality/E2E/Lighthouse on exact H. Record final H and CI in the PR without a self-referential repository commit. No merge or deploy.
+- Preserve unrelated unstaged `docs/changes/sdlc-lite-adoption/handoff.md`, SHA-256 `b00e76ad2ca8bad1e22030d92562d1b710ddeeccaec152f15748f028c2653ec8`; do not stage it. Shared integrated memory remains unchanged.
+
+## Previous checkpoint — P accepted, ready for project CLI Orchestrator (historical)
 
 - Observed predecessor HEAD on 2026-10-30: `37dc99a66b620277000aa076fb43d6adb9c6298e`, branch `chore/sdlc-lite-adoption`, root `/home/azur/Projects/WSL/projects/Amazon_aff/hardwarelab-lite`, origin `git@github.com:oleyna80/hardwarelab.git`. This checkpoint does not predict its own commit SHA; resolve its actual reachable commit at CLI entry.
 - Owner accepted exact P at that commit, path `docs/projects/lite-workspace-update/plan.md`, blob `32bd3571b6426bc5e1b017f25c9d83f7cecafd25`; [attributable decision and delegated scope](../../projects/lite-workspace-update/owner-decisions.md). Accepted Spec remains `cccc54d717b9f72d262ce89e3378bcc4abf872cb`, blob `778907a738f1677328092e7849f166cc762d5b92`.
