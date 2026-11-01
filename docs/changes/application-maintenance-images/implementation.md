@@ -28,3 +28,7 @@ A subsequent clean-install attempt for the full matrix was interrupted at the Or
 ## Pending on exact S2
 
 The required sequential candidate matrix remains open: fresh install, all W checks including full E2E, researcher selector with verified base/head, Lighthouse, full and production npm audits with security disposition, and committed-context Docker health/page/image/Sharp checks. Independent Reviewer and Verifier, evidence-only S2..H2 comparison and hosted CI also remain pending. No PASS or READY is claimed here. Project inventory and security evidence are owned by the Orchestrator.
+
+## Erratum after independent review
+
+For source candidate `454cc4d470033746484d750ef7da14b7c44ef9cc`, the social-image assertion read image metadata only; the statement above that it decoded those images overstated the test. Reviewer returned REWORK for that exact candidate. A subsequent source change adds full pixel decoding; it requires fresh checks and independent assurance on a new frozen source candidate. The earlier browser result does not verify that change.

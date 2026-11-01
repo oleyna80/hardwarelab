@@ -19,9 +19,10 @@ async function social(page: Page) {
     expect(url.hostname).toBe('hardwarelab.org');
     const response = await page.request.get(`http://127.0.0.1:4321${url.pathname}${url.search}`);
     expect(response.ok()).toBeTruthy();
-    const metadata = await sharp(await response.body()).metadata();
-    expect(metadata.width).toBeGreaterThan(0);
-    expect(metadata.height).toBeGreaterThan(0);
+    const { data, info } = await sharp(await response.body()).raw().toBuffer({ resolveWithObject: true });
+    expect(info.width).toBeGreaterThan(0);
+    expect(info.height).toBeGreaterThan(0);
+    expect(data.length).toBe(info.width * info.height * info.channels);
     const schemas = await page.locator('script[type="application/ld+json"]').allTextContents();
     expect(schemas.join(' ')).toContain(og);
 }
