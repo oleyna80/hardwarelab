@@ -1,6 +1,7 @@
 import { z, defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { isMissing } from './utils/shared';
+import { isSafeReviewImageUrl } from './utils/review-image';
 
 const regionalAsinSchema = z.object({
     us: z.string().optional(),
@@ -26,8 +27,8 @@ const reviewsCollection = defineCollection({
         description: z.string(),
         pubDate: z.date(),
         lastUpdated: z.date().optional(),
-        heroImage: z.union([image(), z.string()]).optional(),
-        ogImage: z.union([image(), z.string()]).optional(),
+        heroImage: z.union([image(), z.string().refine(isSafeReviewImageUrl, 'Image URL must be a root-public path or HTTP(S) URL')]).optional(),
+        ogImage: z.union([image(), z.string().refine(isSafeReviewImageUrl, 'Image URL must be a root-public path or HTTP(S) URL')]).optional(),
 
         reviewType: z.enum(['standard', 'build']).default('standard'),
         category: z.enum([

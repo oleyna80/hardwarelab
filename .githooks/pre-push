@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+blocked=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main|refs/heads/master)
+      printf 'Direct push to protected branch is forbidden by Lite hook: %s\n' "$remote_ref" >&2
+      blocked=1
+      ;;
+  esac
+done
+
+if (( blocked != 0 )); then
+  echo 'Push a task branch and open a pull request instead.' >&2
+  exit 1
+fi

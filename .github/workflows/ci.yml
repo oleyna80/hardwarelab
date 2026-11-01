@@ -2,13 +2,9 @@ name: CI
 
 on:
   pull_request:
-    paths-ignore:
-      - "agent-inbox/**"
   push:
     branches:
       - main
-    paths-ignore:
-      - "agent-inbox/**"
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -26,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "22.23.4"
           cache: "npm"
 
       - name: Install dependencies
@@ -44,6 +40,24 @@ jobs:
       - name: Affiliate checks
         run: npm run check:affiliate
 
+      - name: Affiliate tests
+        run: npm run test:affiliate
+
+      - name: Contact tests
+        run: npx vitest run src/pages/api/contact.test.ts
+
+      - name: Researcher output unit tests
+        run: node --test scripts/app-checks/check-researcher-output.test.mjs
+
+      - name: Review image URL tests
+        run: npx vitest run src/utils/review-image.test.ts
+
+      - name: Image audit and inventory tests
+        run: node --test scripts/app-checks/audit-images.test.mjs scripts/app-checks/review-image-inventory.test.mjs
+
+      - name: Published review image inventory
+        run: node scripts/app-checks/review-image-inventory.mjs
+
       - name: Image lint
         run: npm run lint:images
 
@@ -52,7 +66,7 @@ jobs:
         run: bash scripts/run-researcher-output-checks.sh "${{ github.event_name }}" "${{ github.event.pull_request.base.sha }}" "${{ github.event.before }}" "${{ github.sha }}"
 
   e2e:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: quality
     steps:
       - name: Checkout
@@ -61,7 +75,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "22.23.4"
           cache: "npm"
 
       - name: Install dependencies
@@ -86,7 +100,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "22.23.4"
           cache: "npm"
 
       - name: Install dependencies

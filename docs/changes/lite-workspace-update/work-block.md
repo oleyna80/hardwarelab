@@ -1,0 +1,26 @@
+# S1 Work Block — Lite workspace update
+
+## Bindings and entry
+
+- Repository `oleyna80/hardwarelab`, worktree `/home/azur/Projects/WSL/projects/Amazon_aff/hardwarelab-lite`, branch `chore/sdlc-lite-adoption`.
+- Execution baseline commit `e0264fc596a33062c2747c3ae1fd251a6116c720`, tree `979f8779b47e2a59906753fd9a17208b74c73c38`.
+- Accepted Spec `cccc54d717b9f72d262ce89e3378bcc4abf872cb:docs/projects/lite-workspace-update/spec.md`, blob `778907a738f1677328092e7849f166cc762d5b92`; accepted P `37dc99a66b620277000aa076fb43d6adb9c6298e:docs/projects/lite-workspace-update/plan.md`, blob `32bd3571b6426bc5e1b017f25c9d83f7cecafd25`. Owner decisions and original Project Critic READY are in baseline, `docs/projects/lite-workspace-update/owner-decisions.md` and `project-critic.md`; Critic blob `5d4ffd8c54a921b8601e1bec708907a5a4dbdef0`.
+- Predecessor PR #14 is OPEN/Draft, remote head `5ac777ba28d35e9c4a205123ad677de5df2d4ef3`, base `72ada873d66d19de2609515b443766065fe132c9`; predecessor CI and Lite Checks succeeded, not assurance of future S or H. Preserve all six previously delivered parser, article, workflow and handoff paths in the baseline.
+- Unrelated unstaged `docs/changes/sdlc-lite-adoption/handoff.md` SHA-256 `b00e76ad2ca8bad1e22030d92562d1b710ddeeccaec152f15748f028c2653ec8` must remain byte-identical and excluded from index. Index initially empty. Stop on unexpected state or a competing writer.
+
+## Outcome and finite ownership
+
+Coder owns only `docs/workflow/workspaces.md` and `README.md` as implementation, and `docs/changes/lite-workspace-update/implementation.md` as its evidence. Import the guide byte-for-byte from upstream blob `20a5ba7f4be7a921c1ad1ef4acdb8e6b82d49621`, SHA-256 `420fb49b3fc0678c4cad4a2c211175594c8aa44be992dde6199bbfad7d28364d`, obtainable from source repository commit `b08a3f361ef68a2a74a3287360a8c7b60da14a1b`; do not copy the stale working file. Adapt README per accepted P: retain product instructions and original installation provenance, identify limited update source `8db525ab1f1443cee944cba07fcccafd71408be8`, link `docs/workflow/workspaces.md#connecting-git-hooks` and explain inspection and scope before authorized configuration changes; distinguish original adoption's three sidecar deletions from later separately authorized two ROG Ally comment changes. Do not assert present `src` equals original baseline.
+
+Orchestrator owns this W and `handoff.md`; independent Stage Critic owns `stage-critic.md`; independent Reviewer owns `review.md`; independent Verifier owns `validation.md`. All four reports reside under `docs/changes/lite-workspace-update/`. Preserve original role reports as committed reachable objects; serialize writing and index operations. No role may transfer a verdict to a different W or S. Implementation starts only after independent Stage Critic READY on committed exact W. Reviewer and Verifier must be independent of Coder and each other and bind the same exact committed S.
+
+## Acceptance and checks
+
+1. AC-01: source blob and SHA-256 available before and after exact import; inspect entire guide diff. AC-02: README truthful, product instructions retained, local link and anchor valid. AC-03: compare baseline..S full path/content diff to finite scope, preserve accepted Spec, excluded files, hooks/config and dirty digest; preserve actual Lite CI adaptation and six predecessor paths.
+2. AC-04: check tracked and new task files for whitespace, conflict markers, UTF-8 and links; extract all Bash fences from guide and run `bash -n` on each without executing examples, reporting count and diagnostics. No upstream runtime matrix, hook activation or actual worktree creation is required. Distinguish inherited evidence from executed checks.
+3. AC-05: independently review and verify exact S; original reports record exact subject, findings, commands and limitations. If required checks fail, bounded REWORK within P followed by affected same-S assurance; retain original reports and commits. No concurrent source changes during independent checks.
+4. AC-06: evidence-only S..H must be inspected and limited to enumerated evidence; inspect entire PR base..H diff and predecessor provenance. Publish only non-force to existing branch, update existing PR #14 retaining Draft, then observe actual Lite Checks and CI quality, E2E, Lighthouse at H; validate changed-slug checks under real PR base semantics. CI at predecessor or S is not CI at H. Record final CI and checked H in PR without a self-referential evidence commit.
+
+## Permissions and recovery
+
+Normal scoped commits with existing hooks, conforming W, bounded REWORK, branch push, PR description update and automatic CI observation are authorized. No merge, deployment, manual dispatch, direct main write, branch/worktree creation, hook/config changes, application/content/tests/dependencies edits, shared memory changes, reset, clean, stash or force. Do not loosen gates. On missing object, unavailable role/CI, preservation mismatch, failed check or required scope expansion, stop the affected action, retain a committed task checkpoint and report concrete blocker and minimal solution. Recheck actual Git/ref/status and W → P → Spec binding before transitions; source and evidence writers operate serially in the shared filesystem, not OS isolation.

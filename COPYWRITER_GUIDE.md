@@ -86,7 +86,7 @@ npm run review:publish -- <slug>
 | `prompts/translate.md` | Перевод RU/DE/FR | Шаг 3: переводчик-модель |
 | `prompts/existing-reviews-hardwarelab.md` | Список обзоров (автоген) | Включается автоматически скриптами |
 
-Старые промпты (v1.3.0) → `prompts/archive/`
+Старые промпты (v1.3.0) доступны в истории Git исходного `main`.
 
 ---
 
@@ -133,7 +133,7 @@ npx astro check
 rm -rf node_modules/ .astro/ && npm install
 ```
 
-Подробнее: `.agent/workflows/troubleshooting.md`
+Подробнее: `README.md` и `docs/deployment/`; исторические агентские инструкции доступны в исходном коммите Git.
 
 ---
 

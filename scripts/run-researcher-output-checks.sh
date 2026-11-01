@@ -60,7 +60,7 @@ fi
 
 echo "Researcher checks: validating ${#slugs[@]} slug(s): ${slugs[*]}"
 for slug in "${slugs[@]}"; do
-  node .agent/skills/scripts/check-researcher-output.mjs "$slug"
+  node scripts/app-checks/check-researcher-output.mjs "$slug"
 done
 
 echo "Researcher checks: done."

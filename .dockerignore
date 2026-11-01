@@ -1,7 +1,10 @@
 .git
 .github
 .agent
+.agents
+.githooks
 .memory_bank
+memory_bank
 .roo
 .vscode
 .idea
@@ -22,4 +25,7 @@ chrome_debug.log
 
 docs
 prompts
+AGENTS.md
+PROJECT_BRIEF.md
+PROJECT_MAP.md
 COPYWRITER_GUIDE.md

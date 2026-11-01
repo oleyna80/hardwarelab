@@ -1,80 +1,47 @@
-# Agentic SDLC Framework - generated project ignore file
-#
-# bootstrap.sh copies this file to .gitignore in new projects.
-# Keep this filename inactive inside the framework repository so the
-# publishable template files are not hidden by nested gitignore rules.
-
-# Portable governance/runtime contracts are committed by default. The generated
-# ignore file contains no blanket `.agent/`, `.codex/`, `.claude/`, or
-# `.opencode/` rule. Test environments isolate user/global excludes separately.
-
-# Ignore only operational, private, generated, or user-local state.
-.agent/active-work-block.json
-.agent/critic-gate.md
-.agent/verification-gate.md
-.agent/project-config.md
-
-memory_bank/
-.claude/agent-memory/
-.claude/backups/
-.claude/plans/
-.claude/plugins/
-.claude/shell-snapshots/
-.claude/.last-cleanup
-
-# User-local Codex activation and cache/state.
+# HardwareLab — clean SDLC Lite
+# Git-tracked memory_bank/ and .agents/roles/ are intentionally not ignored.
+node_modules/
+.pnp/
+.pnp.js
+dist/
+build/
+out/
+.astro/
+.next/
+coverage/
+.lighthouseci/
+test-results/
+playwright-report/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+!.env.vps.example
+!.env.sample
+*.pem
+*.p12
+*.pfx
+*.key
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Optional local agent state, not committed engineering contracts
 .codex/config.toml
 .codex/cache/
 .codex/logs/
 .codex/runtime/
-.codexignore
-.agentsignore
-
-# Dependencies
-node_modules/
-.pnp/
-.pnp.js
-
-# Build output
-.next/
-out/
-dist/
-build/
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Debug
+.claude/
+.agent/
+.opencode/
+.roo/
+.antigravity/
+.playwright-cli/
+.playwright-mcp/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
-# Local tool artifacts
-.playwright-cli/
-.playwright-mcp/
-.astro/
-.antigravity/
-chrome_debug.log
