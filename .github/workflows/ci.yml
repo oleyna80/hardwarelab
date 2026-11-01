@@ -49,6 +49,15 @@ jobs:
       - name: Researcher output unit tests
         run: node --test scripts/app-checks/check-researcher-output.test.mjs
 
+      - name: Review image URL tests
+        run: npx vitest run src/utils/review-image.test.ts
+
+      - name: Image audit and inventory tests
+        run: node --test scripts/app-checks/audit-images.test.mjs scripts/app-checks/review-image-inventory.test.mjs
+
+      - name: Published review image inventory
+        run: node scripts/app-checks/review-image-inventory.mjs
+
       - name: Image lint
         run: npm run lint:images
 

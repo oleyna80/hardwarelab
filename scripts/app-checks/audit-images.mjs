@@ -1,54 +1,37 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 import sharp from 'sharp';
 import { glob } from 'glob';
 
-const CONTENT_DIR = 'src/content';
-const MAX_SIZE_BYTES = 500 * 1024; // 500KB warning threshold
+const MAX_SIZE_BYTES = 500 * 1024;
 
-async function audit() {
-    console.log('🔍 Scanning for images in src/content...');
-
-    const images = await glob(`${CONTENT_DIR}/**/*.{png,jpg,jpeg,webp,avif}`);
-    let issuesFound = 0;
-
+export async function auditImages(images) {
+    let errors = 0;
+    let warnings = 0;
     for (const imgPath of images) {
         try {
-            const stats = fs.statSync(imgPath);
-            const metadata = await sharp(imgPath).metadata();
-            const ext = path.extname(imgPath).toLowerCase().replace('.', '');
-
-            // Format check
-            let actualFormat = metadata.format;
-            if (actualFormat === 'jpeg') actualFormat = 'jpg';
-
-            // Allow jpg/jpeg match
-            const isFormatMismatch = (ext !== actualFormat) && !(ext === 'jpg' && actualFormat === 'jpeg');
-
-            // Size check
-            const isLarge = stats.size > MAX_SIZE_BYTES;
-
-            if (isFormatMismatch || isLarge) {
-                issuesFound++;
-                console.log(`\n❌ Issue in: ${imgPath}`);
-                if (isFormatMismatch) {
-                    console.log(`   - Format Mismatch: Extension is .${ext}, but content is ${actualFormat.toUpperCase()}`);
-                }
-                if (isLarge) {
-                    console.log(`   - File Size: ${(stats.size / 1024 / 1024).toFixed(2)} MB (Threshold: ${(MAX_SIZE_BYTES / 1024).toFixed(0)} KB)`);
-                    console.log(`   - Dimensions: ${metadata.width}x${metadata.height}`);
-                }
+            const stats = await fs.stat(imgPath);
+            const pipeline = sharp(imgPath, { failOn: 'error' });
+            const metadata = await pipeline.metadata();
+            await pipeline.raw().toBuffer();
+            const ext = path.extname(imgPath).slice(1).toLowerCase().replace('jpeg', 'jpg');
+            const format = metadata.format?.replace('jpeg', 'jpg');
+            if (ext !== format || stats.size > MAX_SIZE_BYTES) {
+                warnings++;
+                console.log(`WARNING ${imgPath}: ${ext !== format ? `extension ${ext}, format ${format}; ` : ''}${stats.size > MAX_SIZE_BYTES ? `size ${stats.size} bytes exceeds ${MAX_SIZE_BYTES}` : ''}`);
             }
-        } catch (e) {
-            console.error(`⚠️ Error reading ${imgPath}:`, e.message);
+        } catch (error) {
+            errors++;
+            console.error(`ERROR ${imgPath}: ${error.message}`);
         }
     }
-
-    if (issuesFound === 0) {
-        console.log('\n✅ No image issues found!');
-    } else {
-        console.log(`\n⚠️ Found ${issuesFound} images with issues.`);
-    }
+    return { errors, warnings };
 }
 
-audit();
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+    const images = process.argv.length > 2 ? process.argv.slice(2) : await glob('src/content/**/*.{png,jpg,jpeg,webp,avif}');
+    const { errors, warnings } = await auditImages(images);
+    console.log(`Image audit: ${images.length} files, ${errors} errors, ${warnings} warnings`);
+    if (errors) process.exitCode = 1;
+}
