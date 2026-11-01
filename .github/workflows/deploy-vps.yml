@@ -21,6 +21,8 @@ jobs:
        github.event.workflow_run.head_branch == 'main') ||
       github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    permissions:
+      packages: read
     steps:
       - name: Resolve image tag
         id: meta
@@ -55,7 +57,11 @@ jobs:
             export IMAGE_REPO="ghcr.io/${{ github.repository }}"
             export IMAGE_TAG="${{ steps.meta.outputs.image_tag }}"
 
-            echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
+            umask 077
+            mkdir -p "${HOME}/.docker"
+            export DOCKER_CONFIG="$(mktemp -d "${HOME}/.docker/hardwarelab-deploy.XXXXXX")"
+            trap 'rm -rf -- "$DOCKER_CONFIG"' EXIT
+            echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
             docker compose -f docker-compose.vps.yml config > /tmp/hardwarelab-compose.rendered.yml
             docker compose -f docker-compose.vps.yml pull
             docker compose -f docker-compose.vps.yml up -d --remove-orphans
